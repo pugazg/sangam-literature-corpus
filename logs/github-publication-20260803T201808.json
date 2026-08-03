@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-08-03T20:18:08+05:30",
+  "remote_repository": "pugazg/classical-tamil",
+  "remote_url": "https://github.com/pugazg/classical-tamil",
+  "intended_visibility": "private pending complete rights review and separate authorization",
+  "remote_configured": false,
+  "remote_state_verified": false,
+  "publication_status": "blocked-before-remote-configuration",
+  "blockers": [
+    "GitHub CLI reports the active pugazg credential is invalid.",
+    "The GitHub API connection failed, so repository identity, visibility, emptiness, permissions, branches and tags could not be verified."
+  ],
+  "safety_action": "No origin was added and no branch or tag was pushed.",
+  "local_branch": "main",
+  "local_commit": "51c65b36d07ecf604c11d8cc6399ad40ab7e7086",
+  "local_tags_ready": {
+    "classical-tamil-corpus-v1.0.0": "272d9d5a79d55994e2c12efacc22be20b2c88030",
+    "classical-tamil-corpus-v1.1.0": "51c65b36d07ecf604c11d8cc6399ad40ab7e7086"
+  },
+  "research_branch_ready": {
+    "branch": "research/sangam-evidence-r0",
+    "commit": "7087626347b56e0145ab69b2fb7ef355f6bc07d5d"
+  },
+  "rights_review": "docs/source-rights-and-redistribution-review.md",
+  "rights_review_status": "documented with unresolved questions; public visibility is not authorized",
+  "files_excluded": [
+    ".env and credential files",
+    "cache, temporary and backup files",
+    "Tolkappiyam Arivagam application code",
+    "untracked post-tag verification log not part of the release checkpoint"
+  ],
+  "required_next_action": "Authenticate GitHub CLI for pugazg, then verify the destination is empty/private before configuring origin and pushing without force."
+}
