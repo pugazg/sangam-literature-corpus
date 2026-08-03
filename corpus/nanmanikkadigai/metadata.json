@@ -1,0 +1,26 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "நான்மணிக்கடிகை",
+  "title_english": "Nāṉmaṇikkaṭigai",
+  "work_slug": "nanmanikkadigai",
+  "work_id": "nanmanikkadigai",
+  "programme_id": "pathinenkilkanakku",
+  "author": "விளம்பிநாகனார்",
+  "author_as_printed": "விளம்பிநாகனார்",
+  "numbered_poem_record_count": 106,
+  "available_poem_count": 106,
+  "missing_poems": [],
+  "printed_section_count": 2,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0047.html",
+  "project_madurai_id": "pmuni0047",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "87758515c8d2888e9fc7176f960ea0693f3accd8f0c33270651104d85cf05df5",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "The source numbers the invocation as record 1 and continues through record 106.",
+    "கடவுள் வாழ்த்து and நூல் are preserved as source-printed divisions."
+  ]
+}

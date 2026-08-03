@@ -1,0 +1,14 @@
+{
+  "work": "iniyavai-narpathu",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0025",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0025.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0025.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 71537,
+  "source_checksum_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "2.  இனியவை நாற்பது : பூதஞ்சேந்தனார் இயற்றியது",
+  "parser": "iniyavai-narpathu-pmuni0025-v1",
+  "numbered_record_count": 40
+}

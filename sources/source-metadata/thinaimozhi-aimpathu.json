@@ -1,0 +1,14 @@
+{
+  "work": "thinaimozhi-aimpathu",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0027",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0027.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0027.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 97739,
+  "source_checksum_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "கண்ணன் சேந்தனார் இயற்றிய திணை மொழி ஐம்பது",
+  "parser": "thinaimozhi-aimpathu-pmuni0027-v1",
+  "numbered_record_count": 50
+}

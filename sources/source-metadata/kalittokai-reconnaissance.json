@@ -1,0 +1,94 @@
+{
+  "work": "kalittokai",
+  "parser": "kalittokai-pmuni0221-v1",
+  "canonical_source": {
+    "work": "kalittokai",
+    "source_name": "Project Madurai",
+    "project_madurai_id": "pmuni0221",
+    "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0221.html",
+    "source_file": "sources/raw-html/kalittokai.html",
+    "source_bytes": 505220,
+    "source_checksum_sha256": "da4b2182fca2066c3627f6c9207a01748e8e9fe75d005995d5cbb7397a263195",
+    "accessed_date": "2026-07-29",
+    "source_artifact_type": "exact HTTP HTML response body",
+    "title_as_printed": "கலித்தொகை"
+  },
+  "printed_numbered_records": 150,
+  "number_range": [
+    1,
+    150
+  ],
+  "missing_numbers": [],
+  "duplicate_numbers": [],
+  "source_grammar": "one table row per poem; first cell is printed number, second cell is BR-delimited literary body",
+  "source_divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "கடவுள் வாழ்த்து",
+      "start": 1,
+      "end": 1,
+      "poet": null,
+      "record_count": 1,
+      "poet_source": null
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "முதலாவது : பாலைக்கலி",
+      "start": 2,
+      "end": 36,
+      "poet": "பெருங்கொடுங்கோன்",
+      "record_count": 35,
+      "poet_source": "Project Madurai printed division attribution"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "இரண்டாவது :  குறிஞ்சி",
+      "start": 37,
+      "end": 65,
+      "poet": "கபிலர்",
+      "record_count": 29,
+      "poet_source": "Project Madurai printed division attribution"
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "மூன்றாவது : மருதக்கலி",
+      "start": 66,
+      "end": 100,
+      "poet": "மருதநிலங்கன்",
+      "record_count": 35,
+      "poet_source": "Project Madurai printed division attribution"
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "நான்காவது : முல்லைக் கலி",
+      "start": 101,
+      "end": 117,
+      "poet": "சோழன் நல்லுத்திரன்",
+      "record_count": 17,
+      "poet_source": "Project Madurai printed division attribution"
+    },
+    {
+      "sequence": 6,
+      "heading_as_printed": "ஐந்தாவது : நெய்தல் கலி",
+      "start": 118,
+      "end": 150,
+      "poet": "நல்லாந்துவனார்",
+      "record_count": 33,
+      "poet_source": "Project Madurai printed division attribution"
+    }
+  ],
+  "source_lost_records": [],
+  "incomplete_records": [
+    114,
+    131
+  ],
+  "candidate_text_conditions": [],
+  "replacement_characters": [],
+  "duplicate_full_bodies": [],
+  "shared_first_lines": [],
+  "notes": [
+    "Flat text falsely repeats poem 7 because of malformed nesting; direct table-row parsing yields one record for each number 1-150.",
+    "Dot sequences in poems 114 and 131 are preserved as printed lacuna evidence.",
+    "Division-level authors are copied only from the printed source headings."
+  ]
+}

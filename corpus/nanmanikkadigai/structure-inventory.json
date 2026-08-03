@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "கடவுள் வாழ்த்து",
+      "poem_start": 1,
+      "poem_end": 1,
+      "record_count": 1,
+      "provenance": "Project Madurai printed heading"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "நூல்",
+      "poem_start": 2,
+      "poem_end": 106,
+      "record_count": 105,
+      "provenance": "Project Madurai printed heading"
+    }
+  ]
+}

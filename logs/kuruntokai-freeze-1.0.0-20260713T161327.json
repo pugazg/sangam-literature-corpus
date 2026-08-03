@@ -1,0 +1,91 @@
+{
+  "version_assigned": "1.0.0",
+  "version_status": "frozen",
+  "freeze_timestamp": "2026-07-13T16:13:27.194600+05:30",
+  "physical_repository_path": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "project_madurai_id": "pmuni0110",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html",
+  "raw_source_sha256": "9647aadead2f2c5b9a3b7740628a3edaee44988ec3131db7c5888f3fbcabc6f3",
+  "poem_count": 401,
+  "section_count": 9,
+  "schema_coverage": {
+    "checked": 401,
+    "passing": 401,
+    "failing": 0
+  },
+  "source_output_equality": "401/401",
+  "source_note_equality": "401/401",
+  "duplicate_full_bodies": [],
+  "shared_openings": [
+    [
+      104,
+      287
+    ],
+    [
+      246,
+      313
+    ]
+  ],
+  "known_heading_anomalies": {
+    "29": "தலைன் கூற்று",
+    "396": "பாால"
+  },
+  "unknown_poet_placeholder_records": [
+    191,
+    201,
+    256,
+    313,
+    321,
+    326,
+    375,
+    379,
+    381,
+    395
+  ],
+  "same_line_layout_records": [
+    105,
+    180
+  ],
+  "pre_regeneration_audit": "pass after removal of four .DS_Store files",
+  "post_regeneration_audit": "pass",
+  "tests": {
+    "passed": 34,
+    "dependency_deprecation_warnings": 11
+  },
+  "kuruntokai_validation": {
+    "errors": 0,
+    "warnings": 0,
+    "info": 4,
+    "status": "pass-with-review"
+  },
+  "natrinai_regression": {
+    "validation": "0 errors, 1 warning, 5 info",
+    "body_hash_changes": [],
+    "source_note_hash_changes": [],
+    "raw_checksum_change": false,
+    "special_file_changes": []
+  },
+  "aingurunuru_regression": {
+    "validation": "0 errors, 2 warnings, 19 info",
+    "body_hash_changes": [],
+    "source_note_hash_changes": [],
+    "raw_checksum_change": false,
+    "special_file_changes": [],
+    "pattu_inventory_change": false
+  },
+  "canonical_hash_comparison": {
+    "whole_poem_file_changes": [],
+    "canonical_body_changes": [],
+    "source_note_changes": [],
+    "raw_source_change": false,
+    "poem_inventory_change": false,
+    "section_inventory_change": false
+  },
+  "version_metadata_consistency": {
+    "metadata": true,
+    "work_readme": true,
+    "works_manifest": true,
+    "root_readme": true
+  },
+  "baseline_log": "logs/pre-kuruntokai-freeze-baseline-20260713T161021.json"
+}

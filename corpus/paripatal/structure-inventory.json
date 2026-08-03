@@ -1,0 +1,1494 @@
+{
+  "source_divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "பரிபாடல்",
+      "record_start": 1,
+      "record_end": 22,
+      "record_count": 22
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "பரிபாடல்-திரட்டு",
+      "record_start": 23,
+      "record_end": 35,
+      "record_count": 13
+    }
+  ],
+  "records": [
+    {
+      "canonical_sequence": 1,
+      "poem_number_as_printed": 1,
+      "printed_heading": "1. திருமால்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "அரு மறைப் பொருள்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "அமர் வென்ற கணை",
+          "before_body_line": 14,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "சொல்லில் அடங்காப் பெரும் புகழ்",
+          "before_body_line": 29,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "துதி மொழிகள்",
+          "before_body_line": 40,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 2,
+      "poem_number_as_printed": 2,
+      "printed_heading": "2. திருமால்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "திருமாலின் பெருமை",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "ஊழிகளின் தோற்றம்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வராக கற்பம்",
+          "before_body_line": 16,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "திருமாலின் நிலைகள்",
+          "before_body_line": 20,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "திருமாலின் சிறப்பு",
+          "before_body_line": 28,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "படைச் சிறப்பு",
+          "before_body_line": 36,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "திருமால் திருமேனியின் ஒளி முதலிய சிறப்புக்கள்",
+          "before_body_line": 52,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "பல் புகழும் பரவலும்",
+          "before_body_line": 70,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 78,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 3,
+      "poem_number_as_printed": 3,
+      "printed_heading": "3. திருமால்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "திருமாலிடமிருந்து தோன்றிய பரந்த பொருள்கள்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "முனிவரும் தேவரும் பாடும் வகை",
+          "before_body_line": 15,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வனப்பும் வலியும்",
+          "before_body_line": 49,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "சாம வேதம் கூறுதலின் தெளிந்த பொருள்",
+          "before_body_line": 64,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "நால்வகை யுகங்களிலும் ஆராயப்படும் சிறப்பு",
+          "before_body_line": 74,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "நால் வகை வியூகம்",
+          "before_body_line": 82,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "பல திறப் பெயரியல்புகள்",
+          "before_body_line": 84,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 96,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 4,
+      "poem_number_as_printed": 4,
+      "printed_heading": "4. திருமால்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "புகழ்தலை  ஒழியோம்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "இரணியனைத் தடித்தமை",
+          "before_body_line": 10,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வராகம் ஆகி  உலகத்தை எடுத்தமை",
+          "before_body_line": 22,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "கருடக் கொடி",
+          "before_body_line": 37,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "பகையும் நட்பும் இன்மை",
+          "before_body_line": 50,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "பல்வேறு திருப்பெயர் கொண்ட ஒரு பொருள்",
+          "before_body_line": 67,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 5,
+      "poem_number_as_printed": 5,
+      "printed_heading": "5. செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "வேலனது வெறிப்பாட்டு",
+          "before_body_line": 11,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "முருகப் பிரானின் பிறப்பு",
+          "before_body_line": 22,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "தேவர் சேனைக்குத் தலைவனாதல்",
+          "before_body_line": 55,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "முருகன் திருவடி அடைவோரும் அடையாதோரும்",
+          "before_body_line": 71,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "முருகப் பெருமானிடம் வேண்டுதல்",
+          "before_body_line": 78,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 6,
+      "poem_number_as_printed": 6,
+      "printed_heading": "6.  வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "வைகையில் பெரு வெள்ளம்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "மைந்தரும் மகளிரும் நீராடச் செல்லல்",
+          "before_body_line": 27,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "ஆற்றினது நீரோட்டம்",
+          "before_body_line": 40,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "அந்தணர்கள் கொண்ட கலக்கம்",
+          "before_body_line": 45,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "பிறரும் சேறு கலந்த புனல் கண்டு நீங்குதல்",
+          "before_body_line": 48,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "சேறு ஆடு புனலது செலவு",
+          "before_body_line": 53,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "இற்பரத்தையுடன் நீராடிய தலைமகன் காதற்பரத்தைக்கு வையை நீர் விழவு கூறியது",
+          "before_body_line": 62,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "காதற்பரத்தையின் வினாவும் தலைமகன் மறுமொழியும்",
+          "before_body_line": 62,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "களவு வெளிப்பட்டது எனக் காதற்பரத்தை உரைத்தல்",
+          "before_body_line": 64,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "தளிரின் துவட்சிக்கு வையைப் பெருக்குக் காரணம் என",
+          "before_body_line": 69,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 11,
+          "heading_as_printed": "தலைவன் உரையை ‘உண்மை அன்று‘ என, அவள் மறுத்து உரைத்தல்",
+          "before_body_line": 72,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 12,
+          "heading_as_printed": "தலைமகன் மேலும் கூறுதல்",
+          "before_body_line": 88,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 13,
+          "heading_as_printed": "காதற் பரத்தை கூற்று",
+          "before_body_line": 93,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 14,
+          "heading_as_printed": "தலைமகன் பின்னும் சூளுற்று உரைத்தமை",
+          "before_body_line": 95,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 15,
+          "heading_as_printed": "விறலிக்குத் தலைமகள் கூறுதல்",
+          "before_body_line": 97,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 7,
+      "poem_number_as_printed": 7,
+      "printed_heading": "7.  வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "வையைப் புனலின் வருகை",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "புனலின் செயல்",
+          "before_body_line": 11,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வெள்ளப் பெருக்கைக் கண்ட மக்களின் செயல்",
+          "before_body_line": 23,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "வையைப் புனலின் வனப்பு",
+          "before_body_line": 40,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "தோழி புனலணி இன்பம் கூறுதல்",
+          "before_body_line": 51,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "தோழி தலைமகன் காதன்மை கூறுதல்",
+          "before_body_line": 61,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "தோழி வையையின் நீரணியின்பம் குறித்துக் கூறுதல்",
+          "before_body_line": 77,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 87,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 8,
+      "poem_number_as_printed": 8,
+      "printed_heading": "8. செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "திருப்பரங்குன்றத்தின் அமைப்பும் சிறப்பும்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "குன்றத்திற்கும் கூடாக்கும் இடையிலுள்ள வழி",
+          "before_body_line": 22,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "குன்றத்தின் முழக்கம்",
+          "before_body_line": 29,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "தலைமகன் தலைமகட்குக் குன்றத்தின் சிறப்புக் கூறுதல்",
+          "before_body_line": 36,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "தலைமகள் புலந்து உரைத்தல்",
+          "before_body_line": 47,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "தோழி தலைமகனைச் சூள் விலகக்கூறுதல்",
+          "before_body_line": 57,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "தலைமகனது  உரை",
+          "before_body_line": 73,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "தோழி தலைமகளின் கற்புடைமை கூறல்",
+          "before_body_line": 84,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "தலைமகளிரது செய்தி",
+          "before_body_line": 91,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "பரங்குன்றை வாழ்த்தல்",
+          "before_body_line": 125,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 11,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 132,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 9,
+      "poem_number_as_printed": 9,
+      "printed_heading": "9. செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "முருகவேளை வாழ்த்துதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "தமிழது சிறப்பிற்குக் காரணம்",
+          "before_body_line": 12,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வள்ளியும் முருகனும் சிறந்தவாறு",
+          "before_body_line": 27,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "வள்ளியின் பாங்கியரும் தேவசேனையின் பாங்கியரும் இகழ்தல்",
+          "before_body_line": 45,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "வாழ்த்தி  வேண்டல்",
+          "before_body_line": 70,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 10,
+      "poem_number_as_printed": 10,
+      "printed_heading": "10.  வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "புனலாடும் பொருட்டு மகளிர் வையைக் கரை சேர்தல்",
+          "before_body_line": 9,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "கரை சேர்ந்த மகளிர் செயல்",
+          "before_body_line": 27,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "முகைப் பருவத்து மகளிரின் செயல்கள்",
+          "before_body_line": 35,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "களிறு பிடிகளின் ஒத்த அன்பு",
+          "before_body_line": 41,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "மகளிர், மைந்தர் இவர்கள் செயல்",
+          "before_body_line": 56,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "மகளிரது நீர் விளையாட்டு",
+          "before_body_line": 71,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "கண்ணும் கழியச் சிவந்தன; அன்ன வகை",
+          "before_body_line": 96,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "புனல் விளையாட்டால் மெலியாத மைதர் செயல்",
+          "before_body_line": 99,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "புனலாடி மீண்டவாறு",
+          "before_body_line": 111,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "வையையை வாழ்த்துதல்",
+          "before_body_line": 125,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 11,
+      "poem_number_as_printed": 11,
+      "printed_heading": "11.        வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "மழை பொழிய வையையில் நீர் பொருகி ஓடுதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "தோழி திருமதத் துறையின் சிறப்புக் கூறுதல்",
+          "before_body_line": 16,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "கண்டார் கூற்று",
+          "before_body_line": 31,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "வையை போர்க்களத்தை ஒத்தல்",
+          "before_body_line": 50,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "பாய் தேரான் வையை அகம்.",
+          "before_body_line": 61,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "தைந்  நீராடல்",
+          "before_body_line": 74,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "மகளிர் செயல்கள்",
+          "before_body_line": 93,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "மகளிர் கருத்தும், வேண்டுகோளும்",
+          "before_body_line": 106,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "ஒருவன் உவந்தவை காட்டுதல்",
+          "before_body_line": 122,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "தலைமகன் கேட்ப, தோழி வையையை  நோக்கிக் கூறுதல்",
+          "before_body_line": 134,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 12,
+      "poem_number_as_printed": 12,
+      "printed_heading": "12.        வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "வையையில் கடல்போல் நீர் பெருகி வருதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "புனல் வரவு காண மகளிர் சென்ற வகை",
+          "before_body_line": 9,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "நீர் வரவு காணச் சென்ற மைந்தர் செயல்",
+          "before_body_line": 28,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "கண்டவர் காணவருவார்க்கு அங்கே தாம் கண்டவற்றைக் கூறல்",
+          "before_body_line": 36,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "கூடினோர் மொழிகள் முற்றும் கேட்கப்படாமைக்குக் காரணம்  உரைத்தல்",
+          "before_body_line": 36,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "கேட்டன கூறல்",
+          "before_body_line": 45,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "கண்டவர் காண வருவார்க்கு உவந்தவற்றைக் காட்டல்",
+          "before_body_line": 57,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "நீர்விழவின் சிறப்பு",
+          "before_body_line": 93,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "வையையை வாழ்த்துதல்",
+          "before_body_line": 100,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 13,
+      "poem_number_as_printed": 13,
+      "printed_heading": "13.   திருமால்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "திருமாலைத் தொழுவார் பெறும் பேறு",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "எங்குமாய் எல்லாமாய் நிறைந்த பெருமை",
+          "before_body_line": 14,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "பல்வேறு தோற்றத்துடன் விளங்கும் ஒரு முதல்வன்",
+          "before_body_line": 25,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "புகழ்ந்து போற்றுதல்",
+          "before_body_line": 37,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 14,
+      "poem_number_as_printed": 14,
+      "printed_heading": "14. செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "முருகனது குன்றில் கார்காலத் தன்மை மிகுதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "முருகனைப் புகழ்ந்து போற்றுதல்",
+          "before_body_line": 18,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "விண்ணப்பம்",
+          "before_body_line": 29,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 15,
+      "poem_number_as_printed": 15,
+      "printed_heading": "15.  திருமால்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "திருமாலிருங்குன்றத்தின் சிறப்பு",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "‘திருமால் பலராமனுடன் அமர்ந்துள்ள நிலை நினைந்து ஏத்துகா எனல்",
+          "before_body_line": 19,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "மாயோனை ஒத்த நிலையுடைத்து திருமாலிருஞ்சோலைக் குன்றம்",
+          "before_body_line": 30,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "சென்று  தொழ மாட்டாதார் அம் மலையைக் கண்டு தொழுக எனல்",
+          "before_body_line": 34,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "குன்றத்தில் பிறக்கும் ஓசைகள்",
+          "before_body_line": 38,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "குன்றத்தானைச் சுற்றம் புடை சூழப் போற்றுமின்",
+          "before_body_line": 46,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "பலதேவ வாசுதேவர்கள் இருவரையும் வாழ்த்துதல்",
+          "before_body_line": 54,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 16,
+      "poem_number_as_printed": 16,
+      "printed_heading": "16.  வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "வையையில் நீர் வரவு",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "தலைவன் காதற் பரத்தையுடன் கூடி மகிழ, வையையின் வரவு வாய்த்தல்",
+          "before_body_line": 20,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வாய்த்தன்றால்--வையை வரவு.",
+          "before_body_line": 31,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "வையைக்கு உரிய இயல்பு",
+          "before_body_line": 39,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "தோழி வையையை நோக்கிக் கூறுவாளாய் வாயில் மறுத்தல்",
+          "before_body_line": 48,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 17,
+      "poem_number_as_printed": 17,
+      "printed_heading": "17.  செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "மாலைதோறும் பரங்குன்றைப் பரவி உறைபவர்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "மாறுமாறு எழும் பல்வேறு ஓசைகளை உடையது பரங்குன்றம்",
+          "before_body_line": 9,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "பரங்குன்றிற்கும் கூடாக்கும் இடைப்பட்ட நிலம்",
+          "before_body_line": 22,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "பரங்குன்றின் அலங்காரம்",
+          "before_body_line": 33,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "தெய்வ விழவும் விருந்தயர்வும்",
+          "before_body_line": 40,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "முருகனை எதிர் முகமாக்கி வாழ்த்துதல்",
+          "before_body_line": 47,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 18,
+      "poem_number_as_printed": 18,
+      "printed_heading": "18.  செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "இமயத்தொடு நிகர்க்கும் குன்று",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "ஏறுமாறு ஏற்கும் இக் குன்று.",
+          "before_body_line": 6,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "பாணனுக்குத் தலைமகனது பரத்தைமை பற்றிக் கூறும் தலைமகளின் கூற்று",
+          "before_body_line": 15,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "பரங்குன்றத்திலுள்ள அம்பலம்",
+          "before_body_line": 22,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "குன்றத்துக் காட்சிகள்",
+          "before_body_line": 30,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "குன்றத்தின் சிறப்பு",
+          "before_body_line": 40,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "முருகவேளை வாழ்த்துதல்",
+          "before_body_line": 51,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 19,
+      "poem_number_as_printed": 19,
+      "printed_heading": "19.  செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "வள்ளியை முருகன் வதுவை கொண்டது",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "கூடலார் பரங்குன்றை நோக்கி விடியலில் யாத்திரை செய்கின்ற வழி",
+          "before_body_line": 8,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "பாண்டியன் தன் பரிவாரங்களுடன் பரங்குன்றை வலம் வரும் காட்சி",
+          "before_body_line": 19,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "குன்றின் கீழுள்ள இடை நிலம் பாசறையை ஒத்து விளங்கியமை",
+          "before_body_line": 30,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "மலைச் சிறப்பு - வழுதியுடன் ஏறியோர் கண்டவை",
+          "before_body_line": 38,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "குன்றில் சுற்றத்தாரை விட்டுப் பிரிந்த சிறுமி",
+          "before_body_line": 58,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "இள மகளிரின் மருட்சி",
+          "before_body_line": 67,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "குன்றம் விடியல் வானம் போலப் பொலிதல்",
+          "before_body_line": 75,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "கன்னிமை கனிந்தாரும் மணமான மகளிரும்",
+          "before_body_line": 85,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 11,
+          "heading_as_printed": "முருகப் பெருமானை வாழ்த்துதல்",
+          "before_body_line": 96,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 20,
+      "poem_number_as_printed": 20,
+      "printed_heading": "20.  வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "புதுப் புனலையும் பல வகை மணங்களையும் உடன்கொண்டு வையை வருதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "புதுப் புனலாட வைகறையில் மைந்தரும் மகளிரும் சென்ற வசை",
+          "before_body_line": 12,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "தலைமகனது காதற்பரத்தையைத் தோழியர் கண்ட காலத்து நேர்ந்த நிகழ்ச்சி",
+          "before_body_line": 27,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "தலைமகனது முகமாற்றமும், கூட்டத்துள் பரத்தை மறைதாம்",
+          "before_body_line": 36,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "தன்னைத் தொடர்ந்த ஆயத்தாரோடு பரத்தை உரைத்தல்",
+          "before_body_line": 40,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "தலைமகளின் திகைப்பு",
+          "before_body_line": 46,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "ஆயத்தார் பரத்தையை நோக்கி வைது உரைத்தல்",
+          "before_body_line": 48,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "பரத்தை ஏசுதலைக் கண்ட முதுமகளிர் கூற்று",
+          "before_body_line": 66,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "பரத்தையின் பதில் உரை",
+          "before_body_line": 71,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "தலைவி கூற்று",
+          "before_body_line": 74,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 11,
+          "heading_as_printed": "பரத்தையின் மறுமொழி",
+          "before_body_line": 79,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 12,
+          "heading_as_printed": "கண்டார் சிலருடைய கூற்று",
+          "before_body_line": 84,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 13,
+          "heading_as_printed": "தலைமகளுக்கு முனிவி நீங்க உரைத்தல்",
+          "before_body_line": 87,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 14,
+          "heading_as_printed": "கருங்கை வழியே பாயும் காட்சி",
+          "before_body_line": 97,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 15,
+          "heading_as_printed": "பிரிந்தாரைக் கூட்டுவித்தல் வையைக்கு இயல்பு",
+          "before_body_line": 110,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 21,
+      "poem_number_as_printed": 21,
+      "printed_heading": "21.  செவ்வேள்",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "கடவுள் வாழ்த்து",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "பரங்குன்றத்துப் பெருமானைப் பரவுதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "பரங்கின்றின்மேல் ஓவியத்தின் அழகு போன்ற காட்சிகள்",
+          "before_body_line": 18,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "குன்றத்தில் வேறுபட்ட பல ஒலிகள் ஒருங்கு இசைத்தல்",
+          "before_body_line": 30,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "சுனை நீரில் பாய்ந்து ஆடிய காதலர்",
+          "before_body_line": 39,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "குன்றத்தில் பலவகை மணத்துடன் வரும் காற்றுக்கள்",
+          "before_body_line": 46,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "சீர்க்கு இசைய ஆடுபவளது மேனியழகும் கண்ணழகும்",
+          "before_body_line": 54,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "முருகவேளை வாழ்த்துதல்",
+          "before_body_line": 66,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 22,
+      "poem_number_as_printed": 22,
+      "printed_heading": "22.  வையை",
+      "record_type": "numbered_poem",
+      "source_division": "பரிபாடல்",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "மழை பெய்தலும் நீர்ப் பெருக்கும்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "மைந்தரும் மகளிரும் கரையையும் வையையும் சேர்கின்ற அழகு",
+          "before_body_line": 17,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "திருமருத முன்துறைக் காட்சிகள்",
+          "before_body_line": 36,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 23,
+      "poem_number_as_printed": 1,
+      "printed_heading": "1.  திருமால்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "இருந்தையூர் அமர்ந்த இறைவனது அடி பரவுதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "இருந்தையூ¡¢ன் சிறப்புகள்",
+          "before_body_line": 7,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "மலை, குளம், வயல், ஆகியவற்றின் வளம்",
+          "before_body_line": 7,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "அந்தணர் இருக்கை",
+          "before_body_line": 18,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "வணிகரும் உழவர்களும் வாழும் தெருக்கள்",
+          "before_body_line": 22,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "ஆதிசேடனது திருக்கோயிலில் மைந்தரும் மகளிரும் வழிபடுதல்",
+          "before_body_line": 30,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "பூ முடி நாகர் கோயிலின் எழும் ஓசைகள் முதலியன",
+          "before_body_line": 49,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "குளவாய் அமர்ந்தான் நகா¢ல் மகளிரும் மைந்தரும்  வணங்கிப் பேறு பெறுதல்",
+          "before_body_line": 59,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "ஆதிசேடனின் சிறப்புக்களைப் போற்றுதல்",
+          "before_body_line": 69,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "விண்ணப்பம்",
+          "before_body_line": 84,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 24,
+      "poem_number_as_printed": 2,
+      "printed_heading": "2. வையை",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": [
+        {
+          "sequence": 1,
+          "heading_as_printed": "வையையில் புனல் விரைந்து வருதல்",
+          "before_body_line": 1,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 2,
+          "heading_as_printed": "புதுப்புனலை விரும்பி மக்கள் கோலம் கொண்டு செல்லுதல்",
+          "before_body_line": 5,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 3,
+          "heading_as_printed": "வையைத் துறையில் மன்னனும் மக்களும் கூடுதல்",
+          "before_body_line": 11,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 4,
+          "heading_as_printed": "நீராடற் காட்சிகள்",
+          "before_body_line": 28,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 5,
+          "heading_as_printed": "தலைவன் பரத்தைமையைத் தோழி குறிப்பால் உணர்த்துதல்",
+          "before_body_line": 28,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 6,
+          "heading_as_printed": "குலமகளிர் உ¡¢மை மைந்தரோடு நீராடுதல்",
+          "before_body_line": 46,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 7,
+          "heading_as_printed": "தலைவன் கூற்று",
+          "before_body_line": 51,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 8,
+          "heading_as_printed": "பார்ப்பார் நீராடாது கரையில் நின்ற காரனம்",
+          "before_body_line": 58,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 9,
+          "heading_as_printed": "வையை நுரை முதலியவற்றோடு பெருகிச் சென்ற வகை",
+          "before_body_line": 64,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 10,
+          "heading_as_printed": "திருமருத முன் துறை",
+          "before_body_line": 72,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 11,
+          "heading_as_printed": "சாந்து, பூ, முதலியவற்றால் நீர் வேறுபடுதல்",
+          "before_body_line": 88,
+          "provenance": "printed by selected canonical source"
+        },
+        {
+          "sequence": 12,
+          "heading_as_printed": "பாண்டியன் கூடலாரொடு வையை நீராடிய மாட்சி",
+          "before_body_line": 95,
+          "provenance": "printed by selected canonical source"
+        }
+      ]
+    },
+    {
+      "canonical_sequence": 25,
+      "poem_number_as_printed": 3,
+      "printed_heading": "3. வையை",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 26,
+      "poem_number_as_printed": 4,
+      "printed_heading": "4.  வையை",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 27,
+      "poem_number_as_printed": 5,
+      "printed_heading": "ஐந்தாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 28,
+      "poem_number_as_printed": 6,
+      "printed_heading": "ஆறாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 29,
+      "poem_number_as_printed": 7,
+      "printed_heading": "7. மதுரை",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 30,
+      "poem_number_as_printed": 8,
+      "printed_heading": "எட்டாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 31,
+      "poem_number_as_printed": 9,
+      "printed_heading": "ஒன்பதாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 32,
+      "poem_number_as_printed": 10,
+      "printed_heading": "பத்தாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 33,
+      "poem_number_as_printed": 11,
+      "printed_heading": "பதினோராம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 34,
+      "poem_number_as_printed": 12,
+      "printed_heading": "பனிரெண்டாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    },
+    {
+      "canonical_sequence": 35,
+      "poem_number_as_printed": 13,
+      "printed_heading": "பதிமூன்றாம் பாடல்",
+      "record_type": "tirattu_fragment",
+      "source_division": "பரிபாடல்-திரட்டு",
+      "internal_structure": []
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "work": "patirruppattu",
+  "parser": "patirruppattu-pmuni0038-v1",
+  "canonical_source": {
+    "work": "patirruppattu",
+    "source_name": "Project Madurai",
+    "project_madurai_id": "pmuni0038",
+    "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0038.html",
+    "source_file": "sources/raw-html/patirruppattu.html",
+    "source_bytes": 236971,
+    "source_checksum_sha256": "dc783dbf0141205625e7a27d9a14848b2dcef316e935dc66770f0ce082e012cc",
+    "accessed_date": "2026-07-29",
+    "source_artifact_type": "exact HTTP HTML response body"
+  },
+  "printed_numbered_records": 80,
+  "number_range": [
+    11,
+    90
+  ],
+  "missing_within_range": [],
+  "duplicate_numbers": [],
+  "surviving_pattu_groups": [
+    {
+      "sequence": 2,
+      "heading_as_printed": "இரண்டாம் பத்து",
+      "poem_start": 11,
+      "poem_end": 20,
+      "record_count": 10,
+      "patron_as_printed": "இமையவரம்பன் நெடுஞ்சேரலாதனைக்",
+      "poet_as_printed": "குமட்டூர்க் கண்ணனார்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "மூன்றாம் பத்து",
+      "poem_start": 21,
+      "poem_end": 30,
+      "record_count": 10,
+      "patron_as_printed": "பல்யானைச் செல்கெழு குட்டுவனைப்",
+      "poet_as_printed": "பாலைக் கெளதமனார்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "நான்காம் பத்து",
+      "poem_start": 31,
+      "poem_end": 40,
+      "record_count": 10,
+      "patron_as_printed": "களங்காய்க்கண்ணி நார்முடிச் சேரல்",
+      "poet_as_printed": "காப்பியாற்றுக் காப்பியனார்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "ஐந்தாம் பத்து",
+      "poem_start": 41,
+      "poem_end": 50,
+      "record_count": 10,
+      "patron_as_printed": "கடல் பிறக்கோட்டிய செங்குட்டுவன்",
+      "poet_as_printed": "காசறு செய்யுட் பரணர்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 6,
+      "heading_as_printed": "ஆறாம் பத்து",
+      "poem_start": 51,
+      "poem_end": 60,
+      "record_count": 10,
+      "patron_as_printed": "ஆடுகோட் பாட்டுச் சேரலாதனை",
+      "poet_as_printed": "காக்கைபாடினியார் நச்செள்ளையார்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 7,
+      "heading_as_printed": "ஏழாம் பத்து",
+      "poem_start": 61,
+      "poem_end": 70,
+      "record_count": 10,
+      "patron_as_printed": "செல்வக்கடுங்கோ வாழிஆதன்",
+      "poet_as_printed": "கபிலர்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 8,
+      "heading_as_printed": "எட்டாம் பத்து",
+      "poem_start": 71,
+      "poem_end": 80,
+      "record_count": 10,
+      "patron_as_printed": "பெருஞ்சேரல் இரும்பொறை",
+      "poet_as_printed": "அ஡஢சில்கிழார்",
+      "source": "Project Madurai printed group heading"
+    },
+    {
+      "sequence": 9,
+      "heading_as_printed": "ஒன்பதாம் பத்து",
+      "poem_start": 81,
+      "poem_end": 90,
+      "record_count": 10,
+      "patron_as_printed": "இளஞ்சேரல் இரும்பொறை",
+      "poet_as_printed": "பெருங்குன்றூர்கிழார்",
+      "source": "Project Madurai printed group heading"
+    }
+  ],
+  "source_lost_groups": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "முதற் பத்து",
+      "loss_as_printed": "(கிடைத்திலது)"
+    },
+    {
+      "sequence": 10,
+      "heading_as_printed": "பத்தாம் பத்து",
+      "loss_as_printed": "(கிடைக்கவில்லை)"
+    }
+  ],
+  "patikam_count": 8,
+  "recovered_fragments_classification": "printed ancillary evidence, not numbered canonical records",
+  "navigation_strategy": "eight source-printed surviving pattu groups",
+  "commentary_present": false,
+  "candidate_texts": [],
+  "source_lost_numbered_records": [],
+  "notes": [
+    "The source explicitly lacks the first and tenth pattu groups.",
+    "Records 11-90 are preserved; absent records outside that printed surviving range are not manufactured.",
+    "Printed பதிகம் blocks and recovered fragments remain structural/source evidence outside canonical poem bodies."
+  ]
+}

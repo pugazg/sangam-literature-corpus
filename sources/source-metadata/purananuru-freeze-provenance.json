@@ -1,0 +1,24 @@
+{
+  "work": "purananuru",
+  "decision": "Option B — approve supplied Markdown/text export as canonical frozen source artifact",
+  "decision_date": "2026-07-22",
+  "project_madurai_id": "pmuni0057",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0057.html",
+  "canonical_artifact": "sources/purananuru.md",
+  "artifact_type": "UTF-8 Markdown/text export of the Project Madurai page",
+  "artifact_size_bytes": 618275,
+  "artifact_sha256": "4d783669301ef2d6edb58b74c1c8de9660671571d174bd13d02c0dd8b1829129",
+  "raw_html_preserved": false,
+  "approval_basis": [
+    "The supplied artifact retains the Project Madurai title, contributor and rights header, all 400 numbered record identities, printed metadata, canonical literary text, loss statement, lacuna markers, and closing statement.",
+    "The user explicitly authorized formal documentation of the supplied export as the canonical frozen artifact when exact HTML preservation is impossible.",
+    "The artifact is checksum-pinned, preserved unchanged, parsed deterministically, and validated at 400/400 body and 400/400 source-note equality."
+  ],
+  "limitations": [
+    "The artifact is not the original HTTP response bytes and cannot certify original HTML markup, element boundaries, attributes, or byte-level identity with pmuni0057.html.",
+    "HTML-specific layout evidence is unavailable; parser boundaries rely on explicit printed labels and retained blank-line structure in the supplied export.",
+    "A later raw-HTML acquisition would be a separate source object and must not silently replace this frozen source identity."
+  ],
+  "freeze_acceptance": "Acceptable for corpus schema 1.0.0 as a source-faithful transcription layer because the frozen claim is limited to this exact supplied artifact and does not claim raw-HTML preservation or critical-edition authority.",
+  "silent_source_switch_prohibited": true
+}

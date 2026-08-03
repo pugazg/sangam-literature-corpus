@@ -1,0 +1,32 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "நற்றிணை",
+  "title_english": "Naṟṟiṇai",
+  "work_slug": "natrinai",
+  "collection": "எட்டுத்தொகை",
+  "compiler": "அறியப்படவில்லை",
+  "editor": [
+    "N D LogaSundaram",
+    "Ms. Selvanayagi",
+    "Dr. K. Kalyanasundaram"
+  ],
+  "patron": "பன்னாடு தந்த மாறன் வழுதி",
+  "expected_poem_count": 400,
+  "available_poem_count": 399,
+  "missing_poems": [
+    234
+  ],
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0296.html",
+  "project_madurai_id": "pmuni0296",
+  "accessed_date": "2026-07-11",
+  "source_checksum_sha256": "b3aa835398de5175523e9f000942ccd1944f5885b1f74f03bcb22ecd18a00277",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Source states poem 234 is lost and prints conjectural candidate material separately.",
+    "Source states the latter part of poem 385 is lost.",
+    "Tiṇai and poet values are copied only from printed poem headings."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "பரிபாடல்",
+  "title_english": "Paripāṭal",
+  "title_as_printed": "பரிபாடல் & பரிபாடல் திரட்டு (பல ஆசிரியர்கள்)",
+  "work_slug": "paripatal",
+  "work_id": "paripatal",
+  "collection": "எட்டுத்தொகை",
+  "numbered_poem_record_count": 35,
+  "main_poem_count": 22,
+  "tirattu_fragment_count": 13,
+  "available_poem_count": 35,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0087.html",
+  "project_madurai_id": "pmuni0087",
+  "source_file": "sources/raw-html/paripatal.html",
+  "source_checksum_sha256": "07497b27fa06415c89e0023530d7599595521f400cc088cbaeaee9f2ea8e4fc9",
+  "source_bytes": 253119,
+  "accessed_date": "2026-07-29",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "source_structure": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "பரிபாடல்",
+      "record_start": 1,
+      "record_end": 22,
+      "record_count": 22
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "பரிபாடல்-திரட்டு",
+      "record_start": 23,
+      "record_end": 35,
+      "record_count": 13
+    }
+  ],
+  "notes": [
+    "Canonical record numbering is source order across two printed divisions.",
+    "The Tirattu restarts printed numbering; poem_number_as_printed preserves that numbering.",
+    "No conventional classifications are inferred.",
+    "Version 1.0.0 freezes pmuni0087, its checksum, the 22+13 source-order record model, canonical bodies, source notes, printed metadata, source divisions and validation expectations."
+  ]
+}

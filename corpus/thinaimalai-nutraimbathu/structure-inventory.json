@@ -1,0 +1,80 @@
+{
+  "divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1. குறிஞ்சி",
+      "thinai": "குறிஞ்சி",
+      "description_as_printed": [
+        "நிலம் : மலையும் மலைசார்ந்த இடமும்.",
+        "ஒழுக்கம்  புணர்தலும் புணர்தல் நிமித்தமும்."
+      ],
+      "poem_start": 1,
+      "poem_end": 31,
+      "record_count": 31,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2. நெய்தல்",
+      "thinai": "நெய்தல்",
+      "description_as_printed": [
+        "நிலம்  :  கடலும் கடல் சார்ந்த இடமும்.",
+        "ஒழுக்கம் :    இரங்கலும் இரங்கல் நிமித்தமும்."
+      ],
+      "poem_start": 32,
+      "poem_end": 62,
+      "record_count": 31,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3. பாலை",
+      "thinai": "பாலை",
+      "description_as_printed": [
+        "நிலம்  : குறிஞ்சியும் முல்லையும் திரிந்த மணல்வெளி.",
+        "ஒழுக்கம் :  பிரிதலும் பிரிதல் நிமத்தமும்."
+      ],
+      "poem_start": 63,
+      "poem_end": 92,
+      "record_count": 30,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4. முல்லை",
+      "thinai": "முல்லை",
+      "description_as_printed": [
+        "நிலம்  : காடும்  காடு சார்ந்த இடமும்.",
+        "ஒழுக்கம்  : ஆற்றி இருத்தலும் அதன் நிமித்தமும்."
+      ],
+      "poem_start": 93,
+      "poem_end": 123,
+      "record_count": 31,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "5. மருதம்",
+      "thinai": "மருதம்",
+      "description_as_printed": [
+        "நிலம்  :வயலும் வயல் சார்ந்த இடமும்.",
+        "ஒழுக்கம்  :  ஊடலும் ஊடல் நிமிர்த்தமும்."
+      ],
+      "poem_start": 124,
+      "poem_end": 153,
+      "record_count": 30,
+      "provenance": "Project Madurai printed division"
+    }
+  ],
+  "additional_unnumbered_literary_text": {
+    "heading_as_printed": "சிறப்புப் பாயிரம்",
+    "position": "after numbered record 153",
+    "lines": [
+      "முனிந்தார் முனி(வு) ஒழியச் செய்யுட்கண் முத்துக்",
+      "கனிந்தார் களவியல் கொள்கைக் - கணிந்தார்",
+      "இணைமாலை யீடிலா இன்தமிழால் யாத்த",
+      "திணைமாலை கைவரத் தேர்ந்து."
+    ],
+    "provenance": "Project Madurai printed unnumbered literary text"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "work": "paripatal",
+  "parser": "paripatal-pmuni0087-v1",
+  "canonical_source": {
+    "work": "paripatal",
+    "source_name": "Project Madurai",
+    "project_madurai_id": "pmuni0087",
+    "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0087.html",
+    "source_file": "sources/raw-html/paripatal.html",
+    "source_bytes": 253119,
+    "source_checksum_sha256": "07497b27fa06415c89e0023530d7599595521f400cc088cbaeaee9f2ea8e4fc9",
+    "accessed_date": "2026-07-29",
+    "source_artifact_type": "exact HTTP HTML response body",
+    "title_as_printed": "பரிபாடல் & பரிபாடல் திரட்டு (பல ஆசிரியர்கள்)"
+  },
+  "printed_main_records": 22,
+  "printed_tirattu_records": 13,
+  "canonical_source_order_records": 35,
+  "numbering_policy": "Canonical sequence 1-35; printed number retained independently. Tirattu restarts at 1.",
+  "source_divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "பரிபாடல்",
+      "record_start": 1,
+      "record_end": 22,
+      "record_count": 22
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "பரிபாடல்-திரட்டு",
+      "record_start": 23,
+      "record_end": 35,
+      "record_count": 13
+    }
+  ],
+  "source_lost_records": [],
+  "incomplete_records": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "records_with_dot_lacunae": [
+    2,
+    8,
+    20,
+    22,
+    25,
+    28
+  ],
+  "candidate_text_conditions": [],
+  "commentary_present": false,
+  "internal_heading_count": 195,
+  "source_grammar": "BR/newline-flat HTML; styled record/internal headings; plain verse; explicit attribution fields",
+  "notes": [
+    "The Tirattu is a separately printed source division containing thirteen fragment records.",
+    "Tamil ordinal headings in Tirattu are preserved as printed and mapped only to their explicit ordinal.",
+    "Source editorial/recovery notes are preserved as source notes and excluded from literary bodies.",
+    "Styled topical subheadings are preserved in structure inventory and excluded from literary bodies."
+  ]
+}

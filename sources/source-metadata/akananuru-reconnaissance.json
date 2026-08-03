@@ -1,0 +1,88 @@
+{
+  "work": "akananuru",
+  "canonical_source": {
+    "project_madurai_id": "pmuni0229",
+    "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0229.html",
+    "title_tamil_as_printed": "அகநானுறு",
+    "title_romanized_as_printed": "akanAnURu",
+    "raw_file": "sources/raw-html/akananuru.html",
+    "bytes": 794903,
+    "sha256": "0f2484a5b1b2df77fd43ab89a206f8f101bfa2d0161e6905f9822b08a04279cb",
+    "source_object_count": 1,
+    "selection": "Complete source-only release selected as one coherent edition. Project Madurai commentary releases pmuni0490_01, pmuni0523_01, pmuni0523_02, and pmuni0534 are separate editions and are not merged."
+  },
+  "evidence_classification": {
+    "canonical": "printed by canonical Project Madurai source",
+    "mechanical": "derived only for parsing, source-order identity, hashes, or file navigation",
+    "external": "kept outside canonical corpus",
+    "editorial_inference": "not promoted to canonical metadata"
+  },
+  "record_inventory": {
+    "numbered_record_count": 400,
+    "canonical_number_range": "1-400 by source order",
+    "canonical_missing_numbers": [],
+    "canonical_duplicate_numbers": [],
+    "printed_number_missing": [131, 319],
+    "printed_number_duplicates": [130, 318],
+    "numbering_anomalies": [
+      {"canonical_source_order_record": 131, "poem_number_as_printed": 130},
+      {"canonical_source_order_record": 319, "poem_number_as_printed": 318}
+    ],
+    "unnumbered_literary_text": {
+      "record_number_as_printed": 0,
+      "line_count": 16,
+      "classification": "unnumbered invocation preserved in full-text.md; no 000.md is created"
+    }
+  },
+  "source_grammar": {
+    "normal_pattern": "HTML table record; first cell is the printed record number, middle cells contain BR-delimited verse, right cells contain line-end numbers",
+    "number_heading_pattern": "bare integer in the first table cell; no poem-level tiṇai, context, or poet appears",
+    "heading_punctuation_variants": "spacing around the bare number varies; no semantic punctuation variant",
+    "poet_attribution": "not printed at poem level",
+    "thinai": "not printed at poem level",
+    "speaker_or_context": "not printed at poem level",
+    "prose_notes_below_poems": false,
+    "numeric_line_end_markers": "printed in separate layout cells and excluded from literary bodies",
+    "embedded_layout_markers": [
+      {"poem": 129, "marker": ".129-18"},
+      {"poem": 246, "marker": ".246-10"},
+      {"poem": 399, "marker": ".399-18"}
+    ],
+    "html_anomalies": [
+      "Record 174 begins as a new table row without a new opening table tag and is parsed from the repeated number/body-cell grammar.",
+      "Records 131 and 319 carry duplicated printed number labels 130 and 318 respectively."
+    ],
+    "source_part_grammar_differences": "none; all three divisions use the same table grammar"
+  },
+  "textual_conditions": {
+    "canonical_literary_texts_available": 400,
+    "source_lost_records": [],
+    "explicit_incomplete_records": [],
+    "explicit_lacuna_markers": [],
+    "candidate_or_conjectural_texts": [],
+    "printed_ascii_ellipsis": [
+      {"poem": 143, "line": "சேறும்' என்ற சிறுசொற்கு... இவட்கே,"},
+      {"poem": 354, "line": "யாண்டுஉறை வதுகொல் தானே...மாண்ட"}
+    ],
+    "ellipsis_policy": "Preserved exactly. The source gives no explicit loss statement, so these are not automatically classified as lacunae; their typographic or textual force remains unresolved.",
+    "line_count_range": {"minimum": 13, "maximum": 31},
+    "unicode_replacement_characters": 0,
+    "non_nfc_literary_lines_before_normalization": 0,
+    "uncertain_poet_forms": [],
+    "poet_placeholders": []
+  },
+  "printed_macrostructure": [
+    {"source_order": 1, "heading_as_printed": "1.  களிற்றியாணை நிரை", "normalized_structural_label": "களிற்றியாணை நிரை", "poem_start": 1, "poem_end": 120, "provenance": "Project Madurai printed heading"},
+    {"source_order": 2, "heading_as_printed": "2.  மணிமிடை பவளம்", "normalized_structural_label": "மணிமிடை பவளம்", "poem_start": 121, "poem_end": 300, "provenance": "Project Madurai printed heading"},
+    {"source_order": 3, "heading_as_printed": "3.  நித்திலக்கோவை", "normalized_structural_label": "நித்திலக்கோவை", "poem_start": 301, "poem_end": 400, "provenance": "Project Madurai printed heading"}
+  ],
+  "duplicate_analysis": {
+    "shared_first_line_groups": [[121, 122]],
+    "identical_normalized_full_bodies": []
+  },
+  "structural_strategy": "Three section files reproduce the three source-printed macro-divisions. No mechanical fifty-poem ranges, பத்து groups, or number-derived tiṇai classification are asserted.",
+  "unresolved_ambiguities": [
+    "The canonical identity of source-order records 131 and 319 is mechanically derived from continuous source order; their duplicated printed labels are preserved verbatim and reported.",
+    "The two printed ASCII ellipses are preserved but not interpreted as explicit textual loss because the source supplies no loss statement."
+  ]
+}

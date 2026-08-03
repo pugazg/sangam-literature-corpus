@@ -1,0 +1,30 @@
+{
+  "program": "Core Sangam Literature Corpus",
+  "completed_at": "2026-07-29T18:30:00+05:30",
+  "physical_repository_path": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "status": "complete",
+  "corpus_schema_version": "1.0.0",
+  "work_count": 9,
+  "canonical_record_count": 2376,
+  "works": {
+    "natrinai": {"records": 400, "sections": 8, "status": "frozen", "validation_errors": 0},
+    "aingurunuru": {"records": 500, "sections": 50, "status": "frozen", "validation_errors": 0},
+    "kuruntokai": {"records": 401, "sections": 9, "status": "frozen", "validation_errors": 0},
+    "akananuru": {"records": 400, "sections": 3, "status": "frozen", "validation_errors": 0},
+    "purananuru": {"records": 400, "sections": 8, "status": "frozen", "validation_errors": 0},
+    "pattuppattu": {"records": 10, "sections": 10, "status": "frozen", "validation_errors": 0},
+    "patirruppattu": {"records": 80, "sections": 8, "status": "frozen", "validation_errors": 0},
+    "paripatal": {"records": 35, "sections": 2, "status": "frozen", "validation_errors": 0},
+    "kalittokai": {"records": 150, "sections": 6, "status": "frozen", "validation_errors": 0}
+  },
+  "physical_audit": "pass",
+  "tests": {"passed": 73, "dependency_deprecation_warnings": 61},
+  "all_work_idempotence": {
+    "path_additions": [],
+    "path_removals": [],
+    "hash_changes": []
+  },
+  "canonical_regression": "no frozen-work corpus file drift",
+  "programme_manifest": "manifests/sangam-core-program.json",
+  "decision_log": "logs/sangam-core-program-decisions.md"
+}

@@ -1,0 +1,62 @@
+{
+  "work": "natrinai",
+  "canonical_source": "Project Madurai pmuni0296",
+  "comparison_source": "Tamil Virtual Academy (TamilVU)",
+  "accessed_date": "2026-07-11",
+  "canonical_corpus_modified": false,
+  "records": [
+    {
+      "poem_numbers": [234],
+      "evidence_type": "candidate_selection",
+      "editorial_status": "external_source_preference",
+      "external_source": "TamilVU",
+      "external_url": "https://www.tamilvu.org/ta/library-l1210-html-l1210401-121661",
+      "finding": "TamilVU promotes the first Project Madurai candidate beginning ‘சான்றோர் வருந்திய வருத்தமும்…’ as poem 234 and assigns it குறிஞ்சி.",
+      "canonical_action": "No change. Project Madurai canonical poem body remains empty; both candidates remain only in its printed source note."
+    },
+    {
+      "poem_numbers": [385],
+      "evidence_type": "lacuna_comparison",
+      "editorial_status": "incompleteness_independently_confirmed",
+      "external_source": "TamilVU",
+      "external_urls": [
+        "https://www.tamilvu.org/library/l1210/html/l12102j3.htm",
+        "https://www.tamilvu.org/library/nationalized/pdf/18-koventhan.tha/anpodupunarnthaiinthinai%28neithal%29.pdf"
+      ],
+      "finding": "TamilVU independently preserves an incomplete poem; another TamilVU-hosted edition contains an additional fragment followed by an ellipsis.",
+      "canonical_action": "No change. Project Madurai’s available lines and printed dash placeholders remain canonical."
+    },
+    {
+      "poem_numbers": [7, 268],
+      "evidence_type": "legitimate_shared_opening",
+      "editorial_status": "independently_confirmed",
+      "external_source": "TamilVU",
+      "finding": "Both numbered poems share their first line and have different subsequent text.",
+      "canonical_action": "Retain both poems; informational validation only."
+    },
+    {
+      "poem_numbers": [15, 203],
+      "evidence_type": "legitimate_shared_opening",
+      "editorial_status": "independently_confirmed",
+      "external_source": "TamilVU",
+      "finding": "Both numbered poems share their first line and have different subsequent text.",
+      "canonical_action": "Retain both poems; informational validation only."
+    },
+    {
+      "poem_numbers": [153, 346],
+      "evidence_type": "legitimate_shared_opening",
+      "editorial_status": "independently_confirmed",
+      "external_source": "TamilVU",
+      "finding": "Both numbered poems share their first line and have different subsequent text.",
+      "canonical_action": "Retain both poems; informational validation only."
+    },
+    {
+      "poem_numbers": [205, 399],
+      "evidence_type": "legitimate_shared_opening",
+      "editorial_status": "independently_confirmed",
+      "external_source": "TamilVU",
+      "finding": "Both numbered poems share their first line and have different subsequent text.",
+      "canonical_action": "Retain both poems; informational validation only."
+    }
+  ]
+}

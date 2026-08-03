@@ -1,0 +1,24 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "பழமொழி நானூறு",
+  "title_english": "Paḻamoḻi Nāṉūṟu",
+  "work_slug": "pazhamozhi-nanuru",
+  "work_id": "pazhamozhi-nanuru",
+  "programme_id": "pathinenkilkanakku",
+  "numbered_poem_record_count": 399,
+  "available_poem_count": 399,
+  "missing_poems": [],
+  "printed_division_count": 33,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0036.html",
+  "project_madurai_id": "pmuni0036",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "a238f6c3eb3d3645b6344c73109b02673c567ed12289a0c24c4ab203622b6122",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Source-specific grammar is documented in the reconnaissance record.",
+    "No controlled metadata is inferred from prose."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.288530+05:30",
+  "order": 9,
+  "work_slug": "aintinai-elupathu",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "poem_count": 70,
+  "section_count": 5,
+  "poem_file_set_sha256": "05bd015edee228dbd9e120e072e7526de0c5f024bce7faac435ab26c1d87e272",
+  "validation": {
+    "status": "pass-with-review",
+    "errors": 0,
+    "warnings": 4,
+    "info": 0,
+    "source_output_matches": 70,
+    "source_note_matches": 70
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

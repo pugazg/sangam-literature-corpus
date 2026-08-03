@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.243476+05:30",
+  "order": 3,
+  "work_slug": "nanmanikkadigai",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "87758515c8d2888e9fc7176f960ea0693f3accd8f0c33270651104d85cf05df5",
+  "poem_count": 106,
+  "section_count": 2,
+  "poem_file_set_sha256": "387a774c0cf9c21da1092078a27ce89439b271b57b9aaf371d35abc31d494e1f",
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_output_matches": 106,
+    "source_note_matches": 106
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

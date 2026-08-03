@@ -1,0 +1,14 @@
+{
+  "work": "tirukkural",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0001",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0001.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 301298,
+  "source_checksum_sha256": "1d1704d1f2e6dd649d40f29253bb6cb1ac8a0e316841601e3b3223feac548f18",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "திருவள்ளுவர் அருளிய திருக்குறள்",
+  "parser": "tirukkural-pmuni0001-v1",
+  "numbered_record_count": 1330
+}

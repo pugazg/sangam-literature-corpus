@@ -1,0 +1,11 @@
+{
+  "work": "patirruppattu",
+  "source_name": "Project Madurai",
+  "project_madurai_id": "pmuni0038",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0038.html",
+  "source_file": "sources/raw-html/patirruppattu.html",
+  "source_bytes": 236971,
+  "source_checksum_sha256": "dc783dbf0141205625e7a27d9a14848b2dcef316e935dc66770f0ce082e012cc",
+  "accessed_date": "2026-07-29",
+  "source_artifact_type": "exact HTTP HTML response body"
+}

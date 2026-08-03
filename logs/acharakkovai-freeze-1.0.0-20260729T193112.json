@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.355435+05:30",
+  "order": 13,
+  "work_slug": "acharakkovai",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "d9256bb5837e4934142b58bf7e5def7db794fe5620a1475d78af10adac62cb5a",
+  "poem_count": 100,
+  "section_count": 1,
+  "poem_file_set_sha256": "208fa72d582da05a8030e14c425f58229327844456177ad19fd297a5fb33206a",
+  "validation": {
+    "status": "pass-with-review",
+    "errors": 0,
+    "warnings": 0,
+    "info": 4,
+    "source_output_matches": 100,
+    "source_note_matches": 100
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

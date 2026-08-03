@@ -1,0 +1,42 @@
+{
+  "resolved_physical_root": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "total_files": 1016,
+  "works": {
+    "natrinai": {
+      "poem_markdown_count": 400,
+      "expected_poem_filenames": 400,
+      "missing_poem_filenames": [],
+      "unexpected_poem_filenames": [],
+      "duplicate_yaml_poem_numbers": {},
+      "section_markdown_count": 8,
+      "expected_section_count": 8,
+      "missing_section_filenames": [],
+      "unexpected_section_filenames": [],
+      "status": "pass"
+    },
+    "aingurunuru": {
+      "poem_markdown_count": 500,
+      "expected_poem_filenames": 500,
+      "missing_poem_filenames": [],
+      "unexpected_poem_filenames": [],
+      "duplicate_yaml_poem_numbers": {},
+      "section_markdown_count": 50,
+      "expected_section_count": 50,
+      "missing_section_filenames": [],
+      "unexpected_section_filenames": [],
+      "status": "pass"
+    }
+  },
+  "sha256_identical_copies": [],
+  "conflicting_copies": [],
+  "cache_backup_temporary_files": [],
+  "status": "pass",
+  "poem_markdown_count": 400,
+  "expected_poem_filenames": 400,
+  "missing_poem_filenames": [],
+  "unexpected_poem_filenames": [],
+  "duplicate_yaml_poem_numbers": {},
+  "section_markdown_count": 8,
+  "missing_section_filenames": [],
+  "unexpected_section_filenames": []
+}

@@ -1,0 +1,4 @@
+beautifulsoup4==4.13.4
+certifi==2025.6.15
+lxml==6.0.0
+PyYAML==6.0.2

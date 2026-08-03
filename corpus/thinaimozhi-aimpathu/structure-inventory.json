@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1.  குறிஞ்சி",
+      "poem_start": 1,
+      "provenance": "Project Madurai printed division",
+      "poem_end": 10,
+      "record_count": 10
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2,  பாலை",
+      "poem_start": 11,
+      "provenance": "Project Madurai printed division",
+      "poem_end": 20,
+      "record_count": 10
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.  முல்லை",
+      "poem_start": 21,
+      "provenance": "Project Madurai printed division",
+      "poem_end": 30,
+      "record_count": 10
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4.   மருதம்",
+      "poem_start": 31,
+      "provenance": "Project Madurai printed division",
+      "poem_end": 40,
+      "record_count": 10
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "5.  நெய்தல்",
+      "poem_start": 41,
+      "provenance": "Project Madurai printed division",
+      "poem_end": 50,
+      "record_count": 10
+    }
+  ],
+  "navigation_files": [
+    "01-001-010.md",
+    "02-011-020.md",
+    "03-021-030.md",
+    "04-031-040.md",
+    "05-041-050.md"
+  ],
+  "prefatory_text": null
+}

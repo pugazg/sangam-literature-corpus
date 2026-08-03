@@ -1,0 +1,1030 @@
+{
+  "parser": "kainnilai-pmuni0051-v1",
+  "work_slug": "kainnilai",
+  "title_tamil_as_printed": "2.  புல்லங்காடனாரின் கைந்நிலை",
+  "poems": [
+    {
+      "poem_number": 1,
+      "poem_number_as_printed": 1,
+      "source_order": 1,
+      "lines": [
+        "நுகர்தல் இவரும் கிளிகடி ஏனல்",
+        "நிகரில் மடமான் எரியும் அமர் சாரல்",
+        "கானக நாடன் கலந்தான் இவன் என்று",
+        "மேனி சிதையும் பசந்து."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைவு நீட்டித்த வழி ஆற்றாளாய தலைவி தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 2,
+      "poem_number_as_printed": 2,
+      "source_order": 2,
+      "lines": [
+        "வெந்த புனத்துக்கு வாச முடைத்தாகச்",
+        "சந்தனம் ஏந்தி அருவி கொணர்ந்திடூஉம்",
+        "வஞ்ச மலைநாடன் வாரான்கொல் தோழிஎன்",
+        "நெஞ்சம் நடுங்கி வரும்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைவு நீட்டித்த வழி ஆற்றாமையைத் தலைவி தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 3,
+      "poem_number_as_printed": 3,
+      "source_order": 3,
+      "lines": [
+        "பாசிப் பசுஞ்சுனைப் பாங்கர் அழிமுதுநீர்",
+        "காய்சின மந்தி பயின்று கனிசுவைக்கும்",
+        "பாசம்பட் டோ டும் படுகல் மலைநாடற்கு",
+        "ஆசையின் தேம்பும் என் நெஞ்சு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைவு நீட்டித்த வழி ஆற்றாளாய தலைவி தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 4,
+      "poem_number_as_printed": 4,
+      "source_order": 4,
+      "lines": [
+        "ஓங்கல் விழுப்பலவின் இன்பம் கொளீஇய",
+        "தீங்கனி மாவின் முசுப்பாய் மலைநாடன்",
+        "தான்கலந்து உள்ளாத் தகையானோ நேரிழாய்",
+        "தேங்கலந்த சொல்லின் தெளித்து."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைவு நீட்டித்த வழி ஆற்றாளாய தலைவி தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 5,
+      "poem_number_as_printed": 5,
+      "source_order": 5,
+      "lines": [
+        "இரசங்கொண்டு இன்தேன் இரைக்கும் குரலைப்",
+        "பிரசை இரும்பிடி பேணி வரூஉம்",
+        "முரசருவி ஆர்க்கும் மலைநாடற்கு என்தோள்",
+        "நிரையம்எனக் கிடந்த வாறு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைவு நீட்டித்த வழி ஆற்றாளாய தலைவி தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 6,
+      "poem_number_as_printed": 6,
+      "source_order": 6,
+      "lines": [
+        "மரையா உகளும் மரம்பயில் சோலை",
+        "உரைசால் மடமந்தி ஓடி உகளும்",
+        "புரைதீர் மலைநாடன் பூண்ஏந்து அகலம்",
+        "உரையா வழங்குமென் நெஞ்சு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 7,
+      "poem_number_as_printed": 7,
+      "source_order": 7,
+      "lines": [
+        "கல்வரை ஏறிக் கடுவன் கனிவாழை",
+        "எல்உறு போழ்தின் இனிய பழங்கவுள்கொண்டு",
+        "ஒல்என ஓடு மலைநாடன் தன்கேண்மை",
+        "சொல்லச் சொரியும் வளை."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 8,
+      "poem_number_as_printed": 8,
+      "source_order": 8,
+      "lines": [
+        "கருங்கை கதவேழம் கார்ப்பாம்புக் குப்பங்",
+        "கி...க்...கொண்...கரும்",
+        "பெருங்கல் மலைநாடன் பேணி வரினே",
+        "சுருங்கும் இவள்உற்ற நோய்."
+      ],
+      "source_note_lines": [
+        "(துறை :: தலைவி வேறுபாடு கண்டு வினவிய செவிலிக்குத் தோழி அறத்தோடு நிற்றல்.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 9,
+      "poem_number_as_printed": 9,
+      "source_order": 9,
+      "lines": [
+        "காந்தள ரும்புகை என்று கதவேழம்",
+        "ஏந்தல் மருப்பிடைக் கைவைத்து இனனோக்கிப்",
+        "பாய்ந்தெழுந்து ஓடும் பயமலை நன்னாடன்",
+        "காய்ந்தான்கொல் நம்கண் கலப்பு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைவு நீட்டித்த வழி ஆற்றாளாய தலைவி தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 10,
+      "poem_number_as_printed": 10,
+      "source_order": 10,
+      "lines": [
+        "பொன்இணர் வேங்கைப் புனஞ்சூழ் மலைநாடன்",
+        "மின்னின் அனையவேல் ஏந்தி இரவினுள்",
+        "இன்னே வரும்கண்டாய் தோழி இடையாமத்து",
+        "என்னை இமைபொரு மாறு."
+      ],
+      "source_note_lines": [
+        "(துறை :: தலைமகள், இரவுக்குறி ஏதமுடைத்து என்று அஞ்சித் தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 11,
+      "poem_number_as_printed": 11,
+      "source_order": 11,
+      "lines": [
+        "எறிகிளர் கேழல் கிளைத்திட்ட பூமி",
+        "பொறிகிளர் மஞ்ஞை புகன்று குடையும்",
+        "முறிகிளர் நன்மலை நாடன் வருமே",
+        "அரிதுரைத்திவ் இல்லில் நமக்கு."
+      ],
+      "source_note_lines": [
+        "(துறை :: தலைமகள், இரவுக்குறி ஏதமுடைத்து என்று அஞ்சித் தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 12,
+      "poem_number_as_printed": 12,
+      "source_order": 12,
+      "lines": [
+        "நாக நறுமலர்நாள் வேங்கைப் பூவிரவிக்",
+        "கேசம் அணிந்த கிளர்எழிலோன் ஆகம்",
+        "முடியுங் கொல் என்றுமுனிவான் ஒருவன்",
+        "வடிவேல்கை ஏந்தி வரும்."
+      ],
+      "source_note_lines": [
+        "(துறை :: தலைமகள், இரவுக்குறி ஏதமுடைத்து என்று அஞ்சித் தோழிக்குக் கூறுதல்)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1.   குறிஞ்சி"
+    },
+    {
+      "poem_number": 13,
+      "poem_number_as_printed": 13,
+      "source_order": 13,
+      "lines": [
+        "கடுகி அதர்அலைக்கும் கல்சூழ் பதுக்கை",
+        "விடுவில் எயினர்தம் வீளைஓர்த் தோடும்",
+        "நெடுவிடை அத்தம் செலவுரைப்பக் கேட்டே",
+        "வடுவிடை மெல்கின கண்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைபொருள் பிரிவுணர்த்தப்பட்ட தோழி தலைவனுக்குத் தலைவியின் பிரிவாற்றாமை கூறல்)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 14,
+      "poem_number_as_printed": 14,
+      "source_order": 14,
+      "lines": [
+        "கதநாய் துரப்ப..................................",
+        "............................................ அவிழும்",
+        "புதல்மாறு வெங்கானம் போக்குரைப்ப நில்லா",
+        "முதன் ...................."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைபொருள் பிரிவுணர்த்தப்பட்ட தோழி தலைவனுக்குத் தலைவியின் பிரிவாற்றாமை கூறல்)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 15,
+      "poem_number_as_printed": 15,
+      "source_order": 15,
+      "lines": [
+        "...........................................",
+        "...........................................",
+        "கடுங்கதிர் வெங்கானம் பல்லாருட்கண் சென்றார்",
+        "கொடுங்கல் மலை....."
+      ],
+      "source_note_lines": [
+        "(துறை :: சென்ற செய்யுளில் கூறப்பட்டதாக இருக்கலாம்)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 16,
+      "poem_number_as_printed": 16,
+      "source_order": 16,
+      "lines": [
+        "............. வுறையு மெல்லென் கடத்துக்",
+        "கடுஞ்சின வேங்கை கதழ்வேழம் சாய்க்கு",
+        "...........................................",
+        "...........................................  நமர்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 17,
+      "poem_number_as_printed": 17,
+      "source_order": 17,
+      "lines": [
+        "கடமா இரிந்தோடும் கல்லதர் அத்தம்",
+        "மடமா இரும்பிடி வேழ மரு.............",
+        "....................ண்ட உண்கண் ணுள்நீர்",
+        "..........................................."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 18,
+      "poem_number_as_printed": 18,
+      "source_order": 18,
+      "lines": [
+        "ஆமா சிலைக்கும் அணிவரை ஆரிடை",
+        "ஏமாண் சிலையார்க்கும் இனமா இரிந்துஓடும்",
+        "தாமாண்பில் வெஞ்சுரம் சென்றார் வரக்கண்டு",
+        "வாய்மாண்ட பல்லி படும்."
+      ],
+      "source_note_lines": [
+        "(துறை :: பிரிவிடை வேறுபட்ட தலைவியைத் தோழி வற்புறுத்தித் தேற்றியது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 19,
+      "poem_number_as_printed": 19,
+      "source_order": 19,
+      "lines": [
+        "அரக்கார்ந்த ஓமை அரிபடு நீழல்",
+        "செருக்கில் கடுங்களிறு சென்றுறங்கி நிற்கும்",
+        "பரற்கானம் பல்பொருட்குச் சென்றார் வருவர்",
+        "நுதற்கு இவர்ந் தேறும் ஒளி."
+      ],
+      "source_note_lines": [
+        "(துறை :: பிரிவிடை வேறுபட்ட தலைவியைத் தோழி வற்புறுத்தித் தேற்றியது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 20,
+      "poem_number_as_printed": 20,
+      "source_order": 20,
+      "lines": [
+        "..............................................................",
+        "...........................................  வீழ்க்கும்",
+        "ஓவாத வெங்கானம் சென்றார்........",
+        "..............வார் வருவார் நமர்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 21,
+      "poem_number_as_printed": 21,
+      "source_order": 21,
+      "lines": [
+        "ஆந்தை குறுங்கலி கொள்ளநம் ஆடவர்",
+        "காய்ந்து கதிர்தெறூஉம் கானம் கடந்தார்பின்",
+        "ஏந்தல் இளமுலை ஈர்எயிற்றாய் என்நெஞ்சு",
+        "நீந்து நெடுவிடைச் சென்று."
+      ],
+      "source_note_lines": [
+        "(துறை :: பிரிவாற்றாத தலைவி தன் தோழிக்குக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 22,
+      "poem_number_as_printed": 22,
+      "source_order": 22,
+      "lines": [
+        "கள்வர் திரிதரூஉம் கானம் கடந்தவர்",
+        "உள்ளம் பிரிந்தமை நீஅறிதி - ஒள்இழாய்",
+        "தொல்லை விடரகம் நீந்திப் பெயர்ந்தவர்",
+        "வல்லைநாம் காணும் வரவு."
+      ],
+      "source_note_lines": [
+        "(துறை :: பிரிவிடை வேறுபட்ட தலைவியைத் தோழி வற்புறுத்தித் தேற்றியது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 23,
+      "poem_number_as_printed": 23,
+      "source_order": 23,
+      "lines": [
+        "சிலையொலி வெங்கணையார் சிந்தியா நெஞ்சில்",
+        "கொலைபுரி வில்லொடு கூற்றுபோல் ஓடும்",
+        "இலையொலி வெங்கானத்து இப்பருவம் சென்றார்",
+        "தொலைவிலர்கொல் தோழி நமர்."
+      ],
+      "source_note_lines": [
+        "(துறை :: ஆற்றாமையறிந்து வருந்திய தோழிக்குத் தலைவி ஆற்றுவல் என்பது தோன்றக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 24,
+      "poem_number_as_printed": 24,
+      "source_order": 24,
+      "lines": [
+        "வெஞ்சுரம் தேரோட வெஃகிநின்று அத்தமாச்",
+        "சிந்தையான் நீர்என்று செத்துத் தவாஓடும்",
+        "பண்பில் அருஞ்சுரம் என்பவால் ஆய்தொடி",
+        "நண்பிலார் சென்ற நெறி."
+      ],
+      "source_note_lines": [
+        "(துறை :: ஆற்றாமையறிந்து வருந்திய தோழிக்குத் தலைவி ஆற்றுவல் என்பது தோன்றக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2.   பாலை"
+    },
+    {
+      "poem_number": 25,
+      "poem_number_as_printed": 25,
+      "source_order": 25,
+      "lines": [
+        "கார்செய் புறவில் கவினிக் கொடிமுல்லை",
+        "கூர்எயிறு ஈனக் குருத்தரும்ப - ஓரும்",
+        "வருவர்நம் காதலர் வாள்தடங் கண்ணாய்",
+        "பருவரல் பைதல்நோய் கொண்டு."
+      ],
+      "source_note_lines": [
+        "(துறை :: பிரிவாற்றாமையால் வருந்திய தலைவிக்குக் கார்ப்பருவம் காட்டி வருவர் எனத் தோழி வற்புறுத்தியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 26,
+      "poem_number_as_printed": 26,
+      "source_order": 26,
+      "lines": [
+        "குருதி மலர்த்தோன்றி கூர்முகை ஈன",
+        "........... சேவல் எனப்பிடவாம் ஏறி",
+        "பொருதீ எனவெருளும் பொன்நேர் நிறத்தாய்",
+        "அரிதவர் வாரா விடல்."
+      ],
+      "source_note_lines": [
+        "(துறை :: பிரிவாற்றாமையால் வருந்திய தலைவிக்குக் கார்ப்பருவம் காட்டி வருவர் எனத் தோழி வற்புறுத்தியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 27,
+      "poem_number_as_printed": 27,
+      "source_order": 27,
+      "lines": [
+        ".......................................................................",
+        ".............. ................ ஒல்கப் புகுதரு",
+        "கார்தரு மாலை கலந்தார் வரவுள்ளி",
+        "ஊர்தரு மேனி பசப்பு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 28,
+      "poem_number_as_printed": 28,
+      "source_order": 28,
+      "lines": [
+        ".......................................................................",
+        "................. பெய்த புறவில் கடுமான்தேர்",
+        "ஒல்லைக் கடவாவார் இவர்காணின் காதலர்",
+        "சில்..........................................................."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 29,
+      "poem_number_as_printed": 29,
+      "source_order": 29,
+      "lines": [
+        ".............. .............. ............... குருந்தலரப்",
+        "பீடார் இரலை பிணைதழுவக் காடாரக்",
+        "கார்வானம் வந்து முழங்................",
+        "......... ............ ......................."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 30,
+      "poem_number_as_printed": 30,
+      "source_order": 30,
+      "lines": [
+        ".............. ............... ................ ................",
+        ".............. .................. ............. ...............",
+        "கொன்றை கொடுகுழல் ஊதிய கோவலர்",
+        "மன்றம் புகுதரும் போழ்து. 0"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 31,
+      "poem_number_as_printed": 31,
+      "source_order": 31,
+      "lines": [
+        ".............. .............. .................. ..............",
+        "................ ............. ................. ..............",
+        ".............. .............. ................ வானம்",
+        "வந்து துளிவழங்கக் கண்டு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 32,
+      "poem_number_as_printed": 32,
+      "source_order": 32,
+      "lines": [
+        "காரெதிர் வானம் கதழ்எரி சி.........",
+        "............... ................. .............. ..............",
+        ".................. ...........லக மெழுநெஞ்சே சொல்லாயால்",
+        "கூர்எரி மாலைக் குறி."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 33,
+      "poem_number_as_printed": 33,
+      "source_order": 33,
+      "lines": [
+        "தளையவிழ்தே .......... ............. ...............",
+        "............... .............. ................... ..............",
+        "உளையார் கலிநன் மாப்பூட்டி வருவார்",
+        "களையாரோ நீயுற்ற நோய்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 34,
+      "poem_number_as_printed": 34,
+      "source_order": 34,
+      "lines": [
+        "முல்லை எயிறுஈன ............ ............",
+        "............. ............. ...........ன மல்கிக்",
+        "கடல்முகந்து கார்பொழியக் காதலர் வந்தார்",
+        "உடனியைந்த கெ............. ........................."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 35,
+      "poem_number_as_printed": 35,
+      "source_order": 35,
+      "lines": [
+        ".............. ............... ................ ..............",
+        "............... .............. ரடைப் பால்வாய் இடையர்",
+        "தெரிவிலர் தீங்குழல் ஊதும் பொழுதால்",
+        "அரித ............ ...............        5"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 36,
+      "poem_number_as_printed": 36,
+      "source_order": 36,
+      "lines": [
+        "பிடவங் குருந்தொடு பிண்டி மலர",
+        "மடவமயில் கூவ மந்திமா கூரத்",
+        "தடமலர்க் கோதையாய் தங்கார் வருவர்",
+        "இடபமெனக் கொண்டு தாம்."
+      ],
+      "source_note_lines": [
+        "(துறை :: தோழி பருவம் காட்டி தலைவர் வருவார் என வற்புறுத்தி ஆற்றுவித்தல்)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.   முல்லை"
+    },
+    {
+      "poem_number": 37,
+      "poem_number_as_printed": 37,
+      "source_order": 37,
+      "lines": [
+        "கழனி உழவர் கலிஅஞ்சி ஓடித்",
+        "தழென மதஎருமை தண்கயம் பாயும்",
+        "பழன வயலூரன் பாணஎம் முன்னர்ப்",
+        "பொழெனப் பொய்கூறா தொழி."
+      ],
+      "source_note_lines": [
+        "(துறை :: பரத்தையிற் பிரிந்த தலைவன் பாணனை வாயிலாக விடுக்கத் தலைவி பாணனை நோக்கிக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 38,
+      "poem_number_as_printed": 38,
+      "source_order": 38,
+      "lines": [
+        "கயலினம் பாயும் கழனி நல்லூர",
+        "நயமிலேன் எம்மனை இன்றொடு வாரல்",
+        "துயிலின் இளமுலையார் தோள்நயந்து வாழ்கின்",
+        "குயி...... .............. ........... கொண்டு."
+      ],
+      "source_note_lines": [
+        "(துறை :: பரத்தையர் சேரியில் பயின்று வந்த தலைவனைப் பிரிந்து தலைவி கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 39,
+      "poem_number_as_printed": 39,
+      "source_order": 39,
+      "lines": [
+        "முட்ட முதுநீர் அடைகரை மேய்ந்தெழுந்து",
+        "தொட்ட வரிவரால் பாயும் புனல்ஊரன்",
+        "கட்டலர் கண்ணிப் புதல்வனைக் கொண்டுஎம்மில்",
+        "சுட்டி அலைய வரும்."
+      ],
+      "source_note_lines": [
+        "(துறை :: தலைவன் மகற்கொண்டு வரும் சிறப்பினைத் தோழி கண்டு மகிழ்ந்து கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 40,
+      "poem_number_as_printed": 40,
+      "source_order": 40,
+      "lines": [
+        "தாரா இரியும் தகைவயல் ஊரனை",
+        "வாரான் எனினும் வரும்என்று - சேரி",
+        "புலப்படும் சொல்லும் இப்பூங்கொடி அன்னார்",
+        "கலப்படும் கூடுங்கொல் மற்று."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தோழி தலைவியின் பண்பு கூறி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 41,
+      "poem_number_as_printed": 41,
+      "source_order": 41,
+      "lines": [
+        "பொய்கைநல் லூரன் திறன்கிளப்ப என்னுடையை?",
+        "அஃதன்று எனினும் அறிந்தோம்யாம் - செய்தி",
+        "நெறியின் இனியசொல் நீர்வாய் மழலைச்",
+        "சிறுவன் எனக்குடைமை யால்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 42,
+      "poem_number_as_printed": 42,
+      "source_order": 42,
+      "lines": [
+        "நீத்தம் நீர்ஊரன் நிலைமையும் வண்ணமும்",
+        "யார்க்கு ரைத்திபாண? அதனால்யாம் என்செய்தும்?",
+        "கூத்தனாக் கொண்டு குறைநீர் உடையையேல்",
+        "ஆட்டுவித்து உண்ணினும் உண்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 43,
+      "poem_number_as_printed": 43,
+      "source_order": 43,
+      "lines": [
+        "போதவிழ் தாமரைப் பூந்துறை ஊரனைத்",
+        "தாதவிழ் கோதைத் தகையிலார் தாம்புலப்பர்",
+        "ஏதின்மை சொல்லி இருப்பர் பிறர்மகளிர்",
+        "பேதமை தம்மேலே கொண்டு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 44,
+      "poem_number_as_printed": 44,
+      "source_order": 44,
+      "lines": [
+        "தன்துறை ஊரன் தடமென் பணைத்தோளாய்",
+        "வண்டூது கோதை வகைநாடிக் - கொண்டிருந்து",
+        "கோல வனமுலையும் புல்லினான் என்றெடுத்துச்",
+        "சாலவும் தூற்றும் அலர்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த தோழிக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 45,
+      "poem_number_as_printed": 45,
+      "source_order": 45,
+      "lines": [
+        "மூத்தேம் இனிப்பாண முன்னாயின் நாம்இளையேம்",
+        "கார்த்தண் கலிவயல் ஊரான் கடிதுஎமக்குப்",
+        "பாத்தில் பயமொழி பண்பு பலகூறி",
+        "நீத்தல் அறிந்திலேம் இன்று."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 46,
+      "poem_number_as_printed": 46,
+      "source_order": 46,
+      "lines": [
+        "கயநீர்ப் பாய்ந்தோடும் காஞ்சிநல் ஊரன்",
+        "நயமே பலசொல்லி நாணினன் போன்றான்",
+        "பயமில் யாழ்ப்பாண பழுதாய கூறாது",
+        "எழுநீபோ நீடாது மற்று."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 47,
+      "poem_number_as_printed": 47,
+      "source_order": 47,
+      "lines": [
+        "அரக்காம்பல் தாமரை அம்செங் கழுநீர்",
+        "ஒருக்கார்ந்த வல்லி ஒலித்தாரக் குத்துஞ்",
+        "செருக்கார் வளவயல்ஊரன் பொய்ப் பாண",
+        "இருக்கஎம் இல்லுள் வாரல்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 48,
+      "poem_number_as_printed": 48,
+      "source_order": 48,
+      "lines": [
+        "கொக்கார் வளவயல்ஊரன் குளிர் சாந்தம்",
+        "மிக்க வனமுலை புல்லான் பொலிவுடைத்தா",
+        "தக்கயாழ்ப் பாணதளர் முலையாய் மூத்தமைந்தார்",
+        "உத்தரம் வேண்டா வரல்.",
+        "5.பாலை"
+      ],
+      "source_note_lines": [
+        "(துறை :: வாயிலாக வந்த பாணனுக்குத் தலைவி வாயில் மறுத்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 49,
+      "poem_number_as_printed": 49,
+      "source_order": 49,
+      "lines": [
+        "நாவாய் வழங்கு நனிதிரைத் தண்கடலுள்",
+        "ஓவா கலந்தார்க்கு ஒல்லென் இறாக்குப்பைப்",
+        "பாவாரம் சேர்ப்பதற்கு உரையாய் பரியாது",
+        "நோயான் நுணுகிய வாறு. 9"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 50,
+      "poem_number_as_printed": 50,
+      "source_order": 50,
+      "lines": [
+        "நெடுங்கடல் சேர்ப்ப நின்னோடு உரையேன்",
+        "ஒடுங்கு மடற்பெண்ணை அன்றிற்கும் சொல்லேன்",
+        "கடுஞ்சூளில் தான்கண்டு கானலுள் மேயும்",
+        "தடந்தாள் மடநாராய் கேள்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 51,
+      "poem_number_as_printed": 51,
+      "source_order": 51,
+      "lines": [
+        "மணிநிற நெய்தல் மலர்புரையும் கண்ணாய்",
+        "அணிநல முண்டிறந்து ...ம்மருளோ விட்ட",
+        "துணிமுந் நீர்ச் சேர்ப்பற்குத் தூதொடு வந்த",
+        "பணிமொழிப் புள்ளே பற."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 52,
+      "poem_number_as_printed": 52,
+      "source_order": 52,
+      "lines": [
+        "அன்னையும் இல்கடிந்தாள் யாங்குஇனியாம் என்செய்கம்",
+        "புன்னையங் கானலுள் புக்கருந்தும் - நின்னை",
+        "நினையான் துறந்த நெடுங்கழிச் சேர்ப்பற்கு",
+        "உரையேனோ பட்ட பழி."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 53,
+      "poem_number_as_printed": 53,
+      "source_order": 53,
+      "lines": [
+        "அலவன் வழங்கும் அடும்பிமிர் எக்கர்",
+        "நிலவு நெடுங்கானல் நீடார் துறந்தார்",
+        "புலவுமீன் குப்பை கவரும் துறைவன்",
+        "கலவான்கொல் தோழி நமக்கு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைபொருட் பிரிவு நீட்டித்த வழித் தலைவி தோழிக்குக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 54,
+      "poem_number_as_printed": 54,
+      "source_order": 54,
+      "lines": [
+        "என்னையர் தந்த இறவுணங்கல் யாம்கடிந்து",
+        "புன்னையங் கானல் இருந்தேமாப் பொய்த்தெம்மைச்",
+        "சொன்னலம் கூறி நலனுண்ட சேர்ப்பனை",
+        "என்னைகொல் யாம்காணு மாறு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைபொருட் பிரிவு நீட்டித்த வழித் தலைவி தோழிக்குக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 55,
+      "poem_number_as_printed": 55,
+      "source_order": 55,
+      "lines": [
+        "கொக்கார் கொடுங்கழிக் கூடுநீர்த் தண்சேர்ப்பன்",
+        "நக்காங்கு அசதி தனியாடித் - தக்க",
+        "பொருகயல் கண்ணினாய் புல்லான் விடினே",
+        "இருகையும் நில்லா வளை."
+      ],
+      "source_note_lines": [
+        "(துறை :: பாங்கி தலைவன் இயற்பழித்துழித் தலைவி இயற்பட மொழிந்தது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 56,
+      "poem_number_as_printed": 56,
+      "source_order": 56,
+      "lines": [
+        "நுரைதரும் ஓதம் கடந்துஎமர் தந்த",
+        "கருங்கரை வன்மீன் கவரும்புள் ஓப்பின்",
+        "புகரில்லேம் யாமிருப்பப் பூங்கழிச் சேர்ப்பன்",
+        "நுகர்வனன் உண்டான் நலம்."
+      ],
+      "source_note_lines": [
+        "(துறை :: வரைபொருள் பிரிவு நீட்டித்த வழித் தலைவி தோழிக்குக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 57,
+      "poem_number_as_printed": 57,
+      "source_order": 57,
+      "lines": [
+        "கொடுவாய்ப் புணரன்றில் கொய்மடல் பெண்ணைத்",
+        "தடவுக் கிளைபயிரும் தண்கடல் சேர்ப்பன்",
+        "நிலவுக் கொடுங்கழி நீந்திடும் முன்றில்",
+        "புலவுத் திரைபொருத போழ்து."
+      ],
+      "source_note_lines": [
+        "(துறை :: தோழி இரவுக் குறியிடம் தலைவிக்கு உணர்த்தியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 58,
+      "poem_number_as_printed": 58,
+      "source_order": 58,
+      "lines": [
+        "சுறாஎறி குப்பை சுழலும் கழியுள்",
+        "இறாஎறி ஓதம் அலற இரைக்கும்",
+        "உறாஅநீர்ச் சேர்ப்பனை உள்ளி இருப்பின்",
+        "பொறாஅஎன் முன்கை வளை."
+      ],
+      "source_note_lines": [
+        "(துறை :: தலைவி தோழியிடம் பிரிவாற்றாமை கூறி வருந்துதல்)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 59,
+      "poem_number_as_printed": 59,
+      "source_order": 59,
+      "lines": [
+        "தாழை குருகுஈனும் தண்ணந் துறைவனை",
+        "மாழை மானோக்கின் மடமொழி - நூழை",
+        "நுழையும் மடமகன் யார்கொல் என்றுஅன்னை",
+        "புழையும் அடைத்தாள் கதவு."
+      ],
+      "source_note_lines": [
+        "(துறை :: இரவு குறிக்கண் சிறைப்புறத்தானாக நிற்கத் தோழி தலைவிக்குக் கூறுவாளாகப் படைத்து மொழிந்தது.)"
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    },
+    {
+      "poem_number": 60,
+      "poem_number_as_printed": 60,
+      "source_order": 60,
+      "lines": [
+        "பொன்னம் பசலையும் தீர்ந்தது பூங்கொடி",
+        "தென்னவன் கொற்கைக் குருகுஇரிய - மன்னரை",
+        "ஓடுபுறம் கண்ட ஒண்தாரான் தேர்இதோ",
+        "கூடல் அணைய வரவு."
+      ],
+      "source_note_lines": [
+        "(துறை :: வினை முடித்து மீண்ட தலைமகன் வரவு கண்ட தோழி தலைவிக்குக் கூறியது)."
+      ],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.   மருதம்"
+    }
+  ],
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1.   குறிஞ்சி",
+      "poem_start": 1,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 12,
+      "record_count": 12
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2.   பாலை",
+      "poem_start": 13,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 24,
+      "record_count": 12
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.   முல்லை",
+      "poem_start": 25,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 36,
+      "record_count": 12
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4.   மருதம்",
+      "poem_start": 37,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 60,
+      "record_count": 24
+    }
+  ],
+  "numbering_anomalies": [],
+  "heading_anomalies": [],
+  "unparsed_fragments": [],
+  "normalization": "Unicode NFC; LF line endings; duplicate blank lines removed"
+}

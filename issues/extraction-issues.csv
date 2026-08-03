@@ -1,0 +1,79 @@
+work,poem_number,issue_type,severity,message,source_file,markdown_file
+aingurunuru,129,source_text_lost,warning,Project Madurai explicitly prints கிடைக்காத பாடல்,sources/raw-html/aingurunuru.html,corpus/aingurunuru/poems/129.md
+aingurunuru,130,source_text_lost,warning,Project Madurai explicitly prints கிடைக்காத பாடல்,sources/raw-html/aingurunuru.html,corpus/aingurunuru/poems/130.md
+aingurunuru,,shared_first_line,info,"Shared opening in poems [1, 2, 3, 4, 5, 6, 7, 8, 10]; full bodies differ: வாழி ஆதன் வாழி அவினி",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [31, 32, 33, 37]; full bodies differ: அம்ம வாழி தோழி மகிழ்நன்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [34, 35]; full bodies differ: அம்ம வாழி தோழி நம்மூர்ப்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [36, 39]; full bodies differ: அம்ம வாழி தோழி யூரன்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [38, 40]; full bodies differ: அம்ம வாழி தோழி மகிநன்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [121, 123, 124, 126, 127, 128]; full bodies differ: கண்டிகும் அல்லமோ கொண்கநின் கேளே",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [151, 152, 153]; full bodies differ: வெள்ளாங் குருகின் பிள்ளை செத்தெனக்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [154, 155, 156, 157, 158, 159, 160]; full bodies differ: வெள்ளாங்க் குருகின் பிள்ளை செத்தெனக்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [161, 162, 163, 165, 166, 167, 168, 169, 170]; full bodies differ: பெருங்கடற் கரையது சிறுவெண் காக்கை",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [222, 228]; full bodies differ: அம்ம வாழி தோழி நம்மூர்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [223, 224, 226]; full bodies differ: அம்ம வாழி தோழி நம்மலை",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [255, 256, 259, 260]; full bodies differ: குன்றக் குறவன் காதல் மடமகள்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [335, 336]; full bodies differ: அம்ம வாழி தோழி நம்வயின்",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [341, 342, 343, 344, 345, 346, 347, 348, 349, 350]; full bodies differ: அவரோ வாரார் தான்வந் தன்றே",sources/raw-html/aingurunuru.html,
+aingurunuru,,shared_first_line,info,"Shared opening in poems [431, 432, 433, 434, 435, 436, 437, 438, 439, 440]; full bodies differ: நன்றே காதலர் சென்ற ஆறே",sources/raw-html/aingurunuru.html,
+aingurunuru,,pattu_heading_absent,info,No printed pattu heading before poem 1,sources/raw-html/aingurunuru.html,
+aingurunuru,,pattu_heading_absent,info,No printed pattu heading before poem 11,sources/raw-html/aingurunuru.html,
+aingurunuru,,pattu_ordinal_inconsistency,info,Source-order group 12 prints ordinal 11: 11.    தோழிக்கு உரைத்த பத்து.,sources/raw-html/aingurunuru.html,
+aingurunuru,,pattu_ordinal_inconsistency,info,Source-order group 13 prints ordinal 12: 12.    கிழவற்கு உரைத்த பத்து,sources/raw-html/aingurunuru.html,
+akananuru,,shared_first_line,info,"Shared opening [121, 122]; full bodies differ: நாம்நகை யுடையம் நெஞ்சே!-  கடுந்தெறல்",sources/raw-html/akananuru.html,
+akananuru,131,printed_numbering_anomaly,warning,Source-order record 131 prints label 130; preserved in poem_number_as_printed,sources/raw-html/akananuru.html,
+akananuru,319,printed_numbering_anomaly,warning,Source-order record 319 prints label 318; preserved in poem_number_as_printed,sources/raw-html/akananuru.html,
+kalittokai,114,textual_lacuna,info,Printed dot sequence preserved unchanged,sources/raw-html/kalittokai.html,corpus/kalittokai/poems/114.md
+kalittokai,131,textual_lacuna,info,Printed dot sequence preserved unchanged,sources/raw-html/kalittokai.html,corpus/kalittokai/poems/131.md
+kuruntokai,,shared_first_line,info,"Shared opening [104, 287]; full bodies differ: அம்ம வாழி தோழி காதலர்",sources/raw-html/kuruntokai.html,
+kuruntokai,,shared_first_line,info,"Shared opening [246, 313]; full bodies differ: பெருங்கடற் கரையது சிறுவெண் காக்கை",sources/raw-html/kuruntokai.html,
+kuruntokai,29,printed_heading_anomaly,info,Speaker/context is printed as தலைன் கூற்று; preserved unchanged,sources/raw-html/kuruntokai.html,
+kuruntokai,396,printed_heading_anomaly,info,Tiṇai is printed as பாால; preserved unchanged,sources/raw-html/kuruntokai.html,
+natrinai,234,source_text_lost,warning,Canonical anthology text is lost; Project Madurai supplies two conjectural candidate texts in its printed note,sources/raw-html/natrinai.html,corpus/natrinai/poems/234.md
+natrinai,385,textual_lacuna,info,Project Madurai marks the ending as incomplete and preserves printed dash placeholders,sources/raw-html/natrinai.html,corpus/natrinai/poems/385.md
+natrinai,,shared_first_line,info,"Legitimate shared opening in poems [7, 268]; subsequent text differs: சூருடை நனந் தலைச் சுனை நீர் மல்க",sources/raw-html/natrinai.html,
+natrinai,,shared_first_line,info,"Legitimate shared opening in poems [15, 203]; subsequent text differs: முழங்கு திரை கொழீஇய மூரி எக்கர்",sources/raw-html/natrinai.html,
+natrinai,,shared_first_line,info,"Legitimate shared opening in poems [153, 346]; subsequent text differs: குண கடல் முகந்து குடக்கு ஏர்பு இருளி",sources/raw-html/natrinai.html,
+natrinai,,shared_first_line,info,"Legitimate shared opening in poems [205, 399]; subsequent text differs: அருவி ஆர்க்கும் பெரு வரை அடுக்கத்து",sources/raw-html/natrinai.html,
+purananuru,244,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/244.md
+purananuru,249,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/249.md
+purananuru,267,source_text_lost,warning,Project Madurai prints the combined statement 267- 268 கிடைத்தில,sources/purananuru.md,corpus/purananuru/poems/267.md
+purananuru,268,source_text_lost,warning,Project Madurai prints the combined statement 267- 268 கிடைத்தில,sources/purananuru.md,corpus/purananuru/poems/268.md
+purananuru,282,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/282.md
+purananuru,283,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/283.md
+purananuru,285,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/285.md
+purananuru,288,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/288.md
+purananuru,306,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/306.md
+purananuru,317,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/317.md
+purananuru,321,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/321.md
+purananuru,323,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/323.md
+purananuru,328,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/328.md
+purananuru,333,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/333.md
+purananuru,334,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/334.md
+purananuru,335,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/335.md
+purananuru,337,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/337.md
+purananuru,339,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/339.md
+purananuru,340,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/340.md
+purananuru,341,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/341.md
+purananuru,344,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/344.md
+purananuru,346,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/346.md
+purananuru,347,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/347.md
+purananuru,352,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/352.md
+purananuru,353,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/353.md
+purananuru,355,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/355.md
+purananuru,357,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/357.md
+purananuru,366,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/366.md
+purananuru,370,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/370.md
+purananuru,371,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/371.md
+purananuru,373,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/373.md
+purananuru,377,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/377.md
+purananuru,379,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/379.md
+purananuru,380,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/380.md
+purananuru,383,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/383.md
+purananuru,384,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/384.md
+purananuru,390,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/390.md
+purananuru,393,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/393.md
+purananuru,396,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/396.md
+purananuru,398,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/398.md
+purananuru,399,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/399.md
+purananuru,400,textual_lacuna,info,Printed dot-sequence lacuna is preserved unchanged,sources/purananuru.md,corpus/purananuru/poems/400.md

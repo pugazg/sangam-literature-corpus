@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.248349+05:30",
+  "order": 4,
+  "work_slug": "inna-narpathu",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "poem_count": 40,
+  "section_count": 2,
+  "poem_file_set_sha256": "ced5177d50a78ada7b568f02cd96e0483b3117100f44b40a0fce6f7cba142aae",
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_output_matches": 40,
+    "source_note_matches": 40
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

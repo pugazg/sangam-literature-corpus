@@ -1,0 +1,45 @@
+{
+  "work": "pattuppattu",
+  "completed_at": "2026-07-28T21:26:59+05:30",
+  "physical_repository": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "source_set": "sources/source-metadata/pattuppattu-source-set.json",
+  "source_objects": 10,
+  "canonical_records": 10,
+  "canonical_record_files": 10,
+  "navigation_sections": 10,
+  "source_output_matches": "10/10",
+  "source_note_matches": "10/10",
+  "duplicate_normalized_full_bodies": 0,
+  "schema_coverage": "10/10",
+  "physical_audit": "pass",
+  "tests": "58 passed",
+  "idempotence": {
+    "path_additions": [],
+    "path_removals": [],
+    "canonical_body_changes": [],
+    "source_note_changes": [],
+    "whole_record_changes": [],
+    "section_changes": [],
+    "structure_inventory_changes": [],
+    "metadata_changes": []
+  },
+  "frozen_work_regression": {
+    "natrinai": "no changes",
+    "aingurunuru": "no changes",
+    "kuruntokai": "no changes",
+    "akananuru": "no changes",
+    "purananuru": "no changes",
+    "comparison_baseline": "logs/pre-pattuppattu-baseline-20260722T185748.json",
+    "post_comparison": "logs/post-pattuppattu-regression-20260728T212659.json"
+  },
+  "mullaippattu": {
+    "selected_source": "pmuni0488",
+    "commentary_bearing": true,
+    "literary_lines": 103,
+    "commentary_excluded_from_canonical_body": true,
+    "decision_record": "sources/source-metadata/mullaippattu-canonical-source-decision.md"
+  },
+  "version_status": "unfrozen",
+  "corpus_schema_version": null,
+  "freeze_eligible": true
+}

@@ -1,0 +1,81 @@
+{
+  "prefatory_text": {
+    "heading_as_printed": "பாயிரம்",
+    "lines": [
+      "பண்புள்ளி நின்ற பெரியார் பயன்தெரிய",
+      "வண்புள்ளி மாறன் பொறையன் புணர்த்தியாத்த",
+      "ஐந்திணை ஐம்பதும் ஆர்வத்தின் ஓதாதார்",
+      "செந்தமிழ் சேரா தவர்."
+    ],
+    "source_note_lines": [],
+    "provenance": "Project Madurai printed unnumbered literary text"
+  },
+  "divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "முல்லை",
+      "thinai": "முல்லை",
+      "description_as_printed": [
+        "இடம் - காடும் காடு சேர்ந்த இடமும்",
+        "ஒழுக்கம் - ஆற்றி இருத்தலும் இருத்தல் நிமித்தமும்."
+      ],
+      "poem_start": 1,
+      "poem_end": 10,
+      "record_count": 10,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2.     குறிஞ்சி",
+      "thinai": "குறிஞ்சி",
+      "description_as_printed": [
+        "இடம் - மலையும் மலை சார்ந்த இடமும்",
+        "ஒழுக்கம் - புணர்தலும் புணர்தல் நிமித்தமும்"
+      ],
+      "poem_start": 11,
+      "poem_end": 20,
+      "record_count": 10,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.  மருதம்",
+      "thinai": "மருதம்",
+      "description_as_printed": [
+        "இடம் - வயலும் வயல் சார்ந்த இடமும்",
+        "ஒழுக்கம் - ஊடலும் ஊடல் நிமித்தமும்"
+      ],
+      "poem_start": 21,
+      "poem_end": 30,
+      "record_count": 10,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4.  பாலை",
+      "thinai": "பாலை",
+      "description_as_printed": [
+        "இடம் - குறிஞ்சியும் முல்லையும் திரந்த மணல் வெளி",
+        "(நீர்வற்றிய இடம்)",
+        "ஒழுக்கம் - பிரிதலும் பிரிதல் நிமித்தமும்"
+      ],
+      "poem_start": 31,
+      "poem_end": 40,
+      "record_count": 10,
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "5.  நெய்தல்",
+      "thinai": "நெய்தல்",
+      "description_as_printed": [
+        "இடம் - கடலும் கடல் சார்ந்த இடமும்",
+        "ஒழுக்கம் - இரங்கலும் இரங்கல் நிமித்தமும்."
+      ],
+      "poem_start": 41,
+      "poem_end": 50,
+      "record_count": 10,
+      "provenance": "Project Madurai printed division"
+    }
+  ]
+}

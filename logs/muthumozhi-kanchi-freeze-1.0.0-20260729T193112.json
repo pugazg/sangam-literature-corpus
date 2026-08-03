@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.410320+05:30",
+  "order": 16,
+  "work_slug": "muthumozhi-kanchi",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "poem_count": 100,
+  "section_count": 10,
+  "poem_file_set_sha256": "398e8abafe70dd8ca8d3236631cd948f2b5105b0b36af45f97571cd90fc0aa6f",
+  "validation": {
+    "status": "pass-with-review",
+    "errors": 0,
+    "warnings": 0,
+    "info": 1,
+    "source_output_matches": 100,
+    "source_note_matches": 100
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

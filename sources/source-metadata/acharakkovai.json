@@ -1,0 +1,14 @@
+{
+  "work": "acharakkovai",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0024",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0024.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0024.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 53610,
+  "source_checksum_sha256": "d9256bb5837e4934142b58bf7e5def7db794fe5620a1475d78af10adac62cb5a",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "பெருவாயின் முள்ளியாரின்  \"ஆசாரக்கோவை\"",
+  "parser": "acharakkovai-pmuni0024-v1",
+  "numbered_record_count": 100
+}

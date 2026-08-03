@@ -1,0 +1,15 @@
+{
+  "freeze_timestamp": "2026-07-29T17:30:00.061750+05:30",
+  "version": "1.0.0",
+  "status": "frozen",
+  "source": "pmuni0038",
+  "source_sha256": "dc783dbf0141205625e7a27d9a14848b2dcef316e935dc66770f0ce082e012cc",
+  "records": 80,
+  "sections": 8,
+  "source_output": "80/80",
+  "source_notes": "80/80",
+  "canonical_changes": [],
+  "audit": "pass",
+  "tests": "66 passed",
+  "frozen_regression": "pass"
+}

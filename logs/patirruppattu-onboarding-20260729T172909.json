@@ -1,0 +1,21 @@
+{
+  "completed_at": "2026-07-29T17:29:09.286308+05:30",
+  "source": "pmuni0038",
+  "source_sha256": "dc783dbf0141205625e7a27d9a14848b2dcef316e935dc66770f0ce082e012cc",
+  "records": 80,
+  "sections": 8,
+  "range": [
+    11,
+    90
+  ],
+  "lost_groups": [
+    1,
+    10
+  ],
+  "source_output": "80/80",
+  "source_notes": "80/80",
+  "validation": "pass",
+  "idempotence": "pass",
+  "version_status": "unfrozen",
+  "freeze_eligible": true
+}

@@ -1,0 +1,544 @@
+{
+  "work": "aintinai-elupathu",
+  "source_record_count": 70,
+  "canonical_poem_files": 70,
+  "canonical_literary_texts_available": 66,
+  "missing_numbers": [],
+  "duplicate_numbers": [],
+  "section_count": 5,
+  "hardened_schema_files_checked": 70,
+  "source_output_matches": 70,
+  "source_note_matches": 70,
+  "duplicate_full_bodies": [],
+  "shared_first_lines": [],
+  "source_output_fidelity": [
+    {
+      "poem_number": 64,
+      "source_body_hash_sha256": "67bdbba2550b2e4066cbde508a958f1cb552547c0c79757555dfb8cab319ac5c",
+      "markdown_body_hash_sha256": "67bdbba2550b2e4066cbde508a958f1cb552547c0c79757555dfb8cab319ac5c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 35,
+      "source_body_hash_sha256": "46f7c5bc9fc82f044b7be24534c6f9cc77deb28df73561ad896259f2bd5decf1",
+      "markdown_body_hash_sha256": "46f7c5bc9fc82f044b7be24534c6f9cc77deb28df73561ad896259f2bd5decf1",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 1,
+      "source_body_hash_sha256": "5e22ff30097fa0780f243ff3853332f2af089aca1189d6a9752eade9fbcf5f49",
+      "markdown_body_hash_sha256": "5e22ff30097fa0780f243ff3853332f2af089aca1189d6a9752eade9fbcf5f49",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 50,
+      "source_body_hash_sha256": "9e81cc3d33a92c89aa0b17f11230e8ecb4fca610979e0f99ef4bbd6d6fd6ff4c",
+      "markdown_body_hash_sha256": "9e81cc3d33a92c89aa0b17f11230e8ecb4fca610979e0f99ef4bbd6d6fd6ff4c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 40,
+      "source_body_hash_sha256": "91ce74f1bab40f2715951268e0a7fc0dbfa40ec958e9c112a615879f32320e09",
+      "markdown_body_hash_sha256": "91ce74f1bab40f2715951268e0a7fc0dbfa40ec958e9c112a615879f32320e09",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 11,
+      "source_body_hash_sha256": "a6015fef462c733a176dc745f68a122822a0d6baa775f8f9e92016571bd019e1",
+      "markdown_body_hash_sha256": "a6015fef462c733a176dc745f68a122822a0d6baa775f8f9e92016571bd019e1",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 25,
+      "source_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "markdown_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 54,
+      "source_body_hash_sha256": "b794d4d7a68b2560c5f021d2a9ce5edd0750d79e681bc7ed80efcef88ce0e3d6",
+      "markdown_body_hash_sha256": "b794d4d7a68b2560c5f021d2a9ce5edd0750d79e681bc7ed80efcef88ce0e3d6",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 5,
+      "source_body_hash_sha256": "b456048faf69dc55c3933d637cc170f4b4b6da25a0de93ac3efd380c77048483",
+      "markdown_body_hash_sha256": "b456048faf69dc55c3933d637cc170f4b4b6da25a0de93ac3efd380c77048483",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 31,
+      "source_body_hash_sha256": "1781a311d5bafe1aae1346b2f9bb6cfee9fd6d714e2ec609f57c2781536bad7b",
+      "markdown_body_hash_sha256": "1781a311d5bafe1aae1346b2f9bb6cfee9fd6d714e2ec609f57c2781536bad7b",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 60,
+      "source_body_hash_sha256": "70501dcfbeb1e23bf49384e54440ef5b8911fef98910aab633385682d2914237",
+      "markdown_body_hash_sha256": "70501dcfbeb1e23bf49384e54440ef5b8911fef98910aab633385682d2914237",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 70,
+      "source_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "markdown_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 21,
+      "source_body_hash_sha256": "b21d4d9a6a35ab4212921648117b36da3adf8727d5b392fa4a32e8168ec3778b",
+      "markdown_body_hash_sha256": "b21d4d9a6a35ab4212921648117b36da3adf8727d5b392fa4a32e8168ec3778b",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 15,
+      "source_body_hash_sha256": "14c42488a915c3a73d7c1ae5b45d6c076eabeaf35e0eea2d661d80cd714cf3af",
+      "markdown_body_hash_sha256": "14c42488a915c3a73d7c1ae5b45d6c076eabeaf35e0eea2d661d80cd714cf3af",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 44,
+      "source_body_hash_sha256": "7b6a1d11a7067a70bf834ce6ef7060b5783b0524c19f595bdb0c21e73b6422a9",
+      "markdown_body_hash_sha256": "7b6a1d11a7067a70bf834ce6ef7060b5783b0524c19f595bdb0c21e73b6422a9",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 55,
+      "source_body_hash_sha256": "c5b22f2e8d6b82d4691970f2f24ed139c137acfb90d003dffa2839049a1f93f2",
+      "markdown_body_hash_sha256": "c5b22f2e8d6b82d4691970f2f24ed139c137acfb90d003dffa2839049a1f93f2",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 4,
+      "source_body_hash_sha256": "c96d8ad4ac5f7b918250ed9c796e7b2f93d59252d86b27fe7e4c13fc4dc815d8",
+      "markdown_body_hash_sha256": "c96d8ad4ac5f7b918250ed9c796e7b2f93d59252d86b27fe7e4c13fc4dc815d8",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 30,
+      "source_body_hash_sha256": "6c40373b771b2e921ea3c78d6861d21490d4e6fee030fdf6a8e950f110b5cfc4",
+      "markdown_body_hash_sha256": "6c40373b771b2e921ea3c78d6861d21490d4e6fee030fdf6a8e950f110b5cfc4",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 61,
+      "source_body_hash_sha256": "a75dadec813e52bf266f20a162ce42fb9c02740428b5110ed59620b6570e8c34",
+      "markdown_body_hash_sha256": "a75dadec813e52bf266f20a162ce42fb9c02740428b5110ed59620b6570e8c34",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 20,
+      "source_body_hash_sha256": "7116f4084bca63488d1f3f9d1dea956a28ef1fd6f667355b4926e59784ad9c3d",
+      "markdown_body_hash_sha256": "7116f4084bca63488d1f3f9d1dea956a28ef1fd6f667355b4926e59784ad9c3d",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 14,
+      "source_body_hash_sha256": "c72419ba03a8f1eb171bbf81c4362a65d6bf09c8d3736431e8c60c334ea8a93b",
+      "markdown_body_hash_sha256": "c72419ba03a8f1eb171bbf81c4362a65d6bf09c8d3736431e8c60c334ea8a93b",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 45,
+      "source_body_hash_sha256": "f7b7d52d4802c3c2a6278c01265c05b2bcd431777d9758158cdd987135034a1a",
+      "markdown_body_hash_sha256": "f7b7d52d4802c3c2a6278c01265c05b2bcd431777d9758158cdd987135034a1a",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 65,
+      "source_body_hash_sha256": "d4231302184aebaf9d314c0b3f12b1b77ba8d762cb884e4331e494206e922ad8",
+      "markdown_body_hash_sha256": "d4231302184aebaf9d314c0b3f12b1b77ba8d762cb884e4331e494206e922ad8",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 34,
+      "source_body_hash_sha256": "3319daebf3a85ae7165f44a55db3307ed3e68ce07c266167c5c5e4a18319f8c4",
+      "markdown_body_hash_sha256": "3319daebf3a85ae7165f44a55db3307ed3e68ce07c266167c5c5e4a18319f8c4",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 51,
+      "source_body_hash_sha256": "8e051e625498c615e048bb28644147c6679672fa09619993cc8376e7bb9276f4",
+      "markdown_body_hash_sha256": "8e051e625498c615e048bb28644147c6679672fa09619993cc8376e7bb9276f4",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 41,
+      "source_body_hash_sha256": "7ea40c624b3f0a01802a6292b6af352012c1ce68323ae203ac2fe3bf4156ee48",
+      "markdown_body_hash_sha256": "7ea40c624b3f0a01802a6292b6af352012c1ce68323ae203ac2fe3bf4156ee48",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 10,
+      "source_body_hash_sha256": "f48a637ea5b08a0e8e8c0d81ae325a5cab6d12ec4c70dfe5b7dbb158a508be85",
+      "markdown_body_hash_sha256": "f48a637ea5b08a0e8e8c0d81ae325a5cab6d12ec4c70dfe5b7dbb158a508be85",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 24,
+      "source_body_hash_sha256": "11558a7ce34437235b9149ae0e4d08518b3766c506b61fef7aed7b4720fdc3df",
+      "markdown_body_hash_sha256": "11558a7ce34437235b9149ae0e4d08518b3766c506b61fef7aed7b4720fdc3df",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 68,
+      "source_body_hash_sha256": "a8d1279ad5658c8f8092efd02bd0c6976daf97a591e48fe28caf7356ff32067c",
+      "markdown_body_hash_sha256": "a8d1279ad5658c8f8092efd02bd0c6976daf97a591e48fe28caf7356ff32067c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 39,
+      "source_body_hash_sha256": "369635d50a8c38b826c7772ae1123de7ab09d71220f2e02314e07ccdb21953c6",
+      "markdown_body_hash_sha256": "369635d50a8c38b826c7772ae1123de7ab09d71220f2e02314e07ccdb21953c6",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 29,
+      "source_body_hash_sha256": "a17ede6af956ef256ad9b5def98e80b1827eb1d6818fff113a49e6e0eb99fafb",
+      "markdown_body_hash_sha256": "a17ede6af956ef256ad9b5def98e80b1827eb1d6818fff113a49e6e0eb99fafb",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 58,
+      "source_body_hash_sha256": "947c9a10648f287399d1474244378baa98a075ad6431f786023052b7100a71d3",
+      "markdown_body_hash_sha256": "947c9a10648f287399d1474244378baa98a075ad6431f786023052b7100a71d3",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 9,
+      "source_body_hash_sha256": "d660ee3199e985f52d4e9194e08f918e4f76a104ad8cf26976094daa658bde2c",
+      "markdown_body_hash_sha256": "d660ee3199e985f52d4e9194e08f918e4f76a104ad8cf26976094daa658bde2c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 19,
+      "source_body_hash_sha256": "054217030fbe76cc6710bf4f39d16f2eaaed025912ced12fd2bab980064334bc",
+      "markdown_body_hash_sha256": "054217030fbe76cc6710bf4f39d16f2eaaed025912ced12fd2bab980064334bc",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 48,
+      "source_body_hash_sha256": "4efef3abc7e037f9e8dbe81db4fe823c5931aacfeeefadd20aa1077b5e0dde85",
+      "markdown_body_hash_sha256": "4efef3abc7e037f9e8dbe81db4fe823c5931aacfeeefadd20aa1077b5e0dde85",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 59,
+      "source_body_hash_sha256": "9f1906dd2f464f28a04e1681804e2e84f9fd57123ce90c7d8fa73db699557e50",
+      "markdown_body_hash_sha256": "9f1906dd2f464f28a04e1681804e2e84f9fd57123ce90c7d8fa73db699557e50",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 8,
+      "source_body_hash_sha256": "ae98cdda7aadbbd838b98dc4ac86e58c29580656222f10d0cec7f5a484837dc2",
+      "markdown_body_hash_sha256": "ae98cdda7aadbbd838b98dc4ac86e58c29580656222f10d0cec7f5a484837dc2",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 18,
+      "source_body_hash_sha256": "41f993d61c9bc033730a3af488581783af116486c932f35362acda25916608bb",
+      "markdown_body_hash_sha256": "41f993d61c9bc033730a3af488581783af116486c932f35362acda25916608bb",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 49,
+      "source_body_hash_sha256": "ae836bf6a092518f82b0d436d5b26eead57e6561e74525ce4de8b4634e9b26b3",
+      "markdown_body_hash_sha256": "ae836bf6a092518f82b0d436d5b26eead57e6561e74525ce4de8b4634e9b26b3",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 69,
+      "source_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "markdown_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 38,
+      "source_body_hash_sha256": "f96c2f97170b83d7f26d4c3a060966b4cc9f58596b0783b3551db528769c2ad3",
+      "markdown_body_hash_sha256": "f96c2f97170b83d7f26d4c3a060966b4cc9f58596b0783b3551db528769c2ad3",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 28,
+      "source_body_hash_sha256": "2d17c55eab1340ba7cd4b5dcf9fc6763adefab476e7fcf25a894016f36b7ac89",
+      "markdown_body_hash_sha256": "2d17c55eab1340ba7cd4b5dcf9fc6763adefab476e7fcf25a894016f36b7ac89",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 7,
+      "source_body_hash_sha256": "4e4a090e3258acdb239b72c9e94ff20baae91f05450ed342692b30a171c046ba",
+      "markdown_body_hash_sha256": "4e4a090e3258acdb239b72c9e94ff20baae91f05450ed342692b30a171c046ba",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 56,
+      "source_body_hash_sha256": "e66bbea29ff1cb7506e4662d7f134b0998a02301738f6aa17090e137a438207c",
+      "markdown_body_hash_sha256": "e66bbea29ff1cb7506e4662d7f134b0998a02301738f6aa17090e137a438207c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 62,
+      "source_body_hash_sha256": "b4194e700c7097955122999eeaa65aba8c2f017e782862a5919c2be2fdeb985e",
+      "markdown_body_hash_sha256": "b4194e700c7097955122999eeaa65aba8c2f017e782862a5919c2be2fdeb985e",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 33,
+      "source_body_hash_sha256": "3d5cec859434bcb8c6f984fee719f7c226a359445dbc900db8d51fdc475bbdee",
+      "markdown_body_hash_sha256": "3d5cec859434bcb8c6f984fee719f7c226a359445dbc900db8d51fdc475bbdee",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 23,
+      "source_body_hash_sha256": "19b93dd8f4de2451b3db4b8f888480c9f8d95fe7cff2cb7ad7a4c55208be678f",
+      "markdown_body_hash_sha256": "19b93dd8f4de2451b3db4b8f888480c9f8d95fe7cff2cb7ad7a4c55208be678f",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 46,
+      "source_body_hash_sha256": "d8020ea8c22f3874b78ad874e86f953b00a18dd1f64988075f8d4bb314fab1c1",
+      "markdown_body_hash_sha256": "d8020ea8c22f3874b78ad874e86f953b00a18dd1f64988075f8d4bb314fab1c1",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 17,
+      "source_body_hash_sha256": "868444117072631a49709ee49db075206d077ab690029df71cfeb6426a656ca0",
+      "markdown_body_hash_sha256": "868444117072631a49709ee49db075206d077ab690029df71cfeb6426a656ca0",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 37,
+      "source_body_hash_sha256": "adc784386be0a148917ef076f0bfbb9970e53581ddb98a58927b96bb802c9f27",
+      "markdown_body_hash_sha256": "adc784386be0a148917ef076f0bfbb9970e53581ddb98a58927b96bb802c9f27",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 66,
+      "source_body_hash_sha256": "09dddc40b6800a74d4f64b5d87c7ea09219c285a5c72b413a43bdecbe6fcd8b4",
+      "markdown_body_hash_sha256": "09dddc40b6800a74d4f64b5d87c7ea09219c285a5c72b413a43bdecbe6fcd8b4",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 52,
+      "source_body_hash_sha256": "cdc2121b16dcb118aafdfd895186c06b225e88729d3f5d5d7eb1341cb26123cb",
+      "markdown_body_hash_sha256": "cdc2121b16dcb118aafdfd895186c06b225e88729d3f5d5d7eb1341cb26123cb",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 3,
+      "source_body_hash_sha256": "d03a1a498ea2fc74c29b13025f47b991be8a673e4c8bf2ac8f1d9d2c6d452a7e",
+      "markdown_body_hash_sha256": "d03a1a498ea2fc74c29b13025f47b991be8a673e4c8bf2ac8f1d9d2c6d452a7e",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 13,
+      "source_body_hash_sha256": "63a7a612cee61939dcaa56bfeeaefe99b51c3a4ee9ac04ae9e13a15f71581606",
+      "markdown_body_hash_sha256": "63a7a612cee61939dcaa56bfeeaefe99b51c3a4ee9ac04ae9e13a15f71581606",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 42,
+      "source_body_hash_sha256": "c36f3c877fe50667d4a37e3b4f1b46396aae9449f6c959f89d80a4adff896c6c",
+      "markdown_body_hash_sha256": "c36f3c877fe50667d4a37e3b4f1b46396aae9449f6c959f89d80a4adff896c6c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 27,
+      "source_body_hash_sha256": "f0345c66391c0bf4c0215c915407524fdd92cabbc51b53fceff194d5e9a1e607",
+      "markdown_body_hash_sha256": "f0345c66391c0bf4c0215c915407524fdd92cabbc51b53fceff194d5e9a1e607",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 36,
+      "source_body_hash_sha256": "f73627a6c87ff70d9ee679bc5ba47855b5c4b9dbf35140afd370cc6927288f03",
+      "markdown_body_hash_sha256": "f73627a6c87ff70d9ee679bc5ba47855b5c4b9dbf35140afd370cc6927288f03",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 67,
+      "source_body_hash_sha256": "d00e99ed8e6da641c50a5c6ebfe9af27593625829c5ad813230cc28e9e1da387",
+      "markdown_body_hash_sha256": "d00e99ed8e6da641c50a5c6ebfe9af27593625829c5ad813230cc28e9e1da387",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 53,
+      "source_body_hash_sha256": "ae3296450b1ebe234dfafbdeb3287c337d6ca32c3aaaf15edc83e0452ce6c94b",
+      "markdown_body_hash_sha256": "ae3296450b1ebe234dfafbdeb3287c337d6ca32c3aaaf15edc83e0452ce6c94b",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 2,
+      "source_body_hash_sha256": "50eb0758ebbd58c40db1299e8d0b454eefcce8f2fa7c3785b51eacddfaee4fd9",
+      "markdown_body_hash_sha256": "50eb0758ebbd58c40db1299e8d0b454eefcce8f2fa7c3785b51eacddfaee4fd9",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 12,
+      "source_body_hash_sha256": "72fc0ffb7d4bfaa52cee900be81f427c3f2653222d875791c61314e7767f10cf",
+      "markdown_body_hash_sha256": "72fc0ffb7d4bfaa52cee900be81f427c3f2653222d875791c61314e7767f10cf",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 43,
+      "source_body_hash_sha256": "af807478bdf21954498039021225ef469fdfe951acda83c4538ff37b2783ec11",
+      "markdown_body_hash_sha256": "af807478bdf21954498039021225ef469fdfe951acda83c4538ff37b2783ec11",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 26,
+      "source_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "markdown_body_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 6,
+      "source_body_hash_sha256": "918a54d873aa880b72a61cf0863b0a842e70bfbd4ee066b19a04364d03262dab",
+      "markdown_body_hash_sha256": "918a54d873aa880b72a61cf0863b0a842e70bfbd4ee066b19a04364d03262dab",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 57,
+      "source_body_hash_sha256": "bbb3fb7e8111b124aa3e0ed400ab3735f12a8cf28caa864dfd08f1ace79e5a9f",
+      "markdown_body_hash_sha256": "bbb3fb7e8111b124aa3e0ed400ab3735f12a8cf28caa864dfd08f1ace79e5a9f",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 63,
+      "source_body_hash_sha256": "807d7199a68129e78416e3548f94b59e547ac74e6c5a2a3784368a6860446ef2",
+      "markdown_body_hash_sha256": "807d7199a68129e78416e3548f94b59e547ac74e6c5a2a3784368a6860446ef2",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 32,
+      "source_body_hash_sha256": "59189082c5834d1463eab8e78e3d7e452baedfe18faceab78c0aac1485e6800c",
+      "markdown_body_hash_sha256": "59189082c5834d1463eab8e78e3d7e452baedfe18faceab78c0aac1485e6800c",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 22,
+      "source_body_hash_sha256": "c01e0a98a5e6d8e5f93391b74e57f256f4681af7f10a8685d41068198e516899",
+      "markdown_body_hash_sha256": "c01e0a98a5e6d8e5f93391b74e57f256f4681af7f10a8685d41068198e516899",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 47,
+      "source_body_hash_sha256": "5961b3f7578426e80c16da58609427611144067ddbb8189e95b94f616ce37d2e",
+      "markdown_body_hash_sha256": "5961b3f7578426e80c16da58609427611144067ddbb8189e95b94f616ce37d2e",
+      "source_output_match": true,
+      "source_note_match": true
+    },
+    {
+      "poem_number": 16,
+      "source_body_hash_sha256": "bfb1f25efc37a189c86ada8b523942bbaa89361f789497c2508d8ee196144267",
+      "markdown_body_hash_sha256": "bfb1f25efc37a189c86ada8b523942bbaa89361f789497c2508d8ee196144267",
+      "source_output_match": true,
+      "source_note_match": true
+    }
+  ],
+  "errors": 0,
+  "warnings": 4,
+  "info": 0,
+  "issues": [
+    {
+      "work": "aintinai-elupathu",
+      "poem_number": 25,
+      "issue_type": "source_text_lost",
+      "severity": "warning",
+      "message": "Selected source explicitly marks this record lost",
+      "markdown_file": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus/corpus/aintinai-elupathu/poems/025.md"
+    },
+    {
+      "work": "aintinai-elupathu",
+      "poem_number": 70,
+      "issue_type": "source_text_lost",
+      "severity": "warning",
+      "message": "Selected source explicitly marks this record lost",
+      "markdown_file": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus/corpus/aintinai-elupathu/poems/070.md"
+    },
+    {
+      "work": "aintinai-elupathu",
+      "poem_number": 69,
+      "issue_type": "source_text_lost",
+      "severity": "warning",
+      "message": "Selected source explicitly marks this record lost",
+      "markdown_file": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus/corpus/aintinai-elupathu/poems/069.md"
+    },
+    {
+      "work": "aintinai-elupathu",
+      "poem_number": 26,
+      "issue_type": "source_text_lost",
+      "severity": "warning",
+      "message": "Selected source explicitly marks this record lost",
+      "markdown_file": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus/corpus/aintinai-elupathu/poems/026.md"
+    }
+  ],
+  "status": "pass-with-review"
+}

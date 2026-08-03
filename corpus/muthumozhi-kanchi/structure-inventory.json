@@ -1,0 +1,97 @@
+{
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1. சிறந்த பத்து",
+      "poem_start": 1,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 10,
+      "record_count": 10
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2. அறிவுப்பத்து",
+      "poem_start": 11,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 20,
+      "record_count": 10
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.  பழியாப் பத்து",
+      "poem_start": 21,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 30,
+      "record_count": 10
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4.  துவ்வாப் பத்து",
+      "poem_start": 31,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 40,
+      "record_count": 10
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "5.  அல்ல பத்து",
+      "poem_start": 41,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 50,
+      "record_count": 10
+    },
+    {
+      "sequence": 6,
+      "heading_as_printed": "6.  இல்லைப் பத்து",
+      "poem_start": 51,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 60,
+      "record_count": 10
+    },
+    {
+      "sequence": 7,
+      "heading_as_printed": "7. பொய்ப் பத்து",
+      "poem_start": 61,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 70,
+      "record_count": 10
+    },
+    {
+      "sequence": 8,
+      "heading_as_printed": "8.  எளிய பத்து",
+      "poem_start": 71,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 80,
+      "record_count": 10
+    },
+    {
+      "sequence": 9,
+      "heading_as_printed": "9.  நல்கூர்ந்த பத்து",
+      "poem_start": 81,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 90,
+      "record_count": 10
+    },
+    {
+      "sequence": 10,
+      "heading_as_printed": "10.  தண்டாப் பத்து",
+      "poem_start": 91,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 100,
+      "record_count": 10
+    }
+  ],
+  "navigation_files": [
+    "01-001-010.md",
+    "02-011-020.md",
+    "03-021-030.md",
+    "04-031-040.md",
+    "05-041-050.md",
+    "06-051-060.md",
+    "07-061-070.md",
+    "08-071-080.md",
+    "09-081-090.md",
+    "10-091-100.md"
+  ],
+  "prefatory_text": null
+}

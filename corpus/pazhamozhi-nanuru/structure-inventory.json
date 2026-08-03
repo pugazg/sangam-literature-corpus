@@ -1,0 +1,320 @@
+{
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1. கல்வி",
+      "poem_start": 1,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 10,
+      "record_count": 10
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2. கல்லாதார்",
+      "poem_start": 11,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 16,
+      "record_count": 6
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3. அவையறிதல்",
+      "poem_start": 17,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 25,
+      "record_count": 9
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4. அறிவுடைமை",
+      "poem_start": 26,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 33,
+      "record_count": 8
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "5. ஒழுக்கம்",
+      "poem_start": 34,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 42,
+      "record_count": 9
+    },
+    {
+      "sequence": 6,
+      "heading_as_printed": "6. இன்னா செய்யாமை",
+      "poem_start": 43,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 50,
+      "record_count": 8
+    },
+    {
+      "sequence": 7,
+      "heading_as_printed": "7. வெகுளாமை",
+      "poem_start": 51,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 59,
+      "record_count": 9
+    },
+    {
+      "sequence": 8,
+      "heading_as_printed": "8. பெரியாரைப் பிழையாமை",
+      "poem_start": 60,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 64,
+      "record_count": 5
+    },
+    {
+      "sequence": 9,
+      "heading_as_printed": "9. புகழ்தலின் கூறுபாடு",
+      "poem_start": 65,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 68,
+      "record_count": 4
+    },
+    {
+      "sequence": 10,
+      "heading_as_printed": "10. சான்றோர் இயல்பு",
+      "poem_start": 69,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 80,
+      "record_count": 12
+    },
+    {
+      "sequence": 11,
+      "heading_as_printed": "11. சான்றோர் செய்கை",
+      "poem_start": 81,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 106,
+      "record_count": 26
+    },
+    {
+      "sequence": 13,
+      "heading_as_printed": "13. கீழ்மக்கள் செய்கை",
+      "poem_start": 107,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 123,
+      "record_count": 17
+    },
+    {
+      "sequence": 14,
+      "heading_as_printed": "14. நட்பின் இயல்பு",
+      "poem_start": 124,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 134,
+      "record_count": 11
+    },
+    {
+      "sequence": 15,
+      "heading_as_printed": "15. நட்பில் விலக்கு",
+      "poem_start": 135,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 141,
+      "record_count": 7
+    },
+    {
+      "sequence": 16,
+      "heading_as_printed": "16. பிறர் இயல்பைக் குறிப்பால் உணர்தல்",
+      "poem_start": 142,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 148,
+      "record_count": 7
+    },
+    {
+      "sequence": 17,
+      "heading_as_printed": "17. முயற்சி",
+      "poem_start": 149,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 161,
+      "record_count": 13
+    },
+    {
+      "sequence": 18,
+      "heading_as_printed": "18. கருமம் முடித்தல்",
+      "poem_start": 162,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 176,
+      "record_count": 15
+    },
+    {
+      "sequence": 19,
+      "heading_as_printed": "19. மறை பிறர் அறியாமை",
+      "poem_start": 177,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 182,
+      "record_count": 6
+    },
+    {
+      "sequence": 20,
+      "heading_as_printed": "20. தெரிந்து தெளிதல்",
+      "poem_start": 183,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 195,
+      "record_count": 13
+    },
+    {
+      "sequence": 21,
+      "heading_as_printed": "21. பொருள்",
+      "poem_start": 196,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 204,
+      "record_count": 9
+    },
+    {
+      "sequence": 22,
+      "heading_as_printed": "22. பொருளைப் பெறுதல்",
+      "poem_start": 205,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 212,
+      "record_count": 8
+    },
+    {
+      "sequence": 23,
+      "heading_as_printed": "23. நன்றியில் செல்வம்",
+      "poem_start": 213,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 226,
+      "record_count": 14
+    },
+    {
+      "sequence": 24,
+      "heading_as_printed": "24. ஊழ்",
+      "poem_start": 227,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 240,
+      "record_count": 14
+    },
+    {
+      "sequence": 25,
+      "heading_as_printed": "25. அரசியல்பு",
+      "poem_start": 241,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 257,
+      "record_count": 17
+    },
+    {
+      "sequence": 26,
+      "heading_as_printed": "26. அமைச்சர்",
+      "poem_start": 258,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 265,
+      "record_count": 8
+    },
+    {
+      "sequence": 27,
+      "heading_as_printed": "27. மன்னரைச் சேர்ந்தொழுகல்",
+      "poem_start": 266,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 284,
+      "record_count": 19
+    },
+    {
+      "sequence": 28,
+      "heading_as_printed": "28. பகைத்திறம் தெரிதல்",
+      "poem_start": 285,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 310,
+      "record_count": 26
+    },
+    {
+      "sequence": 29,
+      "heading_as_printed": "29. படைவீரர்",
+      "poem_start": 311,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 326,
+      "record_count": 16
+    },
+    {
+      "sequence": 30,
+      "heading_as_printed": "30. இல்வாழ்க்கை",
+      "poem_start": 327,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 347,
+      "record_count": 21
+    },
+    {
+      "sequence": 31,
+      "heading_as_printed": "31. உறவினர்",
+      "poem_start": 348,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 356,
+      "record_count": 9
+    },
+    {
+      "sequence": 32,
+      "heading_as_printed": "32. அறம் செய்தல்",
+      "poem_start": 357,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 371,
+      "record_count": 15
+    },
+    {
+      "sequence": 33,
+      "heading_as_printed": "33. ஈகை",
+      "poem_start": 372,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 386,
+      "record_count": 15
+    },
+    {
+      "sequence": 34,
+      "heading_as_printed": "34. வீட்டு நெறி",
+      "poem_start": 387,
+      "provenance": "Project Madurai printed chapter",
+      "poem_end": 399,
+      "record_count": 13
+    }
+  ],
+  "navigation_files": [
+    "01-001-010.md",
+    "02-011-016.md",
+    "03-017-025.md",
+    "04-026-033.md",
+    "05-034-042.md",
+    "06-043-050.md",
+    "07-051-059.md",
+    "08-060-064.md",
+    "09-065-068.md",
+    "10-069-080.md",
+    "11-081-106.md",
+    "13-107-123.md",
+    "14-124-134.md",
+    "15-135-141.md",
+    "16-142-148.md",
+    "17-149-161.md",
+    "18-162-176.md",
+    "19-177-182.md",
+    "20-183-195.md",
+    "21-196-204.md",
+    "22-205-212.md",
+    "23-213-226.md",
+    "24-227-240.md",
+    "25-241-257.md",
+    "26-258-265.md",
+    "27-266-284.md",
+    "28-285-310.md",
+    "29-311-326.md",
+    "30-327-347.md",
+    "31-348-356.md",
+    "32-357-371.md",
+    "33-372-386.md",
+    "34-387-399.md"
+  ],
+  "prefatory_text": {
+    "heading_as_printed": "தற்சிறப்புப் பாயிரம் / கடவுள் வணக்கம்",
+    "lines": [
+      "காலம்  கி.பி. ஐந்தாம் நூற்றாண்டு",
+      "தற்சிறப்புப் பாயிரம்",
+      "பிண்டியின் நீழல் பெருமான் அடிவணங்கிப்",
+      "பண்டைப் பழமொழி நானூறும் - கொண்டினிதா",
+      "முன்றுறை மன்னவன் நான்கடியும் செய்தமைத்தான்",
+      "இன்றுறை வெண்பா இவை.",
+      "கடவுள் வணக்கம்",
+      "அரிதவித்து ஆசின்று உணர்ந்தவன் பாதம்",
+      "விரிகடல் சூழ்ந்த வியன்கண்மா ஞாலத்து",
+      "உரியதனிற் கண்டுணர்ந்தார் ஓக்கமே போலப்",
+      "'பெரியதன் ஆவி பெரிது.'",
+      "நூல்"
+    ]
+  }
+}

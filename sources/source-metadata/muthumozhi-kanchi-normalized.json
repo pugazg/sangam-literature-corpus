@@ -1,0 +1,1303 @@
+{
+  "parser": "muthumozhi-kanchi-pmuni0025-v1",
+  "work_slug": "muthumozhi-kanchi",
+  "title_tamil_as_printed": "4.  முதுமொழிக் காஞ்சி :மதுரைக் கூடலூர் கிழார் அருளியது",
+  "poems": [
+    {
+      "poem_number": 1,
+      "poem_number_as_printed": 1,
+      "source_order": 1,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "ஓதலிற் சிறந்தன்று ஒழுக்கம் உடைமை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 2,
+      "poem_number_as_printed": 2,
+      "source_order": 2,
+      "lines": [
+        "காதலிற் சிறந்தன்று கண்ணஞ்சப் படுதல்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 3,
+      "poem_number_as_printed": 3,
+      "source_order": 3,
+      "lines": [
+        "மேதையிற் சிறந்தன்று கற்றது மறவாமை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 4,
+      "poem_number_as_printed": 4,
+      "source_order": 4,
+      "lines": [
+        "வண்மையிற் சிறந்தன்று வாய்மை உடைமை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 5,
+      "poem_number_as_printed": 5,
+      "source_order": 5,
+      "lines": [
+        "இளமையிற் சிறந்தன்று மெய்பிணி யின்மை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 6,
+      "poem_number_as_printed": 6,
+      "source_order": 6,
+      "lines": [
+        "நலனுடை மையின் நாணுச் சிறந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 7,
+      "poem_number_as_printed": 7,
+      "source_order": 7,
+      "lines": [
+        "குலனுடை மையின் கற்புச் சிறந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 8,
+      "poem_number_as_printed": 8,
+      "source_order": 8,
+      "lines": [
+        "கற்றலின் கற்றாரை வழிபடுதல் சிறந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 9,
+      "poem_number_as_printed": 9,
+      "source_order": 9,
+      "lines": [
+        "செற்றாரைச் செறுத்தலின் கற்செய்கை சிறந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 10,
+      "poem_number_as_printed": 10,
+      "source_order": 10,
+      "lines": [
+        "முற்பெரு கலின்பின் சிறுகாமை சிறந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 1,
+      "division_as_printed": "1. சிறந்த பத்து"
+    },
+    {
+      "poem_number": 11,
+      "poem_number_as_printed": 11,
+      "source_order": 11,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "பேரில் பிறந்தமை ஈரத்தின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 12,
+      "poem_number_as_printed": 12,
+      "source_order": 12,
+      "lines": [
+        "ஈரம் உடைமை ஈகையின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 13,
+      "poem_number_as_printed": 13,
+      "source_order": 13,
+      "lines": [
+        "சேரா நல்நட்(பு) உதவியின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 14,
+      "poem_number_as_printed": 14,
+      "source_order": 14,
+      "lines": [
+        "கற்றது உடைமை காட்சியின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 15,
+      "poem_number_as_printed": 15,
+      "source_order": 15,
+      "lines": [
+        "ஏற்ற முடைமை எதிர்கொளின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 16,
+      "poem_number_as_printed": 16,
+      "source_order": 16,
+      "lines": [
+        "சிற்றில் பிறந்தமை பெருமிதத்தின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 17,
+      "poem_number_as_printed": 17,
+      "source_order": 17,
+      "lines": [
+        "குத்திரம் செய்தலின் கள்வனாதல் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 18,
+      "poem_number_as_printed": 18,
+      "source_order": 18,
+      "lines": [
+        "சொற்சோர்வு உடைமையின் எச்சோர்வும் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 19,
+      "poem_number_as_printed": 19,
+      "source_order": 19,
+      "lines": [
+        "அறிவுசோர்வு உடைமையின் பிறிதுசோர்வும் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 20,
+      "poem_number_as_printed": 20,
+      "source_order": 20,
+      "lines": [
+        "சீருடை யாண்மை செய்கையின் அறிப"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 2,
+      "division_as_printed": "2. அறிவுப்பத்து"
+    },
+    {
+      "poem_number": 21,
+      "poem_number_as_printed": 21,
+      "source_order": 21,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "யாப்பி லோரை இயல்குணம் பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 22,
+      "poem_number_as_printed": 22,
+      "source_order": 22,
+      "lines": [
+        "மீப்பி லோரை மீக்குணம் பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 23,
+      "poem_number_as_printed": 23,
+      "source_order": 23,
+      "lines": [
+        "பெருமை உடையதன் அருமை பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 24,
+      "poem_number_as_printed": 24,
+      "source_order": 24,
+      "lines": [
+        "அருமை யுடையதன் பெருமை பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 25,
+      "poem_number_as_printed": 25,
+      "source_order": 25,
+      "lines": [
+        "நிறையச் செய்யாக் குறைவினை பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 26,
+      "poem_number_as_printed": 26,
+      "source_order": 26,
+      "lines": [
+        "முறையில் அரசர்நாட் டிருந்து பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 27,
+      "poem_number_as_printed": 27,
+      "source_order": 27,
+      "lines": [
+        "செய்தக்க நற்கேளிர் செய்யாமை பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 28,
+      "poem_number_as_printed": 28,
+      "source_order": 28,
+      "lines": [
+        "அறியாத் தேசத்து ஆசாரம் பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 29,
+      "poem_number_as_printed": 29,
+      "source_order": 29,
+      "lines": [
+        "வறியோன் வள்ளியன்  அன்மை பழியார்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 30,
+      "poem_number_as_printed": 30,
+      "source_order": 30,
+      "lines": [
+        "சிறியோர் ஒழுக்கம் சிறந்தோரும் பழியார்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 3,
+      "division_as_printed": "3.  பழியாப் பத்து"
+    },
+    {
+      "poem_number": 31,
+      "poem_number_as_printed": 31,
+      "source_order": 31,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "பழியோர் செல்வம் வறுமையில் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 32,
+      "poem_number_as_printed": 32,
+      "source_order": 32,
+      "lines": [
+        "கழிதறு கண்மை பேடியின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 33,
+      "poem_number_as_printed": 33,
+      "source_order": 33,
+      "lines": [
+        "நாணில் வாழ்க்கை பசித்தலின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 34,
+      "poem_number_as_printed": 34,
+      "source_order": 34,
+      "lines": [
+        "பேணில் ஈகை மாற்றலின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 35,
+      "poem_number_as_printed": 35,
+      "source_order": 35,
+      "lines": [
+        "செய்யாமை மேற்கோள் சிதடியின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 36,
+      "poem_number_as_printed": 36,
+      "source_order": 36,
+      "lines": [
+        "பொய்வே ளாண்மை புலைமையின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 37,
+      "poem_number_as_printed": 37,
+      "source_order": 37,
+      "lines": [
+        "கொண்டுகண் மாறல் கொடுமையின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 38,
+      "poem_number_as_printed": 38,
+      "source_order": 38,
+      "lines": [
+        "அறிவிலி துணைப்பாடு தனிமையின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 39,
+      "poem_number_as_printed": 39,
+      "source_order": 39,
+      "lines": [
+        "இழிவுடை மூப்புக் கதத்தின் துவ்வாது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 40,
+      "poem_number_as_printed": 40,
+      "source_order": 40,
+      "lines": [
+        "தானோர் இன்புறல் தனிமையின் துவ்வாது."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 4,
+      "division_as_printed": "4.  துவ்வாப் பத்து"
+    },
+    {
+      "poem_number": 41,
+      "poem_number_as_printed": 41,
+      "source_order": 41,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "நீரறிந்து ஒழுகாதான் தாரம் அல்லன்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 42,
+      "poem_number_as_printed": 42,
+      "source_order": 42,
+      "lines": [
+        "தார(ம்)மா ணாதது வாழ்க்கை யன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 43,
+      "poem_number_as_printed": 43,
+      "source_order": 43,
+      "lines": [
+        "ஈரலில் லாதது கிளைநட் பன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 44,
+      "poem_number_as_printed": 44,
+      "source_order": 44,
+      "lines": [
+        "சோராக் கையன் சொன்மலை யல்லன்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 45,
+      "poem_number_as_printed": 45,
+      "source_order": 45,
+      "lines": [
+        "நேரா நெஞ்சத்தோன் நட்டோ ன் அல்லன்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 46,
+      "poem_number_as_printed": 46,
+      "source_order": 46,
+      "lines": [
+        "நேராமற் கற்றது கல்வி யன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 47,
+      "poem_number_as_printed": 47,
+      "source_order": 47,
+      "lines": [
+        "வாழாமல் வருந்தியது வருத்தம் அன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 48,
+      "poem_number_as_printed": 48,
+      "source_order": 48,
+      "lines": [
+        "அறத்தாற்றின் ஈயாத(து) ஈனை யன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 49,
+      "poem_number_as_printed": 49,
+      "source_order": 49,
+      "lines": [
+        "திறத்தாற்றின் நேர்லா ததுநோன் பன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 50,
+      "poem_number_as_printed": 50,
+      "source_order": 50,
+      "lines": [
+        "மறுபிறப் பறியா ததுமூப் பன்று."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 5,
+      "division_as_printed": "5.  அல்ல பத்து"
+    },
+    {
+      "poem_number": 51,
+      "poem_number_as_printed": 51,
+      "source_order": 51,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "மக்கட் பேற்றின் பெறும்பே(று) இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 52,
+      "poem_number_as_printed": 52,
+      "source_order": 52,
+      "lines": [
+        "ஒப்புரவு அறிதலின் தகுவரவு இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 53,
+      "poem_number_as_printed": 53,
+      "source_order": 53,
+      "lines": [
+        "வாய்ப்புடை விழைச்சின் நல்விழைச்சு இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 54,
+      "poem_number_as_printed": 54,
+      "source_order": 54,
+      "lines": [
+        "வாயா விழைச்சின் தீவிழைச்சு இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 55,
+      "poem_number_as_printed": 55,
+      "source_order": 55,
+      "lines": [
+        "இயைவது கரத்தலின் கொடுமை இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 56,
+      "poem_number_as_printed": 56,
+      "source_order": 56,
+      "lines": [
+        "உணர்விலன் ஆதலின் சாக்காடு இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 57,
+      "poem_number_as_printed": 57,
+      "source_order": 57,
+      "lines": [
+        "நசையில் பெரியதோர் நல்குரவு இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 58,
+      "poem_number_as_printed": 58,
+      "source_order": 58,
+      "lines": [
+        "இசையின் பெரியதோர் எச்ச மில்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 59,
+      "poem_number_as_printed": 59,
+      "source_order": 59,
+      "lines": [
+        "இரத்தலின் ஊஉங்கு இளிவரவு இல்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 60,
+      "poem_number_as_printed": 60,
+      "source_order": 60,
+      "lines": [
+        "இரப்போர்க்கு ஈதலின் எய்தும் சிறப்பில்லை"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 6,
+      "division_as_printed": "6.  இல்லைப் பத்து"
+    },
+    {
+      "poem_number": 61,
+      "poem_number_as_printed": 61,
+      "source_order": 61,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "பேரறவி னோன்இனிது வாழா மைபொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 62,
+      "poem_number_as_printed": 62,
+      "source_order": 62,
+      "lines": [
+        "பெருஞ்சீர் ஒன்றன் வெகுளியின் மைபொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 63,
+      "poem_number_as_printed": 63,
+      "source_order": 63,
+      "lines": [
+        "கள்ளுண் போன்சோர்வு இன்மை பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 64,
+      "poem_number_as_printed": 64,
+      "source_order": 64,
+      "lines": [
+        "காலம்அறி யாதோன் கையுறல் பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 65,
+      "poem_number_as_printed": 65,
+      "source_order": 65,
+      "lines": [
+        "மேல்வரவு அறியாதோன் தற்காத் தல்பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 66,
+      "poem_number_as_printed": 66,
+      "source_order": 66,
+      "lines": [
+        "உறுவினை காய்வோன் உயர்வுவேண் டல்பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 67,
+      "poem_number_as_printed": 67,
+      "source_order": 67,
+      "lines": [
+        "சிறுமைநோ னாதோன் பெருமைவேண் டல்பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 68,
+      "poem_number_as_printed": 68,
+      "source_order": 68,
+      "lines": [
+        "பெருமைநோ னாதோன் சிறுமைவேண் டல்பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 69,
+      "poem_number_as_printed": 69,
+      "source_order": 69,
+      "lines": [
+        "பொருள்நசை வேட்கையோன் முறைசெயல் பொய்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 70,
+      "poem_number_as_printed": 70,
+      "source_order": 70,
+      "lines": [
+        "வாலியன் அல்லாதோன் தவம்செய் தல்பொய்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 7,
+      "division_as_printed": "7. பொய்ப் பத்து"
+    },
+    {
+      "poem_number": 71,
+      "poem_number_as_printed": 71,
+      "source_order": 71,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "புகழ்வெய் யோர்க்குப் புத்தேள்நா(டு) எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 72,
+      "poem_number_as_printed": 72,
+      "source_order": 72,
+      "lines": [
+        "உறழ்வெய் யோருக்கு உறுசெரு எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 73,
+      "poem_number_as_printed": 73,
+      "source_order": 73,
+      "lines": [
+        "ஈரம்வெய் யோர்க்கு நசைகொடை எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 74,
+      "poem_number_as_printed": 74,
+      "source_order": 74,
+      "lines": [
+        "குறளைவெய் யோர்க்கு மறைவிரி எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 75,
+      "poem_number_as_printed": 75,
+      "source_order": 75,
+      "lines": [
+        "துன்பம்வெய் யோர்க்கு இன்பம் எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 76,
+      "poem_number_as_printed": 76,
+      "source_order": 76,
+      "lines": [
+        "இன்பம்வெய் யோர்க்குத் துன்பம் எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 77,
+      "poem_number_as_printed": 77,
+      "source_order": 77,
+      "lines": [
+        "உண்டிவெய் யோர்க்குப் உறுபிணி எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 78,
+      "poem_number_as_printed": 78,
+      "source_order": 78,
+      "lines": [
+        "பெண்டிர்வெய் யோர்க்குப் படுபழி எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 79,
+      "poem_number_as_printed": 79,
+      "source_order": 79,
+      "lines": [
+        "பாரம்வெய் யோர்க்குப் பாத்தூண் எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 80,
+      "poem_number_as_printed": 80,
+      "source_order": 80,
+      "lines": [
+        "சார்பு இலோர்க்கு உறுகொலை எளிது"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 8,
+      "division_as_printed": "8.  எளிய பத்து"
+    },
+    {
+      "poem_number": 81,
+      "poem_number_as_printed": 81,
+      "source_order": 81,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "முறையில் அரச(ன்) நாடு நல்கூர்ந் தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 82,
+      "poem_number_as_printed": 82,
+      "source_order": 82,
+      "lines": [
+        "மிகமூத்தோள் காமம் நல்கூர்ந் தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 83,
+      "poem_number_as_printed": 83,
+      "source_order": 83,
+      "lines": [
+        "செற்றுடன் உறவோனைச் சேர்தல்நல் கூர்ந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 84,
+      "poem_number_as_printed": 84,
+      "source_order": 84,
+      "lines": [
+        "பிணிகிடந்தோன் பெற்ற இன்பம்நல் கூர்ந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 85,
+      "poem_number_as_printed": 85,
+      "source_order": 85,
+      "lines": [
+        "தன்போற் றாவழிப் புலவிநல் கூர்ந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 86,
+      "poem_number_as_printed": 86,
+      "source_order": 86,
+      "lines": [
+        "முதிர்வுடை யோன்மேனி அணிநல் கூர்ந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 87,
+      "poem_number_as_printed": 87,
+      "source_order": 87,
+      "lines": [
+        "சொற்சொல் லாவழிச் சொலவுநல் கூர்ந்தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 88,
+      "poem_number_as_printed": 88,
+      "source_order": 88,
+      "lines": [
+        "அகம்வறி யோன்நண்ணல் நல்கூர்ந் தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 89,
+      "poem_number_as_printed": 89,
+      "source_order": 89,
+      "lines": [
+        "உட்(கு)இல் வழிச்சினம் நல்கூர்ந் தன்று"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 90,
+      "poem_number_as_printed": 90,
+      "source_order": 90,
+      "lines": [
+        "நட்(பு)இல் வழிச்சேறல் நல்கூர்ந் தன்று."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 9,
+      "division_as_printed": "9.  நல்கூர்ந்த பத்து"
+    },
+    {
+      "poem_number": 91,
+      "poem_number_as_printed": 91,
+      "source_order": 91,
+      "lines": [
+        "ஆர்கலி யுலகத்து மக்கட் கெல்லாம்",
+        "ஓங்கல் வேண்டுவோன் உயர்மொழி தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 92,
+      "poem_number_as_printed": 92,
+      "source_order": 92,
+      "lines": [
+        "வீங்கல் வேண்டுவோன் பல்புகழ் தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 93,
+      "poem_number_as_printed": 93,
+      "source_order": 93,
+      "lines": [
+        "கற்றல் வேண்டுவோன் வழிபாடு தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 94,
+      "poem_number_as_printed": 94,
+      "source_order": 94,
+      "lines": [
+        "நிற்றல் வேண்டுவோன் தவஞ்செயல் தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 95,
+      "poem_number_as_printed": 95,
+      "source_order": 95,
+      "lines": [
+        "வாழ்க்கை வேண்டுவோன் சூழ்ச்சி தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 96,
+      "poem_number_as_printed": 96,
+      "source_order": 96,
+      "lines": [
+        "மிகுதி வேண்டுவோன் வருத்தம் தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 97,
+      "poem_number_as_printed": 97,
+      "source_order": 97,
+      "lines": [
+        "இன்பம் வேண்டுவோன் துன்பம் தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 98,
+      "poem_number_as_printed": 98,
+      "source_order": 98,
+      "lines": [
+        "துன்பம் வேண்டுவோன் இன்பம் தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 99,
+      "poem_number_as_printed": 99,
+      "source_order": 99,
+      "lines": [
+        "ஏமம் வேண்டுவோன் முறைசெயல் தண்டான்"
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    },
+    {
+      "poem_number": 100,
+      "poem_number_as_printed": 100,
+      "source_order": 100,
+      "lines": [
+        "காமம் வேண்டுவோன் குறிப்புச்சொல் தண்டான்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "division_sequence": 10,
+      "division_as_printed": "10.  தண்டாப் பத்து"
+    }
+  ],
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1. சிறந்த பத்து",
+      "poem_start": 1,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 10,
+      "record_count": 10
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2. அறிவுப்பத்து",
+      "poem_start": 11,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 20,
+      "record_count": 10
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.  பழியாப் பத்து",
+      "poem_start": 21,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 30,
+      "record_count": 10
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4.  துவ்வாப் பத்து",
+      "poem_start": 31,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 40,
+      "record_count": 10
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "5.  அல்ல பத்து",
+      "poem_start": 41,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 50,
+      "record_count": 10
+    },
+    {
+      "sequence": 6,
+      "heading_as_printed": "6.  இல்லைப் பத்து",
+      "poem_start": 51,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 60,
+      "record_count": 10
+    },
+    {
+      "sequence": 7,
+      "heading_as_printed": "7. பொய்ப் பத்து",
+      "poem_start": 61,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 70,
+      "record_count": 10
+    },
+    {
+      "sequence": 8,
+      "heading_as_printed": "8.  எளிய பத்து",
+      "poem_start": 71,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 80,
+      "record_count": 10
+    },
+    {
+      "sequence": 9,
+      "heading_as_printed": "9.  நல்கூர்ந்த பத்து",
+      "poem_start": 81,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 90,
+      "record_count": 10
+    },
+    {
+      "sequence": 10,
+      "heading_as_printed": "10.  தண்டாப் பத்து",
+      "poem_start": 91,
+      "provenance": "Project Madurai printed பத்து",
+      "poem_end": 100,
+      "record_count": 10
+    }
+  ],
+  "numbering_anomalies": [],
+  "heading_anomalies": [],
+  "unparsed_fragments": [],
+  "normalization": "Unicode NFC; LF line endings; duplicate blank lines removed"
+}

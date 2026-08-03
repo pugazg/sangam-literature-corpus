@@ -1,0 +1,24 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "திணை மொழி ஐம்பது",
+  "title_english": "Tiṇaimoḻi Aimpathu",
+  "work_slug": "thinaimozhi-aimpathu",
+  "work_id": "thinaimozhi-aimpathu",
+  "programme_id": "pathinenkilkanakku",
+  "numbered_poem_record_count": 50,
+  "available_poem_count": 50,
+  "missing_poems": [],
+  "printed_division_count": 5,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0027.html",
+  "project_madurai_id": "pmuni0027",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Source-specific grammar is documented in the reconnaissance record.",
+    "No controlled metadata is inferred from prose."
+  ]
+}

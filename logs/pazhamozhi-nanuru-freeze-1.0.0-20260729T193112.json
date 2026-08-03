@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.389543+05:30",
+  "order": 14,
+  "work_slug": "pazhamozhi-nanuru",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "a238f6c3eb3d3645b6344c73109b02673c567ed12289a0c24c4ab203622b6122",
+  "poem_count": 399,
+  "section_count": 33,
+  "poem_file_set_sha256": "3d056cc60059465a98b1cf332c12714dd5ba30bc5fbb548ba8ccd1efff798f56",
+  "validation": {
+    "status": "pass-with-review",
+    "errors": 0,
+    "warnings": 0,
+    "info": 1,
+    "source_output_matches": 399,
+    "source_note_matches": 399
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

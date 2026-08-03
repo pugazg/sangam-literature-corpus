@@ -1,0 +1,12 @@
+{
+  "work": "akananuru",
+  "canonical_source_id": "pmuni0229",
+  "canonical_corpus_modified": false,
+  "alternative_project_madurai_editions": [
+    {"id": "pmuni0490_01", "description": "commentary edition beginning with verses 1-60", "canonical_action": "No change"},
+    {"id": "pmuni0523_01", "description": "commentary edition, part of verses 121-300", "canonical_action": "No change"},
+    {"id": "pmuni0523_02", "description": "commentary edition, part of verses 121-300", "canonical_action": "No change"},
+    {"id": "pmuni0534", "description": "commentary edition covering verses 301-400", "canonical_action": "No change"}
+  ],
+  "records": []
+}

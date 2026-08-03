@@ -1,0 +1,14 @@
+{
+  "work": "nanmanikkadigai",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0047",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0047.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0047.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 49865,
+  "source_checksum_sha256": "87758515c8d2888e9fc7176f960ea0693f3accd8f0c33270651104d85cf05df5",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "விளம்பிநாகனாரின் நான்மணிக்கடிகை",
+  "parser": "nanmanikkadigai-pmuni0047-v1",
+  "numbered_record_count": 106
+}

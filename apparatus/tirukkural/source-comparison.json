@@ -1,0 +1,10 @@
+{
+  "work": "tirukkural",
+  "canonical_source": "pmuni0001",
+  "canonical_corpus_modified": false,
+  "comparisons_performed": [],
+  "known_alternate_project_madurai_releases": [
+    "pmuni0450_* commentary releases",
+    "pmuni0650 commentary release"
+  ]
+}

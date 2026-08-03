@@ -1,0 +1,28 @@
+work_id,canonical_title,programme_id,corpus_schema_version,version_status,source_object_count,canonical_record_count,canonical_text_count,section_count,validation_status,error_count,warning_count,information_count
+acharakkovai,ஆசாரக்கோவை,pathinenkilkanakku,1.0.0,frozen,1,100,100,1,pass-with-review,0,0,4
+aingurunuru,ஐங்குறு நூறு,sangam-core,1.0.0,frozen,1,500,498,50,pass-with-review,0,2,19
+aintinai-aimpathu,ஐந்திணை ஐம்பது,pathinenkilkanakku,1.0.0,frozen,1,50,50,5,pass,0,0,0
+aintinai-elupathu,ஐந்திணை எழுபது,pathinenkilkanakku,1.0.0,frozen,1,70,66,5,pass-with-review,0,4,0
+akananuru,அகநானுறு,sangam-core,1.0.0,frozen,1,400,400,3,pass-with-review,0,2,1
+elati,ஏலாதி,pathinenkilkanakku,1.0.0,frozen,1,80,80,1,pass,0,0,0
+iniyavai-narpathu,இனியவை நாற்பது,pathinenkilkanakku,1.0.0,frozen,1,40,40,2,pass,0,0,0
+inna-narpathu,இன்னா நாற்பது,pathinenkilkanakku,1.0.0,frozen,1,40,40,2,pass,0,0,0
+kainnilai,கைந்நிலை,pathinenkilkanakku,1.0.0,frozen,1,60,60,4,pass-with-review,0,0,1
+kalavazhi-narpathu,களவழி நாற்பது,pathinenkilkanakku,1.0.0,frozen,1,40,40,1,pass,0,0,0
+kalittokai,கலித்தொகை,sangam-core,1.0.0,frozen,1,150,150,6,pass-with-review,0,0,2
+kar-narpathu,கார் நாற்பது,pathinenkilkanakku,1.0.0,frozen,1,40,40,1,pass,0,0,0
+kuruntokai,குறுந்தொகை,sangam-core,1.0.0,frozen,1,401,401,9,pass-with-review,0,0,4
+muthumozhi-kanchi,முதுமொழிக் காஞ்சி,pathinenkilkanakku,1.0.0,frozen,1,100,100,10,pass-with-review,0,0,1
+naladiyar,நாலடியார்,pathinenkilkanakku,1.0.0,frozen,1,400,400,40,pass-with-review,0,0,1
+nanmanikkadigai,நான்மணிக்கடிகை,pathinenkilkanakku,1.0.0,frozen,1,106,106,2,pass,0,0,0
+natrinai,நற்றிணை,sangam-core,1.0.0,frozen,1,400,399,8,pass-with-review,0,1,5
+paripatal,பரிபாடல்,sangam-core,1.0.0,frozen,1,35,35,2,pass-with-review,0,0,0
+patirruppattu,பதிற்றுப்பத்து,sangam-core,1.0.0,frozen,1,80,80,8,pass,0,0,2
+pattuppattu,பத்துப்பாட்டு,sangam-core,1.0.0,frozen,10,10,10,10,pass,0,0,0
+pazhamozhi-nanuru,பழமொழி நானூறு,pathinenkilkanakku,1.0.0,frozen,1,399,399,33,pass-with-review,0,0,1
+purananuru,புறநானூறு,sangam-core,1.0.0,frozen,1,400,398,8,pass-with-review,0,2,40
+sirupanchamulam,சிறுபஞ்சமூலம்,pathinenkilkanakku,1.0.0,frozen,1,98,98,2,pass,0,0,0
+thinaimalai-nutraimbathu,திணைமாலை நூற்றைம்பது,pathinenkilkanakku,1.0.0,frozen,1,153,153,5,pass,0,0,0
+thinaimozhi-aimpathu,திணை மொழி ஐம்பது,pathinenkilkanakku,1.0.0,frozen,1,50,50,5,pass,0,0,0
+tirikatukam,திரிகடுகம்,pathinenkilkanakku,1.0.0,frozen,1,100,100,1,pass-with-review,0,0,2
+tirukkural,திருக்குறள்,pathinenkilkanakku,1.0.0,frozen,1,1330,1330,133,pass-with-review,0,0,7

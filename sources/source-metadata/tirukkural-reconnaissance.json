@@ -1,0 +1,83 @@
+{
+  "work": "tirukkural",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0001",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0001.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 301298,
+  "source_checksum_sha256": "1d1704d1f2e6dd649d40f29253bb6cb1ac8a0e316841601e3b3223feac548f18",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "திருவள்ளுவர் அருளிய திருக்குறள்",
+  "parser": "tirukkural-pmuni0001-v1",
+  "numbered_record_count": 1330,
+  "source_only": true,
+  "commentary_present": false,
+  "number_range": [
+    1,
+    1330
+  ],
+  "printed_numbered_record_count": 1330,
+  "missing_canonical_numbers": [],
+  "duplicate_canonical_numbers": [],
+  "printed_numbering_anomalies": [
+    {
+      "poem_number": 72,
+      "poem_number_as_printed": 71
+    },
+    {
+      "poem_number": 753,
+      "poem_number_as_printed": 752
+    },
+    {
+      "poem_number": 781,
+      "poem_number_as_printed": 7811
+    },
+    {
+      "poem_number": 1293,
+      "poem_number_as_printed": 12983
+    }
+  ],
+  "source_printed_major_divisions": [
+    "1.  அறத்துப்பால்",
+    "2.      பொருட்பால்",
+    "3.      காமத்துப்பால்"
+  ],
+  "source_printed_chapter_count": 132,
+  "canonical_chapter_count": 133,
+  "heading_anomalies": [
+    {
+      "condition": "malformed_printed_chapter_ordinal",
+      "heading_as_printed": "2,3.6   நட்பு",
+      "chapter_sequence": 79
+    },
+    {
+      "condition": "printed_chapter_heading_absent",
+      "heading_as_printed": null,
+      "chapter_sequence": 116,
+      "poem_start": 1151,
+      "poem_end": 1160
+    },
+    {
+      "condition": "malformed_printed_chapter_ordinal",
+      "heading_as_printed": "3..2. 9  உறுப்புநலனழிதல்",
+      "chapter_sequence": 124
+    }
+  ],
+  "unnumbered_literary_invocation_present": false,
+  "source_lost_records": [],
+  "incomplete_records": [],
+  "candidate_texts": [],
+  "line_end_markers": "Printed global couplet numbers are excluded as HTML layout markers and retained in poem_number_as_printed.",
+  "html_anomalies": [
+    "Malformed/unbalanced table-row markup",
+    "Some literary couplets wrap to three visible lines"
+  ],
+  "provenance_classification": {
+    "major_divisions": "printed by selected canonical source",
+    "subdivisions": "printed by selected canonical source where present",
+    "chapter_headings": "printed where present",
+    "canonical_sequence": "mechanically derived from source order",
+    "literary_text": "printed by selected canonical source"
+  }
+}

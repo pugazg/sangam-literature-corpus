@@ -1,0 +1,36 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "ஐங்குறு நூறு",
+  "title_english": "Aiṅkuṟunūṟu",
+  "work_slug": "aingurunuru",
+  "work_id": "aingurunuru",
+  "collection": "எட்டுத்தொகை",
+  "title_romanized_as_printed": "aingurunUru",
+  "ancient_compiler": "கூடலூர் கிழார்",
+  "ancient_compiler_as_printed": "கூடலூர் கிழார் / kUdalUr kizhAr",
+  "patron": "யானைக்கட்சேய் மாந்தரஞ்சேரல் இரும்பொறை",
+  "patron_as_printed": "Chera King yAnaikkatcEy mAntaran cEral irumporai",
+  "electronic_text_compiler": "எம். நாராயண வேலுப்பிள்ளை",
+  "electronic_text_compiler_as_printed": "வித்துவான் எம்.நாராயண வேலுப்பிள்ளை அவர்களால் தொகுக்கப்பட்டது",
+  "expected_poem_count": 500,
+  "available_poem_count": 498,
+  "missing_poems": [
+    129,
+    130
+  ],
+  "pattu_group_count": 50,
+  "printed_pattu_heading_count": 48,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0028.html",
+  "project_madurai_id": "pmuni0028",
+  "accessed_date": "2026-07-11",
+  "source_checksum_sha256": "b1bbdbe90472ef28b617d32a7b8893b1f894f49afd9b4574e11501bd13e75ac9",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Poems 129 and 130 are explicitly printed as unavailable.",
+    "The source omits printed pattu headings before poems 1 and 11.",
+    "Printed pattu ordinal anomalies are preserved and reported."
+  ]
+}

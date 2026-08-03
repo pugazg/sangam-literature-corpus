@@ -1,0 +1,14 @@
+{
+  "work": "thinaimalai-nutraimbathu",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0056",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0056.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0056.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 76223,
+  "source_checksum_sha256": "29c2432a335f4818ef0a650c1ff7b5cf46c8484c810f15767de80e239955e31b",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "திணைமாலை  நூற்றைம்பது",
+  "parser": "thinaimalai-nutraimbathu-pmuni0056-v1",
+  "numbered_record_count": 153
+}

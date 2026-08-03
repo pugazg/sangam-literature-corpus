@@ -1,0 +1,20 @@
+{
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0028.html",
+  "project_madurai_id": "pmuni0028",
+  "accessed_date": "2026-07-11",
+  "retrieval_method": "Browser fetch of response bytes",
+  "source_checksum_sha256": "b1bbdbe90472ef28b617d32a7b8893b1f894f49afd9b4574e11501bd13e75ac9",
+  "encoding": "UTF-8 with BOM",
+  "raw_source_file": "sources/raw-html/aingurunuru.html",
+  "title_tamil": "ஐங்குறு நூறு",
+  "title_romanized_as_printed": "aingurunUru",
+  "collection_as_printed": "One of \"eTTutokai\" anthology",
+  "nominal_poem_count_as_printed": "500 short poems (two are missing)",
+  "ancient_compiler_as_printed": "kUdalUr kizhAr / கூடலூர் கிழார்",
+  "royal_instance_as_printed": "Chera King \"yAnaikkatcEy mAntaran cEral irumporai\"",
+  "electronic_text_compiler_as_printed": "வித்துவான் எம்.நாராயண வேலுப்பிள்ளை அவர்களால் தொகுக்கப்பட்டது",
+  "rights_statement_as_printed": [
+    "© Project Madurai, 1998-2021.",
+    "You are welcome to freely distribute this file, provided this header page is kept intact"
+  ]
+}

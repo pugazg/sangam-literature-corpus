@@ -1,0 +1,71 @@
+{
+  "prefatory_text": {
+    "heading_as_printed": "கடவுள் வாழ்த்து",
+    "lines": [
+      "எண்ணும் பொருளினிதே எல்லாம் முடித்தெமக்கு",
+      "நண்ணுங் கலையனைத்தும் நல்குமால் - கண்ணுதலின்",
+      "முண்டத்தான் அண்டத்தான் மூலத்தான் நலஞ்சேர்",
+      "கண்டத்தான் ஈன்ற களிறு."
+    ],
+    "source_note_lines": [],
+    "provenance": "Project Madurai printed unnumbered literary text"
+  },
+  "divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "குறிஞ்சி",
+      "thinai": "குறிஞ்சி",
+      "poem_start": 1,
+      "poem_end": 14,
+      "record_count": 14,
+      "lost_poems": [],
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "முல்லை",
+      "thinai": "முல்லை",
+      "poem_start": 15,
+      "poem_end": 28,
+      "record_count": 14,
+      "lost_poems": [
+        25,
+        26
+      ],
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "பாலை",
+      "thinai": "பாலை",
+      "poem_start": 29,
+      "poem_end": 42,
+      "record_count": 14,
+      "lost_poems": [],
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "மருதம்",
+      "thinai": "மருதம்",
+      "poem_start": 43,
+      "poem_end": 56,
+      "record_count": 14,
+      "lost_poems": [],
+      "provenance": "Project Madurai printed division"
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "நெய்தல்",
+      "thinai": "நெய்தல்",
+      "poem_start": 57,
+      "poem_end": 70,
+      "record_count": 14,
+      "lost_poems": [
+        69,
+        70
+      ],
+      "provenance": "Project Madurai printed division"
+    }
+  ]
+}

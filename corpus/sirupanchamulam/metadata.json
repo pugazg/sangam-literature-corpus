@@ -1,0 +1,24 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "சிறுபஞ்சமூலம்",
+  "title_english": "Ciṟupañcamūlam",
+  "work_slug": "sirupanchamulam",
+  "work_id": "sirupanchamulam",
+  "programme_id": "pathinenkilkanakku",
+  "numbered_poem_record_count": 98,
+  "available_poem_count": 98,
+  "missing_poems": [],
+  "printed_division_count": 0,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0029.html",
+  "project_madurai_id": "pmuni0029",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Source-specific grammar is documented in the reconnaissance record.",
+    "No controlled metadata is inferred from prose."
+  ]
+}

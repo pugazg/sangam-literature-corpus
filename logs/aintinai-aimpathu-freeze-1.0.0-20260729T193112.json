@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.281764+05:30",
+  "order": 8,
+  "work_slug": "aintinai-aimpathu",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "poem_count": 50,
+  "section_count": 5,
+  "poem_file_set_sha256": "35bfa5834400702281a36e3f7d29d1a97f9ce4a2f3e682448c1645a4a239fe46",
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_output_matches": 50,
+    "source_note_matches": 50
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

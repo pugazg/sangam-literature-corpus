@@ -1,0 +1,24 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "கைந்நிலை",
+  "title_english": "Kainnilai",
+  "work_slug": "kainnilai",
+  "work_id": "kainnilai",
+  "programme_id": "pathinenkilkanakku",
+  "numbered_poem_record_count": 60,
+  "available_poem_count": 60,
+  "missing_poems": [],
+  "printed_division_count": 4,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0051.html",
+  "project_madurai_id": "pmuni0051",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "4927a2832b00858bf358ca58120cfef4bfd1adae587cf9ea9eada98fd785b6c8",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Source-specific grammar is documented in the reconnaissance record.",
+    "No controlled metadata is inferred from prose."
+  ]
+}

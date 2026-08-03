@@ -1,0 +1,24 @@
+{
+  "work": "naladiyar",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "freeze_timestamp": "2026-07-29T20:00:00+05:30",
+  "project_madurai_id": "pmuni0016",
+  "raw_source_sha256": "5ab43427d8a5db080e88d762bbca318ed00773c368e491ca197c4918663f6772",
+  "poem_count": 400,
+  "section_count": 40,
+  "source_output_equality": "400/400",
+  "source_note_equality": "400/400",
+  "duplicate_full_bodies": 0,
+  "canonical_poem_changes": [],
+  "section_changes": [],
+  "physical_audit": "pass",
+  "tests": "79 passed, 67 warnings",
+  "validation_summary": {
+    "status": "pass-with-review",
+    "errors": 0,
+    "warnings": 0,
+    "info": 1
+  },
+  "frozen_regression": "no changes previously established"
+}

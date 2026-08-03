@@ -1,0 +1,54 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "அகநானுறு",
+  "title_tamil_normalized": "அகநானூறு",
+  "title_english": "Akanāṉūṟu",
+  "work_slug": "akananuru",
+  "work_id": "akananuru",
+  "collection": "எட்டுத்தொகை",
+  "title_romanized_as_printed": "akanAnURu",
+  "expected_poem_count": 400,
+  "numbered_poem_record_count": 400,
+  "available_poem_count": 400,
+  "missing_poems": [],
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0229.html",
+  "project_madurai_id": "pmuni0229",
+  "accessed_date": "2026-07-13",
+  "source_checksum_sha256": "0f2484a5b1b2df77fd43ab89a206f8f101bfa2d0161e6905f9822b08a04279cb",
+  "source_objects": [
+    {
+      "source_object_id": "pmuni0229",
+      "source_order": 1,
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0229.html",
+      "raw_source_file": "sources/raw-html/akananuru.html",
+      "sha256": "0f2484a5b1b2df77fd43ab89a206f8f101bfa2d0161e6905f9822b08a04279cb",
+      "byte_size": 794903,
+      "poem_number_coverage": "unnumbered record 0 and numbered records 1-400 in source order",
+      "edition_part_relationship": "single complete source-only edition"
+    }
+  ],
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "printed_division_count": 3,
+  "printed_numbering_anomalies": [
+    {
+      "canonical_poem_number": 131,
+      "poem_number_as_printed": 130,
+      "source_order": 131
+    },
+    {
+      "canonical_poem_number": 319,
+      "poem_number_as_printed": 318,
+      "source_order": 319
+    }
+  ],
+  "notes": [
+    "The source prints an unnumbered literary invocation as record 0.",
+    "The second records printed 130 and 318 occupy source-order positions 131 and 319; printed labels remain in provenance.",
+    "The source prints no poem-level tiṇai, speaker/context, or poet attribution.",
+    "Line-end numbers are HTML layout markers and are excluded from canonical literary bodies.",
+    "Version 1.0.0 freezes the verified source-faithful transcription, source-order identity policy, exact printed-number provenance, record 0 handling, printed macrostructure, layout-marker exclusion, unresolved printed ellipses, and deterministic validation expectations; it does not assert a critical edition or infer absent poem-level metadata."
+  ]
+}

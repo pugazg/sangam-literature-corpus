@@ -1,0 +1,402 @@
+{
+  "major_divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 1,
+      "poem_end": 130
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2. பொருட்பால்",
+      "poem_start": 131,
+      "poem_end": 370
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3. காமத்துப்பால்",
+      "poem_start": 371,
+      "poem_end": 400
+    }
+  ],
+  "chapters": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1.1 செல்வம் நிலையாமை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 1,
+      "poem_end": 10,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "1.2 இளமை நிலையாமை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 11,
+      "poem_end": 20,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "1.3 யாக்கை நிலையாமை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 21,
+      "poem_end": 30,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "1.4 அறன் வலியுறுத்தல்",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 31,
+      "poem_end": 40,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 5,
+      "heading_as_printed": "1.5 தூய்தன்மை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 41,
+      "poem_end": 50,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 6,
+      "heading_as_printed": "1.6 துறவு",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 51,
+      "poem_end": 60,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 7,
+      "heading_as_printed": "1.7 சினம் இன்மை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 61,
+      "poem_end": 70,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 8,
+      "heading_as_printed": "1.8 பொறையுடைமை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 71,
+      "poem_end": 80,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 9,
+      "heading_as_printed": "1.9 பிறர்மனை நயவாமை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 81,
+      "poem_end": 90,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 10,
+      "heading_as_printed": "1.10 ஈகை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 91,
+      "poem_end": 100,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 11,
+      "heading_as_printed": "1.11 பழவினை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 101,
+      "poem_end": 110,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 12,
+      "heading_as_printed": "1.12 மெய்ம்மை",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 111,
+      "poem_end": 120,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 13,
+      "heading_as_printed": "1.13 தீவினையச்சம்",
+      "major_division_as_printed": "1. அறத்துப்பால்",
+      "poem_start": 121,
+      "poem_end": 130,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 14,
+      "heading_as_printed": "2.14 கல்வி",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 131,
+      "poem_end": 140,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 15,
+      "heading_as_printed": "2.15 குடிப்பிறப்பு",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 141,
+      "poem_end": 150,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 16,
+      "heading_as_printed": "2.16 மேன்மக்கள்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 151,
+      "poem_end": 160,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 17,
+      "heading_as_printed": "2.17 பெரியாரைப் பிழையாமை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 161,
+      "poem_end": 170,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 18,
+      "heading_as_printed": "2.18 நல்லினம் சேர்தல்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 171,
+      "poem_end": 180,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 19,
+      "heading_as_printed": "2.19 பெருமை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 181,
+      "poem_end": 190,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 20,
+      "heading_as_printed": "2.20 தாளாண்மை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 191,
+      "poem_end": 200,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 21,
+      "heading_as_printed": "2.21 சுற்றந்தழால்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 201,
+      "poem_end": 210,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 22,
+      "heading_as_printed": "2.22 நட்பாராய்தல்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 211,
+      "poem_end": 220,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 23,
+      "heading_as_printed": "2.23 நட்பிற் பிழை பொறுத்தல்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 221,
+      "poem_end": 230,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 24,
+      "heading_as_printed": "2.24 கூடா நட்பு",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 231,
+      "poem_end": 240,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 25,
+      "heading_as_printed": "2.25 அறிவுடைமை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 241,
+      "poem_end": 250,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 26,
+      "heading_as_printed": "2.26 அறிவின்மை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 251,
+      "poem_end": 260,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 27,
+      "heading_as_printed": "2.27 நன்றியில் செல்வம்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 261,
+      "poem_end": 270,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 28,
+      "heading_as_printed": "2.28 ஈயாமை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 271,
+      "poem_end": 280,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 29,
+      "heading_as_printed": "2.29 இன்மை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 281,
+      "poem_end": 290,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 30,
+      "heading_as_printed": "2.30 மானம்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 291,
+      "poem_end": 300,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 31,
+      "heading_as_printed": "2.31 இரவச்சம்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 301,
+      "poem_end": 310,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 32,
+      "heading_as_printed": "2.32 அவையறிதல்",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 311,
+      "poem_end": 320,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 33,
+      "heading_as_printed": "2.33 புல்லறிவாண்மை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 321,
+      "poem_end": 330,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 34,
+      "heading_as_printed": "2.34 பேதைமை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 331,
+      "poem_end": 340,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 35,
+      "heading_as_printed": "2.35 கீழ்மை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 341,
+      "poem_end": 350,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 36,
+      "heading_as_printed": "2.36 கயமை",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 351,
+      "poem_end": 360,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 37,
+      "heading_as_printed": "2.37 பன்னெறி",
+      "major_division_as_printed": "2. பொருட்பால்",
+      "poem_start": 361,
+      "poem_end": 370,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 38,
+      "heading_as_printed": "3.38 பொது மகளிர்",
+      "major_division_as_printed": "3. காமத்துப்பால்",
+      "poem_start": 371,
+      "poem_end": 380,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 39,
+      "heading_as_printed": "2.39 கற்புடை மகளிர்",
+      "major_division_as_printed": "3. காமத்துப்பால்",
+      "poem_start": 381,
+      "poem_end": 390,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    },
+    {
+      "sequence": 40,
+      "heading_as_printed": "3.40 காமநுதலியல்",
+      "major_division_as_printed": "3. காமத்துப்பால்",
+      "poem_start": 391,
+      "poem_end": 400,
+      "record_count": 10,
+      "provenance": "Project Madurai printed chapter heading"
+    }
+  ],
+  "heading_anomalies": [
+    {
+      "condition": "major_division_ordinal_mismatch",
+      "heading_as_printed": "2.39 கற்புடை மகளிர்",
+      "chapter_sequence": 39,
+      "context": "printed under 3. காமத்துப்பால்"
+    }
+  ],
+  "prefatory_text": {
+    "heading_as_printed": "கடவுள் வாழ்த்து",
+    "lines": [
+      "வான்இடு வில்லின் வரவறியா வாய்மையால்",
+      "கால்நிலம் தோயாக் கடவுளை - யாம்நிலம்",
+      "சென்னி யுறவணங்கிச் சேர்தும்எம் உள்ளத்து",
+      "முன்னி யவைமுடிக என்று."
+    ],
+    "provenance": "printed by selected canonical source"
+  }
+}

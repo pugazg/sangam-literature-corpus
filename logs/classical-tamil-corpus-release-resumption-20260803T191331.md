@@ -1,0 +1,3 @@
+# Classical Tamil corpus release resumption
+
+The first release attempt stopped before any commit or tag. Concurrent incremental writers temporarily corrupted `manifests/poems.csv`; no corpus or source content changed. The prior baseline hash was `38b13387b8c5865a48c8c843dd8e0330005307ee9cb9a6f0196997d19cbdaa27`. The serial rebuilt hash before deterministic repair was `56611afc1a9e3118a5c743757399b41aeff2c81833ddb7783b5afbadf77e5b8c`. Semantic reconstruction against all 5,632 canonical files found zero row-key additions, removals, or field changes. The deterministic atomic manifest hash is `4c287ee9901d028f97659b3a099bd521efc7d43819424b32184c975de9bf4cb7`. Git was initialized after corpus construction and `main` remains unborn.

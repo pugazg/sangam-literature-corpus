@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.417988+05:30",
+  "order": 17,
+  "work_slug": "elati",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef",
+  "poem_count": 80,
+  "section_count": 1,
+  "poem_file_set_sha256": "36274b095d8cf3d9d52a87978b03a6a38ccba2d77dd880e4ae6b3ce8c2f558c8",
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_output_matches": 80,
+    "source_note_matches": 80
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

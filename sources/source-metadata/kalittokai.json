@@ -1,0 +1,12 @@
+{
+  "work": "kalittokai",
+  "source_name": "Project Madurai",
+  "project_madurai_id": "pmuni0221",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0221.html",
+  "source_file": "sources/raw-html/kalittokai.html",
+  "source_bytes": 505220,
+  "source_checksum_sha256": "da4b2182fca2066c3627f6c9207a01748e8e9fe75d005995d5cbb7397a263195",
+  "accessed_date": "2026-07-29",
+  "source_artifact_type": "exact HTTP HTML response body",
+  "title_as_printed": "கலித்தொகை"
+}

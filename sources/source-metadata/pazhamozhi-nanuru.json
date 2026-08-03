@@ -1,0 +1,14 @@
+{
+  "work": "pazhamozhi-nanuru",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0036",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0036.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0036.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 183434,
+  "source_checksum_sha256": "a238f6c3eb3d3645b6344c73109b02673c567ed12289a0c24c4ab203622b6122",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "பழமொழி நானூறு - ஆசிரியர்  மூன்றுறை அரையனார்",
+  "parser": "pazhamozhi-nanuru-pmuni0036-v1",
+  "numbered_record_count": 399
+}

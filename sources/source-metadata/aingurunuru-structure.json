@@ -1,0 +1,603 @@
+{
+  "parser": "aingurunuru-pmuni0028-v1",
+  "source_line_model": "HTML BR-delimited lines",
+  "poem_records": 500,
+  "pattu_groups": [
+    {
+      "printed_heading": null,
+      "normalized_heading": null,
+      "printed_ordinal": null,
+      "source_order": 1,
+      "poem_start": 1,
+      "poem_end": 10,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": null,
+      "normalized_heading": null,
+      "printed_ordinal": null,
+      "source_order": 2,
+      "poem_start": 11,
+      "poem_end": 20,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "கள்வன் பத்து",
+      "normalized_heading": "கள்வன் பத்து",
+      "printed_ordinal": null,
+      "source_order": 3,
+      "poem_start": 21,
+      "poem_end": 30,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "தோழிக்கு உரைத்த பத்து",
+      "normalized_heading": "தோழிக்கு உரைத்த பத்து",
+      "printed_ordinal": null,
+      "source_order": 4,
+      "poem_start": 31,
+      "poem_end": 40,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "புலவிப் பத்து",
+      "normalized_heading": "புலவிப் பத்து",
+      "printed_ordinal": null,
+      "source_order": 5,
+      "poem_start": 41,
+      "poem_end": 50,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "தோழி கூற்றுப் பத்து",
+      "normalized_heading": "தோழி கூற்றுப் பத்து",
+      "printed_ordinal": null,
+      "source_order": 6,
+      "poem_start": 51,
+      "poem_end": 60,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "கிழத்தி கூற்றுப்பத்து",
+      "normalized_heading": "கிழத்தி கூற்றுப்பத்து",
+      "printed_ordinal": null,
+      "source_order": 7,
+      "poem_start": 61,
+      "poem_end": 70,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "8. புனலாட்டுப் பத்து",
+      "normalized_heading": "புனலாட்டுப் பத்து",
+      "printed_ordinal": 8,
+      "source_order": 8,
+      "poem_start": 71,
+      "poem_end": 80,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "9. புலவி விராய பத்து",
+      "normalized_heading": "புலவி விராய பத்து",
+      "printed_ordinal": 9,
+      "source_order": 9,
+      "poem_start": 81,
+      "poem_end": 90,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "10.     எருமைப் பத்து",
+      "normalized_heading": "எருமைப் பத்து",
+      "printed_ordinal": 10,
+      "source_order": 10,
+      "poem_start": 91,
+      "poem_end": 100,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "11.தாய்க்கு உரைத்த பத்து.",
+      "normalized_heading": "தாய்க்கு உரைத்த பத்து",
+      "printed_ordinal": 11,
+      "source_order": 11,
+      "poem_start": 101,
+      "poem_end": 110,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "11.    தோழிக்கு உரைத்த பத்து.",
+      "normalized_heading": "தோழிக்கு உரைத்த பத்து",
+      "printed_ordinal": 11,
+      "source_order": 12,
+      "poem_start": 111,
+      "poem_end": 120,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": false
+    },
+    {
+      "printed_heading": "12.    கிழவற்கு உரைத்த பத்து",
+      "normalized_heading": "கிழவற்கு உரைத்த பத்து",
+      "printed_ordinal": 12,
+      "source_order": 13,
+      "poem_start": 121,
+      "poem_end": 130,
+      "poem_record_count": 10,
+      "lost_poems": [
+        129,
+        130
+      ],
+      "ordinal_consistent": false
+    },
+    {
+      "printed_heading": "14.பாணற்கு உரைத்த பத்து",
+      "normalized_heading": "பாணற்கு உரைத்த பத்து",
+      "printed_ordinal": 14,
+      "source_order": 14,
+      "poem_start": 131,
+      "poem_end": 140,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "15.ஞாழற் பத்து",
+      "normalized_heading": "ஞாழற் பத்து",
+      "printed_ordinal": 15,
+      "source_order": 15,
+      "poem_start": 141,
+      "poem_end": 150,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "16.வெள்ளங் குருகுப் பத்து",
+      "normalized_heading": "வெள்ளங் குருகுப் பத்து",
+      "printed_ordinal": 16,
+      "source_order": 16,
+      "poem_start": 151,
+      "poem_end": 160,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "17.சிறுவெண் காக்கைப் பத்து.",
+      "normalized_heading": "சிறுவெண் காக்கைப் பத்து",
+      "printed_ordinal": 17,
+      "source_order": 17,
+      "poem_start": 161,
+      "poem_end": 170,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "18.தொண்டிப் பத்து.",
+      "normalized_heading": "தொண்டிப் பத்து",
+      "printed_ordinal": 18,
+      "source_order": 18,
+      "poem_start": 171,
+      "poem_end": 180,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "19.நெய்தற் பத்து.",
+      "normalized_heading": "நெய்தற் பத்து",
+      "printed_ordinal": 19,
+      "source_order": 19,
+      "poem_start": 181,
+      "poem_end": 190,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "20.வளைப் பத்து.",
+      "normalized_heading": "வளைப் பத்து",
+      "printed_ordinal": 20,
+      "source_order": 20,
+      "poem_start": 191,
+      "poem_end": 200,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "21.அன்னாய் வாழிப் பத்து",
+      "normalized_heading": "அன்னாய் வாழிப் பத்து",
+      "printed_ordinal": 21,
+      "source_order": 21,
+      "poem_start": 201,
+      "poem_end": 210,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "22.அன்னாய்ப் பத்து",
+      "normalized_heading": "அன்னாய்ப் பத்து",
+      "printed_ordinal": 22,
+      "source_order": 22,
+      "poem_start": 211,
+      "poem_end": 220,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "23.அம்மவழிப் பத்து.",
+      "normalized_heading": "அம்மவழிப் பத்து",
+      "printed_ordinal": 23,
+      "source_order": 23,
+      "poem_start": 221,
+      "poem_end": 230,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "24.தெய்யோப் பத்து.",
+      "normalized_heading": "தெய்யோப் பத்து",
+      "printed_ordinal": 24,
+      "source_order": 24,
+      "poem_start": 231,
+      "poem_end": 240,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "25.வெறிப்பத்து",
+      "normalized_heading": "வெறிப்பத்து",
+      "printed_ordinal": 25,
+      "source_order": 25,
+      "poem_start": 241,
+      "poem_end": 250,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "26.குன்றக் குறவன் பத்து.",
+      "normalized_heading": "குன்றக் குறவன் பத்து",
+      "printed_ordinal": 26,
+      "source_order": 26,
+      "poem_start": 251,
+      "poem_end": 260,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "27.கேழற் பத்து",
+      "normalized_heading": "கேழற் பத்து",
+      "printed_ordinal": 27,
+      "source_order": 27,
+      "poem_start": 261,
+      "poem_end": 270,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "28 குரக்குப் பத்து",
+      "normalized_heading": "குரக்குப் பத்து",
+      "printed_ordinal": 28,
+      "source_order": 28,
+      "poem_start": 271,
+      "poem_end": 280,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "29.கிள்ளைப் பத்து",
+      "normalized_heading": "கிள்ளைப் பத்து",
+      "printed_ordinal": 29,
+      "source_order": 29,
+      "poem_start": 281,
+      "poem_end": 290,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "30 மஞ்ஞைப் பத்து.",
+      "normalized_heading": "மஞ்ஞைப் பத்து",
+      "printed_ordinal": 30,
+      "source_order": 30,
+      "poem_start": 291,
+      "poem_end": 300,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "31.செலவு அழுங்குவித்த பத்து",
+      "normalized_heading": "செலவு அழுங்குவித்த பத்து",
+      "printed_ordinal": 31,
+      "source_order": 31,
+      "poem_start": 301,
+      "poem_end": 310,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "32.செலவுப் பத்து",
+      "normalized_heading": "செலவுப் பத்து",
+      "printed_ordinal": 32,
+      "source_order": 32,
+      "poem_start": 311,
+      "poem_end": 320,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "33.இடைச்சுரப் பத்து.",
+      "normalized_heading": "இடைச்சுரப் பத்து",
+      "printed_ordinal": 33,
+      "source_order": 33,
+      "poem_start": 321,
+      "poem_end": 330,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "34.தலைவி இரங்கு பத்து.",
+      "normalized_heading": "தலைவி இரங்கு பத்து",
+      "printed_ordinal": 34,
+      "source_order": 34,
+      "poem_start": 331,
+      "poem_end": 340,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "35.இளவேனிற் பத்து.",
+      "normalized_heading": "இளவேனிற் பத்து",
+      "printed_ordinal": 35,
+      "source_order": 35,
+      "poem_start": 341,
+      "poem_end": 350,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "36.வரவுரைத்த பத்து",
+      "normalized_heading": "வரவுரைத்த பத்து",
+      "printed_ordinal": 36,
+      "source_order": 36,
+      "poem_start": 351,
+      "poem_end": 360,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "37. முன்னிலைப் பத்து",
+      "normalized_heading": "முன்னிலைப் பத்து",
+      "printed_ordinal": 37,
+      "source_order": 37,
+      "poem_start": 361,
+      "poem_end": 370,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "38.மக்ட் போக்கிய வழித் தாயிரங்கு பத்து.",
+      "normalized_heading": "மக்ட் போக்கிய வழித் தாயிரங்கு பத்து",
+      "printed_ordinal": 38,
+      "source_order": 38,
+      "poem_start": 371,
+      "poem_end": 380,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "39. உடன்போக்கின் கண் இடைச் சுரத்து உரைத்த பத்து.",
+      "normalized_heading": "உடன்போக்கின் கண் இடைச் சுரத்து உரைத்த பத்து",
+      "printed_ordinal": 39,
+      "source_order": 39,
+      "poem_start": 381,
+      "poem_end": 390,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "40.மறுதரவுப் பத்து",
+      "normalized_heading": "மறுதரவுப் பத்து",
+      "printed_ordinal": 40,
+      "source_order": 40,
+      "poem_start": 391,
+      "poem_end": 400,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "41.செவிலி கூற்றுப் பத்து",
+      "normalized_heading": "செவிலி கூற்றுப் பத்து",
+      "printed_ordinal": 41,
+      "source_order": 41,
+      "poem_start": 401,
+      "poem_end": 410,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "42.கிழவன் பருவம் பாராட்டுப் பத்து",
+      "normalized_heading": "கிழவன் பருவம் பாராட்டுப் பத்து",
+      "printed_ordinal": 42,
+      "source_order": 42,
+      "poem_start": 411,
+      "poem_end": 420,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "43.விரவுப் பத்து",
+      "normalized_heading": "விரவுப் பத்து",
+      "printed_ordinal": 43,
+      "source_order": 43,
+      "poem_start": 421,
+      "poem_end": 430,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "44.புறவணிப் பத்து",
+      "normalized_heading": "புறவணிப் பத்து",
+      "printed_ordinal": 44,
+      "source_order": 44,
+      "poem_start": 431,
+      "poem_end": 440,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "45. பாசறைப் பத்து",
+      "normalized_heading": "பாசறைப் பத்து",
+      "printed_ordinal": 45,
+      "source_order": 45,
+      "poem_start": 441,
+      "poem_end": 450,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "46.பருவங்கண்டு கிழத்தி யுரைத்த பத்து",
+      "normalized_heading": "பருவங்கண்டு கிழத்தி யுரைத்த பத்து",
+      "printed_ordinal": 46,
+      "source_order": 46,
+      "poem_start": 451,
+      "poem_end": 460,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "47.தோழி வற்புறுத்த பத்து",
+      "normalized_heading": "தோழி வற்புறுத்த பத்து",
+      "printed_ordinal": 47,
+      "source_order": 47,
+      "poem_start": 461,
+      "poem_end": 470,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "48.பாணன் பத்து",
+      "normalized_heading": "பாணன் பத்து",
+      "printed_ordinal": 48,
+      "source_order": 48,
+      "poem_start": 471,
+      "poem_end": 480,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "49.தேர் வியங்கொண்ட பத்து",
+      "normalized_heading": "தேர் வியங்கொண்ட பத்து",
+      "printed_ordinal": 49,
+      "source_order": 49,
+      "poem_start": 481,
+      "poem_end": 490,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    },
+    {
+      "printed_heading": "50.வரவுச் சிரப்புரைத்த பத்து",
+      "normalized_heading": "வரவுச் சிரப்புரைத்த பத்து",
+      "printed_ordinal": 50,
+      "source_order": 50,
+      "poem_start": 491,
+      "poem_end": 500,
+      "poem_record_count": 10,
+      "lost_poems": [],
+      "ordinal_consistent": true
+    }
+  ],
+  "major_divisions": [
+    {
+      "sequence": 1,
+      "poem_start": 1,
+      "poem_end": 100,
+      "name": null,
+      "source": "mechanical hundred-poem block; source prints no division heading"
+    },
+    {
+      "sequence": 2,
+      "poem_start": 101,
+      "poem_end": 200,
+      "name": null,
+      "source": "mechanical hundred-poem block; source prints no division heading"
+    },
+    {
+      "sequence": 3,
+      "poem_start": 201,
+      "poem_end": 300,
+      "name": null,
+      "source": "mechanical hundred-poem block; source prints no division heading"
+    },
+    {
+      "sequence": 4,
+      "poem_start": 301,
+      "poem_end": 400,
+      "name": null,
+      "source": "mechanical hundred-poem block; source prints no division heading"
+    },
+    {
+      "sequence": 5,
+      "poem_start": 401,
+      "poem_end": 500,
+      "name": null,
+      "source": "mechanical hundred-poem block; source prints no division heading"
+    }
+  ],
+  "observations": [
+    "The source prints no pattu heading before poems 1 and 11.",
+    "The heading before poem 111 repeats printed ordinal 11.",
+    "The heading before poem 121 is printed with ordinal 12 although its source-order group is 13.",
+    "Poems 129 and 130 are explicitly labelled கிடைக்காத பாடல்."
+  ]
+}

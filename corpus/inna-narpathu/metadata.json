@@ -1,0 +1,27 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "இன்னா நாற்பது",
+  "title_english": "Iṉṉā Nāṟpatu",
+  "work_slug": "inna-narpathu",
+  "work_id": "inna-narpathu",
+  "programme_id": "pathinenkilkanakku",
+  "author": "கபிலர்",
+  "author_as_printed": "கபிலர்",
+  "numbered_poem_record_count": 40,
+  "available_poem_count": 40,
+  "missing_poems": [],
+  "unnumbered_literary_record_count": 1,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0025.html",
+  "project_madurai_id": "pmuni0025",
+  "source_scope": "First work bounded within combined Project Madurai object",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "The unnumbered கடவுள் வாழ்த்து is preserved at work level.",
+    "Printed variant notes marked @, %, and & remain source notes and do not alter canonical bodies."
+  ]
+}

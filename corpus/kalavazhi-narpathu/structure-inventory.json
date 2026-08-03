@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": null,
+      "poem_start": 1,
+      "poem_end": 40,
+      "record_count": 40,
+      "provenance": "mechanical whole-work navigation; no internal division printed"
+    }
+  ],
+  "additional_unnumbered_literary_text": {
+    "position": "after numbered record 40",
+    "lines": [
+      "வேனிறத் திங்க வயவரா லேறுண்டு",
+      "கானிலங் கொள்ளாக் கலங்கிச் செவிசாய்த்து",
+      "மாநிலங் கூறு மறைகேட்ப போன்றவே",
+      "பாடா ரிடிமுரசிற் பாய்புன னீர்நாடன்",
+      "கூடாரை யட்ட களத்து."
+    ],
+    "provenance": "printed by Project Madurai without a number; not inferred as record 41"
+  }
+}

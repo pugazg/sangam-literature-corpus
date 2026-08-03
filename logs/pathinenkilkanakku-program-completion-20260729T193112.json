@@ -1,0 +1,346 @@
+{
+  "programme_id": "pathinenkilkanakku",
+  "status": "complete",
+  "completed_at": "2026-07-29T19:31:13.423929+05:30",
+  "physical_root": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "canonical_work_count": 18,
+  "all_works_frozen": true,
+  "physical_audit": "pass",
+  "tests": {
+    "passed": 91,
+    "dependency_warnings": 88
+  },
+  "frozen_sangam_core_regression": {
+    "works_checked": 9,
+    "canonical_body_changes": [],
+    "source_note_changes": [],
+    "whole_record_changes": [],
+    "inventory_changes": []
+  },
+  "works": [
+    {
+      "order": 1,
+      "work_slug": "tirukkural",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "1d1704d1f2e6dd649d40f29253bb6cb1ac8a0e316841601e3b3223feac548f18",
+      "poem_count": 1330,
+      "section_count": 133,
+      "poem_file_set_sha256": "0d5873991b968273db3b876e8d1f8a50791f40288e2bff4fa773bdaffcdf6c45",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 7,
+        "source_output_matches": 1330,
+        "source_note_matches": 1330
+      }
+    },
+    {
+      "order": 2,
+      "work_slug": "naladiyar",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "5ab43427d8a5db080e88d762bbca318ed00773c368e491ca197c4918663f6772",
+      "poem_count": 400,
+      "section_count": 40,
+      "poem_file_set_sha256": "7fc627101945afa3835154d01aa4b59901a560d3742222ddfae27cf17a2c1624",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 1,
+        "source_output_matches": 400,
+        "source_note_matches": 400
+      }
+    },
+    {
+      "order": 3,
+      "work_slug": "nanmanikkadigai",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "87758515c8d2888e9fc7176f960ea0693f3accd8f0c33270651104d85cf05df5",
+      "poem_count": 106,
+      "section_count": 2,
+      "poem_file_set_sha256": "387a774c0cf9c21da1092078a27ce89439b271b57b9aaf371d35abc31d494e1f",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 106,
+        "source_note_matches": 106
+      }
+    },
+    {
+      "order": 4,
+      "work_slug": "inna-narpathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+      "poem_count": 40,
+      "section_count": 2,
+      "poem_file_set_sha256": "ced5177d50a78ada7b568f02cd96e0483b3117100f44b40a0fce6f7cba142aae",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 40,
+        "source_note_matches": 40
+      }
+    },
+    {
+      "order": 5,
+      "work_slug": "iniyavai-narpathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+      "poem_count": 40,
+      "section_count": 2,
+      "poem_file_set_sha256": "9b746c22373ce13e932495d4b017f9e3cbd2cf6b7a84f76f3505618d0fc88fc6",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 40,
+        "source_note_matches": 40
+      }
+    },
+    {
+      "order": 6,
+      "work_slug": "kar-narpathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef",
+      "poem_count": 40,
+      "section_count": 1,
+      "poem_file_set_sha256": "36396da08f80985fcf6e24a01d3c936d8764e851778536a34cf30ff1e3d83724",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 40,
+        "source_note_matches": 40
+      }
+    },
+    {
+      "order": 7,
+      "work_slug": "kalavazhi-narpathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+      "poem_count": 40,
+      "section_count": 1,
+      "poem_file_set_sha256": "d002a760bb14eae28f2d4605e533c7b1c8f4d8e8a1c486c22a5d6661c9797be7",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 40,
+        "source_note_matches": 40
+      }
+    },
+    {
+      "order": 8,
+      "work_slug": "aintinai-aimpathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+      "poem_count": 50,
+      "section_count": 5,
+      "poem_file_set_sha256": "35bfa5834400702281a36e3f7d29d1a97f9ce4a2f3e682448c1645a4a239fe46",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 50,
+        "source_note_matches": 50
+      }
+    },
+    {
+      "order": 9,
+      "work_slug": "aintinai-elupathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+      "poem_count": 70,
+      "section_count": 5,
+      "poem_file_set_sha256": "05bd015edee228dbd9e120e072e7526de0c5f024bce7faac435ab26c1d87e272",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 4,
+        "info": 0,
+        "source_output_matches": 70,
+        "source_note_matches": 70
+      }
+    },
+    {
+      "order": 10,
+      "work_slug": "thinaimalai-nutraimbathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "29c2432a335f4818ef0a650c1ff7b5cf46c8484c810f15767de80e239955e31b",
+      "poem_count": 153,
+      "section_count": 5,
+      "poem_file_set_sha256": "72a0ba73962cd79c9d011421f8812fefd803b60e340546207264c6ef131a3423",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 153,
+        "source_note_matches": 153
+      }
+    },
+    {
+      "order": 11,
+      "work_slug": "thinaimozhi-aimpathu",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+      "poem_count": 50,
+      "section_count": 5,
+      "poem_file_set_sha256": "602d326a26ec02a933a778b0ae11326130bc830bac176a70b8237d2066b6e974",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 50,
+        "source_note_matches": 50
+      }
+    },
+    {
+      "order": 12,
+      "work_slug": "tirikatukam",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "c4d233ffa89b4e98bd98c2247d1611a044bc1d4f1309f0e1928ad6ab98e36f9f",
+      "poem_count": 100,
+      "section_count": 1,
+      "poem_file_set_sha256": "d16e6e3bcf7ab5e40290e23b122e35b15c9a07a3b417a58b891cdbde5e713c95",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 2,
+        "source_output_matches": 100,
+        "source_note_matches": 100
+      }
+    },
+    {
+      "order": 13,
+      "work_slug": "acharakkovai",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "d9256bb5837e4934142b58bf7e5def7db794fe5620a1475d78af10adac62cb5a",
+      "poem_count": 100,
+      "section_count": 1,
+      "poem_file_set_sha256": "208fa72d582da05a8030e14c425f58229327844456177ad19fd297a5fb33206a",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 4,
+        "source_output_matches": 100,
+        "source_note_matches": 100
+      }
+    },
+    {
+      "order": 14,
+      "work_slug": "pazhamozhi-nanuru",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "a238f6c3eb3d3645b6344c73109b02673c567ed12289a0c24c4ab203622b6122",
+      "poem_count": 399,
+      "section_count": 33,
+      "poem_file_set_sha256": "3d056cc60059465a98b1cf332c12714dd5ba30bc5fbb548ba8ccd1efff798f56",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 1,
+        "source_output_matches": 399,
+        "source_note_matches": 399
+      }
+    },
+    {
+      "order": 15,
+      "work_slug": "sirupanchamulam",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef",
+      "poem_count": 98,
+      "section_count": 2,
+      "poem_file_set_sha256": "05bf27d52999367da87ce0739dc7550d5907238b15bf22ea12867513ff02fba2",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 98,
+        "source_note_matches": 98
+      }
+    },
+    {
+      "order": 16,
+      "work_slug": "muthumozhi-kanchi",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+      "poem_count": 100,
+      "section_count": 10,
+      "poem_file_set_sha256": "398e8abafe70dd8ca8d3236631cd948f2b5105b0b36af45f97571cd90fc0aa6f",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 1,
+        "source_output_matches": 100,
+        "source_note_matches": 100
+      }
+    },
+    {
+      "order": 17,
+      "work_slug": "elati",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef",
+      "poem_count": 80,
+      "section_count": 1,
+      "poem_file_set_sha256": "36274b095d8cf3d9d52a87978b03a6a38ccba2d77dd880e4ae6b3ce8c2f558c8",
+      "validation": {
+        "status": "pass",
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "source_output_matches": 80,
+        "source_note_matches": 80
+      }
+    },
+    {
+      "order": 18,
+      "work_slug": "kainnilai",
+      "corpus_schema_version": "1.0.0",
+      "version_status": "frozen",
+      "source_sha256": "4927a2832b00858bf358ca58120cfef4bfd1adae587cf9ea9eada98fd785b6c8",
+      "poem_count": 60,
+      "section_count": 4,
+      "poem_file_set_sha256": "1e356a2a9ef9f713ec9ffdbedd952449cedeca8e8373bb23edf1c0426a58582c",
+      "validation": {
+        "status": "pass-with-review",
+        "errors": 0,
+        "warnings": 0,
+        "info": 1,
+        "source_output_matches": 60,
+        "source_note_matches": 60
+      }
+    }
+  ]
+}

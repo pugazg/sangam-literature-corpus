@@ -1,0 +1,5 @@
+Detected 500 printed poem records and 50 ten-poem groups
+Applied conservative Unicode NFC normalization
+Wrote 500 poem files and 50 structural group files
+Manifest contains 900 poems
+Validation: pass-with-review; 0 errors, 2 warnings, 19 info

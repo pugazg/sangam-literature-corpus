@@ -1,0 +1,55 @@
+{
+  "programme_id": "pathinenkilkanakku",
+  "title_tamil": "பதினெண்கீழ்க்கணக்கு",
+  "survey_date": "2026-07-29",
+  "status": "programme_complete_and_frozen",
+  "policy": {
+    "canonical_source": "One explicitly selected Project Madurai UTF-8 object per work; a combined object is bounded to the selected work without merging readings.",
+    "muppal": "முப்பால் is recorded only as an alias of Tirukkural.",
+    "kainnilai_innilai": "கைந்நிலை is selected as the eighteenth work; இன்னிலை is a non-selected alternate tradition and is excluded from canonical records.",
+    "normalization": ["HTML entity decoding", "Unicode NFC", "LF line endings", "controlled duplicate blank-line cleanup", "documented layout-only boundary restoration"],
+    "prohibited": ["spelling correction", "silent numbering repair", "metadata inference", "edition conflation"]
+  },
+  "source_objects": [
+    {"id":"pmuni0001","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0001.html","bytes":301298,"sha256":"1d1704d1f2e6dd649d40f29253bb6cb1ac8a0e316841601e3b3223feac548f18","artifact_type":"exact HTTP HTML response","works":["tirukkural"]},
+    {"id":"pmuni0016","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0016.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0016.html","bytes":167532,"sha256":"5ab43427d8a5db080e88d762bbca318ed00773c368e491ca197c4918663f6772","artifact_type":"exact HTTP HTML response","works":["naladiyar"]},
+    {"id":"pmuni0024","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0024.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0024.html","bytes":53610,"sha256":"d9256bb5837e4934142b58bf7e5def7db794fe5620a1475d78af10adac62cb5a","artifact_type":"exact HTTP HTML response","works":["acharakkovai"]},
+    {"id":"pmuni0025","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0025.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0025.html","bytes":71537,"sha256":"11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b","artifact_type":"exact HTTP HTML response","works":["inna-narpathu","iniyavai-narpathu","kalavazhi-narpathu","muthumozhi-kanchi"]},
+    {"id":"pmuni0027","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0027.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0027.html","bytes":97739,"sha256":"3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3","artifact_type":"exact HTTP HTML response","works":["aintinai-aimpathu","aintinai-elupathu","thinaimozhi-aimpathu"],"excluded_content":["innilai"]},
+    {"id":"pmuni0029","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0029.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0029.html","bytes":104087,"sha256":"57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef","artifact_type":"exact HTTP HTML response","works":["kar-narpathu","elati","sirupanchamulam"]},
+    {"id":"pmuni0036","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0036.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0036.html","bytes":183434,"sha256":"a238f6c3eb3d3645b6344c73109b02673c567ed12289a0c24c4ab203622b6122","artifact_type":"exact HTTP HTML response","works":["pazhamozhi-nanuru"]},
+    {"id":"pmuni0047","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0047.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0047.html","bytes":49865,"sha256":"87758515c8d2888e9fc7176f960ea0693f3accd8f0c33270651104d85cf05df5","artifact_type":"exact HTTP HTML response","works":["nanmanikkadigai"]},
+    {"id":"pmuni0048","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0048.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0048.html","bytes":51162,"sha256":"c4d233ffa89b4e98bd98c2247d1611a044bc1d4f1309f0e1928ad6ab98e36f9f","artifact_type":"exact HTTP HTML response","works":["tirikatukam"]},
+    {"id":"pmuni0051","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0051.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0051.html","bytes":53443,"sha256":"4927a2832b00858bf358ca58120cfef4bfd1adae587cf9ea9eada98fd785b6c8","artifact_type":"exact HTTP HTML response","works":["kainnilai"],"excluded_content":["innilai"]},
+    {"id":"pmuni0056","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0056.html","file":"sources/raw-html/pathinenkilkanakku/pmuni0056.html","bytes":76223,"sha256":"29c2432a335f4818ef0a650c1ff7b5cf46c8484c810f15767de80e239955e31b","artifact_type":"exact HTTP HTML response","works":["thinaimalai-nutraimbathu"]}
+  ],
+  "works": [
+    {"order":1,"slug":"tirukkural","title_tamil":"திருக்குறள்","aliases":["முப்பால்"],"selected_source":"pmuni0001","source_scope":"whole object","expected_record_model":"1330 numbered couplets in 133 printed chapters and three printed major divisions","alternatives":["pmuni0450_* commentary releases","pmuni0650 commentary release"],"risk":"malformed table-row markup; global number printed at line end"},
+    {"order":2,"slug":"naladiyar","title_tamil":"நாலடியார்","selected_source":"pmuni0016","source_scope":"whole object","expected_record_model":"400 numbered quatrains under printed divisions","alternatives":["pmuni0518 commentary","pmuni0711 translation/commentary","pmuni0778 alternate release"],"risk":"introductory prose and printed hierarchy must be bounded"},
+    {"order":3,"slug":"nanmanikkadigai","title_tamil":"நான்மணிக்கடிகை","selected_source":"pmuni0047","source_scope":"whole object","expected_record_model":"numbered verses plus any source-printed invocation","risk":"determine invocation and exact numbering from complete object"},
+    {"order":4,"slug":"inna-narpathu","title_tamil":"இன்னா நாற்பது","selected_source":"pmuni0025","source_scope":"first bounded work","expected_record_model":"40 numbered verses plus source-printed prefatory material","risk":"combined source object; strict boundary required"},
+    {"order":5,"slug":"iniyavai-narpathu","title_tamil":"இனியவை நாற்பது","selected_source":"pmuni0025","source_scope":"second bounded work","expected_record_model":"40 numbered verses","alternatives":["pmuni0775 commentary"],"risk":"combined source object; strict boundary required"},
+    {"order":6,"slug":"kar-narpathu","title_tamil":"கார் நாற்பது","selected_source":"pmuni0029","source_scope":"first bounded work","expected_record_model":"40 numbered verses","risk":"combined source object; strict boundary required"},
+    {"order":7,"slug":"kalavazhi-narpathu","title_tamil":"களவழி நாற்பது","selected_source":"pmuni0025","source_scope":"third bounded work","expected_record_model":"40 numbered verses","risk":"combined source object; strict boundary required"},
+    {"order":8,"slug":"aintinai-aimpathu","title_tamil":"ஐந்திணை ஐம்பது","selected_source":"pmuni0027","source_scope":"bounded selected work","expected_record_model":"50 numbered verses with source-printed tiṇai divisions","risk":"combined object also contains non-programme Innilai"},
+    {"order":9,"slug":"aintinai-elupathu","title_tamil":"ஐந்திணை எழுபது","selected_source":"pmuni0027","source_scope":"bounded selected work","expected_record_model":"70 record identities with 25, 26, 69 and 70 explicitly lost","alternatives":["pmuni0499 withdrawn object"],"risk":"lost records must remain successful source-lost records"},
+    {"order":10,"slug":"thinaimalai-nutraimbathu","title_tamil":"திணைமாலை நூற்றைம்பது","selected_source":"pmuni0056","source_scope":"whole object","expected_record_model":"source-numbered verses under printed tiṇai divisions","risk":"nominal title count must not override actual printed inventory"},
+    {"order":11,"slug":"thinaimozhi-aimpathu","title_tamil":"திணைமொழி ஐம்பது","selected_source":"pmuni0027","source_scope":"final bounded work","expected_record_model":"50 numbered verses with source-printed tiṇai divisions","risk":"combined object boundary and division headings"},
+    {"order":12,"slug":"tirikatukam","title_tamil":"திரிகடுகம்","selected_source":"pmuni0048","source_scope":"whole object","expected_record_model":"numbered verses plus source-printed prefatory material","risk":"complete reconnaissance must distinguish invocation from record numbering"},
+    {"order":13,"slug":"acharakkovai","title_tamil":"ஆசாரக்கோவை","selected_source":"pmuni0024","source_scope":"whole object","expected_record_model":"source-numbered verses","risk":"printed metre or internal headings may be structural metadata"},
+    {"order":14,"slug":"pazhamozhi-nanuru","title_tamil":"பழமொழி நானூறு","selected_source":"pmuni0036","source_scope":"whole object","expected_record_model":"399 numbered verses plus two source-printed unnumbered opening texts; the source note totals 401 literary items","risk":"title-derived count must not override printed inventory; chapter ordinal 12 is absent"},
+    {"order":15,"slug":"sirupanchamulam","title_tamil":"சிறுபஞ்சமூலம்","selected_source":"pmuni0029","source_scope":"final bounded work","expected_record_model":"source-numbered verses","risk":"combined object boundary required"},
+    {"order":16,"slug":"muthumozhi-kanchi","title_tamil":"முதுமொழிக்காஞ்சி","selected_source":"pmuni0025","source_scope":"final bounded work","expected_record_model":"printed internal decade-like structure and numbered lines/records to be determined from source","alternatives":["pmuni0587 commentary"],"risk":"do not flatten source hierarchy or infer canonical unit"},
+    {"order":17,"slug":"elati","title_tamil":"ஏலாதி","selected_source":"pmuni0029","source_scope":"second bounded work","expected_record_model":"80 numbered verses plus any printed invocation","risk":"combined object boundary required"},
+    {"order":18,"slug":"kainnilai","title_tamil":"கைந்நிலை","selected_source":"pmuni0051","source_scope":"second bounded work only","expected_record_model":"60 numbered verses under four actually printed tiṇai headings","alternatives":["இன்னிலை in the same object is a non-selected alternate eighteenth-work tradition"],"risk":"exclude Innilai completely; do not infer a fifth heading"}
+  ],
+  "selection_result": {
+    "canonical_work_count": 18,
+    "selected_source_object_count": 11,
+    "all_selected_objects_preserved": true,
+    "parser_implementation_authorized": true,
+    "programme_completion_verified": true,
+    "all_eighteen_works_frozen_at": "1.0.0",
+    "canonical_numbered_record_total": 3256
+  }
+}

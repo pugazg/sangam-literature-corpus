@@ -1,0 +1,26 @@
+[
+  {
+    "sequence": 1,
+    "heading_as_printed": "1.  களிற்றியாணை நிரை",
+    "normalized_structural_label": "களிற்றியாணை நிரை",
+    "poem_start": 1,
+    "poem_end": 120,
+    "heading_source": "Project Madurai printed division heading"
+  },
+  {
+    "sequence": 2,
+    "heading_as_printed": "2.  மணிமிடை பவளம்",
+    "normalized_structural_label": "மணிமிடை பவளம்",
+    "poem_start": 121,
+    "poem_end": 300,
+    "heading_source": "Project Madurai printed division heading"
+  },
+  {
+    "sequence": 3,
+    "heading_as_printed": "3.  நித்திலக்கோவை",
+    "normalized_structural_label": "நித்திலக்கோவை",
+    "poem_start": 301,
+    "poem_end": 400,
+    "heading_source": "Project Madurai printed division heading"
+  }
+]

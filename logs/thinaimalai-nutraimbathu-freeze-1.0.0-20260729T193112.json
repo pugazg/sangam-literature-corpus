@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.322533+05:30",
+  "order": 10,
+  "work_slug": "thinaimalai-nutraimbathu",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "29c2432a335f4818ef0a650c1ff7b5cf46c8484c810f15767de80e239955e31b",
+  "poem_count": 153,
+  "section_count": 5,
+  "poem_file_set_sha256": "72a0ba73962cd79c9d011421f8812fefd803b60e340546207264c6ef131a3423",
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_output_matches": 153,
+    "source_note_matches": 153
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

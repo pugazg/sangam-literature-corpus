@@ -1,0 +1,34 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "ஐந்திணை எழுபது",
+  "title_english": "Aintiṇai Eḻupathu",
+  "work_slug": "aintinai-elupathu",
+  "work_id": "aintinai-elupathu",
+  "programme_id": "pathinenkilkanakku",
+  "author": "மூவாதியார்",
+  "author_as_printed": "மூவாதியார்",
+  "numbered_poem_record_count": 70,
+  "available_poem_count": 66,
+  "missing_poems": [
+    25,
+    26,
+    69,
+    70
+  ],
+  "unnumbered_literary_record_count": 1,
+  "printed_division_count": 5,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0027.html",
+  "project_madurai_id": "pmuni0027",
+  "source_scope": "Second selected work bounded within combined Project Madurai object",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "The unnumbered கடவுள் வாழ்த்து is preserved at work level.",
+    "Records 25, 26, 69, and 70 are explicitly printed as lost; their canonical bodies remain empty.",
+    "Five printed tiṇai divisions each contain fourteen record identities."
+  ]
+}

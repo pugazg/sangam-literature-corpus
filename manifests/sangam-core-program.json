@@ -1,0 +1,29 @@
+{
+  "program": "Core Sangam Literature Corpus",
+  "completion_date": "2026-07-29",
+  "corpus_schema_version": "1.0.0",
+  "status": "complete",
+  "work_count": 9,
+  "canonical_record_count": 2376,
+  "works": [
+    {"work_slug": "natrinai", "records": 400, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0296", "source_sha256": "b3aa835398de5175523e9f000942ccd1944f5885b1f74f03bcb22ecd18a00277"},
+    {"work_slug": "aingurunuru", "records": 500, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0028", "source_sha256": "b1bbdbe90472ef28b617d32a7b8893b1f894f49afd9b4574e11501bd13e75ac9"},
+    {"work_slug": "kuruntokai", "records": 401, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0110", "source_sha256": "9647aadead2f2c5b9a3b7740628a3edaee44988ec3131db7c5888f3fbcabc6f3"},
+    {"work_slug": "akananuru", "records": 400, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0229", "source_sha256": "0f2484a5b1b2df77fd43ab89a206f8f101bfa2d0161e6905f9822b08a04279cb"},
+    {"work_slug": "purananuru", "records": 400, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0057", "source_sha256": "4d783669301ef2d6edb58b74c1c8de9660671571d174bd13d02c0dd8b1829129", "source_artifact": "approved supplied Markdown/text export"},
+    {"work_slug": "pattuppattu", "records": 10, "version": "1.0.0", "status": "frozen", "project_madurai_ids": ["pmuni0067", "pmuni0063", "pmuni0064", "pmuni0069", "pmuni0488", "pmuni0071", "pmuni0070", "pmuni0073", "pmuni0077", "pmuni0078"], "source_set_manifest": "sources/source-metadata/pattuppattu-source-set.json"},
+    {"work_slug": "patirruppattu", "records": 80, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0038", "source_sha256": "dc783dbf0141205625e7a27d9a14848b2dcef316e935dc66770f0ce082e012cc"},
+    {"work_slug": "paripatal", "records": 35, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0087", "source_sha256": "07497b27fa06415c89e0023530d7599595521f400cc088cbaeaee9f2ea8e4fc9"},
+    {"work_slug": "kalittokai", "records": 150, "version": "1.0.0", "status": "frozen", "project_madurai_id": "pmuni0221", "source_sha256": "da4b2182fca2066c3627f6c9207a01748e8e9fe75d005995d5cbb7397a263195"}
+  ],
+  "verification": {
+    "physical_audit": "pass",
+    "tests": "73 passed",
+    "all_work_validation_errors": 0,
+    "all_work_idempotence": {
+      "path_additions": [],
+      "path_removals": [],
+      "hash_changes": []
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "work": "akananuru",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0229.html",
+  "accessed_date": "2026-07-13",
+  "project_madurai_id": "pmuni0229",
+  "raw_source_file": "sources/raw-html/akananuru.html",
+  "source_checksum_sha256": "0f2484a5b1b2df77fd43ab89a206f8f101bfa2d0161e6905f9822b08a04279cb",
+  "content_length_bytes": 794903,
+  "http_content_type": "text/html",
+  "raw_source_modified": false,
+  "title_tamil_as_printed": "அகநானுறு",
+  "title_romanized_as_printed": "akanAnURu",
+  "edition_type": "source-only Project Madurai etext",
+  "canonical_source_decision": "The complete source-only pmuni0229 release is the sole canonical transcription source. Later Project Madurai commentary editions are not merged into canonical text.",
+  "contributors_as_printed": [
+    "Dr. Thomas Malten and Colleagues of the Univ. of Koeln, Germany — transliterated/romanized etext",
+    "TSCII proof reading by Mr. Sivakumar of Chennai and Mr. Raju Rajendran, USA",
+    "Preparation of HTML and PDF versions: Dr. K. Kalyanasundaram, Lausanne, Switzerland"
+  ],
+  "rights_statement_as_printed": [
+    "© Project Madurai, 1998-2006.",
+    "You are welcome to freely distribute this file, provided this header page is kept intact."
+  ],
+  "source_objects": [
+    {
+      "source_object_id": "pmuni0229",
+      "source_order": 1,
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0229.html",
+      "raw_source_file": "sources/raw-html/akananuru.html",
+      "sha256": "0f2484a5b1b2df77fd43ab89a206f8f101bfa2d0161e6905f9822b08a04279cb",
+      "byte_size": 794903,
+      "poem_number_coverage": "unnumbered record 0 and numbered records 1-400 in source order",
+      "edition_part_relationship": "single complete source-only edition"
+    }
+  ],
+  "numbered_record_count": 400,
+  "unnumbered_literary_record_count": 1,
+  "printed_divisions": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1.  களிற்றியாணை நிரை",
+      "normalized_structural_label": "களிற்றியாணை நிரை",
+      "poem_start": 1,
+      "poem_end": 120,
+      "heading_source": "Project Madurai printed division heading"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2.  மணிமிடை பவளம்",
+      "normalized_structural_label": "மணிமிடை பவளம்",
+      "poem_start": 121,
+      "poem_end": 300,
+      "heading_source": "Project Madurai printed division heading"
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.  நித்திலக்கோவை",
+      "normalized_structural_label": "நித்திலக்கோவை",
+      "poem_start": 301,
+      "poem_end": 400,
+      "heading_source": "Project Madurai printed division heading"
+    }
+  ],
+  "printed_numbering_anomalies": [
+    {
+      "canonical_poem_number": 131,
+      "poem_number_as_printed": 130,
+      "source_order": 131
+    },
+    {
+      "canonical_poem_number": 319,
+      "poem_number_as_printed": 318,
+      "source_order": 319
+    }
+  ]
+}

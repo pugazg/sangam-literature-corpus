@@ -1,0 +1,31 @@
+{
+  "programme_id": "pathinenkilkanakku",
+  "title_tamil": "பதினெண்கீழ்க்கணக்கு",
+  "status": "complete",
+  "canonical_work_count": 18,
+  "canonical_numbered_record_count": 3256,
+  "corpus_schema_version": "1.0.0",
+  "all_works_frozen": true,
+  "completion_record": "logs/pathinenkilkanakku-program-completion-20260729T193112.json",
+  "selected_tradition": {"eighteenth_work": "kainnilai", "excluded_alternate": "innilai"},
+  "works": [
+    {"order":1,"slug":"tirukkural","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":2,"slug":"naladiyar","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":3,"slug":"nanmanikkadigai","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":4,"slug":"inna-narpathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":5,"slug":"iniyavai-narpathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":6,"slug":"kar-narpathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":7,"slug":"kalavazhi-narpathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":8,"slug":"aintinai-aimpathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":9,"slug":"aintinai-elupathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":10,"slug":"thinaimalai-nutraimbathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":11,"slug":"thinaimozhi-aimpathu","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":12,"slug":"tirikatukam","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":13,"slug":"acharakkovai","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":14,"slug":"pazhamozhi-nanuru","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":15,"slug":"sirupanchamulam","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":16,"slug":"muthumozhi-kanchi","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":17,"slug":"elati","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"},
+    {"order":18,"slug":"kainnilai","onboarding_status":"complete","freeze_status":"frozen","corpus_schema_version":"1.0.0"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.260582+05:30",
+  "order": 6,
+  "work_slug": "kar-narpathu",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "57ee41487ccf6a9f3550f213e08c910ea0d18def047700cd16c0c71348bfdaef",
+  "poem_count": 40,
+  "section_count": 1,
+  "poem_file_set_sha256": "36396da08f80985fcf6e24a01d3c936d8764e851778536a34cf30ff1e3d83724",
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_output_matches": 40,
+    "source_note_matches": 40
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

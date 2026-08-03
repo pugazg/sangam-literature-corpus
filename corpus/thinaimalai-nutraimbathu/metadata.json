@@ -1,0 +1,30 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "திணைமாலை நூற்றைம்பது",
+  "title_english": "Tiṇaimālai Nūṟṟaimpatu",
+  "work_slug": "thinaimalai-nutraimbathu",
+  "work_id": "thinaimalai-nutraimbathu",
+  "programme_id": "pathinenkilkanakku",
+  "author": "கணிமேதாவியார்",
+  "author_as_printed": "கணிமேதாவியார்",
+  "nominal_count_from_title": 150,
+  "numbered_poem_record_count": 153,
+  "available_poem_count": 153,
+  "missing_poems": [],
+  "unnumbered_literary_record_count": 1,
+  "printed_division_count": 5,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0056.html",
+  "project_madurai_id": "pmuni0056",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "29c2432a335f4818ef0a650c1ff7b5cf46c8484c810f15767de80e239955e31b",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "The selected source prints 153 numbered records despite the nominal count in the title; all 153 are retained.",
+    "Five printed tiṇai divisions contain 31, 31, 30, 31, and 30 records.",
+    "A concluding unnumbered சிறப்புப் பாயிரம் is preserved at work level.",
+    "Printed division descriptions remain structural evidence; speaker is not inferred."
+  ]
+}

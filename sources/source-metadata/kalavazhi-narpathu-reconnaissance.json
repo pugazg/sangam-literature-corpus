@@ -1,0 +1,43 @@
+{
+  "work": "kalavazhi-narpathu",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0025",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0025.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0025.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 71537,
+  "source_checksum_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "களவழி நாற்பது - பொய்கையார் இயற்றியது",
+  "parser": "kalavazhi-narpathu-pmuni0025-v1",
+  "numbered_record_count": 40,
+  "source_only": true,
+  "commentary_present": false,
+  "number_range": [
+    1,
+    40
+  ],
+  "printed_numbered_record_count": 40,
+  "missing_canonical_numbers": [],
+  "duplicate_canonical_numbers": [],
+  "printed_numbering_anomalies": [],
+  "source_printed_major_divisions": [
+    null
+  ],
+  "source_printed_chapter_count": 0,
+  "canonical_chapter_count": 0,
+  "heading_anomalies": [],
+  "unnumbered_literary_invocation_present": false,
+  "source_lost_records": [],
+  "incomplete_records": [],
+  "candidate_texts": [],
+  "line_end_markers": "Numbers are printed at the start of each first literary line and removed only as record labels.",
+  "html_anomalies": [],
+  "provenance_classification": {
+    "major_divisions": "printed by selected canonical source",
+    "subdivisions": "printed by selected canonical source where present",
+    "chapter_headings": "printed where present",
+    "canonical_sequence": "mechanically derived from source order",
+    "literary_text": "printed by selected canonical source"
+  }
+}

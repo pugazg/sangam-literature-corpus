@@ -1,0 +1,7 @@
+work,poem_numbers,evidence_type,editorial_status,external_source,canonical_action
+natrinai,234,candidate_selection,external_source_preference,TamilVU,"No canonical change; retain both candidates only in Project Madurai source note"
+natrinai,385,lacuna_comparison,incompleteness_independently_confirmed,TamilVU,"No canonical change; retain Project Madurai dash placeholders"
+natrinai,7|268,legitimate_shared_opening,independently_confirmed,TamilVU,Retain both distinct poems
+natrinai,15|203,legitimate_shared_opening,independently_confirmed,TamilVU,Retain both distinct poems
+natrinai,153|346,legitimate_shared_opening,independently_confirmed,TamilVU,Retain both distinct poems
+natrinai,205|399,legitimate_shared_opening,independently_confirmed,TamilVU,Retain both distinct poems

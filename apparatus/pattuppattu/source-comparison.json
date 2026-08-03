@@ -1,0 +1,14 @@
+{
+  "work": "pattuppattu",
+  "canonical_source_set": "sources/source-metadata/pattuppattu-source-set.json",
+  "comparisons": [
+    {
+      "record_number": 5,
+      "title": "முல்லைப்பாட்டு",
+      "selected_source_object": "pmuni0488",
+      "alternate_source_object": "pmuni0053",
+      "comparison_status": "identity and edition scope documented; no textual collation performed",
+      "canonical_effect": "none"
+    }
+  ]
+}

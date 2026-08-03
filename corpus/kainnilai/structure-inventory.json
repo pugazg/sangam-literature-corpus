@@ -1,0 +1,43 @@
+{
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "1.   குறிஞ்சி",
+      "poem_start": 1,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 12,
+      "record_count": 12
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "2.   பாலை",
+      "poem_start": 13,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 24,
+      "record_count": 12
+    },
+    {
+      "sequence": 3,
+      "heading_as_printed": "3.   முல்லை",
+      "poem_start": 25,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 36,
+      "record_count": 12
+    },
+    {
+      "sequence": 4,
+      "heading_as_printed": "4.   மருதம்",
+      "poem_start": 37,
+      "provenance": "Project Madurai printed tiṇai division",
+      "poem_end": 60,
+      "record_count": 24
+    }
+  ],
+  "navigation_files": [
+    "01-001-012.md",
+    "02-013-024.md",
+    "03-025-036.md",
+    "04-037-060.md"
+  ],
+  "prefatory_text": null
+}

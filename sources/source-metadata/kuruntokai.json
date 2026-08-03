@@ -1,0 +1,21 @@
+{
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html",
+  "accessed_date": "2026-07-12",
+  "project_madurai_id": "pmuni0110",
+  "raw_source_file": "sources/raw-html/kuruntokai.html",
+  "source_checksum_sha256": "9647aadead2f2c5b9a3b7740628a3edaee44988ec3131db7c5888f3fbcabc6f3",
+  "content_length_bytes": 289003,
+  "http_content_type": "text/html",
+  "raw_source_modified": false,
+  "title_tamil": "குறுந்தொகை",
+  "title_romanized_as_printed": "kuRuntokai",
+  "collection_as_printed": "எட்டுத்தொகை நூல்களில் ஒன்று - பல ஆசிரியர்கள்",
+  "contributors_as_printed": [
+    "Etext preparation, HTML and PDF versions: Dr. K. Kalyanasundaram, Lausanne, Switzerland",
+    "Proof Reading : Ms. Sarala Sandirasegarane, Kanpur, India"
+  ],
+  "rights_statement_as_printed": [
+    "© Project Madurai, 1998-2021.",
+    "You are welcome to freely distribute this file, provided this header page is kept intact"
+  ]
+}

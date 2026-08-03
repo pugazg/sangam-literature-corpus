@@ -1,0 +1,24 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "முதுமொழிக் காஞ்சி",
+  "title_english": "Mutumoḻik Kāñci",
+  "work_slug": "muthumozhi-kanchi",
+  "work_id": "muthumozhi-kanchi",
+  "programme_id": "pathinenkilkanakku",
+  "numbered_poem_record_count": 100,
+  "available_poem_count": 100,
+  "missing_poems": [],
+  "printed_division_count": 10,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0025.html",
+  "project_madurai_id": "pmuni0025",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Source-specific grammar is documented in the reconnaissance record.",
+    "No controlled metadata is inferred from prose."
+  ]
+}

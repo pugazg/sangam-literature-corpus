@@ -1,0 +1,33 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "திருக்குறள்",
+  "title_english": "Tirukkural",
+  "work_slug": "tirukkural",
+  "work_id": "tirukkural",
+  "programme_id": "pathinenkilkanakku",
+  "aliases": [
+    "முப்பால்"
+  ],
+  "author": "திருவள்ளுவர்",
+  "author_as_printed": "திருவள்ளுவர்",
+  "numbered_poem_record_count": 1330,
+  "available_poem_count": 1330,
+  "missing_poems": [],
+  "printed_major_division_count": 3,
+  "chapter_count": 133,
+  "printed_chapter_heading_count": 132,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html",
+  "project_madurai_id": "pmuni0001",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "1d1704d1f2e6dd649d40f29253bb6cb1ac8a0e316841601e3b3223feac548f18",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Muppāl is an alias, not a separate corpus work.",
+    "Global line-end couplet numbers are represented in provenance, not literary bodies.",
+    "Four printed numbering anomalies and three chapter-heading anomalies are preserved.",
+    "No commentary is present in the selected source."
+  ]
+}

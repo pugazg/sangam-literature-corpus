@@ -1,0 +1,31 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "குறுந்தொகை",
+  "title_english": "Kuruntokai",
+  "work_slug": "kuruntokai",
+  "work_id": "kuruntokai",
+  "collection": "எட்டுத்தொகை",
+  "title_romanized_as_printed": "kuRuntokai",
+  "expected_poem_count": 401,
+  "available_poem_count": 401,
+  "missing_poems": [],
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html",
+  "project_madurai_id": "pmuni0110",
+  "accessed_date": "2026-07-12",
+  "source_checksum_sha256": "9647aadead2f2c5b9a3b7740628a3edaee44988ec3131db7c5888f3fbcabc6f3",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "navigation_sections": {
+    "type": "mechanical",
+    "range_size": 50,
+    "count": 9
+  },
+  "notes": [
+    "The source prints no anthology divisions.",
+    "Tiṇai and speaker/context are copied from headings; poet attribution is printed after each poem.",
+    "Printed heading and attribution anomalies are preserved.",
+    "Version 1.0.0 freezes the verified source-faithful transcription and provenance representation; it does not assert that Project Madurai is a critical edition or that printed anomalies are philologically correct."
+  ]
+}

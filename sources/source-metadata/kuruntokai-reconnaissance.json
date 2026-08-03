@@ -1,0 +1,47 @@
+{
+  "work": "kuruntokai",
+  "project_madurai_id": "pmuni0110",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html",
+  "source_title_as_printed": "குறுந்தொகை / kuRuntokai",
+  "printed_numbered_records": 401,
+  "number_range": [1, 401],
+  "missing_numbers": [],
+  "duplicate_numbers": [],
+  "unnumbered_literary_text": {
+    "heading": "கடவுள் வாழ்த்து",
+    "present": true,
+    "poet_as_printed": "-பாரதம் பாடிய பெருந்தேவனார்."
+  },
+  "poem_heading_pattern": "<number>. <thinai> - <speaker/context>",
+  "thinai_printed_in_headings": true,
+  "speaker_context_printed_in_headings": true,
+  "poet_printed_after_poem": true,
+  "prose_notes_below_poems": false,
+  "source_lost_poems": [],
+  "incomplete_or_lacunose_poems": [],
+  "candidate_text_conditions": [],
+  "printed_structural_divisions": [],
+  "numbering_anomalies": [],
+  "heading_anomalies": [
+    {"poem_number": 29, "field": "speaker_as_printed", "value": "தலைன் கூற்று"},
+    {"poem_number": 396, "field": "thinai_as_printed", "value": "பாால"}
+  ],
+  "unknown_poet_placeholders": [191, 201, 256, 313, 321, 326, 375, 379, 381, 395],
+  "layout_conditions": [
+    "Poems 105 and 180 print the poet attribution on the same HTML line as the final verse; the BR-layout boundary is restored without changing either string."
+  ],
+  "shared_first_line_groups": [[104, 287], [246, 313]],
+  "identical_normalized_full_bodies": [],
+  "numeric_or_line_end_markers_inside_literary_text": [],
+  "navigation_structure": {
+    "type": "mechanical",
+    "range_size": 50,
+    "reason": "The canonical source prints no anthology section divisions."
+  },
+  "provenance_distinctions": {
+    "printed_by_canonical_source": "Poem number, thinai string, speaker/context string, poem lines and poet attribution.",
+    "derived_mechanically": "Fifty-poem navigation ranges only.",
+    "external_scholarship": "Not used.",
+    "editorial_inference": "None."
+  }
+}

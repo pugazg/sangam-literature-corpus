@@ -1,0 +1,1687 @@
+{
+  "parser": "acharakkovai-pmuni0024-v1",
+  "work_slug": "acharakkovai",
+  "title_tamil_as_printed": "பெருவாயின் முள்ளியாரின்  \"ஆசாரக்கோவை\"",
+  "poems": [
+    {
+      "poem_number": 1,
+      "poem_number_as_printed": 1,
+      "source_order": 1,
+      "heading_as_printed": "1.  ஆசார வித்து",
+      "record_title_as_printed": "ஆசார வித்து",
+      "lines": [
+        "நன்றி யறிதல் பொறையுடைமை இன்சொல்லோடு",
+        "இன்னாத எவ்வுயிர்க்கும் செய்யாமை கல்வியோடு",
+        "ஒப்புரவு ஆற்ற அறிதல் அறிவுடைமை",
+        "நல்லினத் தாரோடு நட்டல் இவைஎட்டும்",
+        "சொல்லிய ஆசார வித்து"
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 2,
+      "poem_number_as_printed": 2,
+      "source_order": 2,
+      "heading_as_printed": "2.  ஒழுக்கம் தவறாதவர் அடையும் நன்மைகள்",
+      "record_title_as_printed": "ஒழுக்கம் தவறாதவர் அடையும் நன்மைகள்",
+      "lines": [
+        "பிறப்பு நெடுவாழ்க்கை செல்வம் வனப்பு",
+        "நிலக்கிழமை மீக்கூற்றம் கல்விநோ யின்மை",
+        "இலக்கணத்தால் இவ்வெட்டும் எய்துப என்றும்",
+        "ஒழக்கம் பிழையா தவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 3,
+      "poem_number_as_printed": 3,
+      "source_order": 3,
+      "heading_as_printed": "3.  தக்கிணை முதலியவை மேற்கொள்ளல்",
+      "record_title_as_printed": "தக்கிணை முதலியவை மேற்கொள்ளல்",
+      "lines": [
+        "தக்கிணை வேள்வி தவம்கல்வி இந்நான்கும்",
+        "முப்பால் ஒழுக்கினால் காத்துய்க்க - உய்க்காக்கால்",
+        "எப்பாலும் ஆகா கெடும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 4,
+      "poem_number_as_printed": 4,
+      "source_order": 4,
+      "heading_as_printed": "4.   முந்தையோர் கண்ட நெறி",
+      "record_title_as_printed": "முந்தையோர் கண்ட நெறி",
+      "lines": [
+        "வைகறை யாமம் துயிலெழுந்து தான்செய்யும்",
+        "நல்லறமும் ஒண்பொருளும் சிந்தித்து வாய்வதில்",
+        "தந்தையும் தாயும் தொழுதெழுக என்பதே",
+        "முந்தையோர் கண்ட முறை."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 5,
+      "poem_number_as_printed": 5,
+      "source_order": 5,
+      "heading_as_printed": "5.  எச்சிலுடன் தீண்டத் தகாதவை",
+      "record_title_as_printed": "எச்சிலுடன் தீண்டத் தகாதவை",
+      "lines": [
+        "எச்சிலார் தீண்டார் பசுப்பார்ப்பார் தீத்தேவர்",
+        "உச்சந் தலையோடு இவைஎன்ப யாவரும்",
+        "திட்பத்தால் தீண்டாப் பொருள்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைக் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 6,
+      "poem_number_as_printed": 6,
+      "source_order": 6,
+      "heading_as_printed": "6.. எச்சிலுடன் காணக் கூடாதவை",
+      "record_title_as_printed": "எச்சிலுடன் காணக் கூடாதவை",
+      "lines": [
+        "எச்சிலார் நோக்கார் புலைதிங்கள் ஞாயிறுநாய்",
+        "தக்கவீழ் மீனோடே இவ்வைந்தும் தெற்றென",
+        "நன்கறிவார் நாளும் விரைந்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைக் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 7,
+      "poem_number_as_printed": 7,
+      "source_order": 7,
+      "heading_as_printed": "7.  எச்சில்கள்",
+      "record_title_as_printed": "எச்சில்கள்",
+      "lines": [
+        "எச்சில் பலவும் உளமற் றவற்றுள்",
+        "இயக்கம் இரண்டும் இணைவிழைச்சு வாயின்",
+        "விழைச்சுஇவை எச்சில் இந்நான்கு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 8,
+      "poem_number_as_printed": 8,
+      "source_order": 8,
+      "heading_as_printed": "8.   எச்சிலுடன் செய்யக் கூடாதவை",
+      "record_title_as_printed": "எச்சிலுடன் செய்யக் கூடாதவை",
+      "lines": [
+        "நால்வகை எச்சிலும் நன்கு கடைப்பிடித்து",
+        "ஓதார் உரையார் வளராரே எஞ்ஞான்றும்",
+        "மேதைகள் ஆகுறு வார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 9,
+      "poem_number_as_printed": 9,
+      "source_order": 9,
+      "heading_as_printed": "9.  காலையில் கடவுளை வணங்குக",
+      "record_title_as_printed": "காலையில் கடவுளை வணங்குக",
+      "lines": [
+        "நாளந்தி கோல்தின்று கண்கழீஇத் தெய்வத்தைத்",
+        "தானறியும் ஆற்றால் தொழுதெழுக அல்கந்தி",
+        "நின்று தொழுதல் பழி."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 10,
+      "poem_number_as_printed": 10,
+      "source_order": 10,
+      "heading_as_printed": "10.  நீராட வேண்டிய சமயங்கள்",
+      "record_title_as_printed": "நீராட வேண்டிய சமயங்கள்",
+      "lines": [
+        "தேவர் வழிபாடு தீக்கனா வாலாமை",
+        "உண்டது கான்றல் மயிர்களைதல் ஊண்பொழுது",
+        "வைகு துயிலொடு இணைவிழைச்சுக் கீழ்மக்கள்",
+        "மெய்யுறல் ஏனை மயலுறல் ஈரைந்தும்",
+        "ஐயுறாது ஆடுக நீர்."
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 11,
+      "poem_number_as_printed": 11,
+      "source_order": 11,
+      "heading_as_printed": "11.  பழைமையோர் கண்ட முறைமை",
+      "record_title_as_printed": "பழைமையோர் கண்ட முறைமை",
+      "lines": [
+        "உடுத்தலால் நீராடார் ஒன்றுடுத்து உண்ணார்",
+        "உடுத்தாடை நீருள் பிழியார் விழுத்தக்கார்",
+        "ஒன்றுடுத்து என்றும் அவைபுகார் என்பதே",
+        "முந்தையோர் கண்ட முறை."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 12,
+      "poem_number_as_printed": 12,
+      "source_order": 12,
+      "heading_as_printed": "12. செய்யாமல் தவிர்க்க வேண்டியவை",
+      "record_title_as_printed": "செய்யாமல் தவிர்க்க வேண்டியவை",
+      "lines": [
+        "தலையுரைத்த எண்ணெயால் எவ்வுறுப்பும் தீண்டார்",
+        "பிறர்உடுத்த மாசுணியும் தீண்டார் செருப்புக்",
+        "குறையெனினும் கொள்ளார் இரந்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 13,
+      "poem_number_as_printed": 13,
+      "source_order": 13,
+      "heading_as_printed": "13. செய்யத் தகாதவை",
+      "record_title_as_printed": "செய்யத் தகாதவை",
+      "lines": [
+        "நீருள் நிழல்புரிந்து நோக்கார் நிலம்இராக்",
+        "கீறார் இராமரமும் சேரார் இடர்எனினும்",
+        "நீர்தொடாது எண்ணெய் உரையார் உரைத்தபின்",
+        "நீர்தொடார் நோக்கார் புலை."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 14,
+      "poem_number_as_printed": 14,
+      "source_order": 14,
+      "heading_as_printed": "14. நீராடும் முறை",
+      "record_title_as_printed": "நீராடும் முறை",
+      "lines": [
+        "நீராடும் போழ்தில் நெறிப்பட்டார் எஞ்ஞான்றும்",
+        "நீந்தார் உமியார் திளையார் விளையாடார்",
+        "காய்ந்தது எனினும் தலைஒழிந்து ஆடாரே",
+        "ஆய்ந்த அறிவி னவர்."
+      ],
+      "source_note_lines": [
+        "( இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 15,
+      "poem_number_as_printed": 15,
+      "source_order": 15,
+      "heading_as_printed": "15.  உடலைப்போல் போற்றத் தக்கவை",
+      "record_title_as_printed": "உடலைப்போல் போற்றத் தக்கவை",
+      "lines": [
+        "ஐம்பூதம் பார்ப்பார் பசுத்திங்கள் ஞாயிறு",
+        "தம்பூதம் எண்ணாது இகழ்வானேல் தம்மெய்க்கண்",
+        "ஐம்பூதம் அன்றே கெடும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 16,
+      "poem_number_as_printed": 16,
+      "source_order": 16,
+      "heading_as_printed": "16.  யாவரும் கூறிய நெறி",
+      "record_title_as_printed": "யாவரும் கூறிய நெறி",
+      "lines": [
+        "அரசன் உவாத்தியான் தாய்தந்தை தம்முன்",
+        "நிகரில் குரவர் இவர்இவரைத்",
+        "தேவரைப் போலத் தொழுக என்பதே",
+        "யாவரும் கண்ட நெறி."
+      ],
+      "source_note_lines": [
+        "(சவலை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 17,
+      "poem_number_as_printed": 17,
+      "source_order": 17,
+      "heading_as_printed": "17.  நல்லறிவாளர் செயல்",
+      "record_title_as_printed": "நல்லறிவாளர் செயல்",
+      "lines": [
+        "குரவர் உரையிகந்து செய்யார் விரதம்",
+        "குறையுடையார் தீர மறவார் - நிறையுவா",
+        "மேல்கோலும் தின்னார் மரங்குறையார் என்பவே",
+        "நல்லறி வாளர் துணிவு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 18,
+      "poem_number_as_printed": 18,
+      "source_order": 18,
+      "heading_as_printed": "18.  உணவு உண்ணும் முறைமை",
+      "record_title_as_printed": "உணவு உண்ணும் முறைமை",
+      "lines": [
+        "நீராடிக் கால்கழுவி வாய்பூசி மண்டலஞ்செய்து",
+        "உண்டாரே உண்டார் எனப்படுவர் அல்லாதார்",
+        "உண்டார்போல் வாய்பூசிச் செல்வர் அதுவெறுத்துக்",
+        "கொண்டார் அரக்கர் குறித்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 19,
+      "poem_number_as_printed": 19,
+      "source_order": 19,
+      "heading_as_printed": "19.   கால் கழுவிய பின் செய்ய வேண்டியவை",
+      "record_title_as_printed": "கால் கழுவிய பின் செய்ய வேண்டியவை",
+      "lines": [
+        "காலினீர் நீங்காமை உண்டிடுக பள்ளியுள்",
+        "ஈரம் புலராமை ஏறற்க என்பதே",
+        "பேரறி வாளர் துணிவு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 20,
+      "poem_number_as_printed": 20,
+      "source_order": 20,
+      "heading_as_printed": "20.  உண்ணும் விதம்",
+      "record_title_as_printed": "உண்ணும் விதம்",
+      "lines": [
+        "உண்ணுங்கால் நோக்கும் திசைகிழக்குக் கண்ணமர்ந்து",
+        "தூங்கான் துளங்காமை நன்குஇரீஇ யாண்டும்",
+        "பிறிதியாதும் நோக்கான் உரையான் தொழுதுகொண்டு",
+        "உண்க உகாஅமை நன்கு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 21,
+      "poem_number_as_printed": 21,
+      "source_order": 21,
+      "heading_as_printed": "21. ஒழுக்கம் பிழையாதவர் செய்வது",
+      "record_title_as_printed": "ஒழுக்கம் பிழையாதவர் செய்வது",
+      "lines": [
+        "விருந்தினர் மூத்தோர் பசுசிறை பிள்ளை",
+        "இவர்க்கூண் தொடுத்தல்லால் உண்ணாரே என்றும்",
+        "ஒழுக்கம் பிழையா தவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 22,
+      "poem_number_as_printed": 22,
+      "source_order": 22,
+      "heading_as_printed": "22.  பிற திசையும் நல்ல",
+      "record_title_as_printed": "பிற திசையும் நல்ல",
+      "lines": [
+        "ஒழிந்த திசையும் வழிமுறையால் நல்ல",
+        "முகட்டு வழியூண் புகழ்ந்தார் இகழ்ந்தார்",
+        "முகட்டு வழிகட்டில் பாடு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 23,
+      "poem_number_as_printed": 23,
+      "source_order": 23,
+      "heading_as_printed": "23.  உண்ணக்கூடாத முறைகள்",
+      "record_title_as_printed": "உண்ணக்கூடாத முறைகள்",
+      "lines": [
+        "கிடந்துண்ணார் நின்றுண்ணார் வெள்ளிடையும் உண்ணார்",
+        "சிறந்து மிகவுண்ணார் கட்டில்மேல் உண்ணார்",
+        "இறந்தொன்றும் தின்னற்க நின்று."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 24,
+      "poem_number_as_printed": 24,
+      "source_order": 24,
+      "heading_as_printed": "24.   பெரியோருடன் இருந்து உண்ணும் முறை",
+      "record_title_as_printed": "பெரியோருடன் இருந்து உண்ணும் முறை",
+      "lines": [
+        "முன்துவ்வார் முன்னெழார் மிக்குறார் ஊணின்கண்",
+        "என்பெறினும் ஆற்றவலம் இரார் தம்மிற்",
+        "பெரியார்தம் பாலிருந்தக் கால்.",
+        "உண்ணும் முறைமை"
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 25,
+      "poem_number_as_printed": 25,
+      "source_order": 25,
+      "heading_as_printed": "25.  கசக்கும் சுவை முதலிய சுவையுடைய பொருள்களை",
+      "record_title_as_printed": "கசக்கும் சுவை முதலிய சுவையுடைய பொருள்களை",
+      "lines": [
+        "கைப்பன எல்லாம் கடைதலை தித்திப்ப",
+        "மெச்சும் வகையால் ஒழிந்த இடையாகத்",
+        "துய்க்க முறைவகையால் ஊண்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 26,
+      "poem_number_as_printed": 26,
+      "source_order": 26,
+      "heading_as_printed": "26.  உண்ணும் கலங்களைக் கையாளும் முறை",
+      "record_title_as_printed": "உண்ணும் கலங்களைக் கையாளும் முறை",
+      "lines": [
+        "முதியவரைப் பக்கத்து வையார் விதிமுறையால்",
+        "உண்பவற்றுள் எல்லாஞ் சிறிய கடைப்பிடித்து",
+        "அன்பில் திரியாமை ஆசாரம் நீங்காமை",
+        "பண்பினால் நீக்கல் கலம்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 27,
+      "poem_number_as_printed": 27,
+      "source_order": 27,
+      "heading_as_printed": "27.  உண்டபின் செய்ய வேண்டியவை",
+      "record_title_as_printed": "உண்டபின் செய்ய வேண்டியவை",
+      "lines": [
+        "இழியாமை நன்குமிழ்ந்து எச்சில் அறவாய்",
+        "அடியோடு நன்கு துடைத்து வடிவுடைத்தா",
+        "முக்கால் குடித்துத் துடைத்து முகத்துறுப்பு",
+        "ஒத்த வகையால் விரலுறுத்தி வாய்பூசல்",
+        "மிக்கவர் கண்ட நெறி."
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 28,
+      "poem_number_as_printed": 28,
+      "source_order": 28,
+      "heading_as_printed": "28.  நீர் குடிக்கும் முறை",
+      "record_title_as_printed": "நீர் குடிக்கும் முறை",
+      "lines": [
+        "இருகையால் தண்ணீர் பருகார் ஒருகையால்",
+        "கொள்ளார் கொடாஅர் குரவர்க்கு இருகை",
+        "சொறியார் உடம்பு மடுத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 29,
+      "poem_number_as_printed": 29,
+      "source_order": 29,
+      "heading_as_printed": "29.  மாலையில் செய்யக் கூடியவை",
+      "record_title_as_printed": "மாலையில் செய்யக் கூடியவை",
+      "lines": [
+        "அந்திப் பொழுது கிடவார் நடவாரே",
+        "உண்ணார் வெகுளார் விளக்கிகழார் முன்னந்தி",
+        "அல்குண்டு அடங்கல் வழி."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 30,
+      "poem_number_as_printed": 30,
+      "source_order": 30,
+      "heading_as_printed": "30.  உறங்கும் முறை",
+      "record_title_as_printed": "உறங்கும் முறை",
+      "lines": [
+        "கிடக்குங்கால் கைகூப்பித் தெய்வம் தொழுது",
+        "வடக்கொடு கோணம் தலைசெய்யார் மீக்கோள்",
+        "உடற்கொடுத்துச் சேர்தல் வழி."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 31,
+      "poem_number_as_printed": 31,
+      "source_order": 31,
+      "heading_as_printed": "31.  இடையில் செல்லாமை முதலியன",
+      "record_title_as_printed": "இடையில் செல்லாமை முதலியன",
+      "lines": [
+        "இருதேவர் பார்ப்பார் இடைபோகார் தும்மினும்",
+        "மிக்கார் வழுத்தில் தொழுதெழுக ஒப்பார்க்கு",
+        "உடன்செல்லல் உள்ளம் உவந்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 32,
+      "poem_number_as_printed": 32,
+      "source_order": 32,
+      "heading_as_printed": "32.  மலம், சிறுநீர் கழிக்கக்கூடாத இடங்கள்",
+      "record_title_as_printed": "மலம், சிறுநீர் கழிக்கக்கூடாத இடங்கள்",
+      "lines": [
+        "புற்பைங்கூழ் ஆப்பி சுடலை வழிதீர்த்தம்",
+        "தேவ குலம்நிழல் ஆநிலை வெண்பலிஎன்று",
+        "ஈரைந்தின் கண்ணும் உமிழ்வோடு இருபுலனும்",
+        "சோரார் உணர்வுடை யார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 33,
+      "poem_number_as_printed": 33,
+      "source_order": 33,
+      "heading_as_printed": "33.  மலம் சிறுநீர் கழிக்கும் முறை",
+      "record_title_as_printed": "மலம் சிறுநீர் கழிக்கும் முறை",
+      "lines": [
+        "பகல்தெற்கு நோக்கார் இராவடக்கு நோக்கார்",
+        "பகல்பெய்யார் தீயுனுள் நீர்."
+      ],
+      "source_note_lines": [
+        "(குறள் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 34,
+      "poem_number_as_printed": 34,
+      "source_order": 34,
+      "heading_as_printed": "34.  மலம், சிறுநீர் கழிக்கும் திசை",
+      "record_title_as_printed": "மலம், சிறுநீர் கழிக்கும் திசை",
+      "lines": [
+        "பத்துத் திசையும் மனத்தான் மறைத்தபின்",
+        "அந்தரத்து அல்லால் உமிழ்வோடு இருபுலனும்",
+        "இந்திர தானம் பெறினும் இகழாரே",
+        "தந்திரத்து வாழ்துமென் பார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 35,
+      "poem_number_as_printed": 35,
+      "source_order": 35,
+      "heading_as_printed": "35.  வாய் அலம்பாத இடங்கள்",
+      "record_title_as_printed": "வாய் அலம்பாத இடங்கள்",
+      "lines": [
+        "நடைவரவு நீரகத்து நின்றுவாய் பூசார்",
+        "வழிநிலை நீருள்ளும் பூசார் மனத்தால்",
+        "வரைந்துகொண் டல்லது பூசார் கலத்தினால்",
+        "பெய்பூச்சுச் சீரா தெனின்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 36,
+      "poem_number_as_printed": 36,
+      "source_order": 36,
+      "heading_as_printed": "36.  ஒழுக்க மற்றவை",
+      "record_title_as_printed": "ஒழுக்க மற்றவை",
+      "lines": [
+        "சுடரிடைப் போகார் சுவர்மேல் உமியார்",
+        "இடரெனினும் மாசுணி கீழ்தம்மேற் கொள்ளார்",
+        "படைவரினும் ஆடை வளியுரைப்பப் போகார்",
+        "பலரிடை ஆடை உதிராரே என்றும்",
+        "கடனறி காட்சி யவர்."
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 37,
+      "poem_number_as_printed": 37,
+      "source_order": 37,
+      "heading_as_printed": "37.  நரகத்துக்குச் செலுத்துவன",
+      "record_title_as_printed": "நரகத்துக்குச் செலுத்துவன",
+      "lines": [
+        "பிறர் மனை கள்களவு சூது கொலையோடு",
+        "அறனறிந்தார் இவ்வைந்து நோக்கார் - திறனிலரென்று",
+        "எள்ளப் படுவதூஉம் அன்றி நிரயத்துச்",
+        "செல்வழி உய்த்திடுத லால்."
+      ],
+      "source_note_lines": [
+        "(நேரிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 38,
+      "poem_number_as_printed": 38,
+      "source_order": 38,
+      "heading_as_printed": "38.  எண்ணக்கூடாதவை",
+      "record_title_as_printed": "எண்ணக்கூடாதவை",
+      "lines": [
+        "பொய்குறளை வெளவல் அழுக்காறு இவைநான்கும்",
+        "ஐயம்தீர் காட்சியார் சிந்தியார் - சிந்திப்பின்",
+        "ஐயம் புகுவித்து அருநிரயத் துய்த்திடும்",
+        "தெய்வமும் செற்று விடும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 39,
+      "poem_number_as_printed": 39,
+      "source_order": 39,
+      "heading_as_printed": "39. தெய்வத்துக்குப் பலியூட்டிய பின் உண்க",
+      "record_title_as_printed": "தெய்வத்துக்குப் பலியூட்டிய பின் உண்க",
+      "lines": [
+        "தமக்கென்று உலையேற்றார் தம்பொருட்டூண் கொள்ளார்",
+        "அடுக்களை எச்சில் படாஅர் மனைப்பலி",
+        "ஊட்டினமை கண்டுண்க ஊண்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 40,
+      "poem_number_as_printed": 40,
+      "source_order": 40,
+      "heading_as_printed": "40.  சான்றோர் இயல்பு",
+      "record_title_as_printed": "சான்றோர் இயல்பு",
+      "lines": [
+        "உயர்ந்ததன் மேலிரார் உள்ளழிவு செய்யார்",
+        "இறந்தின்னா செய்தக் கடைத்தும் குரவர்",
+        "இளங்கிளைஞர் உண்ணு மிடத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 41,
+      "poem_number_as_printed": 41,
+      "source_order": 41,
+      "heading_as_printed": "41.  சில செய்யக் கூடியவையும் செய்யக் கூடாதவையும்",
+      "record_title_as_printed": "சில செய்யக் கூடியவையும் செய்யக் கூடாதவையும்",
+      "lines": [
+        "கண்ணெச்சில் கண்ணூட்டார் காலொடு கால்தேயார்",
+        "புண்ணியம் ஆய தலையோடு றுப்புறுத்த",
+        "நுண்ணிய நூலறிவி னார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 42,
+      "poem_number_as_printed": 42,
+      "source_order": 42,
+      "heading_as_printed": "42.  மனைவியைச் சேரும் காலமும் நீங்கும் காலமும்",
+      "record_title_as_printed": "மனைவியைச் சேரும் காலமும் நீங்கும் காலமும்",
+      "lines": [
+        "தீண்டாநாள் முந்நாளும் நோக்கார்நீ ராடியபின்",
+        "ஈராறு நாளும் இகவற்க என்பதே",
+        "பேரறி வாளர் துணிவு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 43,
+      "poem_number_as_printed": 43,
+      "source_order": 43,
+      "heading_as_printed": "43.  உடன் உறைதலுக்கு ஆகாத காலம்",
+      "record_title_as_printed": "உடன் உறைதலுக்கு ஆகாத காலம்",
+      "lines": [
+        "உச்சியம் போழ்தோடு இடையாமம் ஈரந்தி",
+        "மிக்க இருதேவர் நாளோ டுவாத்திதிநாள்",
+        "அட்டமியும் ஏனைப் பிறந்தநாள் இவ்வனைத்தும்",
+        "ஒட்டார் உடனுறைவின் கண்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 44,
+      "poem_number_as_printed": 44,
+      "source_order": 44,
+      "heading_as_printed": "44.  நாழி முதலியவற்றை வைக்கும் முறை",
+      "record_title_as_printed": "நாழி முதலியவற்றை வைக்கும் முறை",
+      "lines": [
+        "நாழி மணைமேல் இரியார் மணைகவிழார்",
+        "கோடி கடையுள் விரியார் கடைத்தலை",
+        "ஓராது கட்டில் பாடஅர் அறியாதார்",
+        "தந்தலைக்கண் நில்லா விடல்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 45,
+      "poem_number_as_printed": 45,
+      "source_order": 45,
+      "heading_as_printed": "45.  பந்தலில் வைக்கத் தகாதவை",
+      "record_title_as_printed": "பந்தலில் வைக்கத் தகாதவை",
+      "lines": [
+        "துடைப்பம் துகள்காடு புல்லிதழ்ச் செத்தல்",
+        "கருங்கலம் கட்டில் கிழிந்ததனோடு ஐந்தும்",
+        "பரப்பற்க பந்த ரகத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 46,
+      "poem_number_as_printed": 46,
+      "source_order": 46,
+      "heading_as_printed": "46.  வீட்டைப் பேணும் முறைமை",
+      "record_title_as_printed": "வீட்டைப் பேணும் முறைமை",
+      "lines": [
+        "காட்டுக் களைந்து கலம்கழீஇ இல்லத்தை",
+        "ஆப்பிநீ ரெங்கும் தெளித்துச் சிறுகாலை",
+        "நீர்ச்சால் கரக நிறைய மலரணிந்து",
+        "இல்லம் பொலிய அடுப்பினுள் தீப்பெய்க",
+        "நல்லது உறல்வேண்டு வார்.",
+        "47 நூல் ஓதுவதற்கு ஆகாத காலம்"
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 47,
+      "poem_number_as_printed": null,
+      "source_order": 47,
+      "heading_as_printed": null,
+      "record_title_as_printed": null,
+      "lines": [
+        "அட்டமியும் ஏனை உவாவும் பதினான்கும்",
+        "அப்பூமி காப்பார்க்கு உறுகண்ணும் மிக்க",
+        "நிலத்துளக்கு விண்ணதிர்ப்பு வாலாமை பார்ப்பார்",
+        "இலங்குநூல் ஓதாத நாள்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 48,
+      "poem_number_as_printed": 48,
+      "source_order": 48,
+      "heading_as_printed": "48.  அறம் செய்தற்கும் விருந்து அளித்தற்கும் உரிய நாட்கள்",
+      "record_title_as_printed": "அறம் செய்தற்கும் விருந்து அளித்தற்கும் உரிய நாட்கள்",
+      "lines": [
+        "கலியாணம் தேவர் பிதிர்விழா, வேள்வியென்ற",
+        "ஐவகை நாளும் இகழா தறஞ்செய்க",
+        "பெய்க விருந்திற்கும் கூழ்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 49,
+      "poem_number_as_printed": 49,
+      "source_order": 49,
+      "heading_as_printed": "49.  நடை உடை முதலியவற்றைத் தக்கபடி அமைத்தல்",
+      "record_title_as_printed": "நடை உடை முதலியவற்றைத் தக்கபடி அமைத்தல்",
+      "lines": [
+        "உடைநடை சொற்சோர்வு வைதலிந் நான்கும்",
+        "நிலைமைக்கும் கல்விக்கும் ஆண்மைக்கும் தத்தம்",
+        "குடிமைக்கும் தக்க செயல்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 50,
+      "poem_number_as_printed": 50,
+      "source_order": 50,
+      "heading_as_printed": "50.  கேள்வியுடையவர் செயல்",
+      "record_title_as_printed": "கேள்வியுடையவர் செயல்",
+      "lines": [
+        "பழியார் இழியார் பலருள் உறங்கார்",
+        "இசையாத நேர்ந்து கரவார் இசைவின்றி",
+        "இல்லாரை எள்ளி இகழ்ந்துரையார் தள்ளியும்",
+        "தாங்கருங் கேள்வி யவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 51,
+      "poem_number_as_printed": 51,
+      "source_order": 51,
+      "heading_as_printed": "51.  தம் உடல் ஒளி விரும்புவார் செய்யத் தக்கவை",
+      "record_title_as_printed": "தம் உடல் ஒளி விரும்புவார் செய்யத் தக்கவை",
+      "lines": [
+        "மின்னொளியும் வீழ்மீனும் வேசையர்கள் கோலமும்",
+        "நம்மொளி வேண்டுவார் நோக்கார் பகற்கிழவோன்",
+        "முன்னொளியும் பின்னொளியும் அற்று."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 52,
+      "poem_number_as_printed": 52,
+      "source_order": 52,
+      "heading_as_printed": "52.  தளராத உள்ளத்தவர் செயல்",
+      "record_title_as_printed": "தளராத உள்ளத்தவர் செயல்",
+      "lines": [
+        "படிறும் பயனிலவும் பட்டி யுரையும்",
+        "வசையும் புறனும் உரையாரே என்றும்",
+        "அசையாத உள்ளத் தவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 53,
+      "poem_number_as_printed": 53,
+      "source_order": 53,
+      "heading_as_printed": "53.  ஒழுக்கமுடையவர் செய்யாதவை",
+      "record_title_as_printed": "ஒழுக்கமுடையவர் செய்யாதவை",
+      "lines": [
+        "தெறியொடு கல்லேறு வீளை விளியே",
+        "விகிர்தம் கதம்,கரத்தல் கைபுடை தோன்ற",
+        "உறுப்புச் செகுத்தலோடு இன்னவை யெல்லாம்",
+        "பயிற்றார் நெறிப்பட் டவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 54,
+      "poem_number_as_printed": 54,
+      "source_order": 54,
+      "heading_as_printed": "54.  விருந்தினர்க்குச் செய்யும் சிறப்பு",
+      "record_title_as_printed": "விருந்தினர்க்குச் செய்யும் சிறப்பு",
+      "lines": [
+        "முறுவல் இனிதுரை கால்நீர் இணைபாய்",
+        "கிடக்கையோடு இவ்வைந்து மென்ப தலைச்சென்றார்க்கு",
+        "ஊணொடு செய்யும் சிறப்பு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 55,
+      "poem_number_as_printed": 55,
+      "source_order": 55,
+      "heading_as_printed": "55.  அறிஞர் விரும்பாத இடங்கள்",
+      "record_title_as_printed": "அறிஞர் விரும்பாத இடங்கள்",
+      "lines": [
+        "கறுத்த பகைமுனையும் கள்ளாட்டுக் கண்ணும்",
+        "நிறுத்த மனமில்லார் சேரி அகத்தும்",
+        "குணநோக்கிக் கொண்டவர் கோள்விட் டுழியும்",
+        "நிகரில் அறிவினார் வேண்டார் பலர்தொகு",
+        "நீர்க்கரையும் நீடு நிலை."
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 56,
+      "poem_number_as_printed": 56,
+      "source_order": 56,
+      "heading_as_printed": "56.   தவிர்வன சில",
+      "record_title_as_printed": "தவிர்வன சில",
+      "lines": [
+        "முளிபுல்லும் கானமும் சேரார்தீக் கூட்டார்",
+        "துளிவிழக் கால்பரப்பி ஓடார் தெளிவிலாக்",
+        "கானம் தமியர் இயங்கார் துளியஃகி",
+        "நல்குரவு ஆற்றப் பெருகினும் செய்யாரே",
+        "தொல்வரவின் தீர்ந்த தொழில்."
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 57,
+      "poem_number_as_printed": 57,
+      "source_order": 57,
+      "heading_as_printed": "57.  நோய் வேண்டாதவர் செய்யக் கூடாதவை",
+      "record_title_as_printed": "நோய் வேண்டாதவர் செய்யக் கூடாதவை",
+      "lines": [
+        "பாழ்மனையும் தேவ குலனும் சுடுகாடும்",
+        "ஊரில் வழியெழுந்த ஒற்றை முதுமரனும்",
+        "தாமே தமியர் புகாஅர் பகல்வளரார்",
+        "நோயின்மை வேண்டு பவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 58,
+      "poem_number_as_printed": 58,
+      "source_order": 58,
+      "heading_as_printed": "58.  ஒருவர் புறப்படும் போது செய்யத் தகாதவை",
+      "record_title_as_printed": "ஒருவர் புறப்படும் போது செய்யத் தகாதவை",
+      "lines": [
+        "எழுச்சிக்கண் பிற்கூவார் தும்மார் வழுக்கியும்",
+        "எங்குற்றுச் சேறீரோ என்னாரே முன்புக்கு",
+        "எதிர்முகமா நின்றும் உரையார் இருசார்வும்",
+        "கொள்வர் குரவர் வலம்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 59,
+      "poem_number_as_printed": 59,
+      "source_order": 59,
+      "heading_as_printed": "59.  சில தீய ஒழுக்கங்கள்",
+      "record_title_as_printed": "சில தீய ஒழுக்கங்கள்",
+      "lines": [
+        "உடம்புநன்று என்றுரையார் ஊதார் விளக்கும்",
+        "அடுப்பினுள் தீநந்தக் கொள்ளார் அதனைப்",
+        "படக்காயார் தம்மேற் குறித்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 60,
+      "poem_number_as_printed": 60,
+      "source_order": 60,
+      "heading_as_printed": "60.  சான்றோருடன் செல்லும் போது செய்யத் தக்கவை",
+      "record_title_as_printed": "சான்றோருடன் செல்லும் போது செய்யத் தக்கவை",
+      "lines": [
+        "யாதொன்றும் ஏறார் செருப்பு வெயின்மறையார்",
+        "ஆன்றவிந்த முத்த விழுமியார் தம்மோடுஅங்கு",
+        "ஓராறு செல்லுமிடத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 61,
+      "poem_number_as_printed": 61,
+      "source_order": 61,
+      "heading_as_printed": "61.  நூல்முறை உணர்ந்தவர் துணிவு",
+      "record_title_as_printed": "நூல்முறை உணர்ந்தவர் துணிவு",
+      "lines": [
+        "வான்முறை யான்வந்த நான்மறை யாளரை",
+        "மேன்முறைப் பால்தம் குரவரைப் போலொழுகல்",
+        "நூன்முறை யாளர் துணிவு."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 62,
+      "poem_number_as_printed": 62,
+      "source_order": 62,
+      "heading_as_printed": "62.  சான்றோர்க்குச் செய்யும் ஒழுக்கம்",
+      "record_title_as_printed": "சான்றோர்க்குச் செய்யும் ஒழுக்கம்",
+      "lines": [
+        "கால்வாய்த் தொழுவு சமயம் எழுந்திருப்பு",
+        "ஆசாரம் என்பர் குரவர்க்கு இவையிவை",
+        "சாரத்தால் சொல்லிய மூன்று."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 63,
+      "poem_number_as_printed": 63,
+      "source_order": 63,
+      "heading_as_printed": "63.  கற்றவர் கண்ட நெறி",
+      "record_title_as_printed": "கற்றவர் கண்ட நெறி",
+      "lines": [
+        "துறந்தாரைப் பேணலும் நாணலும்தாம் கற்ற",
+        "மறந்தும் குரவர்முன் சொல்லாமை மூன்றும்",
+        "திறங்கண்டார் கண்ட நெறி."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 64,
+      "poem_number_as_printed": 64,
+      "source_order": 64,
+      "heading_as_printed": "64,  வாழக்கடவர் எனப்படுவர்",
+      "record_title_as_printed": "வாழக்கடவர் எனப்படுவர்",
+      "lines": [
+        "பார்ப்பார் தவரே சுமந்தார் பிணிப்பட்டார்",
+        "மூத்தார் இளையார் பசுப்பெண்டிர் என்றிவர்கட்டு",
+        "ஆற்ற வழிவிலங்கி னாரே பிறப்பிடைப்",
+        "போற்றி யெனப்படு வார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 65,
+      "poem_number_as_printed": 65,
+      "source_order": 65,
+      "heading_as_printed": "65.  தனித்திருக்கக் கூடாதவர்",
+      "record_title_as_printed": "தனித்திருக்கக் கூடாதவர்",
+      "lines": [
+        "ஈன்றாள் மகள்தம் உடன்பிறந்தாள் ஆயினும்",
+        "சான்றார் தமித்தா(க) உறையற்க ஐம்புலனும்",
+        "தாங்கற்கு அரிதஆக லான்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 66,
+      "poem_number_as_printed": 66,
+      "source_order": 66,
+      "heading_as_printed": "66.  மன்னருடன் பழகும் முறை",
+      "record_title_as_printed": "மன்னருடன் பழகும் முறை",
+      "lines": [
+        "கடைவிலக்கிற் காயார் கழிகிழமை செய்யார்",
+        "கொடையளிக்கண் பொச்சாவார் கோலநேர்செய்யார்",
+        "இடையறுத்துப் போகிப் பிறனொருவன் சேரார்",
+        "கடைபோக வாழ்துமென் பார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 67,
+      "poem_number_as_printed": 67,
+      "source_order": 67,
+      "heading_as_printed": "67.  குற்றம் ஆவன",
+      "record_title_as_printed": "குற்றம் ஆவன",
+      "lines": [
+        "தமக்குற்ற கட்டுரையும் தம்மிற் பெரியார்",
+        "உரைத்ததற்கு உற்ற உரையுமஃ தன்றிப்",
+        "பிறர்க்குற்ற கட்டுரையும் சொல்லற்க சொல்லின்",
+        "வடுக்குற்ற மாகி விடும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 68,
+      "poem_number_as_printed": 68,
+      "source_order": 68,
+      "heading_as_printed": "68. நல்ல நெறி",
+      "record_title_as_printed": "நல்ல நெறி",
+      "lines": [
+        "பெரியார் உவப்பனதாம் உவவார் இல்லம்",
+        "சிறியாரைக் கொண்டு புகாஅர் அறிவறியாப்",
+        "பிள்ளையே ஆயினும் இழித்துரையார் தம்மோடு",
+        "அளவளா வில்லா இடத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 69,
+      "poem_number_as_printed": 69,
+      "source_order": 69,
+      "heading_as_printed": "69.  மன்னன் செய்கையில் வெறுப்படையாமை முதலியன",
+      "record_title_as_printed": "மன்னன் செய்கையில் வெறுப்படையாமை முதலியன",
+      "lines": [
+        "முனியார் துனியார் முகத்தெதிர் நில்லார்",
+        "தனிமை இடத்துக்கண் தம்கருமம் சொல்லார்",
+        "இனியவை யாமறிதும் என்னார் கசிவின்று",
+        "காக்கைவெள் என்னும் எனின்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 70,
+      "poem_number_as_printed": 70,
+      "source_order": 70,
+      "heading_as_printed": "70.  மன்னன் முன் செய்யத் தகாதவை",
+      "record_title_as_printed": "மன்னன் முன் செய்யத் தகாதவை",
+      "lines": [
+        "உமிவும் உயர்ந்துழி ஏறலும் பாக்கும்",
+        "வகையில் உரையும் வளர்ச்சியும் ஐந்தும்",
+        "புணரார் பெரியா ரகத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 71,
+      "poem_number_as_printed": 71,
+      "source_order": 71,
+      "heading_as_printed": "71.  மன்னன் முன் சொல்லக் கூடாதவை",
+      "record_title_as_printed": "மன்னன் முன் சொல்லக் கூடாதவை",
+      "lines": [
+        "இறைவர்முன் செல்வமும் கல்வியும் தேசும்",
+        "குணனும் குலமுடையார் கூறார் பகைவர்போல்",
+        "பாரித்துப் பல்காற் பயின்று."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 72,
+      "poem_number_as_printed": 72,
+      "source_order": 72,
+      "heading_as_printed": "72.  வணங்கக்கூடாத இடங்கள்",
+      "record_title_as_printed": "வணங்கக்கூடாத இடங்கள்",
+      "lines": [
+        "பெரியார் மனையகத்தும் தேவ குலத்தும்",
+        "வணங்கார் குரவரையும் கண்டால் அணங்கொடு",
+        "நேர்பெரியார் செல்லு மிடத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 73,
+      "poem_number_as_printed": 73,
+      "source_order": 73,
+      "heading_as_printed": "73.  மன்னர் முன் செய்யத் தகாதவை",
+      "record_title_as_printed": "மன்னர் முன் செய்யத் தகாதவை",
+      "lines": [
+        "நகையொடு கொட்டாவி காறிப்புத் தும்மல்",
+        "இவையும் பெரியார்முன் செய்யாரே செய்யின்",
+        "அசையாது நிற்கும் பழி."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 74,
+      "poem_number_as_printed": 74,
+      "source_order": 74,
+      "heading_as_printed": "74.  ஆசிரியரிடம் நடக்கும் முறைமை",
+      "record_title_as_printed": "ஆசிரியரிடம் நடக்கும் முறைமை",
+      "lines": [
+        "நின்றக்கால் நிற்க அடக்கத்தால் என்றும்",
+        "இருந்தக்கால் ஏவாமை ஏகார் பெருந்தக்கார்",
+        "சொல்லிற் செவிகொடுத்துக் கேட்டீக மீட்டும்",
+        "வினாவற்க சொல்லொழிந்தக் கால்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 75,
+      "poem_number_as_printed": 75,
+      "source_order": 75,
+      "heading_as_printed": "75.  சான்றோர் அவையில் செய்யக் கூடாதவை",
+      "record_title_as_printed": "சான்றோர் அவையில் செய்யக் கூடாதவை",
+      "lines": [
+        "உடுக்கை இகவார் செவிசொறுண்டார் கைம்மேல்",
+        "எடுத்துரையார் பெண்டிர்மேல் நோக்கார் செவிச்சொல்லும்",
+        "கொள்ளார் பெரியார் அகத்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 76,
+      "poem_number_as_printed": 76,
+      "source_order": 76,
+      "heading_as_printed": "76.  சொல்லும் முறைமை",
+      "record_title_as_printed": "சொல்லும் முறைமை",
+      "lines": [
+        "விரைந்துரையார் மேன்மேல் உரையார்பொய் யாய",
+        "பரந்துரையார் பாரித்து உரையார் - ஒருங்கெனைத்தும்",
+        "சில்லெழுத்தினாலே பொருளடங்கக் காலந்தால்",
+        "சொல்லுக செவ்வி அறிந்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 77,
+      "poem_number_as_printed": 77,
+      "source_order": 77,
+      "heading_as_printed": "77.   நல்ல குலப்பெண்டிர் இயல்பு",
+      "record_title_as_printed": "நல்ல குலப்பெண்டிர் இயல்பு",
+      "lines": [
+        "தம்மேனி நோக்கார் தலையுளரார் கைந்நொடியார்",
+        "எம்மேனி ஆயினும் நோக்கார் தலைமகன்",
+        "தம்மேனி அல்லால் பிற."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 78,
+      "poem_number_as_printed": 78,
+      "source_order": 78,
+      "heading_as_printed": "78.  மன்னர் அவையில் செய்யக் கூடாதவை",
+      "record_title_as_printed": "மன்னர் அவையில் செய்யக் கூடாதவை",
+      "lines": [
+        "பிறரொடு மந்திரம் கொள்ளார் இறைவனைச்",
+        "சாரார் செவியோரார் சாரின் பிறிதொன்று",
+        "தேர்வார்போல் நிற்க திரிந்து."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 79,
+      "poem_number_as_printed": 79,
+      "source_order": 79,
+      "heading_as_printed": "79.  பெரியோரிடம் உள்ள முச்செயல்கள்",
+      "record_title_as_printed": "பெரியோரிடம் உள்ள முச்செயல்கள்",
+      "lines": [
+        "துன்பத்துள் துன்புற்று வாழ்தலும் இன்பத்துள்",
+        "இன்ப வகையால் ஒழுகலும் - அன்பின்",
+        "செறப்பட்டார் இல்லம் புகாமையும் மூன்றும்",
+        "திறப்பட்டார் கண்ணே உள."
+      ],
+      "source_note_lines": [
+        "(நேரிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 80,
+      "poem_number_as_printed": 80,
+      "source_order": 80,
+      "heading_as_printed": "80.  சான்றோர் பெயர் முதலியவை கூறாமை",
+      "record_title_as_printed": "சான்றோர் பெயர் முதலியவை கூறாமை",
+      "lines": [
+        "தெறுவந்தும் தங்குரவர் பேருரையார் இல்லத்து",
+        "உறுமி நெடிதும் இராஅர் - பெரியாரை",
+        "என்று முறைகொண்டு கூறார் புலையரையும்",
+        "நன்கறிவார் கூறார் முறை."
+      ],
+      "source_note_lines": [
+        "(நேரிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 81,
+      "poem_number_as_printed": 81,
+      "source_order": 81,
+      "heading_as_printed": "81.  ஆன்றோர் செய்யாதவை",
+      "record_title_as_printed": "ஆன்றோர் செய்யாதவை",
+      "lines": [
+        "புழைக்கடைப் புகார் அரசன் கோட்டி உரிமை",
+        "இவற்றுக்கண் செவ்வியார் நோக்காரே அவ்வத்",
+        "தொழிற்குரிவர் அல்லா தவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 82,
+      "poem_number_as_printed": 82,
+      "source_order": 82,
+      "heading_as_printed": "82.  மனைவியின் உள்ளம் மாறுபடுதல்",
+      "record_title_as_printed": "மனைவியின் உள்ளம் மாறுபடுதல்",
+      "lines": [
+        "வண்ண மகளிரி இடத்தொடு தம்மிடம்",
+        "ஒள்ளியம் என்பார் இடம்கொள்ளார் தெள்ளி",
+        "மிகக்கிழமை உண்டெனினும் வேண்டாவே பெண்டிர்க்கு",
+        "உவப்பன வேறாய் விடும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 83,
+      "poem_number_as_printed": 83,
+      "source_order": 83,
+      "heading_as_printed": "83.  கடைபோக வாழ்வோம் என எண்ணுபவர் மேற்கொள்ள வேண்டியவை",
+      "record_title_as_printed": "கடைபோக வாழ்வோம் என எண்ணுபவர் மேற்கொள்ள வேண்டியவை",
+      "lines": [
+        "நிரல்படச் செல்லார் நிழன்மிதித்து நில்லார்",
+        "உரையிடை ஆய்ந்து உரையார் ஊர்முனிவ செய்யார்",
+        "அரசர் படையளவுஞ் சொல்லாரே என்றும்",
+        "கடைபோக வாழ்துமென் பார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 84,
+      "poem_number_as_printed": 84,
+      "source_order": 84,
+      "heading_as_printed": "84.  பழகியவை என இகழத் தகாதவை",
+      "record_title_as_printed": "பழகியவை என இகழத் தகாதவை",
+      "lines": [
+        "அளையுறை பாம்பும் அரசும் நெருப்பும்",
+        "முழைஉறை சீயமும் என்றிவை நான்கும்",
+        "இளைய எளிய பயின்றனஎன்று எண்ணி",
+        "இகழின் இழுக்கந் தரும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 85,
+      "poem_number_as_printed": 85,
+      "source_order": 85,
+      "heading_as_printed": "85.  செல்வம் கெடும் வழி",
+      "record_title_as_printed": "செல்வம் கெடும் வழி",
+      "lines": [
+        "அறத்தொடு கல்யாணம் ஆள்வினை கூரை",
+        "இறப்பப் பெருகியக் கண்ணும் - திறப்பட்டார்",
+        "மன்னரின் மேம்பட்ட செய்யற்க செய்யின்",
+        "மன்னிய செல்வம் கெடும்."
+      ],
+      "source_note_lines": [
+        "(நேரிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 86,
+      "poem_number_as_printed": 86,
+      "source_order": 86,
+      "heading_as_printed": "86.  பெரியவரை உண்டது யாது என வினவக் கூடாது",
+      "record_title_as_printed": "பெரியவரை உண்டது யாது என வினவக் கூடாது",
+      "lines": [
+        "உண்டது கேளார்; குரவரை மிக்காரைக்",
+        "கண்டுழிக் கண்டால் மனந்திரியார்; புல்லரையும்",
+        "உண்டது கேளார் விடல்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 87,
+      "poem_number_as_printed": 87,
+      "source_order": 87,
+      "heading_as_printed": "87.  கட்டிலில் படுத்திருப்பவருக்குச் செய்யத் தகாதவை",
+      "record_title_as_printed": "கட்டிலில் படுத்திருப்பவருக்குச் செய்யத் தகாதவை",
+      "lines": [
+        "கிடந்தாரைக் கால்கழுவார் பூப்பெய்யார் சாந்தும்",
+        "மறந்தானும் எஞ்ஞான்றும் பூசார் கிடந்தார்கண்",
+        "நில்லார்தாம் கட்டின் மிசை."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 88,
+      "poem_number_as_printed": 88,
+      "source_order": 88,
+      "heading_as_printed": "88.  பெரியோர் போல் வாழ்வோம் என எண்ணுபவர் செய்கைகள்",
+      "record_title_as_printed": "பெரியோர் போல் வாழ்வோம் என எண்ணுபவர் செய்கைகள்",
+      "lines": [
+        "உதவிப் பயனுரையார் உண்டி பழியார்",
+        "அறத்தொடு தான்நோற்ற நோன்பு வியவார்",
+        "திறத்துளி வாழ்தும்என் பார்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 89,
+      "poem_number_as_printed": 89,
+      "source_order": 89,
+      "heading_as_printed": "89.  கிடைக்காதவற்றை விரும்பாமை",
+      "record_title_as_printed": "கிடைக்காதவற்றை விரும்பாமை",
+      "lines": [
+        "எய்யாத வேண்டார் இரங்கார் இகந்ததற்குக்",
+        "கைவாரா வந்த இடுக்கண் மனம் அழுங்கார்",
+        "மெய்யாய காட்சி யவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 90,
+      "poem_number_as_printed": 90,
+      "source_order": 90,
+      "heading_as_printed": "90.  தலையில் சூடிய மோத்தல்",
+      "record_title_as_printed": "தலையில் சூடிய மோத்தல்",
+      "lines": [
+        "தலைக்கிட்ட பூமேவார் மோந்தபூச் சூடார்",
+        "பசுக்கொடுப்பின் பார்ப்பார்கைக் கொள்ளாரே என்றும்",
+        "புலைக்கு எச்சில் நீட்டார் விடல்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 91,
+      "poem_number_as_printed": 91,
+      "source_order": 91,
+      "heading_as_printed": "91.  பழியாவன",
+      "record_title_as_printed": "பழியாவன",
+      "lines": [
+        "மோட்டுடைப் போர்வையோடு ஏக்கழுத்துந் தாளிசைப்பும்",
+        "காட்டுளே யானும் பழித்தார மாம்தம்மின்",
+        "மூத்த உளஆக லான்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 92,
+      "poem_number_as_printed": 92,
+      "source_order": 92,
+      "heading_as_printed": "92.  அந்தணரின் சொல்லைக் கேட்க",
+      "record_title_as_printed": "அந்தணரின் சொல்லைக் கேட்க",
+      "lines": [
+        "தலைஇய நற்கருமஞ் செய்யுங்கால் என்றும்",
+        "புலையர்வாய் நாள்கேட்டுச் செய்யார் - தொலைவில்லா",
+        "அந்தணர்வாய்ச் சொல்கேட்டுச் செய்க அவர் வாய்ச்சொல்",
+        "என்றும் பிழைப்ப தில்லை."
+      ],
+      "source_note_lines": [
+        "(நேரிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 93,
+      "poem_number_as_printed": 93,
+      "source_order": 93,
+      "heading_as_printed": "93.  சான்றோர் அவையில் குறும்பு முதலியன செய்யாமை",
+      "record_title_as_printed": "சான்றோர் அவையில் குறும்பு முதலியன செய்யாமை",
+      "lines": [
+        "மன்றத்து நின்று உஞற்றார் மாசுதிமிர்ந் தியங்கார்",
+        "என்றும் கடுஞ்சொல் உரையார் இருவராய்",
+        "நின்று உழியும் செல்லார் விடல்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 94,
+      "poem_number_as_printed": 94,
+      "source_order": 94,
+      "heading_as_printed": "94.  ஐயம் இல்லாத அறிவினர் செய்கை",
+      "record_title_as_printed": "ஐயம் இல்லாத அறிவினர் செய்கை",
+      "lines": [
+        "கைசுட்டிக் கட்டுரையார் கால்மேல் எழுத்திடார்",
+        "மெய்சுட்டி இல்லாரை உள்ளாரோடு ஒப்புரையார்",
+        "கையில் குரவர் கொடுப்ப இருந்துஏலார்",
+        "ஐயமில் காட்சி யவர்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 95,
+      "poem_number_as_printed": 95,
+      "source_order": 95,
+      "heading_as_printed": "95. பொன்னைப் போல் காக்கத் தக்கவை",
+      "record_title_as_printed": "பொன்னைப் போல் காக்கத் தக்கவை",
+      "lines": [
+        "தன்னுடம்பு தாரம் அடைக்கலம் தன்னுயிர்க்குஎன்று",
+        "உன்னித்து வைத்த பொருளோ டிவைநான்கும்",
+        "பொன்னினைப் போல்போற்றிக் காத்துய்க்க உய்க்காக்கால்",
+        "மன்னிய ஏதம் தரும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 96,
+      "poem_number_as_printed": 96,
+      "source_order": 96,
+      "heading_as_printed": "96.  எறும்பு முதலியவை போல் செயல் செய்தல்",
+      "record_title_as_printed": "எறும்பு முதலியவை போல் செயல் செய்தல்",
+      "lines": [
+        "நந்தெறும்பு தூக்கணம் புள்காக்கை என்றிவைபோல்",
+        "தம்கருமம் நல்ல கடைப்பிடித்துத் தங்கருமம்",
+        "அப்பெற்றி யாக முயல்பவர்க்கு ஆசாரம்",
+        "எப்பெற்றி யானும் படும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 97,
+      "poem_number_as_printed": 97,
+      "source_order": 97,
+      "heading_as_printed": "97,  சான்றோர் முன் சொல்லும் முறை",
+      "record_title_as_printed": "சான்றோர் முன் சொல்லும் முறை",
+      "lines": [
+        "தொழுதாலும் வாய்புதைத் தானும் அஃதன்றிப்",
+        "பெரியார்முன் யாதும் உரையார் பழியவர்",
+        "கண்ணுள்ளே நோக்கி யுரை."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 98,
+      "poem_number_as_printed": 98,
+      "source_order": 98,
+      "heading_as_printed": "98.  புகக் கூடாத இடங்கள்",
+      "record_title_as_printed": "புகக் கூடாத இடங்கள்",
+      "lines": [
+        "சூதர் கழகம் அரவம் அறாக்களம்",
+        "பேதைகள் அல்லார் புகாஅர் புகுபவேல்",
+        "ஏதம் பலவும் தரும்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 99,
+      "poem_number_as_printed": 99,
+      "source_order": 99,
+      "heading_as_printed": "99.  அறிவினர் செய்யாதவை",
+      "record_title_as_printed": "அறிவினர் செய்யாதவை",
+      "lines": [
+        "உரற்களத்தும் அட்டிலும் பெண்டிர்கள் மேலும்",
+        "நடுக்கற்ற காட்சியார் நோக்கார் எடுத்திசையார்",
+        "இல்லம் புகாஅர் விடல்."
+      ],
+      "source_note_lines": [
+        "(இன்னிசைச் சிந்தியல் வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    },
+    {
+      "poem_number": 100,
+      "poem_number_as_printed": 100,
+      "source_order": 100,
+      "heading_as_printed": "100.  ஒழுக்கத்தினின்று விலகியவர்",
+      "record_title_as_printed": "ஒழுக்கத்தினின்று விலகியவர்",
+      "lines": [
+        "அறியாத தேயத்தான் ஆதுலன் மூத்தான்",
+        "இளையான் உயிரிழந்தான் அஞ்சினான் உண்டான்",
+        "அரசர் தொழில்தலை வைத்தான் மணாளனென்ற",
+        "ஒன்பதின்மர் கண்டீர் உரைக்குங்கால் மெய்யான",
+        "ஆசாரம் வீடுபெற் றார்."
+      ],
+      "source_note_lines": [
+        "(பஃறொடை வெண்பா)"
+      ],
+      "status": "source-transcribed"
+    }
+  ],
+  "sections": [],
+  "numbering_anomalies": [],
+  "heading_anomalies": [
+    {
+      "poem_start": 47,
+      "type": "printed_record_heading_absent"
+    },
+    {
+      "poem_start": 6,
+      "type": "printed_heading_punctuation",
+      "as_printed": "6.."
+    },
+    {
+      "poem_start": 64,
+      "type": "printed_heading_punctuation",
+      "as_printed": "64,"
+    },
+    {
+      "poem_start": 97,
+      "type": "printed_heading_punctuation",
+      "as_printed": "97,"
+    }
+  ],
+  "unparsed_fragments": []
+}

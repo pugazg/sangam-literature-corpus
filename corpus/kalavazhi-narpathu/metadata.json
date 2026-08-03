@@ -1,0 +1,27 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "களவழி நாற்பது",
+  "title_english": "Kaḷavaḻi Nāṟpatu",
+  "work_slug": "kalavazhi-narpathu",
+  "work_id": "kalavazhi-narpathu",
+  "programme_id": "pathinenkilkanakku",
+  "author": "பொய்கையார்",
+  "author_as_printed": "பொய்கையார்",
+  "numbered_poem_record_count": 40,
+  "available_poem_count": 40,
+  "missing_poems": [],
+  "unnumbered_literary_record_count": 1,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0025.html",
+  "project_madurai_id": "pmuni0025",
+  "source_scope": "Third work bounded within combined Project Madurai object",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "11efaae0d942d244ec6f051905b4cb00e1f0424741dc88d1448332a6eb767b9b",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "Five unnumbered literary lines follow printed record 40; they are preserved at work level and are not inferred as record 41.",
+    "Printed variant lines remain source notes."
+  ]
+}

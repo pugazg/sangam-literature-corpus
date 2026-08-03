@@ -1,0 +1,171 @@
+{
+  "work": "pattuppattu",
+  "title_tamil": "பத்துப்பாட்டு",
+  "reconnaissance_status": "complete_for_onboarding",
+  "retrieval_attempt_date": "2026-07-22",
+  "source_model": "Project Madurai publishes the collection as separate long-poem objects rather than one uniform anthology object.",
+  "verified_project_madurai_objects": [
+    {
+      "source_order": 1,
+      "title_tamil": "திருமுருகாற்றுப்படை",
+      "project_madurai_id": "pmuni0067",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0067.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 2,
+      "title_tamil": "பொருநர் ஆற்றுப்படை",
+      "project_madurai_id": "pmuni0063",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0063.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 3,
+      "title_tamil": "சிறுபாணாற்றுப்படை",
+      "project_madurai_id": "pmuni0064",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0064.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 4,
+      "title_tamil": "பெரும்பாணாற்றுப்படை",
+      "project_madurai_id": "pmuni0069",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0069.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 5,
+      "title_tamil": "முல்லைப்பாட்டு",
+      "project_madurai_id": "pmuni0488",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0488.html",
+      "source_role": "long poem",
+      "preserved": true,
+      "selection_status": "selected_commentary_bearing_object",
+      "candidate_objects": [
+        {
+          "project_madurai_id": "pmuni0053",
+          "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0053.html",
+          "printed_scope": "முல்லைப்பாட்டு ஆராய்ச்சியுரை by மறைமலை அடிகள்; contains the poem within a research/commentary work"
+        },
+        {
+          "project_madurai_id": "pmuni0488",
+          "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0488.html",
+          "printed_scope": "முல்லைப்பாட்டு with நச்சினார்க்கினியர் உரை, edited by உ.வே. சாமிநாத அய்யர்"
+        }
+      ]
+    },
+    {
+      "source_order": 6,
+      "title_tamil": "மதுரைக்காஞ்சி",
+      "project_madurai_id": "pmuni0071",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0071.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 7,
+      "title_tamil": "நெடுநல்வாடை",
+      "project_madurai_id": "pmuni0070",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0070.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 8,
+      "title_tamil": "குறிஞ்சிப்பாட்டு",
+      "project_madurai_id": "pmuni0073",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0073.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 9,
+      "title_tamil": "பட்டினப்பாலை",
+      "project_madurai_id": "pmuni0077",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0077.html",
+      "source_role": "long poem",
+      "preserved": true
+    },
+    {
+      "source_order": 10,
+      "title_tamil": "மலைபடுகடாம்",
+      "project_madurai_id": "pmuni0078",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0078.html",
+      "source_role": "long poem",
+      "preserved": true
+    }
+  ],
+  "confirmed_source_characteristics": [
+    "The unit of canonical representation should be ten ordered long-poem records, not hundreds of short numbered poem records.",
+    "Individual Project Madurai objects contain work-level headers and may contain internal printed headings and line-end numbers.",
+    "திருமுருகாற்றுப்படை prints six internal numbered headings and line-end decade numbers; these are internal source structure, not separate anthology poems.",
+    "Commentary-bearing source objects require explicit separation of literary text, printed headings, colophon, and commentary before extraction."
+  ],
+  "earlier_unknowns_resolved_on_2026_07_28": [
+    "Exact byte sizes and SHA-256 checksums",
+    "Complete heading grammar for every long poem",
+    "Complete poet, patron, addressee, genre, and colophon provenance",
+    "Complete internal-section inventory",
+    "All printed lacunae, variants, uncertainty markers, and HTML layout anomalies",
+    "Whether the selected Mullai object permits an unambiguous source-faithful separation of poem and commentary"
+  ],
+  "earlier_blocking_conditions_resolved_on_2026_07_28": [
+    "No Project Madurai Pattuppāṭṭu HTML objects are currently preserved in sources/raw-html.",
+    "The execution environment cannot resolve www.projectmadurai.org for byte-preserving retrieval.",
+    "Browser-rendered text is not an acceptable substitute for the exact raw response artifact.",
+    "The canonical Project Madurai object for முல்லைப்பாட்டு has not been selected between two commentary-bearing candidates."
+  ],
+  "resolution_record": {
+    "resolved_date": "2026-07-28",
+    "source_set": "sources/source-metadata/pattuppattu-source-set.json",
+    "source_objects_preserved": 10,
+    "source_object_type": "exact HTTP HTML response bodies",
+    "mullai_selected_object": "pmuni0488",
+    "mullai_decision": "sources/source-metadata/mullaippattu-canonical-source-decision.md",
+    "record_model": "ten ordered long-poem records",
+    "internal_structure_policy": "printed internal headings are subordinate structure, not anthology-level records",
+    "commentary_policy": "commentary and editorial prose remain outside canonical literary bodies",
+    "line_marker_policy": "printed numeric layout markers are excluded; Tamil strings and punctuation remain unchanged",
+    "source_conditions": {
+      "source_lost_records": [],
+      "incomplete_records": [],
+      "replacement_characters": [],
+      "candidate_texts_in_canonical_bodies": [],
+      "duplicate_literary_bodies": []
+    },
+    "source_grammar": {
+      "pmuni0063_pmuni0064_pmuni0069_pmuni0070_pmuni0071_pmuni0073_pmuni0077_pmuni0078": "Project header; Tamil work heading; labelled metadata; hyphen separator; BR-delimited literary lines with periodic line-end numbers; printed colophon",
+      "pmuni0067": "Same source-only grammar, with six numbered internal headings and thirteen additional internal labels interspersed between verse lines",
+      "pmuni0488": "Edition header and source citation; contiguous 103-line literary block; numbered commentary and variant notes; commentary colophon and later ancillary material"
+    },
+    "printed_line_count_comparison": [
+      {"source_object_id": "pmuni0067", "declared": 317, "extracted_literary_lines": 317, "condition": "matches after nineteen internal headings are classified separately"},
+      {"source_object_id": "pmuni0063", "declared": 248, "extracted_literary_lines": 248, "condition": "matches"},
+      {"source_object_id": "pmuni0064", "declared": 269, "extracted_literary_lines": 269, "condition": "matches"},
+      {"source_object_id": "pmuni0069", "declared": 500, "extracted_literary_lines": 501, "condition": "HTML prints one additional BR-delimited literary line; preserved without silent line merging"},
+      {"source_object_id": "pmuni0488", "declared": 103, "extracted_literary_lines": 103, "condition": "matches literary block coverage"},
+      {"source_object_id": "pmuni0071", "declared": 782, "extracted_literary_lines": 782, "condition": "matches"},
+      {"source_object_id": "pmuni0070", "declared": 188, "extracted_literary_lines": 188, "condition": "matches"},
+      {"source_object_id": "pmuni0073", "declared": 261, "extracted_literary_lines": 262, "condition": "HTML prints one additional BR-delimited literary line; preserved without silent line merging"},
+      {"source_object_id": "pmuni0077", "declared": 301, "extracted_literary_lines": 302, "condition": "HTML prints one additional BR-delimited literary line; preserved without silent line merging"},
+      {"source_object_id": "pmuni0078", "declared": 583, "extracted_literary_lines": 583, "condition": "matches"}
+    ],
+    "tirumurukarruppatai": {
+      "printed_numbered_internal_headings": 6,
+      "additional_printed_internal_labels": 13,
+      "canonical_verse_lines": 317
+    },
+    "mullaippattu": {
+      "literary_lines": 103,
+      "commentary_present": true,
+      "literary_block_independently_extractable": true
+    }
+  },
+  "onboarding_allowed": true,
+  "corpus_schema_version": null,
+  "version_status": "unfrozen"
+}

@@ -1,0 +1,39 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "புறநானூறு",
+  "title_english": "Puṟanāṉūṟu",
+  "work_slug": "purananuru",
+  "work_id": "purananuru",
+  "collection": "எட்டுத்தொகை",
+  "title_romanized_as_printed": "puRanAnURu",
+  "expected_poem_count": 400,
+  "numbered_poem_record_count": 400,
+  "available_poem_count": 398,
+  "missing_poems": [
+    267,
+    268
+  ],
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0057.html",
+  "project_madurai_id": "pmuni0057",
+  "accessed_date": "2026-07-22",
+  "source_checksum_sha256": "4d783669301ef2d6edb58b74c1c8de9660671571d174bd13d02c0dd8b1829129",
+  "source_format": "User-supplied Markdown/text export of Project Madurai pmuni0057; not represented as raw HTML",
+  "canonical_source_decision": "Option B — exact supplied Markdown/text export approved as frozen canonical artifact",
+  "canonical_source_provenance_record": "sources/source-metadata/purananuru-freeze-provenance.json",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "navigation_sections": {
+    "type": "mechanical",
+    "range_size": 50,
+    "count": 8
+  },
+  "notes": [
+    "The preserved canonical input is the checksum-pinned user-supplied Markdown/text export, not raw HTML.",
+    "The source explicitly prints 267- 268 கிடைத்தில; both records are retained with empty canonical bodies.",
+    "Printed dot sequences are preserved and represented as textual incompleteness without reconstruction.",
+    "No source-printed anthology divisions were detected.",
+    "Version 1.0.0 freezes this exact source artifact, canonical bodies, printed metadata provenance, textual-status representation, mechanical navigation strategy, and validation expectations; it does not claim raw-HTML preservation or critical-edition authority."
+  ]
+}

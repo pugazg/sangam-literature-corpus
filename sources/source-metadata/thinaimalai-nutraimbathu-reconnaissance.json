@@ -1,0 +1,47 @@
+{
+  "work": "thinaimalai-nutraimbathu",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0056",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0056.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0056.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 76223,
+  "source_checksum_sha256": "29c2432a335f4818ef0a650c1ff7b5cf46c8484c810f15767de80e239955e31b",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "திணைமாலை  நூற்றைம்பது",
+  "parser": "thinaimalai-nutraimbathu-pmuni0056-v1",
+  "numbered_record_count": 153,
+  "source_only": true,
+  "commentary_present": false,
+  "number_range": [
+    1,
+    153
+  ],
+  "printed_numbered_record_count": 153,
+  "missing_canonical_numbers": [],
+  "duplicate_canonical_numbers": [],
+  "printed_numbering_anomalies": [],
+  "source_printed_major_divisions": [
+    "1. குறிஞ்சி",
+    "2. நெய்தல்",
+    "3. பாலை",
+    "4. முல்லை",
+    "5. மருதம்"
+  ],
+  "source_printed_chapter_count": 0,
+  "canonical_chapter_count": 0,
+  "heading_anomalies": [],
+  "unnumbered_literary_invocation_present": false,
+  "source_lost_records": [],
+  "incomplete_records": [],
+  "candidate_texts": [],
+  "line_end_markers": "Numbers are printed at the start of each first literary line and removed only as record labels.",
+  "html_anomalies": [],
+  "provenance_classification": {
+    "major_divisions": "printed by selected canonical source",
+    "subdivisions": "printed by selected canonical source where present",
+    "chapter_headings": "printed where present",
+    "canonical_sequence": "mechanically derived from source order",
+    "literary_text": "printed by selected canonical source"
+  }
+}

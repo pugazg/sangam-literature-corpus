@@ -1,0 +1,39 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "பதிற்றுப்பத்து",
+  "title_english": "Patiṟṟuppattu",
+  "work_slug": "patirruppattu",
+  "work_id": "patirruppattu",
+  "collection": "எட்டுத்தொகை",
+  "expected_poem_count": 80,
+  "numbered_poem_record_count": 80,
+  "available_poem_count": 80,
+  "missing_poems": [],
+  "source_lost_groups": [
+    1,
+    10
+  ],
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0038.html",
+  "project_madurai_id": "pmuni0038",
+  "source_file": "sources/raw-html/patirruppattu.html",
+  "source_checksum_sha256": "dc783dbf0141205625e7a27d9a14848b2dcef316e935dc66770f0ce082e012cc",
+  "source_bytes": 236971,
+  "accessed_date": "2026-07-29",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "source_structure": {
+    "surviving_pattu_groups": 8,
+    "numbered_range": [
+      11,
+      90
+    ],
+    "navigation_sections": 8
+  },
+  "notes": [
+    "First and tenth pattu groups are explicitly unavailable in the source.",
+    "Recovered fragments printed after the tenth-group loss notice are preserved structurally and not promoted to numbered canonical records.",
+    "Version 1.0.0 freezes pmuni0038, records 11-90, eight surviving groups, lost-group representation, பதிகம் and fragment separation, canonical bodies, source notes, provenance and validation expectations."
+  ]
+}

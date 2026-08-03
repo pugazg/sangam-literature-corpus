@@ -1,0 +1,22 @@
+{
+  "freeze_timestamp": "2026-07-29T19:31:13.345967+05:30",
+  "order": 12,
+  "work_slug": "tirikatukam",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "source_sha256": "c4d233ffa89b4e98bd98c2247d1611a044bc1d4f1309f0e1928ad6ab98e36f9f",
+  "poem_count": 100,
+  "section_count": 1,
+  "poem_file_set_sha256": "d16e6e3bcf7ab5e40290e23b122e35b15c9a07a3b417a58b891cdbde5e713c95",
+  "validation": {
+    "status": "pass-with-review",
+    "errors": 0,
+    "warnings": 0,
+    "info": 2,
+    "source_output_matches": 100,
+    "source_note_matches": 100
+  },
+  "physical_audit": "pass",
+  "tests": "91 passed",
+  "canonical_text_policy": "source-faithful; no silent editorial correction"
+}

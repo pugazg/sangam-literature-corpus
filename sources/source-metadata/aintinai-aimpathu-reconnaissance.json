@@ -1,0 +1,47 @@
+{
+  "work": "aintinai-aimpathu",
+  "programme_id": "pathinenkilkanakku",
+  "project_madurai_id": "pmuni0027",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0027.html",
+  "source_file": "sources/raw-html/pathinenkilkanakku/pmuni0027.html",
+  "source_artifact_type": "exact HTTP HTML response",
+  "source_bytes": 97739,
+  "source_checksum_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "retrieval_date": "2026-07-29",
+  "title_tamil_as_printed": "மாறன் பொறையனார் அருளிய ஐந்திணை ஐம்பது",
+  "parser": "aintinai-aimpathu-pmuni0027-v1",
+  "numbered_record_count": 50,
+  "source_only": true,
+  "commentary_present": false,
+  "number_range": [
+    1,
+    50
+  ],
+  "printed_numbered_record_count": 50,
+  "missing_canonical_numbers": [],
+  "duplicate_canonical_numbers": [],
+  "printed_numbering_anomalies": [],
+  "source_printed_major_divisions": [
+    "முல்லை",
+    "2.     குறிஞ்சி",
+    "3.  மருதம்",
+    "4.  பாலை",
+    "5.  நெய்தல்"
+  ],
+  "source_printed_chapter_count": 0,
+  "canonical_chapter_count": 0,
+  "heading_anomalies": [],
+  "unnumbered_literary_invocation_present": true,
+  "source_lost_records": [],
+  "incomplete_records": [],
+  "candidate_texts": [],
+  "line_end_markers": "Numbers are printed at the start of each first literary line and removed only as record labels.",
+  "html_anomalies": [],
+  "provenance_classification": {
+    "major_divisions": "printed by selected canonical source",
+    "subdivisions": "printed by selected canonical source where present",
+    "chapter_headings": "printed where present",
+    "canonical_sequence": "mechanically derived from source order",
+    "literary_text": "printed by selected canonical source"
+  }
+}

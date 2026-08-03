@@ -1,0 +1,35 @@
+{
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0296.html",
+  "accessed_date": "2026-07-11",
+  "project_madurai_id": "pmuni0296",
+  "raw_source_file": "sources/raw-html/natrinai.html",
+  "source_checksum_sha256": "b3aa835398de5175523e9f000942ccd1944f5885b1f74f03bcb22ecd18a00277",
+  "content_length_bytes": 505797,
+  "http_content_type": "text/html",
+  "raw_source_modified": false,
+  "title_tamil": "நற்றிணை",
+  "title_romanized_as_printed": "naRRiNa",
+  "collection_as_printed": "எட்டுத்தொகை - சங்க நூல்",
+  "compiler_as_printed": "அறியப்படவில்லை",
+  "patron_as_printed": "பன்னாடு தந்த மாறன் வழுதி",
+  "edition_and_contributors_as_printed": [
+    "Etext - adding of descriptive notes to verses, Proof reading, Web versions in TSCII & Unicode: N D LogaSundaram & his daughter Ms. Selvanayagi - Chennai",
+    "Bare Etext and PDF version: Dr. K. Kalyanasundaram, Lausanne, Switzerland"
+  ],
+  "introductory_notes_as_printed": [
+    "இத்தொகை தொகுப்பித்தோன் - பன்னாடு தந்த மாறன் வழுதி",
+    "தொகுத்தோன் - அறியப்படவில்லை",
+    "400 பாடல்கள். சிறுமை 8 அடி உயர்வு 12 அடி",
+    "385 ம் பாடல்  பிற்பகுதி மறைந்தது",
+    "234 ம் பாடல் என ஐயுறுவதும் கொடுக்கப்பட்டுள்ளது",
+    "56 பாடல்களின் ஆசிரியர் அறியப்படவில்லை",
+    "ஏனையவற்றின் ஆசிரியர்கள் 192",
+    "திணைக்குறிப்புகள் நூல் பதிப்பித்தோரால் அகம், கலி,",
+    "ஐங்குறுநூறு உள்ளதற்கு இணையாக காட்டப்பட்டுள்ளன.",
+    "எனினும் பாடல் விளக்க அடிக்குறிப்புகள் பழமையானதே."
+  ],
+  "rights_statement_as_printed": [
+    "© Project Madurai 1998 - 2008",
+    "You are welcome to freely distribute this file, provided this header page is kept intact"
+  ]
+}

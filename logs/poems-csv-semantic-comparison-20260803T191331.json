@@ -1,0 +1,18 @@
+{
+  "comparison_basis": "independent semantic reconstruction from 5,632 frozen canonical records",
+  "previous_manifest_available": false,
+  "previous_sha256": "38b13387b8c5865a48c8c843dd8e0330005307ee9cb9a6f0196997d19cbdaa27",
+  "rebuilt_sha256": "56611afc1a9e3118a5c743757399b41aeff2c81833ddb7783b5afbadf77e5b8c",
+  "deterministic_sha256": "4c287ee9901d028f97659b3a099bd521efc7d43819424b32184c975de9bf4cb7",
+  "header_changes": [],
+  "column_changes": [],
+  "row_count_before": 5632,
+  "row_count_after": 5632,
+  "row_key_additions": [],
+  "row_key_removals": [],
+  "field_value_changes": [],
+  "duplicate_key_changes": [],
+  "ordering_changed": false,
+  "semantic_equivalence": true,
+  "approval_recommendation": "approve deterministic reconstruction"
+}

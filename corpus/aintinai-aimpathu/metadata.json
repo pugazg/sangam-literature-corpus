@@ -1,0 +1,29 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "ஐந்திணை ஐம்பது",
+  "title_english": "Aintiṇai Aimpathu",
+  "work_slug": "aintinai-aimpathu",
+  "work_id": "aintinai-aimpathu",
+  "programme_id": "pathinenkilkanakku",
+  "author": "மாறன் பொறையனார்",
+  "author_as_printed": "மாறன் பொறையனார்",
+  "numbered_poem_record_count": 50,
+  "available_poem_count": 50,
+  "missing_poems": [],
+  "unnumbered_literary_record_count": 1,
+  "printed_division_count": 5,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0027.html",
+  "project_madurai_id": "pmuni0027",
+  "source_scope": "First selected work bounded within combined Project Madurai object",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "3b245f0f64191e63da31b5be5954142380ac428f348d5caf04a5747511a95ad3",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "The unnumbered பாயிரம் is preserved at work level.",
+    "Five printed tiṇai divisions each contain ten records.",
+    "Division descriptions remain in the structural inventory; speaker is not inferred."
+  ]
+}

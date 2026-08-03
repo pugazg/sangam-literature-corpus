@@ -1,0 +1,28 @@
+{
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "title_tamil": "நாலடியார்",
+  "title_english": "Nālāṭiyār",
+  "work_slug": "naladiyar",
+  "work_id": "naladiyar",
+  "programme_id": "pathinenkilkanakku",
+  "author": null,
+  "author_as_printed": "பல ஆசிரியர்கள் / composed by several authors",
+  "numbered_poem_record_count": 400,
+  "available_poem_count": 400,
+  "missing_poems": [],
+  "unnumbered_literary_record_count": 1,
+  "printed_major_division_count": 3,
+  "chapter_count": 40,
+  "source_name": "Project Madurai",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0016.html",
+  "project_madurai_id": "pmuni0016",
+  "accessed_date": "2026-07-29",
+  "source_checksum_sha256": "5ab43427d8a5db080e88d762bbca318ed00773c368e491ca197c4918663f6772",
+  "encoding": "UTF-8",
+  "normalization": "Unicode NFC",
+  "notes": [
+    "The unnumbered கடவுள் வாழ்த்து is preserved at work level.",
+    "The printed chapter heading 2.39 occurs under 3. காமத்துப்பால் and is not repaired."
+  ]
+}

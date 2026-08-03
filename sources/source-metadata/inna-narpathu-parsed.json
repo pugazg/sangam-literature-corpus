@@ -1,0 +1,683 @@
+{
+  "parser": "inna-narpathu-pmuni0025-v1",
+  "work_slug": "inna-narpathu",
+  "title_tamil_as_printed": "இன்னா நாற்பது : கபிலர் இயற்றியது",
+  "prefatory_text": {
+    "heading_as_printed": "கடவுள் வாழ்த்து",
+    "lines": [
+      "முக்கட் பகவ னடிதொழா தார்க்கின்னா",
+      "பொற்பனை வெள்ளையை@ யுள்ளா தொழுகின்னா",
+      "சக்கரத் தானை மறப்பின்னா% வாங்கின்னா",
+      "சத்தியான் றாடொழா தார்க்கு."
+    ],
+    "source_note_lines": [
+      "@பொற்பன வெள்ளியை             %மன்றப்பின்னாது"
+    ],
+    "provenance": "Project Madurai printed unnumbered literary text and variant note"
+  },
+  "poems": [
+    {
+      "poem_number": 1,
+      "poem_number_as_printed": 1,
+      "source_order": 1,
+      "lines": [
+        "பந்தமில் லாத மனையின் வனப்பின்னா",
+        "தந்தையில் லாத புதல்வ னழகின்னா",
+        "அந்தண ரில்லிருந் தூணின்னா@ வாங்கின்னா",
+        "மந்திரம் வாயா விடின்."
+      ],
+      "source_note_lines": [
+        "@ ஊணின்னாது"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 2,
+      "poem_number_as_printed": 2,
+      "source_order": 2,
+      "lines": [
+        "பார்ப்பாரிற் கோழியு நாயும் புகலின்னா",
+        "ஆர்த்த மனைவி யடங்காமை நன்கின்னா",
+        "பாத்தில் புநடைவை யுடையின்னா@ வாங்கின்னா",
+        "காப்பாற்றா வேந்த னுலகு."
+      ],
+      "source_note_lines": [
+        "@உடையின்னாது"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 3,
+      "poem_number_as_printed": 3,
+      "source_order": 3,
+      "lines": [
+        "கொடுங்கோல் மறமன்னர் கீழ்வாழ்த லின்னா",
+        "நெடுநீர் புணையின்றி நீந்துத லின்னா",
+        "கடுமொழி யாளர் தொடர்பின்னா வின்னா",
+        "தடுமாறி வாழ்த லுயிர்க்கு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 4,
+      "poem_number_as_printed": 4,
+      "source_order": 4,
+      "lines": [
+        "எருதி லுழவர்க்குப் போகீர மின்னா",
+        "கருவிகண் மாறிப் புறங்கொடுத்த லின்னா",
+        "திருவுடை யாரைச் செறலின்னா வின்னா",
+        "பெருவலியார்க் கின்னா செயல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 5,
+      "poem_number_as_printed": 5,
+      "source_order": 5,
+      "lines": [
+        "சிறையில் கரும்பினைக் காத்தோம்ப லின்னா",
+        "உறைசேர்@ பழங்கூரை சேர்ந்தொழுக லின்னா",
+        "முறையின்றி யாளு மரசின்னா வின்னா",
+        "மறையின்றிச் செய்யும் வினை."
+      ],
+      "source_note_lines": [
+        "@புரைசேர்"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 6,
+      "poem_number_as_printed": 6,
+      "source_order": 6,
+      "lines": [
+        "அறமனத்தார் கூறுங் கடுமொழியு மின்னா@",
+        "மறமனத்தார் ஞாட்பின் மடிந்தொழுக லின்னா",
+        "இடும்பை யுடையார் கொடையின்னா வின்னா",
+        "கொடும்பா டுடையார்வாய்ச் சொல்."
+      ],
+      "source_note_lines": [
+        "@ கடு மொழியின்னா"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 7,
+      "poem_number_as_printed": 7,
+      "source_order": 7,
+      "lines": [
+        "ஆற்ற லிலாதான் பிடித்த படையின்னா",
+        "நாற்ற மிலாத மலரி னழகின்னா",
+        "தேற்ற மிலாதான் றுணிவின்னா வாங்கின்னா",
+        "மாற்ற மறியா னுரை."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 8,
+      "poem_number_as_printed": 8,
+      "source_order": 8,
+      "lines": [
+        "பகல்போலு நெஞ்சத்தார் பண்பின்மை யின்னா",
+        "நகையாய நண்பினார் நாரின்மை யின்னா",
+        "இகலி னெழுந்தவ ரோட்டின்னா வின்னா",
+        "நயமின் மனத்தவர் நட்பு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 9,
+      "poem_number_as_printed": 9,
+      "source_order": 9,
+      "lines": [
+        "கள்ளில்லா மூதூர் களிகட்கு நன்கின்னா",
+        "வள்ளல்க ளின்மை பரிசிலர்க்கு முன்னின்னா",
+        "வண்மை யிலாளர் வனப்பின்னா வாங்கின்னா",
+        "பண்ணில் புரவி பரிப்பு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 10,
+      "poem_number_as_printed": 10,
+      "source_order": 10,
+      "lines": [
+        "பொருளணர்வா ரில்வழிப் பாட்டுரைத்த லின்னா",
+        "இருள்கூர் சிறுநெறி தாந்தனிப்போக் கின்னா",
+        "அருளில்லார் தங்கட் செலவின்னா வின்னா",
+        "பொருளில்லார் வண்மை புரிவு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 11,
+      "poem_number_as_printed": 11,
+      "source_order": 11,
+      "lines": [
+        "உடம்பா டில்லாத மனைவிதோ ளின்னா@",
+        "இடனில் சிறியரோ டியர்த்தநண் பின்னா",
+        "இடங்கழி யாளர் தொடர்பின்னா வின்னா",
+        "கடனுடையார் காணப் புகல்."
+      ],
+      "source_note_lines": [
+        "@மனைவி தொழி லின்னா"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 12,
+      "poem_number_as_printed": 12,
+      "source_order": 12,
+      "lines": [
+        "தலைதண்ட மாகச் சுரம்போத லின்னா",
+        "வலைசுமந் துண்பான் பெருமித மின்னா",
+        "புலையுள்ளி வாழ்த லுயிர்க்கின்னா வின்னா",
+        "முலையிள்ளாள் பெண்மை விழைவு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 13,
+      "poem_number_as_printed": 13,
+      "source_order": 13,
+      "lines": [
+        "மணியிலாக் குஞ்சரம் வேந் தூர்த லின்னா",
+        "துணிவில்லார் சொல்லுந் தறுகண்மை யின்னா",
+        "பணியாத மன்னர்ப் பணிவின்னா வின்னா",
+        "பிணியன்னார் வாழு மனை."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 14,
+      "poem_number_as_printed": 14,
+      "source_order": 14,
+      "lines": [
+        "வணரொலி@ யைம்பாலார் வஞ்சித்த லின்னா",
+        "துணர்தூங்கு மாவின் படுபழ மின்னா",
+        "புணர்பாவை யன்னார் பிரிவின்னா வின்னா",
+        "உணர்வா ருணராக் கடை."
+      ],
+      "source_note_lines": [
+        "@வணரொளி"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 15,
+      "poem_number_as_printed": 15,
+      "source_order": 15,
+      "lines": [
+        "புல்லார் புரவி மணியின்றி யூர்வின்னா",
+        "கல்லா ருரைக்குங் கருமப் பொருளின்னா",
+        "இல்லாதார் நல்ல விருப்பின்னா@ வாங்கின்னா",
+        "பல்லாரு ணாணப் படல்."
+      ],
+      "source_note_lines": [
+        "@விழைவின்னா"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 16,
+      "poem_number_as_printed": 16,
+      "source_order": 16,
+      "lines": [
+        "உண்ணாது வைக்கும் பெரும்பொருள் வைப்பின்னா",
+        "நண்ணாப் பகைவர் புணர்ச்சி நனியின்னா",
+        "கண்ணி லொருவன் வனப்பின்னா வாங்கின்னா",
+        "எண்ணிலான் செய்யுங் கணக்கு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 17,
+      "poem_number_as_printed": 17,
+      "source_order": 17,
+      "lines": [
+        "ஆன்றவித்த சான்றோருட் பேதை புகலின்னா",
+        "மான்றிருண்ட போழ்தின் வழங்கல் பெரிதின்னா",
+        "நோன்றவிந்து வாழாதார் நோன்பின்னா வாங்கின்னா",
+        "ஈன்றாளை யோம்பா விடல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 18,
+      "poem_number_as_printed": 18,
+      "source_order": 18,
+      "lines": [
+        "உரனுடையா னுள்ள மடிந்திருந்த லின்னா",
+        "மறனுடை யாளுடையான் மார்பார்த்த லின்னா",
+        "சுரமரிய கானஞ் செலவின்னா வின்னா",
+        "மனவறி யாளர்@ தொடர்பு."
+      ],
+      "source_note_lines": [
+        "@அகம்வறியாளர்"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 19,
+      "poem_number_as_printed": 19,
+      "source_order": 19,
+      "lines": [
+        "குலத்துப் பிறந்தவன் கல்லாமை யின்னா",
+        "நிலத்திட்ட நல்வித்து நாறாமை யின்னா",
+        "நலத்தகையார் நாணாமை யின்னாவாங் கின்னா",
+        "கலத்தல் குலமில் வழி."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 20,
+      "poem_number_as_printed": 20,
+      "source_order": 20,
+      "lines": [
+        "மாரிநாட் கூவுங் குயிலின் குரலின்னா",
+        "வீர மிலாளர் கடுமொழிக் கூற்றின்னா",
+        "மாரி வளம்பொய்ப்பி னூர்க்கின்னா வாங்கின்னா",
+        "மூரி யெருத்தா லுழவு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 21,
+      "poem_number_as_printed": 21,
+      "source_order": 21,
+      "lines": [
+        "ஈத்த வகையா னுவவாதார்க் கீப்பின்னா",
+        "பாத்துண லில்லா ருழைச்சென் றுணலின்னா",
+        "மூத்த விடத்துப் பிணியின்னா வாங்கின்னா",
+        "ஒத்திலாப் பார்ப்பா னுரை."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 22,
+      "poem_number_as_printed": 22,
+      "source_order": 22,
+      "lines": [
+        "யானையின் மன்னரைக் காண்ட னனியின்னா",
+        "ஊனைத்தின் றூனைப் பெருக்குதல் முன்னின்னா",
+        "தேனெய் புளிப்பிற் சுவையின்னா வாங்கின்னா",
+        "கான்யா@ றிடையிட்ட வூர்."
+      ],
+      "source_note_lines": [
+        "@ கானாறு"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 23,
+      "poem_number_as_printed": 23,
+      "source_order": 23,
+      "lines": [
+        "சிறையில்லாத மூதூரின் வாயில்காப் பின்னா",
+        "துறையிருந் தாடை கழுவுத லின்னா",
+        "அறைபறை யன்னவர்@ சொல்லின்னா வின்னா",
+        "நிறையில்லான் கொண்ட தவம்."
+      ],
+      "source_note_lines": [
+        "@அறைபறை யாயவர்"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 24,
+      "poem_number_as_printed": 24,
+      "source_order": 24,
+      "lines": [
+        "ஏமமில் மூதூ ரிருத்தன் மிகவின்னா",
+        "தீமை யுடையா ரயிலிருந்த னன்கின்னா",
+        "காமமுதிரி னுயிர்க்கின்னா@ வாங்கின்னா",
+        "யாமென் பவரொடு நட்பு."
+      ],
+      "source_note_lines": [
+        "@உயிர்க்கின்னாது"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 25,
+      "poem_number_as_printed": 25,
+      "source_order": 25,
+      "lines": [
+        "நட்டா ரிடுக்கண்கள் காண்டல் நனியின்னா@",
+        "ஒட்டார் பெருமிதங் காண்டல் பெரிதின்னா%",
+        "கட்டில்லா மூதூ ருறையின்னா வாங்கின்னா",
+        "நட்ட கவற்றினாற் சூது."
+      ],
+      "source_note_lines": [
+        "@ இடுக்க ணனிகண்டா னன்கின்னா",
+        "% கண்டாற் பெரிதின்னா"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 26,
+      "poem_number_as_printed": 26,
+      "source_order": 26,
+      "lines": [
+        "பெரியாரோ டியாத்த தொடர்விடுத லின்னா",
+        "அரியவை செய்து மெனவுரைத்த லின்னா",
+        "பரியார்க்குத் தாமுற்ற கூற்றின்னா வின்னா",
+        "பெரியோர்க்குத் தீய செயல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 27,
+      "poem_number_as_printed": 27,
+      "source_order": 27,
+      "lines": [
+        "பெருமை யுடையாரைப் பீடழித்த லின்னா",
+        "கிழமை யுடையார்க்@ களைந்திடுத லின்னா",
+        "வளமை யிலாளர் வனப்பின்னா வின்னா",
+        "இளமையுண் மூப்புப் புகல்."
+      ],
+      "source_note_lines": [
+        "@கிழமை யுடையாரை"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 28,
+      "poem_number_as_printed": 28,
+      "source_order": 28,
+      "lines": [
+        "கல்லாதா னூருங் கலிமாப் பரிப்பின்னா",
+        "வல்லாதான் சொல்லு முரையின் பயனின்னா",
+        "இல்லார்வாய்ச் சொல்லி னயமின்னா வாங்கின்னா",
+        "கல்லாதான் கோட்டி கொளல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 29,
+      "poem_number_as_printed": 29,
+      "source_order": 29,
+      "lines": [
+        "குறியறியான் மாநாக@ மாட்டுவித்த லின்னா",
+        "தறியறியா% னீரின் பாய்ந்தாட& லின்னா",
+        "அறிவறியா மக்கட் பெறலின்னா வின்னா",
+        "செறிவிலான் கேட்ட மறை."
+      ],
+      "source_note_lines": [
+        "@மானாகம்       %இன்னா தறிவறியான்",
+        "& கீழ்நீர்ப்பாய்ந்தாடுதல்"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 30,
+      "poem_number_as_printed": 30,
+      "source_order": 30,
+      "lines": [
+        "நெடுமர நீள்கோட் டுயர்பாய்த லின்னா@",
+        "கடுஞ்சின வேழத் தெதிர்சேற லின்னா",
+        "ஒடுங்கி யரவுறையு மில்லின்னா வின்னா",
+        "கடும்புலி வாழு மதர்."
+      ],
+      "source_note_lines": [
+        "@ நெடுமார்நீள் கோட்டுயர் பாஅய்த லின்னா"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 31,
+      "poem_number_as_printed": 31,
+      "source_order": 31,
+      "lines": [
+        "பண்ணமையா யாழின்கீழப் பாடல் பெரிதின்னா",
+        "எண்ணறியா மாந்தர்@ ஒழுக்குநாட் கூற்றின்னா",
+        "மண்ணின் முழவி னொலியின்னா வாங்கின்னா",
+        "தண்மை யிலாளர்%  பகை."
+      ],
+      "source_note_lines": [
+        "@ எண்ணறிய மாந்தர்            %தன்மையிலாளர்"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 32,
+      "poem_number_as_printed": 32,
+      "source_order": 32,
+      "lines": [
+        "தன்னைத்தான் போற்றா தொழுகுத னன்கின்னா",
+        "முன்னை யுரையார் புறமொழிக் கூற்றின்னா",
+        "நன்மை யிலாளர் தொடர்பின்னா வாங்கின்னா",
+        "தொன்மை யுடையார் கெடல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 33,
+      "poem_number_as_printed": 33,
+      "source_order": 33,
+      "lines": [
+        "கள்ளுண்பான் கூறுங் கருமப் பொருளின்னா",
+        "முள்ளுடைக் காட்டி னடத்த னனியின்னா@",
+        "வெள்ளம் படுமாக் கொலையின்னா வாங்கின்னா",
+        "கள்ள மனத்தார் தொடர்பு."
+      ],
+      "source_note_lines": [
+        "@ நடக்கி னனியின்னா"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 34,
+      "poem_number_as_printed": 34,
+      "source_order": 34,
+      "lines": [
+        "ஒழுக்க மிலாளார்க் குறவுரைத்த@ லின்னா",
+        "விழுத்தகு நூலும்% விழையாதார்க் கின்னா",
+        "இழித்த தொழிலவர் நட்பின்னா வின்னா",
+        "கழிப்புவாய் மண்டிலங் கொட்பு."
+      ],
+      "source_note_lines": [
+        "@ ஒழுக்கமிலாளர் குறைவுரைத்தல்",
+        "%விழித்தகுநூலும்"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 35,
+      "poem_number_as_printed": 35,
+      "source_order": 35,
+      "lines": [
+        "எழிலி யுறைநீங்கி னீண்டையார்க் கின்னா",
+        "குழலி னினிய@ மரத் தோசைநன் கின்னா",
+        "குழவிக ளுற்ற பிணியின்னா வின்னா",
+        "அழகுடையான் பேதை யெனல்."
+      ],
+      "source_note_lines": [
+        "@குழலினிய"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 36,
+      "poem_number_as_printed": 36,
+      "source_order": 36,
+      "lines": [
+        "பொருளிலான் வேளாண்மை காமுறுத லின்னா",
+        "நெடுமாட நீணகர்க் கைத்தின்மை யின்னா",
+        "வருமனை பார்த்திருந் தூணின்னா வின்னா",
+        "கெடுமிடங் கைவிடுவார் நட்பு."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 37,
+      "poem_number_as_printed": 37,
+      "source_order": 37,
+      "lines": [
+        "நறிய மலர்பெரிது நாறாமை யின்னா",
+        "துறையறியா னீரிழிந்து@ போகுத லின்னா",
+        "அறியாண் வினாப்படுத லின்னாவாங் கின்னா",
+        "சிறியார்மேற் செற்றங் கொளல்."
+      ],
+      "source_note_lines": [
+        "@துறையறியா நீரிழிந்து"
+      ],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 38,
+      "poem_number_as_printed": 38,
+      "source_order": 38,
+      "lines": [
+        "பிறர்மனையாள் பின்னோர்க்கும் பேதைமை யின்னா",
+        "மறமிலா மன்னர் செருப்புகுத லின்னா",
+        "வெறும்புறம் வெம்புரவி யேற்றின்னா வின்னா",
+        "திறனிலான் செய்யும் வினை."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 39,
+      "poem_number_as_printed": 39,
+      "source_order": 39,
+      "lines": [
+        "கொடுக்கும் பொருளில்லான் வள்ளன்மை யின்னா",
+        "கடித்தமைந்த பாக்கினுட் கற்படுத லின்னா",
+        "கொடுத்த விடாமை கவிக்கின்னா வின்னா",
+        "மடுத்துழிப் பாடா விடல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    },
+    {
+      "poem_number": 40,
+      "poem_number_as_printed": 40,
+      "source_order": 40,
+      "lines": [
+        "அடக்க முடையவன் மீளிமை யின்னா",
+        "துடக்க மிலாதவன் றற்செருக் கின்னா",
+        "அடைக்கலம் வவ்வுத லின்னாவாங் கின்னா",
+        "அடக்க வடங்காதார் சொல்."
+      ],
+      "source_note_lines": [],
+      "status": "source-transcribed",
+      "section_as_printed": "நூல்",
+      "section_sequence": 2
+    }
+  ],
+  "sections": [
+    {
+      "sequence": 1,
+      "heading_as_printed": "கடவுள் வாழ்த்து",
+      "record_type": "unnumbered_literary_text",
+      "record_count": 0,
+      "provenance": "Project Madurai printed heading"
+    },
+    {
+      "sequence": 2,
+      "heading_as_printed": "நூல்",
+      "poem_start": 1,
+      "poem_end": 40,
+      "record_count": 40,
+      "provenance": "Project Madurai printed heading"
+    }
+  ],
+  "numbering_anomalies": [],
+  "heading_anomalies": [],
+  "unparsed_fragments": []
+}

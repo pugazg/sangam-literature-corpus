@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-07-29T17:19:22.828268+05:30",
+  "first_regeneration_comparison": {
+    "canonical_body_changes": [],
+    "source_note_changes": [],
+    "whole_record_changes": [],
+    "navigation_changes": [],
+    "metadata_changed": false,
+    "full_text_changed": false,
+    "structure_inventory_changed": false,
+    "source_set_changed": false,
+    "mullai_decision_changed": false,
+    "raw_source_changes": []
+  },
+  "second_regeneration_comparison": {
+    "path_additions": [],
+    "path_removals": [],
+    "file_hash_changes": []
+  }
+}

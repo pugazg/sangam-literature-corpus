@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.bak
+*.tmp
+*-old.md
+*-copy.md
+* 2.md
+* 3.md
+releases/*.bundle
+releases/*.bundle.sha256

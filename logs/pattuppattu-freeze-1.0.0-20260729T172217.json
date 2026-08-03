@@ -1,0 +1,299 @@
+{
+  "version_assigned": "1.0.0",
+  "version_status": "frozen",
+  "freeze_timestamp": "2026-07-29T17:22:17.221357+05:30",
+  "physical_repository": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "pre_freeze_baseline": "logs/pre-pattuppattu-freeze-baseline-20260729T171747.json",
+  "onboarding_record": "logs/pattuppattu-onboarding-20260728T212659.json",
+  "post_onboarding_regression": "logs/post-pattuppattu-regression-20260728T212659.json",
+  "regeneration_record": "logs/pattuppattu-freeze-regeneration-20260729T171922.json",
+  "source_objects": [
+    {
+      "record_number": 1,
+      "work_title_tamil": "திருமுருகாற்றுப்படை",
+      "work_title_as_printed": "திருமுருகாற்றுப்படை",
+      "project_madurai_id": "pmuni0067",
+      "source_object_id": "pmuni0067",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0067.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0067.html",
+      "source_sha256": "71bffcff1089705c26b9bebb55c271b5d2563ac7011961159d646fda6dd8b17e",
+      "source_bytes": 37174,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 1
+    },
+    {
+      "record_number": 2,
+      "work_title_tamil": "பொருநர் ஆற்றுப்படை",
+      "work_title_as_printed": "பொருநர் ஆற்றுப்படை",
+      "project_madurai_id": "pmuni0063",
+      "source_object_id": "pmuni0063",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0063.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0063.html",
+      "source_sha256": "11ecc8aaf301e31ba8a6c764daeaf5f7b40641264e347a078192c3ad1696a216",
+      "source_bytes": 27690,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 2
+    },
+    {
+      "record_number": 3,
+      "work_title_tamil": "சிறுபாணாற்றுப்படை",
+      "work_title_as_printed": "சிறுபாணாற்றுப்படை",
+      "project_madurai_id": "pmuni0064",
+      "source_object_id": "pmuni0064",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0064.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0064.html",
+      "source_sha256": "1b70442126bd19282c7b63fa9b085f902a98a98ca037001e078e1411ee28691a",
+      "source_bytes": 30258,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 3
+    },
+    {
+      "record_number": 4,
+      "work_title_tamil": "பெரும்பாணாற்றுப்படை",
+      "work_title_as_printed": "பெரும்பாணாற்றுப்படை",
+      "project_madurai_id": "pmuni0069",
+      "source_object_id": "pmuni0069",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0069.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0069.html",
+      "source_sha256": "940b899a89897ab7e27e0d6a760a4a31ccde1a3b5d7b313a504c3fa4ccdbcfd7",
+      "source_bytes": 53301,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 4
+    },
+    {
+      "record_number": 5,
+      "work_title_tamil": "முல்லைப்பாட்டு",
+      "work_title_as_printed": "முல்லைப்பாட்டு",
+      "project_madurai_id": "pmuni0488",
+      "source_object_id": "pmuni0488",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0488.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0488.html",
+      "source_sha256": "a0d65a61de2f17954d7e46af68e47e554f56633b0bd1f444312e7dde572130a6",
+      "source_bytes": 110495,
+      "edition_type": "commentary-bearing edition; literary text independently extractable",
+      "commentary_present": true,
+      "source_order": 5
+    },
+    {
+      "record_number": 6,
+      "work_title_tamil": "மதுரைக்காஞ்சி",
+      "work_title_as_printed": "மதுரைக் காஞ்சி",
+      "project_madurai_id": "pmuni0071",
+      "source_object_id": "pmuni0071",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0071.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0071.html",
+      "source_sha256": "d585df4e72f080201a5b73f23dd3516e886effbfa925a0d14d2329b30007eb35",
+      "source_bytes": 75590,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 6
+    },
+    {
+      "record_number": 7,
+      "work_title_tamil": "நெடுநல்வாடை",
+      "work_title_as_printed": "நெடுநல்வாடை",
+      "project_madurai_id": "pmuni0070",
+      "source_object_id": "pmuni0070",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0070.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0070.html",
+      "source_sha256": "218457eae65800ff6e5da1cae51dc7e4f9a20d3231d6ac667c48a4b552c084f6",
+      "source_bytes": 22761,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 7
+    },
+    {
+      "record_number": 8,
+      "work_title_tamil": "குறிஞ்சிப்பாட்டு",
+      "work_title_as_printed": "குறிஞ்சிப்பாட்டு",
+      "project_madurai_id": "pmuni0073",
+      "source_object_id": "pmuni0073",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0073.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0073.html",
+      "source_sha256": "c3da7dea3131b08a43cdc0fd8033a710a1915c9d260cf2f6364ff1bd3b639da4",
+      "source_bytes": 28849,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 8
+    },
+    {
+      "record_number": 9,
+      "work_title_tamil": "பட்டினப்பாலை",
+      "work_title_as_printed": "பட்டினப்பாலை",
+      "project_madurai_id": "pmuni0077",
+      "source_object_id": "pmuni0077",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0077.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0077.html",
+      "source_sha256": "65ed5106fab824881a54da897060db5c99a9ee2cd07321507324f01301d16289",
+      "source_bytes": 30044,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 9
+    },
+    {
+      "record_number": 10,
+      "work_title_tamil": "மலைபடுகடாம்",
+      "work_title_as_printed": "மலைபடுகடாம்",
+      "project_madurai_id": "pmuni0078",
+      "source_object_id": "pmuni0078",
+      "source_file": "sources/raw-html/pattuppattu/pmuni0078.html",
+      "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0078.html",
+      "source_sha256": "1e18052b381cbcf1c032759a50ef81bd946e63b423b55f71d8bdcba33a4d7b3c",
+      "source_bytes": 62100,
+      "edition_type": "source-only electronic text",
+      "commentary_present": false,
+      "source_order": 10
+    }
+  ],
+  "source_order": [
+    "pmuni0067",
+    "pmuni0063",
+    "pmuni0064",
+    "pmuni0069",
+    "pmuni0488",
+    "pmuni0071",
+    "pmuni0070",
+    "pmuni0073",
+    "pmuni0077",
+    "pmuni0078"
+  ],
+  "record_mapping": {
+    "001": "pmuni0067",
+    "002": "pmuni0063",
+    "003": "pmuni0064",
+    "004": "pmuni0069",
+    "005": "pmuni0488",
+    "006": "pmuni0071",
+    "007": "pmuni0070",
+    "008": "pmuni0073",
+    "009": "pmuni0077",
+    "010": "pmuni0078"
+  },
+  "canonical_records": 10,
+  "navigation_sections": 10,
+  "schema_coverage": "10/10",
+  "source_output_equality": "10/10",
+  "source_note_equality": "10/10",
+  "duplicate_full_bodies": [],
+  "mullai": {
+    "selected_source": "pmuni0488",
+    "literary_lines": 103,
+    "commentary_boundary_verified": true,
+    "commentary_excluded": true,
+    "alternate_pmuni0053_isolated": true
+  },
+  "tirumurukarruppatai": {
+    "numbered_internal_headings": 6,
+    "additional_internal_labels": 13,
+    "total_internal_labels": 19,
+    "literary_lines": 317
+  },
+  "line_count_discrepancies": [
+    {
+      "source_object_id": "pmuni0069",
+      "declared": 500,
+      "extracted": 501
+    },
+    {
+      "source_object_id": "pmuni0073",
+      "declared": 261,
+      "extracted": 262
+    },
+    {
+      "source_object_id": "pmuni0077",
+      "declared": 301,
+      "extracted": 302
+    }
+  ],
+  "physical_audit": "pass",
+  "tests": {
+    "passed": 62,
+    "failed": 0,
+    "dependency_deprecation_warnings": 51
+  },
+  "validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "canonical_poem_files": 10,
+    "navigation_sections": 10,
+    "source_output_matches": 10,
+    "source_note_matches": 10
+  },
+  "fresh_idempotence": {
+    "path_additions": [],
+    "path_removals": [],
+    "file_hash_changes": []
+  },
+  "hash_comparison": {
+    "canonical_body_changes": [],
+    "source_note_changes": [],
+    "whole_record_changes": [],
+    "special_record_whole_hash_changes": [],
+    "raw_source_changes": [],
+    "source_set_changed": false,
+    "mullai_decision_changed": false,
+    "structure_inventory_changed": false,
+    "full_text_changed": false,
+    "navigation_changes": []
+  },
+  "special_record_hashes_before": {
+    "001.md": "f038c8033159649f6f07091de6d3114f1a501499e9af9d9453492b90570cfda4",
+    "004.md": "627963a90a50e3059569918b814d72106fb1eae4701d9b76238a41f7486bbb2b",
+    "005.md": "32ef39327c225549c3d4bde0670b14a0e964bf0e4dda05e3d747f04690dcab9a",
+    "008.md": "49b4eedc44d9c6237969777ec2c58c279631cf8ddc5366b3a92af918a9a0e8cf",
+    "009.md": "a7b8a9b2926cff4fd68d44b075a34662c9a80592caba09d25ee4fe2e1d006c61"
+  },
+  "special_record_hashes_after": {
+    "001.md": "f038c8033159649f6f07091de6d3114f1a501499e9af9d9453492b90570cfda4",
+    "004.md": "627963a90a50e3059569918b814d72106fb1eae4701d9b76238a41f7486bbb2b",
+    "005.md": "32ef39327c225549c3d4bde0670b14a0e964bf0e4dda05e3d747f04690dcab9a",
+    "008.md": "49b4eedc44d9c6237969777ec2c58c279631cf8ddc5366b3a92af918a9a0e8cf",
+    "009.md": "a7b8a9b2926cff4fd68d44b075a34662c9a80592caba09d25ee4fe2e1d006c61"
+  },
+  "frozen_work_regression": {
+    "natrinai": {
+      "status": "pass",
+      "changes": []
+    },
+    "aingurunuru": {
+      "status": "pass",
+      "changes": []
+    },
+    "kuruntokai": {
+      "status": "pass",
+      "changes": []
+    },
+    "akananuru": {
+      "status": "pass",
+      "changes": []
+    },
+    "purananuru": {
+      "status": "pass",
+      "changes": []
+    }
+  },
+  "version_metadata_consistency": {
+    "metadata": true,
+    "works_manifest": true,
+    "root_readme": true,
+    "work_readme": true,
+    "poem_yaml": true,
+    "generator_default": true
+  },
+  "files_changed_during_freeze": [
+    "README.md",
+    "corpus/pattuppattu/README.md",
+    "corpus/pattuppattu/metadata.json",
+    "manifests/works.json",
+    "scripts/pattuppattu_pipeline.py",
+    "tests/test_pipeline.py",
+    "logs/pre-pattuppattu-freeze-baseline-20260729T171747.json",
+    "logs/pattuppattu-freeze-regeneration-20260729T171922.json"
+  ]
+}

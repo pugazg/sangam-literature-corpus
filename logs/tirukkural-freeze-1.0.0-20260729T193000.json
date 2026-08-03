@@ -1,0 +1,53 @@
+{
+  "work": "tirukkural",
+  "corpus_schema_version": "1.0.0",
+  "version_status": "frozen",
+  "freeze_timestamp": "2026-07-29T19:30:00+05:30",
+  "physical_repository_path": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "project_madurai_id": "pmuni0001",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html",
+  "raw_source_sha256": "1d1704d1f2e6dd649d40f29253bb6cb1ac8a0e316841601e3b3223feac548f18",
+  "poem_count": 1330,
+  "section_count": 133,
+  "schema_coverage": "1330/1330",
+  "source_output_equality": "1330/1330",
+  "source_note_equality": "1330/1330",
+  "duplicate_full_bodies": 0,
+  "printed_numbering_anomalies": [
+    {
+      "canonical": 72,
+      "printed": 71
+    },
+    {
+      "canonical": 753,
+      "printed": 752
+    },
+    {
+      "canonical": 781,
+      "printed": 7811
+    },
+    {
+      "canonical": 1293,
+      "printed": 12983
+    }
+  ],
+  "heading_conditions": [
+    "2,3.6 preserved",
+    "chapter 116 printed heading absent",
+    "3..2. 9 preserved"
+  ],
+  "canonical_poem_file_changes_after_version_metadata": [],
+  "section_file_changes_after_version_metadata": [],
+  "tests": "77 passed, 65 dependency warnings",
+  "physical_audit": "pass",
+  "validation_summary": {
+    "source_output_matches": 1330,
+    "source_note_matches": 1330,
+    "errors": 0,
+    "warnings": 0,
+    "info": 7,
+    "status": "pass-with-review"
+  },
+  "frozen_sangam_regression": "nine works: zero body, source-note, and whole-record hash changes against pre-programme baseline",
+  "version_metadata_consistent": true
+}
