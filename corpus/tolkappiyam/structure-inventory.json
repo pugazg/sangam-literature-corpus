@@ -1,0 +1,354 @@
+{
+  "work_id": "tolkappiyam",
+  "hierarchy": "work → adhikaram → iyal → nurpa",
+  "adhikarams": [
+    {
+      "id": "ezhuthu",
+      "number": 1,
+      "title_as_printed": "எழுத்ததிகாரம்",
+      "iyals": [
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 1,
+          "source_sequence": 1,
+          "source_line": 187,
+          "title_as_printed": "நூல் மரபு",
+          "display_title": "நூல் மரபு",
+          "upstream_iyal_id": "ezhuthu-noolmarabu",
+          "record_count": 33,
+          "source_sequence_start": 1,
+          "source_sequence_end": 33
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 2,
+          "source_sequence": 2,
+          "source_line": 355,
+          "title_as_printed": "மொழி மரபு",
+          "display_title": "மொழி மரபு",
+          "upstream_iyal_id": "ezhuthu-mozhimarabu",
+          "record_count": 49,
+          "source_sequence_start": 34,
+          "source_sequence_end": 82
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 3,
+          "source_sequence": 3,
+          "source_line": 571,
+          "title_as_printed": "பிறப்பியல்",
+          "display_title": "பிறப்பியல்",
+          "upstream_iyal_id": "ezhuthu-pirappiyal",
+          "record_count": 21,
+          "source_sequence_start": 83,
+          "source_sequence_end": 103
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 4,
+          "source_sequence": 4,
+          "source_line": 705,
+          "title_as_printed": "புணரியல்",
+          "display_title": "புணரியல்",
+          "upstream_iyal_id": "ezhuthu-punariyal",
+          "record_count": 40,
+          "source_sequence_start": 104,
+          "source_sequence_end": 143
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 5,
+          "source_sequence": 5,
+          "source_line": 952,
+          "title_as_printed": "தொகைமரபு",
+          "display_title": "தொகை மரபு",
+          "upstream_iyal_id": "ezhuthu-thogaimarabu",
+          "record_count": 30,
+          "source_sequence_start": 144,
+          "source_sequence_end": 173
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 6,
+          "source_sequence": 6,
+          "source_line": 1197,
+          "title_as_printed": "உருபியல்",
+          "display_title": "உருபியல்",
+          "upstream_iyal_id": "ezhuthu-urubiyal",
+          "record_count": 30,
+          "source_sequence_start": 174,
+          "source_sequence_end": 203
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 7,
+          "source_sequence": 7,
+          "source_line": 1376,
+          "title_as_printed": "உயிர்மயங்கியல்",
+          "display_title": "உயிர் மயங்கியல்",
+          "upstream_iyal_id": "ezhuthu-uyirmayangiyal",
+          "record_count": 93,
+          "source_sequence_start": 204,
+          "source_sequence_end": 296
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 8,
+          "source_sequence": 8,
+          "source_line": 1823,
+          "title_as_printed": "புள்ளிமயங்கியல்",
+          "display_title": "புள்ளி மயங்கியல்",
+          "upstream_iyal_id": "ezhuthu-pullimayangiyal",
+          "record_count": 110,
+          "source_sequence_start": 297,
+          "source_sequence_end": 406
+        },
+        {
+          "adhikaram_number": 1,
+          "iyal_number": 9,
+          "source_sequence": 9,
+          "source_line": 2307,
+          "title_as_printed": "குற்றியலுகரப்புணரியல்",
+          "display_title": "குற்றியலுகரப் புணரியல்",
+          "upstream_iyal_id": "ezhuthu-kutriyalugarapunariyal",
+          "record_count": 77,
+          "source_sequence_start": 407,
+          "source_sequence_end": 483
+        }
+      ],
+      "record_count": 483
+    },
+    {
+      "id": "sol",
+      "number": 2,
+      "title_as_printed": "சொல்லதிகாரம்",
+      "iyals": [
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 1,
+          "source_sequence": 10,
+          "source_line": 2735,
+          "title_as_printed": "கிளவியாக்கம்",
+          "display_title": "கிளவியாக்கம்",
+          "upstream_iyal_id": "sol-kilaviyakkam",
+          "record_count": 62,
+          "source_sequence_start": 484,
+          "source_sequence_end": 545
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 2,
+          "source_sequence": 11,
+          "source_line": 3083,
+          "title_as_printed": "வேற்றுமையியல்",
+          "display_title": "வேற்றுமையியல்",
+          "upstream_iyal_id": "sol-vetrumaiyiyal",
+          "record_count": 22,
+          "source_sequence_start": 546,
+          "source_sequence_end": 567
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 3,
+          "source_sequence": 12,
+          "source_line": 3268,
+          "title_as_printed": "வேற்றுமைமயங்கியல்",
+          "display_title": "வேற்றுமை மயங்கியல்",
+          "upstream_iyal_id": "sol-vetrumaimayangiyal",
+          "record_count": 35,
+          "source_sequence_start": 568,
+          "source_sequence_end": 602
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 4,
+          "source_sequence": 13,
+          "source_line": 3449,
+          "title_as_printed": "விளிமரபு",
+          "display_title": "விளி மரபு",
+          "upstream_iyal_id": "sol-vilimarabu",
+          "record_count": 37,
+          "source_sequence_start": 603,
+          "source_sequence_end": 639
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 5,
+          "source_sequence": 14,
+          "source_line": 3592,
+          "title_as_printed": "பெயரியல்",
+          "display_title": "பெயரியல்",
+          "upstream_iyal_id": "sol-peyariyal",
+          "record_count": 43,
+          "source_sequence_start": 640,
+          "source_sequence_end": 682
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 6,
+          "source_sequence": 15,
+          "source_line": 3869,
+          "title_as_printed": "வினையியல்",
+          "display_title": "வினையியல்",
+          "upstream_iyal_id": "sol-vinaiyiyal",
+          "record_count": 51,
+          "source_sequence_start": 683,
+          "source_sequence_end": 733
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 7,
+          "source_sequence": 16,
+          "source_line": 4172,
+          "title_as_printed": "இடையியல்",
+          "display_title": "இடையியல்",
+          "upstream_iyal_id": "sol-idaiyiyal",
+          "record_count": 48,
+          "source_sequence_start": 734,
+          "source_sequence_end": 781
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 8,
+          "source_sequence": 17,
+          "source_line": 4393,
+          "title_as_printed": "உரியியல்",
+          "display_title": "உரியியல்",
+          "upstream_iyal_id": "sol-uriyiyal",
+          "record_count": 98,
+          "source_sequence_start": 782,
+          "source_sequence_end": 879
+        },
+        {
+          "adhikaram_number": 2,
+          "iyal_number": 9,
+          "source_sequence": 18,
+          "source_line": 4664,
+          "title_as_printed": "எச்சவியல்",
+          "display_title": "எச்சவியல்",
+          "upstream_iyal_id": "sol-echaviyal",
+          "record_count": 67,
+          "source_sequence_start": 880,
+          "source_sequence_end": 946
+        }
+      ],
+      "record_count": 463
+    },
+    {
+      "id": "porul",
+      "number": 3,
+      "title_as_printed": "பொருளதிகாரம்",
+      "iyals": [
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 1,
+          "source_sequence": 19,
+          "source_line": 4994,
+          "title_as_printed": "அகத்திணையியல்",
+          "display_title": "அகத்திணையியல்",
+          "upstream_iyal_id": "porul-akaththinai",
+          "record_count": 58,
+          "source_sequence_start": 947,
+          "source_sequence_end": 1004
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 2,
+          "source_sequence": 20,
+          "source_line": 5321,
+          "title_as_printed": "புறத்திணையியல்",
+          "display_title": "புறத்திணையியல்",
+          "upstream_iyal_id": "porul-puraththinai",
+          "record_count": 30,
+          "source_sequence_start": 1005,
+          "source_sequence_end": 1034
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 3,
+          "source_sequence": 21,
+          "source_line": 5788,
+          "title_as_printed": "களவியல்",
+          "display_title": "களவியல்",
+          "upstream_iyal_id": "porul-kalaviyal",
+          "record_count": 51,
+          "source_sequence_start": 1035,
+          "source_sequence_end": 1085
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 4,
+          "source_sequence": 22,
+          "source_line": 6283,
+          "title_as_printed": "கற்பியல்",
+          "display_title": "கற்பியல்",
+          "upstream_iyal_id": "porul-karpiyal",
+          "record_count": 53,
+          "source_sequence_start": 1086,
+          "source_sequence_end": 1138
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 5,
+          "source_sequence": 23,
+          "source_line": 6828,
+          "title_as_printed": "பொருளியல்",
+          "display_title": "பொருளியல்",
+          "upstream_iyal_id": "porul-poruliyal",
+          "record_count": 52,
+          "source_sequence_start": 1139,
+          "source_sequence_end": 1190
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 6,
+          "source_sequence": 24,
+          "source_line": 7123,
+          "title_as_printed": "மெய்ப்பாட்டியல்",
+          "display_title": "மெய்ப்பாட்டியல்",
+          "upstream_iyal_id": "porul-meyppattiyal",
+          "record_count": 27,
+          "source_sequence_start": 1191,
+          "source_sequence_end": 1217
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 7,
+          "source_sequence": 25,
+          "source_line": 7310,
+          "title_as_printed": "உவமயியல்",
+          "display_title": "உவமவியல்",
+          "upstream_iyal_id": "porul-uvamaiyiyal",
+          "record_count": 38,
+          "source_sequence_start": 1218,
+          "source_sequence_end": 1255
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 8,
+          "source_sequence": 26,
+          "source_line": 7477,
+          "title_as_printed": "செய்யுளியல்",
+          "display_title": "செய்யுளியல்",
+          "upstream_iyal_id": "porul-seyyuliyal",
+          "record_count": 235,
+          "source_sequence_start": 1256,
+          "source_sequence_end": 1490
+        },
+        {
+          "adhikaram_number": 3,
+          "iyal_number": 9,
+          "source_sequence": 27,
+          "source_line": 8492,
+          "title_as_printed": "மரபியல்",
+          "display_title": "மரபியல்",
+          "upstream_iyal_id": "porul-marabiyal",
+          "record_count": 112,
+          "source_sequence_start": 1491,
+          "source_sequence_end": 1602
+        }
+      ],
+      "record_count": 656
+    }
+  ]
+}

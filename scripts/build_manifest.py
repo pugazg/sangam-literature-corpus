@@ -21,7 +21,8 @@ def _rows(work):
  return rows
 def aggregate_all(target=None):
  target=Path(target or ROOT/'manifests/poems.csv'); works=json.loads((ROOT/'manifests/works.json').read_text(encoding='utf-8')); order={x['work_slug']:i for i,x in enumerate(works)};rows=[]
- for x in works:rows.extend(_rows(x['work_slug']))
+ for x in works:
+  if x.get('record_directory','poems')=='poems':rows.extend(_rows(x['work_slug']))
  rows.sort(key=lambda r:(order[r['work_slug']],int(r.get('source_order') or r['poem_number']),r['markdown_file']))
  keys=[canonical_row_key(x) for x in rows]
  if len(rows)!=5632 or len(set(keys))!=len(rows):raise ValueError(f'invalid canonical rows: {len(rows)} rows, {len(set(keys))} keys')

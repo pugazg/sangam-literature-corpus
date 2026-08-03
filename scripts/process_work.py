@@ -9,6 +9,14 @@ from build_manifest import build
 from validate_output import validate
 
 def process(work, url=None, force=False, dry_run=False, verbose=False):
+    if work == "tolkappiyam":
+        if url:
+            raise ValueError("Tolkāppiyam regeneration uses only the pinned preserved local source")
+        if dry_run:
+            print("Would regenerate 1,602 Tolkāppiyam nurpa records from pinned pmuni0100")
+            return
+        from tolkappiyam_pipeline import process as process_tolkappiyam
+        return process_tolkappiyam()
     if url:
         fetch(url,work,force,dry_run,verbose)
         if dry_run: return
@@ -26,7 +34,7 @@ def process(work, url=None, force=False, dry_run=False, verbose=False):
 
 if __name__ == "__main__":
     ap=argparse.ArgumentParser(description="Process one supported Project Madurai work")
-    supported=["natrinai","aingurunuru","kuruntokai","akananuru","purananuru","pattuppattu","patirruppattu","paripatal","kalittokai","tirukkural","naladiyar","nanmanikkadigai","inna-narpathu","iniyavai-narpathu","kar-narpathu","kalavazhi-narpathu","aintinai-aimpathu","aintinai-elupathu","thinaimalai-nutraimbathu","thinaimozhi-aimpathu","tirikatukam","acharakkovai","pazhamozhi-nanuru","sirupanchamulam","muthumozhi-kanchi","elati","kainnilai"]
+    supported=["natrinai","aingurunuru","kuruntokai","akananuru","purananuru","pattuppattu","patirruppattu","paripatal","kalittokai","tirukkural","naladiyar","nanmanikkadigai","inna-narpathu","iniyavai-narpathu","kar-narpathu","kalavazhi-narpathu","aintinai-aimpathu","aintinai-elupathu","thinaimalai-nutraimbathu","thinaimozhi-aimpathu","tirikatukam","acharakkovai","pazhamozhi-nanuru","sirupanchamulam","muthumozhi-kanchi","elati","kainnilai","tolkappiyam"]
     ap.add_argument("work_pos",nargs="?",choices=supported,help="Regenerate from preserved raw HTML")
     ap.add_argument("--url"); ap.add_argument("--work",dest="work_opt",choices=supported)
     ap.add_argument("--force",action="store_true"); ap.add_argument("--dry-run",action="store_true"); ap.add_argument("--verbose",action="store_true")

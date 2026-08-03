@@ -1,0 +1,242 @@
+{
+  "source_identifier": "pmuni0100",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0100.html",
+  "source_file": "sources/raw-html/tolkappiyam-pmuni0100.html",
+  "source_sha256": "16b2edf314763ef491bdc498c0017de33e7e190753587b230bbafcd03219f5da",
+  "source_bytes": 384080,
+  "printed_title": "தொல்காப்பியர் அருளிய தொல்காப்பியம்",
+  "adhikaram_count": 3,
+  "iyal_count": 27,
+  "nurpa_count": 1602,
+  "high_confidence": 1597,
+  "medium_confidence": 5,
+  "low_confidence": 0,
+  "warning_count": 12,
+  "attached_number_count": 5,
+  "sequence_mismatches": [],
+  "duplicate_normalized_bodies": [
+    [
+      208,
+      395
+    ],
+    [
+      217,
+      226,
+      253,
+      260,
+      267,
+      277
+    ],
+    [
+      307,
+      328,
+      377,
+      402
+    ],
+    [
+      324,
+      342
+    ],
+    [
+      453,
+      467
+    ],
+    [
+      602,
+      781
+    ],
+    [
+      619,
+      625
+    ],
+    [
+      620,
+      626,
+      634
+    ],
+    [
+      1192,
+      1235
+    ],
+    [
+      1499,
+      1557
+    ]
+  ],
+  "shared_openings": [
+    [
+      2,
+      110,
+      120,
+      143,
+      198,
+      548,
+      597,
+      599,
+      605,
+      661,
+      687,
+      735,
+      736,
+      784,
+      902,
+      912,
+      923,
+      1228,
+      1413,
+      1460
+    ],
+    [
+      3,
+      24,
+      26,
+      49,
+      85,
+      105,
+      109,
+      121,
+      136,
+      146,
+      155,
+      408,
+      512,
+      515,
+      536,
+      549,
+      606,
+      645,
+      660,
+      674,
+      689,
+      694,
+      708,
+      711,
+      715,
+      723,
+      760,
+      804,
+      831,
+      833,
+      842,
+      881,
+      888,
+      896,
+      914,
+      928,
+      948,
+      974,
+      1257,
+      1382,
+      1414,
+      1417,
+      1461,
+      1494
+    ],
+    [
+      157,
+      203
+    ],
+    [
+      165,
+      482
+    ],
+    [
+      201,
+      423
+    ],
+    [
+      208,
+      395
+    ],
+    [
+      217,
+      226,
+      253,
+      260,
+      267,
+      277
+    ],
+    [
+      307,
+      328,
+      377,
+      402
+    ],
+    [
+      323,
+      409
+    ],
+    [
+      324,
+      342
+    ],
+    [
+      453,
+      467
+    ],
+    [
+      459,
+      470
+    ],
+    [
+      492,
+      701
+    ],
+    [
+      602,
+      781
+    ],
+    [
+      619,
+      625
+    ],
+    [
+      620,
+      626,
+      634
+    ],
+    [
+      693,
+      700,
+      703,
+      706
+    ],
+    [
+      994,
+      1585
+    ],
+    [
+      1192,
+      1235
+    ],
+    [
+      1499,
+      1557
+    ]
+  ],
+  "replacement_character_count": 0,
+  "upstream_original_text_mismatches": [],
+  "special_prefatory_material": {
+    "type": "சிறப்புப் பாயிரம்",
+    "canonical_record": false,
+    "structural_source_evidence": true,
+    "line_count": 15
+  },
+  "source_prose_policy": "Header, contents, acknowledgements and closing prose are excluded from canonical nurpa bodies and preserved through raw source/provenance.",
+  "upstream_comparison": {
+    "adhikarams": 3,
+    "iyals": 27,
+    "nurpas": 1602,
+    "high": 1597,
+    "medium": 5,
+    "low": 0,
+    "warnings": 12,
+    "agreement": true
+  },
+  "provenance_classification": {
+    "canonical_bodies": "printed by selected canonical source",
+    "source_sequence": "mechanically derived",
+    "display_titles": "upstream editorial reference",
+    "semantic_ids": "verified upstream aliases"
+  }
+}

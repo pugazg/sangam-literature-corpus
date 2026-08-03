@@ -1,0 +1,23 @@
+{
+  "release_name": "Classical Tamil Corpus",
+  "release_version": "1.1.0",
+  "release_status": "verified-content-pending-git-checkpoint",
+  "work_count": 28,
+  "canonical_record_count": 7234,
+  "poem_record_count": 5632,
+  "nurpa_record_count": 1602,
+  "approved_poems_csv_sha256": "4c287ee9901d028f97659b3a099bd521efc7d43819424b32184c975de9bf4cb7",
+  "records_csv_sha256": "1e6c274302a2549f2cf8e8cf0090b54acad0f9d762aab1e9607a3ec76bdba44b",
+  "repository_content_manifest_sha256": "8db2781037c672e37fd7d392a955010c5da91c4cc14404269233396b3d2d9ac7",
+  "release_content_commit": null,
+  "release_content_tree": null,
+  "release_checkpoint_commit": null,
+  "release_checkpoint_tree": null,
+  "release_tag": "classical-tamil-corpus-v1.1.0",
+  "previous_release_tag": "classical-tamil-corpus-v1.0.0",
+  "source_inventory": "manifests/repository-source-inventory-1.1.0.json",
+  "work_inventory": "manifests/repository-frozen-work-inventory-1.1.0.json",
+  "record_inventory": "manifests/repository-record-inventory-1.1.0.json",
+  "protected_conditions": "manifests/repository-protected-conditions-1.1.0.json",
+  "rights_review": "docs/source-rights-and-redistribution-review.md"
+}

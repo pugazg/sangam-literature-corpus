@@ -1,0 +1,15 @@
+{
+  "upstream_repository": "pugazg/tolkappiyam-arivagam",
+  "upstream_commit": "16123f742503283e46f0ed321802a46f99df6392",
+  "comparison": {
+    "adhikarams": {"independent": 3, "upstream": 3, "match": true},
+    "iyals": {"independent": 27, "upstream": 27, "match": true},
+    "nurpas": {"independent": 1602, "upstream": 1602, "match": true},
+    "high_confidence": {"independent": 1597, "upstream": 1597, "match": true},
+    "medium_confidence": {"independent": 5, "upstream": 5, "match": true},
+    "low_confidence": {"independent": 0, "upstream": 0, "match": true},
+    "warnings": {"independent": 12, "upstream": 12, "match": true}
+  },
+  "excluded_application_fields": ["English headings", "transliteration", "glosses", "concepts", "keywords", "simple explanations", "detailed explanations", "English explanations", "related aphorisms", "commentary placeholders", "examples", "audio references"],
+  "identity_policy": "Upstream semantic IDs are verified aliases; repository canonical IDs follow source sequence."
+}

@@ -2,11 +2,16 @@
 
 ## Repository release checkpoint
 
-The repository-wide **Classical Tamil Corpus 1.0.0** checkpoint contains 27
+The immutable **Classical Tamil Corpus 1.0.0** checkpoint contains 27
 frozen works and 5,632 canonical numbered records: nine core Sangam works and
 eighteen Patiṉeṇkīḻkkaṇakku works. The release inventories, protected-condition
 register, deterministic content fingerprint, and Git checkpoint are described
 in [`docs/classical-tamil-corpus-release-1.0.0.md`](docs/classical-tamil-corpus-release-1.0.0.md).
+
+The succeeding **Classical Tamil Corpus 1.1.0** checkpoint adds independently
+parsed Tolkāppiyam as the twenty-eighth frozen work. The current repository has
+7,234 canonical records: the prior 5,632 poem records plus 1,602 நூற்பா records.
+The earlier tag and its content remain unchanged.
 
 Before release, an overlapping write to the shared `poems.csv` manifest was
 detected. Canonical corpus content was unaffected. The manifest was
@@ -33,7 +38,7 @@ Corpus schema version: **1.0.0**
 
 ## Project purpose
 
-This repository builds reproducible, source-faithful Markdown transcriptions of classical Tamil works published by Project Madurai. It preserves provenance and exposes uncertainty without performing translation, literary interpretation, historical inference, spelling modernization, or silent textual correction. The core programme contains nine works, all formally frozen at corpus schema 1.0.0: Naṟṟiṇai, Aiṅkuṟunūṟu, Kuruntokai, Akanāṉūṟu, Puṟanāṉūṟu, Pattuppāṭṭu, Patiṟṟuppattu, Paripāṭal, and Kalittokai.
+This repository builds reproducible, source-faithful Markdown transcriptions of classical Tamil works published by Project Madurai. It preserves provenance and exposes uncertainty without performing translation, literary interpretation, historical inference, spelling modernization, or silent textual correction. The core programme contains nine works, all formally frozen at corpus schema 1.0.0: Naṟṟiṇai, Aiṅkuṟunūṟu, Kuruntokai, Akanāṉūṟu, Puṟanāṉūṟu, Pattuppāṭṭu, Patiṟṟuppattu, Paripāṭal, and Kalittokai. Tolkāppiyam is independently frozen at work schema `1.0.0` using the source hierarchy work → அதிகாரம் → இயல் → நூற்பா.
 
 ## Source and editorial hierarchy
 
@@ -90,7 +95,8 @@ sangam-text-corpus/
 │   ├── pattuppattu/
 │   ├── patirruppattu/
 │   ├── paripatal/
-│   └── kalittokai/
+│   ├── kalittokai/
+│   └── tolkappiyam/
 ├── manifests/
 ├── issues/
 ├── apparatus/
@@ -102,12 +108,13 @@ sangam-text-corpus/
 │   ├── pattuppattu/
 │   ├── patirruppattu/
 │   ├── paripatal/
-│   └── kalittokai/
+│   ├── kalittokai/
+│   └── tolkappiyam/
 ├── logs/
 └── tests/
 ```
 
-Each `corpus/<work>/` directory contains `README.md`, `metadata.json`, `full-text.md`, `poems/`, and work-appropriate navigation or structural files. Shared manifests, issues, apparatus, logs, scripts, and sources remain repository-level directories rather than being nested beneath one work.
+Each `corpus/<work>/` directory contains `README.md`, `metadata.json`, `full-text.md`, a work-profile-selected canonical record directory, and work-appropriate navigation or structural files. Anthology and didactic works retain `poems/`; Tolkāppiyam uses `nurpas/` plus `adhikarams/` and `iyals/`. Shared manifests, issues, apparatus, logs, scripts, and sources remain repository-level directories rather than being nested beneath one work.
 
 ## Commands
 
@@ -131,6 +138,7 @@ python3 scripts/process_work.py pattuppattu
 python3 scripts/process_work.py patirruppattu
 python3 scripts/process_work.py paripatal
 python3 scripts/process_work.py kalittokai
+python3 scripts/process_work.py tolkappiyam
 python3 scripts/process_work.py tirukkural
 python3 scripts/process_work.py naladiyar
 # The remaining Patiṉeṇkīḻkkaṇakku slugs are listed in
@@ -198,7 +206,7 @@ YAML records identity, numbering, work-appropriate navigation or structure, sour
 
 ## Manifests
 
-`works.json` contains one record for every onboarded work. `poems.csv` is the combined poem manifest for all onboarded corpora and has identity and printed metadata; optional work-specific structure; textual/extraction status; body, source, and Markdown SHA-256 values; full-body duplicate and shared-first-line flags; source-output match; source-object paths; validation status; issue count; and notes. Null structural fields are retained where a source does not print them. The current repository inventory is 5,632 canonical numbered records across 27 frozen works; this is a current count, not an architectural maximum. The eighteen-work Patiṉeṇkīḻkkaṇakku programme contributes 3,256 numbered records. Source-explicit unnumbered invocations and prefatory texts remain outside those numbered totals.
+`works.json` contains one record for every onboarded work. `poems.csv` remains the combined poem manifest for the 27 poem-based frozen works. `records.csv` is the neutral combined manifest and contains all 7,234 current canonical records, including Tolkāppiyam's 1,602 நூற்பா records. Both manifests retain identity, provenance, fidelity and validation fields appropriate to their record model. Null structural fields are retained where a source does not print them. These counts describe the current 28-work inventory and are not architectural maxima. Source-explicit unnumbered invocations and prefatory texts remain outside numbered totals.
 
 `sangam-core-program.json` is the programme-level inventory and completion
 record. It pins the nine-work scope, source identities, record counts, freeze

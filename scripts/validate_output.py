@@ -282,6 +282,12 @@ def validate_aingurunuru(work, force=False, dry_run=False, verbose=False):
     return report
 
 def validate(work: str, force=False, dry_run=False, verbose=False):
+    if work == "tolkappiyam":
+        from tolkappiyam_pipeline import validate as validate_tolkappiyam
+        report = validate_tolkappiyam(write=not dry_run)
+        if verbose:
+            print(f"Validation: {report['status']}; {report['errors']} errors")
+        return report
     if work in {"tirukkural","naladiyar","nanmanikkadigai","inna-narpathu","iniyavai-narpathu","kar-narpathu","kalavazhi-narpathu","aintinai-aimpathu","aintinai-elupathu","thinaimalai-nutraimbathu","thinaimozhi-aimpathu","tirikatukam","acharakkovai","pazhamozhi-nanuru","sirupanchamulam","muthumozhi-kanchi","elati","kainnilai"}:
         from pathinenkilkanakku_pipeline import validate as validate_pathinen
         return validate_pathinen(work, dry_run=dry_run, verbose=verbose)

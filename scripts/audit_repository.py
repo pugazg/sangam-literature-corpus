@@ -133,6 +133,32 @@ def audit(root: Path) -> dict:
         fail=bool(len(poem_md)!=len(expected_poems) or unexpected or missing or dup or identical or conflicting or len(section_md)!=len(expected_sections) or sunexpected or smissing)
         reports[work]={"poem_markdown_count":len(poem_md),"expected_poem_filenames":len(expected_poems),"missing_poem_filenames":missing,"unexpected_poem_filenames":unexpected,"duplicate_yaml_poem_numbers":dup,"section_markdown_count":len(section_md),"expected_section_count":len(expected_sections),"missing_section_filenames":smissing,"unexpected_section_filenames":sunexpected,"status":"fail" if fail else "pass"}
         all_identical+=identical; all_conflicting+=conflicting; overall_fail|=fail
+    # Neutral textual-unit profile: Tolkāppiyam is work → adhikaram → iyal → nurpa,
+    # never a compatibility `poems/` tree.
+    tolk=root/"corpus/tolkappiyam"
+    if tolk.exists():
+        nurpas=tolk/"nurpas";adh=tolk/"adhikarams";iyals=tolk/"iyals"
+        expected_nurpas={f"{n:04d}.md" for n in range(1,1603)}
+        expected_adh={f"{n:02d}.md" for n in range(1,4)}
+        expected_iyals={f"{n:02d}.md" for n in range(1,28)}
+        nurpa_files=sorted(x for x in nurpas.rglob("*") if x.is_file())
+        adh_files=sorted(x for x in adh.rglob("*") if x.is_file())
+        iyal_files=sorted(x for x in iyals.rglob("*") if x.is_file())
+        direct={x.name for x in nurpa_files if x.parent==nurpas}
+        unexpected=sorted(str(x.relative_to(nurpas)) for x in nurpa_files if x.parent!=nurpas or x.name not in expected_nurpas)
+        missing=sorted(expected_nurpas-direct)
+        ids=defaultdict(list)
+        for path in nurpa_files:
+            try:
+                parts=path.read_text(encoding="utf-8").split("---",2);fm=yaml.safe_load(parts[1]);ids[fm.get("canonical_record_id")].append(str(path.relative_to(root)))
+            except Exception:
+                ids[None].append(str(path.relative_to(root)))
+        duplicates={str(key):value for key,value in ids.items() if key is not None and len(value)>1}
+        adh_names={x.name for x in adh_files if x.parent==adh};iyal_names={x.name for x in iyal_files if x.parent==iyals}
+        structure_unexpected=sorted([str(x.relative_to(tolk)) for x in adh_files if x.parent!=adh or x.name not in expected_adh]+[str(x.relative_to(tolk)) for x in iyal_files if x.parent!=iyals or x.name not in expected_iyals])
+        fail=bool(len(nurpa_files)!=1602 or unexpected or missing or duplicates or adh_names!=expected_adh or iyal_names!=expected_iyals or structure_unexpected or (tolk/"poems").exists())
+        reports["tolkappiyam"]={"record_type":"nurpa","record_markdown_count":len(nurpa_files),"expected_record_filenames":1602,"missing_record_filenames":missing,"unexpected_record_filenames":unexpected,"duplicate_canonical_record_ids":duplicates,"adhikaram_file_count":len(adh_files),"iyal_file_count":len(iyal_files),"unexpected_structure_files":structure_unexpected,"poems_compatibility_directory_present":(tolk/"poems").exists(),"status":"fail" if fail else "pass"}
+        overall_fail|=fail
     all_files=sorted(p for p in root.rglob("*") if p.is_file())
     clutter = sorted(str(p.relative_to(root)) for p in root.rglob("*") if (p.relative_to(root).parts and p.relative_to(root).parts[0] == "quarantine") or p.name in CLUTTER_NAMES or (p.is_file() and p.name.endswith(CLUTTER_SUFFIXES)) or (p.is_file() and any(tag in p.name for tag in ("-old.md", "-copy.md"))))
     overall_fail|=bool(clutter)

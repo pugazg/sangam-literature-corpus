@@ -1,0 +1,36 @@
+{
+  "upstream_repository": "pugazg/tolkappiyam-arivagam",
+  "upstream_commit": "16123f742503283e46f0ed321802a46f99df6392",
+  "upstream_default_branch": "master",
+  "retrieved_at": "2026-08-03",
+  "import_method": "git clone followed by detached checkout of pinned commit; exact selected blobs copied locally",
+  "files_examined": [
+    "data/source/project-madurai-pmuni0100.html",
+    "data/generated/work.json",
+    "data/generated/sections.json",
+    "data/generated/sutras.json",
+    "data/generated/parsing-report.json",
+    "data/generated/glossary.json",
+    "data/generated/analysis.json",
+    "lib/parser.ts",
+    "application tree"
+  ],
+  "files_selected": [
+    "data/source/project-madurai-pmuni0100.html",
+    "data/generated/work.json",
+    "data/generated/sections.json",
+    "data/generated/sutras.json",
+    "data/generated/parsing-report.json"
+  ],
+  "files_rejected": [
+    "data/generated/glossary.json",
+    "data/generated/analysis.json",
+    "app/",
+    "lib UI/search/tooling modules",
+    "Next.js/Tailwind/Vercel configuration"
+  ],
+  "source_blob_sha256": "16b2edf314763ef491bdc498c0017de33e7e190753587b230bbafcd03219f5da",
+  "source_bytes": 384080,
+  "local_source_file": "sources/raw-html/tolkappiyam-pmuni0100.html",
+  "byte_equivalent_to_upstream": true
+}

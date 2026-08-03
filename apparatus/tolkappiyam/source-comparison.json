@@ -1,0 +1,9 @@
+{
+  "selected_source": "sources/raw-html/tolkappiyam-pmuni0100.html",
+  "selected_source_sha256": "16b2edf314763ef491bdc498c0017de33e7e190753587b230bbafcd03219f5da",
+  "upstream_blob_path": "data/source/project-madurai-pmuni0100.html",
+  "upstream_commit": "16123f742503283e46f0ed321802a46f99df6392",
+  "byte_equivalent": true,
+  "live_project_madurai_object_acquired": false,
+  "policy": "No readings are merged from another edition or a moving live response."
+}

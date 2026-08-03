@@ -1,0 +1,137 @@
+{
+  "warning_count": 12,
+  "warnings": [
+    {
+      "warning_id": "warn-0001",
+      "upstream_message": "Source heading \"தொகைமரபு\" differs from editorial display label \"தொகை மரபு\".",
+      "source_line": 952,
+      "affected_adhikaram": 1,
+      "affected_iyal": 5,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'தொகைமரபு'; upstream display title is 'தொகை மரபு'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0002",
+      "upstream_message": "Source heading \"உயிர்மயங்கியல்\" differs from editorial display label \"உயிர் மயங்கியல்\".",
+      "source_line": 1376,
+      "affected_adhikaram": 1,
+      "affected_iyal": 7,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'உயிர்மயங்கியல்'; upstream display title is 'உயிர் மயங்கியல்'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0003",
+      "upstream_message": "Source heading \"புள்ளிமயங்கியல்\" differs from editorial display label \"புள்ளி மயங்கியல்\".",
+      "source_line": 1823,
+      "affected_adhikaram": 1,
+      "affected_iyal": 8,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'புள்ளிமயங்கியல்'; upstream display title is 'புள்ளி மயங்கியல்'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0004",
+      "upstream_message": "Source heading \"குற்றியலுகரப்புணரியல்\" differs from editorial display label \"குற்றியலுகரப் புணரியல்\".",
+      "source_line": 2307,
+      "affected_adhikaram": 1,
+      "affected_iyal": 9,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'குற்றியலுகரப்புணரியல்'; upstream display title is 'குற்றியலுகரப் புணரியல்'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0005",
+      "upstream_message": "Source heading \"வேற்றுமைமயங்கியல்\" differs from editorial display label \"வேற்றுமை மயங்கியல்\".",
+      "source_line": 3268,
+      "affected_adhikaram": 2,
+      "affected_iyal": 3,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'வேற்றுமைமயங்கியல்'; upstream display title is 'வேற்றுமை மயங்கியல்'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0006",
+      "upstream_message": "Source heading \"விளிமரபு\" differs from editorial display label \"விளி மரபு\".",
+      "source_line": 3449,
+      "affected_adhikaram": 2,
+      "affected_iyal": 4,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'விளிமரபு'; upstream display title is 'விளி மரபு'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0007",
+      "upstream_message": "Number 3 is attached directly to text.",
+      "source_line": 3468,
+      "affected_adhikaram": 2,
+      "affected_iyal": 4,
+      "affected_nurpa": 3,
+      "independent_finding": "Independent source parse confirms number 3 is attached directly to the final textual line.",
+      "canonical_representation": "Restore only the structural text/number boundary; preserve the literary string unchanged.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0008",
+      "upstream_message": "Number 26 is attached directly to text.",
+      "source_line": 5712,
+      "affected_adhikaram": 3,
+      "affected_iyal": 2,
+      "affected_nurpa": 26,
+      "independent_finding": "Independent source parse confirms number 26 is attached directly to the final textual line.",
+      "canonical_representation": "Restore only the structural text/number boundary; preserve the literary string unchanged.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0009",
+      "upstream_message": "Number 1 is attached directly to text.",
+      "source_line": 5801,
+      "affected_adhikaram": 3,
+      "affected_iyal": 3,
+      "affected_nurpa": 1,
+      "independent_finding": "Independent source parse confirms number 1 is attached directly to the final textual line.",
+      "canonical_representation": "Restore only the structural text/number boundary; preserve the literary string unchanged.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0010",
+      "upstream_message": "Number 4 is attached directly to text.",
+      "source_line": 6863,
+      "affected_adhikaram": 3,
+      "affected_iyal": 5,
+      "affected_nurpa": 4,
+      "independent_finding": "Independent source parse confirms number 4 is attached directly to the final textual line.",
+      "canonical_representation": "Restore only the structural text/number boundary; preserve the literary string unchanged.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0011",
+      "upstream_message": "Source heading \"உவமயியல்\" differs from editorial display label \"உவமவியல்\".",
+      "source_line": 7310,
+      "affected_adhikaram": 3,
+      "affected_iyal": 7,
+      "affected_nurpa": null,
+      "independent_finding": "Independent source parse prints heading 'உவமயியல்'; upstream display title is 'உவமவியல்'.",
+      "canonical_representation": "Preserve source heading and retain display title only as an upstream editorial field.",
+      "status": "confirmed"
+    },
+    {
+      "warning_id": "warn-0012",
+      "upstream_message": "Number 6 is attached directly to text.",
+      "source_line": 7532,
+      "affected_adhikaram": 3,
+      "affected_iyal": 8,
+      "affected_nurpa": 6,
+      "independent_finding": "Independent source parse confirms number 6 is attached directly to the final textual line.",
+      "canonical_representation": "Restore only the structural text/number boundary; preserve the literary string unchanged.",
+      "status": "confirmed"
+    }
+  ]
+}

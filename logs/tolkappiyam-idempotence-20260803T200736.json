@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-08-03T20:07:36.346654+05:30",
+  "mode": "unfrozen",
+  "first_regeneration": {
+    "path_additions": [],
+    "path_removals": [],
+    "hash_changes": []
+  },
+  "second_regeneration": {
+    "path_additions": [],
+    "path_removals": [],
+    "hash_changes": []
+  },
+  "status": "pass"
+}

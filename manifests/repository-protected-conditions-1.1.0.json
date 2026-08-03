@@ -1,0 +1,190 @@
+{
+  "release_version": "1.1.0",
+  "conditions": [
+    {
+      "work_id": "natrinai",
+      "condition": "234 source-lost; candidate readings remain source-note evidence",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "natrinai",
+      "condition": "385 printed ending lacuna preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "natrinai",
+      "condition": "four legitimate shared-opening pairs remain informational",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "aingurunuru",
+      "condition": "129 and 130 source-lost",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "aingurunuru",
+      "condition": "470 malformed/bare printed heading preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "aingurunuru",
+      "condition": "50 ten-record groups; two initial printed pattu headings absent",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "aingurunuru",
+      "condition": "printed ordinal 11 repetition and shifted 12 preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "kuruntokai",
+      "condition": "29 and 396 malformed printed heading strings preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "kuruntokai",
+      "condition": "ten dot-placeholder poet attributions remain uncertain",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "kuruntokai",
+      "condition": "105 and 180 layout-only verse/attribution boundary restoration",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "akananuru",
+      "condition": "174 protected canonical record",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "akananuru",
+      "condition": "printed-number repetitions retained separately from canonical source order",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "akananuru",
+      "condition": "143 and 354 printed ellipses preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "akananuru",
+      "condition": "three source-printed divisions preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "purananuru",
+      "condition": "267 and 268 source-lost",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "purananuru",
+      "condition": "99 bare printed heading preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "purananuru",
+      "condition": "40 printed dot-lacuna conditions preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "purananuru",
+      "condition": "canonical source is approved Markdown/text export, not raw HTML",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "pattuppattu",
+      "condition": "ten independently checksum-pinned source objects",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "pattuppattu",
+      "condition": "Mullaippattu pmuni0488 is commentary-bearing; commentary excluded",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "pattuppattu",
+      "condition": "pmuni0053 remains an unselected alternate edition",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "pattuppattu",
+      "condition": "Tirumurukarruppatai six internal headings remain subordinate structure",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "pattuppattu",
+      "condition": "pmuni0069, pmuni0073 and pmuni0077 declared/extracted line-count discrepancies preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "patirruppattu",
+      "condition": "records 11-90 only; first and tenth groups explicitly unavailable",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "patirruppattu",
+      "condition": "patikam blocks and recovered fragments remain outside canonical bodies",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "paripatal",
+      "condition": "22 main records plus 13 Tirattu records with restarted printed numbering",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "kalittokai",
+      "condition": "invocation plus five source divisions",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "kalittokai",
+      "condition": "114 and 131 printed lacunae preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "tirukkural",
+      "condition": "1330 records in 133 chapters",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "tirukkural",
+      "condition": "Muppal is an alias, not a second work",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "aintinai-elupathu",
+      "condition": "25, 26, 69 and 70 are source-lost records",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "thinaimalai-nutraimbathu",
+      "condition": "153 source records preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "tirikatukam",
+      "condition": "printed heading absences at 43 and 57 preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "acharakkovai",
+      "condition": "printed 47 condition and punctuation anomaly preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "pazhamozhi-nanuru",
+      "condition": "399 numbered records plus two unnumbered source records; chapter 12 absence preserved",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "kainnilai",
+      "condition": "four printed division headings; no inferred fifth heading; Innilai excluded",
+      "policy": "preserve and validate; no silent editorial repair"
+    },
+    {
+      "work_id": "tolkappiyam",
+      "condition": "exact pinned pmuni0100 source; 3 adhikaram, 27 iyal and 1,602 nurpa; twelve warnings preserved; source/editorial headings separated",
+      "policy": "preserve and validate; no web-application or editorial-field leakage"
+    }
+  ]
+}

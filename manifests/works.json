@@ -1062,5 +1062,35 @@
       "Four printed numbering anomalies and three chapter-heading anomalies are preserved.",
       "No commentary is present in the selected source."
     ]
+  },
+  {
+    "corpus_schema_version": "1.0.0",
+    "version_status": "frozen",
+    "title_tamil": "தொல்காப்பியம்",
+    "title_english": "Tolkāppiyam",
+    "work_slug": "tolkappiyam",
+    "work_id": "tolkappiyam",
+    "record_type": "nurpa",
+    "record_directory": "nurpas",
+    "canonical_record_count": 1602,
+    "available_record_count": 1602,
+    "adhikaram_count": 3,
+    "iyal_count": 27,
+    "source_name": "Project Madurai",
+    "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0100.html",
+    "project_madurai_id": "pmuni0100",
+    "source_file": "sources/raw-html/tolkappiyam-pmuni0100.html",
+    "source_checksum_sha256": "16b2edf314763ef491bdc498c0017de33e7e190753587b230bbafcd03219f5da",
+    "source_bytes": 384080,
+    "upstream_repository": "pugazg/tolkappiyam-arivagam",
+    "upstream_commit": "16123f742503283e46f0ed321802a46f99df6392",
+    "canonical_identity_policy": "canonical repository identity follows source sequence; verified upstream semantic IDs are retained as aliases",
+    "encoding": "UTF-8",
+    "normalization": "Unicode NFC",
+    "notes": [
+      "Special prefatory material is structural evidence, not a numbered canonical record.",
+      "Source and upstream editorial display headings remain distinct.",
+      "No explanation, glossary, commentary, application code or analysis field enters canonical text."
+    ]
   }
 ]

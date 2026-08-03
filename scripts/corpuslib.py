@@ -84,6 +84,7 @@ WORK_PROFILES = {
     "muthumozhi-kanchi":{"expected_poems":100,"expected_sections":10,"pm_id":"pmuni0025","section_strategy":"printed_pattu"},
     "elati":{"expected_poems":80,"expected_sections":1,"pm_id":"pmuni0029","section_strategy":"mechanical_whole_work"},
     "kainnilai":{"expected_poems":60,"expected_sections":4,"pm_id":"pmuni0051","section_strategy":"printed_tinai_divisions"},
+    "tolkappiyam":{"expected_records":1602,"record_directory":"nurpas","expected_sections":27,"pm_id":"pmuni0100","section_strategy":"printed_adhikaram_iyal_hierarchy"},
 }
 
 
@@ -95,6 +96,18 @@ def profile(work: str) -> dict[str, Any]:
 
 
 def paths(work: str = WORK) -> dict[str, Path]:
+    if work == "tolkappiyam":
+        return {
+            "raw_html": ROOT / "sources/raw-html/tolkappiyam-pmuni0100.html",
+            "raw_txt": ROOT / "sources/raw-txt/tolkappiyam.txt",
+            "source_metadata": ROOT / "sources/source-metadata/tolkappiyam-upstream-import.json",
+            "parsed": ROOT / "sources/source-metadata/tolkappiyam-parsed.json",
+            "normalized": ROOT / "sources/source-metadata/tolkappiyam-normalized.json",
+            "corpus": ROOT / "corpus/tolkappiyam", "metadata": ROOT / "corpus/tolkappiyam/metadata.json",
+            "full_text": ROOT / "corpus/tolkappiyam/full-text.md", "records": ROOT / "corpus/tolkappiyam/nurpas",
+            "works_manifest": ROOT / "manifests/works.json", "records_manifest": ROOT / "manifests/records.csv",
+            "validation": ROOT / "manifests/tolkappiyam-validation-report.json",
+        }
     raw_source = (ROOT / "sources/purananuru.md" if work == "purananuru" else
                   ROOT / "sources/raw-html/pattuppattu" if work == "pattuppattu" else
                   ROOT / f"sources/raw-html/pathinenkilkanakku/{WORK_PROFILES[work]['pm_id']}.html"

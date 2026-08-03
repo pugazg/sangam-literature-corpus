@@ -1,0 +1,59 @@
+{
+  "work_id": "tolkappiyam",
+  "version_assigned": "1.0.0",
+  "version_status": "frozen",
+  "freeze_timestamp": "2026-08-03T20:09:08+05:30",
+  "repository_path": "/Users/pugazhendhirajendran/Documents/Codex/2026-07-11/che/sangam-text-corpus",
+  "project_madurai_id": "pmuni0100",
+  "source_url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0100.html",
+  "source_file": "sources/raw-html/tolkappiyam-pmuni0100.html",
+  "source_bytes": 384080,
+  "source_sha256": "16b2edf314763ef491bdc498c0017de33e7e190753587b230bbafcd03219f5da",
+  "upstream_repository": "pugazg/tolkappiyam-arivagam",
+  "upstream_commit": "16123f742503283e46f0ed321802a46f99df6392",
+  "upstream_local_byte_equivalence": true,
+  "record_type": "nurpa",
+  "record_directory": "corpus/tolkappiyam/nurpas",
+  "record_count": 1602,
+  "adhikaram_count": 3,
+  "iyal_count": 27,
+  "high_confidence": 1597,
+  "medium_confidence": 5,
+  "low_confidence": 0,
+  "warning_review_count": 12,
+  "warning_review_confirmed": 12,
+  "source_output_matches": "1602/1602",
+  "source_note_matches": "1602/1602",
+  "errors": 0,
+  "canonical_body_hash_changes": [],
+  "source_note_hash_changes": [],
+  "first_frozen_regeneration": {
+    "path_additions": [],
+    "path_removals": [],
+    "hash_changes": []
+  },
+  "second_frozen_regeneration": {
+    "path_additions": [],
+    "path_removals": [],
+    "hash_changes": []
+  },
+  "physical_audit": "pass",
+  "previous_frozen_work_regression": {
+    "works_checked": 27,
+    "canonical_body_changes": [],
+    "source_note_changes": [],
+    "raw_source_changes": [],
+    "inventory_changes": [],
+    "version_changes": []
+  },
+  "research_layer_regression": {
+    "branch": "research/sangam-evidence-r0",
+    "commit": "7087626347b56e0145ab69b2fb7ef355f6bc07d5d",
+    "status": "unchanged"
+  },
+  "metadata_sha256": "6bd840cefce1ea685f1ad707a2bb1d74392ec459ac859b1e21369db05529f27b",
+  "structure_inventory_sha256": "15286e4d1c2d7fdc95b379904624e37c3af868d598c8e578e59c6a95c8ea9407",
+  "validation_report_sha256": "d75a4c7a5ee6e9a4fd2519f8f61701fc5330d339b5999d2fa0e486713b37cdde",
+  "records_manifest_sha256": "1e6c274302a2549f2cf8e8cf0090b54acad0f9d762aab1e9607a3ec76bdba44b",
+  "status": "pass"
+}

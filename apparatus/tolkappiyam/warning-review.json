@@ -1,0 +1,7 @@
+{
+  "authoritative_review": "sources/source-metadata/tolkappiyam-warning-review.json",
+  "warning_count": 12,
+  "confirmed": 12,
+  "unresolved": 0,
+  "categories": {"source_editorial_heading_difference": 7, "attached_number_layout": 5}
+}
