@@ -1,5 +1,13 @@
 # Sangam Text Corpus
 
+## Derived research layer
+
+Development above the immutable corpus release now occurs on the separate
+`research/sangam-evidence-r0` branch. The independently versioned Research Layer
+R0 (`0.1.0`, pilot) is isolated under `research/` and currently contains only a
+Puṟanāṉūṟu evidence pilot. It does not modify or reinterpret the frozen
+transcription. See [`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md).
+
 ## Repository release checkpoint
 
 The repository-wide **Classical Tamil Corpus 1.0.0** checkpoint contains 27

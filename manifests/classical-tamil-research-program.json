@@ -1,0 +1,21 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R0",
+  "phase_name": "Research Architecture and Puṟanāṉūṟu Evidence Pilot",
+  "research_schema_version": "0.1.0",
+  "research_status": "pilot",
+  "source_release_tag": "classical-tamil-corpus-v1.0.0",
+  "source_release_commit": "272d9d5a79d55994e2c12efacc22be20b2c88030",
+  "source_release_content_commit": "7266a9fcb76568806b371cb31ec47f6aad6b285a",
+  "source_repository_fingerprint": "a220173f9b444095b191814622220203cd223d8258744091d7cbbbec1b76d326",
+  "research_branch": "research/sangam-evidence-r0",
+  "pilot_work_id": "purananuru",
+  "pilot_record_count": 400,
+  "pilot_literary_body_count": 398,
+  "source_lost_records": [267, 268],
+  "authoritative_assertion_format": "NDJSON",
+  "deterministic_order": ["work order", "canonical record order", "assertion-type order", "evidence-span order", "printed-form order", "assertion ID"],
+  "permitted_evidence_classes": ["SOURCE_EXPLICIT", "MECHANICALLY_DERIVED", "CROSS_TEXT", "EDITORIAL_INFERENCE"],
+  "unpopulated_in_r0": ["EXTERNAL_HISTORICAL", "INTERPRETATION"],
+  "scope_note": "Architecture is reusable, but Phase R0 evidence extraction is limited to Puṟanāṉūṟu."
+}
