@@ -79,3 +79,48 @@ supported audited operations.
 No external historical or interpretive assertion is introduced in R1. R1.5
 Classical Tamil Concept Matrix is the next permitted phase; R2 must not begin
 directly.
+
+## R1.5 concept-matrix decisions — 2026-08-18
+
+R1.5 introduces concept/observation schema `0.3.0` without changing R0 evidence
+schema `0.1.0` or R1 workflow schema `0.2.0`. A concept observation is a
+research-layer classification view over existing evidence; it is not a new
+canonical transcription and does not rewrite its supporting assertion.
+
+Matrix cells are evidence-bearing long-form views, never unsupported booleans.
+Every populated pilot row retains a stable observation ID, work/record identity,
+exact printed surface form and evidence span, evidence class, classification
+basis, confidence/review state, and supporting assertion ID. An empty matrix
+cell means only that qualifying evidence is not currently recorded; it does not
+prove historical absence.
+
+The bounded Puṟanāṉūṟu pilot is intentionally limited to the eight R1-reviewed
+source candidates. All eight remain `SOURCE_EXPLICIT`; no external-historical
+or interpretive observation is introduced and no historical identity is
+verified. The ruler-role observations for `இறைவன்` and `ஆய்` remain explicitly
+unresolved at the identity layer.
+
+The versioned concept foundation now includes Akam/Puram domain states, seven
+tiṇai categories, a first-class tuṟai family, a five-landscape concept family,
+named-entity categories, and lived-life research dimensions. Tiṇai,
+landscape, flora/fauna, occupation, deity, season, emotional, and other
+conventional associations are not hard-coded into one another; each populated
+association must have its own classification basis and evidence provenance.
+
+`concept-evidence-policies-r15.json` defines evidence requirements for literary
+domain, tiṇai, tuṟai, landscape/environment, named entities, and lived-life
+families. It prevents source-explicit, grammatical, cross-text, editorial,
+external-historical, and interpretive claims from silently collapsing into a
+single undifferentiated fact type.
+
+Tolkāppiyam has a separate R1.5 grammatical/poetics concept-evidence schema.
+R1.5 establishes that stream's contract only: there are zero production
+Tolkāppiyam concept observations. A Tolkāppiyam grammatical concept may support
+later cross-text research but must never silently auto-classify a Sangam poem.
+
+R1.5 acceptance validation additionally checks for orphan observation concepts,
+orphan observation assertion references, orphan relationship assertion/entity
+references, invalid relationship record subjects, and accidental Tolkāppiyam
+bulk population. Deterministic generation, full regression tests, repository
+audit, Corpus 1.1.0 non-drift, Tolkāppiyam non-drift, and handover completion are
+required before R1.5 can be accepted. R2 remains blocked until those gates pass.
