@@ -1,0 +1,43 @@
+{
+  "vocabulary_id": "classical-tamil-classification-bases-r15",
+  "version": "0.3.0",
+  "status": "pilot",
+  "entries": [
+    {
+      "code": "reviewed_source_assertion",
+      "description": "A deterministic concept mapping from an existing reviewed R0/R1 source-grounded assertion; it does not strengthen the assertion into historical identity."
+    },
+    {
+      "code": "source_metadata_explicit",
+      "description": "Classification explicitly printed in source metadata or structural notes and backed by assertions."
+    },
+    {
+      "code": "work_level_classification",
+      "description": "Classification inherited from an explicitly documented work-level source classification with supporting assertions."
+    },
+    {
+      "code": "tolkappiyam_mapping",
+      "description": "Classification supported by separately represented Tolkāppiyam grammatical concept evidence."
+    },
+    {
+      "code": "mechanically_derived",
+      "description": "Deterministic derivation from already-recorded evidence without semantic editorial inference."
+    },
+    {
+      "code": "cross_text",
+      "description": "Cross-text linkage supported by explicit evidence in more than one source stream."
+    },
+    {
+      "code": "editorial_inference",
+      "description": "Explicitly marked research/editorial classification not printed by the controlling source."
+    },
+    {
+      "code": "external_historical",
+      "description": "External historical identification kept separate from source-explicit evidence."
+    },
+    {
+      "code": "interpretation",
+      "description": "Interpretive research claim kept separate from source-explicit evidence."
+    }
+  ]
+}
