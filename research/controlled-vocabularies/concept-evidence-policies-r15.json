@@ -1,0 +1,44 @@
+{
+  "policy_id": "classical-tamil-concept-evidence-policies-r15",
+  "version": "0.3.0",
+  "status": "foundation",
+  "rules": [
+    {
+      "family": "literary_domain",
+      "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "work_level_classification", "tolkappiyam_mapping", "editorial_inference"],
+      "allowed_evidence_classes": ["SOURCE_EXPLICIT", "GRAMMATICAL_CONCEPT_EVIDENCE", "EDITORIAL_INFERENCE"],
+      "rule": "Akam/Puram assignments must retain their evidence basis; work-level, source-explicit, grammatical, and editorial classifications are not interchangeable."
+    },
+    {
+      "family": "tinai",
+      "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "tolkappiyam_mapping", "editorial_inference"],
+      "allowed_evidence_classes": ["SOURCE_EXPLICIT", "GRAMMATICAL_CONCEPT_EVIDENCE", "EDITORIAL_INFERENCE"],
+      "rule": "Do not infer tiṇai from conventional associations when the selected source does not print or otherwise support it."
+    },
+    {
+      "family": "turai",
+      "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "tolkappiyam_mapping", "editorial_inference"],
+      "allowed_evidence_classes": ["SOURCE_EXPLICIT", "GRAMMATICAL_CONCEPT_EVIDENCE", "EDITORIAL_INFERENCE"],
+      "rule": "Specific tuṟai values require stable versioned concept IDs plus explicit provenance before record assignment."
+    },
+    {
+      "family": "landscape_environment",
+      "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "tolkappiyam_mapping", "cross_text", "editorial_inference"],
+      "allowed_evidence_classes": ["SOURCE_EXPLICIT", "CROSS_TEXT", "GRAMMATICAL_CONCEPT_EVIDENCE", "EDITORIAL_INFERENCE"],
+      "rule": "Five-landscape families do not hard-code terrain, season, flora, fauna, occupation, deity, or emotional associations. Each link needs its own evidence."
+    },
+    {
+      "family": "named_entity",
+      "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "cross_text", "external_historical"],
+      "allowed_evidence_classes": ["SOURCE_EXPLICIT", "CROSS_TEXT", "EXTERNAL_HISTORICAL"],
+      "rule": "Mention classification is separate from historical identity resolution; modern geography, biography, dynasty, and chronology require separate external evidence."
+    },
+    {
+      "family": "lived_life",
+      "dimensions": ["season_time", "flora", "fauna", "food_subsistence", "occupation_labour", "economy_trade", "settlement_habitation", "family_kinship", "society_social_group", "polity_power", "warfare", "ritual_religion", "arts_performance", "body_adornment_clothing", "material_culture", "mobility_transport", "values_emotions"],
+      "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "mechanically_derived", "cross_text", "tolkappiyam_mapping", "editorial_inference", "external_historical", "interpretation"],
+      "allowed_evidence_classes": ["SOURCE_EXPLICIT", "MECHANICALLY_DERIVED", "CROSS_TEXT", "GRAMMATICAL_CONCEPT_EVIDENCE", "EDITORIAL_INFERENCE", "EXTERNAL_HISTORICAL", "INTERPRETATION"],
+      "rule": "Claim types must remain inspectable and must never be silently upgraded from lexical/source evidence to historical or interpretive conclusions."
+    }
+  ]
+}
