@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "review-event.schema.json",
+  "required": [
+    "review_event_id",
+    "assertion_id",
+    "previous_status",
+    "new_status",
+    "decision",
+    "reviewer",
+    "reviewed_at",
+    "notes"
+  ]
+}

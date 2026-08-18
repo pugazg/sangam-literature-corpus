@@ -1,0 +1,246 @@
+{
+  "vocabulary": "assertion-types",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "code": "POET_ATTRIBUTION",
+      "label": "Poet Attribution",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "PATRON_OR_ADDRESSEE",
+      "label": "Patron Or Addressee",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "TINI_VALUE",
+      "label": "Tini Value",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "TURAI_VALUE",
+      "label": "Turai Value",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "SOURCE_CONTEXT_NOTE",
+      "label": "Source Context Note",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "TEXTUAL_CONDITION",
+      "label": "Textual Condition",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "PERSON_MENTION",
+      "label": "Person Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "RULER_MENTION",
+      "label": "Ruler Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "PLACE_MENTION",
+      "label": "Place Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "REGION_MENTION",
+      "label": "Region Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "WATER_BODY_MENTION",
+      "label": "Water Body Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MOUNTAIN_OR_HILL_MENTION",
+      "label": "Mountain Or Hill Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "COMMUNITY_MENTION",
+      "label": "Community Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "OCCUPATION_MENTION",
+      "label": "Occupation Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "KINSHIP_MENTION",
+      "label": "Kinship Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "FLORA_MENTION",
+      "label": "Flora Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "FAUNA_MENTION",
+      "label": "Fauna Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "COMMODITY_MENTION",
+      "label": "Commodity Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "GIFT_MENTION",
+      "label": "Gift Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "ECONOMIC_ACTIVITY",
+      "label": "Economic Activity",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "WARFARE_MENTION",
+      "label": "Warfare Mention",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "POLITICAL_RELATION",
+      "label": "Political Relation",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "SOCIAL_PRACTICE",
+      "label": "Social Practice",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MUSIC_OR_PERFORMANCE",
+      "label": "Music Or Performance",
+      "definition": "A source assertion or reviewable mention-candidate category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    }
+  ]
+}

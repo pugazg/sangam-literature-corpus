@@ -630,3 +630,20 @@ Before changing the repository:
 9. run or inspect baseline validations before writing.
 
 Never restart completed source ingestion from scratch unless the live repository proves it is incomplete or corrupted.
+
+<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
+## R1 review and identity-resolution rules
+
+- R0 assertions remain immutable evidence records at schema `0.1.0`; workflow
+  evolution must not rewrite their IDs, spans, source hashes, or evidence text.
+- `review-events.ndjson` is append-only. `reviewed` requires an explicit event;
+  `verified` requires a stronger explicit verification decision.
+- Reviewer identity and type must be recorded accurately. `machine_checked` and
+  `assistant_assisted` are not independent human verification.
+- Entity-resolution decisions must cite supporting assertion IDs. Exact printed
+  or normalized form equality may support `possible_match` but never an
+  automatic merge or verified historical identity.
+- Rejected, split, merged, and superseded decisions remain auditable; history is
+  never silently deleted.
+- Deterministic derived exports exclude execution timestamps. Primary event
+  timestamps remain only where semantically required.

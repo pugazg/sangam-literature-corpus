@@ -1,0 +1,19 @@
+{
+  "vocabulary": "review-status-transitions",
+  "version": "0.2.0",
+  "transitions": [
+    {"from": "unreviewed", "to": "machine_checked"},
+    {"from": "machine_checked", "to": "human_review_required"},
+    {"from": "human_review_required", "to": "reviewed"},
+    {"from": "reviewed", "to": "verified"},
+    {"from": "reviewed", "to": "rejected"},
+    {"from": "verified", "to": "superseded"},
+    {"from": "rejected", "to": "superseded"}
+  ],
+  "rules": [
+    "machine_checked is not human verification",
+    "reviewed requires an explicit review event",
+    "verified requires an explicit verification decision",
+    "rejected and superseded history remains append-only and auditable"
+  ]
+}

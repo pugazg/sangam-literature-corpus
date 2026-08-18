@@ -1,5 +1,27 @@
 # Sangam Literature Corpus — Project Handover
 
+<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
+## Active handover — R1 complete, R1.5 next
+
+R1 review workflow and entity-resolution foundation completed on
+`research/sangam-evidence-r1` after validation of `ce9f9064122f9337eaa13ff060a210cff91b3b39`.
+
+- R0 evidence identity is preserved: 2,867 assertions, 285 body candidates,
+  43 pilot entities, and 51 relationships.
+- Corpus 1.1.0 and Tolkāppiyam remain unchanged.
+- Review history is append-only and hash-chained.
+- R1 records assistant-assisted source review explicitly and creates no
+  verified historical identities.
+- Entity resolution supports merge/split/reject/supersede operations but
+  production decisions remain conservative and assertion-provenanced.
+- Required R1 deterministic queues/reports and baseline/idempotence reports are
+  present under `research/` and `logs/`.
+- R2 must not begin. The next active phase is **R1.5 Classical Tamil Concept
+  Matrix**, controlled by `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`.
+
+The earlier R0/R1 handover material below is retained as historical provenance;
+this section is authoritative for the next activity.
+
 ## 1. Repository authority
 
 This document is the continuity handover for the active repository:

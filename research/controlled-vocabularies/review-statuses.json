@@ -1,0 +1,76 @@
+{
+  "vocabulary": "review-statuses",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "code": "unreviewed",
+      "label": "Unreviewed",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "machine_checked",
+      "label": "Machine Checked",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "human_review_required",
+      "label": "Human Review Required",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "reviewed",
+      "label": "Reviewed",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "verified",
+      "label": "Verified",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "rejected",
+      "label": "Rejected",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "superseded",
+      "label": "Superseded",
+      "definition": "Append-only review workflow state.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    }
+  ]
+}

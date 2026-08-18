@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "entity-resolution-decision.schema.json",
+  "title": "Classical Tamil Research R1 entity-resolution decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision_id",
+    "decision_version",
+    "work_id",
+    "operation",
+    "identity_state",
+    "involved_entity_ids",
+    "variant_forms",
+    "supporting_assertion_ids",
+    "reviewer_type",
+    "decision_rationale",
+    "ambiguity_note",
+    "result_entity_id"
+  ],
+  "properties": {
+    "decision_id": {"type": "string", "pattern": "^entity-decision\\.r1\\.[0-9a-f]{24}$"},
+    "decision_version": {"const": "0.2.0"},
+    "work_id": {"const": "purananuru"},
+    "operation": {"enum": ["retain", "possible_match", "merge", "split", "reject", "supersede"]},
+    "identity_state": {"enum": ["unresolved", "candidate_entity", "possible_match", "reviewed_match", "verified_match", "rejected_match", "split_required", "superseded"]},
+    "involved_entity_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "variant_forms": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "supporting_assertion_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^asrt\\.[0-9a-f]{24}$"}},
+    "reviewer_type": {"enum": ["human_editor", "assistant_assisted", "automated_system"]},
+    "decision_rationale": {"type": "string", "minLength": 1},
+    "ambiguity_note": {"type": ["string", "null"]},
+    "result_entity_id": {"type": ["string", "null"]}
+  }
+}

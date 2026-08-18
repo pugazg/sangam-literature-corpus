@@ -1,0 +1,40 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1",
+  "research_schema_version": "0.2.0",
+  "deterministic_outputs": [
+    "research/reviews/purananuru/review-queue.ndjson",
+    "research/reviews/purananuru/reviewed-export.ndjson",
+    "research/reports/purananuru-r1-review-summary.json",
+    "research/reports/purananuru-r1-review-summary.md",
+    "research/reports/purananuru-r1-ambiguity-register.md",
+    "research/reports/purananuru-r1-unresolved-entities.csv"
+  ],
+  "first_pass_hashes": {
+    "research/reviews/purananuru/review-queue.ndjson": "978051896749471cffa277ef7e4973d8c6899309dc1743953c4a9839ba1b35dd",
+    "research/reviews/purananuru/reviewed-export.ndjson": "61f53aa671959f6d5d36b5e047310bbf896ee476be0952c401853ae3ef98aa5e",
+    "research/reports/purananuru-r1-review-summary.json": "10aa69d619c4e0d3032e4d2fe392ec794e942eb0e1fea14282ce2a08aa0175f4",
+    "research/reports/purananuru-r1-review-summary.md": "622b166475e7e0ea7d3d8ae2fb44789bdaffa5f3acd577773d27873e4ae6a261",
+    "research/reports/purananuru-r1-ambiguity-register.md": "01a926bb304f2dc472a9f0a146cf9cd4ca23c3d6365a2a308a1a7ef3a0613c45",
+    "research/reports/purananuru-r1-unresolved-entities.csv": "ac33f0b7b32df62d7339b2336098bd7f8d49ec8ddf4e8669caf1026fc5639f81"
+  },
+  "second_pass_hashes": {
+    "research/reviews/purananuru/review-queue.ndjson": "978051896749471cffa277ef7e4973d8c6899309dc1743953c4a9839ba1b35dd",
+    "research/reviews/purananuru/reviewed-export.ndjson": "61f53aa671959f6d5d36b5e047310bbf896ee476be0952c401853ae3ef98aa5e",
+    "research/reports/purananuru-r1-review-summary.json": "10aa69d619c4e0d3032e4d2fe392ec794e942eb0e1fea14282ce2a08aa0175f4",
+    "research/reports/purananuru-r1-review-summary.md": "622b166475e7e0ea7d3d8ae2fb44789bdaffa5f3acd577773d27873e4ae6a261",
+    "research/reports/purananuru-r1-ambiguity-register.md": "01a926bb304f2dc472a9f0a146cf9cd4ca23c3d6365a2a308a1a7ef3a0613c45",
+    "research/reports/purananuru-r1-unresolved-entities.csv": "ac33f0b7b32df62d7339b2336098bd7f8d49ec8ddf4e8669caf1026fc5639f81"
+  },
+  "byte_stable": true,
+  "primary_history_hashes_before": {
+    "research/reviews/purananuru/review-events.ndjson": "afc4a276ebb3659f5c3f23e3d50cc5f5f63f9891310f9899946e6a8d3ffb1627",
+    "research/entities/pilot/entity-resolution-decisions.ndjson": "2315436ed88f908f7ae9a8467403c9bce1a707c45cc2cadc468140580b907665"
+  },
+  "primary_history_hashes_after": {
+    "research/reviews/purananuru/review-events.ndjson": "afc4a276ebb3659f5c3f23e3d50cc5f5f63f9891310f9899946e6a8d3ffb1627",
+    "research/entities/pilot/entity-resolution-decisions.ndjson": "2315436ed88f908f7ae9a8467403c9bce1a707c45cc2cadc468140580b907665"
+  },
+  "primary_histories_preserved": true,
+  "status": "pass"
+}

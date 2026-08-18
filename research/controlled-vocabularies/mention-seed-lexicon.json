@@ -1,0 +1,321 @@
+{
+  "version": "0.1.0",
+  "scope": "purananuru R0 exact-token candidate extraction",
+  "entries": [
+    {
+      "printed_form": "கடல்",
+      "assertion_type": "WATER_BODY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "ஆறு",
+      "assertion_type": "WATER_BODY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மலை",
+      "assertion_type": "MOUNTAIN_OR_HILL_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "குன்று",
+      "assertion_type": "MOUNTAIN_OR_HILL_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "பாணர்",
+      "assertion_type": "COMMUNITY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மறவர்",
+      "assertion_type": "COMMUNITY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "உழவர்",
+      "assertion_type": "OCCUPATION_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மீனவர்",
+      "assertion_type": "OCCUPATION_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "தாய்",
+      "assertion_type": "KINSHIP_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "தந்தை",
+      "assertion_type": "KINSHIP_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மகன்",
+      "assertion_type": "KINSHIP_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மகள்",
+      "assertion_type": "KINSHIP_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மரம்",
+      "assertion_type": "FLORA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மலர்",
+      "assertion_type": "FLORA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "நெல்",
+      "assertion_type": "FLORA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "பனை",
+      "assertion_type": "FLORA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "வேங்கை",
+      "assertion_type": "FLORA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "முல்லை",
+      "assertion_type": "FLORA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "யானை",
+      "assertion_type": "FAUNA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "களிறு",
+      "assertion_type": "FAUNA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "புலி",
+      "assertion_type": "FAUNA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மான்",
+      "assertion_type": "FAUNA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "குதிரை",
+      "assertion_type": "FAUNA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மீன்",
+      "assertion_type": "FAUNA_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "உப்பு",
+      "assertion_type": "COMMODITY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "முத்து",
+      "assertion_type": "COMMODITY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "பொன்",
+      "assertion_type": "COMMODITY_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "பரிசில்",
+      "assertion_type": "GIFT_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "ஈகை",
+      "assertion_type": "GIFT_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "உழவு",
+      "assertion_type": "ECONOMIC_ACTIVITY",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "வாணிகம்",
+      "assertion_type": "ECONOMIC_ACTIVITY",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "வரி",
+      "assertion_type": "ECONOMIC_ACTIVITY",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "போர்",
+      "assertion_type": "WARFARE_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "படை",
+      "assertion_type": "WARFARE_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "வாள்",
+      "assertion_type": "WARFARE_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "வேல்",
+      "assertion_type": "WARFARE_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "முரசு",
+      "assertion_type": "WARFARE_MENTION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "அரசன்",
+      "assertion_type": "POLITICAL_RELATION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "வேந்தன்",
+      "assertion_type": "POLITICAL_RELATION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "மன்னன்",
+      "assertion_type": "POLITICAL_RELATION",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "நடுகல்",
+      "assertion_type": "SOCIAL_PRACTICE",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "தானம்",
+      "assertion_type": "SOCIAL_PRACTICE",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "யாழ்",
+      "assertion_type": "MUSIC_OR_PERFORMANCE",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "பாடல்",
+      "assertion_type": "MUSIC_OR_PERFORMANCE",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    },
+    {
+      "printed_form": "கூத்து",
+      "assertion_type": "MUSIC_OR_PERFORMANCE",
+      "status": "pilot-candidate",
+      "evidence_class": "SOURCE_EXPLICIT",
+      "classification_review": "human_review_required"
+    }
+  ]
+}

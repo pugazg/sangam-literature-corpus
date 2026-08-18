@@ -1,0 +1,12 @@
+{
+  "vocabulary": "entity-resolution-operations",
+  "version": "0.2.0",
+  "entries": [
+    {"code": "retain", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "possible_match", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "merge", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "split", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "reject", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "supersede", "status": "active", "introduced_in_version": "0.2.0"}
+  ]
+}

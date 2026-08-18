@@ -1,0 +1,9 @@
+{
+  "vocabulary": "reviewer-types",
+  "version": "0.2.0",
+  "entries": [
+    {"code": "human_editor", "label": "Human Editor", "definition": "A named human editor performing the review.", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "assistant_assisted", "label": "Assistant Assisted", "definition": "A review performed with an AI assistant and identified as such; never equivalent to independent human verification.", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "automated_system", "label": "Automated System", "definition": "A non-human mechanical check; cannot by itself confer reviewed or verified status.", "status": "active", "introduced_in_version": "0.2.0"}
+  ]
+}

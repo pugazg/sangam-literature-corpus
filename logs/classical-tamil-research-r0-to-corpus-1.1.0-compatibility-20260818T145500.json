@@ -1,0 +1,39 @@
+{
+  "report_id": "classical-tamil-research-r0-to-corpus-1.1.0-compatibility",
+  "created_at": "2026-08-18T14:55:00+05:30",
+  "gate": "R0 compatibility with current Corpus 1.1.0",
+  "r0_branch": "research/sangam-evidence-r0",
+  "r0_commit": "7087626347b56e0145ab69b2fb7ef355f6bc07d5d",
+  "r0_source_release_tag": "classical-tamil-corpus-v1.0.0",
+  "r0_source_release_commit": "272d9d5a79d55994e2c12efacc22be20b2c88030",
+  "r0_source_release_content_commit": "7266a9fcb76568806b371cb31ec47f6aad6b285a",
+  "r0_source_repository_fingerprint": "a220173f9b444095b191814622220203cd223d8258744091d7cbbbec1b76d326",
+  "current_main_commit": "05bc2ae328a7f9cc94129b295f6c59d7457491ec",
+  "current_corpus_release_tag": "classical-tamil-corpus-v1.1.0",
+  "current_corpus_release_content_commit": "89e75678b4c35401801a0052ecb8a495d1805dd5",
+  "current_corpus_release_commit": "51c65b36d07ecf604c11d8cc6399ad40ab7e7086",
+  "verification": {
+    "purananuru_canonical_paths_changed_since_r0_source_release": false,
+    "current_purananuru_canonical_record_count": 400,
+    "current_purananuru_available_literary_body_count": 398,
+    "current_purananuru_source_lost_records": [267, 268],
+    "r0_assertion_count": 2867,
+    "r0_mention_count": 285,
+    "r0_entity_sample_count": 43,
+    "r0_relationship_count": 51,
+    "r0_assertions_sha256": "39f22d32948a112c65c712991023d33fcd171d5cd502cf767fdfd2fe91771b65",
+    "r0_research_subtree_ported_byte_identically": true,
+    "r0_assertion_ids_and_evidence_spans_preserved": true,
+    "source_hash_compatibility": "pass",
+    "tolkappiyam_preserved": true,
+    "canonical_corpus_mutation": false
+  },
+  "verification_method": [
+    "Compared R0 to the v1.0.0 source checkpoint and current main commit history.",
+    "Confirmed the Corpus 1.1.0 content change adds Tolkappiyam without modifying Purananuru canonical paths.",
+    "Confirmed current Purananuru metadata remains 400 canonical records, 398 available literary bodies, with records 267 and 268 source-lost.",
+    "Ported the exact R0 research subtree and research-support blobs onto a fresh branch from current main rather than regenerating evidence before compatibility was established.",
+    "Retained assertion-level canonical whole-record, body, and source-note hashes for runtime validation against the current tree."
+  ],
+  "status": "pass"
+}

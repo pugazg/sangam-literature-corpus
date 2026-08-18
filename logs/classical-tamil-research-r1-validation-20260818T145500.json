@@ -1,0 +1,13 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1",
+  "research_schema_version": "0.2.0",
+  "r0_assertions_checked": 2867,
+  "relationships_checked": 51,
+  "review_events_checked": 8,
+  "entity_decisions_checked": 3,
+  "review_queue_entries_checked": 116,
+  "errors": [],
+  "warnings": [],
+  "status": "pass"
+}

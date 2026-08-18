@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "mention.schema.json",
+  "required": [
+    "assertion_id",
+    "work_id",
+    "record_id",
+    "printed_form",
+    "assertion_type",
+    "evidence_span",
+    "review_status"
+  ]
+}

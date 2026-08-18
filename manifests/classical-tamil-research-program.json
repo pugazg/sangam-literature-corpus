@@ -1,0 +1,41 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1",
+  "phase_name": "Review Workflow and Entity-Resolution Rules",
+  "research_schema_version": "0.2.0",
+  "evidence_schema_version": "0.1.0",
+  "research_status": "foundation",
+  "source_release_tag": "classical-tamil-corpus-v1.0.0",
+  "source_release_commit": "272d9d5a79d55994e2c12efacc22be20b2c88030",
+  "source_release_content_commit": "7266a9fcb76568806b371cb31ec47f6aad6b285a",
+  "source_repository_fingerprint": "a220173f9b444095b191814622220203cd223d8258744091d7cbbbec1b76d326",
+  "compatible_corpus_release_tag": "classical-tamil-corpus-v1.1.0",
+  "compatible_corpus_release_commit": "51c65b36d07ecf604c11d8cc6399ad40ab7e7086",
+  "reconciled_main_commit": "05bc2ae328a7f9cc94129b295f6c59d7457491ec",
+  "r0_commit": "7087626347b56e0145ab69b2fb7ef355f6bc07d5d",
+  "r0_reconciliation_commit": "6b9875ecc09c007772b8a4980523759528f5743f",
+  "research_branch": "research/sangam-evidence-r1",
+  "pilot_work_id": "purananuru",
+  "pilot_record_count": 400,
+  "pilot_literary_body_count": 398,
+  "source_lost_records": [267, 268],
+  "authoritative_assertion_format": "NDJSON",
+  "r0_evidence_identity_preserved": true,
+  "append_only_primary_logs": [
+    "research/reviews/purananuru/review-events.ndjson",
+    "research/entities/pilot/entity-resolution-decisions.ndjson"
+  ],
+  "deterministic_r1_exports": [
+    "research/reviews/purananuru/review-queue.ndjson",
+    "research/reviews/purananuru/reviewed-export.ndjson",
+    "research/reports/purananuru-r1-review-summary.json",
+    "research/reports/purananuru-r1-review-summary.md",
+    "research/reports/purananuru-r1-ambiguity-register.md",
+    "research/reports/purananuru-r1-unresolved-entities.csv"
+  ],
+  "review_policy": "Assistant-assisted review may confirm source spans/candidate categories only when explicitly recorded; it does not confer verified historical identity.",
+  "entity_resolution_policy": "Printed-form or normalized-form equality may create a possible-match decision but never an automatic merge or verified identity.",
+  "external_historical_evidence_in_r1": false,
+  "interpretation_in_r1": false,
+  "next_phase_after_r1": "R1.5 Classical Tamil Concept Matrix"
+}
