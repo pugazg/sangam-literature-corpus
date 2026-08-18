@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research/schemas/concept-observation-r15.schema.json",
+  "title": "Classical Tamil R1.5 concept observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "observation_id",
+    "work_id",
+    "record_id",
+    "concept_id",
+    "dimension",
+    "surface_form",
+    "source_assertion_type",
+    "evidence_span",
+    "source_field",
+    "source_location",
+    "evidence_class",
+    "classification_basis",
+    "supporting_assertion_ids",
+    "confidence",
+    "review_status",
+    "reviewer_type",
+    "historical_identity_status",
+    "ambiguity_note"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.3.0"},
+    "observation_id": {"type": "string", "pattern": "^obs\\.r15\\.[0-9a-f]{24}$"},
+    "work_id": {"type": "string", "minLength": 1},
+    "record_id": {"type": "string", "minLength": 1},
+    "concept_id": {"type": "string", "pattern": "^[a-z0-9_.-]+$"},
+    "dimension": {"type": "string", "enum": ["literary_domain", "tinai_turai", "landscape_environment", "season_weather_time", "flora", "fauna", "people_social_roles", "relationships", "emotion_lived_experience", "occupations_production", "food_subsistence", "clothing_ornaments_adornment", "material_culture_everyday_objects", "weapons_warfare", "mobility_transport", "settlements_built_environment", "economy", "trade_exchange", "polity_political_life", "communities_social_groups", "family_gender_kinship", "religion_ritual", "death_mourning_memory", "arts_music_performance", "knowledge_technology", "values_ethical_concepts", "body_health", "named_entities", "textual_intertextual_relationships"]},
+    "surface_form": {"type": "string", "minLength": 1},
+    "source_assertion_type": {"type": "string", "minLength": 1},
+    "evidence_span": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start_line", "start_character", "end_line", "end_character"],
+      "properties": {
+        "start_line": {"type": "integer", "minimum": 1},
+        "start_character": {"type": "integer", "minimum": 0},
+        "end_line": {"type": "integer", "minimum": 1},
+        "end_character": {"type": "integer", "minimum": 0}
+      }
+    },
+    "source_field": {"type": "string", "minLength": 1},
+    "source_location": {"type": "string", "minLength": 1},
+    "evidence_class": {"enum": ["SOURCE_EXPLICIT", "MECHANICALLY_DERIVED", "CROSS_TEXT", "EDITORIAL_INFERENCE", "GRAMMATICAL_CONCEPT_EVIDENCE", "EXTERNAL_HISTORICAL", "INTERPRETATION"]},
+    "classification_basis": {"enum": ["reviewed_source_assertion", "direct_record_review", "source_metadata_explicit", "work_level_classification", "tolkappiyam_mapping", "mechanically_derived", "cross_text", "editorial_inference", "external_historical", "interpretation"]},
+    "supporting_assertion_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^asrt\\.[0-9a-f]{24}$"}},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "review_status": {"enum": ["unreviewed", "machine_checked", "human_review_required", "reviewed", "verified", "rejected", "superseded"]},
+    "reviewer_type": {"enum": ["human_editor", "assistant_assisted", "automated_system"]},
+    "historical_identity_status": {"enum": ["not_applicable", "unresolved", "possible_match", "verified_external"]},
+    "ambiguity_note": {"type": ["string", "null"]}
+  }
+}

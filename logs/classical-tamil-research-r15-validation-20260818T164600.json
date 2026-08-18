@@ -1,0 +1,16 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1.5",
+  "concept_schema_version": "0.3.0",
+  "evidence_schema_version": "0.1.0",
+  "review_workflow_schema_version": "0.2.0",
+  "concept_definitions_checked": 36,
+  "pilot_mappings_checked": 8,
+  "observations_checked": 8,
+  "matrix_rows_checked": 8,
+  "r0_assertion_count_checked": 2867,
+  "r0_assertion_sha256": "39f22d32948a112c65c712991023d33fcd171d5cd502cf767fdfd2fe91771b65",
+  "errors": [],
+  "warnings": [],
+  "status": "pass"
+}

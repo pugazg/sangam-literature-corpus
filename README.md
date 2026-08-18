@@ -1,271 +1,254 @@
-# Sangam Text Corpus
+# Sangam Literature Corpus
 
-<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
-## Derived research layer — R1
+## Current repository state
 
-The active research branch is `research/sangam-evidence-r1`. R0 Puṟanāṉūṟu
-evidence remains at schema `0.1.0`; R1 adds independently versioned review and
-entity-resolution workflow schema `0.2.0`. The research layer does not edit the
-frozen Corpus 1.1.0 evidence. See
-[`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md).
+This repository preserves a frozen Classical Tamil corpus and maintains independently versioned derived research layers above it.
+
+Current preservation release: **Classical Tamil Corpus 1.1.0**.
+
+- frozen works: 28
+- canonical records: 7,234
+- poem records: 5,632
+- Tolkāppiyam நூற்பா: 1,602
+- release identity: `classical-tamil-corpus-v1.1.0`
+
+Current research work is **R1.5 — Classical Tamil Concept Matrix Foundation** on branch `research/classical-tamil-concept-matrix-r1.5`, proposed to `main` through PR #3.
+
+**PR #3 must remain open, draft, and unmerged until the user explicitly authorizes a merge. R2 is blocked; do not start R2 before that authorization and a fresh inspection of the merged `main`.**
+
+The live PR and branch state are authoritative for current workflow/check status. Historical prompts, release snapshots, and older workflow logs remain provenance rather than current execution instructions.
 
 ## Repository release checkpoint
 
-The immutable **Classical Tamil Corpus 1.0.0** checkpoint contains 27
-frozen works and 5,632 canonical numbered records: nine core Sangam works and
-eighteen Patiṉeṇkīḻkkaṇakku works. The release inventories, protected-condition
-register, deterministic content fingerprint, and Git checkpoint are described
-in [`docs/classical-tamil-corpus-release-1.0.0.md`](docs/classical-tamil-corpus-release-1.0.0.md).
+The immutable **Classical Tamil Corpus 1.0.0** checkpoint contains 27 frozen works and 5,632 canonical numbered poem records. The succeeding **Classical Tamil Corpus 1.1.0** checkpoint adds independently parsed Tolkāppiyam as the twenty-eighth work, bringing the repository to 7,234 canonical records: 5,632 poems plus 1,602 நூற்பா.
 
-The succeeding **Classical Tamil Corpus 1.1.0** checkpoint adds independently
-parsed Tolkāppiyam as the twenty-eighth frozen work. The current repository has
-7,234 canonical records: the prior 5,632 poem records plus 1,602 நூற்பா records.
-The earlier tag and its content remain unchanged.
+Existing release tags and frozen source/corpus content are not retargeted merely because the derived research layer advances.
 
-Before release, an overlapping write to the shared `poems.csv` manifest was
-detected. Canonical corpus content was unaffected. The manifest was
-semantically reconstructed from all frozen record files, given a documented
-canonical ordering policy, and protected by atomic replacement and an advisory
-lock. Two serial all-work regeneration passes then produced no path or byte
-changes.
+## Research version boundary
+
+- R0 evidence schema: `0.1.0`
+- R1 review/entity-resolution workflow schema: `0.2.0`
+- R1.5 concept/observation schema: `0.3.0`
+
+R0 remains 2,867 source-grounded assertions, 285 literary-body candidates, 43 pilot surface-form entities, and 51 assertion-supported relationships. R1 adds 8 append-only review events and 3 conservative entity-resolution decisions, with no verified historical identity. R1.5 adds the versioned concept registry/evidence policies, a bounded 8-observation Puṟanāṉūṟu production pilot, and the exhaustive pre-merge matrix audit.
+
+The exhaustive R1.5 audit reviewed:
+
+- Puṟanāṉūṟu: 400 / 400 records × 29 research dimensions;
+- Tolkāppiyam: 1,602 / 1,602 நூற்பா across 27 இயல் × the same 29 dimensions;
+- automatic Tolkāppiyam → Sangam poem classification: disabled.
+
+Audit ledgers are review evidence; they do not automatically become production observations.
 
 ## Patiṉeṇkīḻkkaṇakku programme
 
-The Patiṉeṇkīḻkkaṇakku programme is complete. All eighteen independently
-reconnoitred works are formally frozen at corpus schema version `1.0.0`.
-`முப்பால்` is an alias of Tirukkural, not a separate corpus work, and
-`கைந்நிலை` is the selected eighteenth-work tradition; `இன்னிலை` is not a
-canonical nineteenth work.
-
-The frozen works are Tirukkural, Nālāṭiyār, Nāṉmaṇikkaṭigai, Iṉṉā Nāṟpatu,
-Iṉiyavai Nāṟpatu, Kār Nāṟpatu, Kaḷavaḻi Nāṟpatu, Aintiṇai Aimpathu,
-Aintiṇai Eḻupathu, Tiṇaimālai Nūṟṟaimpatu, Tiṇaimoḻi Aimpathu, Tirikaṭukam,
-Ācārakkōvai, Paḻamoḻi Nāṉūṟu, Ciṟupañcamūlam, Mutumoḻik Kāñci, Ēlāti, and
-Kainnilai.
-
-Corpus schema version: **1.0.0**
+The Patiṉeṇkīḻkkaṇakku preservation programme is complete. All eighteen selected works are frozen at corpus schema version `1.0.0`. `முப்பால்` is treated as an alias of Tirukkural rather than a separate corpus work, and `கைந்நிலை` is the selected eighteenth-work tradition.
 
 ## Project purpose
 
-This repository builds reproducible, source-faithful Markdown transcriptions of classical Tamil works published by Project Madurai. It preserves provenance and exposes uncertainty without performing translation, literary interpretation, historical inference, spelling modernization, or silent textual correction. The core programme contains nine works, all formally frozen at corpus schema 1.0.0: Naṟṟiṇai, Aiṅkuṟunūṟu, Kuruntokai, Akanāṉūṟu, Puṟanāṉūṟu, Pattuppāṭṭu, Patiṟṟuppattu, Paripāṭal, and Kalittokai. Tolkāppiyam is independently frozen at work schema `1.0.0` using the source hierarchy work → அதிகாரம் → இயல் → நூற்பா.
+The preservation layer builds reproducible, source-faithful Markdown transcriptions of Classical Tamil works from selected, checksum-pinned source objects. It preserves provenance and uncertainty without silent spelling modernization, textual repair, translation, or historical reconstruction.
+
+The derived research layer is separate. It may create evidence assertions, review events, concept observations, relationships, matrices, and later analytical views, but it cannot overwrite frozen canonical evidence.
 
 ## Source and editorial hierarchy
 
-1. **Raw source preservation** — unchanged downloaded bytes and SHA-256 provenance.
-2. **Source-faithful canonical transcription** — literary lines after only permitted mechanical transformations.
-3. **Source-explicit metadata** — only values printed in the selected Project Madurai source.
+1. **Raw source preservation** — exact acquired bytes and provenance.
+2. **Source-faithful canonical transcription** — only permitted mechanical transformations.
+3. **Source-explicit metadata** — values supported by the selected source.
 4. **Validation and anomaly reporting** — machine checks and review queues, never silent repair.
-5. **External textual comparison** — evidence from TamilVU or other sources, isolated under `apparatus/`.
-6. **Reviewed editorial interpretation** — not currently permitted.
-7. **Literary and historical analysis** — not currently permitted.
-
-Only layers 1–5 may be created in this phase. External evidence cannot overwrite layers 1–3.
+5. **External textual comparison** — isolated under `apparatus/` or another clearly separate evidence layer.
+6. **Derived research evidence** — independently versioned assertions/reviews/concepts/relationships.
+7. **External historical or interpretive claims** — separately classified and cited; never silently collapsed into source evidence.
 
 ## Python and installation
 
 - Python: 3.11 or later
-- Dependencies: Beautiful Soup (HTML parsing), lxml (deterministic HTML tree), PyYAML (front matter), certifi (verified HTTPS CA bundle)
+- core dependencies: Beautiful Soup, lxml, PyYAML, certifi
 
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
 python3 -m pip install -r requirements.txt
-python3 -m unittest discover -s tests -v
+python3 -m pip install pytest
+pytest -q
 ```
 
-Dependencies are pinned in `requirements.txt`. TLS verification is never disabled.
+Dependencies are pinned in `requirements.txt`. TLS verification is not disabled for source acquisition.
 
 ## Repository tree
 
 ```text
-sangam-text-corpus/
+sangam-literature-corpus/
 ├── README.md
+├── PROJECT_GUIDELINES.md
+├── PROJECT_HANDOVER.md
+├── NEXT_CHAT_PROMPT.md
 ├── requirements.txt
-├── scripts/
-│   ├── corpuslib.py
-│   ├── fetch_source.py
-│   ├── extract_text.py
-│   ├── normalize_text.py
-│   ├── split_poems.py
-│   ├── build_manifest.py
-│   ├── validate_output.py
-│   ├── audit_repository.py
-│   └── process_work.py
-├── sources/
-│   ├── raw-html/
-│   ├── raw-txt/
-│   └── source-metadata/
 ├── corpus/
-│   ├── natrinai/
-│   ├── aingurunuru/
-│   ├── kuruntokai/
-│   ├── akananuru/
-│   ├── purananuru/
-│   ├── pattuppattu/
-│   ├── patirruppattu/
-│   ├── paripatal/
-│   ├── kalittokai/
-│   └── tolkappiyam/
-├── manifests/
-├── issues/
+├── sources/
 ├── apparatus/
-│   ├── natrinai/
-│   ├── aingurunuru/
-│   ├── kuruntokai/
-│   ├── akananuru/
-│   ├── purananuru/
-│   ├── pattuppattu/
-│   ├── patirruppattu/
-│   ├── paripatal/
-│   ├── kalittokai/
-│   └── tolkappiyam/
+├── manifests/
+├── research/
+├── docs/
+├── issues/
 ├── logs/
+├── scripts/
 └── tests/
 ```
 
-Each `corpus/<work>/` directory contains `README.md`, `metadata.json`, `full-text.md`, a work-profile-selected canonical record directory, and work-appropriate navigation or structural files. Anthology and didactic works retain `poems/`; Tolkāppiyam uses `nurpas/` plus `adhikarams/` and `iyals/`. Shared manifests, issues, apparatus, logs, scripts, and sources remain repository-level directories rather than being nested beneath one work.
+Each `corpus/<work>/` directory uses the structure appropriate to that work. Anthology/didactic works generally retain poem-oriented records; Tolkāppiyam uses the hierarchy `work → அதிகாரம் → இயல் → நூற்பா` and canonical records under `corpus/tolkappiyam/nurpas/`.
 
 ## Commands
 
-Complete orchestration:
-
-```bash
-python3 scripts/process_work.py \
-  --url "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0296.html" \
-  --work natrinai --verbose
-```
-
-Verification/regeneration from the already-preserved raw HTML, without network access or raw-source replacement:
+Corpus regeneration/validation examples:
 
 ```bash
 python3 scripts/process_work.py natrinai
-python3 scripts/process_work.py aingurunuru
-python3 scripts/process_work.py kuruntokai
-python3 scripts/process_work.py akananuru
 python3 scripts/process_work.py purananuru
-python3 scripts/process_work.py pattuppattu
-python3 scripts/process_work.py patirruppattu
-python3 scripts/process_work.py paripatal
-python3 scripts/process_work.py kalittokai
 python3 scripts/process_work.py tolkappiyam
-python3 scripts/process_work.py tirukkural
-python3 scripts/process_work.py naladiyar
-# The remaining Patiṉeṇkīḻkkaṇakku slugs are listed in
-# manifests/pathinenkilkanakku-program.json and are processed identically.
-```
-
-Individual stages:
-
-```bash
-python3 scripts/fetch_source.py --url "<PROJECT_MADURAI_URL>" --work natrinai
-python3 scripts/extract_text.py --work natrinai
-python3 scripts/normalize_text.py --work natrinai
-python3 scripts/split_poems.py --work natrinai
-python3 scripts/build_manifest.py --work natrinai
-python3 scripts/validate_output.py --work natrinai
-python3 scripts/validate_output.py --work aingurunuru
-python3 scripts/validate_output.py --work kuruntokai
-python3 scripts/validate_output.py --work akananuru
-python3 scripts/validate_output.py --work purananuru
-python3 scripts/validate_output.py --work pattuppattu
-python3 scripts/validate_output.py --work patirruppattu
-python3 scripts/validate_output.py --work paripatal
-python3 scripts/validate_output.py --work kalittokai
 python3 scripts/audit_repository.py --root .
 pytest -q
 ```
 
-`--dry-run` previews supported operations, `--verbose` reports progress, and `--force` explicitly permits replacement. Without `--force`, raw HTML and first-pass text are never overwritten. Regeneration from an already-preserved raw source begins at `extract_text.py`.
+Research-layer regeneration/validation:
+
+```bash
+python3 scripts/generate_research_layer.py --root .
+python3 scripts/generate_research_r1.py --root .
+python3 scripts/generate_research_r15.py --root .
+python3 scripts/validate_research_layer.py --root .
+python3 scripts/validate_research_r1.py --root .
+python3 scripts/validate_research_r15.py --root .
+python3 scripts/validate_research_r15_acceptance.py --root .
+python3 scripts/validate_r15_premerge_matrix_audit.py --root .
+python3 scripts/verify_research_r1_idempotence.py --root .
+python3 scripts/verify_research_r15_idempotence.py --root .
+pytest -q
+python3 scripts/audit_repository.py --root .
+```
 
 ## Raw-source preservation and checksums
 
-The HTTP response is stored byte-for-byte under `sources/raw-html/`. The fetch metadata records URL, access date, identifier, byte length, SHA-256, and the fact that the raw source was not modified. `sources/raw-txt/` is the first entity-decoded/tag-stripped extraction before canonical normalization. Checksums always describe the raw bytes, not later transcriptions. A changed upstream response therefore produces a changed checksum and requires review.
+Raw source objects are preserved without silent replacement. Acquisition/source metadata records the source identity, access information where applicable, byte length, checksum, and selected-edition decision. A changed upstream response is a new evidence condition and must not silently replace a frozen source identity.
+
+Puṟanāṉūṟu retains its documented source-artifact decision. Tolkāppiyam retains its independently frozen Project Madurai source identity. Research work does not modify either source object.
 
 ## Unicode normalization and transformation policy
 
-Permitted automatic operations are HTML entity decoding, Unicode NFC, CRLF/CR to LF conversion, duplicate blank-line removal, removal of webpage boilerplate, and layout-only line-wrap cleanup explicitly supported by the source parser.
+Permitted automatic transformations are narrowly mechanical and documented, such as Unicode NFC and line-ending normalization where the source-processing policy permits them.
 
-Prohibited operations include spelling modernization, typo correction, word splitting/merging, sandhi changes, inferred tiṇai/speaker/poet, deletion of apparent repetition, unreported renumbering, supplementation from external editions, translation, and interpretation. Printed punctuation, unusual characters, lacuna marks, and dash placeholders remain unchanged. Suspected errors belong in `issues/` or `apparatus/`, never in canonical lines.
+Prohibited silent transformations include spelling modernization, typo correction, word splitting/merging, inferred metadata, deletion of repetition, unreported renumbering, supplementation from another edition, translation, and interpretation.
+
+Printed punctuation, unusual characters, lacuna markers, numbering anomalies, and source loss are preserved or explicitly documented.
 
 ## Poem splitting and work-specific structure
 
-Naṟṟiṇai poem headings provide the printed number, tiṇai, and poet. Each numbered record becomes `poems/NNN.md`. The unnumbered invocation remains in `full-text.md`. Mechanical 50-poem ranges generate eight `sections/` files; these ranges are navigation aids, not inferred literary divisions.
+Splitting logic is source-specific rather than one universal parser assumption. Source-printed structure is kept separate from mechanically generated navigation.
 
-Aiṅkuṟunūṟu uses the same canonical-file, provenance, fidelity, and physical-inventory guarantees but not Naṟṟiṇai's mechanical sections. Its 500 numbered records are organized into 50 ten-poem source-order groups. Forty-eight groups have printed பத்து headings; the first two do not. Its `sections/` files therefore correspond to exact ten-poem ranges, while `pattu-inventory.json` preserves printed headings, printed ordinals, source order, membership, and anomalies. The five hundred-poem blocks are mechanical navigation divisions with null printed names; the source does not print major-division headings, so conventional tiṇai names are not silently supplied.
+Examples include source-printed பத்து groupings, macro-divisions, long-poem structure, or flat numbered sequences. Tolkāppiyam is not forced into poem-oriented terminology: it uses `அதிகாரம் / இயல் / நூற்பா` structure.
 
-Kuruntokai uses Project Madurai `pmuni0110`. Its flat HTML `<br>` grammar contains an unnumbered `கடவுள் வாழ்த்து` followed by 401 continuously numbered records. Each heading prints poem number, tiṇai, and speaker/context; a poet attribution follows each poem. Poems 105 and 180 print the attribution on the same HTML line as the final verse, so the source-specific parser restores only that layout boundary while preserving both strings. The source prints no anthology divisions. Nine generated fifty-poem navigation ranges, ending with `401-401.md`, are explicitly mechanical aids and are not source-printed, ancient, or canonical Kuruntokai divisions.
+No research concept or conventional literary classification may be used to manufacture missing preservation-layer structure.
 
-Akanāṉūṟu uses the complete source-only Project Madurai `pmuni0229` edition. Its table grammar prints an unnumbered invocation as record `0`, 400 numbered literary records, separate numeric line-end layout cells, and three explicit macro-divisions: `களிற்றியாணை நிரை` (1–120), `மணிமிடை பவளம்` (121–300), and `நித்திலக்கோவை` (301–400). Those three divisions, rather than mechanical fifty-poem ranges, generate the section files. The source prints no poem-level tiṇai, speaker/context, or poet attribution. Source-order records 131 and 319 repeat the printed labels 130 and 318; canonical record identity follows continuous source order while the exact printed labels remain in provenance and validation issues. Akanāṉūṟu is formally frozen at corpus schema version `1.0.0`.
+## Poem metadata and provenance
 
-Puṟanāṉūṟu uses Project Madurai `pmuni0057` through the exact checksum-pinned user-supplied text export `sources/purananuru.md`, formally approved as the canonical artifact under the documented Option B provenance decision. It has 400 canonical records; the printed combined statement `267- 268 கிடைத்தில` establishes two source-lost records. Printed poet, addressee, tiṇai, and tuṟai are provenance-qualified while speaker remains null. Printed dot lacunae are preserved. No source divisions were detected, so eight fifty-poem files are explicitly mechanical navigation aids. Puṟanāṉūṟu is formally frozen at corpus schema version `1.0.0`; this does not claim raw-HTML preservation.
+Canonical metadata includes only source-supported values plus clearly labeled repository/mechanical provenance fields. Printed identity, source order, repository identity, and generated navigation identity remain distinct where necessary.
 
-Pattuppāṭṭu uses ten exact, independently checksum-pinned Project Madurai HTML objects and produces ten ordered long-poem records. Each record retains its own source-object provenance; there is no substitute aggregate checksum. Ten generated source-order navigation mirrors are not ancient divisions. திருமுருகாற்றுப்படை's internal headings remain subordinate structure. The selected முல்லைப்பாட்டு object, `pmuni0488`, is commentary-bearing: its independently extractable literary block is canonical while commentary is isolated in the apparatus. The Project Madurai pages for `pmuni0069`, `pmuni0073`, and `pmuni0077` declare 500, 261, and 301 lines respectively while their BR-delimited literary blocks yield 501, 262, and 302; all printed literary lines are retained without speculative joining. Pattuppāṭṭu is formally frozen at corpus schema version `1.0.0`.
+A source-explicit poet, addressee, tiṇai, tuṟai, heading, or other field is not silently converted into a historical identity claim.
 
-Patiṟṟuppattu uses Project Madurai `pmuni0038`. It preserves the 80 surviving numbered records 11–90 in the eight source-printed பத்து groups numbered 2–9. The source explicitly marks the first and tenth groups unavailable; the pipeline does not manufacture their missing records. Group-level patron and poet statements and poem-level துறை, வண்ணம், தூக்கு, and பெயர் metadata are source notes with provenance. Printed பதிகம் blocks and recovered fragments remain structural evidence outside canonical numbered bodies. Eight section files correspond to the surviving source groups.
+## Manifests and deterministic ordering
 
-Paripāṭal uses Project Madurai `pmuni0087`, whose printed title includes both `பரிபாடல்` and `பரிபாடல்-திரட்டு`. The source has 22 main numbered poems followed by 13 separately printed திரட்டு fragment records whose numbering restarts at 1. Canonical filenames use unique source order 001–035 while `poem_number_as_printed` retains each printed label. Styled topical headings remain subordinate structure; printed attribution and recovery statements remain source notes. Two section files correspond to the two source-printed divisions.
+Shared manifests use deterministic aggregation and must not be written concurrently by multiple work generators. The required model is work-local generation followed by one authoritative aggregator, explicit UTF-8 encoding, stable order, validation, and atomic replacement.
 
-Kalittokai uses Project Madurai `pmuni0221`. Exactly 150 table rows encode poems 1–150; poem 1 is the printed invocation and the remaining poems occupy five named source divisions. Six section files preserve that hierarchy. Division-level author attributions are copied only where printed. Dot lacunae in poems 114 and 131 remain unchanged, and no poem-level speaker or tiṇai is inferred.
-
-## Poem metadata
-
-YAML records identity, numbering, work-appropriate navigation or structure, source-supported tiṇai, speaker/context and poet values, first line, line count, source URL/file/identifier, language/script, extraction status, editorial-change flag, textual status, canonical/candidate availability, lacuna state/location, source-note availability, and field-level provenance. Fields are populated or null according to explicit source support. Allowed `textual_status` values are `complete`, `incomplete`, `lost`, and `uncertain`.
-
-`thinai_source`, `poet_source`, `speaker_source`, and `source_note_source` state where each value came from. Printed uncertainty remains a null structured value with its exact printed form and provenance. Naṟṟiṇai does not map prose descriptions to controlled speaker values; Kuruntokai copies printed speaker/context strings from poem headings. Null is meaningful and must not be replaced by inference.
-
-## Manifests
-
-`works.json` contains one record for every onboarded work. `poems.csv` remains the combined poem manifest for the 27 poem-based frozen works. `records.csv` is the neutral combined manifest and contains all 7,234 current canonical records, including Tolkāppiyam's 1,602 நூற்பா records. Both manifests retain identity, provenance, fidelity and validation fields appropriate to their record model. Null structural fields are retained where a source does not print them. These counts describe the current 28-work inventory and are not architectural maxima. Source-explicit unnumbered invocations and prefatory texts remain outside numbered totals.
-
-`sangam-core-program.json` is the programme-level inventory and completion
-record. It pins the nine-work scope, source identities, record counts, freeze
-states, and final audit/idempotence results.
-
-`pathinenkilkanakku-program.json` is the corresponding eighteen-work programme
-inventory. Its source survey, programme decisions, individual validation
-reports, freeze records, and final completion record preserve the decisions
-behind counts that differ from title-derived expectations.
-
-The deterministic combined-manifest order and its stable canonical row key are
-documented in [`docs/manifest-ordering-policy.md`](docs/manifest-ordering-policy.md).
-The aggregator uses atomic replacement and a repository-local advisory lock;
-individual printed numbering never determines repository identity.
+The repository previously detected an overlapping writer problem in a shared manifest; canonical corpus content was unaffected, and the shared-manifest path is now protected by deterministic/atomic generation rules.
 
 ## Validation rules
 
-Validation checks missing/duplicate numbers, sequence breaks, empty/heading-only poems, unexpected lengths, YAML, required metadata, filenames, section ranges, NFC, replacement characters, possible orphan Tamil combining marks, unidentified fragments, source/output counts, source-note fidelity, source-body versus Markdown-body hashes, shared first lines, and identical normalized full bodies.
+A preservation or research change is acceptable only when the applicable validators pass and previously frozen evidence does not drift unexpectedly.
 
-A shared first line is informational only. Only identical non-empty normalized full bodies produce `duplicate_poem_body`. Any unexpected source-to-output mismatch is an error.
+For the current R1.5 PR, CI must prove:
+
+- R0 compatibility validation;
+- R1 workflow validation;
+- R1.5 pilot validation;
+- R1.5 acceptance/orphan-reference validation;
+- exhaustive R1.5 matrix-audit validation;
+- complete regression tests;
+- R1 and R1.5 deterministic regeneration;
+- repository physical audit;
+- Corpus 1.1.0/Tolkāppiyam non-drift;
+- R1 primary-history non-mutation;
+- documentation-status regression checks.
+
+Green validation is technical readiness only; it does not authorize merging PR #3.
 
 ## Severity levels
 
-- **error** — integrity failure; validation fails and output must not be accepted.
-- **warning** — known source/editorial condition requiring human review but not an extraction failure.
-- **info** — verified textual condition retained for visibility, such as a legitimate shared opening.
+Use repository validators/issues to distinguish blocking errors from documented source conditions.
+
+- **error / fail** — broken provenance, missing/duplicate canonical records, hash drift, invalid schema, invalid evidence reference, non-determinism, or another invariant breach;
+- **warning / review condition** — a documented source ambiguity or anomaly requiring inspection but not silent repair;
+- **pass** — required invariants hold.
+
+Do not turn a genuine source condition into a false clean pass by modifying canonical text.
 
 ## Manual review process
 
-1. Run tests and validation.
-2. Resolve every error before acceptance.
-3. Read warning records against the preserved raw source.
-4. Confirm informational findings or cite external evidence in `apparatus/`.
-5. Record observations without editing canonical poem bodies.
-6. Rebuild manifests and compare body hashes after any parser change.
+When a validator or audit surfaces ambiguity:
 
-Work-level metadata may be corrected only when the selected source explicitly supports it. Proposed editorial changes must be stored separately and reviewed; raw files and canonical literary lines must remain untouched.
+1. inspect the controlling source;
+2. preserve exact printed evidence;
+3. distinguish source text, commentary, damage, source loss, and editorial inference;
+4. record the decision in the appropriate issue/apparatus/review history;
+5. rerun deterministic validation;
+6. never hide an earlier research decision by rewriting append-only history.
+
+Assistant-assisted review must identify itself accurately and does not constitute independent historical verification.
 
 ## External comparison sources
 
-External evidence belongs only in `apparatus/<work>/`. Each record must identify source, URL, access date, evidence type, editorial status, affected poem numbers, and a concise comparison. Do not copy an external preferred reading into `corpus/`, replace Project Madurai metadata, or create uncontrolled speaker mappings. If external source files are downloaded later, preserve them in a clearly named apparatus source directory with their own checksums and rights metadata.
+External editions, scholarship, modern geography, biography, chronology, taxonomy, or historical equivalence are separate evidence. They may support apparatus or later externally cited research assertions but cannot overwrite canonical source evidence.
 
-## Adding the next Project Madurai work
-
-Do not generalize an existing parser blindly. Preserve the raw source; perform complete source reconnaissance; document its grammar, printed structure, and anomalies; review shared code for hidden work assumptions; and add an explicit parser profile or source-specific parser where required. Preserve source structure separately from mechanical navigation. Then run recursive physical auditing, source/body and source-note fidelity validation, complete regression tests, and hash comparisons for every frozen work. Successful onboarding establishes eligibility; use a separate formal freeze pass. The reusable principle is shared corpus infrastructure plus an explicit source-specific parsing and structural strategy—not a fallback to any existing work parser. Curated work README files are never generator outputs and regeneration must not overwrite them.
+Tolkāppiyam grammatical/poetics evidence is likewise a separate evidence stream and does not automatically classify Sangam poems.
 
 ## Canonical transcription versus editorial apparatus
 
-`corpus/` answers “what does the selected Project Madurai source print after permitted mechanical normalization?” `apparatus/` answers “what do external sources report or prefer?” An apparatus observation cannot mutate canonical transcription. Layers 6 and 7 remain out of scope.
+`corpus/` answers what the selected source supports after permitted mechanical processing. `apparatus/` and derived research layers answer separate comparison/research questions.
 
-## Testing
+An apparatus observation, concept classification, external identification, or interpretation cannot mutate canonical transcription.
 
-Run the complete regression suite with `pytest -q`. Tests cover heading recognition, Tamil preservation, Unicode NFC, metadata/front matter, lost and incomplete texts, candidate containment, dash preservation, shared openings, full-body distinctions, source-to-output fidelity, field provenance, apparatus isolation, manifests, and required documentation.
+## Source terminology
+
+Read [`docs/SOURCE_TERMINOLOGY_POLICY.md`](docs/SOURCE_TERMINOLOGY_POLICY.md) before social, ritual, learned, occupational, political, kinship, or community classification.
+
+Use the exact Tamil term printed by the relevant source, such as `அந்தணர்`, `அரசர்`, `பாணர்`, or another source-supported form. Do not silently replace a Classical Tamil source term with a later caste, sectarian, modern-community, hierarchy, or external-influence identity.
+
+## Adding the next Project Madurai work
+
+Do not generalize an existing parser blindly. For any future preservation-layer addition:
+
+1. preserve the new source bytes and checksum;
+2. perform complete source reconnaissance;
+3. document source grammar, printed structure, anomalies, and edition selection;
+4. add an explicit work/source parser profile where required;
+5. keep source structure separate from mechanical navigation;
+6. run complete physical, fidelity, regression, deterministic, and non-drift checks;
+7. use a separate formal freeze/release step.
+
+R2 research extraction is **not** a new corpus-work onboarding activity and must not begin while PR #3 is held unmerged.
+
+## Key current documents
+
+- [`PROJECT_HANDOVER.md`](PROJECT_HANDOVER.md) — authoritative current continuity state.
+- [`PROJECT_GUIDELINES.md`](PROJECT_GUIDELINES.md) — working rules.
+- [`NEXT_CHAT_PROMPT.md`](NEXT_CHAT_PROMPT.md) — safe continuation contract.
+- [`docs/DOCUMENTATION_STATUS.md`](docs/DOCUMENTATION_STATUS.md) — active/historical documentation classification.
+- [`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`](docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md) — matrix architecture and phase roadmap.
+- [`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md) — research-layer evidence/version model.
+- [`docs/SOURCE_TERMINOLOGY_POLICY.md`](docs/SOURCE_TERMINOLOGY_POLICY.md) — source-term rule.
+- [`docs/handover/r15-premerge-audit/README.md`](docs/handover/r15-premerge-audit/README.md) — exhaustive-audit continuity.
+
+Files under `docs/history/` are historical snapshots and must not be executed as current instructions. Release documents and durable machine logs remain truthful records of the state/run they actually describe.
+
+## Rights / visibility
+
+The repository remains private. `docs/source-rights-and-redistribution-review.md` retains unresolved redistribution questions. Do not change repository visibility without a separate explicit user decision after that review.

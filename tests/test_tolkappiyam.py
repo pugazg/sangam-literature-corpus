@@ -108,8 +108,12 @@ class TolkappiyamTests(unittest.TestCase):
     def test_29_validation(self):
         self.assertEqual(validate(write=False)["status"],"pass")
 
-    def test_30_research_branch_preserved(self):
-        value=subprocess.check_output(["git","rev-parse","research/sangam-evidence-r0"],cwd=ROOT,text=True).strip();self.assertEqual(value,"7087626347b56e0145ab69b2fb7ef355f6bc07d5")
+    def test_30_r0_research_identity_preserved_after_branch_cleanup(self):
+        report=json.loads((ROOT/"logs/classical-tamil-research-r0-to-corpus-1.1.0-compatibility-20260818T145500.json").read_text())
+        self.assertEqual(report["r0_commit"],"7087626347b56e0145ab69b2fb7ef355f6bc07d5d")
+        self.assertTrue(report["verification"]["r0_research_subtree_ported_byte_identically"])
+        self.assertTrue(report["verification"]["r0_assertion_ids_and_evidence_spans_preserved"])
+        self.assertEqual(report["status"],"pass")
 
 
 if __name__=="__main__":unittest.main()

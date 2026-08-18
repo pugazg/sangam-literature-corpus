@@ -1,0 +1,9 @@
+work_id,record_id,dimension,concept_id,observation_count,surface_forms,observation_ids,supporting_assertion_ids,evidence_classes,review_statuses
+purananuru,003,economy,economy.commodity.gold,1,பொன்,obs.r15.dc99a095df909dd866dfaf00,asrt.d0c61fc2e7ca7c41b3980412,SOURCE_EXPLICIT,reviewed
+purananuru,003,fauna,fauna.elephant,1,யானை,obs.r15.41a5cbfc84c7959f247baac7,asrt.98f3c685c3ca9df1f9579dad,SOURCE_EXPLICIT,reviewed
+purananuru,004,landscape_environment,environment.water.sea,1,கடல்,obs.r15.83308c06fbe8e17426a81445,asrt.c64fd91febcc9b8fdeca1ff0,SOURCE_EXPLICIT,reviewed
+purananuru,004,weapons_warfare,warfare.weapon.sword,1,வாள்,obs.r15.235c60c6c41228776b1162e8,asrt.7784a66b07f4a66c2825a914,SOURCE_EXPLICIT,reviewed
+purananuru,012,communities_social_groups,society.community.panar,1,பாணர்,obs.r15.32e077eb8a2251a8aa28e7ca,asrt.e4182420ed8258149c7545bd,SOURCE_EXPLICIT,reviewed
+purananuru,013,occupations_production,occupation.agriculture.uzhavar,1,உழவர்,obs.r15.9821ea47690c8baba9a41c92,asrt.9ff4718a6c1ed868a403ba67,SOURCE_EXPLICIT,reviewed
+purananuru,018,polity_political_life,polity.ruler,1,இறைவன்,obs.r15.84d8b6c9ecb567697e00e3e4,asrt.36a5a94898c2565cdf2ca5ae,SOURCE_EXPLICIT,reviewed
+purananuru,022,polity_political_life,polity.ruler,1,ஆய்,obs.r15.ac6bc89c83cad77dfb6dffac,asrt.6badf6a48e243cfba81f1213,SOURCE_EXPLICIT,reviewed

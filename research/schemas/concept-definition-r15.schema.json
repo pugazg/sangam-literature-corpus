@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research/schemas/concept-definition-r15.schema.json",
+  "title": "Classical Tamil R1.5 concept definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["concept_id", "dimension", "label_ta", "label_en", "parent_concept_id", "status", "description"],
+  "properties": {
+    "concept_id": {"type": "string", "pattern": "^[a-z0-9_.-]+$"},
+    "dimension": {"type": "string", "enum": ["literary_domain", "tinai_turai", "landscape_environment", "season_weather_time", "flora", "fauna", "people_social_roles", "relationships", "emotion_lived_experience", "occupations_production", "food_subsistence", "clothing_ornaments_adornment", "material_culture_everyday_objects", "weapons_warfare", "mobility_transport", "settlements_built_environment", "economy", "trade_exchange", "polity_political_life", "communities_social_groups", "family_gender_kinship", "religion_ritual", "death_mourning_memory", "arts_music_performance", "knowledge_technology", "values_ethical_concepts", "body_health", "named_entities", "textual_intertextual_relationships"]},
+    "label_ta": {"type": "string", "minLength": 1},
+    "label_en": {"type": "string", "minLength": 1},
+    "parent_concept_id": {"type": ["string", "null"]},
+    "status": {"enum": ["foundation", "pilot", "active", "deprecated"]},
+    "description": {"type": "string", "minLength": 1}
+  }
+}

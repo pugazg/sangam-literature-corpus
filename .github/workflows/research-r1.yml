@@ -1,18 +1,18 @@
-name: Research R1 verification
+name: Research R1 and R1.5 verification
 
 on:
   push:
     branches:
-      - research/sangam-evidence-r1
+      - research/classical-tamil-concept-matrix-r1.5
   pull_request:
     branches:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  verify-r1:
+  verify-research:
     runs-on: ubuntu-latest
     env:
       PYTHONDONTWRITEBYTECODE: "1"
@@ -22,9 +22,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Restore local R0 compatibility ref
-        run: git update-ref refs/heads/research/sangam-evidence-r0 refs/remotes/origin/research/sangam-evidence-r0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,16 +40,49 @@ jobs:
       - name: Generate R1 review exports
         run: python3 scripts/generate_research_r1.py --root .
 
+      - name: Generate R1.5 concept-matrix pilot
+        run: python3 scripts/generate_research_r15.py --root .
+
       - name: Validate R0 compatibility invariants
         run: python3 scripts/validate_research_layer.py --root .
 
       - name: Validate R1 workflow
         run: >-
           python3 scripts/validate_research_r1.py --root .
-          --output logs/classical-tamil-research-r1-validation-20260818T145500.json
+          --output logs/classical-tamil-research-r1-validation-ci.json
+
+      - name: Validate R1.5 pilot
+        run: >-
+          python3 scripts/validate_research_r15.py --root .
+          --output logs/classical-tamil-research-r15-validation-ci.json
+
+      - name: Validate R1.5 original acceptance boundary
+        run: >-
+          python3 scripts/validate_research_r15_acceptance.py --root .
+          --output logs/classical-tamil-research-r15-acceptance-ci.json
+
+      - name: Validate R1.5 exhaustive pre-merge matrix audit
+        run: >-
+          python3 scripts/validate_r15_premerge_matrix_audit.py --root .
+          --output logs/classical-tamil-r15-premerge-matrix-audit-ci.json
 
       - name: Run complete regression suite
         run: pytest -q
+
+      - name: Verify R1 deterministic regeneration
+        run: >-
+          python3 scripts/verify_research_r1_idempotence.py --root .
+          --output logs/classical-tamil-research-r1-idempotence-ci.json
+
+      - name: Verify R1.5 deterministic regeneration
+        run: >-
+          python3 scripts/verify_research_r15_idempotence.py --root .
+          --output logs/classical-tamil-research-r15-idempotence-ci.json
+
+      - name: Capture R1.5 acceptance baseline
+        run: >-
+          python3 scripts/create_research_r15_baseline.py --root .
+          --output logs/classical-tamil-research-r15-baseline-ci.json
 
       - name: Remove runtime caches before audit
         run: rm -rf .pytest_cache scripts/__pycache__ tests/__pycache__
@@ -65,55 +95,9 @@ jobs:
           git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus sources apparatus manifests/poems.csv manifests/records.csv
           git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus/tolkappiyam apparatus/tolkappiyam
 
-      - name: Finalize continuity documentation
-        if: github.event_name == 'push'
-        run: python3 scripts/finalize_research_r1_docs.py
-
-      - name: Revalidate finalized working tree
-        if: github.event_name == 'push'
+      - name: Prove R1 primary histories remain unchanged by generators
         run: |
-          python3 scripts/validate_research_layer.py --root .
-          python3 scripts/validate_research_r1.py --root .
-          pytest -q
-          rm -rf .pytest_cache scripts/__pycache__ tests/__pycache__
-          python3 scripts/audit_repository.py --root .
-          git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus sources apparatus manifests/poems.csv manifests/records.csv
-          git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus/tolkappiyam apparatus/tolkappiyam
-
-      - name: Verify R1 idempotence
-        if: github.event_name == 'push'
-        run: >-
-          python3 scripts/verify_research_r1_idempotence.py --root .
-          --output logs/classical-tamil-research-r1-idempotence-20260818T145500.json
-
-      - name: Capture R1 baseline
-        if: github.event_name == 'push'
-        run: >-
-          python3 scripts/create_research_r1_baseline.py --root .
-          --output logs/classical-tamil-research-r1-baseline-20260818T145500.json
-
-      - name: Commit validated deterministic outputs
-        if: github.event_name == 'push'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            README.md \
-            PROJECT_HANDOVER.md \
-            PROJECT_GUIDELINES.md \
-            NEXT_CHAT_PROMPT.md \
-            docs/history/NEXT_CHAT_PROMPT_R1.md \
-            logs/classical-tamil-research-program-decisions.md \
-            research/reviews/purananuru/review-queue.ndjson \
-            research/reviews/purananuru/reviewed-export.ndjson \
-            research/reports/purananuru-r1-review-summary.json \
-            research/reports/purananuru-r1-review-summary.md \
-            research/reports/purananuru-r1-ambiguity-register.md \
-            research/reports/purananuru-r1-unresolved-entities.csv \
-            logs/classical-tamil-research-r1-validation-20260818T145500.json \
-            logs/classical-tamil-research-r1-idempotence-20260818T145500.json \
-            logs/classical-tamil-research-r1-baseline-20260818T145500.json
-          if ! git diff --cached --quiet; then
-            git commit -m "research: finalize R1 review foundation"
-            git push origin HEAD:research/sangam-evidence-r1
-          fi
+          git diff --exit-code HEAD -- research/evidence/purananuru/assertions.ndjson
+          git diff --exit-code HEAD -- research/reviews/purananuru/review-events.ndjson
+          git diff --exit-code HEAD -- research/entities/pilot/entity-resolution-decisions.ndjson
+          git diff --exit-code HEAD -- research/relationships/pilot/relationships.ndjson

@@ -1,0 +1,21 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1.5",
+  "concept_schema_version": "0.3.0",
+  "evidence_schema_version": "0.1.0",
+  "review_workflow_schema_version": "0.2.0",
+  "work_id": "purananuru",
+  "pilot_id": "purananuru-r15-reviewed-eight",
+  "pilot_observation_count": 8,
+  "pilot_record_count": 6,
+  "pilot_concept_count": 7,
+  "pilot_dimension_count": 7,
+  "source_explicit_observation_count": 8,
+  "reviewed_observation_count": 8,
+  "unresolved_identity_observation_count": 2,
+  "external_historical_observation_count": 0,
+  "interpretation_observation_count": 0,
+  "verified_historical_identity_count": 0,
+  "empty_cell_semantics": "No qualifying evidence is currently recorded; not evidence of historical absence.",
+  "status": "pilot_foundation"
+}
