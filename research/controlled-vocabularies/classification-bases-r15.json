@@ -8,6 +8,10 @@
       "description": "A deterministic concept mapping from an existing reviewed R0/R1 source-grounded assertion; it does not strengthen the assertion into historical identity."
     },
     {
+      "code": "direct_record_review",
+      "description": "A source-grounded classification created during the sequential R1.5 full-record semantic review from exact canonical evidence; it may have no predecessor R0 token assertion and must not invent one."
+    },
+    {
       "code": "source_metadata_explicit",
       "description": "Classification explicitly printed in source metadata or structural notes and backed by assertions."
     },
