@@ -1,0 +1,78 @@
+# Documentation status — R1.5 pre-merge audit
+
+## Purpose
+
+This file records which documents are current operational authority and which files are intentionally historical/frozen snapshots.
+
+It exists because older continuity prose survived after R0/R1 completion and branch deletion, creating contradictory “current branch” and “next activity” instructions.
+
+## Live repository state at audit
+
+- repository: `pugazg/sangam-literature-corpus`
+- default branch: `main`
+- active research branch: `research/classical-tamil-concept-matrix-r1.5`
+- PR #3: open, draft, unmerged
+- R2: not started / blocked
+
+Only `main` and the R1.5 research branch were returned by the live branch inspection during this audit.
+
+## Current operational documents
+
+The following must describe current R1.5 pre-merge state and must not contain executable instructions for deleted R0/R1 branches:
+
+- `README.md`
+- `PROJECT_GUIDELINES.md`
+- `PROJECT_HANDOVER.md`
+- `NEXT_CHAT_PROMPT.md`
+- `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+- `docs/classical-tamil-research-layer.md`
+- `docs/SOURCE_TERMINOLOGY_POLICY.md`
+- `docs/tolkappiyam-arivagam-integration-plan.md`
+- `docs/handover/r15-premerge-audit/README.md`
+- `docs/handover/r15-premerge-audit/01-PURANANURU.md`
+- `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
+- `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
+- `research/README.md`
+- `research/audits/r15-premerge/README.md`
+- `logs/classical-tamil-research-program-decisions.md`
+
+## Historical / immutable-document classes
+
+These are not expected to be rewritten merely because project status advances:
+
+1. `docs/history/` — superseded prompts retained for provenance; never execute as current instructions.
+2. release documents such as `docs/classical-tamil-corpus-release-1.0.0.md` and `docs/classical-tamil-corpus-release-1.1.0.md` — release snapshots.
+3. durable machine logs under `logs/` — records of the run/head they actually describe; old workflow IDs remain historically correct.
+4. corpus/work README and metadata files — preservation documentation tied to frozen source/release state unless a real preservation change occurs.
+5. static policies such as manifest ordering and rights review — update only when their policy/facts change.
+
+## Defects corrected in this audit
+
+- removed deleted R0/R1 branches from active current-branch instructions;
+- removed instructions to restart completed R0 reconciliation/R1 work;
+- changed R1/R1.5 roadmap status to completed/current pre-merge state;
+- made PR #3 merge hold explicit across active continuity files;
+- kept R2 blocked and unstarted;
+- synchronized exhaustive Puṟanāṉūṟu/Tolkāppiyam audit status;
+- synchronized source-terminology policy across research/continuity docs;
+- corrected the Tolkāppiyam Arivagam integration plan to the active repository name;
+- removed stale fixed workflow/test counts from general active docs where they would quickly become outdated;
+- retired the one-shot R1.5 continuity finalizer so it cannot overwrite current docs with older phase prose.
+
+## Source-terminology boundary
+
+`docs/SOURCE_TERMINOLOGY_POLICY.md` is current authority.
+
+Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. Later identity/equivalence claims are separate evidence classes.
+
+## Validation policy
+
+`tests/test_documentation_status.py` protects the active-document boundary against reintroducing deleted-branch instructions, the former repository name in the integration plan, or disallowed later identity terminology.
+
+Documentation changes must pass the same PR workflow as the rest of R1.5, including full regression, repository audit, corpus/Tolkāppiyam non-drift and R1 primary-history preservation.
+
+## Merge hold
+
+A green documentation audit is **not** merge authorization.
+
+Keep PR #3 open, draft and unmerged until the user explicitly authorizes merge. Do not start R2 before an authorized merge and fresh inspection of merged `main`.

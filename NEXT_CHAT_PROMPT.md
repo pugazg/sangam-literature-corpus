@@ -1,74 +1,63 @@
-# Next Chat Prompt — R1.5 exhaustive pre-merge matrix audit
+# Next Chat Prompt — R1.5 documentation-audit / merge hold
 
-<!-- R15_PREMERGE_EXHAUSTIVE_AUDIT_ACTIVE_20260818 -->
+Treat live GitHub state as authoritative.
 
-Treat current GitHub state as authoritative.
-
-**Do not merge PR #3. Do not start R2.** The earlier bounded R1.5 pilot passed its original gates, but the user reopened the merge boundary to require exhaustive semantic/matrix coverage verification.
+**Do not merge PR #3. Keep it open, draft, and unmerged. Do not start R2 unless the user explicitly authorizes the R1.5 merge and the merged `main` has then been re-inspected.**
 
 ## Mandatory startup
 
 Read completely before changing the repository:
 
-1. `docs/SOURCE_TERMINOLOGY_POLICY.md`
-2. `docs/handover/r15-premerge-audit/README.md`
-3. `docs/handover/r15-premerge-audit/01-PURANANURU.md`
-4. `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
-5. `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
-6. `research/audits/r15-premerge/README.md`
-7. `research/audits/r15-premerge/dimensions.json`
-8. all eight files under `research/audits/r15-premerge/purananuru/parts/`
-9. `research/audits/r15-premerge/purananuru/dimension-summary.json`
-10. `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
-11. `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
-12. `scripts/validate_r15_premerge_matrix_audit.py`
-13. `tests/test_r15_premerge_matrix_audit.py`
-14. `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
-15. `PROJECT_GUIDELINES.md`
-16. `PROJECT_HANDOVER.md` for historical continuity, while treating this prompt and the split pre-merge audit handover as the current status override.
+1. `docs/DOCUMENTATION_STATUS.md`
+2. `docs/SOURCE_TERMINOLOGY_POLICY.md`
+3. `PROJECT_HANDOVER.md`
+4. `PROJECT_GUIDELINES.md`
+5. `NEXT_CHAT_PROMPT.md`
+6. `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+7. `docs/classical-tamil-research-layer.md`
+8. `docs/handover/r15-premerge-audit/README.md`
+9. `docs/handover/r15-premerge-audit/01-PURANANURU.md`
+10. `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
+11. `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
+12. `research/README.md`
+13. current PR #3 metadata and checks.
 
-Then inspect current branch head, PR #3 state, workflow runs and current `main`. Live repository state overrides stale historical prose.
+Then inspect live branches and `main`. Current GitHub state overrides any stale historical prose.
 
-## Source-terminology boundary
+## Accepted boundaries
 
-- preserve the exact Tamil social, ritual, learned, occupational, political, kinship, and community term printed by the relevant source;
-- where the source uses forms such as `அந்தணர்`, `பார்ப்பார்`, `பார்ப்பனர்`, `அரசர்`, `வேளாளர்`, or `பாணர்`, retain the applicable printed form rather than replacing it with a later identity label;
-- do not infer later caste, sectarian, modern-community, hierarchy, or external-influence identities from a source term alone;
-- any such historical claim, if ever researched, belongs in a separately classified external-evidence or interpretive assertion with independent provenance;
-- never alter the frozen source text to satisfy research terminology preferences.
+- Corpus 1.1.0 remains frozen: 28 works / 7,234 canonical records.
+- R0 evidence schema `0.1.0` remains intact: 2,867 assertions, 285 candidates, 43 pilot entities, 51 relationships.
+- R1 workflow schema `0.2.0` remains intact with 8 append-only review events and 3 conservative entity decisions.
+- R1.5 concept schema `0.3.0` remains the current pre-merge foundation.
+- Puṟanāṉūṟu exhaustive audit: 400 / 400 records × 29 dimensions.
+- Tolkāppiyam exhaustive audit: 1,602 / 1,602 நூற்பா across 27 இயல் × 29 dimensions.
+- Tolkāppiyam evidence does not auto-classify Sangam poems.
+- R2 is blocked and has not started.
 
-## Exhaustive review boundary
+## Source terminology boundary
 
-### Puṟanāṉūṟu
+Follow `docs/SOURCE_TERMINOLOGY_POLICY.md`.
 
-- records 1–400 have been read sequentially from the frozen consolidated source;
-- all 29 matrix dimensions were considered for every record;
-- qualifying dimensions are stored sparsely in eight 50-record TSV parts;
-- record 200 remains damaged/unreconstructed;
-- records 267–268 remain source-lost/unreconstructed;
-- empty cells mean only that qualifying evidence was not recorded, not historical absence.
+Preserve the exact Tamil social, ritual, learned, occupational, political, kinship, and community term printed by the relevant source. Do not silently replace a source term with a later caste, sectarian, modern-community, hierarchy, or external-influence identity.
 
-### Tolkāppiyam
+The frozen source text is never edited to satisfy research terminology preferences.
 
-- all 1,602 நூற்பா across 27 இயல் have been read in context;
-- all 29 matrix dimensions were considered for every நூற்பா;
-- distinguish `GRAMMATICAL_CONCEPT_EVIDENCE`, `INCIDENTAL_EXAMPLE`, and `NO_QUALIFYING_EVIDENCE`;
-- the 29-dimension crosswalk records representative formal support and differing depth;
-- Tolkāppiyam evidence must never automatically classify a Sangam poem.
+## Documentation rule
+
+Active status/guidance documents must describe the live R1.5 branch/PR state. Historical prompts belong under `docs/history/` and are non-executable provenance.
+
+Do not reintroduce deleted R0/R1 branches into active “current branch” or “next activity” instructions.
 
 ## Required next activity
 
-Finish the **validation and audit closure only**:
+Only complete the current documentation/validation hold:
 
-1. run the exhaustive pre-merge matrix validator;
-2. run the complete regression suite;
-3. run repository audit and Corpus/Tolkāppiyam non-drift checks;
-4. prove R1 primary histories remain unchanged;
-5. correct any audit-data or validator defect without weakening source/evidence rules;
-6. update the split handover and PR #3 body with the final results;
-7. leave PR #3 **draft and unmerged** even if everything passes;
-8. report the result to the user and await explicit merge authorization.
+1. inspect the current PR #3 head and latest workflow result;
+2. if a documentation-only change was made, require fresh CI;
+3. confirm exhaustive matrix validation, complete tests, determinism, repository audit, corpus/Tolkāppiyam non-drift, and R1 primary-history preservation still pass;
+4. correct documentation defects without changing frozen corpus evidence or weakening evidence rules;
+5. keep PR #3 draft and unmerged;
+6. report the result and wait for explicit user instruction.
 
-Do not create R2 branches, schemas, observations, baselines, prompts or extraction output in this phase.
-
-The pre-audit R2 draft prompt is preserved only as history in `docs/history/NEXT_CHAT_PROMPT_R2_DRAFT_PRE_AUDIT.md`.
+Do not create R2 branches, schemas, observations, prompts, baselines, or extraction output in this phase.

@@ -1,37 +1,53 @@
 # R1.5 pre-merge exhaustive matrix audit
 
-This audit was opened after the bounded R1.5 pilot had already passed its original acceptance gates. It exists because `400 records processed` in R0 did **not** mean that every Puṟanāṉūṟu poem had been semantically reviewed against every research-matrix dimension.
+## Why this exists
+
+The bounded R1.5 production pilot proved the concept/observation model but did not prove that every Puṟanāṉūṟu poem had been semantically reviewed against every research dimension.
+
+The exhaustive audit therefore reviewed two source streams against the same controlled 29-dimension frame.
 
 ## Scope
 
-The controlled dimension list is `dimensions.json` and contains exactly 29 dimensions.
+### Puṟanāṉūṟu
 
-Two different source reads are recorded:
+- records reviewed: 400 / 400;
+- dimensions considered per record: 29;
+- sparse results stored in eight 50-record TSV parts;
+- omitted codes mean only that qualifying evidence was not recorded in that pass;
+- record 200 remains damaged/unreconstructed;
+- records 267–268 remain source-lost/unreconstructed.
 
-1. **Puṟanāṉūṟu** — every record 1–400 was read sequentially from the frozen consolidated source and all 29 dimensions were considered. The eight TSV parts store only qualifying dimensions; omitted dimensions mean only that no qualifying evidence was recorded in that reviewed source record.
-2. **Tolkāppiyam** — every one of the 1,602 நூற்பா was read in its இயல் context and checked for whether the 29 dimensions are formally or structurally represented. `review-manifest.json` proves complete range coverage. `dimension-crosswalk.json` records representative formal support and the depth of support.
+### Tolkāppiyam
+
+- இயல் reviewed: 27 / 27;
+- நூற்பா reviewed: 1,602 / 1,602;
+- dimensions considered: 29;
+- formal crosswalk dimensions: 29;
+- automatic Tolkāppiyam → Sangam poem classification: disabled.
+
+The crosswalk records representative formal support and support depth. It is not an exhaustive concordance of every incidental lexical example.
 
 ## Evidence boundaries
 
 - No frozen corpus/source file is edited by this audit.
-- Puṟanāṉūṟu matrix labels are source-review observations, not external historical facts.
-- Tolkāppiyam `GRAMMATICAL_CONCEPT_EVIDENCE` is a separate grammatical/poetics stream and never auto-classifies a Sangam poem.
-- A lexical example inside a grammatical rule is not automatically a cultural or historical claim.
-- Named forms are not resolved into historical identities without separate evidence.
-- Social, ritual, learned, occupational, political, kinship, and community terminology follows `docs/SOURCE_TERMINOLOGY_POLICY.md`: retain the exact Tamil form printed by the relevant source and do not silently replace it with a later caste, sectarian, modern-community, hierarchy, or external-influence label.
+- Puṟanāṉūṟu dimension codes are reviewed audit observations, not external historical facts.
+- Tolkāppiyam grammatical concept evidence is a separate stream.
+- A lexical example inside a grammatical rule is not automatically a cultural/historical claim.
+- Names are not resolved into historical identities without separate evidence.
+- Exact source Tamil social/ritual/community terminology is preserved under `docs/SOURCE_TERMINOLOGY_POLICY.md`.
 - Empty cells never prove historical absence.
-
-## Special Puṟanāṉūṟu conditions
-
-- record 200: damaged/unreadable body condition retained; only the work-level literary-domain review is recorded.
-- records 267–268: source-lost; both were explicitly visited and no lost text is reconstructed.
+- Audit ledger codes do not automatically become production R1.5 observations.
 
 ## Files
 
-- `dimensions.json` — controlled 29-dimension registry.
-- `purananuru/parts/001-050.tsv` … `351-400.tsv` — exhaustive poem-by-poem semantic review.
-- `purananuru/dimension-summary.json` — dimension coverage counts and interpretation constraints.
-- `tolkappiyam/review-manifest.json` — 27 இயல் coverage map expanding exactly to 1,602 நூற்பா.
-- `tolkappiyam/dimension-crosswalk.json` — formal/structural Tolkāppiyam support for the 29 dimensions.
+- `dimensions.json` — 29-dimension registry.
+- `purananuru/parts/001-050.tsv` … `351-400.tsv` — record-by-record audit ledger.
+- `purananuru/dimension-summary.json` — deterministic dimension coverage counts.
+- `tolkappiyam/review-manifest.json` — exact 27-இயல் / 1,602-நூற்பா coverage map.
+- `tolkappiyam/dimension-crosswalk.json` — representative formal/structural support.
 
-This audit reopens the R1.5 merge gate. PR #3 must remain unmerged until the audit validator, regression suite, repository audit and non-drift checks pass on the final audit head.
+## Current merge boundary
+
+The exhaustive audit gates have passed. A subsequent documentation audit synchronizes active continuity files and is CI-validated on the current PR head.
+
+PR #3 must remain open, draft and unmerged until explicit user authorization. R2 remains blocked.
