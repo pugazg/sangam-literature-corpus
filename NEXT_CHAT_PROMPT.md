@@ -10,23 +10,32 @@ Treat current GitHub state as authoritative.
 
 Read completely before changing the repository:
 
-1. `docs/handover/r15-premerge-audit/README.md`
-2. `docs/handover/r15-premerge-audit/01-PURANANURU.md`
-3. `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
-4. `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
-5. `research/audits/r15-premerge/README.md`
-6. `research/audits/r15-premerge/dimensions.json`
-7. all eight files under `research/audits/r15-premerge/purananuru/parts/`
-8. `research/audits/r15-premerge/purananuru/dimension-summary.json`
-9. `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
-10. `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
-11. `scripts/validate_r15_premerge_matrix_audit.py`
-12. `tests/test_r15_premerge_matrix_audit.py`
-13. `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
-14. `PROJECT_GUIDELINES.md`
-15. `PROJECT_HANDOVER.md` for historical continuity, while treating this prompt and the split pre-merge audit handover as the current status override.
+1. `docs/SOURCE_TERMINOLOGY_POLICY.md`
+2. `docs/handover/r15-premerge-audit/README.md`
+3. `docs/handover/r15-premerge-audit/01-PURANANURU.md`
+4. `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
+5. `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
+6. `research/audits/r15-premerge/README.md`
+7. `research/audits/r15-premerge/dimensions.json`
+8. all eight files under `research/audits/r15-premerge/purananuru/parts/`
+9. `research/audits/r15-premerge/purananuru/dimension-summary.json`
+10. `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
+11. `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
+12. `scripts/validate_r15_premerge_matrix_audit.py`
+13. `tests/test_r15_premerge_matrix_audit.py`
+14. `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+15. `PROJECT_GUIDELINES.md`
+16. `PROJECT_HANDOVER.md` for historical continuity, while treating this prompt and the split pre-merge audit handover as the current status override.
 
 Then inspect current branch head, PR #3 state, workflow runs and current `main`. Live repository state overrides stale historical prose.
+
+## Source-terminology boundary
+
+- preserve the exact Tamil social, ritual, learned, occupational, political, kinship, and community term printed by the relevant source;
+- where the source uses forms such as `அந்தணர்`, `பார்ப்பார்`, `பார்ப்பனர்`, `அரசர்`, `வேளாளர்`, or `பாணர்`, retain the applicable printed form rather than replacing it with a later identity label;
+- do not infer later caste, sectarian, modern-community, hierarchy, or external-influence identities from a source term alone;
+- any such historical claim, if ever researched, belongs in a separately classified external-evidence or interpretive assertion with independent provenance;
+- never alter the frozen source text to satisfy research terminology preferences.
 
 ## Exhaustive review boundary
 
