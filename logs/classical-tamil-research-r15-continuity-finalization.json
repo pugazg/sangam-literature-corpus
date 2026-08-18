@@ -1,0 +1,19 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1.5",
+  "continuity_status": "finalized",
+  "pull_request": 3,
+  "acceptance_workflow_run": 32131938420,
+  "acceptance_research_head": "b93e021d8c83717d78cf0c796045f07cccdf47a1",
+  "continuity_handover_commit": "25f633c683dbe71e24532878e1fba7a69aa3cf98",
+  "continuity_files": [
+    "PROJECT_HANDOVER.md",
+    "PROJECT_GUIDELINES.md",
+    "README.md",
+    "docs/history/NEXT_CHAT_PROMPT_R15.md",
+    "NEXT_CHAT_PROMPT.md"
+  ],
+  "next_phase": "R2 — Core Sangam Concept-Matrix Extraction",
+  "r2_merge_gate": "R2 must not begin until PR #3 is merged into main and live main is re-inspected.",
+  "note": "The acceptance workflow passed before continuity-only finalization. This record exists to trigger and document final-head PR validation without changing research evidence or frozen corpus content."
+}
