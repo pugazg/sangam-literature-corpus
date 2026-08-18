@@ -1,0 +1,74 @@
+{
+  "pilot_id": "purananuru-r15-reviewed-eight",
+  "schema_version": "0.3.0",
+  "status": "bounded_pilot",
+  "source_path": "research/reviews/purananuru/reviewed-export.ndjson",
+  "selection_rule": "The eight R1 reviewed source-candidate rows present at R1 completion.",
+  "classification_basis": "reviewed_source_assertion",
+  "mappings": [
+    {
+      "assertion_id": "asrt.98f3c685c3ca9df1f9579dad",
+      "expected_assertion_type": "FAUNA_MENTION",
+      "expected_printed_form": "யானை",
+      "concept_id": "fauna.elephant",
+      "historical_identity_status": "not_applicable",
+      "note": "No historical identity claim is created by this concept observation."
+    },
+    {
+      "assertion_id": "asrt.d0c61fc2e7ca7c41b3980412",
+      "expected_assertion_type": "COMMODITY_MENTION",
+      "expected_printed_form": "பொன்",
+      "concept_id": "economy.commodity.gold",
+      "historical_identity_status": "not_applicable",
+      "note": "No historical identity claim is created by this concept observation."
+    },
+    {
+      "assertion_id": "asrt.7784a66b07f4a66c2825a914",
+      "expected_assertion_type": "WARFARE_MENTION",
+      "expected_printed_form": "வாள்",
+      "concept_id": "warfare.weapon.sword",
+      "historical_identity_status": "not_applicable",
+      "note": "No historical identity claim is created by this concept observation."
+    },
+    {
+      "assertion_id": "asrt.c64fd91febcc9b8fdeca1ff0",
+      "expected_assertion_type": "WATER_BODY_MENTION",
+      "expected_printed_form": "கடல்",
+      "concept_id": "environment.water.sea",
+      "historical_identity_status": "not_applicable",
+      "note": "No historical identity claim is created by this concept observation."
+    },
+    {
+      "assertion_id": "asrt.e4182420ed8258149c7545bd",
+      "expected_assertion_type": "COMMUNITY_MENTION",
+      "expected_printed_form": "பாணர்",
+      "concept_id": "society.community.panar",
+      "historical_identity_status": "not_applicable",
+      "note": "No historical identity claim is created by this concept observation."
+    },
+    {
+      "assertion_id": "asrt.9ff4718a6c1ed868a403ba67",
+      "expected_assertion_type": "OCCUPATION_MENTION",
+      "expected_printed_form": "உழவர்",
+      "concept_id": "occupation.agriculture.uzhavar",
+      "historical_identity_status": "not_applicable",
+      "note": "No historical identity claim is created by this concept observation."
+    },
+    {
+      "assertion_id": "asrt.36a5a94898c2565cdf2ca5ae",
+      "expected_assertion_type": "RULER_MENTION",
+      "expected_printed_form": "இறைவன்",
+      "concept_id": "polity.ruler",
+      "historical_identity_status": "unresolved",
+      "note": "Historical identity remains unresolved; only generic concept membership is recorded."
+    },
+    {
+      "assertion_id": "asrt.6badf6a48e243cfba81f1213",
+      "expected_assertion_type": "RULER_MENTION",
+      "expected_printed_form": "ஆய்",
+      "concept_id": "polity.ruler",
+      "historical_identity_status": "unresolved",
+      "note": "Historical identity remains unresolved; only generic concept membership is recorded."
+    }
+  ]
+}
