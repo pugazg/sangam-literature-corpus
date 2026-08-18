@@ -48,7 +48,7 @@
     "source_field": {"type": "string", "minLength": 1},
     "source_location": {"type": "string", "minLength": 1},
     "evidence_class": {"enum": ["SOURCE_EXPLICIT", "MECHANICALLY_DERIVED", "CROSS_TEXT", "EDITORIAL_INFERENCE", "GRAMMATICAL_CONCEPT_EVIDENCE", "EXTERNAL_HISTORICAL", "INTERPRETATION"]},
-    "classification_basis": {"enum": ["reviewed_source_assertion", "source_metadata_explicit", "work_level_classification", "tolkappiyam_mapping", "mechanically_derived", "cross_text", "editorial_inference", "external_historical", "interpretation"]},
+    "classification_basis": {"enum": ["reviewed_source_assertion", "direct_record_review", "source_metadata_explicit", "work_level_classification", "tolkappiyam_mapping", "mechanically_derived", "cross_text", "editorial_inference", "external_historical", "interpretation"]},
     "supporting_assertion_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^asrt\\.[0-9a-f]{24}$"}},
     "confidence": {"enum": ["low", "medium", "high"]},
     "review_status": {"enum": ["unreviewed", "machine_checked", "human_review_required", "reviewed", "verified", "rejected", "superseded"]},
