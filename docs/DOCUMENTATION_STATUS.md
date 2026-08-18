@@ -25,15 +25,17 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized state:
 
-- records **001–035** form the gap-free production prefix;
+- records **001–060** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- first regular 25-record batch **011–035** is complete;
-- next record: **036**;
-- next planned batch: **036–060**.
+- regular 25-record batches **011–035** and **036–060** are complete;
+- next record: **061**;
+- next planned batch: **061–085**.
 
-The operational cadence is now 25-record batches after the completed 003–010 stabilization batch. Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
+Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
 
-Compact reviewed specs are source-first staging artifacts. The materializer expands them deterministically into the canonical records but must not manufacture semantic classifications. Existing R0 evidence may only be attached to a dimension that has already been selected by fresh review, with exact source-text support inside the selected evidence span.
+Compact reviewed specs are source-first staging artifacts. The core materializer expands them deterministically into canonical records but must not manufacture semantic classifications. Existing R0 evidence may only be attached to a dimension already selected by fresh review, with exact source-text support inside the selected evidence span.
+
+The range-aware driver selects the proper 50-record pre-merge audit-control part per record. This permits batches/specs crossing an audit boundary without changing the rule that the audit is consulted only after fresh review.
 
 The materialization workflow processes only review-spec files changed in its triggering commit, preventing later tooling changes from silently rewriting completed batches.
 

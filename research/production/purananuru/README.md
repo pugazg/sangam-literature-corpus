@@ -17,15 +17,16 @@ Each reviewed poem is stored as one file under:
 
 `research/production/purananuru/records/NNN.json`
 
-The files are the canonical record-level ledger. Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
+Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–035**.
+Current materialized gap-free prefix: **001–060**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
 - first regular 25-record batch: **011–035** complete;
-- next record: **036**;
-- next batch: **036–060**.
+- second regular 25-record batch: **036–060** complete;
+- next record: **061**;
+- next batch: **061–085**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -48,15 +49,15 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed R1.5A specs include the stabilization batch `003-010.json` and the 011–035 batch, split into contiguous staging specs `011-018.json`, `019-026.json`, and `027-035.json`.
+Completed batches include stabilization `003-010.json`, the 011–035 staging specs, and the 036–060 staging specs. Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
-The split is only a compact staging detail. Canonical production remains one separate `NNN.json` file per poem, and the 011–035 specs were materialized together as one publication batch.
+`scripts/materialize_r15a_purananuru_batch.py` deterministically expands already-reviewed semantic decisions into canonical production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review audit discrepancies.
 
-`scripts/materialize_r15a_purananuru_batch.py` deterministically expands already-reviewed specs into canonical production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review audit discrepancies.
+`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration layer. It selects the correct 50-record audit-control TSV for each record and safely handles a reviewed spec crossing an audit-part boundary such as 050/051.
 
-The materializer is **not an automatic semantic classifier**. It may auto-attach a pre-existing R0 body assertion only when:
+Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when:
 
-- the R0 assertion type belongs to the dimension already selected by fresh review; and
+- its assertion type belongs to the dimension already selected by fresh review; and
 - its exact source text occurs inside the already-selected source evidence.
 
 This improves provenance without letting R0 create classifications. The old sparse audit must never populate a review spec.
@@ -69,9 +70,9 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed first regular batch: **011–035**;
-- next batch: **036–060**;
-- subsequent cadence: **061–085, 086–110, ...**;
+- completed regular batches: **011–035**, **036–060**;
+- next batch: **061–085**;
+- subsequent cadence: **086–110, 111–135, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;

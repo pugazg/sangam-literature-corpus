@@ -33,7 +33,7 @@ jobs:
             exit 0
           fi
           while IFS= read -r spec; do
-            python3 scripts/materialize_r15a_purananuru_batch.py --root . --spec "$spec"
+            python3 scripts/materialize_r15a_purananuru_batch_driver.py --root . --spec "$spec"
           done < /tmp/r15a-specs.txt
       - name: Validate production prefix
         run: python3 scripts/validate_r15_purananuru_production.py --root .
