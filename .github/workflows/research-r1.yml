@@ -20,6 +20,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Restore local R0 compatibility ref
+        run: git update-ref refs/heads/research/sangam-evidence-r0 refs/remotes/origin/research/sangam-evidence-r0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
