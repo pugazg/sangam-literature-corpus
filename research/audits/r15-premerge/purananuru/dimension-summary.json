@@ -2,7 +2,7 @@
   "audit_schema_version": "0.1.0",
   "work_id": "purananuru",
   "source_path": "corpus/purananuru/full-text.md",
-  "source_sha256": "d63c970543529ea29dfde900752bc2910ec2aaed",
+  "source_blob_sha": "d63c970543529ea29dfde900752bc2910ec2aaed",
   "records_reviewed": 400,
   "dimensions_considered_per_record": 29,
   "semantic_review_method": "Sequential semantic read of every frozen record; qualifying dimensions recorded sparsely.",
