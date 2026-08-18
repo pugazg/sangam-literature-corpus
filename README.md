@@ -1,5 +1,14 @@
 # Sangam Text Corpus
 
+<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
+## Derived research layer — R1
+
+The active research branch is `research/sangam-evidence-r1`. R0 Puṟanāṉūṟu
+evidence remains at schema `0.1.0`; R1 adds independently versioned review and
+entity-resolution workflow schema `0.2.0`. The research layer does not edit the
+frozen Corpus 1.1.0 evidence. See
+[`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md).
+
 ## Repository release checkpoint
 
 The immutable **Classical Tamil Corpus 1.0.0** checkpoint contains 27

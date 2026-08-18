@@ -52,3 +52,30 @@ freeze comparison. The corrected, independently created baseline
 `pre-research-layer-frozen-baseline-20260803T194532.json` supersedes it and uses
 the same canonical-body boundary as the corpus fidelity model. Neither baseline
 operation modified frozen files.
+
+<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
+## R1 reconciliation and review-workflow decisions — 2026-08-18
+
+R1 was created from current `main` (`05bc2ae328a7f9cc94129b295f6c59d7457491ec`)
+rather than by advancing the stale R0 branch. The attempted direct R0→R1 merge
+conflicted and was not merged. The accepted reconciliation overlays the exact R0
+research subtree and research-support blobs onto the current Corpus 1.1.0 base;
+it does not write canonical corpus paths.
+
+R0 evidence remains schema `0.1.0`. R1 workflow records are versioned separately
+at `0.2.0`; upgrading the workflow does not rewrite assertion IDs, spans, source
+hashes, or evidence text.
+
+`review-events.ndjson` is append-only. The R0 generator entry point now delegates
+to the preserved R0 implementation while protecting existing review history.
+Assistant-assisted review is recorded explicitly and creates no verified
+historical identity.
+
+Entity equality by printed/normalized form is never an automatic merge. R1
+records only assertion-provenanced conservative candidate/possible-match
+decisions in the production pilot. Merge, split, reject, and supersede remain
+supported audited operations.
+
+No external historical or interpretive assertion is introduced in R1. R1.5
+Classical Tamil Concept Matrix is the next permitted phase; R2 must not begin
+directly.

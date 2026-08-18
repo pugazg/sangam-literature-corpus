@@ -1,0 +1,21 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1",
+  "research_schema_version": "0.2.0",
+  "evidence_schema_version": "0.1.0",
+  "research_status": "foundation",
+  "work_id": "purananuru",
+  "r0_assertion_count": 2867,
+  "r0_mention_count": 285,
+  "r0_entity_sample_count": 43,
+  "review_event_count": 8,
+  "review_queue_count": 116,
+  "reviewed_export_count": 8,
+  "entity_resolution_decision_count": 3,
+  "unresolved_entity_count": 43,
+  "verified_identity_decision_count": 0,
+  "external_historical_assertions": 0,
+  "interpretation_assertions": 0,
+  "source_release_provenance_preserved": true,
+  "note": "R1 reviews source-grounded candidates only; it does not create verified historical identities."
+}
