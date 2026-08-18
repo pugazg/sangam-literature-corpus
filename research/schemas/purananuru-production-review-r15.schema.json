@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research/schemas/purananuru-production-review-r15.schema.json",
+  "title": "Puṟanāṉūṟu R1.5 sequential 29-dimension production review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "phase", "production_review_id", "work_id", "record_id", "record_number", "review_sequence_number", "source_snapshot", "source_metadata_reviewed", "dimensions_considered", "dimension_reviews", "observations", "review_status", "reviewer_type", "empty_cell_semantics", "audit_control", "next_record_allowed"],
+  "properties": {
+    "schema_version": {"const": "0.3.0"},
+    "phase": {"const": "R1.5"},
+    "production_review_id": {"type": "string", "pattern": "^purananuru-r15-production-[0-9]{3}$"},
+    "work_id": {"const": "purananuru"},
+    "record_id": {"type": "string", "pattern": "^[0-9]{3}$"},
+    "record_number": {"type": "integer", "minimum": 1, "maximum": 400},
+    "review_sequence_number": {"type": "integer", "minimum": 1, "maximum": 400},
+    "source_snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_record_path", "canonical_record_git_blob_sha", "canonical_record_sha256", "canonical_body_sha256", "source_note_sha256", "r0_assertion_record_path", "r0_assertion_record_git_blob_sha", "textual_status", "canonical_text_available", "lacuna_present"],
+      "properties": {
+        "canonical_record_path": {"type": "string", "minLength": 1},
+        "canonical_record_git_blob_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "canonical_record_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "canonical_body_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "source_note_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "r0_assertion_record_path": {"type": "string", "minLength": 1},
+        "r0_assertion_record_git_blob_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "textual_status": {"type": "string", "minLength": 1},
+        "canonical_text_available": {"type": "boolean"},
+        "lacuna_present": {"type": "boolean"}
+      }
+    },
+    "source_metadata_reviewed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title_as_printed", "poet_as_printed", "addressee_as_printed", "thinai_as_printed", "thurai_as_printed"],
+      "properties": {
+        "title_as_printed": {"type": ["string", "null"]},
+        "poet_as_printed": {"type": ["string", "null"]},
+        "addressee_as_printed": {"type": ["string", "null"]},
+        "thinai_as_printed": {"type": ["string", "null"]},
+        "thurai_as_printed": {"type": ["string", "null"]}
+      }
+    },
+    "dimensions_considered": {"const": 29},
+    "dimension_reviews": {
+      "type": "array",
+      "minItems": 29,
+      "maxItems": 29,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ordinal", "dimension", "status", "observation_ids", "review_note"],
+        "properties": {
+          "ordinal": {"type": "integer", "minimum": 1, "maximum": 29},
+          "dimension": {"type": "string", "enum": ["literary_domain", "tinai_turai", "landscape_environment", "season_weather_time", "flora", "fauna", "people_social_roles", "relationships", "emotion_lived_experience", "occupations_production", "food_subsistence", "clothing_ornaments_adornment", "material_culture_everyday_objects", "weapons_warfare", "mobility_transport", "settlements_built_environment", "economy", "trade_exchange", "polity_political_life", "communities_social_groups", "family_gender_kinship", "religion_ritual", "death_mourning_memory", "arts_music_performance", "knowledge_technology", "values_ethical_concepts", "body_health", "named_entities", "textual_intertextual_relationships"]},
+          "status": {"enum": ["qualifying_evidence_recorded", "no_qualifying_evidence_identified", "source_unavailable", "damaged_evidence_limited"]},
+          "observation_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^obs\\.prod\\.r15\\.[0-9a-f]{24}$"}},
+          "review_note": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["observation_id", "dimension", "concept_id", "evidence_class", "classification_basis", "evidence_refs", "supporting_assertion_ids", "assertion_provenance_status", "confidence", "review_status", "reviewer_type", "historical_identity_status", "note"],
+        "properties": {
+          "observation_id": {"type": "string", "pattern": "^obs\\.prod\\.r15\\.[0-9a-f]{24}$"},
+          "dimension": {"type": "string", "enum": ["literary_domain", "tinai_turai", "landscape_environment", "season_weather_time", "flora", "fauna", "people_social_roles", "relationships", "emotion_lived_experience", "occupations_production", "food_subsistence", "clothing_ornaments_adornment", "material_culture_everyday_objects", "weapons_warfare", "mobility_transport", "settlements_built_environment", "economy", "trade_exchange", "polity_political_life", "communities_social_groups", "family_gender_kinship", "religion_ritual", "death_mourning_memory", "arts_music_performance", "knowledge_technology", "values_ethical_concepts", "body_health", "named_entities", "textual_intertextual_relationships"]},
+          "concept_id": {"type": ["string", "null"]},
+          "evidence_class": {"enum": ["SOURCE_EXPLICIT", "MECHANICALLY_DERIVED", "CROSS_TEXT", "EDITORIAL_INFERENCE", "EXTERNAL_HISTORICAL", "INTERPRETATION"]},
+          "classification_basis": {"enum": ["reviewed_source_assertion", "direct_record_review", "source_metadata_explicit", "work_level_classification", "mechanically_derived", "cross_text", "editorial_inference", "external_historical", "interpretation"]},
+          "evidence_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["source_field", "source_location", "evidence_span", "source_text"],
+              "properties": {
+                "source_field": {"type": "string", "minLength": 1},
+                "source_location": {"type": "string", "minLength": 1},
+                "evidence_span": {
+                  "oneOf": [
+                    {"type": "null"},
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["start_line", "start_character", "end_line", "end_character"],
+                      "properties": {
+                        "start_line": {"type": "integer", "minimum": 1},
+                        "start_character": {"type": "integer", "minimum": 0},
+                        "end_line": {"type": "integer", "minimum": 1},
+                        "end_character": {"type": "integer", "minimum": 0}
+                      }
+                    }
+                  ]
+                },
+                "source_text": {"type": "string", "minLength": 1}
+              }
+            }
+          },
+          "supporting_assertion_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^asrt\\.[0-9a-f]{24}$"}},
+          "assertion_provenance_status": {"enum": ["existing_r0_assertion_linked", "direct_r15_source_review_no_prior_assertion", "mixed_existing_r0_and_direct_r15_source_review"]},
+          "confidence": {"enum": ["low", "medium", "high"]},
+          "review_status": {"const": "reviewed"},
+          "reviewer_type": {"enum": ["human_editor", "assistant_assisted"]},
+          "historical_identity_status": {"enum": ["not_applicable", "unresolved", "possible_match", "verified_external"]},
+          "note": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "review_status": {"const": "reviewed"},
+    "reviewer_type": {"enum": ["human_editor", "assistant_assisted"]},
+    "empty_cell_semantics": {"const": "No qualifying evidence identified in this reviewed source record; never evidence of historical absence."},
+    "audit_control": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "prior_qualifying_dimension_codes", "checked_after_fresh_source_review", "comparison_status", "discrepancies"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "prior_qualifying_dimension_codes": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "checked_after_fresh_source_review": {"const": true},
+        "comparison_status": {"enum": ["exact_match", "review_differs_from_audit"]},
+        "discrepancies": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "next_record_allowed": {"type": ["string", "null"], "pattern": "^[0-9]{3}$"}
+  }
+}
