@@ -1,0 +1,193 @@
+{
+  "registry_id": "classical-tamil-concept-registry-r15",
+  "schema_version": "0.3.0",
+  "status": "pilot",
+  "governing_document": "docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md",
+  "semantics": {
+    "matrix_cell": "A derived view over evidence-backed observations, never an unsupported boolean.",
+    "empty_cell": "No qualifying evidence is currently recorded; not evidence of historical absence.",
+    "identity_rule": "Concept membership does not establish historical entity identity."
+  },
+  "concepts": [
+    {
+      "concept_id": "literary.domain",
+      "dimension": "literary_domain",
+      "label_ta": "இலக்கியத் தளம்",
+      "label_en": "literary domain",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Parent concept for Akam/Puram domain observations."
+    },
+    {
+      "concept_id": "literary.domain.akam",
+      "dimension": "literary_domain",
+      "label_ta": "அகம்",
+      "label_en": "Akam",
+      "parent_concept_id": "literary.domain",
+      "status": "foundation",
+      "description": "Akam literary-domain concept; record-level use requires explicit classification provenance."
+    },
+    {
+      "concept_id": "literary.domain.puram",
+      "dimension": "literary_domain",
+      "label_ta": "புறம்",
+      "label_en": "Puram",
+      "parent_concept_id": "literary.domain",
+      "status": "foundation",
+      "description": "Puram literary-domain concept; record-level use requires explicit classification provenance."
+    },
+    {
+      "concept_id": "literary.domain.uncertain",
+      "dimension": "literary_domain",
+      "label_ta": "உறுதியற்றது",
+      "label_en": "uncertain",
+      "parent_concept_id": "literary.domain",
+      "status": "foundation",
+      "description": "Explicit uncertainty state for literary-domain classification."
+    },
+    {
+      "concept_id": "literary.domain.not_applicable",
+      "dimension": "literary_domain",
+      "label_ta": "பொருந்தாது",
+      "label_en": "not applicable",
+      "parent_concept_id": "literary.domain",
+      "status": "foundation",
+      "description": "Literary-domain classification is not applicable."
+    },
+    {
+      "concept_id": "literary.tinai",
+      "dimension": "tinai",
+      "label_ta": "திணை",
+      "label_en": "tiṇai",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Parent concept for source-provenanced tiṇai classifications."
+    },
+    {
+      "concept_id": "literary.tinai.kurinji",
+      "dimension": "tinai",
+      "label_ta": "குறிஞ்சி",
+      "label_en": "Kuṟiñci",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Kuṟiñci tiṇai concept; association to a record requires provenance."
+    },
+    {
+      "concept_id": "literary.tinai.mullai",
+      "dimension": "tinai",
+      "label_ta": "முல்லை",
+      "label_en": "Mullai",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Mullai tiṇai concept; association to a record requires provenance."
+    },
+    {
+      "concept_id": "literary.tinai.marutam",
+      "dimension": "tinai",
+      "label_ta": "மருதம்",
+      "label_en": "Marutam",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Marutam tiṇai concept; association to a record requires provenance."
+    },
+    {
+      "concept_id": "literary.tinai.neytal",
+      "dimension": "tinai",
+      "label_ta": "நெய்தல்",
+      "label_en": "Neytal",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Neytal tiṇai concept; association to a record requires provenance."
+    },
+    {
+      "concept_id": "literary.tinai.palai",
+      "dimension": "tinai",
+      "label_ta": "பாலை",
+      "label_en": "Pālai",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Pālai tiṇai concept; association to a record requires provenance."
+    },
+    {
+      "concept_id": "literary.tinai.kaikkilai",
+      "dimension": "tinai",
+      "label_ta": "கைக்கிளை",
+      "label_en": "Kaikkilai",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Kaikkilai exceptional Akam category; record association requires provenance."
+    },
+    {
+      "concept_id": "literary.tinai.peruntinai",
+      "dimension": "tinai",
+      "label_ta": "பெருந்திணை",
+      "label_en": "Peruntiṇai",
+      "parent_concept_id": "literary.tinai",
+      "status": "foundation",
+      "description": "Peruntiṇai exceptional Akam category; record association requires provenance."
+    },
+    {
+      "concept_id": "fauna.elephant",
+      "dimension": "fauna",
+      "label_ta": "யானை",
+      "label_en": "elephant",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Elephant mention concept. Exact source form and evidence remain on each observation."
+    },
+    {
+      "concept_id": "economy.commodity.gold",
+      "dimension": "economy_trade",
+      "label_ta": "பொன்",
+      "label_en": "gold / pon commodity",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Commodity mention concept for source form பொன்; no broader economic inference is implied."
+    },
+    {
+      "concept_id": "environment.water.sea",
+      "dimension": "landscape_environment",
+      "label_ta": "கடல்",
+      "label_en": "sea",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Sea/water-body mention concept grounded in the existing WATER_BODY_MENTION assertion."
+    },
+    {
+      "concept_id": "warfare.weapon.sword",
+      "dimension": "warfare",
+      "label_ta": "வாள்",
+      "label_en": "sword",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Sword/weapon mention concept grounded in the existing WARFARE_MENTION assertion."
+    },
+    {
+      "concept_id": "society.community.panar",
+      "dimension": "society_social_group",
+      "label_ta": "பாணர்",
+      "label_en": "Pāṇar community mention",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Source-explicit Pāṇar community mention; no external social-history claim is added."
+    },
+    {
+      "concept_id": "occupation.agriculture.uzhavar",
+      "dimension": "occupation_labour",
+      "label_ta": "உழவர்",
+      "label_en": "uḻavar occupation mention",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Source-explicit uḻavar occupation mention; no modern occupational taxonomy is asserted."
+    },
+    {
+      "concept_id": "polity.ruler",
+      "dimension": "polity_power",
+      "label_ta": "ஆட்சியாளர் குறிப்பு",
+      "label_en": "ruler mention",
+      "parent_concept_id": null,
+      "status": "pilot",
+      "description": "Generic ruler-role concept. It deliberately does not identify a historical person."
+    }
+  ]
+}
