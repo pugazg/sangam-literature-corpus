@@ -27,6 +27,11 @@
   "corpus_1_1_0_preserved": true,
   "tolkappiyam_preserved": true,
   "gate_a_structural_status": "pass",
-  "runtime_validation_status": "pending R1 branch CI",
+  "runtime_validation_status": "pass",
+  "runtime_validation_evidence": [
+    "logs/classical-tamil-research-r1-validation-20260818T145500.json",
+    "logs/classical-tamil-research-r1-idempotence-20260818T145500.json",
+    "logs/classical-tamil-research-r1-baseline-20260818T145500.json"
+  ],
   "status": "pass"
 }
