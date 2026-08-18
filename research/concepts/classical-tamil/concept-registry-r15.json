@@ -56,7 +56,7 @@
     },
     {
       "concept_id": "literary.tinai",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "திணை",
       "label_en": "tiṇai",
       "parent_concept_id": null,
@@ -65,7 +65,7 @@
     },
     {
       "concept_id": "literary.tinai.kurinji",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "குறிஞ்சி",
       "label_en": "Kuṟiñci",
       "parent_concept_id": "literary.tinai",
@@ -74,7 +74,7 @@
     },
     {
       "concept_id": "literary.tinai.mullai",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "முல்லை",
       "label_en": "Mullai",
       "parent_concept_id": "literary.tinai",
@@ -83,7 +83,7 @@
     },
     {
       "concept_id": "literary.tinai.marutam",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "மருதம்",
       "label_en": "Marutam",
       "parent_concept_id": "literary.tinai",
@@ -92,7 +92,7 @@
     },
     {
       "concept_id": "literary.tinai.neytal",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "நெய்தல்",
       "label_en": "Neytal",
       "parent_concept_id": "literary.tinai",
@@ -101,7 +101,7 @@
     },
     {
       "concept_id": "literary.tinai.palai",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "பாலை",
       "label_en": "Pālai",
       "parent_concept_id": "literary.tinai",
@@ -110,7 +110,7 @@
     },
     {
       "concept_id": "literary.tinai.kaikkilai",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "கைக்கிளை",
       "label_en": "Kaikkilai",
       "parent_concept_id": "literary.tinai",
@@ -119,7 +119,7 @@
     },
     {
       "concept_id": "literary.tinai.peruntinai",
-      "dimension": "tinai",
+      "dimension": "tinai_turai",
       "label_ta": "பெருந்திணை",
       "label_en": "Peruntiṇai",
       "parent_concept_id": "literary.tinai",
@@ -128,7 +128,7 @@
     },
     {
       "concept_id": "literary.turai",
-      "dimension": "turai",
+      "dimension": "tinai_turai",
       "label_ta": "துறை",
       "label_en": "tuṟai",
       "parent_concept_id": null,
@@ -137,7 +137,7 @@
     },
     {
       "concept_id": "literary.turai.uncertain",
-      "dimension": "turai",
+      "dimension": "tinai_turai",
       "label_ta": "உறுதியற்ற துறை",
       "label_en": "uncertain tuṟai",
       "parent_concept_id": "literary.turai",
@@ -146,7 +146,7 @@
     },
     {
       "concept_id": "literary.turai.not_applicable",
-      "dimension": "turai",
+      "dimension": "tinai_turai",
       "label_ta": "பொருந்தாத துறை",
       "label_en": "tuṟai not applicable",
       "parent_concept_id": "literary.turai",
@@ -209,7 +209,7 @@
     },
     {
       "concept_id": "entity.named",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "பெயரிடப்பட்ட குறிப்பு",
       "label_en": "named-entity mention",
       "parent_concept_id": null,
@@ -218,7 +218,7 @@
     },
     {
       "concept_id": "entity.person",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "நபர் குறிப்பு",
       "label_en": "person mention",
       "parent_concept_id": "entity.named",
@@ -227,7 +227,7 @@
     },
     {
       "concept_id": "entity.place",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "இடக் குறிப்பு",
       "label_en": "place mention",
       "parent_concept_id": "entity.named",
@@ -236,7 +236,7 @@
     },
     {
       "concept_id": "entity.polity",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "அரசியல் அலகுக் குறிப்பு",
       "label_en": "polity mention",
       "parent_concept_id": "entity.named",
@@ -245,7 +245,7 @@
     },
     {
       "concept_id": "entity.community",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "சமூகக் குழுக் குறிப்பு",
       "label_en": "community mention",
       "parent_concept_id": "entity.named",
@@ -254,7 +254,7 @@
     },
     {
       "concept_id": "entity.deity",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "தெய்வக் குறிப்பு",
       "label_en": "deity mention",
       "parent_concept_id": "entity.named",
@@ -263,7 +263,7 @@
     },
     {
       "concept_id": "entity.uncertain",
-      "dimension": "named_entity",
+      "dimension": "named_entities",
       "label_ta": "உறுதியற்ற பெயரிடப்பட்ட குறிப்பு",
       "label_en": "uncertain named entity",
       "parent_concept_id": "entity.named",
@@ -281,7 +281,7 @@
     },
     {
       "concept_id": "economy.commodity.gold",
-      "dimension": "economy_trade",
+      "dimension": "economy",
       "label_ta": "பொன்",
       "label_en": "gold / pon commodity",
       "parent_concept_id": null,
@@ -299,7 +299,7 @@
     },
     {
       "concept_id": "warfare.weapon.sword",
-      "dimension": "warfare",
+      "dimension": "weapons_warfare",
       "label_ta": "வாள்",
       "label_en": "sword",
       "parent_concept_id": null,
@@ -308,7 +308,7 @@
     },
     {
       "concept_id": "society.community.panar",
-      "dimension": "society_social_group",
+      "dimension": "communities_social_groups",
       "label_ta": "பாணர்",
       "label_en": "Pāṇar community mention",
       "parent_concept_id": null,
@@ -317,7 +317,7 @@
     },
     {
       "concept_id": "occupation.agriculture.uzhavar",
-      "dimension": "occupation_labour",
+      "dimension": "occupations_production",
       "label_ta": "உழவர்",
       "label_en": "uḻavar occupation mention",
       "parent_concept_id": null,
@@ -326,7 +326,7 @@
     },
     {
       "concept_id": "polity.ruler",
-      "dimension": "polity_power",
+      "dimension": "polity_political_life",
       "label_ta": "ஆட்சியாளர் குறிப்பு",
       "label_en": "ruler mention",
       "parent_concept_id": null,
