@@ -1,0 +1,29 @@
+{
+  "vocabulary_id": "classical-tamil-concept-dimensions-r15",
+  "version": "0.3.0",
+  "status": "pilot",
+  "entries": [
+    {"code": "literary_domain", "label": "Akam/Puram literary domain"},
+    {"code": "tinai", "label": "Tiṇai classification"},
+    {"code": "turai", "label": "Tuṟai classification"},
+    {"code": "landscape_environment", "label": "Landscape and environment"},
+    {"code": "season_time", "label": "Season, weather, and time"},
+    {"code": "flora", "label": "Flora"},
+    {"code": "fauna", "label": "Fauna"},
+    {"code": "food_subsistence", "label": "Food, agriculture, and subsistence"},
+    {"code": "occupation_labour", "label": "Occupations and labour"},
+    {"code": "economy_trade", "label": "Economy and trade"},
+    {"code": "settlement_habitation", "label": "Settlement and habitation"},
+    {"code": "family_kinship", "label": "Family and kinship"},
+    {"code": "society_social_group", "label": "Social groups and status"},
+    {"code": "polity_power", "label": "Polity and power"},
+    {"code": "warfare", "label": "Warfare"},
+    {"code": "ritual_religion", "label": "Ritual and religion"},
+    {"code": "arts_performance", "label": "Arts and performance"},
+    {"code": "body_adornment_clothing", "label": "Body, adornment, and clothing"},
+    {"code": "material_culture", "label": "Material culture"},
+    {"code": "mobility_transport", "label": "Mobility and transport"},
+    {"code": "values_emotions", "label": "Values and emotions"},
+    {"code": "named_entity", "label": "Named entities"}
+  ]
+}
