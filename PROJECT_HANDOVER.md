@@ -10,7 +10,7 @@ Active research branch: `research/classical-tamil-concept-matrix-r1.5`
 
 Active pull request: **PR #3** — R1.5 Classical Tamil Concept Matrix Foundation.
 
-**PR #3 is to remain open, draft, and unmerged until the user explicitly authorizes merge. R2 has not started and must not start before that authorization and a fresh inspection of live `main`.**
+**PR #3 is to remain open, draft, and unmerged until the user explicitly authorizes merge. R2 is blocked and has not started; do not start R2 before that authorization and a fresh inspection of live `main`.**
 
 At the documentation audit, GitHub exposes only `main` and the R1.5 research branch. Earlier R0/R1 branches were deleted after their work was preserved. Do not recreate or depend on those deleted branches.
 
@@ -139,4 +139,4 @@ Release documents and durable machine logs remain historical records and are not
 3. report the audit result to the user;
 4. await explicit merge authorization.
 
-Do **not** begin R2 and do **not** merge PR #3 merely because all checks pass.
+R2 is blocked. **Do not start R2 and do not merge PR #3 merely because all checks pass.**
