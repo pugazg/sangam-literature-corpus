@@ -7,7 +7,7 @@ This document is the continuity handover for the active repository:
 - GitHub: `pugazg/sangam-literature-corpus`
 - Default branch: `main`
 - Repository visibility at the time of this handover: private
-- Current `main` head inspected for this handover: `86704efea303f5a0d4b1fa6b5a5299a23b79e2f0`
+- Pre-update `main` state inspected before this handover revision included the completed 1.1.0 corpus release and the project continuity documents.
 
 Treat the live GitHub repository, its current branches, commits, manifests, freeze records, and source artifacts as authoritative over stale local paths, earlier chat summaries, or historical prompt text.
 
@@ -27,6 +27,14 @@ The governing hierarchy is:
 6. independently versioned derived research layers.
 
 Frozen canonical text must never be silently modernised, corrected, reconstructed, translated, interpreted, or overwritten by later research.
+
+The long-term research goal is broader than keyword tagging. It is to construct an evidence-backed, multidimensional research model of the world represented in Classical Tamil literature: Akam/Puram, tiṇai and tuṟai, five landscapes, ecology, food, occupations, trade, material culture, family, relationships, society, polity, warfare, ritual, arts, mobility, settlements, values, and other aspects of lived experience.
+
+The authoritative research-concept plan is documented in:
+
+`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+
+That document must be read before designing or extending R2 and later research extraction.
 
 ## 3. Frozen corpus status
 
@@ -162,7 +170,7 @@ Do not reintroduce concurrent shared-manifest writers.
 
 ## 7. Current Git branches
 
-At handover, GitHub exposes at least:
+GitHub exposes at least:
 
 - `main`
 - `research/sangam-evidence-r0`
@@ -173,13 +181,13 @@ Verified research branch commit recorded by the project:
 
 `7087626347b56e0145ab69b2fb7ef355f6bc07d5d`
 
-Branch relationship inspected at handover:
+The previously inspected branch relationship was:
 
-- merge base with current `main`: `272d9d5a79d55994e2c12efacc22be20b2c88030`
+- merge base with then-current `main`: `272d9d5a79d55994e2c12efacc22be20b2c88030`
 - R0 branch: one research commit ahead of that merge base
-- R0 branch: three commits behind current `main`
+- R0 branch: three corpus/release commits behind the then-current `main`
 
-Those three `main`-side commits include the Tolkāppiyam 1.1.0 corpus work, its release checkpoint, and the later publication-status documentation.
+Since durable documentation commits have been added after that comparison, always re-run the live branch comparison before acting.
 
 Do not overwrite either side of this divergence.
 
@@ -244,23 +252,158 @@ The correct next integration procedure is:
 
 Do not globally change the R0 `source_release_tag` field and regenerate assertion IDs just to make metadata look current.
 
-## 10. Planned research roadmap
+## 10. Research concept matrix — mandatory methodological layer
 
-The previously agreed research sequence is:
+The project now has an explicit concept-matrix specification:
 
-- R0 — research architecture + Puṟanāṉūṟu evidence pilot — implemented on the R0 branch
-- R1 — review workflow + entity-resolution rules
-- R2 — evidence extraction across all nine core Sangam works
-- R3 — cross-work poets, rulers, places, and relationships
-- R4 — economy, ecology, society, and political datasets
-- R5 — maps, timelines, search, and visual research interface
-- R6 — extend the derived research layer to Patiṉeṇkīḻkkaṇakku
+`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
 
-Tolkāppiyam should later participate through a separate grammatical/concept evidence stream; do not force grammatical நூற்பா into poem-oriented research types.
+This is not optional background reading. It defines the intended observation model before bulk R2 extraction.
 
-## 11. Immediate next activity
+The matrix makes the following first-class research dimensions:
 
-The next chat should not restart corpus extraction.
+- Akam / Puram literary domain;
+- tiṇai and tuṟai;
+- five landscapes: Kuṟiñci, Mullai, Marutam, Neytal, Pālai;
+- exceptional Akam categories such as Kaikkilai and Peruntiṇai when evidence supports them;
+- terrain, water, season, time, flora, fauna;
+- people, social roles, family, gender, kinship, relationships;
+- occupations, production, food, subsistence, trade, economy, gifts, wealth;
+- clothing, ornament, material culture, weapons, transport, settlements;
+- kingship, polity, diplomacy, warfare;
+- religion, ritual, death, mourning, memorialisation;
+- music, dance, performance, arts;
+- knowledge, technology, body, health, values;
+- named entities and cross-text relationships.
+
+The matrix is assertion-backed. A populated matrix cell must trace to exact evidence, not to an unsupported boolean tag.
+
+For example, do not reduce a poem to `elephant = true`. Preserve exact printed form, record, evidence span, evidence class, confidence, review status, and assertion ID; derive matrix views from those records.
+
+Source silence is not historical absence.
+
+## 11. Akam / Puram and landscape evidence rules
+
+Akam/Puram must be represented with evidence basis, not just a boolean.
+
+Repository-appropriate values should distinguish:
+
+- source-explicit classification;
+- work-level classification;
+- Tolkāppiyam concept mapping;
+- derived/editorial classification;
+- uncertain / not applicable.
+
+The same rule applies to tiṇai and tuṟai.
+
+The five landscapes must not be reduced to one-word terrain mappings. The research concept model should be able to connect each landscape, where evidence supports it, to:
+
+- terrain/environment;
+- season and time;
+- flora and fauna;
+- occupations;
+- food/subsistence;
+- settlements;
+- mobility;
+- social actors;
+- emotional/relational situations;
+- ritual/deity references;
+- characteristic objects and activities.
+
+Conventional textbook associations must not be written into poem records as source facts.
+
+## 12. Tolkāppiyam's future research role
+
+Tolkāppiyam is not merely a twenty-eighth frozen text. It should later provide a separate grammatical / poetics concept evidence stream.
+
+The intended relationship is:
+
+```text
+Tolkāppiyam நூற்பா
+      ↓
+grammatical / poetic concept assertion
+      ↓
+controlled concept registry
+      ↓
+comparison with Sangam poem evidence
+```
+
+A Tolkāppiyam rule must not automatically rewrite a poem's classification.
+
+The project should eventually support evidence-backed questions such as:
+
+> How closely does surviving Sangam poetic usage correspond to, differ from, or exceed the conceptual system represented in Tolkāppiyam?
+
+This is why Tolkāppiyam ↔ Sangam mapping is now planned as a distinct later phase rather than being mixed casually into R2.
+
+## 13. Revised research roadmap
+
+The formal roadmap is now:
+
+### R0 — Research architecture + Puṟanāṉūṟu evidence pilot
+
+Status: implemented on the R0 branch.
+
+### R1 — Review workflow + entity-resolution rules
+
+Immediate next phase after R0 reconciliation.
+
+Establish append-only review events, reviewer identity/type, ambiguity queues, variant-form handling, possible/reviewed/verified identity states, and reversible merge/split/reject/supersede decisions.
+
+Do not attempt mass historical resolution.
+
+### R1.5 — Classical Tamil Concept Matrix and Ontology Foundation
+
+Mandatory before R2.
+
+Formalise:
+
+- Akam/Puram evidence rules;
+- tiṇai/tuṟai evidence rules;
+- five-landscape concept families;
+- concept registry and IDs;
+- ecology, material culture, economy, society, polity, ritual, arts, everyday-life dimensions;
+- claim/evidence classes including a separate Tolkāppiyam grammatical-concept stream;
+- deterministic assertion-backed matrix views;
+- Puṟanāṉūṟu matrix pilot.
+
+R2 must not begin until R1.5 passes validation.
+
+### R2 — Apply the concept matrix across all nine core Sangam works
+
+Perform comparable evidence extraction across the nine frozen core Sangam works while retaining work-specific metadata differences and exact provenance.
+
+### R3 — Cross-corpus entity resolution and relationships
+
+Resolve poets, rulers, chiefs, patrons, addressees, places, polities, communities, variant names, epithets, and cross-work relationships through reviewed evidence.
+
+### R4 — Civilisation datasets
+
+Build evidence-backed datasets for landscapes/ecology, food/subsistence, occupations, production, economy, trade, material culture, settlements, mobility, society, kinship/gender, polity, warfare, religion/ritual, death/memory, arts/performance, knowledge/technology, values, and lived experience.
+
+Evidence-record counts must remain distinct from historical event/fact counts.
+
+### R5 — Research experience
+
+Build matrix exploration, cross-text search, maps, timelines, networks, entity pages, tiṇai atlas, landscape explorer, evidence drill-down, and reproducible exports.
+
+Every visualisation must be traceable to source assertions.
+
+### R6 — Extend the derived layer to Patiṉeṇkīḻkkaṇakku
+
+Apply compatible research concepts to the eighteen frozen works while allowing didactic/ethical models appropriate to those texts. Do not force Sangam poem categories onto structurally different works.
+
+### R7 — Tolkāppiyam ↔ Sangam conceptual mapping
+
+Build a separate grammatical/poetics concept stream from Tolkāppiyam and compare it with poem evidence without rewriting canonical classifications.
+
+### R8 — External scholarship and historical-identification layer
+
+Add modern place identifications, chronology proposals, historical person resolution, archaeology, botanical/zoological identifications, and broader interpretation only with explicit external citations, confidence, review status, and disagreement handling.
+
+## 14. Immediate next activity
+
+The next chat should not restart corpus extraction and should not begin R2.
 
 The next activity is:
 
@@ -271,15 +414,17 @@ The next activity is:
 3. establish current corpus 1.1.0 as the working base without moving release checkpoints;
 4. verify Puṟanāṉūṟu hashes are unchanged from R0's 1.0.0 source release;
 5. create a new research continuation branch from current `main`, preferably `research/sangam-evidence-r1`;
-6. port the single R0 research commit/diff onto that branch while preserving current 1.1.0 corpus documentation;
+6. port the R0 research diff onto that branch while preserving current 1.1.0 corpus documentation;
 7. run the research validator and full frozen-corpus regressions;
 8. confirm all R0 deterministic assertion IDs and counts remain unchanged;
 9. document the compatibility result;
 10. begin R1: review workflow and entity-resolution rules.
 
-Do not merge R0 blindly into `main` if the README or release documentation conflicts. The current 1.1.0 corpus documentation wins; the R0 research additions must be reconciled around it.
+Do not merge R0 blindly into `main` if README or release documentation conflicts. Current corpus documentation wins; R0 research additions must be reconciled around it.
 
-## 12. R1 design intent
+After R1 is complete, the next mandatory phase is R1.5, not R2.
+
+## 15. R1 design intent
 
 R1 should improve reviewability without converting machine extraction into false historical certainty.
 
@@ -296,35 +441,52 @@ Required principles:
 - no modern geography, chronology, biography, dynasty assignment, or external historical claim enters R1 without a separately cited evidence class;
 - canonical corpus files remain untouched.
 
-## 13. Rights / visibility note
+R1 must be designed so that R1.5 can attach reviewed concept classifications without mutating the original R0 evidence assertions.
 
-`docs/source-rights-and-redistribution-review.md` contains unresolved questions. Do not make a visibility or redistribution-policy change merely because GitHub access now works.
+## 16. R1.5 design intent
+
+R1.5 should answer, before bulk extraction:
+
+- What exactly are we observing?
+- What evidence is sufficient to populate each concept family?
+- Which concepts are source-explicit, mechanically derived, Tolkāppiyam-based, editorial/derived, external, or interpretive?
+- How are Akam/Puram and tiṇai/tuṟai represented without hiding provenance?
+- How are five-landscape associations represented without hard-coding conventional assumptions?
+- How are people/entities kept distinct from roles and concepts?
+- How does every matrix cell point back to assertions and exact source spans?
+
+The complete design is in `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`.
+
+## 17. Rights / visibility note
+
+`docs/source-rights-and-redistribution-review.md` contains unresolved questions. Do not make a visibility or redistribution-policy change merely because GitHub access works.
 
 Repository visibility changes require a separate explicit decision after the rights review is resolved.
 
-## 14. Mandatory files to read in a new chat
+## 18. Mandatory files to read in a new chat
 
 Before making changes, read at minimum:
 
 1. `PROJECT_HANDOVER.md`
 2. `PROJECT_GUIDELINES.md`
 3. `NEXT_CHAT_PROMPT.md`
-4. `README.md`
-5. `docs/classical-tamil-corpus-release-1.1.0.md`
-6. `manifests/classical-tamil-corpus-release-1.1.0.json`
-7. `manifests/repository-protected-conditions-1.1.0.json`
-8. `docs/manifest-ordering-policy.md`
-9. `docs/source-rights-and-redistribution-review.md`
-10. `corpus/tolkappiyam/metadata.json`
-11. on the R0 branch: `docs/classical-tamil-research-layer.md`
-12. on the R0 branch: `manifests/classical-tamil-research-program.json`
-13. on the R0 branch: `research/README.md`
-14. on the R0 branch: `research/reports/purananuru-extraction-summary.json`
-15. on the R0 branch: R0 decisions, baseline, idempotence, and frozen-regression logs
+4. `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+5. `README.md`
+6. `docs/classical-tamil-corpus-release-1.1.0.md`
+7. `manifests/classical-tamil-corpus-release-1.1.0.json`
+8. `manifests/repository-protected-conditions-1.1.0.json`
+9. `docs/manifest-ordering-policy.md`
+10. `docs/source-rights-and-redistribution-review.md`
+11. `corpus/tolkappiyam/metadata.json`
+12. on the R0 branch: `docs/classical-tamil-research-layer.md`
+13. on the R0 branch: `manifests/classical-tamil-research-program.json`
+14. on the R0 branch: `research/README.md`
+15. on the R0 branch: `research/reports/purananuru-extraction-summary.json`
+16. on the R0 branch: R0 decisions, baseline, idempotence, and frozen-regression logs
 
-Then inspect the live branches and commits. Repository state is authoritative over this document if later commits intentionally supersede it.
+Then inspect live branches and commits. Repository state is authoritative over this document if later commits intentionally supersede it.
 
-## 15. Definition of safe continuation
+## 19. Definition of safe continuation
 
 A continuation is safe only if:
 
@@ -338,9 +500,10 @@ A continuation is safe only if:
 - research validation passes;
 - deterministic regeneration is byte-stable;
 - shared manifests remain concurrency-safe;
-- any new inference remains outside `SOURCE_EXPLICIT` canonical metadata.
+- any new inference remains outside source-explicit canonical metadata;
+- concept/matrix outputs remain derived and assertion-backed.
 
-## 16. End-state expected from the next research phase
+## 20. End-state expected from the next research phase
 
 The next phase should leave:
 
@@ -350,4 +513,5 @@ The next phase should leave:
 - a documented compatibility record between R0 source inputs and corpus 1.1.0;
 - R1 review/entity-resolution architecture implemented and validated;
 - no false promotion of candidate mentions to verified historical entities;
-- updated handover, guidelines, and next-chat prompt before handing off again.
+- the R1.5 concept-matrix phase explicitly queued as the next mandatory research phase;
+- updated handover, guidelines, research manifest/decision log, and next-chat prompt before handing off again.
