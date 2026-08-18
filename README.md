@@ -1,13 +1,26 @@
 # Sangam Text Corpus
 
-<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
-## Derived research layer — R1
+<!-- R15_ACCEPTANCE_COMPLETE_20260818 -->
+## Derived research layer — R1.5 acceptance complete
 
-The active research branch is `research/sangam-evidence-r1`. R0 Puṟanāṉūṟu
-evidence remains at schema `0.1.0`; R1 adds independently versioned review and
-entity-resolution workflow schema `0.2.0`. The research layer does not edit the
-frozen Corpus 1.1.0 evidence. See
-[`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md).
+R0 Puṟanāṉūṟu evidence remains at schema `0.1.0`; R1 review/entity-resolution
+workflow remains at `0.2.0`; R1.5 adds the independently versioned Classical
+Tamil concept/observation model at `0.3.0`. The research layer does not edit the
+frozen Corpus 1.1.0 evidence.
+
+The validated R1.5 branch is `research/classical-tamil-concept-matrix-r1.5`
+(PR #3). Its bounded Puṟanāṉūṟu pilot has 8 evidence-backed observations across
+6 records. The concept foundation covers Akam/Puram, tiṇai, tuṟai, five
+landscape families, named entities, and lived-life dimensions while keeping
+classification provenance explicit. Tolkāppiyam has a separate grammatical
+concept-evidence contract and no production R1.5 observations.
+
+The acceptance workflow passed 203 tests, deterministic regeneration, the full
+repository audit, Corpus/Tolkāppiyam non-drift, and primary-history
+non-mutation. R2 remains blocked until PR #3 is merged into `main`. See
+[`research/README.md`](research/README.md),
+[`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`](docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md),
+and [`PROJECT_HANDOVER.md`](PROJECT_HANDOVER.md).
 
 ## Repository release checkpoint
 

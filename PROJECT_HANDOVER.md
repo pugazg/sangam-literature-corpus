@@ -1,26 +1,68 @@
 # Sangam Literature Corpus — Project Handover
 
-<!-- R1_REVIEW_WORKFLOW_COMPLETE_20260818 -->
-## Active handover — R1 complete, R1.5 next
+<!-- R15_ACCEPTANCE_COMPLETE_20260818 -->
+## Active handover — R1.5 acceptance complete, merge gate next
 
-R1 review workflow and entity-resolution foundation completed on
-`research/sangam-evidence-r1` after validation of `ce9f9064122f9337eaa13ff060a210cff91b3b39`.
+R1.5 Classical Tamil Concept Matrix foundation is complete on
+`research/classical-tamil-concept-matrix-r1.5` and is proposed to `main` in
+PR #3. Do **not** begin R2 until that validated PR is merged and live `main`
+is re-inspected.
 
-- R0 evidence identity is preserved: 2,867 assertions, 285 body candidates,
-  43 pilot entities, and 51 relationships.
-- Corpus 1.1.0 and Tolkāppiyam remain unchanged.
-- Review history is append-only and hash-chained.
-- R1 records assistant-assisted source review explicitly and creates no
-  verified historical identities.
-- Entity resolution supports merge/split/reject/supersede operations but
-  production decisions remain conservative and assertion-provenanced.
-- Required R1 deterministic queues/reports and baseline/idempotence reports are
-  present under `research/` and `logs/`.
-- R2 must not begin. The next active phase is **R1.5 Classical Tamil Concept
-  Matrix**, controlled by `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`.
+Accepted R1.5 boundary:
 
-The earlier R0/R1 handover material below is retained as historical provenance;
-this section is authoritative for the next activity.
+- R0 evidence schema `0.1.0` remains intact: 2,867 assertions, 285 body
+  candidates, 43 pilot entities, and 51 relationships.
+- R1 workflow schema `0.2.0` remains intact with 8 append-only review events,
+  3 conservative entity-resolution decisions, and 0 verified historical
+  identities.
+- R1.5 concept/observation schema is `0.3.0`.
+- The concept registry contains 36 definitions, including Akam/Puram, seven
+  tiṇai categories, first-class tuṟai states, five landscape concept families,
+  named-entity families, and lived-life dimensions.
+- The bounded Puṟanāṉūṟu pilot contains 8 provenance-bearing observations across
+  6 records, 7 populated concepts, and 7 populated dimensions.
+- All 8 pilot observations are `SOURCE_EXPLICIT` and `reviewed`; there are 0
+  external-historical observations, 0 interpretive observations, and 0 verified
+  historical identities.
+- `இறைவன்` and `ஆய்` remain generic ruler-role observations with unresolved
+  historical identity.
+- Matrix cells are deterministic evidence views, not unsupported booleans;
+  empty cells mean only that qualifying evidence is not currently recorded.
+- Tolkāppiyam has a separate `GRAMMATICAL_CONCEPT_EVIDENCE` /
+  `tolkappiyam_mapping` stream contract and 0 production R1.5 observations.
+
+Recorded acceptance evidence:
+
+- PR #3 acceptance workflow run `32131938420` passed at research head
+  `b93e021d8c83717d78cf0c796045f07cccdf47a1` before continuity-only finalization.
+- R0, R1, R1.5 pilot, and R1.5 acceptance validators all passed with zero
+  errors/warnings.
+- Complete regression suite: **203 passed**.
+- R1 and R1.5 deterministic regeneration passed; R1.5 outputs were byte-stable
+  and all declared primary inputs remained unchanged.
+- R1.5 acceptance validator found 27/27 required foundation concepts, 0 orphan
+  observation assertions, 0 orphan observation concepts, 0 orphan relationship
+  assertions/entities, and 0 invalid relationship subjects.
+- Full repository audit passed across 8,768 files.
+- Corpus 1.1.0 and Tolkāppiyam non-drift checks passed.
+- R1 primary evidence/history/relationship files remained unchanged by
+  generation.
+
+Durable acceptance records:
+
+- `logs/classical-tamil-research-r15-validation-20260818T164600.json`
+- `logs/classical-tamil-research-r15-acceptance-20260818T164600.json`
+- `logs/classical-tamil-research-r15-idempotence-20260818T164600.json`
+- `logs/classical-tamil-research-r15-baseline-20260818T164600.json`
+
+The R1.5 continuation prompt is archived at
+`docs/history/NEXT_CHAT_PROMPT_R15.md`. `NEXT_CHAT_PROMPT.md` now contains the
+R2 startup contract, but that prompt itself forbids R2 work until PR #3 has
+been merged into `main`.
+
+The historical R0/R1 handover material below is retained as provenance. This
+active section overrides stale branch/status paragraphs in that historical
+material.
 
 ## 1. Repository authority
 

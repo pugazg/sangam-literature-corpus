@@ -17,7 +17,7 @@ The authoritative concept-matrix design for later research is:
 
 `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
 
-Read it before designing R1.5, R2, or any matrix/ontology extraction.
+R1.5 is the accepted concept-matrix foundation. Read this specification before designing R2 or any later matrix/ontology extraction, and preserve the R1.5 evidence/provenance boundary unless a versioned change is explicitly approved.
 
 ## 2. Core preservation principle
 
