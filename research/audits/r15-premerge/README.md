@@ -18,6 +18,7 @@ Two different source reads are recorded:
 - Tolkāppiyam `GRAMMATICAL_CONCEPT_EVIDENCE` is a separate grammatical/poetics stream and never auto-classifies a Sangam poem.
 - A lexical example inside a grammatical rule is not automatically a cultural or historical claim.
 - Named forms are not resolved into historical identities without separate evidence.
+- Social, ritual, learned, occupational, political, kinship, and community terminology follows `docs/SOURCE_TERMINOLOGY_POLICY.md`: retain the exact Tamil form printed by the relevant source and do not silently replace it with a later caste, sectarian, modern-community, hierarchy, or external-influence label.
 - Empty cells never prove historical absence.
 
 ## Special Puṟanāṉūṟu conditions
