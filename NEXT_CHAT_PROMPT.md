@@ -17,13 +17,14 @@ Before making any change, use the GitHub connector and read these files complete
 1. `PROJECT_HANDOVER.md`
 2. `PROJECT_GUIDELINES.md`
 3. `NEXT_CHAT_PROMPT.md`
-4. `README.md`
-5. `docs/classical-tamil-corpus-release-1.1.0.md`
-6. `manifests/classical-tamil-corpus-release-1.1.0.json`
-7. `manifests/repository-protected-conditions-1.1.0.json`
-8. `docs/manifest-ordering-policy.md`
-9. `docs/source-rights-and-redistribution-review.md`
-10. `corpus/tolkappiyam/metadata.json`
+4. `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+5. `README.md`
+6. `docs/classical-tamil-corpus-release-1.1.0.md`
+7. `manifests/classical-tamil-corpus-release-1.1.0.json`
+8. `manifests/repository-protected-conditions-1.1.0.json`
+9. `docs/manifest-ordering-policy.md`
+10. `docs/source-rights-and-redistribution-review.md`
+11. `corpus/tolkappiyam/metadata.json`
 
 Then inspect the live GitHub repository:
 
@@ -351,6 +352,118 @@ Retain every existing test and add tests for at least:
 19. Tolkāppiyam non-regression;
 20. shared manifest concurrency safety.
 
+# Mandatory future phase — R1.5 Classical Tamil Concept Matrix
+
+Do **not** begin R2 immediately after R1.
+
+The next phase after R1 must be R1.5, defined by:
+
+`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
+
+R1.5 must formalise the observation model before corpus-wide extraction.
+
+At minimum it must make these first-class, evidence-backed dimensions:
+
+- Akam / Puram;
+- tiṇai / tuṟai;
+- five landscapes: Kuṟiñci, Mullai, Marutam, Neytal, Pālai;
+- exceptional Akam categories such as Kaikkilai and Peruntiṇai where evidence supports them;
+- landscape/environment, season, time, water;
+- flora and fauna;
+- human actors and social roles;
+- family, gender, kinship, relationships;
+- emotion/lived experience;
+- occupations, production, food, subsistence;
+- clothing, ornament, material culture, everyday objects;
+- weapons, warfare, transport;
+- settlements and built environment;
+- economy, trade, exchange, gifts, wealth;
+- kingship, polity, diplomacy;
+- communities/social groups;
+- religion, ritual, death, mourning, memorialisation;
+- arts, music, dance, performance;
+- knowledge, technology, body, health, values;
+- named entities and textual/intertextual relationships.
+
+Every populated matrix cell must be traceable to assertion IDs and exact evidence.
+
+Do not create boolean tags without evidence provenance.
+
+Empty matrix cells mean only that qualifying evidence is not currently recorded; they do not prove historical absence.
+
+## Akam / Puram rule for R1.5
+
+Do not store only `akam: true` or `puram: true`.
+
+Akam/Puram classification must retain its basis, for example:
+
+- source-explicit;
+- work-level classification;
+- Tolkāppiyam concept mapping;
+- derived/editorial classification;
+- uncertain / not applicable.
+
+The same provenance rule applies to tiṇai and tuṟai.
+
+## Five-landscape rule for R1.5
+
+Do not reduce a landscape to a single terrain equivalence such as “Kuṟiñci = mountain”.
+
+The matrix should be able to relate a tiṇai, where evidence supports it, to:
+
+- terrain/environment;
+- season/time;
+- flora/fauna;
+- occupations;
+- food/subsistence;
+- settlements;
+- mobility;
+- social actors;
+- emotional/relational situations;
+- ritual/deity references;
+- objects/activities.
+
+Conventional textbook associations must not be inserted into poem records as source facts.
+
+## Tolkāppiyam research rule
+
+Tolkāppiyam is a separate grammatical/poetics evidence stream.
+
+Later research should support:
+
+```text
+Tolkāppiyam நூற்பா
+      ↓
+grammatical / poetic concept assertion
+      ↓
+controlled concept registry
+      ↓
+comparison with Sangam poem evidence
+```
+
+A Tolkāppiyam rule must not silently rewrite a poem's source classification.
+
+The project should ultimately be able to investigate how surviving Sangam poetic usage corresponds to, differs from, or exceeds Tolkāppiyam's conceptual system.
+
+Systematic Tolkāppiyam ↔ Sangam mapping is planned as R7.
+
+# Revised research roadmap
+
+The authoritative roadmap is now:
+
+- **R0** — research architecture + Puṟanāṉūṟu pilot — implemented;
+- **R1** — review workflow + entity-resolution rules — current next phase;
+- **R1.5** — Classical Tamil Concept Matrix / ontology foundation — mandatory before R2;
+- **R2** — apply the concept matrix across all nine core Sangam works;
+- **R3** — cross-corpus poets, rulers, chiefs, patrons, places, communities, and relationships;
+- **R4** — civilisation datasets: ecology, food, occupations, economy, trade, material culture, society, kinship/gender, polity, warfare, ritual, death/memory, arts, technology, values, daily life;
+- **R5** — matrix explorer, maps, timelines, networks, cross-text search, tiṇai atlas, evidence drill-down;
+- **R6** — extend compatible derived research to Patiṉeṇkīḻkkaṇakku;
+- **R7** — Tolkāppiyam ↔ Sangam grammatical/concept mapping;
+- **R8** — external scholarship and modern historical-identification layer.
+
+Do not skip R1.5 merely because R2 extraction can be automated.
+
 ## Required verification before declaring R1 complete
 
 Run repository-appropriate equivalents of:
@@ -403,11 +516,14 @@ Before ending the work, update on the appropriate authoritative branch:
 - `PROJECT_HANDOVER.md`;
 - `PROJECT_GUIDELINES.md` only if operating rules changed;
 - `NEXT_CHAT_PROMPT.md`;
+- `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md` only if R1 changed requirements relevant to the matrix;
 - `manifests/classical-tamil-research-program.json`;
 - research programme decision log;
 - R1 completion/baseline/idempotence reports.
 
 The next handover must record actual GitHub commit/branch state.
+
+The updated `NEXT_CHAT_PROMPT.md` at the end of R1 should point to **R1.5**, not R2.
 
 ## Final report
 
@@ -449,7 +565,8 @@ Report:
 34. updated handover path;
 35. updated guidelines path;
 36. updated next-chat prompt path;
-37. recommended R2 activity.
+37. confirmation that R1.5 is the next phase;
+38. any R1 findings that require amendments to the concept matrix before R1.5.
 
 Explicitly answer:
 
@@ -457,9 +574,9 @@ Explicitly answer:
 
 Then answer:
 
-`Is the R1 review and entity-resolution foundation complete and ready for the next research phase?`
+`Is the R1 review and entity-resolution foundation complete and ready for R1.5, the Classical Tamil Concept Matrix phase?`
 
-Do not begin R2 in the same pass unless explicitly instructed.
+Do not begin R1.5 or R2 in the same pass unless explicitly instructed.
 
 ---
 
