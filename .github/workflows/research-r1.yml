@@ -1,9 +1,9 @@
-name: Research R1 and R1.5 verification
+name: Research R1, R1.5 and R1.5A verification
 
 on:
   push:
     branches:
-      - research/classical-tamil-concept-matrix-r1.5
+      - research/classical-tamil-concept-matrix-r1.5a
   pull_request:
     branches:
       - main
@@ -61,10 +61,16 @@ jobs:
           python3 scripts/validate_research_r15_acceptance.py --root .
           --output logs/classical-tamil-research-r15-acceptance-ci.json
 
-      - name: Validate R1.5 exhaustive pre-merge matrix audit
+      - name: Validate exact R1.5 29-dimension surface
+        run: python3 scripts/validate_research_r15_dimensions.py --root .
+
+      - name: Validate R1.5 pre-merge control audit
         run: >-
           python3 scripts/validate_r15_premerge_matrix_audit.py --root .
           --output logs/classical-tamil-r15-premerge-matrix-audit-ci.json
+
+      - name: Validate R1.5A Purananuru production prefix
+        run: python3 scripts/validate_r15_purananuru_production.py --root .
 
       - name: Run complete regression suite
         run: pytest -q
