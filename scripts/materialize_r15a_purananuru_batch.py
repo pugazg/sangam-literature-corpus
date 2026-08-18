@@ -17,6 +17,23 @@ CANONICAL = [
 ]
 EMPTY = "No qualifying evidence identified in this reviewed source record; never evidence of historical absence."
 AUDIT = "research/audits/r15-premerge/purananuru/parts/001-050.tsv"
+AUTO_R0_TYPES = {
+    "landscape_environment": {"WATER_BODY_MENTION", "MOUNTAIN_OR_HILL_MENTION"},
+    "flora": {"FLORA_MENTION"},
+    "fauna": {"FAUNA_MENTION"},
+    "occupations_production": {"OCCUPATION_MENTION"},
+    "economy": {"COMMODITY_MENTION", "GIFT_MENTION", "ECONOMIC_ACTIVITY"},
+    "trade_exchange": {"COMMODITY_MENTION", "ECONOMIC_ACTIVITY"},
+    "weapons_warfare": {"WARFARE_MENTION"},
+    "polity_political_life": {"RULER_MENTION", "POLITICAL_RELATION"},
+    "communities_social_groups": {"COMMUNITY_MENTION"},
+    "family_gender_kinship": {"KINSHIP_MENTION"},
+    "arts_music_performance": {"MUSIC_OR_PERFORMANCE"},
+    "values_ethical_concepts": {"SOCIAL_PRACTICE"},
+    "named_entities": {"PERSON_MENTION", "RULER_MENTION"},
+    "tinai_turai": {"SOURCE_CONTEXT_NOTE"},
+    "textual_intertextual_relationships": {"SOURCE_CONTEXT_NOTE"},
+}
 
 def sha256_bytes(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -81,6 +98,29 @@ def observation_id(record_id, dimension, basis, refs):
     raw=json.dumps(payload,ensure_ascii=False,sort_keys=True,separators=(",",":")).encode("utf-8")
     return "obs.prod.r15."+hashlib.sha256(raw).hexdigest()[:24]
 
+def auto_assertions(rows, dimension, refs):
+    allowed=AUTO_R0_TYPES.get(dimension,set())
+    if not allowed:
+        return [], set()
+    ids=[]; matched_refs=set()
+    for i,ref in enumerate(refs):
+        field=ref.get("source_field")
+        ref_text=ref.get("source_text") or ""
+        for a in rows:
+            if a.get("assertion_type") not in allowed: continue
+            if a.get("source_field") != field: continue
+            text=a.get("source_text") or ""
+            if not text: continue
+            if field in {"canonical_body","source_note"}:
+                matched=text in ref_text
+            else:
+                matched=text==ref_text
+            if matched:
+                aid=a["assertion_id"]
+                if aid not in ids: ids.append(aid)
+                matched_refs.add(i)
+    return ids, matched_refs
+
 def mkobs(rid, dimension, refs, cfg, supporting):
     basis=cfg.get("basis") or ("reviewed_source_assertion" if supporting and not cfg.get("mixed") else "direct_record_review")
     if dimension in {"polity_political_life","named_entities","tinai_turai"} and cfg.get("metadata_basis"):
@@ -108,9 +148,20 @@ def audit_codes(root: Path, rid: str):
 
 def materialize(root: Path, spec_path: Path):
     spec=json.loads(spec_path.read_text(encoding="utf-8"))
+    records=spec.get("records",{})
+    ids=sorted(records)
+    if not ids:
+        raise ValueError(f"{spec_path}: no records")
+    nums=[int(x) for x in ids]
+    if nums != list(range(nums[0],nums[-1]+1)):
+        raise ValueError(f"{spec_path}: record ids must form one contiguous batch")
+    canonical_dims={d for _,d in CANONICAL}
     outdir=root/"research/production/purananuru/records"; outdir.mkdir(parents=True,exist_ok=True)
-    for rid,cfg in sorted(spec["records"].items()):
+    for rid,cfg in sorted(records.items()):
         n=int(rid)
+        unknown=set(cfg.get("dimensions",{}))-canonical_dims
+        if unknown:
+            raise ValueError(f"{rid}: unknown dimensions {sorted(unknown)}")
         src=root/f"corpus/purananuru/poems/{rid}.md"
         r0p=root/f"research/evidence/purananuru/records/{rid}.ndjson"
         front, lines, source_note=parse_record(src)
@@ -133,12 +184,17 @@ def materialize(root: Path, spec_path: Path):
                 refs=[evidence_ref(["yaml",field],front,lines,source_note)]
                 aid=find_assertion(r0,typ,field=field,text=val)
                 observations.append(mkobs(rid,"tinai_turai",refs,{"metadata_basis":True},[aid]))
-        for dimension,dcfg in cfg["dimensions"].items():
+        for dimension,raw_dcfg in cfg["dimensions"].items():
+            dcfg=dict(raw_dcfg)
             refs=[evidence_ref(x,front,lines,source_note) for x in dcfg["e"]]
             supporting=[]
             if "r0" in dcfg:
                 m=dcfg["r0"]
                 supporting=[find_assertion(r0,m["type"],m.get("field"),m.get("text"))]
+            else:
+                supporting,matched_refs=auto_assertions(r0,dimension,refs)
+                if supporting and len(matched_refs)<len(refs):
+                    dcfg["mixed"]=True
             observations.append(mkobs(rid,dimension,refs,dcfg,supporting))
         refs=[]; supporting=[]
         if front.get("poet_as_printed") is not None:

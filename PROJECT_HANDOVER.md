@@ -12,11 +12,11 @@ R1.5 was explicitly authorized for merge and merged into `main` at:
 
 `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`
 
-PR #3 is therefore historical/merged, not an active merge hold.
+PR #3 is historical/merged. Draft PR #4 is the active R1.5A proposal.
 
-R1.5A is the current follow-on production-review phase. It keeps concept/observation schema `0.3.0`; it is not R2. **R2 remains blocked and must not start without a later explicit user authorization.**
+R1.5A keeps concept/observation schema `0.3.0`; it is not R2. **R2 remains blocked and must not start without later explicit user authorization.**
 
-Treat current GitHub state, current branch head, open PRs, and current checks as authoritative over older R1.5 pre-merge prose.
+Treat current GitHub state, current branch head, open PRs, and current checks as authoritative over older status prose.
 
 ## Frozen corpus
 
@@ -46,7 +46,7 @@ R0 assertion identity/provenance remains preserved.
 
 ### R1 — schema `0.2.0`
 
-Completed and merged before R1.5:
+Preserved baseline:
 
 - 8 append-only review events
 - 3 conservative entity-resolution decisions
@@ -56,63 +56,59 @@ R1 primary histories remain append-only.
 
 ### R1.5 — schema `0.3.0`
 
-Merged into `main` at `d82f9c78...` after validation.
+Merged into `main` at `d82f9c78...`. It established the concept registry/evidence policies, exact 29-dimension production vocabulary/schema, separate Tolkāppiyam grammatical/poetics evidence contract, validators, exhaustive control audits, production-review schema/validator, and the first two Puṟanāṉūṟu production records.
 
-It established:
-
-- concept registry and evidence policies;
-- classification-basis vocabulary;
-- Akam/Puram and tiṇai/tuṟai foundations;
-- separate Tolkāppiyam grammatical/poetics evidence contract;
-- exact 29-dimension production vocabulary/schema;
-- validators preventing dimension collapse;
-- production-review schema/validator;
-- completed Puṟanāṉūṟu production records 001 and 002.
-
-The exhaustive pre-merge audit remains a coverage/control artifact:
+The exhaustive pre-merge audit remains control evidence only:
 
 - Puṟanāṉūṟu 400 / 400 × 29 dimensions;
 - Tolkāppiyam 1,602 / 1,602 நூற்பா × 29 dimensions.
 
-It must not be copied mechanically into production.
+It must never be copied mechanically into production.
 
 ## R1.5A — active production review
 
 R1.5A changes cadence, not scholarly standards.
 
-Current production progress is the longest gap-free prefix under:
+Canonical progress is the longest gap-free prefix under:
 
 `research/production/purananuru/records/`
 
-Current validated production boundary:
+Current materialized production boundary:
 
-- `001.json` through `010.json` are complete as the gap-free production prefix;
-- first R1.5A stabilization batch `003–010` is complete;
-- next record: **011**;
-- next planned checkpoint: **011–035**.
+- `001.json` through `035.json` form the gap-free production prefix;
+- stabilization batch **003–010** is complete;
+- first regular 25-record batch **011–035** is complete;
+- next record: **036**;
+- next planned checkpoint: **036–060**.
 
-Every poem must still be read completely and reviewed against all 29 dimensions. Exact source evidence/provenance, reviewed-empty states, ambiguity, damaged/source-lost conditions, and source terminology must be retained.
+Every poem is still read completely, sequentially, and considered against all 29 dimensions. Exact source evidence/provenance, reviewed-empty states, ambiguity, damaged/source-lost conditions, and source terminology must be retained.
 
 The old sparse audit is consulted only after the fresh source review for a record is complete.
 
-## R1.5A cadence
+## R1.5A cadence and materialization
 
 The active cadence is:
 
-1. review poems strictly sequentially;
-2. write each completed record JSON into the working tree before reading the next poem;
-3. keep each poem as its own `NNN.json` production record;
-4. stage reviewed decisions in a compact batch review spec under `research/production/purananuru/review-specs/`;
-5. materialize the individual production JSON files deterministically with `scripts/materialize_r15a_purananuru_batch.py`;
-6. publish records in deterministic multi-file batches rather than one Git commit per poem;
-7. stabilization batch **003–010** is complete;
-8. regular 25-record batches begin **011–035, 036–060, 061–085, ...** through 400;
-9. if interrupted, checkpoint the completed contiguous prefix rather than losing reviewed records;
-10. run the full PR CI/non-drift suite once per published batch rather than once per poem.
+1. review poems strictly sequentially and source-first;
+2. complete each poem's 29-dimension semantic decision state before reading the next poem;
+3. stage compact reviewed decisions under `research/production/purananuru/review-specs/`;
+4. deterministically expand them with `scripts/materialize_r15a_purananuru_batch.py` into separate `NNN.json` production records;
+5. attach an existing R0 body assertion only when its assertion type belongs to the already-reviewed dimension and its exact source text occurs inside the already-selected evidence span;
+6. never let R0 evidence create a semantic classification;
+7. compare the completed fresh classification with the old audit only after fresh review;
+8. publish one multi-file checkpoint per batch and run full PR CI/non-drift once per published batch.
 
-The materializer is not an automatic classifier. Its review spec records already-made source-first semantic decisions; it only expands those decisions into the canonical per-record schema and computes deterministic provenance fields/observation IDs.
+Completed publication cadence:
 
-This preserves individual scholarly completion while removing the previous commit/CI bottleneck.
+- benchmark: 001–002;
+- stabilization batch: **003–010**;
+- first 25-record batch: **011–035**.
+
+Next cadence:
+
+- **036–060, 061–085, 086–110, ...** through 400.
+
+The materialization workflow processes only review-spec files changed in its triggering commit. Historical completed specs are not regenerated by later tooling changes.
 
 ## Source terminology rule
 
@@ -122,14 +118,14 @@ Retain the exact Tamil term printed by the relevant source. Do not silently subs
 
 ## Puṟanāṉūṟu boundary
 
-Review 011 onward sequentially until all 400 records are complete.
+Review **036 onward** sequentially until all 400 records are complete.
 
 Special source conditions remain binding:
 
 - record 200: preserve damage/lacuna conservatively;
 - records 267–268: preserve source-lost/unreconstructed state;
 - empty dimension state means only no qualifying evidence identified in that reviewed source record;
-- printed names are source mentions, not automatically verified historical identities.
+- printed names remain source mentions, not automatically verified historical identities.
 
 Only after Puṟanāṉūṟu 001–400 is complete and validated may the equivalent Tolkāppiyam production pass begin.
 
@@ -146,7 +142,7 @@ R1.5A batch checkpoints must include:
 - R1 primary-history non-mutation;
 - documentation-status checks.
 
-The live PR/check state is authoritative for readiness.
+A bot-authored materialization commit may not itself launch the normal PR workflow. The authoritative batch checkpoint must therefore end on a user-authored/squashed branch head with the full PR workflow green.
 
 ## Current documentation authority
 
@@ -163,10 +159,10 @@ Read in this order:
 9. `docs/classical-tamil-research-layer.md`
 10. `docs/handover/r15-premerge-audit/04-29-DIMENSION-PRODUCTION-REVIEW.md` as historical/control methodology.
 
-Files under `docs/history/` and `docs/handover/r15-premerge-audit/` may describe earlier branch/merge boundaries and must be interpreted as historical/control records where they conflict with this post-merge handover.
+Files under `docs/history/` and `docs/handover/r15-premerge-audit/` remain historical/control records where they conflict with this handover.
 
 ## Next permitted activity
 
-Continue Puṟanāṉūṟu at record **011** and complete the next R1.5A batch **011–035** sequentially using the reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
+Continue Puṟanāṉūṟu at record **036** and complete batch **036–060** sequentially using the source-first reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
 
 Do not start R2.

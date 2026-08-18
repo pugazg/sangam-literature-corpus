@@ -25,9 +25,16 @@ jobs:
         run: |
           python -m pip install -r requirements.txt
           python -m pip install pytest
-      - name: Materialize reviewed batch
+      - name: Materialize changed reviewed specs
         run: |
-          python3 scripts/materialize_r15a_purananuru_batch.py --root . --spec research/production/purananuru/review-specs/003-010.json
+          git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'research/production/purananuru/review-specs/*.json' > /tmp/r15a-specs.txt
+          if [ ! -s /tmp/r15a-specs.txt ]; then
+            echo "No changed review specs."
+            exit 0
+          fi
+          while IFS= read -r spec; do
+            python3 scripts/materialize_r15a_purananuru_batch.py --root . --spec "$spec"
+          done < /tmp/r15a-specs.txt
       - name: Validate production prefix
         run: python3 scripts/validate_r15_purananuru_production.py --root .
       - name: Run regression suite
@@ -36,10 +43,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research/production/purananuru/records/003.json research/production/purananuru/records/004.json research/production/purananuru/records/005.json research/production/purananuru/records/006.json research/production/purananuru/records/007.json research/production/purananuru/records/008.json research/production/purananuru/records/009.json research/production/purananuru/records/010.json
+          git add research/production/purananuru/records/*.json
           if git diff --cached --quiet; then
             echo "No generated record changes."
           else
-            git commit -m "research: review Purananuru 003-010"
+            first=$(git diff --cached --name-only | sed -n 's#research/production/purananuru/records/\([0-9][0-9][0-9]\)\.json#\1#p' | head -1)
+            last=$(git diff --cached --name-only | sed -n 's#research/production/purananuru/records/\([0-9][0-9][0-9]\)\.json#\1#p' | tail -1)
+            git commit -m "research: review Purananuru ${first}-${last}"
             git push origin HEAD:${GITHUB_REF_NAME}
           fi

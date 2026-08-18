@@ -19,7 +19,13 @@ Each reviewed poem is stored as one file under:
 
 The files are the canonical record-level ledger. Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current gap-free prefix: **001–010**. The stabilization batch **003–010** is complete; the next record is **011**.
+Current materialized gap-free prefix: **001–035**.
+
+- benchmark: 001–002;
+- stabilization batch: **003–010** complete;
+- first regular 25-record batch: **011–035** complete;
+- next record: **036**;
+- next batch: **036–060**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -29,7 +35,7 @@ Every record must:
 2. consider the exact 29 canonical dimensions in registry order;
 3. distinguish qualifying evidence from reviewed-empty dimensions;
 4. retain exact source Tamil and body-relative line/character spans for body evidence;
-5. retain real R0 assertion IDs where an existing assertion supports the production observation;
+5. retain real R0 assertion IDs where an existing assertion genuinely supports the already-reviewed production observation;
 6. mark genuinely new semantic evidence as `direct_r15_source_review_no_prior_assertion` rather than inventing an R0 assertion;
 7. preserve source metadata/body provenance distinctions;
 8. keep printed names as source mentions unless separately resolved through permitted external evidence;
@@ -38,26 +44,34 @@ Every record must:
 
 ## Reviewed batch specs and materialization
 
-R1.5A uses compact source-first reviewed batch specs under:
+Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-The completed stabilization spec is:
+Completed R1.5A specs include the stabilization batch `003-010.json` and the 011–035 batch, split into contiguous staging specs `011-018.json`, `019-026.json`, and `027-035.json`.
 
-`review-specs/003-010.json`
+The split is only a compact staging detail. Canonical production remains one separate `NNN.json` file per poem, and the 011–035 specs were materialized together as one publication batch.
 
-`scripts/materialize_r15a_purananuru_batch.py` deterministically expands an already-reviewed spec into the separate canonical `NNN.json` production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review control discrepancies.
+`scripts/materialize_r15a_purananuru_batch.py` deterministically expands already-reviewed specs into canonical production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review audit discrepancies.
 
-The materializer is **not an automatic semantic classifier**. A dimension may appear in the spec only after the poem has been read source-first and that dimension decision has been made. The old sparse audit must not be used to populate the spec.
+The materializer is **not an automatic semantic classifier**. It may auto-attach a pre-existing R0 body assertion only when:
+
+- the R0 assertion type belongs to the dimension already selected by fresh review; and
+- its exact source text occurs inside the already-selected source evidence.
+
+This improves provenance without letting R0 create classifications. The old sparse audit must never populate a review spec.
+
+The materialization workflow processes only spec files changed in the triggering commit, so later tooling changes do not silently regenerate completed historical batches.
 
 ## R1.5A cadence
 
 The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
-- completed stabilization batch: 003–010;
-- next batch: **011–035**;
-- subsequent cadence: 036–060, 061–085, and further 25-record batches;
+- completed stabilization batch: **003–010**;
+- completed first regular batch: **011–035**;
+- next batch: **036–060**;
+- subsequent cadence: **061–085, 086–110, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;

@@ -11,24 +11,31 @@ This file defines current operational documentation after the authorized R1.5 me
 - R1.5 merge commit on `main`: `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`
 - PR #3: merged; historical R1.5 proposal
 - active research branch: `research/classical-tamil-concept-matrix-r1.5a`
+- active PR: #4, draft/unmerged R1.5A proposal
 - current phase: R1.5A production review
 - R2: blocked / not started
 
-R1.5A keeps concept/observation schema `0.3.0`. It changes the operational cadence for the production review; it does not open R2.
+R1.5A keeps concept/observation schema `0.3.0`. It changes production-review cadence, not the evidence standard or phase schema.
 
 ## Current production state
 
-The exact 29-dimension production vocabulary/schema has already been aligned and validated.
+The exact 29-dimension production vocabulary/schema remains aligned and validated.
 
 Puṟanāṉūṟu production progress is the longest gap-free prefix under `research/production/purananuru/records/`.
 
-At R1.5A start:
+Current materialized state:
 
-- 001 complete
-- 002 complete
-- 003 next
+- records **001–035** form the gap-free production prefix;
+- stabilization batch **003–010** is complete;
+- first regular 25-record batch **011–035** is complete;
+- next record: **036**;
+- next planned batch: **036–060**.
 
-The new cadence is 003–010 as the stabilization batch, then 25-record batches. Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
+The operational cadence is now 25-record batches after the completed 003–010 stabilization batch. Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
+
+Compact reviewed specs are source-first staging artifacts. The materializer expands them deterministically into the canonical records but must not manufacture semantic classifications. Existing R0 evidence may only be attached to a dimension that has already been selected by fresh review, with exact source-text support inside the selected evidence span.
+
+The materialization workflow processes only review-spec files changed in its triggering commit, preventing later tooling changes from silently rewriting completed batches.
 
 ## Current operational documents
 
@@ -68,7 +75,7 @@ Classical Tamil social, ritual, learned, occupational, political, kinship and co
 
 ## Validation policy
 
-R1.5A batch commits must pass:
+R1.5A batch checkpoints must pass:
 
 - exact 29-dimension surface validation;
 - Puṟanāṉūṟu production-prefix validation;
@@ -80,7 +87,7 @@ R1.5A batch commits must pass:
 - R1 primary-history preservation;
 - documentation-status regression checks.
 
-Full PR CI runs once per published batch rather than once per poem.
+Full PR CI runs once per published batch rather than once per poem. A generated bot commit is not the final checkpoint if the normal PR workflow does not execute on it; finish on a user-authored/squashed head and validate that exact head.
 
 ## Phase hold
 
