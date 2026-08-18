@@ -27,7 +27,9 @@ class ResearchR15AcceptanceTests(unittest.TestCase):
 
     def test_02_turai_is_first_class_foundation(self):
         concepts = {value["concept_id"]: value for value in self.registry["concepts"]}
-        self.assertEqual(concepts["literary.turai"]["dimension"], "turai")
+        self.assertEqual(concepts["literary.turai"]["dimension"], "tinai_turai")
+        self.assertEqual(concepts["literary.tinai"]["dimension"], "tinai_turai")
+        self.assertNotEqual(concepts["literary.turai"]["concept_id"], concepts["literary.tinai"]["concept_id"])
         self.assertEqual(concepts["literary.turai.uncertain"]["parent_concept_id"], "literary.turai")
         self.assertEqual(concepts["literary.turai.not_applicable"]["parent_concept_id"], "literary.turai")
 
