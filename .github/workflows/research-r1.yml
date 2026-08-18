@@ -9,7 +9,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   verify-research:
@@ -96,3 +96,18 @@ jobs:
           git diff --exit-code HEAD -- research/reviews/purananuru/review-events.ndjson
           git diff --exit-code HEAD -- research/entities/pilot/entity-resolution-decisions.ndjson
           git diff --exit-code HEAD -- research/relationships/pilot/relationships.ndjson
+
+      - name: Finalize R1.5 continuity documentation
+        if: github.event_name == 'push'
+        run: python3 scripts/finalize_research_r15_docs.py
+
+      - name: Commit finalized continuity documentation
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECT_HANDOVER.md PROJECT_GUIDELINES.md README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: finalize R1.5 continuity handover"
+            git push origin HEAD:research/classical-tamil-concept-matrix-r1.5
+          fi
