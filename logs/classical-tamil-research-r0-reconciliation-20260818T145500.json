@@ -1,0 +1,32 @@
+{
+  "report_id": "classical-tamil-research-r0-reconciliation",
+  "created_at": "2026-08-18T14:55:00+05:30",
+  "current_main_commit": "05bc2ae328a7f9cc94129b295f6c59d7457491ec",
+  "r0_branch": "research/sangam-evidence-r0",
+  "r0_commit": "7087626347b56e0145ab69b2fb7ef355f6bc07d5d",
+  "r1_branch": "research/sangam-evidence-r1",
+  "r1_base_commit": "05bc2ae328a7f9cc94129b295f6c59d7457491ec",
+  "reconciliation_commit": "6b9875ecc09c007772b8a4980523759528f5743f",
+  "r0_research_subtree_sha": "3b4ea0d5b820fe2d1bc9a27da190fe2b04af2e17",
+  "method": "Fresh R1 branch from current main with exact R0 research/support blobs overlaid onto the current Corpus 1.1.0 tree.",
+  "automatic_merge_attempt": {
+    "pull_request": 1,
+    "result": "conflict",
+    "merged": false
+  },
+  "force_push_used": false,
+  "merge_commit_used": false,
+  "canonical_paths_written": [],
+  "r0_identity": {
+    "assertions": 2867,
+    "mentions": 285,
+    "pilot_entities": 43,
+    "relationships": 51,
+    "assertions_sha256": "39f22d32948a112c65c712991023d33fcd171d5cd502cf767fdfd2fe91771b65"
+  },
+  "corpus_1_1_0_preserved": true,
+  "tolkappiyam_preserved": true,
+  "gate_a_structural_status": "pass",
+  "runtime_validation_status": "pending R1 branch CI",
+  "status": "pass"
+}

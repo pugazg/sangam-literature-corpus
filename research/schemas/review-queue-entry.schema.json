@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "review-queue-entry.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "queue_id",
+    "queue_item_type",
+    "work_id",
+    "record_id",
+    "assertion_id",
+    "entity_id",
+    "printed_form",
+    "assertion_type",
+    "evidence_span",
+    "source_field",
+    "source_location",
+    "current_confidence",
+    "current_review_status",
+    "proposed_entity_identity",
+    "identity_state",
+    "reviewer_type",
+    "supporting_assertion_ids",
+    "ambiguity_note",
+    "priority"
+  ]
+}

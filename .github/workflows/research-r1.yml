@@ -1,0 +1,109 @@
+name: Research R1 verification
+
+on:
+  push:
+    branches:
+      - research/sangam-evidence-r1
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  verify-r1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
+
+      - name: Regenerate preserved R0 layer
+        run: python3 scripts/generate_research_layer.py --root .
+
+      - name: Generate R1 review exports
+        run: python3 scripts/generate_research_r1.py --root .
+
+      - name: Validate R0 compatibility invariants
+        run: python3 scripts/validate_research_layer.py --root .
+
+      - name: Validate R1 workflow
+        run: >-
+          python3 scripts/validate_research_r1.py --root .
+          --output logs/classical-tamil-research-r1-validation-20260818T145500.json
+
+      - name: Run complete regression suite
+        run: pytest -q
+
+      - name: Audit repository
+        run: python3 scripts/audit_repository.py --root .
+
+      - name: Prove Corpus 1.1.0 and Tolkappiyam are unchanged
+        run: |
+          git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus sources apparatus manifests/poems.csv manifests/records.csv
+          git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus/tolkappiyam apparatus/tolkappiyam
+
+      - name: Finalize continuity documentation
+        if: github.event_name == 'push'
+        run: python3 scripts/finalize_research_r1_docs.py
+
+      - name: Revalidate finalized working tree
+        if: github.event_name == 'push'
+        run: |
+          python3 scripts/validate_research_layer.py --root .
+          python3 scripts/validate_research_r1.py --root .
+          pytest -q
+          python3 scripts/audit_repository.py --root .
+          git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus sources apparatus manifests/poems.csv manifests/records.csv
+          git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus/tolkappiyam apparatus/tolkappiyam
+
+      - name: Verify R1 idempotence
+        if: github.event_name == 'push'
+        run: >-
+          python3 scripts/verify_research_r1_idempotence.py --root .
+          --output logs/classical-tamil-research-r1-idempotence-20260818T145500.json
+
+      - name: Capture R1 baseline
+        if: github.event_name == 'push'
+        run: >-
+          python3 scripts/create_research_r1_baseline.py --root .
+          --output logs/classical-tamil-research-r1-baseline-20260818T145500.json
+
+      - name: Commit validated deterministic outputs
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            README.md \
+            PROJECT_HANDOVER.md \
+            PROJECT_GUIDELINES.md \
+            NEXT_CHAT_PROMPT.md \
+            docs/history/NEXT_CHAT_PROMPT_R1.md \
+            logs/classical-tamil-research-program-decisions.md \
+            research/reviews/purananuru/review-queue.ndjson \
+            research/reviews/purananuru/reviewed-export.ndjson \
+            research/reports/purananuru-r1-review-summary.json \
+            research/reports/purananuru-r1-review-summary.md \
+            research/reports/purananuru-r1-ambiguity-register.md \
+            research/reports/purananuru-r1-unresolved-entities.csv \
+            logs/classical-tamil-research-r1-validation-20260818T145500.json \
+            logs/classical-tamil-research-r1-idempotence-20260818T145500.json \
+            logs/classical-tamil-research-r1-baseline-20260818T145500.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: finalize R1 review foundation"
+            git push origin HEAD:research/sangam-evidence-r1
+          fi

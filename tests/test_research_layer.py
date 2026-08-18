@@ -43,7 +43,8 @@ class ResearchLayerTests(unittest.TestCase):
     def test_05_evidence_span(self):
         candidate = next(x for x in self.assertions if x["evidence_span"])
         parsed = parse_poem(ROOT / candidate["canonical_record_path"])
-        span = candidate["evidence_span"]; line = parsed["body_lines"][span["start_line"] - 1]
+        span = candidate["evidence_span"]
+        line = parsed["body_lines"][span["start_line"] - 1]
         self.assertEqual(line[span["start_character"]:span["end_character"]], candidate["source_text"])
 
     def test_06_tamil_unicode_nfc(self):
@@ -54,18 +55,21 @@ class ResearchLayerTests(unittest.TestCase):
         self.assertEqual(value["source_text"], value["normalization"]["printed_form"])
 
     def test_08_normalized_form_separate(self):
-        self.assertIn("normalization", self.assertions[0]); self.assertIn("normalized_form", self.assertions[0]["normalization"])
+        self.assertIn("normalization", self.assertions[0])
+        self.assertIn("normalized_form", self.assertions[0]["normalization"])
 
     def test_09_metadata_assertions(self):
         self.assertTrue(any(x["source_location"].startswith("yaml:") for x in self.assertions))
 
     def test_10_source_lost_267(self):
         parsed = parse_poem(ROOT / "corpus/purananuru/poems/267.md")
-        self.assertEqual(parsed["body"], ""); self.assertTrue(any(x["source_text"] == "lost" for x in self.by_record["267"]))
+        self.assertEqual(parsed["body"], "")
+        self.assertTrue(any(x["source_text"] == "lost" for x in self.by_record["267"]))
 
     def test_11_source_lost_268(self):
         parsed = parse_poem(ROOT / "corpus/purananuru/poems/268.md")
-        self.assertEqual(parsed["body"], ""); self.assertFalse(any(x["source_field"] == "canonical_body" for x in self.by_record["268"]))
+        self.assertEqual(parsed["body"], "")
+        self.assertFalse(any(x["source_field"] == "canonical_body" for x in self.by_record["268"]))
 
     def test_12_null_field_handling(self):
         self.assertFalse(any(x["source_text"] in {None, ""} for x in self.assertions))
@@ -102,36 +106,48 @@ class ResearchLayerTests(unittest.TestCase):
         self.assertTrue(all(x["review_status"] == "human_review_required" and x["modern_identification"] is None for x in entities))
 
     def test_22_append_only_review_events(self):
-        self.assertEqual((ROOT / "research/reviews/purananuru/review-events.ndjson").read_text(), "")
+        events = ndjson(ROOT / "research/reviews/purananuru/review-events.ndjson")
+        self.assertTrue(events)
+        self.assertEqual([x["sequence"] for x in events], list(range(1, len(events) + 1)))
 
     def test_23_invalid_transition_defined(self):
         from validate_research_layer import ALLOWED_TRANSITIONS
         self.assertNotIn(("machine_checked", "verified"), ALLOWED_TRANSITIONS)
 
     def test_24_duplicate_assertions(self):
-        ids = [x["assertion_id"] for x in self.assertions]; self.assertEqual(len(ids), len(set(ids)))
+        ids = [x["assertion_id"] for x in self.assertions]
+        self.assertEqual(len(ids), len(set(ids)))
 
     def test_25_orphan_paths(self):
         self.assertTrue(all((ROOT / x["canonical_record_path"]).is_file() for x in self.assertions))
 
     def test_26_deterministic_record_order(self):
-        values = [int(x["record_id"]) for x in self.assertions]; self.assertEqual(values, sorted(values))
+        values = [int(x["record_id"]) for x in self.assertions]
+        self.assertEqual(values, sorted(values))
 
     def test_27_utf8(self):
         (ROOT / "research/evidence/purananuru/assertions.ndjson").read_bytes().decode("utf-8")
 
     def test_28_atomic_write(self):
         with tempfile.TemporaryDirectory() as directory:
-            target = Path(directory) / "x"; atomic_write(target, "தமிழ்\n"); self.assertEqual(target.read_text(), "தமிழ்\n")
+            target = Path(directory) / "x"
+            atomic_write(target, "தமிழ்\n")
+            self.assertEqual(target.read_text(), "தமிழ்\n")
 
     def test_29_concurrent_lock(self):
         with tempfile.TemporaryDirectory() as directory:
-            lock = Path(directory) / "lock"; order = []
+            lock = Path(directory) / "lock"
+            order = []
+
             def worker(value):
-                with advisory_lock(lock): order.append(value)
+                with advisory_lock(lock):
+                    order.append(value)
+
             threads = [threading.Thread(target=worker, args=(x,)) for x in range(4)]
-            for x in threads: x.start()
-            for x in threads: x.join()
+            for x in threads:
+                x.start()
+            for x in threads:
+                x.join()
             self.assertEqual(sorted(order), [0, 1, 2, 3])
 
     def test_30_no_temp_files(self):
@@ -141,7 +157,8 @@ class ResearchLayerTests(unittest.TestCase):
         self.assertEqual(len(list((ROOT / "research/evidence/purananuru/records").glob("*.ndjson"))), 400)
 
     def test_32_source_note_hash(self):
-        value = self.assertions[0]; parsed = parse_poem(ROOT / value["canonical_record_path"])
+        value = self.assertions[0]
+        parsed = parse_poem(ROOT / value["canonical_record_path"])
         self.assertEqual(value["source_note_sha256"], parsed["source_note_sha256"])
 
     def test_33_csv_header(self):

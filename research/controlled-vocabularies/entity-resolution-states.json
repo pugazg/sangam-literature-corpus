@@ -1,0 +1,14 @@
+{
+  "vocabulary": "entity-resolution-states",
+  "version": "0.2.0",
+  "entries": [
+    {"code": "unresolved", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "candidate_entity", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "possible_match", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "reviewed_match", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "verified_match", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "rejected_match", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "split_required", "status": "active", "introduced_in_version": "0.2.0"},
+    {"code": "superseded", "status": "active", "introduced_in_version": "0.2.0"}
+  ]
+}
