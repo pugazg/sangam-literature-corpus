@@ -1,0 +1,81 @@
+{
+  "audit_schema_version": "0.1.0",
+  "phase": "R1.5",
+  "gate": "r15_premerge_exhaustive_matrix_audit",
+  "validated_branch_head": "0cee016cfc7dcbdcc475ee1d4aa2e1ecf426f5ff",
+  "pull_request": 3,
+  "workflow_run_id": 32139227280,
+  "workflow_job_id": 95717654556,
+  "workflow_conclusion": "success",
+  "dimension_count": 29,
+  "purananuru": {
+    "records_reviewed": 400,
+    "dimensions_considered_per_record": 29,
+    "source_lost_records": [267, 268],
+    "damaged_or_unreadable_records": [200],
+    "dimension_record_counts": {
+      "literary_domain": 400,
+      "tinai_turai": 388,
+      "landscape_environment": 282,
+      "season_weather_time": 138,
+      "flora": 142,
+      "fauna": 230,
+      "people_social_roles": 396,
+      "relationships": 391,
+      "emotion_lived_experience": 304,
+      "occupations_production": 112,
+      "food_subsistence": 157,
+      "clothing_ornaments_adornment": 152,
+      "material_culture_everyday_objects": 300,
+      "weapons_warfare": 216,
+      "mobility_transport": 125,
+      "settlements_built_environment": 154,
+      "economy": 197,
+      "trade_exchange": 15,
+      "polity_political_life": 313,
+      "communities_social_groups": 208,
+      "family_gender_kinship": 188,
+      "religion_ritual": 82,
+      "death_mourning_memory": 119,
+      "arts_music_performance": 187,
+      "knowledge_technology": 74,
+      "values_ethical_concepts": 384,
+      "body_health": 192,
+      "named_entities": 391,
+      "textual_intertextual_relationships": 17
+    }
+  },
+  "tolkappiyam": {
+    "iyals_reviewed": 27,
+    "nurpas_reviewed": 1602,
+    "dimensions_considered_per_record": 29,
+    "crosswalk_dimensions": 29,
+    "crosswalk_status_counts": {
+      "SYSTEMATIC_FORMAL_FRAMEWORK": 17,
+      "EXPLICIT_FORMAL_SUPPORT": 11,
+      "FORMAL_SCOPE_LIMITED": 1
+    },
+    "auto_classify_sangam_poems": false
+  },
+  "validation": {
+    "exhaustive_matrix_validator": "pass",
+    "validator_errors": [],
+    "validator_warnings": [],
+    "complete_regression_tests_passed": 209,
+    "r1_deterministic_regeneration": "pass",
+    "r15_deterministic_regeneration": "pass",
+    "r15_primary_inputs_preserved": true,
+    "repository_audit": "pass",
+    "repository_total_files": 8796,
+    "corpus_1_1_0_non_drift": "pass",
+    "tolkappiyam_non_drift": "pass",
+    "r1_primary_history_non_mutation": "pass"
+  },
+  "merge_state": {
+    "pr_must_remain_draft": true,
+    "pr_must_remain_unmerged": true,
+    "r2_blocked": true,
+    "reason": "User explicitly requested no R1.5 merge and no R2 start after exhaustive audit."
+  },
+  "status": "pass"
+}
