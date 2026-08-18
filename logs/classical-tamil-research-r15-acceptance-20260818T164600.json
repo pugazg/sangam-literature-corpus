@@ -1,0 +1,21 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R1.5",
+  "gate": "acceptance",
+  "concept_schema_version": "0.3.0",
+  "foundation_concepts_required": 27,
+  "foundation_concepts_present": 27,
+  "evidence_policy_families_checked": 6,
+  "tolkappiyam_stream_schema_present": true,
+  "tolkappiyam_production_observation_count": 0,
+  "observations_checked": 8,
+  "relationships_checked": 51,
+  "orphan_observation_assertion_count": 0,
+  "orphan_observation_concept_count": 0,
+  "orphan_relationship_assertion_count": 0,
+  "orphan_relationship_entity_count": 0,
+  "invalid_relationship_subject_count": 0,
+  "errors": [],
+  "warnings": [],
+  "status": "pass"
+}
