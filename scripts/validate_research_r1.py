@@ -150,8 +150,11 @@ def main() -> None:
                 errors.append(f"orphan queue support: {row['queue_id']}")
 
     manifest = json.loads((root / "manifests/classical-tamil-research-program.json").read_text(encoding="utf-8"))
-    if manifest.get("phase") != "R1" or manifest.get("research_schema_version") != "0.2.0":
-        errors.append("research programme manifest is not R1/0.2.0")
+    manifest_phase = manifest.get("phase")
+    if manifest_phase not in {"R1", "R1.5"} or manifest.get("research_schema_version") != "0.2.0":
+        errors.append("research programme manifest is not R1-compatible/0.2.0")
+    if manifest_phase == "R1.5" and manifest.get("concept_schema_version") != "0.3.0":
+        errors.append("R1.5 manifest does not preserve the expected concept schema version 0.3.0")
     if manifest.get("evidence_schema_version") != "0.1.0":
         errors.append("R0 evidence schema identity was not preserved")
     if manifest.get("source_release_commit") != "272d9d5a79d55994e2c12efacc22be20b2c88030":
