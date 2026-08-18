@@ -35,7 +35,7 @@
     },
     {
       "family": "lived_life",
-      "dimensions": ["season_time", "flora", "fauna", "food_subsistence", "occupation_labour", "economy_trade", "settlement_habitation", "family_kinship", "society_social_group", "polity_power", "warfare", "ritual_religion", "arts_performance", "body_adornment_clothing", "material_culture", "mobility_transport", "values_emotions"],
+      "dimensions": ["season_weather_time", "flora", "fauna", "people_social_roles", "relationships", "emotion_lived_experience", "occupations_production", "food_subsistence", "clothing_ornaments_adornment", "material_culture_everyday_objects", "weapons_warfare", "mobility_transport", "settlements_built_environment", "economy", "trade_exchange", "polity_political_life", "communities_social_groups", "family_gender_kinship", "religion_ritual", "death_mourning_memory", "arts_music_performance", "knowledge_technology", "values_ethical_concepts", "body_health"],
       "allowed_classification_bases": ["reviewed_source_assertion", "source_metadata_explicit", "mechanically_derived", "cross_text", "tolkappiyam_mapping", "editorial_inference", "external_historical", "interpretation"],
       "allowed_evidence_classes": ["SOURCE_EXPLICIT", "MECHANICALLY_DERIVED", "CROSS_TEXT", "GRAMMATICAL_CONCEPT_EVIDENCE", "EDITORIAL_INFERENCE", "EXTERNAL_HISTORICAL", "INTERPRETATION"],
       "rule": "Claim types must remain inspectable and must never be silently upgraded from lexical/source evidence to historical or interpretive conclusions."
