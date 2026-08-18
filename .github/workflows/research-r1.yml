@@ -14,6 +14,9 @@ permissions:
 jobs:
   verify-r1:
     runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTEST_ADDOPTS: "-p no:cacheprovider"
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -51,6 +54,9 @@ jobs:
       - name: Run complete regression suite
         run: pytest -q
 
+      - name: Remove runtime caches before audit
+        run: rm -rf .pytest_cache scripts/__pycache__ tests/__pycache__
+
       - name: Audit repository
         run: python3 scripts/audit_repository.py --root .
 
@@ -69,6 +75,7 @@ jobs:
           python3 scripts/validate_research_layer.py --root .
           python3 scripts/validate_research_r1.py --root .
           pytest -q
+          rm -rf .pytest_cache scripts/__pycache__ tests/__pycache__
           python3 scripts/audit_repository.py --root .
           git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus sources apparatus manifests/poems.csv manifests/records.csv
           git diff --exit-code classical-tamil-corpus-v1.1.0 -- corpus/tolkappiyam apparatus/tolkappiyam
