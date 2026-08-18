@@ -12,7 +12,7 @@ Active pull request: **PR #3** — R1.5 Classical Tamil Concept Matrix Foundatio
 
 **PR #3 is to remain open, draft, and unmerged until the user explicitly authorizes merge. R2 is blocked and has not started; do not start R2 before that authorization and a fresh inspection of live `main`.**
 
-At the documentation audit, GitHub exposes only `main` and the R1.5 research branch. Earlier R0/R1 branches were deleted after their work was preserved. Do not recreate or depend on those deleted branches.
+At the documentation audit, GitHub exposed only `main` and the R1.5 research branch. Earlier R0/R1 branches were deleted after their work was preserved. Do not recreate or depend on those deleted branches.
 
 ## Frozen corpus
 
@@ -97,19 +97,39 @@ Completed audit boundary:
 
 The audit ledger records review coverage and qualifying dimensions. It is not itself a bulk production-observation dataset.
 
+## Strengthened R1.5 production review
+
+The user has approved a stronger pre-merge standard before PR #3 can be considered for merge.
+
+The exact 29-dimension audit registry at `research/audits/r15-premerge/dimensions.json` is now the target production matrix surface.
+
+The older production vocabulary `research/controlled-vocabularies/concept-dimensions-r15.json` is still a coarser 22-dimension model. The next implementation activity is to align that production vocabulary/schema to the exact 29 dimensions and prevent future collapse through tests/validation.
+
+After schema alignment is green:
+
+1. review Puṟanāṉūṟu records 1–400 sequentially;
+2. for every poem, read the complete source record, consider all 29 dimensions, and write its durable production matrix/review state before moving to the next poem;
+3. after the Puṟanāṉūṟu production pass is complete and validated, review all 1,602 Tolkāppiyam நூற்பா across all 27 இயல் in the same record-by-record manner;
+4. keep Tolkāppiyam grammatical/poetics evidence separate from Sangam literary-world observations and distinguish grammatical concept evidence from incidental examples;
+5. commits may be batched deterministically, but the durable ledger must prove individual record completion.
+
+The authoritative detailed contract is `docs/handover/r15-premerge-audit/04-29-DIMENSION-PRODUCTION-REVIEW.md`.
+
+This remains R1.5. R2 must not start.
+
 ## Source terminology rule
 
 `docs/SOURCE_TERMINOLOGY_POLICY.md` is mandatory.
 
-Retain the exact Tamil term printed by the relevant source. For example, மரபியல் நூற்பா 71 uses `அந்தணர்`, while நூற்பா 72 uses `அரசர்`. Do not silently replace source terms with later caste, sectarian, modern-community, hierarchy, or external-influence identities.
+Retain the exact Tamil term printed by the relevant source. For example, மரபியல் நூற்பா 71 uses `அந்தணர்`, while நூற்பா 72 uses `அரசர்`. Do not silently replace source terms with later identity, hierarchy, sectarian, modern-community, or external-influence labels.
 
 Any later historical equivalence claim must be a separately classified external-evidence or interpretive assertion with independent provenance.
 
 ## Validation state
 
-The R1.5 PR workflow has passed the exhaustive matrix validator, complete regression suite, R1/R1.5 deterministic-regeneration checks, repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history non-mutation on the validated pre-documentation head.
+The documentation-audit head before this new continuation contract passed the R0/R1/R1.5 validators, exhaustive matrix validator, 216-test regression suite, deterministic regeneration checks, repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history preservation.
 
-Documentation cleanup is intentionally CI-validated again after changes. The live PR check state is authoritative; do not treat an older embedded workflow ID as permanent “final” status.
+The new continuation-document changes must also pass fresh CI. The live PR check state is authoritative; do not treat an older embedded workflow ID as permanent final status.
 
 ## Current documentation authority
 
@@ -126,7 +146,10 @@ Read these current documents in order:
 9. `docs/handover/r15-premerge-audit/01-PURANANURU.md`
 10. `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
 11. `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
-12. `research/README.md`
+12. `docs/handover/r15-premerge-audit/04-29-DIMENSION-PRODUCTION-REVIEW.md`
+13. `research/audits/r15-premerge/dimensions.json`
+14. `research/controlled-vocabularies/concept-dimensions-r15.json`
+15. `research/README.md`
 
 Files under `docs/history/` are historical snapshots. They may mention old branches, earlier phase boundaries, or superseded prompts and must not be executed as current instructions.
 
@@ -134,9 +157,12 @@ Release documents and durable machine logs remain historical records and are not
 
 ## Next permitted activity
 
-1. verify the documentation-audit CI on the current PR head;
-2. confirm PR #3 is still open, draft, and unmerged;
-3. report the audit result to the user;
-4. await explicit merge authorization.
+1. inspect live PR #3/branch/check state and confirm PR #3 remains open, draft, and unmerged;
+2. read `NEXT_CHAT_PROMPT.md` and `04-29-DIMENSION-PRODUCTION-REVIEW.md` completely;
+3. align the production concept-dimension vocabulary/schema from 22 coarse dimensions to the exact canonical 29-dimension surface;
+4. add/update tests and validators to prevent regression/collapse;
+5. require fresh full CI and non-drift validation;
+6. once green, begin Puṟanāṉūṟu record 001 and proceed sequentially, writing the durable matrix state after each poem;
+7. complete and validate Puṟanāṉūṟu before beginning the equivalent Tolkāppiyam நூற்பா-by-நூற்பா production pass.
 
-R2 is blocked. **Do not start R2 and do not merge PR #3 merely because all checks pass.**
+R2 is blocked. **Do not start R2 and do not merge PR #3 merely because checks pass.**
