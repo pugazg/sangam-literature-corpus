@@ -24,6 +24,12 @@ This audit distinguishes:
 
 The review manifest proves exhaustive reading coverage. `dimension-crosswalk.json` records representative formal support; it deliberately does **not** pretend to be an exhaustive concordance of every incidental example-word.
 
+## Source-terminology rule
+
+Follow `docs/SOURCE_TERMINOLOGY_POLICY.md`. Social, ritual, learned, occupational, political, kinship, and community terms are described using the exact Tamil form printed by the relevant source. Do not replace a source term with a later caste, sectarian, modern-community, hierarchy, or external-influence label at the source-evidence layer.
+
+For example, மரபியல் நூற்பா 71 uses `அந்தணர்`, while நூற்பா 72 uses `அரசர்`; those are the terms retained in this audit.
+
 ## Findings by அதிகாரம்
 
 ### Eḻuttatikāram
@@ -54,7 +60,7 @@ This is the strongest direct indigenous framework for the matrix.
 
 `செய்யுளியல்` names poem components including tiṇai, speaker, listener, place, time, benefit, emotion, prior context, meaning and tuṟai, and later treats textual forms and textual organization.
 
-`மரபியல்` gives extensive animal/sex/age naming, sensory cognition, role-linked objects for Brahmins/rulers, weapons/transport, commerce (`வாணிக வாழ்க்கை`), food, plough-based agriculture, plant parts, elements, and an explicit theory of first/derivative texts, translation, commentary, examples and scholarly procedure.
+`மரபியல்` gives extensive animal/sex/age naming, sensory cognition, role-linked objects explicitly assigned to `அந்தணர்` and `அரசர்`, weapons/transport, commerce (`வாணிக வாழ்க்கை`), food, plough-based agriculture, plant parts, elements, and an explicit theory of first/derivative texts, translation, commentary, examples and scholarly procedure.
 
 ## Matrix conclusion
 
