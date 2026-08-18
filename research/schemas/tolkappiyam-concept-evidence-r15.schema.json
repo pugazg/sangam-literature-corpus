@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research/schemas/tolkappiyam-concept-evidence-r15.schema.json",
+  "title": "Tolkāppiyam R1.5 grammatical/poetics concept evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "concept_evidence_id",
+    "work_id",
+    "record_id",
+    "concept_id",
+    "surface_form",
+    "source_location",
+    "evidence_class",
+    "classification_basis",
+    "canonical_record_sha256",
+    "confidence",
+    "review_status",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.3.0"},
+    "concept_evidence_id": {"type": "string", "pattern": "^gram\\.r15\\.[0-9a-f]{24}$"},
+    "work_id": {"const": "tolkappiyam"},
+    "record_id": {"type": "string", "minLength": 1},
+    "concept_id": {"type": "string", "pattern": "^[a-z0-9_.-]+$"},
+    "surface_form": {"type": "string", "minLength": 1},
+    "source_location": {"type": "string", "minLength": 1},
+    "evidence_class": {"const": "GRAMMATICAL_CONCEPT_EVIDENCE"},
+    "classification_basis": {"const": "tolkappiyam_mapping"},
+    "canonical_record_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "review_status": {"enum": ["unreviewed", "machine_checked", "human_review_required", "reviewed", "verified", "rejected", "superseded"]},
+    "notes": {"type": ["string", "null"]}
+  }
+}
