@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "entity.schema.json",
+  "required": [
+    "entity_id",
+    "preferred_label",
+    "entity_type",
+    "mention_assertions",
+    "review_status",
+    "modern_identification"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "research_schema_version": "0.1.0",
+  "research_status": "pilot",
+  "work_id": "purananuru",
+  "records_processed": 400,
+  "literary_bodies_processed": 398,
+  "source_lost_records": [
+    267,
+    268
+  ],
+  "assertion_count": 2867,
+  "mention_count": 285,
+  "entity_sample_count": 43,
+  "relationship_count": 51,
+  "assertions_by_type": {
+    "COMMODITY_MENTION": 8,
+    "COMMUNITY_MENTION": 28,
+    "ECONOMIC_ACTIVITY": 5,
+    "FAUNA_MENTION": 79,
+    "FLORA_MENTION": 21,
+    "GIFT_MENTION": 32,
+    "KINSHIP_MENTION": 13,
+    "MOUNTAIN_OR_HILL_MENTION": 7,
+    "MUSIC_OR_PERFORMANCE": 3,
+    "OCCUPATION_MENTION": 6,
+    "PATRON_OR_ADDRESSEE": 233,
+    "PERSON_MENTION": 3,
+    "POET_ATTRIBUTION": 386,
+    "POLITICAL_RELATION": 13,
+    "RULER_MENTION": 11,
+    "SOCIAL_PRACTICE": 6,
+    "SOURCE_CONTEXT_NOTE": 791,
+    "TEXTUAL_CONDITION": 400,
+    "TINI_VALUE": 386,
+    "TURAI_VALUE": 386,
+    "WARFARE_MENTION": 34,
+    "WATER_BODY_MENTION": 16
+  },
+  "assertions_by_evidence_class": {
+    "SOURCE_EXPLICIT": 2867
+  },
+  "review_status_counts": {
+    "human_review_required": 285,
+    "machine_checked": 2582
+  },
+  "records_with_no_assertions": [],
+  "external_historical_assertions": 0,
+  "interpretation_assertions": 0,
+  "warning": "Candidate counts are textual evidence records, not historical fact or resolved-entity counts."
+}

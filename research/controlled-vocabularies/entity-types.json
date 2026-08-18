@@ -1,0 +1,46 @@
+{
+  "vocabulary": "entity-types",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "code": "PERSON",
+      "label": "Person",
+      "definition": "A non-identifying pilot entity category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "RULER_OR_ADDRESSEE",
+      "label": "Ruler Or Addressee",
+      "definition": "A non-identifying pilot entity category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "PLACE",
+      "label": "Place",
+      "definition": "A non-identifying pilot entity category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "CONCEPT",
+      "label": "Concept",
+      "definition": "A non-identifying pilot entity category.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    }
+  ]
+}

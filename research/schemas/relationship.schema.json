@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "relationship.schema.json",
+  "required": [
+    "relationship_id",
+    "subject_id",
+    "predicate",
+    "object_id",
+    "supporting_assertion_ids",
+    "evidence_class",
+    "review_status"
+  ]
+}

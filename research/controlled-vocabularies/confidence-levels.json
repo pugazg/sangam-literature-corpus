@@ -1,0 +1,36 @@
+{
+  "vocabulary": "confidence-levels",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "code": "high",
+      "label": "High",
+      "definition": "Confidence in extraction or boundary, independent of evidence class.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "medium",
+      "label": "Medium",
+      "definition": "Confidence in extraction or boundary, independent of evidence class.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "low",
+      "label": "Low",
+      "definition": "Confidence in extraction or boundary, independent of evidence class.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    }
+  ]
+}

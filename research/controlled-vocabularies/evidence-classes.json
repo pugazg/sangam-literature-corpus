@@ -1,0 +1,66 @@
+{
+  "vocabulary": "evidence-classes",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "code": "SOURCE_EXPLICIT",
+      "label": "Source Explicit",
+      "definition": "Primary provenance class; confidence is recorded separately.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MECHANICALLY_DERIVED",
+      "label": "Mechanically Derived",
+      "definition": "Primary provenance class; confidence is recorded separately.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "CROSS_TEXT",
+      "label": "Cross Text",
+      "definition": "Primary provenance class; confidence is recorded separately.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "EXTERNAL_HISTORICAL",
+      "label": "External Historical",
+      "definition": "Primary provenance class; confidence is recorded separately.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "EDITORIAL_INFERENCE",
+      "label": "Editorial Inference",
+      "definition": "Primary provenance class; confidence is recorded separately.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "INTERPRETATION",
+      "label": "Interpretation",
+      "definition": "Primary provenance class; confidence is recorded separately.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    }
+  ]
+}

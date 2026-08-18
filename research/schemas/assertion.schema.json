@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "assertion.schema.json",
+  "required": [
+    "assertion_id",
+    "research_schema_version",
+    "programme_id",
+    "work_id",
+    "record_id",
+    "canonical_record_path",
+    "canonical_record_sha256",
+    "canonical_body_sha256",
+    "source_note_sha256",
+    "assertion_type",
+    "evidence_class",
+    "subject",
+    "predicate",
+    "object",
+    "source_text",
+    "evidence_span",
+    "source_field",
+    "source_location",
+    "source_note_reference",
+    "extraction_method",
+    "extractor_version",
+    "confidence",
+    "review_status",
+    "normalization",
+    "notes"
+  ],
+  "properties": {
+    "assertion_id": {
+      "type": "string",
+      "pattern": "^asrt\\.[0-9a-f]{24}$"
+    },
+    "evidence_class": {
+      "enum": [
+        "SOURCE_EXPLICIT",
+        "MECHANICALLY_DERIVED",
+        "CROSS_TEXT",
+        "EXTERNAL_HISTORICAL",
+        "EDITORIAL_INFERENCE",
+        "INTERPRETATION"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "machine_checked",
+        "human_review_required",
+        "reviewed",
+        "verified",
+        "rejected",
+        "superseded"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  }
+}

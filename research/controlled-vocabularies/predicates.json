@@ -1,0 +1,176 @@
+{
+  "vocabulary": "predicates",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "code": "ATTRIBUTED_TO",
+      "label": "Attributed To",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_PERSON",
+      "label": "Mentions Person",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "ADDRESSED_TO",
+      "label": "Addressed To",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "ASSOCIATED_WITH_TINAI",
+      "label": "Associated With Tinai",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "ASSOCIATED_WITH_TURAI",
+      "label": "Associated With Turai",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "HAS_PRINTED_TITLE",
+      "label": "Has Printed Title",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "HAS_TEXTUAL_STATUS",
+      "label": "Has Textual Status",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "HAS_PRINTED_SOURCE_NOTE",
+      "label": "Has Printed Source Note",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_CANDIDATE",
+      "label": "Mentions Candidate",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_COMMUNITY",
+      "label": "Mentions Community",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_OCCUPATION",
+      "label": "Mentions Occupation",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_FLORA",
+      "label": "Mentions Flora",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_FAUNA",
+      "label": "Mentions Fauna",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_COMMODITY",
+      "label": "Mentions Commodity",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_WARFARE",
+      "label": "Mentions Warfare",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "MENTIONS_SOCIAL_PRACTICE",
+      "label": "Mentions Social Practice",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    },
+    {
+      "code": "POSSIBLY_SAME_AS",
+      "label": "Possibly Same As",
+      "definition": "Assertion or relationship predicate supported by explicit provenance.",
+      "broader_term": null,
+      "narrower_terms": [],
+      "status": "active",
+      "introduced_in_version": "0.1.0",
+      "notes": null
+    }
+  ]
+}
