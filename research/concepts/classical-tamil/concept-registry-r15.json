@@ -127,6 +127,150 @@
       "description": "Peruntiṇai exceptional Akam category; record association requires provenance."
     },
     {
+      "concept_id": "literary.turai",
+      "dimension": "turai",
+      "label_ta": "துறை",
+      "label_en": "tuṟai",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Parent concept for source-provenanced tuṟai classifications. Specific source-printed tuṟai values require versioned stable concept IDs before assignment."
+    },
+    {
+      "concept_id": "literary.turai.uncertain",
+      "dimension": "turai",
+      "label_ta": "உறுதியற்ற துறை",
+      "label_en": "uncertain tuṟai",
+      "parent_concept_id": "literary.turai",
+      "status": "foundation",
+      "description": "Explicit uncertainty state for tuṟai classification; never inferred from conventional expectations."
+    },
+    {
+      "concept_id": "literary.turai.not_applicable",
+      "dimension": "turai",
+      "label_ta": "பொருந்தாத துறை",
+      "label_en": "tuṟai not applicable",
+      "parent_concept_id": "literary.turai",
+      "status": "foundation",
+      "description": "Tuṟai classification is not applicable for the record or evidence stream."
+    },
+    {
+      "concept_id": "landscape.classical",
+      "dimension": "landscape_environment",
+      "label_ta": "ஐந்திணை நிலவியல் கருத்துக்குடும்பம்",
+      "label_en": "classical five-landscape concept family",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Conceptual landscape family kept distinct from record-level tiṇai classification; associations require explicit evidence."
+    },
+    {
+      "concept_id": "landscape.kurinji",
+      "dimension": "landscape_environment",
+      "label_ta": "குறிஞ்சி நிலவியல்",
+      "label_en": "Kuṟiñci landscape family",
+      "parent_concept_id": "landscape.classical",
+      "status": "foundation",
+      "description": "Kuṟiñci landscape concept family. No terrain, season, flora, fauna, deity, occupation, or emotional association is implied without separately classified evidence."
+    },
+    {
+      "concept_id": "landscape.mullai",
+      "dimension": "landscape_environment",
+      "label_ta": "முல்லை நிலவியல்",
+      "label_en": "Mullai landscape family",
+      "parent_concept_id": "landscape.classical",
+      "status": "foundation",
+      "description": "Mullai landscape concept family. Conventional associations are not hard-coded as source facts."
+    },
+    {
+      "concept_id": "landscape.marutam",
+      "dimension": "landscape_environment",
+      "label_ta": "மருதம் நிலவியல்",
+      "label_en": "Marutam landscape family",
+      "parent_concept_id": "landscape.classical",
+      "status": "foundation",
+      "description": "Marutam landscape concept family. Record-level use requires assertion-backed classification provenance."
+    },
+    {
+      "concept_id": "landscape.neytal",
+      "dimension": "landscape_environment",
+      "label_ta": "நெய்தல் நிலவியல்",
+      "label_en": "Neytal landscape family",
+      "parent_concept_id": "landscape.classical",
+      "status": "foundation",
+      "description": "Neytal landscape concept family. Record-level use requires assertion-backed classification provenance."
+    },
+    {
+      "concept_id": "landscape.palai",
+      "dimension": "landscape_environment",
+      "label_ta": "பாலை நிலவியல்",
+      "label_en": "Pālai landscape family",
+      "parent_concept_id": "landscape.classical",
+      "status": "foundation",
+      "description": "Pālai landscape concept family. No transformed-landscape or climatic interpretation is asserted without evidence."
+    },
+    {
+      "concept_id": "entity.named",
+      "dimension": "named_entity",
+      "label_ta": "பெயரிடப்பட்ட குறிப்பு",
+      "label_en": "named-entity mention",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Parent concept for named-entity mentions; mention inventory remains separate from historical identity resolution."
+    },
+    {
+      "concept_id": "entity.person",
+      "dimension": "named_entity",
+      "label_ta": "நபர் குறிப்பு",
+      "label_en": "person mention",
+      "parent_concept_id": "entity.named",
+      "status": "foundation",
+      "description": "Named or titled person mention; does not establish a resolved historical individual."
+    },
+    {
+      "concept_id": "entity.place",
+      "dimension": "named_entity",
+      "label_ta": "இடக் குறிப்பு",
+      "label_en": "place mention",
+      "parent_concept_id": "entity.named",
+      "status": "foundation",
+      "description": "Place-name mention; modern geographic identification requires separate external evidence."
+    },
+    {
+      "concept_id": "entity.polity",
+      "dimension": "named_entity",
+      "label_ta": "அரசியல் அலகுக் குறிப்பு",
+      "label_en": "polity mention",
+      "parent_concept_id": "entity.named",
+      "status": "foundation",
+      "description": "Polity-name mention; dynasty, chronology, and territorial reconstruction remain separate claims."
+    },
+    {
+      "concept_id": "entity.community",
+      "dimension": "named_entity",
+      "label_ta": "சமூகக் குழுக் குறிப்பு",
+      "label_en": "community mention",
+      "parent_concept_id": "entity.named",
+      "status": "foundation",
+      "description": "Named community mention; no mapping to a modern caste or community identity is implied."
+    },
+    {
+      "concept_id": "entity.deity",
+      "dimension": "named_entity",
+      "label_ta": "தெய்வக் குறிப்பு",
+      "label_en": "deity mention",
+      "parent_concept_id": "entity.named",
+      "status": "foundation",
+      "description": "Deity-name mention; later sectarian or historical identification requires separately classified evidence."
+    },
+    {
+      "concept_id": "entity.uncertain",
+      "dimension": "named_entity",
+      "label_ta": "உறுதியற்ற பெயரிடப்பட்ட குறிப்பு",
+      "label_en": "uncertain named entity",
+      "parent_concept_id": "entity.named",
+      "status": "foundation",
+      "description": "Explicit uncertainty state when a surface form may be entity-like but identity/type is not established."
+    },
+    {
       "concept_id": "fauna.elephant",
       "dimension": "fauna",
       "label_ta": "யானை",
