@@ -84,11 +84,12 @@ Current production progress is the longest gap-free prefix under:
 
 `research/production/purananuru/records/`
 
-At R1.5A start:
+Current validated production boundary:
 
-- `001.json` complete and validated;
-- `002.json` complete and validated;
-- next record: **003**.
+- `001.json` through `010.json` are complete as the gap-free production prefix;
+- first R1.5A stabilization batch `003–010` is complete;
+- next record: **011**;
+- next planned checkpoint: **011–035**.
 
 Every poem must still be read completely and reviewed against all 29 dimensions. Exact source evidence/provenance, reviewed-empty states, ambiguity, damaged/source-lost conditions, and source terminology must be retained.
 
@@ -96,16 +97,20 @@ The old sparse audit is consulted only after the fresh source review for a recor
 
 ## R1.5A cadence
 
-The new cadence is:
+The active cadence is:
 
 1. review poems strictly sequentially;
 2. write each completed record JSON into the working tree before reading the next poem;
 3. keep each poem as its own `NNN.json` production record;
-4. publish records in deterministic multi-file batches rather than one Git commit per poem;
-5. first stabilization batch: **003–010**;
-6. thereafter use 25-record batches: **011–035, 036–060, 061–085, ...** through 400;
-7. if interrupted, checkpoint the completed contiguous prefix rather than losing reviewed records;
-8. run the full PR CI/non-drift suite once per published batch rather than once per poem.
+4. stage reviewed decisions in a compact batch review spec under `research/production/purananuru/review-specs/`;
+5. materialize the individual production JSON files deterministically with `scripts/materialize_r15a_purananuru_batch.py`;
+6. publish records in deterministic multi-file batches rather than one Git commit per poem;
+7. stabilization batch **003–010** is complete;
+8. regular 25-record batches begin **011–035, 036–060, 061–085, ...** through 400;
+9. if interrupted, checkpoint the completed contiguous prefix rather than losing reviewed records;
+10. run the full PR CI/non-drift suite once per published batch rather than once per poem.
+
+The materializer is not an automatic classifier. Its review spec records already-made source-first semantic decisions; it only expands those decisions into the canonical per-record schema and computes deterministic provenance fields/observation IDs.
 
 This preserves individual scholarly completion while removing the previous commit/CI bottleneck.
 
@@ -117,7 +122,7 @@ Retain the exact Tamil term printed by the relevant source. Do not silently subs
 
 ## Puṟanāṉūṟu boundary
 
-Review 003 onward sequentially until all 400 records are complete.
+Review 011 onward sequentially until all 400 records are complete.
 
 Special source conditions remain binding:
 
@@ -162,6 +167,6 @@ Files under `docs/history/` and `docs/handover/r15-premerge-audit/` may describe
 
 ## Next permitted activity
 
-Continue Puṟanāṉūṟu at record 003 and complete the first R1.5A batch 003–010 sequentially, publish it as one deterministic batch commit, validate the PR, then move to 011–035 if green.
+Continue Puṟanāṉūṟu at record **011** and complete the next R1.5A batch **011–035** sequentially using the reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
 
 Do not start R2.

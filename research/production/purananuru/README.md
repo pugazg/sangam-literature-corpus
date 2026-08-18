@@ -19,7 +19,9 @@ Each reviewed poem is stored as one file under:
 
 The files are the canonical record-level ledger. Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Before record `NNN+1` is read, the complete `NNN.json` must already exist in the working tree with its completed 29-dimension review state. Git commits may batch several already-completed record files.
+Current gap-free prefix: **001–010**. The stabilization batch **003–010** is complete; the next record is **011**.
+
+Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
 Every record must:
 
@@ -34,15 +36,30 @@ Every record must:
 9. preserve damaged/source-lost states without reconstruction;
 10. compare against the old sparse audit only after the fresh source review is complete.
 
+## Reviewed batch specs and materialization
+
+R1.5A uses compact source-first reviewed batch specs under:
+
+`research/production/purananuru/review-specs/`
+
+The completed stabilization spec is:
+
+`review-specs/003-010.json`
+
+`scripts/materialize_r15a_purananuru_batch.py` deterministically expands an already-reviewed spec into the separate canonical `NNN.json` production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review control discrepancies.
+
+The materializer is **not an automatic semantic classifier**. A dimension may appear in the spec only after the poem has been read source-first and that dimension decision has been made. The old sparse audit must not be used to populate the spec.
+
 ## R1.5A cadence
 
 The review is sequential; repository publication is batched.
 
-- benchmark already complete: 001–002;
-- stabilization batch: 003–010;
-- regular cadence: 25-record batches beginning 011–035, then 036–060, 061–085, and so on;
+- benchmark: 001–002;
+- completed stabilization batch: 003–010;
+- next batch: **011–035**;
+- subsequent cadence: 036–060, 061–085, and further 25-record batches;
 - final batch ends exactly at 400;
-- one deterministic multi-file Git commit per completed batch;
+- one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
 - if the active work session cannot complete a planned batch, checkpoint the completed contiguous prefix.
 

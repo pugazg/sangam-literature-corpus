@@ -26,7 +26,8 @@ Before changing the repository, read completely:
 8. `docs/handover/r15-premerge-audit/04-29-DIMENSION-PRODUCTION-REVIEW.md`
 9. `research/audits/r15-premerge/dimensions.json`
 10. `research/controlled-vocabularies/concept-dimensions-r15.json`
-11. current `main`, active R1.5A branch, active PR metadata, and latest checks.
+11. `scripts/materialize_r15a_purananuru_batch.py`
+12. current `main`, active R1.5A branch, active PR metadata, and latest checks.
 
 The old R1.5 pre-merge audit remains a control/provenance artifact. Its old merge-hold prose is historical and must not override this prompt.
 
@@ -36,9 +37,12 @@ The old R1.5 pre-merge audit remains a control/provenance artifact. Its old merg
 - R0 evidence schema `0.1.0` remains preserved: 2,867 assertions, 285 candidates, 43 pilot entities, 51 relationships.
 - R1 workflow schema `0.2.0` remains preserved with 8 append-only review events and 3 conservative entity decisions.
 - R1.5 concept/observation schema remains `0.3.0`.
-- The production concept vocabulary/schema is already aligned to the exact canonical 29 dimensions and machine-validated against regression/collapse.
-- Puṟanāṉūṟu production records `001.json` and `002.json` are complete and validated.
-- The next record is **003**.
+- The production concept vocabulary/schema is aligned to the exact canonical 29 dimensions and machine-validated against regression/collapse.
+- Puṟanāṉūṟu production records `001.json` through `010.json` form the current gap-free production prefix.
+- R1.5A stabilization batch `003–010` is complete.
+- The next record is **011** and the next planned batch is **011–035**.
+- `research/production/purananuru/review-specs/003-010.json` is the source-first reviewed batch specification for the completed stabilization batch.
+- `scripts/materialize_r15a_purananuru_batch.py` deterministically expands reviewed batch specs into the individual production record schema. It is a materializer, not an automatic classifier.
 - The exhaustive 400-record Puṟanāṉūṟu audit and 1,602-நூற்பா Tolkāppiyam audit are controls only; they are not the production matrix.
 - Tolkāppiyam must not auto-classify Sangam poems.
 
@@ -58,27 +62,31 @@ For each poem:
 
 1. read the complete frozen canonical record and source-explicit metadata;
 2. consider all 29 dimensions;
-3. create the complete `research/production/purananuru/records/NNN.json` state in the working tree before reading the next poem;
-4. retain exact Tamil evidence, source spans, provenance, uncertainty, reviewed-empty states, and real R0 assertion links where they actually exist;
-5. use `direct_record_review` only when semantic evidence is source-supported but no suitable prior R0 assertion exists;
-6. preserve exact source terminology under `docs/SOURCE_TERMINOLOGY_POLICY.md`;
-7. only after the fresh review is complete, compare with the old sparse audit control and record discrepancies.
+3. complete that record's reviewed decision state before reading the next poem;
+4. stage the reviewed evidence selectors/decisions in the active compact batch spec under `research/production/purananuru/review-specs/`;
+5. retain exact Tamil evidence, source spans, provenance, uncertainty, reviewed-empty states, and real R0 assertion links where they actually exist;
+6. use `direct_record_review` only when semantic evidence is source-supported but no suitable prior R0 assertion exists;
+7. preserve exact source terminology under `docs/SOURCE_TERMINOLOGY_POLICY.md`;
+8. only after the fresh review is complete, compare with the old sparse audit control and record discrepancies;
+9. deterministically materialize the batch into separate `research/production/purananuru/records/NNN.json` files;
+10. validate that the result extends the longest gap-free prefix with no skipped record.
 
 ### Repository checkpoint cadence
 
-- stabilization batch: **003–010**;
-- then 25-record batches: **011–035, 036–060, 061–085, ...**;
+- completed stabilization batch: **003–010**;
+- active next batch: **011–035**;
+- subsequent 25-record batches: **036–060, 061–085, ...**;
 - final batch may be shorter to end exactly at 400;
-- publish one deterministic multi-file Git commit per completed batch rather than one commit per poem;
+- publish one deterministic multi-file Git checkpoint per completed batch rather than one commit per poem;
 - run focused production validation while preparing the batch;
 - run the full repository CI/non-drift suite once per published batch, not once per poem;
 - if a batch cannot be completed in the current work session, checkpoint the completed contiguous prefix rather than discarding reviewed records.
 
-The batch commit must still contain separate canonical record files, so the repository can prove individual completion and the longest gap-free prefix remains the authoritative progress counter.
+The materializer must never manufacture semantic classifications. It only expands the already-reviewed batch spec into the canonical per-record JSON schema, computes deterministic observation IDs/provenance fields, and exposes any mismatch to validation.
 
 ## Puṟanāṉūṟu sequence
 
-Continue from record 003 and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
+Continue from record **011** and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
 
 Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
@@ -97,11 +105,13 @@ The GitHub workflow must also preserve R0/R1/R1.5 deterministic checks, Corpus 1
 
 ## Required next activity
 
-1. Confirm the R1.5A branch is based on merged `main` and inspect the live R1.5A PR/check state.
-2. Continue the already-started fresh review of Puṟanāṉūṟu record 003.
-3. Complete records 003–010 sequentially under the rules above.
-4. Publish 003–010 as the first R1.5A batch commit.
-5. Validate the batch through the full PR workflow.
-6. If green, continue with 011–035 using the 25-record cadence.
+1. Confirm PR #4 remains open, draft, unmerged and inspect the live head/check state.
+2. Confirm the production validator reports a gap-free prefix through `010` and next record `011`.
+3. Review Puṟanāṉūṟu records **011–035 sequentially**, source-first and against all 29 dimensions.
+4. Build the compact reviewed batch spec for 011–035 without copying the old audit.
+5. Materialize the individual 011–035 production JSON records deterministically.
+6. Publish the completed 25-record batch as the next R1.5A checkpoint.
+7. Validate the batch through the full PR workflow.
+8. If green, continue with 036–060.
 
 Do not start R2.
