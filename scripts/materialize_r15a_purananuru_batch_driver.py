@@ -15,6 +15,7 @@ AUDIT_DIR = "research/audits/r15-premerge/purananuru/parts"
 _EMPTY_SHA256 = hashlib.sha256(b"").hexdigest()
 _ORIGINAL_LOAD_R0 = core.load_r0
 _BLANK_THURAI_RECORDS: set[str] = set()
+_UNKNOWN_POET_RECORDS: set[str] = set()
 
 
 def audit_path_for_record(record_id: str) -> str:
@@ -50,6 +51,14 @@ def parse_record_compat(path: Path):
         body_lines.pop(0)
     body_lines = [line for line in body_lines if line != ""]
 
+    if front.get("poet_as_printed") == "பெயர் தெரிந்திலது":
+        _UNKNOWN_POET_RECORDS.add(path.stem)
+        front = dict(front)
+        # The literal source value means the poet's name is unknown. Treat it
+        # as absent for core named-entity linking, then restore the exact
+        # printed metadata value in the generated production record.
+        front["poet_as_printed"] = None
+
     if front.get("thurai") == "":
         _BLANK_THURAI_RECORDS.add(path.stem)
         front = dict(front)
@@ -80,15 +89,27 @@ def load_r0_compat(path: Path):
     return rows
 
 
+def _write_record(path: Path, data: dict) -> None:
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+
+
 def _restore_blank_thurai(root: Path, grouped_records: dict[str, dict]) -> None:
     for record_id in sorted(_BLANK_THURAI_RECORDS.intersection(grouped_records)):
         path = root / "research/production/purananuru/records" / f"{record_id}.json"
         data = json.loads(path.read_text(encoding="utf-8"))
         data["source_metadata_reviewed"]["thurai_as_printed"] = ""
-        path.write_text(
-            json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n",
-            encoding="utf-8",
-        )
+        _write_record(path, data)
+
+
+def _restore_unknown_poet(root: Path, grouped_records: dict[str, dict]) -> None:
+    for record_id in sorted(_UNKNOWN_POET_RECORDS.intersection(grouped_records)):
+        path = root / "research/production/purananuru/records" / f"{record_id}.json"
+        data = json.loads(path.read_text(encoding="utf-8"))
+        data["source_metadata_reviewed"]["poet_as_printed"] = "பெயர் தெரிந்திலது"
+        _write_record(path, data)
 
 
 def materialize(root: Path, spec_path: Path) -> None:
@@ -119,6 +140,7 @@ def materialize(root: Path, spec_path: Path) -> None:
         try:
             core.materialize(root, temp_path)
             _restore_blank_thurai(root, grouped_records)
+            _restore_unknown_poet(root, grouped_records)
         finally:
             temp_path.unlink(missing_ok=True)
 

@@ -19,15 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–235**.
+Current materialized gap-free prefix: **001–260**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235** complete;
-- next record: **236**;
-- next batch: **236–260**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235**, **236–260** complete;
+- next record: **261**;
+- next batch: **261–285**.
 
-Current validated figures: **235 reviewed / 165 remaining / 4,182 production observations / 29 canonical dimensions / 224 tests passed**.
+Current validated figures: **260 reviewed / 140 remaining / 4,628 production observations / 29 canonical dimensions / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -50,43 +50,43 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed 211–235 specs are:
+Completed 236–260 specs are:
 
-- `211-215.json`
-- `216-220.json`
-- `221-225.json`
-- `226-230.json`
-- `231-235.json`
+- `236-240.json`
+- `241-245.json`
+- `246-250.json`
+- `251-255.json`
+- `256-260.json`
 
 Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
 `scripts/materialize_r15a_purananuru_batch.py` deterministically expands already-reviewed semantic decisions into canonical production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review audit discrepancies.
 
-`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration/source-state compatibility layer. It selects the correct 50-record audit-control TSV for each record, safely handles a reviewed spec crossing an audit-part boundary, accepts a genuinely absent printed source-note block, and preserves a blank canonical `thurai` without inventing a `TURAI_VALUE` assertion. These compatibility rules only represent frozen source states; they do not classify semantics.
+`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration/source-state compatibility layer. It selects the correct 50-record audit-control TSV for each record, safely handles a reviewed spec crossing an audit-part boundary, accepts a genuinely absent printed source-note block, preserves a blank canonical `thurai` without inventing a `TURAI_VALUE` assertion, and preserves exact `பெயர் தெரிந்திலது` unknown-poet metadata while excluding that non-identity phrase from named-entity linking. These compatibility rules only represent frozen source states; they do not classify semantics.
 
 Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when its assertion type belongs to the dimension already selected by fresh review and its exact source text occurs inside the already-selected source evidence.
 
 The materializer records audit differences explicitly after fresh review. An order-only difference between canonical dimension order and the old control ledger is recorded as a discrepancy without changing the fresh semantic set or rewriting the control audit.
 
-## Source-state lessons from 211–235
+## Source-state lessons from 236–260
 
-- Record 213 preserves the printed source note's `தன் மக்கள்மேற் போருக்கு` as source-note kinship/war/relationship evidence rather than poem-body reconstruction.
-- Record 214 preserves `நல்வினை`, `மாறிப் பிறப்பு`, and `தவம்` without importing a later doctrinal system.
-- Records 215–217 preserve body/source-note/name-form and prior-utterance distinctions without collapsing them into externally reconstructed history.
-- Record 218 preserves literal `கண்ணகனார் நத்தத்தனார் எனவும் பாடம்`; `எனவும் பாடம்` is explicit textual-variant evidence rather than normalized metadata.
-- Record 219 preserves exact `மள்ள` without later social-identity substitution or over-resolution of `வள்ளுரம்`.
-- Records 221–223 preserve `கூற்றம்`, `நடுகல்`, quoted prior speech, `உடம்பு`, `இன்னுயிர்`, and `தொன்னட்பு` in source context.
-- Record 224 preserves `யூப நெடுந்தூண்`, `வேத வேள்வித் தொழில்`, `இரும்பாண் ஒக்கல்`, and `கோவலர்` without sectarian, hierarchy, external-influence, or later-identity expansion.
-- Record 225 preserves `தலையோர்`, `இடையோர்`, and `கடையோர்` as source sequence/group labels, not a later hierarchy system.
-- Records 226–227 preserve `கூற்றே` / `நயனில் கூற்றம்` as source death-agent imagery; 227's `பசி` belongs to personified `கூற்றம்`, not human subsistence.
-- Record 228 preserves potter/kiln/funerary-vessel technology and `தேவர் உலகம்` as source funerary/other-world language.
-- Record 229 preserves `பங்குனி`, half-night, star-position sequence, a falling celestial sign, and seven-day interval as source calendrical/astronomical knowledge and omen language without modern astronomical identification.
-- Record 232 leaves canonical YAML `பொதுவியல் / கையறுநிலை` unchanged and separately preserves source-note `தும்பை / பாண்பாட்டும் ஆம்` as alternate TT/TIR evidence.
-- Record 233 keeps body `அகுதை` / `எவ்வி` as unresolved source mentions separate from metadata identity evidence; the dawn voice remains a source-reported wound/loss claim rather than independently verified history.
-- Record 234 preserves `பிண்டம்` as funerary food/offering evidence and `தன்அமர் காதலி` without narrower legal-status inference.
-- Record 235 preserves `இரும்பாணர்`, `இரப்போர்`, `புலவர்`, `பாடுநர்`, and father-like `எந்தை`; `எந்தை` is not treated as literal genealogy.
+- Record 236 preserves `கேண்மை`, `நட்பு`, `குறவர்` and body/source-note `பாரி` provenance without later identity expansion.
+- Record 237 keeps deceased `வெளிமான்` distinct from addressee `இளவெளிமான்`; `கூற்றம்` / `ஊழ்` remain source language.
+- Record 238 preserves the source-note quotation/comment on `கண்ணில் ஊமன் கடற் பட்டாங்கு` as textual evidence separate from the body.
+- Record 241 preserves `வச்சிரத் தடக்கை நெடியோன் கோயிலுள்` without later named-deity identification.
+- Record 242 preserves source-note alternate attribution `கடவாயில் நல்லாதனார் பாடியது என்பதும் பாடம்` as textual-variant evidence without replacing canonical poet metadata.
+- Record 243 treats `நடுக்குற்று` / `சிலசொல்` as aging/body evidence rather than manufacturing death from the `கையறுநிலை` label.
+- Record 244 is incomplete/lacunose with null thinai/thurai/poet/addressee metadata. Only surviving `பாணர்`, `விறலியர்`, `இரவல் மாக்கள்`, `வண்டு`, and `தொடி` evidence is classified; title/tradition does not reconstruct death.
+- Records 246–247 preserve exact `உயவற் பெண்டிரேம்`, `கணவன்`, `கானவர்`, `அணங்குடை முன்றில்`, `கொழுநன்`, and `இன்னுயிர் நடுங்கும்` without later named-practice, legal-status or sectarian inference.
+- Record 249 preserves incomplete/lacuna state, alternate poet attribution, and the printed Nacciṉārkkiṉiyar/Tolkāppiyam citation as TIR only; Tolkāppiyam does not auto-classify the poem.
+- Records 251–252 preserve source signs of `தாபத வாகை`, including `புரிசடை` / `சடை`, fire, plant gathering and exact `வேட்டுவன்`, without later religious-order mapping.
+- Record 254 preserves exact `என் மகன்`, `அன்னை`, `கிளை`, and `மள்ள`.
+- Record 255 preserves `அறனில் கூற்றே` without later deity mapping.
+- Records 256–257 preserve literal `பெயர் தெரிந்திலது` in `source_metadata_reviewed.poet_as_printed` while `named_entities` remains reviewed-empty. The phrase denotes unknown attribution and is not itself a person/entity.
+- Record 259 preserves exact `மறவர்` and comparison-term `புலைத்தி` without later caste/community substitution.
+- Record 260 preserves canonical `கரந்தை (பாடாண் திணையுமாம்) / கையறுநிலை செருவிடை வீழ்தல்` plus printed source-note alternatives `கையறு நிலையுமாம்`, `பாண்பாட்டுமாம்`, and `பாடாண் பாட்டுமாம்` as separate TT/TIR evidence without normalization.
 
-Earlier provenance and terminology guardrails remain binding, including record 176 and all 186–210 source-state lessons.
+Earlier provenance and terminology guardrails remain binding, including record 176 and all 186–235 source-state lessons.
 
 ## R1.5A cadence
 
@@ -94,13 +94,15 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235**;
-- next batch: **236–260**;
-- subsequent cadence: **261–285, 286–310, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235**, **236–260**;
+- next batch: **261–285**;
+- subsequent cadence: **286–310, 311–335, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
 - if the active work session cannot complete a planned batch, checkpoint the completed contiguous prefix.
+
+**Records 267–268 are source-lost and must remain unreconstructed during the 261–285 batch.**
 
 This cadence must never be used to skip sequential semantic review or to copy the control ledger into production.
 
