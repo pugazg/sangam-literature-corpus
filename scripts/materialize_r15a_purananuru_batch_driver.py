@@ -16,10 +16,15 @@ _EMPTY_SHA256 = hashlib.sha256(b"").hexdigest()
 _ORIGINAL_LOAD_R0 = core.load_r0
 _BLANK_THURAI_RECORDS: set[str] = set()
 _UNKNOWN_POET_RECORDS: dict[str, str] = {}
+_UNKNOWN_ADDRESSEE_RECORDS: dict[str, str] = {}
 _UNKNOWN_POET_VALUES = {
     "பெயர் தெரிந்திலது",
     "பெயர் புலனாகவில்லை",
     "பாடப்பட்டோர் : பெயர்கள் தெரிந்தில",
+    ", பாடப்பட்டோர், திணை, துறை தெரிந்தில",
+}
+_UNKNOWN_ADDRESSEE_VALUES = {
+    "பெயர் தெரிந்திலது",
 }
 
 
@@ -64,6 +69,15 @@ def parse_record_compat(path: Path):
         # unknown. Treat them as absent for core named-entity linking, then
         # restore the exact printed metadata value in the production record.
         front["poet_as_printed"] = None
+
+    addressee_as_printed = front.get("addressee_as_printed")
+    if addressee_as_printed in _UNKNOWN_ADDRESSEE_VALUES:
+        _UNKNOWN_ADDRESSEE_RECORDS[path.stem] = addressee_as_printed
+        front = dict(front)
+        # These literal source values explicitly say that the sung/addressee
+        # identity is unknown. Exclude them from core named-entity linking,
+        # then restore the exact printed metadata value in the output record.
+        front["addressee_as_printed"] = None
 
     if front.get("thurai") == "":
         _BLANK_THURAI_RECORDS.add(path.stem)
@@ -118,6 +132,14 @@ def _restore_unknown_poet(root: Path, grouped_records: dict[str, dict]) -> None:
         _write_record(path, data)
 
 
+def _restore_unknown_addressee(root: Path, grouped_records: dict[str, dict]) -> None:
+    for record_id in sorted(set(_UNKNOWN_ADDRESSEE_RECORDS).intersection(grouped_records)):
+        path = root / "research/production/purananuru/records" / f"{record_id}.json"
+        data = json.loads(path.read_text(encoding="utf-8"))
+        data["source_metadata_reviewed"]["addressee_as_printed"] = _UNKNOWN_ADDRESSEE_RECORDS[record_id]
+        _write_record(path, data)
+
+
 def materialize(root: Path, spec_path: Path) -> None:
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
     records = spec.get("records", {})
@@ -147,6 +169,7 @@ def materialize(root: Path, spec_path: Path) -> None:
             core.materialize(root, temp_path)
             _restore_blank_thurai(root, grouped_records)
             _restore_unknown_poet(root, grouped_records)
+            _restore_unknown_addressee(root, grouped_records)
         finally:
             temp_path.unlink(missing_ok=True)
 

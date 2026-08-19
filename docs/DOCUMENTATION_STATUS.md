@@ -25,63 +25,66 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized and validated state:
 
-- records **001–360** form the gap-free production prefix;
+- records **001–385** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- semantic batches through **336–360** are complete;
-- next record: **361**;
-- next planned batch: **361–385**;
-- current validation: **360 reviewed / 40 remaining / 6,304 production observations / 224 tests passed**;
+- regular **25-record** semantic batches begin at **011–035** and are complete through **361–385**;
+- next record: **386**;
+- final Puṟanāṉūṟu batch: **386–400**;
+- current validation: **385 reviewed / 15 remaining / 6,819 production observations / 224 tests passed**;
 - canonical dimension count: **29**;
 - Tolkāppiyam production observation count: **0**.
 
-Normal PR verification workflow `32254779147` is green for the 001–360 verification tree, including R0/R1/R1.5 validators, exact 29-dimension and production-prefix gates, deterministic regeneration, repository audit, Corpus/Tolkāppiyam non-drift and R1 primary-history preservation.
+Normal PR verification workflow `32261366327` is green for the 001–385 verification tree, including R0/R1/R1.5 validators, exact 29-dimension and production-prefix gates, deterministic regeneration, repository audit, Corpus/Tolkāppiyam non-drift and R1 primary-history preservation.
 
 ## Publication method
 
 Semantic review remains strictly poem-by-poem, sequential and source-first. The old sparse audit remains post-review control only.
 
-The 336–360 batch was fully reviewed across all 25 poems before either control ledger was opened. Durable publication uses six compact specs:
+The 361–385 batch was fully reviewed across all 25 poems before the 351–400 control ledger was opened. Durable publication uses five compact specs:
 
-- `336-340.json`
-- `341-343.json`
-- `344-345.json`
-- `346-350.json`
-- `351-355.json`
-- `356-360.json`
-
-The 344–345 mini-batch isolates a composite printed attribution plus alternate classification. Construction-only malformed/debug artifacts were removed and are not part of the durable batch state.
+- `361-365.json`
+- `366-370.json`
+- `371-375.json`
+- `376-380.json`
+- `381-385.json`
 
 This changes only Git/materialization granularity. Split specs do not permit batch semantic guessing, skipped poems, audit-first classification or reduced provenance checking. One contiguous 25-record spec remains preferred when practical.
 
 The core materializer expands already-reviewed decisions deterministically; it must not manufacture classifications. Existing R0 evidence may attach only to a dimension already selected by fresh review with exact source-text support inside selected evidence.
 
-The range-aware driver preserves absent source-note states, blank canonical `thurai`, and exact unknown-poet/non-identification literals while preventing those phrases from becoming person/entity evidence.
+The range-aware driver preserves absent source-note states, blank canonical `thurai`, and exact non-identification metadata while preventing those phrases from becoming person/entity evidence.
 
-Currently recognized exact literals remain:
+Currently recognized unknown-poet literals are:
 
 - `பெயர் தெரிந்திலது`
 - `பெயர் புலனாகவில்லை`
 - `பாடப்பட்டோர் : பெயர்கள் தெரிந்தில`
+- `, பாடப்பட்டோர், திணை, துறை தெரிந்தில`
 
-No new driver rule was required for 344–345; their frozen composite attribution is preserved intact and semantically scoped in the reviewed observation note.
+The driver also suppresses and restores addressee `பெயர் தெரிந்திலது` during named-entity linking. These are source-state compatibility rules, not semantic classification or identity resolution.
 
-## Important fidelity/provenance checks from 336–360
+## Important fidelity/provenance checks from 361–385
 
-- 336 preserves exact `மறவர்` and `அறன்இலன்` without later identity-system expansion;
-- 337, 339–341, 346–347 and 352–355 where source damage/lacuna occurs remain source-bounded and are not reconstructed;
-- 338 preserves the printed `சிறப்பு` note about `நெடுவேள் ஆதன்` / `போந்தை` as source-context/TIR evidence distinct from the body;
-- 339–340 preserve exact `பெயர் தெரிந்திலது` without manufacturing named entities; 339 preserves exact `கோவலர்`;
-- 341 preserves `வாரா உலகம்` as source other-world/death language without later doctrinal mapping;
-- 343 records fish-for-rice exchange, ship-borne gold and mountain/sea goods without inferring a wider market system;
-- 344–345 preserve `அடைநெடுங் கல்வியார் பாடப்பட்டோன்: பெயர் தெரிந்திலது` as named poet plus unknown sung person, not one composite identity; alternate `வாகை / மூதின் முல்லை` remains additional TT/TIR rather than replacing canonical `காஞ்சி / மகட்பாற் காஞ்சி`;
-- 348 preserves `பாண் சேரி`, `தண்ணுமை`, `தழும்பன்`, `ஊணூர்` source-bounded;
-- 349 preserves exact `அணங்கு` without later deity/doctrine identification;
-- 352 preserves explicit `இடையிடை சிதைவுற்ற செய்யுள் இது` and the printed `சிறப்பு` note without reconstructing damaged lines;
-- 353 preserves exact `தொல்குடி` and `பஞ்சியும் களையாப் புண்ணர்` without later community/medical-system mapping;
-- 355 preserves poet and thurai `பெயர் தெரிந்திலது` plus `தோற்றக் கிடையாத போயின செய்யுள் இது.` as source-loss/TIR evidence, with no reconstruction;
-- 356 preserves `ஈம விளக்கு`, `சுடலை`, ash/bones, ghost-women imagery and tears as source funerary/death evidence;
-- 358 preserves `தவம்` and canonical `மனையறம், துறவறம்` without importing a later doctrinal system;
-- 360 preserves exact `புலையன்` without later caste/community equivalence and keeps the funerary-food context source-bound.
+- 361 preserves null thinai/thurai/addressee plus frozen non-identification poet/source-note wording; no TT or named entity is manufactured.
+- 362 preserves exact `அந்தணாளர்`, `நான்மறை`, `அறம்`, `பொருள்` without later identity/doctrinal mapping.
+- 363 preserves exact `இழி பிறப்பினோன்` as source social/funerary wording only.
+- 366 remains incomplete/lacunose; `தருமபுத்திரன்` is an unresolved printed addressee.
+- 367 preserves `நோற்றோர்`, `பார்ப்பார்`, `நல்வினை`, `இருபிறப்பாளர்`, `முத்தீ`; its `சிறப்பு` note is source-context/TIR rather than external history.
+- 368 keeps the source statement that the fallen ruler was still alive as source-reported battlefield-loss context, not verified historical death.
+- 370–371 remain incomplete/lacunose and are not reconstructed; 371 `பறை` remains the printed instrument term.
+- 372 preserves `மறக்கள வேள்வி`, `மாமறி பிண்டம்`, `வாலுவன்`, `வதுவை விழவு`, `பூதநீர்` without later doctrinal expansion.
+- 373 keeps canonical `வாகை / மறக்களவழி` and source-note `ஏர்க்கள உருவகமும் ஆம்` as additional TT/TIR without overwrite.
+- 374 preserves `புலிப்பற் றாலி` source-bound.
+- 375 preserves `ஏரின் வாழ்நர்`, `குடிமுறை` without later community substitution.
+- 376/379 preserve `எந்தை` as father-like patron language, not genealogy; 379 `இலங்கை` remains unresolved.
+- 377 treats gem/gold/pearl as gifts, not inferred transactional long-distance trade.
+- 378 preserves `தென் பரதவர்`, `வட வடுகர்`; its Rama–Sita narrative comparison is intertextual evidence, not historical verification.
+- 380 preserves null metadata, absent source note and lacunae without reconstruction.
+- 381 separates father-like `எந்தை` from explicit `கரும்பன் ஊரன் காதல் மகனே` kinship evidence.
+- 383 preserves addressee `பெயர் தெரிந்திலது`; body `அவியன்` remains separately unresolved and source-note `கொள்ளலும் பொருந்தும்` remains conjectural TIR.
+- 383–385 preserve `வெள்ளி` as source celestial/prognostic/time wording without modern astronomical equivalence or validated causal weather theory.
+- 384 preserves exact `உழவர்`.
+- 385 keeps `காவிரி அணையும் தாழ்நீர்ப் படப்பை` / rice cultivation as source water-management/agricultural evidence and printed names unresolved.
 
 Earlier source-terminology and provenance guardrails remain binding.
 
@@ -121,4 +124,4 @@ A generated bot commit is not the final checkpoint. Finish on one user-authored/
 
 ## Phase hold
 
-R1.5A remains active. Continue Puṟanāṉūṟu sequentially from **361**; the next permitted batch is **361–385**. Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated. **Do not start R2.**
+R1.5A remains active. The next permitted Puṟanāṉūṟu activity is the final **386–400** batch. Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated. **Do not start R2.**
