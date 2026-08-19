@@ -71,17 +71,17 @@ Canonical progress is the longest gap-free prefix under:
 
 Current materialized and validated production boundary:
 
-- `001.json` through `210.json` form the gap-free production prefix;
+- `001.json` through `235.json` form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, and **186–210** are complete;
-- next record: **211**;
-- next planned checkpoint: **211–235**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, and **211–235** are complete;
+- next record: **236**;
+- next planned checkpoint: **236–260**.
 
 Current validated production figures:
 
-- records reviewed: **210**;
-- records remaining: **190**;
-- production observations checked: **3,736**;
+- records reviewed: **235**;
+- records remaining: **165**;
+- production observations checked: **4,182**;
 - canonical dimensions: **29**;
 - regression suite: **224 passed**;
 - R0/R1/R1.5 validation, deterministic R1/R1.5 regeneration, repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history preservation: **pass**.
@@ -111,11 +111,11 @@ Completed cadence:
 
 - benchmark: 001–002;
 - stabilization: **003–010**;
-- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**.
+- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235**.
 
 Next cadence:
 
-- **211–235, 236–260, ...** through 400.
+- **236–260, 261–285, ...** through 400.
 
 ## Source terminology rule
 
@@ -125,27 +125,33 @@ Retain the exact Tamil term printed by the relevant source. Do not silently subs
 
 Source metadata, canonical body, and printed source-note evidence remain distinct. Null/blank canonical metadata stays null/blank. Printed names remain source mentions unless independently resolved.
 
-Important 186–210 fidelity/provenance lessons:
+Important 211–235 fidelity/provenance lessons:
 
-- record 194 has null canonical thinai/thurai/poet metadata and no source-note block; those absences remain null/absent and nothing is invented;
-- record 195 retains `கணிச்சிக் கூர்ம்படைக் கடுந்திறல் ஒருவன்` as source death/religious imagery without identifying it with a later named deity;
-- record 200's frozen canonical body contains only `???` / `???`; only work-level `literary_domain` qualifies, while the other 28 dimensions are explicitly reviewed-empty with no reconstruction from the title or external tradition;
-- record 201 preserves exact `அந்தணன்`, `புலவன்`, `வேளிருள் வேளே`, and `பாண்கடன்`; body-level `பறம்பு` / `பாரி` / `துவரை` remain direct source-review named-entity evidence, with only genuinely matching body R0 support attached and printed poet/addressee metadata kept separate;
-- record 202 preserves exact `வேட்டுவர்` and `தொல்குடி`; tiger-striped language remains imagery rather than an asserted tiger occurrence, and `புகழ்ந்த செய்யுள்` is retained as explicit textual/intertextual evidence;
-- records 205–206 preserve exact `வேட்டுவ`, `பரிசிலர்`, and `மரங்கொல் தச்சன்` without later social-system substitution;
-- record 207 preserves `ஆளி` as source creature/animal imagery without modern taxonomic or mythological equivalence;
-- record 208 records `வாணிகப் பரிசிலன் அல்லேன்` as direct `trade_exchange` evidence without expanding it into an inferred market system;
-- record 210 retains `கூற்றம்` as source death-agent/religious imagery without mapping it to a later named deity or doctrine.
+- record 213 keeps the printed source note's `தன் மக்கள்மேற் போருக்கு` as source-note kinship/war/relationship evidence rather than reconstructing it from the body;
+- record 214 preserves `நல்வினை`, `மாறிப் பிறப்பு`, and `தவம்` as the poem's own religious/moral language without importing a later doctrinal system;
+- records 215–217 preserve body/source-note/name-form distinctions around `பிசிரோன்`, `பிசிராந்தையார்`, the friend's coming, and prior utterances without collapsing them into externally reconstructed history;
+- record 218 preserves the literal attribution `கண்ணகனார் நத்தத்தனார் எனவும் பாடம்` and records `எனவும் பாடம்` as a textual-variant signal rather than normalizing the poet attribution;
+- record 219 preserves exact `மள்ள` and does not over-resolve `வள்ளுரம்` or map the social term to a later identity;
+- records 221–223 preserve `கூற்றம்`, `நடுகல்`, quoted prior speech, `உடம்பு`, `இன்னுயிர்`, and `தொன்னட்பு` in their source contexts without later deity/doctrine or genealogy expansion;
+- record 224 preserves exact `யூப நெடுந்தூண்`, `வேத வேள்வித் தொழில்`, `இரும்பாண் ஒக்கல்`, and `கோவலர்`; the ritual evidence is not expanded into sectarian, hierarchy, or external-influence claims;
+- record 225 preserves `தலையோர்`, `இடையோர்`, and `கடையோர்` as source sequence/group labels without mapping them to a later hierarchy system;
+- records 226–227 retain `கூற்றே` / `நயனில் கூற்றம்` as source death-agent imagery; record 227's `பசி` belongs to personified `கூற்றம்`, not to human subsistence evidence;
+- record 228 preserves potter/kiln/funerary-vessel technology and `தேவர் உலகம்` as source funerary/other-world language;
+- record 229 preserves `பங்குனி`, half-night, named star positions, a falling celestial sign, and the seven-day interval as source calendrical/astronomical knowledge and omen language without modern astronomical identification;
+- record 232 keeps canonical YAML `பொதுவியல் / கையறுநிலை` unchanged while separately preserving the printed source-note alternate classification `தும்பை / பாண்பாட்டும் ஆம்` as source-note TT/TIR evidence;
+- record 233 keeps body `அகுதை` / `எவ்வி` named-entity evidence separate from metadata identity evidence and treats the dawn voice as a source-reported wound/loss claim, not independently verified history;
+- record 234 preserves `பிண்டம்` as funerary food/offering evidence and `தன்அமர் காதலி` without inferring a narrower legal status;
+- record 235 preserves `இரும்பாணர்`, `இரப்போர்`, `புலவர்`, `பாடுநர்`, and father-like `எந்தை`; the latter is not treated as literal genealogy.
 
-Earlier 161–185 lessons remain binding, including the record-176 body/metadata provenance distinction and the rule against later identity substitution.
+Earlier lessons remain binding, including the record-176 body/metadata provenance distinction and all 186–210 terminology/source-state guardrails.
 
 ## Puṟanāṉūṟu boundary
 
-Review **211 onward** sequentially until all 400 records are complete.
+Review **236 onward** sequentially until all 400 records are complete.
 
 Special source conditions remain binding:
 
-- record 200 is now canonically reviewed without reconstruction from its damaged `???` body;
+- record 200 is canonically reviewed without reconstruction from its damaged `???` body;
 - records 267–268 must preserve source-lost/unreconstructed state;
 - empty dimension state means only no qualifying evidence identified in that reviewed source record;
 - printed names remain source mentions, not automatically verified historical identities.
@@ -187,6 +193,6 @@ Files under `docs/history/` and `docs/handover/r15-premerge-audit/` remain histo
 
 ## Next permitted activity
 
-First confirm the current final/squashed 001–210 checkpoint and its exact-head CI remain green. Then continue Puṟanāṉūṟu at record **211** and complete batch **211–235** sequentially using the source-first reviewed-spec → deterministic-materialization cadence.
+First confirm the current final/squashed 001–235 checkpoint and its exact-head CI remain green. Then continue Puṟanāṉūṟu at record **236** and complete batch **236–260** sequentially using the source-first reviewed-spec → deterministic-materialization cadence.
 
 Do not start the Tolkāppiyam production pass. Do not start R2.

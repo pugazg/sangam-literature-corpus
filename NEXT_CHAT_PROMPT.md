@@ -40,14 +40,14 @@ The old R1.5 pre-merge audit remains a control/provenance artifact and is consul
 - R1 schema `0.2.0` remains preserved with 8 append-only review events and 3 conservative entity decisions.
 - R1.5 concept/observation schema remains `0.3.0`.
 - Exact 29-dimension production vocabulary/schema remains machine-validated.
-- Puṟanāṉūṟu `001.json` through `210.json` form the current materialized gap-free production prefix.
+- Puṟanāṉūṟu `001.json` through `235.json` form the current materialized gap-free production prefix.
 - Stabilization batch **003–010** is complete.
-- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, and **186–210** are complete.
-- The next record is **211** and the next planned batch is **211–235**.
-- Current production validation: **210 reviewed / 190 remaining / 3,736 observations / next 211**.
+- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, and **211–235** are complete.
+- The next record is **236** and the next planned batch is **236–260**.
+- Current production validation: **235 reviewed / 165 remaining / 4,182 observations / next 236**.
 - Current canonical dimension count: **29**.
 - Current regression suite: **224 passed**.
-- Reviewed specs for 186–210 are `186-190.json`, `191-195.json`, `196-200.json`, `201-205.json`, and `206-210.json`.
+- Reviewed specs for 211–235 are `211-215.json`, `216-220.json`, `221-225.json`, `226-230.json`, and `231-235.json`.
 - The core materializer expands already-reviewed semantic decisions; it is not a classifier.
 - Existing R0 evidence may be attached only when it supports an already-made semantic decision and exact source text falls inside the selected evidence span.
 - Tolkāppiyam remains a separate evidence stream and must not auto-classify Sangam poems.
@@ -76,23 +76,29 @@ For each poem:
 
 Repository publication remains batched: one clean checkpoint and one full normal PR CI run per completed batch.
 
-## Durable lessons from 186–210
+## Durable lessons from 211–235
 
-- Record 194: null thinai/thurai/poet metadata and no source-note block remain null/absent; invent nothing.
-- Record 195: retain `கணிச்சிக் கூர்ம்படைக் கடுந்திறல் ஒருவன்` as source imagery; do not identify it with a later named deity.
-- Record 200: frozen body is only `???` / `???`; only work-level `literary_domain` qualifies and the other 28 dimensions remain explicitly reviewed-empty. Do not reconstruct from the title.
-- Record 201: preserve `அந்தணன்`, `புலவன்`, `வேளிருள் வேளே`, `பாண்கடன்`; body-level `பறம்பு` / `பாரி` / `துவரை` remain direct source-review evidence with only genuinely matching body R0 support, separate from metadata identity evidence.
-- Record 202: preserve `வேட்டுவர்`, `தொல்குடி`; tiger-striped comparison is imagery, not an asserted tiger occurrence; `புகழ்ந்த செய்யுள்` is explicit textual/intertextual evidence.
-- Records 205–206: preserve `வேட்டுவ`, `பரிசிலர்`, `மரங்கொல் தச்சன்` exactly.
-- Record 207: preserve `ஆளி` as source creature imagery without later taxonomy or mythic equivalence.
-- Record 208: `வாணிகப் பரிசிலன் அல்லேன்` is direct `trade_exchange` evidence, not permission to infer a market system.
-- Record 210: retain `கூற்றம்` as source death-agent/religious imagery without later deity/doctrine mapping.
+- Record 213: keep source-note `தன் மக்கள்மேற் போருக்கு` as source-note kinship/war evidence; do not reconstruct it as poem-body evidence.
+- Record 214: preserve `நல்வினை`, `மாறிப் பிறப்பு`, and `தவம்` as source religious/moral language without later doctrinal mapping.
+- Records 215–217: keep body/source-note/name forms and source-stated prior utterances distinct; do not collapse them into externally reconstructed history.
+- Record 218: preserve literal `கண்ணகனார் நத்தத்தனார் எனவும் பாடம்`; `எனவும் பாடம்` is explicit textual-variant evidence and must not be normalized away.
+- Record 219: preserve `மள்ள`; do not map it to a later social identity or over-resolve `வள்ளுரம்`.
+- Records 221–223: preserve `கூற்றம்`, `நடுகல்`, quoted prior speech, `உடம்பு`, `இன்னுயிர்`, and `தொன்னட்பு` in source context without later deity/doctrine or genealogy expansion.
+- Record 224: preserve exact `யூப நெடுந்தூண்`, `வேத வேள்வித் தொழில்`, `இரும்பாண் ஒக்கல்`, and `கோவலர்`; do not infer sectarian, hierarchy, or external-influence claims.
+- Record 225: preserve `தலையோர்`, `இடையோர்`, `கடையோர்` as source sequence/group labels, not a later hierarchy system.
+- Records 226–227: preserve `கூற்றே` / `நயனில் கூற்றம்` as source death-agent imagery; in 227, `பசி` belongs to personified `கூற்றம்`, not human subsistence.
+- Record 228: preserve potter/kiln/funerary-vessel technology and `தேவர் உலகம்` as source funerary/other-world language.
+- Record 229: preserve `பங்குனி`, half-night, star-position sequence, falling celestial sign and seven-day interval as source knowledge/omen evidence; impose no modern astronomical identification.
+- Record 232: canonical YAML remains `பொதுவியல் / கையறுநிலை`; separately preserve source-note alternate `தும்பை / பாண்பாட்டும் ஆம்` as TT/TIR evidence without overwriting metadata.
+- Record 233: body `அகுதை` / `எவ்வி` stay unresolved source mentions separate from metadata identity evidence; the dawn voice is a source-reported wound/loss claim, not independently verified history.
+- Record 234: preserve `பிண்டம்` as funerary food/offering evidence and `தன்அமர் காதலி` without narrower legal-status inference.
+- Record 235: preserve `இரும்பாணர்`, `இரப்போர்`, `புலவர்`, `பாடுநர்`, and father-like `எந்தை`; do not treat `எந்தை` as literal genealogy.
 
-Earlier source-terminology and provenance guardrails, including record 176, remain binding.
+Earlier source-terminology and provenance guardrails, including record 176 and 186–210, remain binding.
 
 ## Puṟanāṉūṟu sequence
 
-Continue from record **211** and do not skip ahead. Preserve records 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
+Continue from record **236** and do not skip ahead. Preserve records 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
 
 Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
@@ -112,13 +118,13 @@ The GitHub workflow must also preserve R0/R1/R1.5 validation, deterministic R1 a
 ## Required next activity
 
 1. Confirm PR #4 remains open, draft and unmerged; inspect live head and checks.
-2. Confirm the final/squashed production checkpoint is exactly **210 reviewed / 190 remaining / 3,736 observations / next 211**, with 29 canonical dimensions and 224 tests.
-3. Confirm the record-200 non-reconstruction, record-208 `trade_exchange`, and record-210 `கூற்றம்` provenance guardrails remain intact.
-4. Review Puṟanāṉūṟu **211–235 sequentially**, source-first and against all 29 dimensions.
+2. Confirm the final/squashed production checkpoint is exactly **235 reviewed / 165 remaining / 4,182 observations / next 236**, with 29 canonical dimensions and 224 tests.
+3. Confirm the record-218 textual variant, record-224 ritual-term boundary, record-229 non-modernized astronomical evidence, and record-232 alternate classification provenance remain intact.
+4. Review Puṟanāṉūṟu **236–260 sequentially**, source-first and against all 29 dimensions.
 5. Build compact contiguous reviewed specs without copying the old audit.
-6. Materialize 211–235 into separate canonical production JSON records through the repository's deterministic materializer/driver.
+6. Materialize 236–260 into separate canonical production JSON records through the repository's deterministic materializer/driver.
 7. Publish the completed 25-record batch as one clean user-authored checkpoint.
 8. Run the full normal PR workflow on the exact final squashed head.
-9. If green, the next permitted batch is 236–260.
+9. If green, the next permitted batch is 261–285.
 
 Do not start the Tolkāppiyam production pass. Do not start R2.

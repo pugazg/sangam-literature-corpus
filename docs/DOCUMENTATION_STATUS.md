@@ -25,12 +25,12 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized and validated state:
 
-- records **001–210** form the gap-free production prefix;
+- records **001–235** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, and **186–210** are complete;
-- next record: **211**;
-- next planned batch: **211–235**;
-- current validation: **210 reviewed / 190 remaining / 3,736 production observations / 224 tests passed**;
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, and **211–235** are complete;
+- next record: **236**;
+- next planned batch: **236–260**;
+- current validation: **235 reviewed / 165 remaining / 4,182 production observations / 224 tests passed**;
 - canonical dimension count: **29**.
 
 Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
@@ -39,18 +39,16 @@ Compact reviewed specs are source-first staging artifacts. The core materializer
 
 The range-aware driver selects the proper 50-record pre-merge audit-control part per record, including batches crossing an audit boundary. The old audit remains post-review control only and is not normalized to become canonical.
 
-The completed **186–210** review is staged in `186-190.json`, `191-195.json`, `196-200.json`, `201-205.json`, and `206-210.json`. Canonical production remains one `NNN.json` per poem.
+The completed **211–235** review is staged in `211-215.json`, `216-220.json`, `221-225.json`, `226-230.json`, and `231-235.json`. Canonical production remains one `NNN.json` per poem.
 
 Important fidelity/provenance checks from this batch:
 
-- record 194 preserves null thinai/thurai/poet metadata and an absent source-note block;
-- record 195 preserves `கணிச்சிக் கூர்ம்படைக் கடுந்திறல் ஒருவன்` without later deity identification;
-- record 200 preserves its frozen `???` / `???` body without reconstruction: only work-level `literary_domain` qualifies and the other 28 dimensions are explicitly reviewed-empty;
-- record 201 preserves exact `அந்தணன்`, `புலவன்`, `வேளிருள் வேளே`, and `பாண்கடன்`; body-level `பறம்பு` / `பாரி` / `துவரை` remain direct source-review evidence distinct from metadata identity evidence;
-- record 202 preserves exact `வேட்டுவர்` and `தொல்குடி`, and does not turn tiger-striped imagery into an asserted tiger occurrence;
-- records 205–207 preserve exact `வேட்டுவ`, `பரிசிலர்`, `மரங்கொல் தச்சன்`, and `ஆளி` without later identity/taxonomy substitution;
-- record 208 records `வாணிகப் பரிசிலன் அல்லேன்` as direct `trade_exchange` evidence without inferring a market system;
-- record 210 preserves `கூற்றம்` as source death-agent/religious imagery without later deity/doctrine mapping.
+- record 218 preserves literal `கண்ணகனார் நத்தத்தனார் எனவும் பாடம்`; the `எனவும் பாடம்` signal is recorded as textual/intertextual evidence rather than normalized away;
+- record 224 preserves exact `யூப நெடுந்தூண்`, `வேத வேள்வித் தொழில்`, `இரும்பாண் ஒக்கல்`, and `கோவலர்` without sectarian, hierarchy, external-influence, or later-identity expansion;
+- record 229 preserves `பங்குனி`, half-night, star positions, a falling celestial sign, and the seven-day interval as source calendrical/astronomical and omen evidence without modern astronomical identification;
+- record 232 keeps canonical YAML `பொதுவியல் / கையறுநிலை` unchanged while separately preserving printed source-note `தும்பை / பாண்பாட்டும் ஆம்` as alternate TT/TIR evidence;
+- record 233 keeps body `அகுதை` / `எவ்வி` unresolved and separate from metadata identity evidence; the dawn voice remains a source-reported wound/loss claim, not independently verified history;
+- exact source terms and source-context distinctions from 213–235 remain preserved, including `மள்ள`, `நடுகல்`, `கூற்றம்`, `தலையோர்`, `இடையோர்`, `கடையோர்`, `பிண்டம்`, `இரும்பாணர்`, `இரப்போர்`, `புலவர்`, and `பாடுநர்`.
 
 ## Current operational documents
 
@@ -108,4 +106,4 @@ Full PR CI runs once per published batch rather than once per poem. A generated 
 
 ## Phase hold
 
-R1.5A remains the active phase. Continue Puṟanāṉūṟu sequentially from **211**; the next permitted batch is **211–235**. Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated. **Do not start R2.**
+R1.5A remains the active phase. Continue Puṟanāṉūṟu sequentially from **236**; the next permitted batch is **236–260**. Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated. **Do not start R2.**
