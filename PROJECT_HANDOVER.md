@@ -71,17 +71,17 @@ Canonical progress is the longest gap-free prefix under:
 
 Current materialized production boundary:
 
-- `001.json` through `135.json` form the gap-free production prefix;
+- `001.json` through `160.json` form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, and **111–135** are complete;
-- next record: **136**;
-- next planned checkpoint: **136–160**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, and **136–160** are complete;
+- next record: **161**;
+- next planned checkpoint: **161–185**.
 
 Current validated production figures:
 
-- records reviewed: **135**;
-- records remaining: **265**;
-- production observations checked: **2,466**;
+- records reviewed: **160**;
+- records remaining: **240**;
+- production observations checked: **2,939**;
 - canonical dimensions: **29**;
 - regression suite: **224 passed**;
 - repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history preservation: **pass**.
@@ -111,11 +111,11 @@ Completed cadence:
 
 - benchmark: 001–002;
 - stabilization: **003–010**;
-- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**.
+- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**.
 
 Next cadence:
 
-- **136–160, 161–185, 186–210, ...** through 400.
+- **161–185, 186–210, 211–235, ...** through 400.
 
 ## Source terminology rule
 
@@ -123,20 +123,22 @@ Next cadence:
 
 Retain the exact Tamil term printed by the relevant source. Do not silently substitute later identity, hierarchy, sectarian, modern-community, or external-influence labels. Any later equivalence claim requires a separately classified evidence layer with independent provenance.
 
-The completed 111–135 batch preserves source terminology and source-state distinctions including `உமணர்`, `அந்தணர்`, split printed `அந்த ணாளன்`, `குறவர் மாக்கள்`, `கொங்கர்`, `பரிசில் மாக்கள்`, `பாணர்`, `பரிசிலர்`, `விறலி`, and `சான்றோர்` without later identity substitution. In particular:
+The completed 136–160 batch preserves exact terminology, malformed metadata, and source-note distinctions. In particular:
 
-- records 112 and 114–120 preserve the frozen combined `thinai` forms such as `பொதுவியல் துறை: கையறு நிலை` / `பொதுவியல் துறை: கையறுநிலை` rather than normalizing them;
-- record 116 explicitly prints `உமணர்` with `உப்பு ஓய் ஒழுகை`, so salt/transport evidence is source-explicit here, unlike record 102 where no salt commodity was supplied;
-- record 122 preserves exact `அந்தணர்` without later identity replacement;
-- record 125 preserves the printed alternative attribution `பேரிசாத்தனார் பாட்டு எனவும் கொள்வர்` as source-note/intertextual evidence without resolving authorship;
-- record 126 preserves the split printed form `அந்த ணாளன்` and treats `நாவாய்` as seafaring/mobility without automatically inferring trade;
-- record 128 keeps canonical `thurai: வாழ்த்து` while the source-note alternative `இயன்மொழியும் ஆம்` remains separate textual/intertextual evidence;
-- records 129 and 130 preserve exact `குறவர் மாக்கள்` and `கொங்கர்`;
-- record 134 preserves `அறவிலை வணிகன்` as source-explicit merchant/price language used metaphorically in an ethical argument; it does not reconstruct an actual market institution or transaction.
+- record 137 keeps canonical `இயன் மொழி` separate from source-note `பரிசில் துறையும் ஆம்`;
+- record 141 keeps canonical `பாணாற்று படை` separate from source-note `புலவராற்றுப் படையும் ஆம்`;
+- record 143 preserves exact `குறவர் மாக்கள்`, explicit `உயர்பலி` / `கடவுள்`, and source-note `கண்ணகி` / `தாபதநிலையும் ஆம்` without later identity or classification replacement;
+- record 145 preserves alternative authorship `பரணர் பாட்டு எனவும் கொள்வர்` as source-note evidence only;
+- record 150 preserves exact `வேட்டுவக் குடியினன்` and the printed source note's trailing comma rather than completing the note by inference;
+- record 151 preserves malformed frozen `addressee_as_printed: இளவிச்சிக்கோ. திணை: பாடாண்`; source-note `இளங் கண்டீரக்கோ` remains separate;
+- record 152 preserves exact `வேட்டுவர்` and source-note `வேட்டுவக் குடியினன்`;
+- record 157 preserves exact `குறவர் பெருமகன்` and source-note `குறவர் குடியினன்`;
+- record 158 preserves frozen poet `; பெருஞ்சித்திரனார்`, addressee `குமணன். திணை; பாடாண்`, explicit `மோசி பாடிய ஆயும்`, `எழுவர் மாய்ந்த பின்றை`, and source-note `எழுவர் வள்ளல்கள்` / `பரிசில் கடாநிலையும் ஆம்` without normalization;
+- records 159–160 preserve poet `; பெருஞ்சித்திரனார்`; record 159 keeps explicit lack of salt and buttermilk, while record 160 treats `மறப்புலி` as an imagined verbal device rather than evidence of an actual tiger occurrence.
 
 ## Puṟanāṉūṟu boundary
 
-Review **136 onward** sequentially until all 400 records are complete.
+Review **161 onward** sequentially until all 400 records are complete.
 
 Special source conditions remain binding:
 
@@ -181,6 +183,6 @@ Files under `docs/history/` and `docs/handover/r15-premerge-audit/` remain histo
 
 ## Next permitted activity
 
-Continue Puṟanāṉūṟu at record **136** and complete batch **136–160** sequentially using the source-first reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
+Continue Puṟanāṉūṟu at record **161** and complete batch **161–185** sequentially using the source-first reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
 
 Do not start R2.

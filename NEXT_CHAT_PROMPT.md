@@ -40,17 +40,17 @@ The old R1.5 pre-merge audit remains a control/provenance artifact. Its old merg
 - R1 schema `0.2.0` remains preserved with 8 append-only review events and 3 conservative entity decisions.
 - R1.5 concept/observation schema remains `0.3.0`.
 - Exact 29-dimension production vocabulary/schema remains machine-validated.
-- Puṟanāṉūṟu `001.json` through `135.json` form the current materialized gap-free production prefix.
+- Puṟanāṉūṟu `001.json` through `160.json` form the current materialized gap-free production prefix.
 - Stabilization batch **003–010** is complete.
-- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, and **111–135** are complete.
-- The next record is **136** and the next planned batch is **136–160**.
-- Current production validation: **135 reviewed / 265 remaining / 2,466 observations / next 136**.
+- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, and **136–160** are complete.
+- The next record is **161** and the next planned batch is **161–185**.
+- Current production validation: **160 reviewed / 240 remaining / 2,939 observations / next 161**.
 - Current regression suite: **224 passed**.
-- Compact reviewed specs for 111–135 are `111-115.json`, `116-120.json`, `121-125.json`, `126-130.json`, and `131-135.json`.
+- Reviewed specs for 136–160 are `136-140.json`, `141-145.json`, `146-150.json`, and single-record specs `151.json` through `160.json`; spec splitting is staging only.
 - The core materializer expands already-reviewed semantic decisions; it is not a classifier.
-- The range-aware driver selects the correct 50-record audit control, handles specs crossing audit-part boundaries, and preserves frozen source states with no printed source note or a blank canonical `thurai` without inventing semantic evidence.
-- Existing R0 evidence may be attached only when it supports an already-made semantic decision and its exact source text falls inside the selected evidence span.
-- The materialization workflow processes only review-spec files changed in its triggering commit, protecting completed historical batches from regeneration drift.
+- The range-aware driver selects the correct 50-record audit control and preserves frozen source anomalies without inventing evidence.
+- Existing R0 evidence may be attached only when it supports an already-made semantic decision and exact source text falls inside the selected evidence span.
+- The materialization workflow processes only review specs changed in its triggering commit, protecting completed historical batches from regeneration drift.
 - The exhaustive Puṟanāṉūṟu and Tolkāppiyam audits remain controls only.
 - Tolkāppiyam must not auto-classify Sangam poems.
 
@@ -64,51 +64,38 @@ Do not collapse dimensions for convenience.
 
 ## R1.5A working cadence
 
-The scholarly review remains strictly record-by-record and sequential; repository publishing is batched.
-
 For each poem:
 
 1. read the complete frozen canonical record and source-explicit metadata;
 2. consider all 29 dimensions;
 3. complete that record's semantic decision state before reading the next poem;
-4. stage exact evidence selectors/decisions in the active compact review spec;
-5. preserve exact Tamil evidence, source spans, uncertainty, reviewed-empty states, and source terminology;
-6. attach real R0 assertion IDs only where they actually support the already-reviewed observation;
-7. never let R0 assertions or the old audit manufacture a dimension classification;
-8. only after fresh review, compare with the correct 50-record sparse audit control and record discrepancies;
-9. materialize separate `research/production/purananuru/records/NNN.json` records deterministically;
-10. validate that the result extends the longest gap-free prefix with no skip.
+4. preserve exact Tamil evidence, source spans, uncertainty, reviewed-empty states, and source terminology;
+5. never let R0 assertions or the old audit manufacture a dimension classification;
+6. only after fresh review, compare with the correct sparse audit control and record discrepancies;
+7. stage the reviewed decision in a compact spec;
+8. materialize separate canonical `NNN.json` records deterministically;
+9. validate that the result extends the longest gap-free prefix with no skip.
 
-### Repository checkpoint cadence
+Repository publication remains batched: one clean checkpoint and one full normal PR CI run per completed batch.
 
-- completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**;
-- active next batch: **136–160**;
-- subsequent 25-record batches: **161–185, 186–210, ...**;
-- final batch may be shorter to end exactly at 400;
-- publish one deterministic multi-file checkpoint per completed batch;
-- run full repository CI/non-drift once per published batch, not once per poem;
-- if interrupted, checkpoint the completed contiguous prefix.
-
-A generated bot commit may not itself run the normal PR workflow. Finish each activity on a user-authored/squashed branch head and require that exact head's full PR workflow to be green.
-
-## Source-state lessons from 111–135
+## Source-state lessons from 136–160
 
 Preserve exact source states, including:
 
-- combined frozen `thinai` forms at records 112 and 114–120 such as `பொதுவியல் துறை: கையறு நிலை` / `பொதுவியல் துறை: கையறுநிலை`;
-- record 116 explicitly prints `உமணர்` with `உப்பு ஓய் ஒழுகை`; salt is source-explicit here, unlike record 102 where it must not be supplied;
-- record 122 keeps exact `அந்தணர்` without later identity substitution;
-- record 125 preserves source-note alternative attribution `பேரிசாத்தனார் பாட்டு எனவும் கொள்வர்` without resolving authorship;
-- record 126 preserves split printed `அந்த ணாளன்`; `நாவாய்` is seafaring/mobility evidence and does not automatically imply trade;
-- record 128 keeps canonical `thurai: வாழ்த்து`; source-note `இயன்மொழியும் ஆம்` remains separate textual/intertextual evidence;
-- record 129 preserves exact `குறவர் மாக்கள்`;
-- record 130 preserves exact `கொங்கர்`;
-- record 134 has frozen combined `thinai: பாடாண் துறை: இயன் மொழி`; `அறவிலை வணிகன்` is merchant/price language used metaphorically in ethical reasoning and must not be expanded into an actual market institution or transaction.
+- 137 canonical `இயன் மொழி` remains separate from source-note `பரிசில் துறையும் ஆம்`;
+- 141 canonical `பாணாற்று படை` remains separate from source-note `புலவராற்றுப் படையும் ஆம்`;
+- 143 retains exact `குறவர் மாக்கள்`, `உயர்பலி`, `கடவுள்`, source-note `கண்ணகி`, and alternative `தாபதநிலையும் ஆம்` without later substitution;
+- 145 keeps alternative authorship `பரணர் பாட்டு எனவும் கொள்வர்` only as source-note evidence;
+- 150 keeps exact `வேட்டுவக் குடியினன்` and the printed source note's trailing comma;
+- 151 keeps frozen malformed addressee `இளவிச்சிக்கோ. திணை: பாடாண்`; source-note `இளங் கண்டீரக்கோ` remains separate;
+- 152 keeps exact `வேட்டுவர்` and source-note `வேட்டுவக் குடியினன்`;
+- 157 keeps exact `குறவர் பெருமகன்` and source-note `குறவர் குடியினன்`;
+- 158 keeps poet `; பெருஞ்சித்திரனார்`, addressee `குமணன். திணை; பாடாண்`, `மோசி பாடிய ஆயும்`, `எழுவர் மாய்ந்த பின்றை`, and source-note `எழுவர் வள்ளல்கள்` / `பரிசில் கடாநிலையும் ஆம்` exactly;
+- 159–160 keep poet `; பெருஞ்சித்திரனார்`; 159 explicitly lacks salt and buttermilk; 160's `மறப்புலி` is imagined verbal imagery, not an actual tiger occurrence.
 
 ## Puṟanāṉūṟu sequence
 
-Continue from record **136** and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
+Continue from record **161** and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
 
 Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
@@ -128,12 +115,12 @@ The GitHub workflow must also preserve R0/R1/R1.5 deterministic checks, Corpus 1
 ## Required next activity
 
 1. Confirm PR #4 remains open, draft and unmerged; inspect the live head/check state.
-2. Confirm the production validator reports a gap-free prefix through `135` and next record `136`.
-3. Review Puṟanāṉūṟu **136–160 sequentially**, source-first and against all 29 dimensions.
-4. Build one or more compact contiguous reviewed specs without copying the old audit.
-5. Materialize 136–160 into separate canonical production JSON records through the range-aware driver.
+2. Confirm the production validator reports a gap-free prefix through `160` and next record `161`.
+3. Review Puṟanāṉūṟu **161–185 sequentially**, source-first and against all 29 dimensions.
+4. Build compact contiguous reviewed specs without copying the old audit.
+5. Materialize 161–185 into separate canonical production JSON records through the range-aware driver.
 6. Publish the completed 25-record batch as one R1.5A checkpoint.
 7. Run the full PR workflow on the final user-authored/squashed head.
-8. If green, continue with 161–185.
+8. If green, continue with 186–210.
 
 Do not start R2.

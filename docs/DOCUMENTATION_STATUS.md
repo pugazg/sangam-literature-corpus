@@ -25,12 +25,12 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized state:
 
-- records **001–135** form the gap-free production prefix;
+- records **001–160** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, and **111–135** are complete;
-- next record: **136**;
-- next planned batch: **136–160**;
-- current validation: **135 reviewed / 265 remaining / 2,466 production observations / 224 tests passed**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, and **136–160** are complete;
+- next record: **161**;
+- next planned batch: **161–185**;
+- current validation: **160 reviewed / 240 remaining / 2,939 production observations / 224 tests passed**.
 
 Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
 
@@ -40,7 +40,7 @@ The range-aware driver selects the proper 50-record pre-merge audit-control part
 
 The materialization workflow processes only review-spec files changed in its triggering commit, preventing later tooling changes from silently rewriting completed batches.
 
-The completed 111–135 activity uses five compact reviewed specs: `111-115.json`, `116-120.json`, `121-125.json`, `126-130.json`, and `131-135.json`.
+The completed 136–160 activity uses grouped specs `136-140.json`, `141-145.json`, `146-150.json`, plus single-record specs `151.json` through `160.json`. This splitting is only staging granularity; canonical production remains one `NNN.json` per poem and the activity is one final checkpoint.
 
 ## Current operational documents
 
@@ -76,9 +76,9 @@ The R1.5 pre-merge sparse ledgers remain useful only as post-review control evid
 
 `docs/SOURCE_TERMINOLOGY_POLICY.md` remains mandatory.
 
-Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. The 111–135 batch preserves exact terms including `உமணர்`, `அந்தணர்`, split `அந்த ணாளன்`, `குறவர் மாக்கள்`, `கொங்கர்`, `பரிசில் மாக்கள்`, `பாணர்`, `பரிசிலர்`, `விறலி`, and `சான்றோர்`. Later equivalence claims are separate evidence classes with independent provenance.
+Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. The 136–160 batch preserves exact terms and malformed source states including `குறவர் மாக்கள்`, `வேட்டுவர்`, `வேட்டுவக் குடியினன்`, `குறவர் பெருமகன்`, `குறவர் குடியினன்`, and the frozen `; பெருஞ்சித்திரனார்` poet field. Later equivalence claims are separate evidence classes with independent provenance.
 
-Source-state distinctions likewise remain exact: combined `thinai` strings at 112 and 114–120 are not normalized; 116 explicitly contains salt while 102 does not; 125 keeps alternative authorship only as printed source-note evidence; 128 keeps canonical `வாழ்த்து` separate from source-note `இயன்மொழியும் ஆம்`; and 134 keeps `அறவிலை வணிகன்` as metaphorical merchant/price language rather than proof of an actual market institution.
+Source-state distinctions likewise remain exact: 137/141 keep canonical classifications separate from source-note alternatives; 145 keeps alternative authorship only in source-note evidence; 150 retains the printed note's trailing comma; 151 retains malformed canonical addressee metadata separately from the source-note name; 158 retains malformed poet/addressee punctuation plus its explicit prior-song/death-memory references; 159 retains explicit absence of salt/buttermilk; and 160's `மறப்புலி` is represented as imagined animal imagery rather than an actual tiger occurrence.
 
 ## Validation policy
 

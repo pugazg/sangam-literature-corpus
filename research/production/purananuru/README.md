@@ -19,15 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–135**.
+Current materialized gap-free prefix: **001–160**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135** complete;
-- next record: **136**;
-- next batch: **136–160**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160** complete;
+- next record: **161**;
+- next batch: **161–185**.
 
-Current validated figures: **135 reviewed / 265 remaining / 2,466 production observations / 224 tests passed**.
+Current validated figures: **160 reviewed / 240 remaining / 2,939 production observations / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -39,7 +39,7 @@ Every record must:
 4. retain exact source Tamil and body-relative line/character spans for body evidence;
 5. retain real R0 assertion IDs where an existing assertion genuinely supports the already-reviewed production observation;
 6. mark genuinely new semantic evidence as `direct_r15_source_review_no_prior_assertion` rather than inventing an R0 assertion;
-7. preserve source metadata/body provenance distinctions;
+7. preserve source metadata/body/source-note provenance distinctions;
 8. keep printed names as source mentions unless separately resolved through permitted external evidence;
 9. preserve damaged/source-lost states without reconstruction;
 10. compare against the old sparse audit only after the fresh source review is complete.
@@ -50,13 +50,12 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed 111–135 specs are:
+Completed 136–160 specs are:
 
-- `111-115.json`
-- `116-120.json`
-- `121-125.json`
-- `126-130.json`
-- `131-135.json`
+- `136-140.json`
+- `141-145.json`
+- `146-150.json`
+- `151.json` through `160.json`
 
 Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
@@ -64,25 +63,22 @@ Spec splitting is only a compact staging detail; canonical production remains on
 
 `scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration/source-state compatibility layer. It selects the correct 50-record audit-control TSV for each record, safely handles a reviewed spec crossing an audit-part boundary, accepts a genuinely absent printed source-note block, and preserves a blank canonical `thurai` without inventing a `TURAI_VALUE` assertion. These compatibility rules only represent frozen source states; they do not classify semantics.
 
-Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when:
-
-- its assertion type belongs to the dimension already selected by fresh review; and
-- its exact source text occurs inside the already-selected source evidence.
-
-This improves provenance without letting R0 create classifications. The old sparse audit must never populate a review spec.
+Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when its assertion type belongs to the dimension already selected by fresh review and its exact source text occurs inside the already-selected source evidence.
 
 The materialization workflow processes only spec files changed in the triggering commit, so later tooling changes do not silently regenerate completed historical batches.
 
-## Source-state lessons from 111–135
+## Source-state lessons from 136–160
 
-- Frozen combined `thinai` values at records 112 and 114–120, including `பொதுவியல் துறை: கையறு நிலை` / `பொதுவியல் துறை: கையறுநிலை`, remain exact rather than being normalized.
-- Record 116 explicitly prints `உமணர்` with `உப்பு ஓய் ஒழுகை`; salt/transport evidence is source-explicit here, unlike record 102 where no salt commodity is supplied.
-- Record 122 preserves exact `அந்தணர்` without later identity substitution.
-- Record 125 preserves source-note alternative attribution `பேரிசாத்தனார் பாட்டு எனவும் கொள்வர்` as textual/intertextual evidence without resolving authorship.
-- Record 126 preserves split printed `அந்த ணாளன்`; `நாவாய்` is seafaring/mobility evidence and does not automatically imply trade.
-- Record 128 keeps canonical `thurai: வாழ்த்து`; source-note `இயன்மொழியும் ஆம்` remains separate textual/intertextual evidence.
-- Record 129 preserves exact `குறவர் மாக்கள்`; record 130 preserves exact `கொங்கர்`.
-- Record 134 preserves combined `thinai: பாடாண் துறை: இயன் மொழி`; `அறவிலை வணிகன்` is classified only as source-explicit merchant/price vocabulary used metaphorically in ethical reasoning, not as proof of an actual market institution or transaction.
+- Record 137 keeps canonical `இயன் மொழி` separate from source-note `பரிசில் துறையும் ஆம்`.
+- Record 141 keeps canonical `பாணாற்று படை` separate from source-note `புலவராற்றுப் படையும் ஆம்`.
+- Record 143 preserves exact `குறவர் மாக்கள்`, explicit `உயர்பலி` and `கடவுள்`, and source-note `கண்ணகி` / `தாபதநிலையும் ஆம்` without later identity or classification substitution.
+- Record 145 keeps alternative authorship `பரணர் பாட்டு எனவும் கொள்வர்` as source-note evidence only.
+- Record 150 keeps exact `வேட்டுவக் குடியினன்` and preserves the printed source note ending with its trailing comma rather than completing it by inference.
+- Record 151 keeps frozen malformed addressee `இளவிச்சிக்கோ. திணை: பாடாண்`; source-note `இளங் கண்டீரக்கோ` remains separate.
+- Record 152 preserves exact `வேட்டுவர்` and source-note `வேட்டுவக் குடியினன்`.
+- Record 157 preserves exact `குறவர் பெருமகன்` and source-note `குறவர் குடியினன்`.
+- Record 158 preserves poet `; பெருஞ்சித்திரனார்`, addressee `குமணன். திணை; பாடாண்`, explicit `மோசி பாடிய ஆயும்`, `எழுவர் மாய்ந்த பின்றை`, and source-note `எழுவர் வள்ளல்கள்` / `பரிசில் கடாநிலையும் ஆம்` without normalization.
+- Records 159–160 preserve poet `; பெருஞ்சித்திரனார்`; 159 keeps the explicit absence of salt and buttermilk, while 160 records `மறப்புலி` as imagined verbal imagery rather than evidence of an actual tiger occurrence.
 
 ## R1.5A cadence
 
@@ -90,9 +86,9 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**;
-- next batch: **136–160**;
-- subsequent cadence: **161–185, 186–210, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**;
+- next batch: **161–185**;
+- subsequent cadence: **186–210, 211–235, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
