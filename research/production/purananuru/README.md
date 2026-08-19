@@ -19,15 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–160**.
+Current materialized gap-free prefix: **001–185**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160** complete;
-- next record: **161**;
-- next batch: **161–185**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185** complete;
+- next record: **186**;
+- next batch: **186–210**.
 
-Current validated figures: **160 reviewed / 240 remaining / 2,939 production observations / 224 tests passed**.
+Current validated figures: **185 reviewed / 215 remaining / 3,366 production observations / 29 canonical dimensions / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -50,12 +50,13 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed 136–160 specs are:
+Completed 161–185 specs are:
 
-- `136-140.json`
-- `141-145.json`
-- `146-150.json`
-- `151.json` through `160.json`
+- `161-165.json`
+- `166-170.json`
+- `171-175.json`
+- `176-180.json`
+- `181-185.json`
 
 Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
@@ -65,20 +66,17 @@ Spec splitting is only a compact staging detail; canonical production remains on
 
 Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when its assertion type belongs to the dimension already selected by fresh review and its exact source text occurs inside the already-selected source evidence.
 
-The materialization workflow processes only spec files changed in the triggering commit, so later tooling changes do not silently regenerate completed historical batches.
+The materializer records audit differences explicitly after fresh review. An order-only difference between canonical dimension order and the old control ledger is recorded as a discrepancy without changing the fresh semantic set or rewriting the control audit.
 
-## Source-state lessons from 136–160
+## Source-state lessons from 161–185
 
-- Record 137 keeps canonical `இயன் மொழி` separate from source-note `பரிசில் துறையும் ஆம்`.
-- Record 141 keeps canonical `பாணாற்று படை` separate from source-note `புலவராற்றுப் படையும் ஆம்`.
-- Record 143 preserves exact `குறவர் மாக்கள்`, explicit `உயர்பலி` and `கடவுள்`, and source-note `கண்ணகி` / `தாபதநிலையும் ஆம்` without later identity or classification substitution.
-- Record 145 keeps alternative authorship `பரணர் பாட்டு எனவும் கொள்வர்` as source-note evidence only.
-- Record 150 keeps exact `வேட்டுவக் குடியினன்` and preserves the printed source note ending with its trailing comma rather than completing it by inference.
-- Record 151 keeps frozen malformed addressee `இளவிச்சிக்கோ. திணை: பாடாண்`; source-note `இளங் கண்டீரக்கோ` remains separate.
-- Record 152 preserves exact `வேட்டுவர்` and source-note `வேட்டுவக் குடியினன்`.
-- Record 157 preserves exact `குறவர் பெருமகன்` and source-note `குறவர் குடியினன்`.
-- Record 158 preserves poet `; பெருஞ்சித்திரனார்`, addressee `குமணன். திணை; பாடாண்`, explicit `மோசி பாடிய ஆயும்`, `எழுவர் மாய்ந்த பின்றை`, and source-note `எழுவர் வள்ளல்கள்` / `பரிசில் கடாநிலையும் ஆம்` without normalization.
-- Records 159–160 preserve poet `; பெருஞ்சித்திரனார்`; 159 keeps the explicit absence of salt and buttermilk, while 160 records `மறப்புலி` as imagined verbal imagery rather than evidence of an actual tiger occurrence.
+- Record 166 preserves exact printed `பார்ப்பான்` as a source term; no later identity substitution is introduced.
+- Record 170 preserves exact `இழிபிறப் பாளன்`, `விறலியர்`, `பாண`, and `கருங்கைக் கொல்லன்` as printed source terms.
+- Record 173's fresh qualifying set is retained in canonical dimension order. The old control audit lists the same set with `BH VEC`; the production record explicitly records that order-only control discrepancy rather than altering either source-first review or historical audit.
+- Record 174's canonical body has 28 lines. Terminal weather/environment evidence ends at line 28; no line 29 is invented.
+- Record 175 preserves exact `மோரியர்` as a printed source group mention without external equivalence.
+- Record 176 keeps the body-level `பாரி` / `பறம்பு` named-entity observation separate from metadata identity evidence: the body observation is `direct_record_review`, has `metadata_basis: false`, cites canonical body line 9, has no supporting R0 IDs, and remains historically unresolved. Printed poet/addressee metadata is a separate `source_metadata_explicit` observation.
+- Record 183 preserves exact `ஒருகுடி`, `நாற்பால்`, `கீழ்ப்பால்`, and `மேற்பால்` without mapping them to later caste, hierarchy, or modern-community categories.
 
 ## R1.5A cadence
 
@@ -86,9 +84,9 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**;
-- next batch: **161–185**;
-- subsequent cadence: **186–210, 211–235, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**;
+- next batch: **186–210**;
+- subsequent cadence: **211–235, 236–260, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
@@ -116,4 +114,4 @@ python3 scripts/validate_r15_purananuru_production.py --root .
 pytest -q
 ```
 
-The full PR workflow additionally covers deterministic regeneration, repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, R1 history preservation, and documentation continuity.
+The full PR workflow additionally covers R0/R1/R1.5 validation, deterministic R1 and R1.5 regeneration, repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, R1 history preservation, and documentation continuity.

@@ -225,6 +225,8 @@ def materialize(root: Path, spec_path: Path):
         added=[x for x in fresh if x not in old]; removed=[x for x in old if x not in fresh]
         if added: discrepancies.append("Fresh review adds: "+" ".join(added)+".")
         if removed: discrepancies.append("Fresh review omits control-only: "+" ".join(removed)+".")
+        if fresh != old and not discrepancies:
+            discrepancies.append("Fresh review preserves the same qualifying code set in canonical dimension order; control audit code order differs.")
         rec={
           "schema_version":"0.3.0","phase":"R1.5","production_review_id":f"purananuru-r15-production-{rid}",
           "work_id":"purananuru","record_id":rid,"record_number":n,"review_sequence_number":n,

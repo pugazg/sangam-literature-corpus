@@ -23,14 +23,15 @@ The exact 29-dimension production vocabulary/schema remains aligned and validate
 
 Puṟanāṉūṟu production progress is the longest gap-free prefix under `research/production/purananuru/records/`.
 
-Current materialized state:
+Current materialized and validated state:
 
-- records **001–160** form the gap-free production prefix;
+- records **001–185** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, and **136–160** are complete;
-- next record: **161**;
-- next planned batch: **161–185**;
-- current validation: **160 reviewed / 240 remaining / 2,939 production observations / 224 tests passed**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, and **161–185** are complete;
+- next record: **186**;
+- next planned batch: **186–210**;
+- current validation: **185 reviewed / 215 remaining / 3,366 production observations / 224 tests passed**;
+- canonical dimension count: **29**.
 
 Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
 
@@ -38,9 +39,15 @@ Compact reviewed specs are source-first staging artifacts. The core materializer
 
 The range-aware driver selects the proper 50-record pre-merge audit-control part per record, including batches crossing an audit boundary. It also preserves frozen source states with no printed source-note block and blank canonical `thurai` values without inventing R0 assertions or semantic classifications.
 
-The materialization workflow processes only review-spec files changed in its triggering commit, preventing later tooling changes from silently rewriting completed batches.
+The materializer now records an explicit discrepancy when a fresh review preserves the same qualifying dimension-code set in canonical order but the old audit lists that same set in a different order. The old audit remains post-review control only and is not normalized to become canonical.
 
-The completed 136–160 activity uses grouped specs `136-140.json`, `141-145.json`, `146-150.json`, plus single-record specs `151.json` through `160.json`. This splitting is only staging granularity; canonical production remains one `NNN.json` per poem and the activity is one final checkpoint.
+The completed **161–185** review is staged in `161-165.json`, `166-170.json`, `171-175.json`, `176-180.json`, and `181-185.json`. Canonical production remains one `NNN.json` per poem.
+
+Important fidelity/provenance checks from this batch:
+
+- record 174 uses the actual 28-line canonical body boundary; terminal evidence spans end at line 28, not an out-of-range line 29;
+- record 173 records the old audit's order-only `BH VEC` versus canonical `VEC BH` difference explicitly without changing the reviewed dimension set;
+- record 176 keeps body-level `பாரி` / `பறம்பு` named-entity evidence as `direct_record_review` with `metadata_basis: false`; printed poet/addressee metadata remains a separate metadata-based observation.
 
 ## Current operational documents
 
@@ -76,9 +83,9 @@ The R1.5 pre-merge sparse ledgers remain useful only as post-review control evid
 
 `docs/SOURCE_TERMINOLOGY_POLICY.md` remains mandatory.
 
-Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. The 136–160 batch preserves exact terms and malformed source states including `குறவர் மாக்கள்`, `வேட்டுவர்`, `வேட்டுவக் குடியினன்`, `குறவர் பெருமகன்`, `குறவர் குடியினன்`, and the frozen `; பெருஞ்சித்திரனார்` poet field. Later equivalence claims are separate evidence classes with independent provenance.
+Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. Do not silently map them to later caste, community, sectarian, hierarchy, or modern identity categories. Later equivalence claims require a separate evidence class and independent provenance.
 
-Source-state distinctions likewise remain exact: 137/141 keep canonical classifications separate from source-note alternatives; 145 keeps alternative authorship only in source-note evidence; 150 retains the printed note's trailing comma; 151 retains malformed canonical addressee metadata separately from the source-note name; 158 retains malformed poet/addressee punctuation plus its explicit prior-song/death-memory references; 159 retains explicit absence of salt/buttermilk; and 160's `மறப்புலி` is represented as imagined animal imagery rather than an actual tiger occurrence.
+Source metadata, poem-body evidence, and printed source-note evidence remain distinct. Null/blank canonical metadata remains null/blank. Printed names remain source mentions unless independently resolved.
 
 ## Validation policy
 
@@ -88,7 +95,7 @@ R1.5A batch checkpoints must pass:
 - Puṟanāṉūṟu production-prefix validation;
 - R0/R1/R1.5 validators;
 - full regression;
-- deterministic regeneration checks;
+- deterministic R1 and R1.5 regeneration checks;
 - repository audit;
 - Corpus 1.1.0/Tolkāppiyam non-drift;
 - R1 primary-history preservation;
@@ -98,4 +105,4 @@ Full PR CI runs once per published batch rather than once per poem. A generated 
 
 ## Phase hold
 
-R1.5A remains the active phase until its production-review boundary is completed/readied and the user explicitly authorizes a later transition. **Do not start R2.**
+R1.5A remains the active phase. Continue Puṟanāṉūṟu sequentially from **186**; the next permitted batch is **186–210**. Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated. **Do not start R2.**
