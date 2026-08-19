@@ -1,19 +1,23 @@
-# Tolkāppiyam concept-evidence stream — R1.5
+# Tolkāppiyam concept-evidence stream — R1.5 / R1.5A
 
-This directory reserves a **separate grammatical/poetics concept-evidence stream** for Tolkāppiyam.
+This directory is the **separate grammatical/poetics concept-evidence stream** for Tolkāppiyam.
 
-R1.5 establishes the schema and methodological boundary only. It does **not** bulk-populate Tolkāppiyam observations and does not treat a நூற்பா as a poem-level source classification.
+R1.5 established the schema and methodological boundary. R1.5A may populate reviewed production evidence only after the Puṟanāṉūṟu 001–400 production prerequisite is complete and validated.
 
-Future populated records must conform to `research/schemas/tolkappiyam-concept-evidence-r15.schema.json` and must preserve:
+Formal production observations must conform to `research/schemas/tolkappiyam-concept-evidence-r15.schema.json` and preserve:
 
-- the canonical Tolkāppiyam record ID;
+- canonical Tolkāppiyam record ID;
 - exact source-supported surface form/location;
-- the canonical record SHA-256;
-- `GRAMMATICAL_CONCEPT_EVIDENCE` as the evidence class;
-- `tolkappiyam_mapping` as the classification basis;
+- canonical record SHA-256;
+- `GRAMMATICAL_CONCEPT_EVIDENCE`;
+- `tolkappiyam_mapping`;
 - explicit confidence and review status;
-- a stable controlled `concept_id` from the versioned registry.
+- a stable controlled `concept_id` from a versioned registry.
 
-A Tolkāppiyam concept assertion may later support comparison with poem evidence, but it must never silently rewrite or auto-classify a Sangam poem. Cross-text applications must remain separate, assertion-backed research claims.
+`r15-production.ndjson` is a deterministic flattened view of formal concept evidence embedded in the per-நூற்பா production records. It is generated; the per-record review files are the durable 29-dimension review ledger.
 
-No production Tolkāppiyam concept-evidence records are created in R1.5. Corpus-wide or cross-text population belongs to a later approved phase after the R1.5 acceptance gates pass.
+A lexical item used only as an example remains an **incidental example** in the production record and is not emitted into the formal concept-evidence stream.
+
+A Tolkāppiyam concept assertion may later support comparison with poem evidence, but it must never silently rewrite or auto-classify a Sangam poem. Cross-text applications remain separate, evidence-backed research claims.
+
+R2 remains blocked.

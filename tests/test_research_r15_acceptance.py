@@ -47,13 +47,17 @@ class ResearchR15AcceptanceTests(unittest.TestCase):
         self.assertTrue({"entity.named", "entity.person", "entity.place", "entity.polity", "entity.community", "entity.deity", "entity.uncertain"} <= concepts)
         self.assertIn("Mention classification is separate from historical identity resolution", json.dumps(self.policies, ensure_ascii=False))
 
-    def test_05_tolkappiyam_stream_is_separate_and_unpopulated(self):
+    def test_05_tolkappiyam_stream_is_separate_and_population_is_prerequisite_gated(self):
         props = self.tolk_schema["properties"]
         self.assertEqual(props["work_id"]["const"], "tolkappiyam")
         self.assertEqual(props["evidence_class"]["const"], "GRAMMATICAL_CONCEPT_EVIDENCE")
         self.assertEqual(props["classification_basis"]["const"], "tolkappiyam_mapping")
         self.assertTrue((ROOT / "research/observations/tolkappiyam/README.md").is_file())
-        self.assertEqual(list((ROOT / "research/observations/tolkappiyam").glob("*.ndjson")), [])
+        populated = list((ROOT / "research/observations/tolkappiyam").glob("*.ndjson"))
+        if populated:
+            records = list((ROOT / "research/production/purananuru/records").glob("[0-9][0-9][0-9].json"))
+            self.assertEqual(len(records), 400)
+            self.assertTrue((ROOT / "research/production/purananuru/records/400.json").is_file())
 
     def test_06_evidence_policy_families_present(self):
         families = {value["family"] for value in self.policies["rules"]}

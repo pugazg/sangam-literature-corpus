@@ -1,0 +1,18 @@
+{
+  "registry_id": "tolkappiyam-production-concepts-r15a",
+  "schema_version": "0.3.0",
+  "status": "production-extension",
+  "base_registry": "research/concepts/classical-tamil/concept-registry-r15.json",
+  "work_scope": "tolkappiyam",
+  "concepts": [
+    {
+      "concept_id": "knowledge.grammar.phonology",
+      "dimension": "knowledge_technology",
+      "label_ta": "எழுத்து / ஒலியமைப்பு இலக்கண அறிவு",
+      "label_en": "grammatical phonology / letter-system knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that define or classify letters, dependent signs, phonological categories, articulation, or closely related letter-system structure. This is grammatical concept evidence, not a historical technology claim."
+    }
+  ]
+}
