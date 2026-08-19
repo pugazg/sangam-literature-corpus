@@ -1,4 +1,4 @@
-# Next Chat Prompt — R1.5A Tolkāppiyam stabilization
+# Next Chat Prompt — R1.5A Tolkāppiyam production
 
 Continue directly in `pugazg/sangam-literature-corpus`.
 
@@ -41,12 +41,11 @@ Before changing the repository, read completely:
 - Exact 29-dimension surface remains unchanged.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
 - Puṟanāṉūṟu cadence history remains: benchmark `001–002`, stabilization **003–010**, regular **25-record** batches beginning **011–035**, final `386–400`.
-- Tolkāppiyam benchmark `0001–0002` is materialized and validated.
-- Tolkāppiyam state: **2 / 1,602 reviewed; 1,600 remaining; next `tolkappiyam-0003`; 2 formal grammatical observations; 0 incidental examples; 29 dimensions; 228 tests passed**.
-- Benchmark workflow `32270636581` is fully green on the benchmark tree.
+- Tolkāppiyam benchmark `0001–0002` and stabilization **0003–0010** are materialized.
+- Current Tolkāppiyam state: **10 / 1,602 reviewed; 1,592 remaining; next `tolkappiyam-0011`; 10 formal grammatical observations; 4 incidental examples; 29 dimensions; 228 tests at the stabilization implementation boundary**.
 - Tolkāppiyam evidence never auto-classifies a Sangam poem.
 
-## Tolkāppiyam production evidence roles
+## Tolkāppiyam evidence roles
 
 For every dimension of every நூற்பா, distinguish:
 
@@ -60,44 +59,53 @@ Incidental examples remain inside the per-record review and must not be promoted
 
 The old crosswalk is representative/control evidence, not an exhaustive occurrence index and not a classifier.
 
-## Benchmark lessons
+## Stabilization lessons 0003–0010
 
-### 0001
+All eight records carry one formal `knowledge_technology` observation using `knowledge.grammar.phonology`.
 
-`எழுத்து எனப்படுப / அகரம் முதல் / னகர இறுவாய் முப்பஃது என்ப / சார்ந்து வரல் மரபின் மூன்று அலங்கடையே.`
+- **0003:** five short vowels; one `அளபு`; phonological duration only.
+- **0004:** seven long vowels; two `அளபு`; phonological duration only.
+- **0005:** no single letter takes three `அளபு`; no calendar/time claim.
+- **0006:** extension procedure is formal phonology. `புலவர்` is incidental `people_social_roles`; `என்மனார் புலவர்` is incidental `textual_intertextual_relationships`. No historical identity/community inference.
+- **0007:** `கண் இமை நொடி` calibrates `மாத்திரை`. `நொடி` is incidental `season_weather_time`; `கண் இமை` is incidental `body_health`. Neither becomes chronology or medicine. `நுண்ணிதின் உணர்ந்தோர்` is not promoted to a social role.
+- **0008:** `உயிர்` is the grammatical vowel-class label, not body/life/religious evidence.
+- **0009:** `மெய்` is the grammatical consonant-class label, not body or truth/ethical evidence.
+- **0010:** vowel/consonant combination is a grammatical relation, not a human/social relationship; `மெய்`/`உயிர்` remain grammatical labels.
 
-- formal evidence only in `knowledge_technology`;
-- concept `knowledge.grammar.phonology`;
-- `எழுத்து`/letter names are grammatical categories, not material objects or named historical entities;
-- no Akam/Puram or tiṇai/tuṟai classification is inferred.
+Total after stabilization: **10 formal observations / 4 incidental examples**.
 
-### 0002
+## Scaled cadence
 
-`அவைதாம், / குற்றியலிகரம் குற்றியலுகரம் / ஆய்தம் என்ற / முப்பாற்புள்ளியும் எழுத்து ஓரன்ன.`
+Use **இயல்-aware sequential batching** after stabilization:
 
-- formal evidence only in `knowledge_technology`;
-- same controlled concept;
-- `குற்றியலிகரம்`, `குற்றியலுகரம்`, `ஆய்தம்`, `புள்ளி` remain formal grammatical categories;
-- no material-object or historical-entity claim is manufactured.
+- never cross an இயல் boundary in one production spec;
+- if the remaining portion of an இயல் is 25 records or fewer, use one contiguous batch;
+- if an இயல் is longer, split it into contiguous chunks of at most 25 records, all within that இயல்;
+- semantic review remains strictly நூற்பா-by-நூற்பா and source-first; batch size only controls publication/CI granularity.
 
-## Required next activity — stabilization 0003–0010
+Immediate planned batches:
 
-Review **0003 through 0010 sequentially and source-first**.
+- **0011–0033** — 23 records; completes நூல் மரபு;
+- **0034–0058** — first 25 records of மொழி மரபு;
+- **0059–0082** — remaining 24 records of மொழி மரபு;
+- **0083–0103** — 21 records; completes பிறப்பியல்.
 
-For each record:
+## Required next activity — 0011–0033
 
-1. read the complete frozen நூற்பா and its எழுத்ததிகாரம் / நூல் மரபு context;
+Review **0011 through 0033 sequentially and source-first**, completing எழுத்ததிகாரம் / நூல் மரபு.
+
+For every record:
+
+1. read the complete frozen நூற்பா and its நூல் மரபு context;
 2. consider all 29 dimensions;
 3. fix formal evidence, incidental examples and reviewed-empty decisions before moving to the next record;
 4. preserve exact Tamil terms and source spans;
 5. do not use the old crosswalk to manufacture a classification;
-6. only after all eight fresh decisions are complete, compare with the old manifest/crosswalk as control context;
-7. stage one contiguous `0003-0010.json` stabilization spec;
-8. materialize records 0003–0010 and the flattened formal stream deterministically;
-9. validate the exact gap-free prefix through 0010;
-10. run full PR CI and capture actual formal-evidence count, incidental-example count and test count.
-
-Do not choose the scaled long-run cadence until stabilization is green. Afterward prefer இயல்-aware sequential batches rather than mechanically copying the Puṟanāṉūṟu 25-record cadence.
+6. only after fresh decisions are complete, compare with the old manifest/crosswalk as control context;
+7. stage one contiguous `0011-0033.json` spec;
+8. materialize the records and flattened formal stream deterministically;
+9. validate the exact gap-free prefix through 0033;
+10. finish the batch on one clean user-authored/squashed checkpoint parented by the previous green stabilization checkpoint, with full exact-head PR CI green.
 
 ## Hard boundaries
 

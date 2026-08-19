@@ -10,87 +10,59 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: active; benchmark accepted
+- Tolkāppiyam production: active; benchmark + stabilization complete
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
 
 ## Puṟanāṉūṟu completed state
 
-Puṟanāṉūṟu `001–400` is the complete, validated, gap-free production corpus.
+Puṟanāṉūṟu `001–400` is complete and validated at 400 reviewed / 0 remaining / 7,169 observations / 29 dimensions.
 
-Durable cadence history remains:
-
-- benchmark `001–002`;
-- stabilization `003–010`;
-- regular 25-record batches from `011–035` through `361–385`;
-- final `386–400`.
-
-Definitive Puṟanāṉūṟu completion checkpoint:
-
-- SHA `491fa3107984b29f1dbb747bc7483e0cb694ab91`;
-- 400 reviewed / 0 remaining;
-- 7,169 production observations;
-- 29 dimensions;
-- 224 tests at that completion boundary;
-- exact-head workflow `32267324444` green.
+Durable cadence history remains benchmark `001–002`, stabilization `003–010`, regular 25-record batches from `011–035` through `361–385`, then final `386–400`.
 
 ## Tolkāppiyam production contract
 
-Tolkāppiyam is a separate grammatical/poetics evidence stream over the frozen hierarchy:
+Tolkāppiyam is a separate grammatical/poetics evidence stream over the frozen `3 அதிகாரம் / 27 இயல் / 1,602 நூற்பா` hierarchy.
 
-`3 அதிகாரம் / 27 இயல் / 1,602 நூற்பா`
+Per-நூற்பா production review distinguishes formal grammatical/poetics concept evidence, incidental examples, and no qualifying evidence identified. Only formal evidence enters `research/observations/tolkappiyam/r15-production.ndjson` as `GRAMMATICAL_CONCEPT_EVIDENCE`; incidental examples remain in the record and are never automatic historical/lived-life claims.
 
-Canonical IDs are `tolkappiyam-0001` through `tolkappiyam-1602`, ordered by source sequence.
+The old Tolkāppiyam manifest/crosswalk remains representative coverage/control evidence only and never a classifier.
 
-Per-நூற்பா production review distinguishes:
+## Current Tolkāppiyam boundary
 
-- formal grammatical/poetics concept evidence;
-- incidental examples;
-- no qualifying evidence identified.
+Benchmark `0001–0002` and stabilization `0003–0010` are materialized as a gap-free prefix:
 
-Only formal evidence enters `research/observations/tolkappiyam/r15-production.ndjson` as `GRAMMATICAL_CONCEPT_EVIDENCE` with classification basis `tolkappiyam_mapping`. Incidental examples remain inside the record and never become automatic historical/lived-life claims.
+- reviewed: **10 / 1,602**;
+- remaining: **1,592**;
+- next: **tolkappiyam-0011**;
+- formal grammatical concept evidence: **10**;
+- incidental examples: **4**;
+- dimensions per record: **29**;
+- regression suite: **228 tests** at this implementation boundary.
 
-Primary durable implementation:
+All ten formal observations currently use `knowledge.grammar.phonology` under `knowledge_technology`.
 
-- `research/production/tolkappiyam/README.md`
-- `research/production/tolkappiyam/review-specs/`
-- `research/production/tolkappiyam/records/`
-- `research/observations/tolkappiyam/r15-production.ndjson`
-- `research/schemas/tolkappiyam-production-review-r15.schema.json`
-- `research/concepts/classical-tamil/tolkappiyam-production-concepts-r15a.json`
-- `scripts/materialize_r15a_tolkappiyam_batch.py`
-- `scripts/validate_r15_tolkappiyam_production.py`
-- `.github/workflows/materialize-r15a-tolkappiyam-batch.yml`
+Stabilization proves that incidental evidence can coexist without entering the formal observation stream:
 
-The old Tolkāppiyam review manifest/crosswalk remains coverage/control evidence only. It is representative formal support, not an exhaustive occurrence index and not a classifier.
+- 0006: `புலவர்` → incidental `people_social_roles`; `என்மனார் புலவர்` → incidental `textual_intertextual_relationships`;
+- 0007: `நொடி` → incidental `season_weather_time`; `கண் இமை` → incidental `body_health`;
+- `உயிர்` / `மெய்` in 0008–0010 remain grammatical class labels and are not promoted to body/life/religion/truth claims.
 
-## Accepted Tolkāppiyam benchmark
+## Scaled cadence
 
-Benchmark `0001–0002` is materialized and validated.
+After successful stabilization, use **இயல்-aware sequential batches**:
 
-Authoritative benchmark state from workflow `32270636581`:
+- never cross an இயல் boundary;
+- one batch when the remaining portion of an இயல் is ≤25 records;
+- otherwise split inside that இயல் into contiguous chunks of at most 25 records;
+- source-first semantic review remains one நூற்பா at a time.
 
-- records reviewed: **2 / 1,602**;
-- records remaining: **1,600**;
-- next record: **tolkappiyam-0003**;
-- grammatical concept evidence: **2**;
-- incidental examples: **0**;
-- canonical dimensions: **29**;
-- regression suite: **228 passed**;
-- Puṟanāṉūṟu production validator: pass;
-- Tolkāppiyam production validator: pass;
-- R0/R1/R1.5 validators: pass;
-- deterministic R1/R1.5 regeneration: pass;
-- repository audit: pass;
-- Corpus/Tolkāppiyam non-drift: pass;
-- R1 primary histories preserved.
+Next planned batches:
 
-Both benchmark records have formal evidence only in `knowledge_technology`, using stream-specific controlled concept `knowledge.grammar.phonology`. No incidental examples are recorded.
-
-The R1.5 acceptance invariant now permits Tolkāppiyam production only when Puṟanāṉūṟu 001–400 production is complete. The original bounded R1.5 pilot remains preserved.
-
-The R1.5 baseline metric counts actual Tolkāppiyam observation rows, not NDJSON files.
+- `0011–0033` — completes நூல் மரபு;
+- `0034–0058` and `0059–0082` — complete மொழி மரபு;
+- `0083–0103` — completes பிறப்பியல்.
 
 ## Source terminology boundary
 
@@ -119,14 +91,10 @@ The current authority set includes:
 - `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
 - `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
 
-Historical handovers/audits remain truthful records of their own boundaries and should not be rewritten merely to imitate current state.
+Historical handovers/audits remain truthful records of their own boundaries.
 
 ## Next activity
 
-Proceed with **Tolkāppiyam 0003–0010 stabilization** using the accepted formal/incidental/empty evidence contract.
-
-Review each நூற்பா sequentially across all 29 dimensions before using the old crosswalk as control context. Stage one contiguous stabilization spec after all eight source-first decisions are fixed, then materialize, validate and run full PR CI.
-
-Do not choose the long-run batch cadence until stabilization is green. Prefer இயல்-aware batches after stabilization.
+Proceed with **Tolkāppiyam 0011–0033**, completing நூல் மரபு. Review each நூற்பா sequentially across all 29 dimensions before consulting the old control crosswalk, stage one contiguous spec, materialize, validate, squash onto the previous green checkpoint and require full exact-head PR CI green.
 
 **Do not start R2.**
