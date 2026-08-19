@@ -13,6 +13,24 @@
       "parent_concept_id": null,
       "status": "foundation",
       "description": "Formal Tolkāppiyam rules that define or classify letters, dependent signs, phonological categories, articulation, or closely related letter-system structure. This is grammatical concept evidence, not a historical technology claim."
+    },
+    {
+      "concept_id": "arts.music.formal_context",
+      "dimension": "arts_music_performance",
+      "label_ta": "இசைச் சூழல் இலக்கணச் சான்று",
+      "label_en": "formal grammatical music context",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam evidence that places a grammatical or phonological phenomenon specifically in an இசை/music context. It does not by itself establish a historical performance event, performer, instrument, or social practice."
+    },
+    {
+      "concept_id": "textual.tradition.reference",
+      "dimension": "textual_intertextual_relationships",
+      "label_ta": "நூல் / அறிவுமரபுச் சுட்டு",
+      "label_en": "textual or disciplinary tradition reference",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam reference to another textual, scholarly, or disciplinary tradition. Exact source wording is retained; the concept does not resolve the reference to a particular external work unless the source itself establishes that identity."
     }
   ]
 }

@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: active; benchmark + stabilization complete
+- Tolkāppiyam production: active; நூல் மரபு complete through 0033
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -19,7 +19,7 @@ R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
 
 Puṟanāṉūṟu `001–400` is complete and validated at 400 reviewed / 0 remaining / 7,169 observations / 29 dimensions.
 
-Durable cadence history remains benchmark `001–002`, stabilization `003–010`, regular 25-record batches from `011–035` through `361–385`, then final `386–400`.
+Durable cadence history remains benchmark `001–002`, stabilization `003–010`, regular **25-record** batches from `011–035` through `361–385`, then final `386–400`.
 
 ## Tolkāppiyam production contract
 
@@ -31,27 +31,30 @@ The old Tolkāppiyam manifest/crosswalk remains representative coverage/control 
 
 ## Current Tolkāppiyam boundary
 
-Benchmark `0001–0002` and stabilization `0003–0010` are materialized as a gap-free prefix:
+`0001–0033` is a validated gap-free production prefix and completes **எழுத்ததிகாரம் / நூல் மரபு**:
 
-- reviewed: **10 / 1,602**;
-- remaining: **1,592**;
-- next: **tolkappiyam-0011**;
-- formal grammatical concept evidence: **10**;
-- incidental examples: **4**;
+- reviewed: **33 / 1,602**;
+- remaining: **1,569**;
+- next: **tolkappiyam-0034**;
+- formal grammatical/poetics concept evidence: **35**;
+- incidental examples: **5**;
 - dimensions per record: **29**;
-- regression suite: **228 tests** at this implementation boundary.
+- regression suite: **228 passed**.
 
-All ten formal observations currently use `knowledge.grammar.phonology` under `knowledge_technology`.
+The 0011–0033 batch adds 25 formal observations and 1 incidental example. Records 0011–0032 each carry one formal `knowledge.grammar.phonology` observation with no incidental examples.
 
-Stabilization proves that incidental evidence can coexist without entering the formal observation stream:
+Record 0033 is the first formal multi-dimension edge in this production stream:
 
-- 0006: `புலவர்` → incidental `people_social_roles`; `என்மனார் புலவர்` → incidental `textual_intertextual_relationships`;
-- 0007: `நொடி` → incidental `season_weather_time`; `கண் இமை` → incidental `body_health`;
-- `உயிர்` / `மெய்` in 0008–0010 remain grammatical class labels and are not promoted to body/life/religion/truth claims.
+- `knowledge.grammar.phonology` under `knowledge_technology`;
+- `arts.music.formal_context` under `arts_music_performance`;
+- `textual.tradition.reference` under `textual_intertextual_relationships`;
+- incidental `people_social_roles` for `புலவர்`.
+
+`நரம்பின் மறை` remains exact unresolved source wording for a scholarly/textual tradition: it is not promoted to body/health, religion/sectarian identity, or a resolved named historical work. `இசையிடன்` in 0013 and `இசைகள்` in 0025 remain phonological sound wording and are not classified as music/performance.
 
 ## Scaled cadence
 
-After successful stabilization, use **இயல்-aware sequential batches**:
+Use **இயல்-aware sequential batches**:
 
 - never cross an இயல் boundary;
 - one batch when the remaining portion of an இயல் is ≤25 records;
@@ -60,8 +63,8 @@ After successful stabilization, use **இயல்-aware sequential batches**:
 
 Next planned batches:
 
-- `0011–0033` — completes நூல் மரபு;
-- `0034–0058` and `0059–0082` — complete மொழி மரபு;
+- `0034–0058` — first 25 records of மொழி மரபு;
+- `0059–0082` — remaining 24 records of மொழி மரபு;
 - `0083–0103` — completes பிறப்பியல்.
 
 ## Source terminology boundary
@@ -95,6 +98,6 @@ Historical handovers/audits remain truthful records of their own boundaries.
 
 ## Next activity
 
-Proceed with **Tolkāppiyam 0011–0033**, completing நூல் மரபு. Review each நூற்பா sequentially across all 29 dimensions before consulting the old control crosswalk, stage one contiguous spec, materialize, validate, squash onto the previous green checkpoint and require full exact-head PR CI green.
+Proceed with **Tolkāppiyam 0034–0058**, the first 25 records of மொழி மரபு. Review every நூற்பா sequentially across all 29 dimensions before consulting the old control crosswalk, stage one contiguous spec, materialize, validate, squash onto the previous green checkpoint and require full exact-head PR CI green.
 
 **Do not start R2.**
