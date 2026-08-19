@@ -71,17 +71,17 @@ Canonical progress is the longest gap-free prefix under:
 
 Current materialized production boundary:
 
-- `001.json` through `110.json` form the gap-free production prefix;
+- `001.json` through `135.json` form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, and **086–110** are complete;
-- next record: **111**;
-- next planned checkpoint: **111–135**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, and **111–135** are complete;
+- next record: **136**;
+- next planned checkpoint: **136–160**.
 
 Current validated production figures:
 
-- records reviewed: **110**;
-- records remaining: **290**;
-- production observations checked: **2,032**;
+- records reviewed: **135**;
+- records remaining: **265**;
+- production observations checked: **2,466**;
 - canonical dimensions: **29**;
 - regression suite: **224 passed**;
 - repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history preservation: **pass**.
@@ -111,11 +111,11 @@ Completed cadence:
 
 - benchmark: 001–002;
 - stabilization: **003–010**;
-- regular batches: **011–035**, **036–060**, **061–085**, **086–110**.
+- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**.
 
 Next cadence:
 
-- **111–135, 136–160, 161–185, ...** through 400.
+- **136–160, 161–185, 186–210, ...** through 400.
 
 ## Source terminology rule
 
@@ -123,16 +123,20 @@ Next cadence:
 
 Retain the exact Tamil term printed by the relevant source. Do not silently substitute later identity, hierarchy, sectarian, modern-community, or external-influence labels. Any later equivalence claim requires a separately classified evidence layer with independent provenance.
 
-The completed 086–110 batch preserves source terms and source-state distinctions including `மழவர்`, `மள்ளர்`, `நான்மறை முதல்வர்`, `மறவர்`, `உமணர்`, `குறத்தி`, `பரிசிலர்`, and `வட்கர்` without later identity substitution. In particular:
+The completed 111–135 batch preserves source terminology and source-state distinctions including `உமணர்`, `அந்தணர்`, split printed `அந்த ணாளன்`, `குறவர் மாக்கள்`, `கொங்கர்`, `பரிசில் மாக்கள்`, `பாணர்`, `பரிசிலர்`, `விறலி`, and `சான்றோர்` without later identity substitution. In particular:
 
-- record 099 has no printed source-note block and its null canonical metadata is preserved rather than reconstructed;
-- record 100 preserves the frozen poet-field anomaly and unusual printed body glyphs without silent correction;
-- record 102 records `உமணர்`, `பண்டம்`, `சகடம்`, `நுகம்`, and `சேமஅச்சு` but does **not** supply an unstated commodity such as salt;
-- record 110 keeps canonical `thurai` blank while retaining the printed source-note `..மகள் மறுத்தல்` separately, without promoting it into canonical metadata.
+- records 112 and 114–120 preserve the frozen combined `thinai` forms such as `பொதுவியல் துறை: கையறு நிலை` / `பொதுவியல் துறை: கையறுநிலை` rather than normalizing them;
+- record 116 explicitly prints `உமணர்` with `உப்பு ஓய் ஒழுகை`, so salt/transport evidence is source-explicit here, unlike record 102 where no salt commodity was supplied;
+- record 122 preserves exact `அந்தணர்` without later identity replacement;
+- record 125 preserves the printed alternative attribution `பேரிசாத்தனார் பாட்டு எனவும் கொள்வர்` as source-note/intertextual evidence without resolving authorship;
+- record 126 preserves the split printed form `அந்த ணாளன்` and treats `நாவாய்` as seafaring/mobility without automatically inferring trade;
+- record 128 keeps canonical `thurai: வாழ்த்து` while the source-note alternative `இயன்மொழியும் ஆம்` remains separate textual/intertextual evidence;
+- records 129 and 130 preserve exact `குறவர் மாக்கள்` and `கொங்கர்`;
+- record 134 preserves `அறவிலை வணிகன்` as source-explicit merchant/price language used metaphorically in an ethical argument; it does not reconstruct an actual market institution or transaction.
 
 ## Puṟanāṉūṟu boundary
 
-Review **111 onward** sequentially until all 400 records are complete.
+Review **136 onward** sequentially until all 400 records are complete.
 
 Special source conditions remain binding:
 
@@ -177,6 +181,6 @@ Files under `docs/history/` and `docs/handover/r15-premerge-audit/` remain histo
 
 ## Next permitted activity
 
-Continue Puṟanāṉūṟu at record **111** and complete batch **111–135** sequentially using the source-first reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
+Continue Puṟanāṉūṟu at record **136** and complete batch **136–160** sequentially using the source-first reviewed-spec → deterministic-materialization cadence. Publish the completed batch, validate the PR, and continue only if green.
 
 Do not start R2.

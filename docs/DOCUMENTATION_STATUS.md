@@ -25,22 +25,22 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized state:
 
-- records **001–110** form the gap-free production prefix;
+- records **001–135** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, and **086–110** are complete;
-- next record: **111**;
-- next planned batch: **111–135**;
-- current validation: **110 reviewed / 290 remaining / 2,032 production observations / 224 tests passed**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, and **111–135** are complete;
+- next record: **136**;
+- next planned batch: **136–160**;
+- current validation: **135 reviewed / 265 remaining / 2,466 production observations / 224 tests passed**.
 
 Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
 
 Compact reviewed specs are source-first staging artifacts. The core materializer expands them deterministically into canonical records but must not manufacture semantic classifications. Existing R0 evidence may only be attached to a dimension already selected by fresh review, with exact source-text support inside the selected evidence span.
 
-The range-aware driver selects the proper 50-record pre-merge audit-control part per record, including batches crossing a boundary such as 100/101. It also preserves frozen source states with no printed source-note block and blank canonical `thurai` values without inventing R0 assertions or semantic classifications.
+The range-aware driver selects the proper 50-record pre-merge audit-control part per record, including batches crossing an audit boundary. It also preserves frozen source states with no printed source-note block and blank canonical `thurai` values without inventing R0 assertions or semantic classifications.
 
 The materialization workflow processes only review-spec files changed in its triggering commit, preventing later tooling changes from silently rewriting completed batches.
 
-The completed 086–110 activity uses five compact reviewed specs: `086-090.json`, `091-095.json`, `096-100.json`, `101-105.json`, and `106-110.json`.
+The completed 111–135 activity uses five compact reviewed specs: `111-115.json`, `116-120.json`, `121-125.json`, `126-130.json`, and `131-135.json`.
 
 ## Current operational documents
 
@@ -76,9 +76,9 @@ The R1.5 pre-merge sparse ledgers remain useful only as post-review control evid
 
 `docs/SOURCE_TERMINOLOGY_POLICY.md` remains mandatory.
 
-Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. The 086–110 batch preserves terms including `மழவர்`, `மள்ளர்`, `நான்மறை முதல்வர்`, `மறவர்`, `உமணர்`, `குறத்தி`, `பரிசிலர்`, and `வட்கர்`. Later equivalence claims are separate evidence classes with independent provenance.
+Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. The 111–135 batch preserves exact terms including `உமணர்`, `அந்தணர்`, split `அந்த ணாளன்`, `குறவர் மாக்கள்`, `கொங்கர்`, `பரிசில் மாக்கள்`, `பாணர்`, `பரிசிலர்`, `விறலி`, and `சான்றோர்`. Later equivalence claims are separate evidence classes with independent provenance.
 
-Source-state anomalies must likewise remain exact: record 099 has no printed source note, record 100 preserves its frozen metadata/body anomalies, record 102 does not gain an unstated commodity, and record 110 retains blank canonical `thurai` separately from source-note `..மகள் மறுத்தல்`.
+Source-state distinctions likewise remain exact: combined `thinai` strings at 112 and 114–120 are not normalized; 116 explicitly contains salt while 102 does not; 125 keeps alternative authorship only as printed source-note evidence; 128 keeps canonical `வாழ்த்து` separate from source-note `இயன்மொழியும் ஆம்`; and 134 keeps `அறவிலை வணிகன்` as metaphorical merchant/price language rather than proof of an actual market institution.
 
 ## Validation policy
 

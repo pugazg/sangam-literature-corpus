@@ -19,15 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–110**.
+Current materialized gap-free prefix: **001–135**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110** complete;
-- next record: **111**;
-- next batch: **111–135**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135** complete;
+- next record: **136**;
+- next batch: **136–160**.
 
-Current validated figures: **110 reviewed / 290 remaining / 2,032 production observations / 224 tests passed**.
+Current validated figures: **135 reviewed / 265 remaining / 2,466 production observations / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -50,13 +50,13 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed 086–110 specs are:
+Completed 111–135 specs are:
 
-- `086-090.json`
-- `091-095.json`
-- `096-100.json`
-- `101-105.json`
-- `106-110.json`
+- `111-115.json`
+- `116-120.json`
+- `121-125.json`
+- `126-130.json`
+- `131-135.json`
 
 Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
@@ -73,13 +73,16 @@ This improves provenance without letting R0 create classifications. The old spar
 
 The materialization workflow processes only spec files changed in the triggering commit, so later tooling changes do not silently regenerate completed historical batches.
 
-## Source-state lessons from 086–110
+## Source-state lessons from 111–135
 
-- Exact terms including `மழவர்`, `மள்ளர்`, `நான்மறை முதல்வர்`, `மறவர்`, `உமணர்`, `குறத்தி`, `பரிசிலர்`, and `வட்கர்` are retained without later identity substitution.
-- Record 099 has no printed source-note block; its null canonical metadata is not reconstructed from the old audit.
-- Record 100 preserves the frozen poet-field anomaly and unusual printed body glyphs without silent correction.
-- Record 102 records `உமணர்`, `பண்டம்`, `சகடம்`, `நுகம்`, and `சேமஅச்சு`; no unstated commodity such as salt is supplied.
-- Record 110 preserves canonical `thurai_as_printed` as the exact blank string while source-note `..மகள் மறுத்தல்` remains separate source-note evidence.
+- Frozen combined `thinai` values at records 112 and 114–120, including `பொதுவியல் துறை: கையறு நிலை` / `பொதுவியல் துறை: கையறுநிலை`, remain exact rather than being normalized.
+- Record 116 explicitly prints `உமணர்` with `உப்பு ஓய் ஒழுகை`; salt/transport evidence is source-explicit here, unlike record 102 where no salt commodity is supplied.
+- Record 122 preserves exact `அந்தணர்` without later identity substitution.
+- Record 125 preserves source-note alternative attribution `பேரிசாத்தனார் பாட்டு எனவும் கொள்வர்` as textual/intertextual evidence without resolving authorship.
+- Record 126 preserves split printed `அந்த ணாளன்`; `நாவாய்` is seafaring/mobility evidence and does not automatically imply trade.
+- Record 128 keeps canonical `thurai: வாழ்த்து`; source-note `இயன்மொழியும் ஆம்` remains separate textual/intertextual evidence.
+- Record 129 preserves exact `குறவர் மாக்கள்`; record 130 preserves exact `கொங்கர்`.
+- Record 134 preserves combined `thinai: பாடாண் துறை: இயன் மொழி`; `அறவிலை வணிகன்` is classified only as source-explicit merchant/price vocabulary used metaphorically in ethical reasoning, not as proof of an actual market institution or transaction.
 
 ## R1.5A cadence
 
@@ -87,9 +90,9 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**;
-- next batch: **111–135**;
-- subsequent cadence: **136–160, 161–185, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**;
+- next batch: **136–160**;
+- subsequent cadence: **161–185, 186–210, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
