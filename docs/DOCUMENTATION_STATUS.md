@@ -25,20 +25,22 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized state:
 
-- records **001–085** form the gap-free production prefix;
+- records **001–110** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, and **061–085** are complete;
-- next record: **086**;
-- next planned batch: **086–110**;
-- current validation: **85 reviewed / 315 remaining / 1,630 production observations / 224 tests passed**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, and **086–110** are complete;
+- next record: **111**;
+- next planned batch: **111–135**;
+- current validation: **110 reviewed / 290 remaining / 2,032 production observations / 224 tests passed**.
 
 Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
 
 Compact reviewed specs are source-first staging artifacts. The core materializer expands them deterministically into canonical records but must not manufacture semantic classifications. Existing R0 evidence may only be attached to a dimension already selected by fresh review, with exact source-text support inside the selected evidence span.
 
-The range-aware driver selects the proper 50-record pre-merge audit-control part per record. This permits batches/specs crossing an audit boundary without changing the rule that the audit is consulted only after fresh review.
+The range-aware driver selects the proper 50-record pre-merge audit-control part per record, including batches crossing a boundary such as 100/101. It also preserves frozen source states with no printed source-note block and blank canonical `thurai` values without inventing R0 assertions or semantic classifications.
 
 The materialization workflow processes only review-spec files changed in its triggering commit, preventing later tooling changes from silently rewriting completed batches.
+
+The completed 086–110 activity uses five compact reviewed specs: `086-090.json`, `091-095.json`, `096-100.json`, `101-105.json`, and `106-110.json`.
 
 ## Current operational documents
 
@@ -74,7 +76,9 @@ The R1.5 pre-merge sparse ledgers remain useful only as post-review control evid
 
 `docs/SOURCE_TERMINOLOGY_POLICY.md` remains mandatory.
 
-Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. Later equivalence claims are separate evidence classes with independent provenance.
+Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. The 086–110 batch preserves terms including `மழவர்`, `மள்ளர்`, `நான்மறை முதல்வர்`, `மறவர்`, `உமணர்`, `குறத்தி`, `பரிசிலர்`, and `வட்கர்`. Later equivalence claims are separate evidence classes with independent provenance.
+
+Source-state anomalies must likewise remain exact: record 099 has no printed source note, record 100 preserves its frozen metadata/body anomalies, record 102 does not gain an unstated commodity, and record 110 retains blank canonical `thurai` separately from source-note `..மகள் மறுத்தல்`.
 
 ## Validation policy
 

@@ -2,13 +2,19 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import tempfile
 from pathlib import Path
 
+import yaml
+
 import materialize_r15a_purananuru_batch as core
 
 AUDIT_DIR = "research/audits/r15-premerge/purananuru/parts"
+_EMPTY_SHA256 = hashlib.sha256(b"").hexdigest()
+_ORIGINAL_LOAD_R0 = core.load_r0
+_BLANK_THURAI_RECORDS: set[str] = set()
 
 
 def audit_path_for_record(record_id: str) -> str:
@@ -20,6 +26,71 @@ def audit_path_for_record(record_id: str) -> str:
     return f"{AUDIT_DIR}/{start:03d}-{end:03d}.tsv"
 
 
+def parse_record_compat(path: Path):
+    """Preserve frozen source states that the core parser historically assumed away."""
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---\n"):
+        raise ValueError(f"{path}: missing YAML frontmatter")
+    _, rest = text.split("---\n", 1)
+    front_text, rest = rest.split("\n---\n", 1)
+    front = yaml.safe_load(front_text)
+
+    marker = "\n## Source note (as printed)\n"
+    if marker in rest:
+        body_part, note_part = rest.split(marker, 1)
+        source_note = note_part.strip()
+    else:
+        body_part = rest
+        source_note = ""
+
+    body_lines = body_part.splitlines()
+    while body_lines and not body_lines[0].startswith("# "):
+        body_lines.pop(0)
+    if body_lines and body_lines[0].startswith("# "):
+        body_lines.pop(0)
+    body_lines = [line for line in body_lines if line != ""]
+
+    if front.get("thurai") == "":
+        _BLANK_THURAI_RECORDS.add(path.stem)
+        front = dict(front)
+        # A blank canonical field has no R0 TURAI_VALUE assertion. Treat it as
+        # absent for core linking, then restore the exact blank value in output.
+        front["thurai"] = None
+
+    return front, body_lines, source_note
+
+
+def load_r0_compat(path: Path):
+    rows = _ORIGINAL_LOAD_R0(path)
+    if (
+        rows
+        and rows[0].get("source_note_sha256") == _EMPTY_SHA256
+        and not any(row.get("source_field") == "source_note" for row in rows)
+    ):
+        # In-memory guard only. The sentinel is not persisted, has no assertion
+        # id, and cannot participate in AUTO_R0_TYPES or semantic classification.
+        rows = list(rows)
+        rows.append(
+            {
+                "assertion_type": "__NO_PRINTED_SOURCE_NOTE__",
+                "source_field": "source_note",
+                "source_text": "",
+            }
+        )
+    return rows
+
+
+def _restore_blank_thurai(root: Path, grouped_records: dict[str, dict]) -> None:
+    for record_id in sorted(_BLANK_THURAI_RECORDS.intersection(grouped_records)):
+        path = root / "research/production/purananuru/records" / f"{record_id}.json"
+        data = json.loads(path.read_text(encoding="utf-8"))
+        data["source_metadata_reviewed"]["thurai_as_printed"] = ""
+        path.write_text(
+            json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n",
+            encoding="utf-8",
+        )
+
+
 def materialize(root: Path, spec_path: Path) -> None:
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
     records = spec.get("records", {})
@@ -29,6 +100,9 @@ def materialize(root: Path, spec_path: Path) -> None:
     groups: dict[str, dict[str, dict]] = {}
     for record_id, cfg in sorted(records.items()):
         groups.setdefault(audit_path_for_record(record_id), {})[record_id] = cfg
+
+    core.parse_record = parse_record_compat
+    core.load_r0 = load_r0_compat
 
     for audit_path, grouped_records in groups.items():
         core.AUDIT = audit_path
@@ -44,6 +118,7 @@ def materialize(root: Path, spec_path: Path) -> None:
             temp_path = Path(handle.name)
         try:
             core.materialize(root, temp_path)
+            _restore_blank_thurai(root, grouped_records)
         finally:
             temp_path.unlink(missing_ok=True)
 

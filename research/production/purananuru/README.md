@@ -19,15 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–085**.
+Current materialized gap-free prefix: **001–110**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- regular 25-record batches: **011–035**, **036–060**, **061–085** complete;
-- next record: **086**;
-- next batch: **086–110**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110** complete;
+- next record: **111**;
+- next batch: **111–135**.
 
-Current validated figures: **85 reviewed / 315 remaining / 1,630 production observations / 224 tests passed**.
+Current validated figures: **110 reviewed / 290 remaining / 2,032 production observations / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -50,11 +50,19 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed specs include stabilization `003-010.json`, the 011–035 and 036–060 staging specs, and `061-085.json`. Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
+Completed 086–110 specs are:
+
+- `086-090.json`
+- `091-095.json`
+- `096-100.json`
+- `101-105.json`
+- `106-110.json`
+
+Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
 `scripts/materialize_r15a_purananuru_batch.py` deterministically expands already-reviewed semantic decisions into canonical production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review audit discrepancies.
 
-`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration layer. It selects the correct 50-record audit-control TSV for each record and safely handles a reviewed spec crossing an audit-part boundary.
+`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration/source-state compatibility layer. It selects the correct 50-record audit-control TSV for each record, safely handles a reviewed spec crossing an audit-part boundary, accepts a genuinely absent printed source-note block, and preserves a blank canonical `thurai` without inventing a `TURAI_VALUE` assertion. These compatibility rules only represent frozen source states; they do not classify semantics.
 
 Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when:
 
@@ -65,15 +73,23 @@ This improves provenance without letting R0 create classifications. The old spar
 
 The materialization workflow processes only spec files changed in the triggering commit, so later tooling changes do not silently regenerate completed historical batches.
 
+## Source-state lessons from 086–110
+
+- Exact terms including `மழவர்`, `மள்ளர்`, `நான்மறை முதல்வர்`, `மறவர்`, `உமணர்`, `குறத்தி`, `பரிசிலர்`, and `வட்கர்` are retained without later identity substitution.
+- Record 099 has no printed source-note block; its null canonical metadata is not reconstructed from the old audit.
+- Record 100 preserves the frozen poet-field anomaly and unusual printed body glyphs without silent correction.
+- Record 102 records `உமணர்`, `பண்டம்`, `சகடம்`, `நுகம்`, and `சேமஅச்சு`; no unstated commodity such as salt is supplied.
+- Record 110 preserves canonical `thurai_as_printed` as the exact blank string while source-note `..மகள் மறுத்தல்` remains separate source-note evidence.
+
 ## R1.5A cadence
 
 The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**;
-- next batch: **086–110**;
-- subsequent cadence: **111–135, 136–160, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**;
+- next batch: **111–135**;
+- subsequent cadence: **136–160, 161–185, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
