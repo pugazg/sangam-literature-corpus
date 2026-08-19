@@ -41,11 +41,12 @@ Before changing the repository, read completely:
 - Exact 29-dimension surface remains unchanged.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
 - Puṟanāṉūṟu cadence history remains: benchmark `001–002`, stabilization **003–010**, regular **25-record** batches beginning **011–035**, final `386–400`.
-- Tolkāppiyam `0001–0033` is the validated gap-free production prefix and completes நூல் மரபு.
-- Current Tolkāppiyam state: **33 / 1,602 reviewed; 1,569 remaining; next `tolkappiyam-0034`; 35 formal grammatical/poetics observations; 5 incidental examples; 29 dimensions; 228 tests passed**.
+- Tolkāppiyam `0001–0082` is the validated gap-free production prefix.
+- **நூல் மரபு 0001–0033 and மொழி மரபு 0034–0082 are complete.**
+- Current Tolkāppiyam state: **82 / 1,602 reviewed; 1,520 remaining; next `tolkappiyam-0083`; 87 formal grammatical/poetics observations; 7 incidental examples; 29 dimensions; 228 tests passed**.
 - Tolkāppiyam evidence never auto-classifies a Sangam poem.
 
-## Tolkāppiyam evidence roles
+## Evidence roles
 
 For every dimension of every நூற்பா, distinguish:
 
@@ -59,57 +60,48 @@ Incidental examples remain inside the per-record review and must not be promoted
 
 The old crosswalk is representative/control evidence, not an exhaustive occurrence index and not a classifier.
 
-## Durable source-first lessons through 0033
+## Durable lessons through 0082
 
-Stabilization 0003–0010 proved the formal/incidental split. Preserve those boundaries, especially `உயிர்`/`மெய்` as grammatical labels and 0006–0007 incidental evidence.
+Earlier நூல் மரபு boundaries remain binding: grammatical `உயிர்`/`மெய்`, `இசை`, `காலை`, etc. must not be promoted outside context; 0033 remains the special formal music/textual edge.
 
-For **0011–0032**, each record contributes one formal `knowledge.grammar.phonology` observation and no incidental examples. Do not promote polysemous grammatical wording: `இசையிடன்` in 0013 and `இசைகள்` in 0025 are phonological sound language, not music/performance; `காலை` is conditional phrasing, not chronology.
+மொழி மரபு 0034–0082 was reviewed as **49 sequential source-first decisions and then published in one user-authorized full-இயல் spec**. The batch adds 52 formal observations and 2 incidental examples.
 
-### 0033
+Important boundaries:
 
-`அளபு இறந்து உயிர்த்தலும் ஒற்று இசை நீடலும் / உள என மொழிப இசையொடு சிவணிய / நரம்பின் மறைய என்மனார் புலவர்.`
+- 0043–0045 introduce formal `knowledge.grammar.word_structure`.
+- 0050 carries both formal phonology and word-structure evidence.
+- 0051 `செய்யுள் இறுதிப் போலும்` is formal `textual_intertextual_relationships` through `textual.poetic_form.formal_context`; it is not Akam/Puram `literary_domain` and not performance.
+- 0053 keeps `இசைப்பினும்` phonological; `புலவர்` and `என்மனார் புலவர்` are incidental role/attribution evidence.
+- 0067 `முறைப்பெயர்` remains an unresolved source grammatical class and is not mapped to kinship/relationships.
+- 0068 `பொருள்` is grammatical/lexical meaning, not economy/material culture.
+- 0082 uses both phonology and word structure; `அஃறிணை` remains grammatical, not a social/gender classification.
 
-Fresh source-first result:
+The stream-specific registry now also contains:
 
-- formal `knowledge_technology` → `knowledge.grammar.phonology`;
-- formal `arts_music_performance` → `arts.music.formal_context`;
-- formal `textual_intertextual_relationships` → `textual.tradition.reference`;
-- incidental `people_social_roles` for `புலவர்`.
+- `knowledge.grammar.word_structure`
+- `textual.poetic_form.formal_context`
 
-Guardrails: `அளபு` is not calendar time; `நரம்பு` is not body/health evidence; `மறை` is not mapped to religion/sectarian identity; `நரம்பின் மறை` is not resolved as a named historical work.
+## Publication cadence
 
-The two stream-specific concepts introduced at 0033 are deliberately narrow and live in `research/concepts/classical-tamil/tolkappiyam-production-concepts-r15a.json`.
+Semantic review is always sequential and source-first and never crosses an இயல் boundary in one spec.
 
-## Scaled cadence
+Normal publication preference remains contiguous chunks of at most 25 records. **0034–0082 is a deliberate user-authorized exception that published the entire 49-record மொழி மரபு இயல் in one go.** Do not infer a >25 full-இயல் publication rule for later iyal unless the user explicitly requests it.
 
-Use **இயல்-aware sequential batching**:
+## Required next activity — 0083–0103
 
-- never cross an இயல் boundary in one production spec;
-- if the remaining portion of an இயல் is 25 records or fewer, use one contiguous batch;
-- if an இயல் is longer, split it into contiguous chunks of at most 25 records inside that இயல்;
-- semantic review remains strictly நூற்பா-by-நூற்பா and source-first; batch size only controls publication/CI granularity.
-
-Immediate planned batches:
-
-- **0034–0058** — first 25 records of மொழி மரபு;
-- **0059–0082** — remaining 24 records of மொழி மரபு;
-- **0083–0103** — 21 records; completes பிறப்பியல்.
-
-## Required next activity — 0034–0058
-
-Review **0034 through 0058 sequentially and source-first**, beginning எழுத்ததிகாரம் / மொழி மரபு.
+Review **0083 through 0103 sequentially and source-first**, completing எழுத்ததிகாரம் / பிறப்பியல்.
 
 For every record:
 
-1. read the complete frozen நூற்பா and its மொழி மரபு context;
+1. read the complete frozen நூற்பா and its பிறப்பியல் context;
 2. consider all 29 dimensions;
 3. fix formal evidence, incidental examples and reviewed-empty decisions before moving to the next record;
 4. preserve exact Tamil terms and source spans;
 5. do not use the old crosswalk to manufacture a classification;
 6. only after all fresh decisions are complete, compare with the old manifest/crosswalk as control context;
-7. stage one contiguous `0034-0058.json` spec;
+7. stage one contiguous `0083-0103.json` spec;
 8. materialize records and the flattened formal stream deterministically;
-9. validate the exact gap-free prefix through 0058;
+9. validate the exact gap-free prefix through 0103;
 10. finish on one clean user-authored/squashed checkpoint parented by the previous green checkpoint, with full exact-head PR CI green.
 
 ## Hard boundaries

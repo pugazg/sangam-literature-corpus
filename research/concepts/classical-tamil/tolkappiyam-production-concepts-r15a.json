@@ -31,6 +31,24 @@
       "parent_concept_id": null,
       "status": "foundation",
       "description": "Formal Tolkāppiyam reference to another textual, scholarly, or disciplinary tradition. Exact source wording is retained; the concept does not resolve the reference to a particular external work unless the source itself establishes that identity."
+    },
+    {
+      "concept_id": "knowledge.grammar.word_structure",
+      "dimension": "knowledge_technology",
+      "label_ta": "மொழி / சொல் அமைப்பு இலக்கண அறிவு",
+      "label_en": "grammatical word-structure knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that classify word completeness, one-letter or multi-letter word structure, தொடர்மொழி, or comparable structural classes of words. This is grammatical structural evidence, not a historical technology or social-classification claim."
+    },
+    {
+      "concept_id": "textual.poetic_form.formal_context",
+      "dimension": "textual_intertextual_relationships",
+      "label_ta": "செய்யுள் / பாடல் வடிவச் சூழல் இலக்கணச் சான்று",
+      "label_en": "formal poetic-text-form context",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam evidence that conditions a grammatical rule by an explicitly stated செய்யுள் or poetic/textual-form context. It does not by itself classify Akam/Puram, identify an external work, or establish a historical performance event."
     }
   ]
 }
