@@ -19,14 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–060**.
+Current materialized gap-free prefix: **001–085**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- first regular 25-record batch: **011–035** complete;
-- second regular 25-record batch: **036–060** complete;
-- next record: **061**;
-- next batch: **061–085**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085** complete;
+- next record: **086**;
+- next batch: **086–110**.
+
+Current validated figures: **85 reviewed / 315 remaining / 1,630 production observations / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -49,11 +50,11 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed batches include stabilization `003-010.json`, the 011–035 staging specs, and the 036–060 staging specs. Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
+Completed specs include stabilization `003-010.json`, the 011–035 and 036–060 staging specs, and `061-085.json`. Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
 `scripts/materialize_r15a_purananuru_batch.py` deterministically expands already-reviewed semantic decisions into canonical production records. It computes evidence spans, source/R0 blob identities, deterministic observation IDs, dimension-review rows, and post-review audit discrepancies.
 
-`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration layer. It selects the correct 50-record audit-control TSV for each record and safely handles a reviewed spec crossing an audit-part boundary such as 050/051.
+`scripts/materialize_r15a_purananuru_batch_driver.py` is the range-aware orchestration layer. It selects the correct 50-record audit-control TSV for each record and safely handles a reviewed spec crossing an audit-part boundary.
 
 Neither script is an automatic semantic classifier. A pre-existing R0 body assertion may be auto-attached only when:
 
@@ -70,9 +71,9 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**;
-- next batch: **061–085**;
-- subsequent cadence: **086–110, 111–135, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**;
+- next batch: **086–110**;
+- subsequent cadence: **111–135, 136–160, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;

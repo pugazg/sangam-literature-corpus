@@ -40,11 +40,13 @@ The old R1.5 pre-merge audit remains a control/provenance artifact. Its old merg
 - R1 schema `0.2.0` remains preserved with 8 append-only review events and 3 conservative entity decisions.
 - R1.5 concept/observation schema remains `0.3.0`.
 - Exact 29-dimension production vocabulary/schema remains machine-validated.
-- Puṟanāṉūṟu `001.json` through `060.json` form the current materialized gap-free production prefix.
+- Puṟanāṉūṟu `001.json` through `085.json` form the current materialized gap-free production prefix.
 - Stabilization batch **003–010** is complete.
-- Regular 25-record batches **011–035** and **036–060** are complete.
-- The next record is **061** and the next planned batch is **061–085**.
-- Compact reviewed specs exist under `research/production/purananuru/review-specs/` for completed R1.5A batches.
+- Regular 25-record batches **011–035**, **036–060**, and **061–085** are complete.
+- The next record is **086** and the next planned batch is **086–110**.
+- Current production validation: **85 reviewed / 315 remaining / 1,630 observations / next 086**.
+- Current regression suite: **224 passed**.
+- Compact reviewed specs exist under `research/production/purananuru/review-specs/` for completed R1.5A batches, including `061-085.json`.
 - The core materializer expands already-reviewed semantic decisions; it is not a classifier.
 - The range-aware driver selects the correct 50-record audit control and handles specs that cross audit-part boundaries.
 - Existing R0 evidence may be attached only when it supports an already-made semantic decision and its exact source text falls inside the selected evidence span.
@@ -80,9 +82,9 @@ For each poem:
 ### Repository checkpoint cadence
 
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**;
-- active next batch: **061–085**;
-- subsequent 25-record batches: **086–110, 111–135, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**;
+- active next batch: **086–110**;
+- subsequent 25-record batches: **111–135, 136–160, ...**;
 - final batch may be shorter to end exactly at 400;
 - publish one deterministic multi-file checkpoint per completed batch;
 - run full repository CI/non-drift once per published batch, not once per poem;
@@ -92,7 +94,7 @@ A generated bot commit may not itself run the normal PR workflow. Finish each ac
 
 ## Puṟanāṉūṟu sequence
 
-Continue from record **061** and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
+Continue from record **086** and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
 
 Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
@@ -112,12 +114,12 @@ The GitHub workflow must also preserve R0/R1/R1.5 deterministic checks, Corpus 1
 ## Required next activity
 
 1. Confirm PR #4 remains open, draft and unmerged; inspect the live head/check state.
-2. Confirm the production validator reports a gap-free prefix through `060` and next record `061`.
-3. Review Puṟanāṉūṟu **061–085 sequentially**, source-first and against all 29 dimensions.
+2. Confirm the production validator reports a gap-free prefix through `085` and next record `086`.
+3. Review Puṟanāṉūṟu **086–110 sequentially**, source-first and against all 29 dimensions.
 4. Build the compact reviewed batch spec without copying the old audit.
-5. Materialize 061–085 into separate canonical production JSON records through the range-aware driver.
+5. Materialize 086–110 into separate canonical production JSON records through the range-aware driver.
 6. Publish the completed 25-record batch as one R1.5A checkpoint.
 7. Run the full PR workflow on the final user-authored/squashed head.
-8. If green, continue with 086–110.
+8. If green, continue with 111–135.
 
 Do not start R2.

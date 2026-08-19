@@ -25,11 +25,12 @@ Puṟanāṉūṟu production progress is the longest gap-free prefix under `res
 
 Current materialized state:
 
-- records **001–060** form the gap-free production prefix;
+- records **001–085** form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035** and **036–060** are complete;
-- next record: **061**;
-- next planned batch: **061–085**.
+- regular 25-record batches **011–035**, **036–060**, and **061–085** are complete;
+- next record: **086**;
+- next planned batch: **086–110**;
+- current validation: **85 reviewed / 315 remaining / 1,630 production observations / 224 tests passed**.
 
 Records remain separate per-poem JSON files; Git publication and full CI happen once per batch.
 
