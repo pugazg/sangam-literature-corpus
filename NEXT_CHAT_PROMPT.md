@@ -31,7 +31,7 @@ Before changing the repository, read completely:
 13. `.github/workflows/materialize-r15a-purananuru-batch.yml`
 14. current `main`, active R1.5A branch, PR #4 metadata, and latest checks.
 
-The old R1.5 pre-merge audit remains a control/provenance artifact. Its old merge-hold prose is historical.
+The old R1.5 pre-merge audit remains a control/provenance artifact and is consulted only after fresh source review.
 
 ## Accepted state
 
@@ -40,18 +40,17 @@ The old R1.5 pre-merge audit remains a control/provenance artifact. Its old merg
 - R1 schema `0.2.0` remains preserved with 8 append-only review events and 3 conservative entity decisions.
 - R1.5 concept/observation schema remains `0.3.0`.
 - Exact 29-dimension production vocabulary/schema remains machine-validated.
-- Puṟanāṉūṟu `001.json` through `185.json` form the current materialized gap-free production prefix.
+- Puṟanāṉūṟu `001.json` through `210.json` form the current materialized gap-free production prefix.
 - Stabilization batch **003–010** is complete.
-- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, and **161–185** are complete.
-- The next record is **186** and the next planned batch is **186–210**.
-- Current production validation: **185 reviewed / 215 remaining / 3,366 observations / next 186**.
+- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, and **186–210** are complete.
+- The next record is **211** and the next planned batch is **211–235**.
+- Current production validation: **210 reviewed / 190 remaining / 3,736 observations / next 211**.
+- Current canonical dimension count: **29**.
 - Current regression suite: **224 passed**.
-- Reviewed specs for 161–185 are `161-165.json`, `166-170.json`, `171-175.json`, `176-180.json`, and `181-185.json`.
+- Reviewed specs for 186–210 are `186-190.json`, `191-195.json`, `196-200.json`, `201-205.json`, and `206-210.json`.
 - The core materializer expands already-reviewed semantic decisions; it is not a classifier.
-- The range-aware driver selects the correct 50-record audit control and preserves frozen source anomalies without inventing evidence.
 - Existing R0 evidence may be attached only when it supports an already-made semantic decision and exact source text falls inside the selected evidence span.
-- The exhaustive Puṟanāṉūṟu and Tolkāppiyam audits remain controls only.
-- Tolkāppiyam must not auto-classify Sangam poems.
+- Tolkāppiyam remains a separate evidence stream and must not auto-classify Sangam poems.
 
 ## Exact 29-dimension surface
 
@@ -77,16 +76,23 @@ For each poem:
 
 Repository publication remains batched: one clean checkpoint and one full normal PR CI run per completed batch.
 
-## Durable lessons from 161–185
+## Durable lessons from 186–210
 
-- Record 173: fresh review and old audit have the same qualifying code set, but the old audit lists `BH VEC` while canonical order is `VEC BH`. Record this as an explicit order-only post-review discrepancy; do not rewrite the historical audit or alter the fresh semantic set.
-- Record 174: canonical body length is 28. Terminal environment/weather evidence ends at line 28; do not cite a nonexistent line 29.
-- Record 176: body-level `பாரி` / `பறம்பு` named-entity evidence must remain `direct_record_review` with `metadata_basis: false`, canonical-body line 9, no supporting R0 assertion IDs, and unresolved historical identity. Printed poet/addressee metadata remains a separate `source_metadata_explicit` named-entity observation.
-- Preserve source terms such as `பார்ப்பான்`, `இழிபிறப் பாளன்`, `மோரியர்`, `ஒருகுடி`, `நாற்பால்`, `கீழ்ப்பால்`, and `மேற்பால்` exactly at source level; do not substitute later caste/community/sectarian/hierarchy labels.
+- Record 194: null thinai/thurai/poet metadata and no source-note block remain null/absent; invent nothing.
+- Record 195: retain `கணிச்சிக் கூர்ம்படைக் கடுந்திறல் ஒருவன்` as source imagery; do not identify it with a later named deity.
+- Record 200: frozen body is only `???` / `???`; only work-level `literary_domain` qualifies and the other 28 dimensions remain explicitly reviewed-empty. Do not reconstruct from the title.
+- Record 201: preserve `அந்தணன்`, `புலவன்`, `வேளிருள் வேளே`, `பாண்கடன்`; body-level `பறம்பு` / `பாரி` / `துவரை` remain direct source-review evidence with only genuinely matching body R0 support, separate from metadata identity evidence.
+- Record 202: preserve `வேட்டுவர்`, `தொல்குடி`; tiger-striped comparison is imagery, not an asserted tiger occurrence; `புகழ்ந்த செய்யுள்` is explicit textual/intertextual evidence.
+- Records 205–206: preserve `வேட்டுவ`, `பரிசிலர்`, `மரங்கொல் தச்சன்` exactly.
+- Record 207: preserve `ஆளி` as source creature imagery without later taxonomy or mythic equivalence.
+- Record 208: `வாணிகப் பரிசிலன் அல்லேன்` is direct `trade_exchange` evidence, not permission to infer a market system.
+- Record 210: retain `கூற்றம்` as source death-agent/religious imagery without later deity/doctrine mapping.
+
+Earlier source-terminology and provenance guardrails, including record 176, remain binding.
 
 ## Puṟanāṉūṟu sequence
 
-Continue from record **186** and do not skip ahead. Preserve record 200 as damaged where the frozen source is damaged. Preserve 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
+Continue from record **211** and do not skip ahead. Preserve records 267 and 268 as source-lost/unreconstructed. Printed names remain source mentions unless separately resolved through permitted evidence.
 
 Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
@@ -106,13 +112,13 @@ The GitHub workflow must also preserve R0/R1/R1.5 validation, deterministic R1 a
 ## Required next activity
 
 1. Confirm PR #4 remains open, draft and unmerged; inspect live head and checks.
-2. Confirm the final/squashed production checkpoint is exactly **185 reviewed / 215 remaining / 3,366 observations / next 186**, with 29 canonical dimensions and 224 tests.
-3. Confirm record 176 retains direct-record-review provenance for body-level `பாரி` / `பறம்பு`.
-4. Review Puṟanāṉūṟu **186–210 sequentially**, source-first and against all 29 dimensions.
+2. Confirm the final/squashed production checkpoint is exactly **210 reviewed / 190 remaining / 3,736 observations / next 211**, with 29 canonical dimensions and 224 tests.
+3. Confirm the record-200 non-reconstruction, record-208 `trade_exchange`, and record-210 `கூற்றம்` provenance guardrails remain intact.
+4. Review Puṟanāṉūṟu **211–235 sequentially**, source-first and against all 29 dimensions.
 5. Build compact contiguous reviewed specs without copying the old audit.
-6. Materialize 186–210 into separate canonical production JSON records through the repository's deterministic materializer/driver.
+6. Materialize 211–235 into separate canonical production JSON records through the repository's deterministic materializer/driver.
 7. Publish the completed 25-record batch as one clean user-authored checkpoint.
 8. Run the full normal PR workflow on the exact final squashed head.
-9. If green, the next permitted batch is 211–235.
+9. If green, the next permitted batch is 236–260.
 
 Do not start the Tolkāppiyam production pass. Do not start R2.

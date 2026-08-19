@@ -69,22 +69,22 @@ Canonical progress is the longest gap-free prefix under:
 
 `research/production/purananuru/records/`
 
-Current materialized production boundary:
+Current materialized and validated production boundary:
 
-- `001.json` through `185.json` form the gap-free production prefix;
+- `001.json` through `210.json` form the gap-free production prefix;
 - stabilization batch **003–010** is complete;
-- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, and **161–185** are complete;
-- next record: **186**;
-- next planned checkpoint: **186–210**.
+- regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, and **186–210** are complete;
+- next record: **211**;
+- next planned checkpoint: **211–235**.
 
 Current validated production figures:
 
-- records reviewed: **185**;
-- records remaining: **215**;
-- production observations checked: **3,366**;
+- records reviewed: **210**;
+- records remaining: **190**;
+- production observations checked: **3,736**;
 - canonical dimensions: **29**;
 - regression suite: **224 passed**;
-- repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history preservation remain mandatory final-checkpoint gates.
+- R0/R1/R1.5 validation, deterministic R1/R1.5 regeneration, repository audit, Corpus 1.1.0/Tolkāppiyam non-drift, and R1 primary-history preservation: **pass**.
 
 Every poem must still be read completely, sequentially, and considered against all 29 dimensions. Exact source evidence/provenance, reviewed-empty states, ambiguity, damaged/source-lost conditions, and source terminology must be retained.
 
@@ -111,11 +111,11 @@ Completed cadence:
 
 - benchmark: 001–002;
 - stabilization: **003–010**;
-- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**.
+- regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**.
 
 Next cadence:
 
-- **186–210, 211–235, 236–260, ...** through 400.
+- **211–235, 236–260, ...** through 400.
 
 ## Source terminology rule
 
@@ -125,24 +125,28 @@ Retain the exact Tamil term printed by the relevant source. Do not silently subs
 
 Source metadata, canonical body, and printed source-note evidence remain distinct. Null/blank canonical metadata stays null/blank. Printed names remain source mentions unless independently resolved.
 
-Important 161–185 fidelity/provenance lessons:
+Important 186–210 fidelity/provenance lessons:
 
-- record 166 preserves printed `பார்ப்பான்` as source terminology without later identity substitution;
-- record 170 preserves printed `இழிபிறப் பாளன்`, `விறலியர்`, `பாண`, and `கருங்கைக் கொல்லன்` without later social-system mapping;
-- record 173's fresh review has the same code set as the old audit but canonical order uses `VEC BH` while the control row has `BH VEC`; production records this order-only discrepancy explicitly;
-- record 174's canonical body contains 28 lines, so terminal environment/weather evidence ends at line 28; no line 29 may be invented;
-- record 175 preserves printed `மோரியர்` without external equivalence;
-- record 176's body-level `பாரி` / `பறம்பு` named-entity observation must remain `direct_record_review` with `metadata_basis: false`, canonical-body line-9 evidence, no supporting R0 IDs, and unresolved historical identity; printed poet/addressee metadata is a separate metadata-based observation;
-- record 183 preserves `ஒருகுடி`, `நாற்பால்`, `கீழ்ப்பால்`, and `மேற்பால்` without mapping them to later caste/hierarchy/community systems.
+- record 194 has null canonical thinai/thurai/poet metadata and no source-note block; those absences remain null/absent and nothing is invented;
+- record 195 retains `கணிச்சிக் கூர்ம்படைக் கடுந்திறல் ஒருவன்` as source death/religious imagery without identifying it with a later named deity;
+- record 200's frozen canonical body contains only `???` / `???`; only work-level `literary_domain` qualifies, while the other 28 dimensions are explicitly reviewed-empty with no reconstruction from the title or external tradition;
+- record 201 preserves exact `அந்தணன்`, `புலவன்`, `வேளிருள் வேளே`, and `பாண்கடன்`; body-level `பறம்பு` / `பாரி` / `துவரை` remain direct source-review named-entity evidence, with only genuinely matching body R0 support attached and printed poet/addressee metadata kept separate;
+- record 202 preserves exact `வேட்டுவர்` and `தொல்குடி`; tiger-striped language remains imagery rather than an asserted tiger occurrence, and `புகழ்ந்த செய்யுள்` is retained as explicit textual/intertextual evidence;
+- records 205–206 preserve exact `வேட்டுவ`, `பரிசிலர்`, and `மரங்கொல் தச்சன்` without later social-system substitution;
+- record 207 preserves `ஆளி` as source creature/animal imagery without modern taxonomic or mythological equivalence;
+- record 208 records `வாணிகப் பரிசிலன் அல்லேன்` as direct `trade_exchange` evidence without expanding it into an inferred market system;
+- record 210 retains `கூற்றம்` as source death-agent/religious imagery without mapping it to a later named deity or doctrine.
+
+Earlier 161–185 lessons remain binding, including the record-176 body/metadata provenance distinction and the rule against later identity substitution.
 
 ## Puṟanāṉūṟu boundary
 
-Review **186 onward** sequentially until all 400 records are complete.
+Review **211 onward** sequentially until all 400 records are complete.
 
 Special source conditions remain binding:
 
-- record 200: preserve damage/lacuna conservatively;
-- records 267–268: preserve source-lost/unreconstructed state;
+- record 200 is now canonically reviewed without reconstruction from its damaged `???` body;
+- records 267–268 must preserve source-lost/unreconstructed state;
 - empty dimension state means only no qualifying evidence identified in that reviewed source record;
 - printed names remain source mentions, not automatically verified historical identities.
 
@@ -183,6 +187,6 @@ Files under `docs/history/` and `docs/handover/r15-premerge-audit/` remain histo
 
 ## Next permitted activity
 
-First confirm the current final/squashed 001–185 checkpoint and its exact-head CI remain green. Then continue Puṟanāṉūṟu at record **186** and complete batch **186–210** sequentially using the source-first reviewed-spec → deterministic-materialization cadence.
+First confirm the current final/squashed 001–210 checkpoint and its exact-head CI remain green. Then continue Puṟanāṉūṟu at record **211** and complete batch **211–235** sequentially using the source-first reviewed-spec → deterministic-materialization cadence.
 
 Do not start the Tolkāppiyam production pass. Do not start R2.

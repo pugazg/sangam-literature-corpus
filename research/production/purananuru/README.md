@@ -19,15 +19,15 @@ Each reviewed poem is stored as one file under:
 
 Progress is the longest gap-free prefix beginning at `001`; prose status is not the authoritative progress counter.
 
-Current materialized gap-free prefix: **001–185**.
+Current materialized gap-free prefix: **001–210**.
 
 - benchmark: 001–002;
 - stabilization batch: **003–010** complete;
-- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185** complete;
-- next record: **186**;
-- next batch: **186–210**.
+- regular 25-record batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210** complete;
+- next record: **211**;
+- next batch: **211–235**.
 
-Current validated figures: **185 reviewed / 215 remaining / 3,366 production observations / 29 canonical dimensions / 224 tests passed**.
+Current validated figures: **210 reviewed / 190 remaining / 3,736 production observations / 29 canonical dimensions / 224 tests passed**.
 
 Before record `NNN+1` is read, that record's complete semantic decision state must already be durably staged. Git publication may batch several already-completed records.
 
@@ -50,13 +50,13 @@ Compact source-first reviewed batch specs live under:
 
 `research/production/purananuru/review-specs/`
 
-Completed 161–185 specs are:
+Completed 186–210 specs are:
 
-- `161-165.json`
-- `166-170.json`
-- `171-175.json`
-- `176-180.json`
-- `181-185.json`
+- `186-190.json`
+- `191-195.json`
+- `196-200.json`
+- `201-205.json`
+- `206-210.json`
 
 Spec splitting is only a compact staging detail; canonical production remains one separate `NNN.json` per poem and each completed 25-record activity is published as one final checkpoint.
 
@@ -68,15 +68,19 @@ Neither script is an automatic semantic classifier. A pre-existing R0 body asser
 
 The materializer records audit differences explicitly after fresh review. An order-only difference between canonical dimension order and the old control ledger is recorded as a discrepancy without changing the fresh semantic set or rewriting the control audit.
 
-## Source-state lessons from 161–185
+## Source-state lessons from 186–210
 
-- Record 166 preserves exact printed `பார்ப்பான்` as a source term; no later identity substitution is introduced.
-- Record 170 preserves exact `இழிபிறப் பாளன்`, `விறலியர்`, `பாண`, and `கருங்கைக் கொல்லன்` as printed source terms.
-- Record 173's fresh qualifying set is retained in canonical dimension order. The old control audit lists the same set with `BH VEC`; the production record explicitly records that order-only control discrepancy rather than altering either source-first review or historical audit.
-- Record 174's canonical body has 28 lines. Terminal weather/environment evidence ends at line 28; no line 29 is invented.
-- Record 175 preserves exact `மோரியர்` as a printed source group mention without external equivalence.
-- Record 176 keeps the body-level `பாரி` / `பறம்பு` named-entity observation separate from metadata identity evidence: the body observation is `direct_record_review`, has `metadata_basis: false`, cites canonical body line 9, has no supporting R0 IDs, and remains historically unresolved. Printed poet/addressee metadata is a separate `source_metadata_explicit` observation.
-- Record 183 preserves exact `ஒருகுடி`, `நாற்பால்`, `கீழ்ப்பால்`, and `மேற்பால்` without mapping them to later caste, hierarchy, or modern-community categories.
+- Record 194 preserves null thinai/thurai/poet metadata and no source-note block; nothing is invented.
+- Record 195 preserves `கணிச்சிக் கூர்ம்படைக் கடுந்திறல் ஒருவன்` as source death/religious imagery without later named-deity identification.
+- Record 200's frozen canonical body consists only of `???` / `???`; only work-level `literary_domain` qualifies and all other 28 dimensions are explicitly reviewed-empty without reconstructing from the title or external tradition.
+- Record 201 preserves exact `அந்தணன்`, `புலவன்`, `வேளிருள் வேளே`, and `பாண்கடன்`; body-level `பறம்பு` / `பாரி` / `துவரை` remain direct source-review named-entity evidence. Genuine matching body R0 support may be attached, while printed poet/addressee metadata remains a separate metadata observation.
+- Record 202 preserves exact `வேட்டுவர்` and `தொல்குடி`; tiger-striped comparison stays imagery rather than evidence of an actual tiger occurrence; `புகழ்ந்த செய்யுள்` is explicit textual/intertextual evidence.
+- Records 205–206 preserve exact `வேட்டுவ`, `பரிசிலர்`, and `மரங்கொல் தச்சன்`.
+- Record 207 preserves `ஆளி` as source creature/animal imagery without modern taxonomic or mythological equivalence.
+- Record 208 records `வாணிகப் பரிசிலன் அல்லேன்` as direct `trade_exchange` evidence without expanding it into an inferred market system.
+- Record 210 preserves `கூற்றம்` as source death-agent/religious imagery without later deity/doctrine mapping.
+
+Earlier provenance and terminology guardrails remain binding, including the record-176 body/metadata named-entity distinction.
 
 ## R1.5A cadence
 
@@ -84,9 +88,9 @@ The review is sequential; repository publication is batched.
 
 - benchmark: 001–002;
 - completed stabilization batch: **003–010**;
-- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**;
-- next batch: **186–210**;
-- subsequent cadence: **211–235, 236–260, ...**;
+- completed regular batches: **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**;
+- next batch: **211–235**;
+- subsequent cadence: **236–260, ...**;
 - final batch ends exactly at 400;
 - one deterministic multi-file Git checkpoint per completed batch;
 - full PR CI/non-drift once per published batch, not once per poem;
