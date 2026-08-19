@@ -40,16 +40,15 @@ The old R1.5 pre-merge audit remains a control/provenance artifact and is consul
 - R1 schema `0.2.0` remains preserved with 8 append-only review events and 3 conservative entity decisions.
 - R1.5 concept/observation schema remains `0.3.0`.
 - Exact 29-dimension production vocabulary/schema remains machine-validated.
-- Puṟanāṉūṟu `001.json` through `260.json` form the current materialized gap-free production prefix.
+- Puṟanāṉūṟu `001.json` through `285.json` form the materialized gap-free production prefix.
 - Stabilization batch **003–010** is complete.
-- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235**, and **236–260** are complete.
-- The next record is **261** and the next planned batch is **261–285**.
-- Current production validation: **260 reviewed / 140 remaining / 4,628 observations / next 261**.
+- Regular 25-record batches **011–035**, **036–060**, **061–085**, **086–110**, **111–135**, **136–160**, **161–185**, **186–210**, **211–235**, **236–260**, and **261–285** are complete.
+- The next record is **286** and the next planned batch is **286–310**.
+- Current production validation: **285 reviewed / 115 remaining / 5,024 observations / next 286**.
 - Current canonical dimension count: **29**.
 - Current regression suite: **224 passed**.
-- Reviewed specs for 236–260 are `236-240.json`, `241-245.json`, `246-250.json`, `251-255.json`, and `256-260.json`.
-- The core materializer expands already-reviewed semantic decisions; it is not a classifier.
-- The range/source-state driver preserves blank metadata, absent source notes, audit-part boundaries, and exact `பெயர் தெரிந்திலது` unknown-poet attribution without turning that phrase into a named entity.
+- The completed 261–285 review is staged as one contiguous reviewed spec: `research/production/purananuru/review-specs/261-285.json`.
+- The materializer expands already-reviewed semantic decisions; it is not a classifier.
 - Existing R0 evidence may be attached only when it supports an already-made semantic decision and exact source text falls inside the selected evidence span.
 - Tolkāppiyam remains a separate evidence stream and must not auto-classify Sangam poems.
 
@@ -71,41 +70,44 @@ For each poem:
 4. preserve exact Tamil evidence, source spans, uncertainty, reviewed-empty states, and source terminology;
 5. never let R0 assertions or the old audit manufacture a dimension classification;
 6. only after fresh review, compare with the correct sparse audit control and record discrepancies;
-7. stage the reviewed decision in a compact spec;
+7. stage the completed contiguous batch in a reviewed spec;
 8. materialize separate canonical `NNN.json` records deterministically;
 9. validate that the result extends the longest gap-free prefix with no skip.
 
-Repository publication remains batched: one clean checkpoint and one full normal PR CI run per completed batch.
+### Low-latency publication rule
 
-## Durable lessons from 236–260
+When the full 25-record batch can be completed in the same session, prefer **one contiguous 25-record reviewed spec and one materialization cycle** rather than five 5-record specs/runs. This was successfully proven on 261–285.
 
-- Record 236: preserve `கேண்மை`, `நட்பு`, `குறவர்` and body/source-note `பாரி` provenance without later identity expansion.
-- Record 237: distinguish deceased `வெளிமான்` from addressee `இளவெளிமான்`; retain `கூற்றம்` / `ஊழ்` in source context.
-- Record 238: the source-note quotation/comment on `கண்ணில் ஊமன் கடற் பட்டாங்கு` is explicit TIR and remains separate from body evidence.
-- Record 241: preserve `வச்சிரத் தடக்கை நெடியோன் கோயிலுள்` without later named-deity identification.
-- Record 242: preserve `கடவாயில் நல்லாதனார் பாடியது என்பதும் பாடம்` as alternate-attribution TIR; do not overwrite canonical poet metadata.
-- Record 243: `நடுக்குற்று` / `சிலசொல்` are aging/body evidence; do not manufacture death evidence from `கையறுநிலை` alone.
-- Record 244: incomplete fragment, lacuna present, all thinai/thurai/poet/addressee metadata null. Classify only surviving `பாணர்`, `விறலியர்`, `இரவல் மாக்கள்`, `வண்டு`, `தொடி`; do not reconstruct death from title/tradition.
-- Records 246–247: preserve `உயவற் பெண்டிரேம்`, `கணவன்`, `கானவர்`, `அணங்குடை முன்றில்`, `கொழுநன்`, `இன்னுயிர் நடுங்கும்` without later named-practice, legal-status or sectarian inference.
-- Record 249: preserve incomplete/lacuna state, alternate poet attribution, and printed Nacciṉārkkiṉiyar/Tolkāppiyam citation as TIR only. The Tolkāppiyam citation must not auto-classify the poem.
-- Records 251–252: preserve `தாபத வாகை` source signs (`புரிசடை` / `சடை`, fire, plant gathering, `வேட்டுவன்`) without mapping to a later religious order.
-- Record 254: preserve exact `என் மகன்`, `அன்னை`, `கிளை`, `மள்ள`.
-- Record 255: preserve `அறனில் கூற்றே` without later deity mapping.
-- Records 256–257: literal `பெயர் தெரிந்திலது` is unknown-attribution metadata, not a named entity. Preserve the literal metadata while keeping `named_entities` reviewed-empty unless body/source-note evidence independently qualifies.
-- Record 259: preserve exact `மறவர்` and comparison-term `புலைத்தி` without later caste/community substitution.
-- Record 260: preserve canonical `கரந்தை (பாடாண் திணையுமாம்) / கையறுநிலை செருவிடை வீழ்தல்` plus source-note `கையறு நிலையுமாம்`, `பாண்பாட்டுமாம்`, `பாடாண் பாட்டுமாம்` as separate TT/TIR variants without normalization.
+This is only a publication/materialization optimization. Semantic review remains strictly poem-by-poem and source-first. Do not batch-guess classifications, skip poems, consult the old audit early, or reduce provenance checks. Split specs remain acceptable when a session cannot finish the full batch or a source-state issue requires isolation.
 
-Earlier source-terminology and provenance guardrails, including record 176 and 186–235, remain binding.
+After materialization, perform targeted checks for source-loss, lacunae, metadata/body boundaries and important audit discrepancies. Obtain the real observation total from the normal verifier, update docs once, squash to one clean user-authored checkpoint parented by the prior green checkpoint, then run final exact-head CI once.
+
+## Durable lessons from 261–285
+
+- Record 261: preserve `நடுகல்`, memorial naming/adornment, cattle recovery, lament, shorn hair and loss of ornaments as source-explicit memorial/mourning evidence.
+- Record 262: preserve `உண்டாட்டு (தலை தோற்றமுமாம்)` as an alternate thurai/classification signal rather than normalizing it.
+- Record 263: `தொழாதனை கழிதல் ஓம்புமதி` is explicit honoring/worship of the memorial stone; bare source-note `பாடியவர் / பாடப்பாட்டோர்` labels remain unresolved source-state/TIR evidence, not reconstructed identities.
+- Records 264–265: preserve memorial-stone installation/adornment/name inscription and exact `கோவலர்` / `பரிசிலர்` without later identity expansion.
+- Records **267–268 are source-lost**. No canonical body or thinai/thurai/poet/addressee metadata survives. Keep only work-level `literary_domain`; all other 28 dimensions remain reviewed-empty with explicit no-reconstruction notes. Do not infer missing content from title, audit, commentary or external tradition.
+- Record 270: preserve exact `மறவர்` as source social/martial terminology.
+- Record 272: keep `death_mourning_memory` reviewed-empty because the body does not explicitly state death; `செருவிடை வீழ்தல்` is metadata TT evidence and must not manufacture a body-level death claim.
+- Records 277–280: preserve mother/son, father/husband/son, battlefield death, mourning, widow-like observances and body evidence while keeping kinship, ritual, emotion and death dimensions distinct.
+- Record 281: preserve `வேம்பு`, யாழ், ஐயவி, ஆம்பல், `காஞ்சி` song, bells/smoke and wound-protection practices without mapping them to a later ritual or medical system.
+- Record 282: incomplete/lacunose with null thinai/thurai; printed `திணையும் துறையும் தெரிந்தில.` is explicit classification-uncertainty TIR, not a basis for reconstruction.
+- Record 283: incomplete/lacunose; preserve exact `கோசர்` and `பாண்பாட்டு (பாடாண் பாட்டும் ஆம்)` as an alternate thurai signal without later community/classification normalization.
+- Record 285: incomplete/lacunose; retain camp, performance, warfare, wound, city/village, public honor and village-grant evidence without inventing a completed death claim.
+
+Earlier source-terminology and provenance guardrails remain binding, including record 176, record 200, and 236–260.
 
 ## Puṟanāṉūṟu sequence
 
-Continue from record **261** and do not skip ahead. **Records 267 and 268 are source-lost and must remain unreconstructed.** Printed names remain source mentions unless separately resolved through permitted evidence.
+Continue from record **286** and do not skip ahead. Records 267–268 remain permanently source-lost/unreconstructed in this production edition. Printed names remain source mentions unless separately resolved through permitted evidence.
 
 Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
 ## Validation
 
-At each published batch checkpoint require at minimum:
+At each final published batch checkpoint require at minimum:
 
 ```bash
 python3 scripts/validate_research_r15_dimensions.py --root .
@@ -119,13 +121,13 @@ The GitHub workflow must also preserve R0/R1/R1.5 validation, deterministic R1 a
 ## Required next activity
 
 1. Confirm PR #4 remains open, draft and unmerged; inspect live head and checks.
-2. Confirm the final/squashed production checkpoint is exactly **260 reviewed / 140 remaining / 4,628 observations / next 261**, with 29 canonical dimensions and 224 tests.
-3. Confirm record 244 fragment-only handling, record 249 Tolkāppiyam citation boundary, records 256–257 unknown-attribution provenance, and record 260 alternate TT/TIR readings remain intact.
-4. Review Puṟanāṉūṟu **261–285 sequentially**, source-first and against all 29 dimensions.
-5. Preserve records **267–268** as source-lost/unreconstructed; do not infer missing poem content from title, metadata, audit, commentary, or external tradition.
-6. Build compact contiguous reviewed specs without copying the old audit.
-7. Materialize 261–285 into separate canonical production JSON records through the deterministic materializer/driver.
-8. Publish the completed batch as one clean user-authored checkpoint and run the full normal PR workflow on that exact final squashed head.
-9. If green, the next permitted batch is 286–310.
+2. Confirm the final/squashed production checkpoint is exactly **285 reviewed / 115 remaining / 5,024 observations / next 286**, with 29 canonical dimensions and 224 tests.
+3. Confirm records 267–268 source-lost handling, record 272 death-boundary, record 282 classification uncertainty, and record 283 alternate-thurai/lacuna provenance remain intact.
+4. Review Puṟanāṉūṟu **286–310 sequentially**, source-first and against all 29 dimensions.
+5. Prefer one contiguous `286-310.json` reviewed spec if the entire batch is completed in the session; do not weaken poem-by-poem scholarly review.
+6. Materialize 286–310 once through the deterministic materializer/driver, then perform targeted generated-record checks.
+7. Publish the completed batch as one clean user-authored checkpoint parented by the previous green checkpoint.
+8. Run the full normal PR workflow on that exact final squashed head.
+9. If green, the next permitted batch is **311–335**.
 
 Do not start the Tolkāppiyam production pass. Do not start R2.
