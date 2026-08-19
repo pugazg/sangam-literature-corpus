@@ -19,6 +19,7 @@ _UNKNOWN_POET_RECORDS: dict[str, str] = {}
 _UNKNOWN_POET_VALUES = {
     "பெயர் தெரிந்திலது",
     "பெயர் புலனாகவில்லை",
+    "பாடப்பட்டோர் : பெயர்கள் தெரிந்தில",
 }
 
 
