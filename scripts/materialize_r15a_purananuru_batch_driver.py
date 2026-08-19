@@ -15,7 +15,11 @@ AUDIT_DIR = "research/audits/r15-premerge/purananuru/parts"
 _EMPTY_SHA256 = hashlib.sha256(b"").hexdigest()
 _ORIGINAL_LOAD_R0 = core.load_r0
 _BLANK_THURAI_RECORDS: set[str] = set()
-_UNKNOWN_POET_RECORDS: set[str] = set()
+_UNKNOWN_POET_RECORDS: dict[str, str] = {}
+_UNKNOWN_POET_VALUES = {
+    "பெயர் தெரிந்திலது",
+    "பெயர் புலனாகவில்லை",
+}
 
 
 def audit_path_for_record(record_id: str) -> str:
@@ -51,12 +55,13 @@ def parse_record_compat(path: Path):
         body_lines.pop(0)
     body_lines = [line for line in body_lines if line != ""]
 
-    if front.get("poet_as_printed") == "பெயர் தெரிந்திலது":
-        _UNKNOWN_POET_RECORDS.add(path.stem)
+    poet_as_printed = front.get("poet_as_printed")
+    if poet_as_printed in _UNKNOWN_POET_VALUES:
+        _UNKNOWN_POET_RECORDS[path.stem] = poet_as_printed
         front = dict(front)
-        # The literal source value means the poet's name is unknown. Treat it
-        # as absent for core named-entity linking, then restore the exact
-        # printed metadata value in the generated production record.
+        # These literal source values explicitly say that the poet's name is
+        # unknown. Treat them as absent for core named-entity linking, then
+        # restore the exact printed metadata value in the production record.
         front["poet_as_printed"] = None
 
     if front.get("thurai") == "":
@@ -105,10 +110,10 @@ def _restore_blank_thurai(root: Path, grouped_records: dict[str, dict]) -> None:
 
 
 def _restore_unknown_poet(root: Path, grouped_records: dict[str, dict]) -> None:
-    for record_id in sorted(_UNKNOWN_POET_RECORDS.intersection(grouped_records)):
+    for record_id in sorted(set(_UNKNOWN_POET_RECORDS).intersection(grouped_records)):
         path = root / "research/production/purananuru/records" / f"{record_id}.json"
         data = json.loads(path.read_text(encoding="utf-8"))
-        data["source_metadata_reviewed"]["poet_as_printed"] = "பெயர் தெரிந்திலது"
+        data["source_metadata_reviewed"]["poet_as_printed"] = _UNKNOWN_POET_RECORDS[record_id]
         _write_record(path, data)
 
 
