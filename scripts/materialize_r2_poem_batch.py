@@ -57,15 +57,27 @@ def materialize(root,spec_path):
         n=int(rid); src=root/f"corpus/{work_id}/poems/{rid}.md"; front,lines,sections=parse(src); record_id=f"{work_id}-{rid}"
         observations=[]; reviewed=[]
         for key,dim in (("literary_domain","literary_domain"),("tinai","tinai_turai")):
-            d=cfg["metadata"][key]; refs=[mref(d["field"],front,sections)]
-            observations.append(obs(record_id,dim,refs,d["basis"],d.get("concept_id"),confidence=d.get("confidence","high"),note=d.get("note","Source-explicit metadata retained.")))
-            reviewed.append({"source_field":d["field"],"source_text":mvalue(d["field"],front,sections),"classification_role":"source_explicit_evidence"})
-        d=cfg["metadata"]["speaker"]; refs=[mref(d["field"],front,sections)]
-        for dim in d["roles"]: observations.append(obs(record_id,dim,refs,d.get("basis","source_metadata_explicit"),confidence=d.get("confidence","high"),note=d["note"]))
-        reviewed.append({"source_field":d["field"],"source_text":mvalue(d["field"],front,sections),"classification_role":"source_explicit_evidence"})
-        d=cfg["metadata"]["poet"]; refs=[mref(d["field"],front,sections)]
-        observations.append(obs(record_id,d["dimension"],refs,d.get("basis","source_metadata_explicit"),hist=d["historical_identity_status"],note=d.get("note","Printed poet attribution retained as an unresolved mention.")))
-        reviewed.append({"source_field":d["field"],"source_text":mvalue(d["field"],front,sections),"classification_role":"unresolved_mention"})
+            d=cfg["metadata"][key]; value=mvalue(d["field"],front,sections)
+            if value not in (None,"") and d.get("concept_id") is not None:
+                refs=[mref(d["field"],front,sections)]
+                observations.append(obs(record_id,dim,refs,d["basis"],d.get("concept_id"),confidence=d.get("confidence","high"),note=d.get("note","Source-explicit metadata retained.")))
+                role="source_explicit_evidence"
+            else: role="reviewed_empty_or_unresolved"
+            reviewed.append({"source_field":d["field"],"source_text":value,"classification_role":role})
+        d=cfg["metadata"]["speaker"]; value=mvalue(d["field"],front,sections)
+        if value not in (None,"") and d.get("roles"):
+            refs=[mref(d["field"],front,sections)]
+            for dim in d["roles"]: observations.append(obs(record_id,dim,refs,d.get("basis","source_metadata_explicit"),confidence=d.get("confidence","high"),note=d["note"]))
+            role="source_explicit_evidence"
+        else: role="reviewed_empty_or_unresolved"
+        reviewed.append({"source_field":d["field"],"source_text":value,"classification_role":role})
+        d=cfg["metadata"]["poet"]; value=mvalue(d["field"],front,sections)
+        if value not in (None,""):
+            refs=[mref(d["field"],front,sections)]
+            observations.append(obs(record_id,d["dimension"],refs,d.get("basis","source_metadata_explicit"),hist=d["historical_identity_status"],note=d.get("note","Printed poet attribution retained as an unresolved mention.")))
+            role="unresolved_mention"
+        else: role="reviewed_empty_or_unresolved"
+        reviewed.append({"source_field":d["field"],"source_text":value,"classification_role":role})
         reviewed.append({"source_field":"section","source_text":front.get("section"),"classification_role":"mechanical_navigation_only"})
         for dim,dcfg in cfg["dimensions"].items():
             refs=[bref(x,lines) for x in dcfg["e"]]

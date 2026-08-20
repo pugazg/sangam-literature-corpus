@@ -1,0 +1,3846 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "adapter_version": "generic-poem-v1",
+  "work_id": "natrinai",
+  "work_record_count": 400,
+  "range": [
+    11,
+    35
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions. Poem body, YAML heading metadata and printed source note remain provenance-distinct; uncertainty, loss and lacunae are preserved.",
+  "records": {
+    "011": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact textual/reference wording retained without inferring an external historical identity."
+        }
+      }
+    },
+    "012": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity or value wording retained without quantified economic inference."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "013": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact occupational or productive-activity wording retained without wider economic reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity or value wording retained without quantified economic inference."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "014": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact occupational or productive-activity wording retained without wider economic reconstruction."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact ruler/polity wording retained without historical office or polity identification."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact group wording retained unresolved; no later caste, ethnic or modern community identity is assigned."
+        },
+        "death_mourning_memory": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact death, mourning or memory wording retained without identifying an external event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact textual/reference wording retained without inferring an external historical identity."
+        }
+      }
+    },
+    "015": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "016": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity or value wording retained without quantified economic inference."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "017": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact deity/ritual-like wording retained unresolved; no later sectarian classification is imposed."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact textual/reference wording retained without inferring an external historical identity."
+        }
+      }
+    },
+    "018": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact group wording retained unresolved; no later caste, ethnic or modern community identity is assigned."
+        },
+        "death_mourning_memory": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact death, mourning or memory wording retained without identifying an external event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "019": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact deity/ritual-like wording retained unresolved; no later sectarian classification is imposed."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        }
+      }
+    },
+    "020": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.marutam",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "021": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.mullai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "022": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact ruler/polity wording retained without historical office or polity identification."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "023": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "024": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        }
+      }
+    },
+    "025": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity or value wording retained without quantified economic inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact ruler/polity wording retained without historical office or polity identification."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact textual/reference wording retained without inferring an external historical identity."
+        }
+      }
+    },
+    "026": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity or value wording retained without quantified economic inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        }
+      }
+    },
+    "027": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "028": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity or value wording retained without quantified economic inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "029": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "030": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.marutam",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact occupational or productive-activity wording retained without wider economic reconstruction."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact textual/reference wording retained without inferring an external historical identity."
+        }
+      }
+    },
+    "031": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "032": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "033": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact group wording retained unresolved; no later caste, ethnic or modern community identity is assigned."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "034": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact ruler/polity wording retained without historical office or polity identification."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact deity/ritual-like wording retained unresolved; no later sectarian classification is imposed."
+        },
+        "death_mourning_memory": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact death, mourning or memory wording retained without identifying an external event."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "035": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Naṟṟiṇai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "confidence": "high",
+          "note": "Exact printed tiṇai field retained, including uncertainty or attached source wording."
+        },
+        "speaker": {
+          "field": "source_note_as_printed",
+          "basis": "source_metadata_explicit",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Printed source note retains dramatic roles/context as provenance-distinct evidence; no scene is reconstructed beyond its wording."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Printed poet attribution retained as an unresolved mention; null and question-mark forms remain unresolved."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact textual/reference wording retained without inferring an external historical identity."
+        }
+      }
+    }
+  },
+  "controls": {
+    "dimensions_considered_per_record": 29,
+    "tolkappiyam_auto_classification_used": false,
+    "external_historical_identification_used": false,
+    "frozen_source_modified": false
+  },
+  "publication_status": "reviewed_ready_for_materialization"
+}
