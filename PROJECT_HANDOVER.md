@@ -34,13 +34,13 @@ Canonical production identity is source sequence: `tolkappiyam-0001` … `tolkap
 
 Current materialized gap-free boundary:
 
-- `0001.json` through `0296.json`;
-- reviewed: **296 / 1,602**;
-- remaining: **1,306**;
-- next record: **tolkappiyam-0297**;
-- next இயல்: **எழுத்ததிகாரம் / புள்ளிமயங்கியல்**;
-- formal grammatical/poetics concept evidence: **375**;
-- incidental examples: **46**;
+- `0001.json` through `0406.json`;
+- reviewed: **406 / 1,602**;
+- remaining: **1,196**;
+- next record: **tolkappiyam-0407**;
+- next இயல்: **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்**;
+- formal grammatical/poetics concept evidence: **511**;
+- incidental examples: **67**;
 - exact dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -150,6 +150,12 @@ Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
 
 This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
 
+### புள்ளிமயங்கியல் 0397–0406 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0397-0406.json`.
+
+This final boundary adds **12 formal grammatical/poetics observations** and **2 incidental examples**. Across புள்ளிமயங்கியல் `0297–0406`, five publication boundaries contribute **136 formal observations** and **21 incidental examples**. Durable guards preserve grammatical class labels, kinship/name formulas, learned-authority and inherited-tradition wording, quantification, environmental/material/fauna/flora lexical examples, and ambiguous forms without unsupported historical promotion. No new controlled concept was required.
+
 ## Tolkāppiyam publication cadence and requested long-range path
 
 The governing rule remains இயல்-aware sequential review:
@@ -175,7 +181,7 @@ A Tolkāppiyam rule never automatically classifies Puṟanāṉūṟu or another
 
 ## Next permitted activity
 
-Proceed with **Tolkāppiyam எழுத்ததிகாரம் / புள்ளிமயங்கியல் `0297–0406`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Preserve exact source spans and terminology, materialize deterministically, and require full exact-head PR CI at the publication boundary.
+Proceed with **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Preserve exact source spans and terminology, materialize deterministically, and require full exact-head PR CI at the publication boundary.
 
 Do not begin `0279–0296` until `0254–0278` is green. Do not start R2.
 
