@@ -27,7 +27,7 @@ Current materialized and validated gap-free prefix: **001–400 — complete**.
 - records remaining: **0**;
 - next record: **null / none**.
 
-Current validated figures: **400 reviewed / 0 remaining / 7,169 production observations / 29 canonical dimensions / 224 tests passed**.
+Current validated figures: **400 reviewed / 0 remaining / 7,169 production observations / 29 canonical dimensions**. The completed combined R1.5A exact-head regression suite passes **228 tests**.
 
 Every completed record identifies the exact frozen source and R0 snapshot, considers all 29 dimensions, distinguishes qualifying evidence from reviewed-empty states, retains exact source Tamil/spans, preserves metadata/body/source-note distinctions, keeps printed names unresolved unless separately resolved, preserves damaged/source-lost states without reconstruction, and uses the old audit only after fresh source review.
 
@@ -115,8 +115,8 @@ The complete Puṟanāṉūṟu production tree passed normal PR workflow `32265
 
 The final authoritative batch checkpoint must be one user-authored/squashed commit parented directly by previous green checkpoint `bf7e0e168fd05476a99b0ee8615ddc324694924d`, followed by the full normal PR workflow on that exact SHA.
 
-## Next stream
+## Completed downstream stream
 
-The former Tolkāppiyam block is satisfied because Puṟanāṉūṟu 001–400 is complete and validated. The next permitted R1.5A work is a **separate Tolkāppiyam production-pass startup/design**, beginning with the frozen 3 அதிகாரம் / 27 இயல் / 1,602 நூற்பா structure and existing R1.5 Tolkāppiyam crosswalk/control artifacts.
+The former Tolkāppiyam block was satisfied after Puṟanāṉūṟu 001–400 completed. Tolkāppiyam production is now also complete and gap-free at **1,602/1,602**, with **3,505 formal grammatical/poetics observations**, **348 incidental examples**, and all **27 இயல்** complete across the three அதிகாரம்.
 
-Do not mechanically copy crosswalk classifications into production, and do not use Tolkāppiyam to retroactively auto-classify Puṟanāṉūṟu. **R2 remains blocked.**
+R1.5A therefore has no next canonical production record. Tolkāppiyam evidence must not retroactively auto-classify Puṟanāṉūṟu or another work. **R2 remains blocked and must not start without separate explicit authorization.**
