@@ -1,6 +1,16 @@
-# Documentation status — R1.5A production review
+# Documentation status — R2 core Sangam production
 
 ## Live phase state
+
+- R1.5A merged into `main`: `1e6684b09a5e41fc675ea3e07ba8b6a646d35830`
+- R2 authorization: explicit
+- active branch: `research/classical-tamil-concept-matrix-r2`
+- active work: Kuṟuntokai benchmark `001–002`
+- R2 schema: `0.4.0`; exact dimensions remain 29
+- controlling roadmap: `docs/r2/ROADMAP.md`
+- controlling scope: `research/production/r2-scope.json`
+
+### Preserved R1.5A closeout
 
 - repository: `pugazg/sangam-literature-corpus`
 - default branch: `main`
@@ -172,6 +182,4 @@ The extension adds dimension-scoped `poetics.*.formal_framework` concepts plus `
 
 ## Next activity
 
-Tolkāppiyam R1.5A production is complete. Preserve draft PR #4 unmerged pending explicit user direction on review/merge. R2 remains blocked.
-
-**Do not start R2.**
+R2 is authorized. Implement Gate A, then review Kuṟuntokai `001–002` sequentially/source-first as the Gate B benchmark. Keep R2 work on `research/classical-tamil-concept-matrix-r2` and keep its PR draft/unmerged pending explicit merge authorization.
