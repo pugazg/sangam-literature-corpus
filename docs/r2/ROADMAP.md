@@ -12,8 +12,8 @@ The controlling scope is `manifests/sangam-core-program.json`:
 
 | Work | Work ID | Frozen records | R2 state |
 |---|---|---:|---|
-| நற்றிணை | `natrinai` | 400 | benchmark 001–002 complete; next 003–010 |
-| ஐங்குறுநூறு | `aingurunuru` | 500 | pending |
+| நற்றிணை | `natrinai` | 400 | complete: 400 records / 6,007 observations |
+| ஐங்குறுநூறு | `aingurunuru` | 500 | next benchmark 001–002 |
 | குறுந்தொகை | `kuruntokai` | 401 | complete: 401 records / 4,540 observations |
 | அகநானூறு | `akananuru` | 400 | pending |
 | புறநானூறு | `purananuru` | 400 | completed foundation; carry forward |
