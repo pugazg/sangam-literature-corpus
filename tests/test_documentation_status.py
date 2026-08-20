@@ -41,23 +41,30 @@ def test_deleted_branches_are_not_current_operational_instructions():
             assert branch not in text, f"stale deleted branch in {path}: {branch}"
 
 
-def test_post_merge_continuity_is_r15a_and_r2_is_blocked():
-    for path in ("README.md", "PROJECT_HANDOVER.md", "NEXT_CHAT_PROMPT.md"):
-        text = read(path).lower()
-        assert "r1.5a" in text
-        assert "r2" in text and ("blocked" in text or "do not start" in text)
-        assert "pr #3 must remain open" not in text
-
-    for path in ("README.md", "PROJECT_HANDOVER.md"):
-        text = read(path).lower()
-        assert "pr #3" in text and "merged" in text
-
-
-def test_r15a_cadence_is_documented():
+def test_post_r15a_merge_continuity_activates_r2():
     for path in (
         "PROJECT_GUIDELINES.md",
         "PROJECT_HANDOVER.md",
         "NEXT_CHAT_PROMPT.md",
+        "docs/DOCUMENTATION_STATUS.md",
+        "docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md",
+    ):
+        text = read(path)
+        assert "R2" in text
+        assert "research/classical-tamil-concept-matrix-r2" in text or path == "docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md"
+        assert "R2 remains blocked" not in text
+        assert "Do not start R2" not in text
+
+    handover = read("PROJECT_HANDOVER.md")
+    assert "1e6684b09a5e41fc675ea3e07ba8b6a646d35830" in handover
+    assert "explicitly authorized" in handover
+    assert "R3" in handover and "blocked" in handover
+
+
+def test_r15a_cadence_is_preserved_in_r15a_documents():
+    for path in (
+        "PROJECT_GUIDELINES.md",
+        "PROJECT_HANDOVER.md",
         "docs/handover/r15a-production-review/README.md",
         "research/production/purananuru/README.md",
     ):
@@ -65,6 +72,26 @@ def test_r15a_cadence_is_documented():
         assert "003–010" in text
         assert "011–035" in text
         assert "25-record" in text
+
+
+def test_r2_scope_and_benchmark_are_documented():
+    for path in (
+        "PROJECT_HANDOVER.md",
+        "PROJECT_GUIDELINES.md",
+        "NEXT_CHAT_PROMPT.md",
+        "docs/DOCUMENTATION_STATUS.md",
+        "docs/r2/ROADMAP.md",
+    ):
+        text = read(path)
+        assert "Kuṟuntokai" in text
+        assert "001–002" in text
+        assert "29" in text
+
+    roadmap = read("docs/r2/ROADMAP.md")
+    assert "2,376" in roadmap
+    assert "1,976" in roadmap
+    assert "0.4.0" in roadmap
+    assert "R3" in roadmap and "blocked" in roadmap
 
 
 def test_source_terminology_policy_is_linked_from_core_docs():
