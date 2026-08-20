@@ -49,6 +49,42 @@
       "parent_concept_id": null,
       "status": "foundation",
       "description": "Formal Tolkāppiyam evidence that conditions a grammatical rule by an explicitly stated செய்யுள் or poetic/textual-form context. It does not by itself classify Akam/Puram, identify an external work, or establish a historical performance event."
+    },
+    {
+      "concept_id": "body.articulation.anatomy",
+      "dimension": "body_health",
+      "label_ta": "ஒலிப்பிறப்பியல் உடல் உறுப்பமைப்பு",
+      "label_en": "articulatory anatomy",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam treatment of bodily articulation sites and breath pathways used to explain speech-sound production. This is grammatical articulatory-anatomy evidence, not a diagnosis, medical claim, or general physiology reconstruction."
+    },
+    {
+      "concept_id": "knowledge.grammar.morphology",
+      "dimension": "knowledge_technology",
+      "label_ta": "சொல்லுருபியல் இலக்கண அறிவு",
+      "label_en": "grammatical morphology",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that classify grammatical word classes, case markers, சாரியை, inflectional or related morphological forms. This is grammatical-system evidence, not a historical social classification."
+    },
+    {
+      "concept_id": "knowledge.grammar.morphophonology",
+      "dimension": "knowledge_technology",
+      "label_ta": "புணர்ச்சி / உருபொலி மாற்ற இலக்கண அறிவு",
+      "label_en": "grammatical morphophonology / sandhi",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules governing sound/form changes at word, morpheme, case-marker or சாரியை boundaries, including புணர்ச்சி, addition, loss and alternation. This is grammatical evidence, not a historical speech-event claim."
+    },
+    {
+      "concept_id": "knowledge.grammar.quantification",
+      "dimension": "knowledge_technology",
+      "label_ta": "அளவு / நிறை / எண் இலக்கண வகைப்பாடு",
+      "label_en": "grammatical quantification and measure classification",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam treatment of அளவு, நிறை, எண் and related measure/quantity expressions as grammatical classes or form-governing categories. It does not by itself reconstruct a historical economic system, market, or standardized metrology."
     }
   ]
 }

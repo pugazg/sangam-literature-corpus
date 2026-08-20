@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu 001–400 is complete and validated; its historical cadence remains benchmark 001–002, stabilization **003–010**, regular **25-record** batches beginning **011–035**, and final 386–400. Tolkāppiyam `0001–0082` is complete/materialized as a gap-free prefix, completing நூல் மரபு and மொழி மரபு. R2 remains blocked.
+Puṟanāṉūṟu 001–400 is complete and validated; its historical cadence remains benchmark 001–002, stabilization **003–010**, regular **25-record** batches beginning **011–035**, and final 386–400. Tolkāppiyam `0001–0173` is complete/materialized as a gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -16,12 +16,12 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 Gap-free production prefix:
 
-- `0001.json` through `0082.json`
-- reviewed: **82 / 1,602**
-- remaining: **1,520**
-- next record: **tolkappiyam-0083**
-- formal grammatical/poetics concept evidence: **87**
-- incidental examples: **7**
+- `0001.json` through `0173.json`
+- reviewed: **173 / 1,602**
+- remaining: **1,429**
+- next record: **tolkappiyam-0174**
+- formal grammatical/poetics concept evidence: **218**
+- incidental examples: **20**
 - exact dimensions per record: **29**
 - regression suite: **228 passed**
 
@@ -29,6 +29,9 @@ Completed இயல்:
 
 - `0001–0033` — எழுத்ததிகாரம் / நூல் மரபு
 - `0034–0082` — எழுத்ததிகாரம் / மொழி மரபு
+- `0083–0103` — எழுத்ததிகாரம் / பிறப்பியல்
+- `0104–0143` — எழுத்ததிகாரம் / புணரியல்
+- `0144–0173` — எழுத்ததிகாரம் / தொகைமரபு
 
 ## Evidence model
 
@@ -77,49 +80,72 @@ The base R1.5 registry remains unchanged for its bounded Puṟanāṉūṟu pilo
 Current production concepts:
 
 - `knowledge.grammar.phonology` → `knowledge_technology`;
+- `knowledge.grammar.word_structure` → `knowledge_technology`;
+- `knowledge.grammar.morphology` → `knowledge_technology`;
+- `knowledge.grammar.morphophonology` → `knowledge_technology`;
+- `knowledge.grammar.quantification` → `knowledge_technology`;
+- `body.articulation.anatomy` → `body_health`;
 - `arts.music.formal_context` → `arts_music_performance`;
 - `textual.tradition.reference` → `textual_intertextual_relationships`;
-- `knowledge.grammar.word_structure` → `knowledge_technology`;
 - `textual.poetic_form.formal_context` → `textual_intertextual_relationships`.
 
-Each is scoped to formal Tolkāppiyam evidence. None establishes a historical performance event, historical technology, external work identity, or social category without source support.
+Each is scoped to formal Tolkāppiyam evidence. None by itself establishes a historical event, medicine, historical technology, market system, external work identity or social identity.
 
-## Completed நூல் மரபு — 0001–0033
+## Completed நூல் மரபு and மொழி மரபு — 0001–0082
 
-Benchmark 0001–0002 and stabilization 0003–0010 established the formal/incidental contract. 0011–0032 each contain one formal `knowledge.grammar.phonology` observation with no incidental examples.
+Earlier durable boundaries remain binding: `உயிர்` / `மெய்`, ordinary grammatical `இசை`, `காலை`, `பொருள்`, `உயர்திணை` and `அஃறிணை` are classified by source context, not lexical resemblance. 0033 remains the early explicit formal music/tradition edge; 0043–0045 establish word structure; 0051 establishes explicit செய்யுள் text-form context; 0067 `முறைப்பெயர்` remains unresolved.
 
-0033 is the first formal multi-dimension edge: phonology + explicit formal music context + unresolved textual/tradition reference, with `புலவர்` only incidental. `நரம்பின் மறை` is not mapped to anatomy, religion, or a named historical work.
+## Completed பிறப்பியல் — 0083–0103
 
-Cumulative state through 0033: **35 formal / 5 incidental**.
+All 21 நூற்பா were reviewed sequentially/source-first before control comparison.
 
-## Completed மொழி மரபு — 0034–0082
+Durable boundaries:
 
-All **49 நூற்பா were reviewed sequentially and source-first before control comparison**. At explicit user direction, the entire இயல் was then published/materialized as one contiguous `0034-0082.json` spec rather than two ≤25-record publication chunks.
+- formal `body.articulation.anatomy` captures source-explicit articulation sites and breath pathways used to explain speech-sound production;
+- this is not medical diagnosis or a general physiology reconstruction;
+- 0102 exact `அளபின் கோடல் அந்தணர் மறைத்தே` remains an unresolved formal tradition/authority reference;
+- `அந்தணர்` is preserved exactly as incidental learned-role wording without later caste/community/sectarian substitution.
 
-Batch result: **52 formal observations + 2 incidental examples**, producing cumulative totals of **87 formal / 7 incidental** through 0082.
+## Completed புணரியல் — 0104–0143
 
-### Durable source boundaries
+All 40 நூற்பா were reviewed sequentially/source-first before control comparison.
 
-- **0034–0042:** phonology/morphophonology. Polysemous `சினை`, `நிலை`, `முன்னர்`, `ஊர்ந்தே`, `உயிர்`, `உரு`, `காலை`, `இசை/இசைமை` remain grammatical in context. `குன்று இசை` is deficient sound, not mountain/music.
-- **0043–0045:** formal word structure; `ஓர் எழுத்து ஒருமொழி`, `ஈர் எழுத்து ஒருமொழி`, `தொடர்மொழி`.
-- **0050:** two formal concepts under `knowledge_technology`: phonology + word structure.
-- **0051:** `செய்யுள் இறுதிப் போலும்` gives formal poetic/text-form context under `textual_intertextual_relationships`; it is not Akam/Puram `literary_domain` and not a performance event.
-- **0053:** `இசைப்பினும்` is pronunciation/sound. `புலவர்` and `என்மனார் புலவர்` are incidental role/attribution examples only.
-- **0057:** `தேரும் காலை` means when examined/considered, not chariot/time-of-day.
-- **0066:** `தம் பெயர்` means grammatical form names, not historical named entities.
-- **0067:** exact `முறைப்பெயர்` is preserved as an unresolved grammatical class; no kinship/relationship mapping is manufactured.
-- **0068/0080:** `பொருள்` is grammatical/lexical meaning, not economy/material culture.
-- **0082:** phonology + word structure; `அஃறிணை` is grammatical, not social/gender classification; `புகர் அற` is not promoted to ethics.
+Durable boundaries:
+
+- formal `knowledge.grammar.morphology` is distinct from `knowledge.grammar.morphophonology`;
+- `வேற்றுமை உருபு`, `சாரியை`, noun classes, பெயர்/தொழில் and boundary alternations remain grammatical-system evidence;
+- `உயர்திணை` / `அஃறிணை` do not become historical social hierarchy or human-gender evidence;
+- 0125 `நாள்` is incidental lexical time only;
+- 0131 `புலவர்` / `என்மனார் புலவர்` remain incidental learned-role/attribution evidence;
+- `தொழில்`, `உடம்படுமெய்`, and grammatical `பொருள்` are not promoted by surface resemblance to occupation, body or economy.
+
+## Completed தொகைமரபு — 0144–0173
+
+All 30 நூற்பா were reviewed sequentially/source-first before control comparison.
+
+Durable boundaries:
+
+- formal `knowledge.grammar.quantification` captures grammatical treatment of `அளவு`, `நிறை`, `எண்` and related measure/quantity expressions;
+- morphophonology/morphology remain separately represented where the rule warrants them;
+- `அரை`, `கலம்`, `பனை`, `கா`, `அளவு`, `நிறை` may be incidental economy/measurement vocabulary but do not establish a historical market or standardized metrology;
+- 0170 `பனை` is a measure-expression name and is not flora evidence;
+- 0147/0159 learned-authority formulas remain incidental role/attribution evidence.
+
+The three current specs are:
+
+- `0083-0103.json`
+- `0104-0143.json`
+- `0144-0173.json`
+
+They complete the user-requested three-இயல் activity while keeping each spec wholly inside one இயல்.
 
 ## Publication cadence
 
 Semantic review is always strictly one நூற்பா at a time, source-first, and a spec never crosses an இயல் boundary.
 
-Normal publication preference remains contiguous chunks of at most 25 records. **0034–0082 is a user-authorized one-time full-இயல் publication exception for the 49-record மொழி மரபு.** A later >25-record full-இயல் batch requires explicit user direction.
+Normal publication preference remains contiguous chunks of at most 25 records. A >25 full-இயல் batch requires explicit user direction; the earlier 49-record மொழி மரபு batch was such an exception.
 
-Immediate sequence:
-
-- **0083–0103** — 21 records, completes பிறப்பியல்.
+Next இயல்: **உருபியல் 0174–0203 (30 records)**. Normal publication boundaries are `0174–0198` and `0199–0203` unless the user explicitly authorizes another full-இயல் >25 exception.
 
 ## Acceptance/prerequisite boundary
 
@@ -137,4 +163,4 @@ Tolkāppiyam production may populate only after complete Puṟanāṉūṟu 001�
 
 ## Next activity
 
-Proceed with **0083–0103**, all 21 records of பிறப்பியல். Review sequentially/source-first across all 29 dimensions, consult the old crosswalk only after all fresh decisions, stage one contiguous spec, materialize, validate, squash onto the previous green checkpoint, and require full exact-head PR CI green.
+Proceed with **உருபியல் beginning at 0174**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
