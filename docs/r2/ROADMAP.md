@@ -103,6 +103,8 @@ The order may change only through a documented R2 decision; the nine-work scope 
 
 ## Later-phase exclusions
 
+R3 and all later phases remain blocked during R2.
+
 - R3: cross-corpus entity resolution and reviewed relationships.
 - R4: civilisation/lived-life synthesis.
 - R5: explorer, maps, timelines, networks and UI.
