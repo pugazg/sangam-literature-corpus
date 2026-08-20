@@ -1,14 +1,14 @@
-# Next Chat Prompt — R1.5A Tolkāppiyam production
+# Next Chat Prompt — R2 Core Sangam production
 
 Continue directly in `pugazg/sangam-literature-corpus`.
 
-Active branch: `research/classical-tamil-concept-matrix-r1.5a`. Active PR: #4, draft/unmerged. Treat live GitHub state as authoritative.
+Active branch: `research/classical-tamil-concept-matrix-r2`. Treat live GitHub state as authoritative.
 
 ## Phase boundary
 
-R1.5 was explicitly authorized and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`.
+R1.5A merged into `main` at `1e6684b09a5e41fc675ea3e07ba8b6a646d35830`. R2 was explicitly authorized afterward.
 
-R1.5A keeps concept/observation schema `0.3.0` and the exact 29 dimensions. It is not R2. R2 remains blocked.
+R2 uses multi-work production-review schema `0.4.0` while preserving the exact 29 dimensions and all R0/R1/R1.5 histories. It covers the frozen nine-work Core Sangam Corpus. The programme direction through R8 is authorized, but phases remain sequentially gated. Only the current R2 boundary is active.
 
 ## Mandatory startup
 
@@ -18,60 +18,29 @@ Before changing the repository, read completely:
 2. `docs/SOURCE_TERMINOLOGY_POLICY.md`
 3. `PROJECT_HANDOVER.md`
 4. `PROJECT_GUIDELINES.md`
-5. `NEXT_CHAT_PROMPT.md`
-6. `docs/handover/r15a-production-review/README.md`
-7. `research/production/purananuru/README.md`
-8. `research/production/tolkappiyam/README.md`
-9. `research/observations/tolkappiyam/README.md`
-10. Tolkāppiyam production schemas, concept extension, old controls, materializer and validator
-11. current PR #4 metadata, exact branch head, and exact-head checks.
+5. `docs/r2/ROADMAP.md`
+6. `research/production/r2-scope.json`
+7. `manifests/sangam-core-program.json`
+8. completed Kuṟuntokai, Naṟṟiṇai and Aiṅkuṟunūṟu controls, plus Akanāṉūṟu README, metadata and active canonical records
+9. R2 schemas, materializer, validator and tests once present
+10. current R2 branch/PR metadata and exact-head checks.
 
-## Accepted state
+## Fixed scope
 
-- Corpus 1.1.0 remains frozen: 28 works / 7,234 canonical records / 5,632 poems / 1,602 Tolkāppiyam நூற்பா.
-- Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
-- Puṟanāṉūṟu cadence remains benchmark `001–002`, stabilization `003–010`, regular 25-record batches beginning `011–035`, and final `386–400`.
-- Tolkāppiyam production is complete and gap-free through `0001–1602`.
-- Reviewed: **1,602 / 1,602**.
-- Remaining: **0**.
-- Next: **none**.
-- Formal grammatical/poetics observations: **3,505**.
-- Incidental examples: **348**.
-- Exact dimensions: **29**.
-- All 27 இயல் across all three அதிகாரம் are complete.
+The nine works contain 2,376 frozen records. Puṟanāṉūṟu 400/400 is a completed carried-forward foundation and must not be re-reviewed. New R2 review scope is 1,976 records.
 
-## Completed சொல்லதிகாரம்
+Kuṟuntokai is complete: `001–401`, 4,540 observations. Naṟṟiṇai is complete: `001–400`, 6,007 observations. Aiṅkuṟunūṟu is complete: `001–500`, 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete at `001–400` with 4,840 observations and no next record. Its cadence is benchmark `001–002`, stabilization `003–010`, regular 25-record batches through `361–385`, and final `386–400`. Kalittokai benchmark `001–002` is complete with 37 observations. Next R2 stabilization: `003–010`.
 
-சொல்லதிகாரம் `0484–0946` is complete:
-
-- கிளவியாக்கம் `0484–0545`: 65 formal + 18 incidental;
-- வேற்றுமையியல் `0546–0567`: 44 formal + 22 incidental;
-- வேற்றுமைமயங்கியல் `0568–0602`: 36 formal + 8 incidental;
-- விளிமரபு `0603–0639`: 74 formal + 4 incidental;
-- பெயரியல் `0640–0682`: 83 formal + 16 incidental;
-- வினையியல் `0683–0733`: 81 formal + 8 incidental;
-- இடையியல் `0734–0781`: 96 formal + 7 incidental;
-- உரியியல் `0782–0879`: 99 formal + 42 incidental;
-- எச்சவியல் `0880–0946`: 135 formal + 12 incidental.
-
-Total: **713 formal observations + 137 incidental examples**.
-
-Three narrow controlled concepts were added because சொல்லதிகாரம் formally requires distinctions not represented by morphology alone:
-
-- `knowledge.grammar.syntax`;
-- `knowledge.grammar.lexical_semantics`;
-- `knowledge.grammar.discourse_pragmatics`.
-
-Lexical meanings, gender/kinship forms, social-role language, emotion, body, wealth/poverty, deity/mantra, region/direction, tense, music/sound, and poetic examples remain source-contextual. They are not automatically historical facts.
+Production architecture: 8 independent Eṭṭuttokai work folders; 10 independent Pattuppāṭṭu long-work folders; 18 independent Patiṉeṇkīḻkkaṇakku folders planned but not activated.
 
 ## Evidence contract
 
-Review every நூற்பா sequentially/source-first across all 29 dimensions. Distinguish formal grammatical/poetics evidence, incidental examples, and reviewed-empty decisions. Only formal evidence enters the flattened stream with `tolkappiyam_mapping`.
+Review each poem sequentially/source-first across all 29 dimensions. Preserve exact Tamil, exact body spans, source-explicit heading/attribution fields, canonical hashes, ambiguity, and reviewed-empty semantics. Write the complete durable record before moving to the next.
 
-Exact source Tamil wins. The old manifest/crosswalk is post-review control evidence only and never a classifier. Tolkāppiyam evidence never auto-classifies another work.
+Printed tiṇai, speaker/context and poet metadata remain provenance-distinct. Tolkāppiyam evidence never auto-classifies a poem. Printed names never become verified historical identities automatically. The frozen corpus is immutable.
 
-## Next canonical activity
+## Immediate next activity
 
-Tolkāppiyam R1.5A production has no next canonical record. Verify and review the completed draft PR #4; do not merge without explicit user authorization.
+Review and materialize Kalittokai `003–010` sequentially/source-first as stabilization. Preserve printed division headings as navigation/context rather than per-record tiṇai. Run full CI/non-drift on the exact head. Keep PR #5 draft/unmerged.
 
-Keep PR #4 draft/unmerged. Do not start R2.
+Do not start R3.

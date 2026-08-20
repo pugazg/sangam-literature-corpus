@@ -1,0 +1,332 @@
+{
+  "schema_version": "0.4.0",
+  "programme_id": "classical-tamil-production-architecture",
+  "decision": "Each named work has an independent production folder and review/completion gate.",
+  "frozen_corpus_mutated": false,
+  "collections": [
+    {
+      "collection_id": "ettuttokai",
+      "title_tamil": "எட்டுத்தொகை",
+      "unit_count": 8,
+      "phase_status": "R2_active"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "title_tamil": "பத்துப்பாட்டு",
+      "unit_count": 10,
+      "phase_status": "R2_planned",
+      "source_container_policy": "The frozen pattuppattu container is preserved; its ten canonical long-poem records are independent production work units."
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "title_tamil": "பதினெண்கீழ்க்கணக்கு",
+      "unit_count": 18,
+      "phase_status": "planned_not_activated"
+    }
+  ],
+  "units": [
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "natrinai",
+      "title_tamil": "நற்றிணை",
+      "folder": "research/production/programmes/ettuttokai/natrinai",
+      "source_container": "corpus/natrinai",
+      "production_status": "complete"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "kuruntokai",
+      "title_tamil": "குறுந்தொகை",
+      "folder": "research/production/programmes/ettuttokai/kuruntokai",
+      "source_container": "corpus/kuruntokai",
+      "production_status": "complete"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "aingurunuru",
+      "title_tamil": "ஐங்குறுநூறு",
+      "folder": "research/production/programmes/ettuttokai/aingurunuru",
+      "source_container": "corpus/aingurunuru",
+      "production_status": "complete"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "patirruppattu",
+      "title_tamil": "பதிற்றுப்பத்து",
+      "folder": "research/production/programmes/ettuttokai/patirruppattu",
+      "source_container": "corpus/patirruppattu",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "paripatal",
+      "title_tamil": "பரிபாடல்",
+      "folder": "research/production/programmes/ettuttokai/paripatal",
+      "source_container": "corpus/paripatal",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "kalittokai",
+      "title_tamil": "கலித்தொகை",
+      "folder": "research/production/programmes/ettuttokai/kalittokai",
+      "source_container": "corpus/kalittokai",
+      "production_status": "stabilization_active"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "akananuru",
+      "title_tamil": "அகநானூறு",
+      "folder": "research/production/programmes/ettuttokai/akananuru",
+      "source_container": "corpus/akananuru",
+      "production_status": "complete"
+    },
+    {
+      "collection_id": "ettuttokai",
+      "unit_id": "purananuru",
+      "title_tamil": "புறநானூறு",
+      "folder": "research/production/programmes/ettuttokai/purananuru",
+      "source_container": "corpus/purananuru",
+      "production_status": "carried_forward_complete"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "tirumurukarruppatai",
+      "title_tamil": "திருமுருகாற்றுப்படை",
+      "folder": "research/production/programmes/pattuppattu/tirumurukarruppatai",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "001",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "porunararruppatai",
+      "title_tamil": "பொருநர் ஆற்றுப்படை",
+      "folder": "research/production/programmes/pattuppattu/porunararruppatai",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "002",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "cirupanarruppatai",
+      "title_tamil": "சிறுபாணாற்றுப்படை",
+      "folder": "research/production/programmes/pattuppattu/cirupanarruppatai",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "003",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "perumpanarruppatai",
+      "title_tamil": "பெரும்பாணாற்றுப்படை",
+      "folder": "research/production/programmes/pattuppattu/perumpanarruppatai",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "004",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "mullaippattu",
+      "title_tamil": "முல்லைப்பாட்டு",
+      "folder": "research/production/programmes/pattuppattu/mullaippattu",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "005",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "maturaikkanci",
+      "title_tamil": "மதுரைக்காஞ்சி",
+      "folder": "research/production/programmes/pattuppattu/maturaikkanci",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "006",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "netunalvatai",
+      "title_tamil": "நெடுநல்வாடை",
+      "folder": "research/production/programmes/pattuppattu/netunalvatai",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "007",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "kurinjippattu",
+      "title_tamil": "குறிஞ்சிப்பாட்டு",
+      "folder": "research/production/programmes/pattuppattu/kurinjippattu",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "008",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "pattinappalai",
+      "title_tamil": "பட்டினப்பாலை",
+      "folder": "research/production/programmes/pattuppattu/pattinappalai",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "009",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "pattuppattu",
+      "unit_id": "malaipatukatam",
+      "title_tamil": "மலைபடுகடாம்",
+      "folder": "research/production/programmes/pattuppattu/malaipatukatam",
+      "source_container": "corpus/pattuppattu",
+      "source_record": "010",
+      "production_status": "pending"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "nalatiyar",
+      "title_tamil": "நாலடியார்",
+      "folder": "research/production/programmes/patinenkilkanakku/nalatiyar",
+      "source_container": "corpus/nalatiyar",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "nanmanikkatikai",
+      "title_tamil": "நான்மணிக்கடிகை",
+      "folder": "research/production/programmes/patinenkilkanakku/nanmanikkatikai",
+      "source_container": "corpus/nanmanikkatikai",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "inna-narpathu",
+      "title_tamil": "இன்னா நாற்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/inna-narpathu",
+      "source_container": "corpus/inna-narpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "iniyavai-narpathu",
+      "title_tamil": "இனியவை நாற்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/iniyavai-narpathu",
+      "source_container": "corpus/iniyavai-narpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "kar-narpathu",
+      "title_tamil": "கார் நாற்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/kar-narpathu",
+      "source_container": "corpus/kar-narpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "kalavali-narpathu",
+      "title_tamil": "களவழி நாற்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/kalavali-narpathu",
+      "source_container": "corpus/kalavali-narpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "aintinai-aimpathu",
+      "title_tamil": "ஐந்திணை ஐம்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/aintinai-aimpathu",
+      "source_container": "corpus/aintinai-aimpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "aintinai-ezhupathu",
+      "title_tamil": "ஐந்திணை எழுபது",
+      "folder": "research/production/programmes/patinenkilkanakku/aintinai-ezhupathu",
+      "source_container": "corpus/aintinai-ezhupathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "tinai-moli-aimpathu",
+      "title_tamil": "திணைமொழி ஐம்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/tinai-moli-aimpathu",
+      "source_container": "corpus/tinai-moli-aimpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "tinai-malai-nurraimpathu",
+      "title_tamil": "திணைமாலை நூற்றைம்பது",
+      "folder": "research/production/programmes/patinenkilkanakku/tinai-malai-nurraimpathu",
+      "source_container": "corpus/tinai-malai-nurraimpathu",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "tirukkural",
+      "title_tamil": "திருக்குறள்",
+      "folder": "research/production/programmes/patinenkilkanakku/tirukkural",
+      "source_container": "corpus/tirukkural",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "tirikatukam",
+      "title_tamil": "திரிகடுகம்",
+      "folder": "research/production/programmes/patinenkilkanakku/tirikatukam",
+      "source_container": "corpus/tirikatukam",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "acarakkovai",
+      "title_tamil": "ஆசாரக்கோவை",
+      "folder": "research/production/programmes/patinenkilkanakku/acarakkovai",
+      "source_container": "corpus/acarakkovai",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "palamoli-nanuru",
+      "title_tamil": "பழமொழி நானூறு",
+      "folder": "research/production/programmes/patinenkilkanakku/palamoli-nanuru",
+      "source_container": "corpus/palamoli-nanuru",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "cirupancamulam",
+      "title_tamil": "சிறுபஞ்சமூலம்",
+      "folder": "research/production/programmes/patinenkilkanakku/cirupancamulam",
+      "source_container": "corpus/cirupancamulam",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "mutumolikkanci",
+      "title_tamil": "முதுமொழிக்காஞ்சி",
+      "folder": "research/production/programmes/patinenkilkanakku/mutumolikkanci",
+      "source_container": "corpus/mutumolikkanci",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "elati",
+      "title_tamil": "ஏலாதி",
+      "folder": "research/production/programmes/patinenkilkanakku/elati",
+      "source_container": "corpus/elati",
+      "production_status": "planned_not_activated"
+    },
+    {
+      "collection_id": "patinenkilkanakku",
+      "unit_id": "kainnilai",
+      "title_tamil": "கைந்நிலை",
+      "folder": "research/production/programmes/patinenkilkanakku/kainnilai",
+      "source_container": "corpus/kainnilai",
+      "production_status": "planned_not_activated"
+    }
+  ],
+  "controls": {
+    "tolkappiyam_auto_classification_used": false,
+    "r3_started": false,
+    "frozen_source_modified": false
+  }
+}

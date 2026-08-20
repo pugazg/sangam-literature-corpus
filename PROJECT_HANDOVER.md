@@ -1,16 +1,29 @@
 # Sangam Literature Corpus — Project Handover
 
+## R2 authoritative current state
+
+R1.5A merged into `main` at `1e6684b09a5e41fc675ea3e07ba8b6a646d35830`. R2 was then explicitly authorized.
+
+Active branch: `research/classical-tamil-concept-matrix-r2`.
+
+R2 applies the unchanged exact 29-dimension evidence model across the frozen nine-work Core Sangam Corpus under the new multi-work production-review schema `0.4.0`. Scope and gates are controlled by `research/production/r2-scope.json` and `docs/r2/ROADMAP.md`.
+
+Puṟanāṉūṟu 400/400 is carried forward without re-review. Kuṟuntokai is complete through `001–401`: 401 gap-free reviewed records and 4,540 observations. Naṟṟiṇai is complete at `001–400` with 6,007 observations. Aiṅkuṟunūṟu is complete at `001–500` with 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete at `001–400` with 4,840 observations and no next record. Kalittokai benchmark `001–002` is complete with 37 observations. Next R2 stabilization: `003–010`.
+
+The programme direction through R8 is authorized, with sequential gates controlled by `docs/MASTER_ROADMAP_R2_R8.md`. Only the current R2 boundary is active. Tolkāppiyam must not auto-classify poems, and the frozen corpus must not change.
+
+
 ## Authoritative current state
 
 Repository: `pugazg/sangam-literature-corpus`
 
 Default branch: `main`
 
-Active research branch: `research/classical-tamil-concept-matrix-r1.5a`
+Active research branch: `research/classical-tamil-concept-matrix-r2`
 
-R1.5 was explicitly authorized and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 is historical/merged. Draft PR #4 is the active R1.5A proposal.
+R1.5 was explicitly authorized and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 and PR #4 are historical/merged. Draft PR #5 is the active R2 proposal.
 
-R1.5A keeps concept/observation schema `0.3.0`; it is not R2. **R2 remains blocked and must not start without explicit user authorization.** Treat live GitHub state as authoritative over older prose.
+R1.5A preserved concept/observation schema `0.3.0` and is now complete/merged. R2 was explicitly authorized afterward and uses multi-work production-review schema `0.4.0` while retaining the exact 29 dimensions. Treat live GitHub state as authoritative over older prose.
 
 ## Frozen corpus and preserved layers
 
@@ -204,7 +217,7 @@ Total சொல்லதிகாரம் contribution: **713 formal observatio
 
 ## Next permitted activity
 
-Tolkāppiyam R1.5A production is complete. Keep PR #4 draft and unmerged until explicit user authorization to review or merge. R2 remains blocked.
+Proceed with Kalittokai stabilization `003–010`; its `001–002` benchmark is complete with 37 observations. Preserve division headings as navigation/context rather than per-record tiṇai. Akanāṉūṟu is closed at 400/400 and must not be silently reclassified. Aiṅkuṟunūṟu is closed at 500/500 and must not be silently reclassified. Use the programme architecture of 8 Eṭṭuttokai work folders, 10 independent Pattuppāṭṭu long-work folders, and 18 planned Patiṉeṇkīḻkkaṇakku folders. Keep PR #5 draft/unmerged. Do not start R3 or activate the post-core collection before its governed boundary.
 
 ## பொருளதிகாரம் — complete
 
@@ -230,4 +243,4 @@ Read in this order:
 12. `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
 13. `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
 
-PR #4 remains draft/unmerged until a later user-authorized merge boundary.
+PR #4 is historical/merged. The R2 PR must remain draft/unmerged until a later explicit merge authorization.

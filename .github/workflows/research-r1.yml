@@ -75,6 +75,21 @@ jobs:
       - name: Validate R1.5A Tolkappiyam production prefix
         run: python3 scripts/validate_r15_tolkappiyam_production.py --root .
 
+      - name: Validate R2 scope and contract
+        run: python3 scripts/validate_r2_scope.py --root .
+
+      - name: Validate R2 Kuruntokai production prefix
+        run: python3 scripts/validate_r2_kuruntokai_production.py --root .
+
+      - name: Validate R2 Natrinai production prefix
+        run: python3 scripts/validate_r2_poem_production.py --root . --work natrinai --records 400
+
+      - name: Validate R2 Aingurunuru production prefix
+        run: python3 scripts/validate_r2_poem_production.py --root . --work aingurunuru --records 500
+
+      - name: Validate R2 Akananuru production prefix
+        run: python3 scripts/validate_r2_poem_production.py --root . --work akananuru --records 400
+
       - name: Run complete regression suite
         run: pytest -q
 

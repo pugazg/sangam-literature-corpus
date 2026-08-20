@@ -1,0 +1,2331 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "work_id": "kuruntokai",
+  "range": [
+    136,
+    160
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions before materialization; exact lexical evidence was retained conservatively and ambiguity was not externally resolved.",
+  "records": {
+    "136": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact deity/ritual-like wording retained unresolved; no later sectarian classification is imposed."
+        }
+      }
+    },
+    "137": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        }
+      }
+    },
+    "138": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.marutam",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தோழி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "139": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.marutam",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தோழி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        }
+      }
+    },
+    "140": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        }
+      }
+    },
+    "141": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact kinship/gender wording retained without reconstructing household or legal status."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "142": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        }
+      }
+    },
+    "143": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தோழி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact occupational or productive-activity wording retained without wider economic reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity, value or exchange-adjacent wording retained without quantified historical inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact ruler/polity wording retained without historical office or polity identification."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact music/performance wording retained; comparison imagery is not treated as an actual event."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        }
+      }
+    },
+    "144": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed செவிலித்தாய் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        }
+      }
+    },
+    "145": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.neytal",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact group wording retained unresolved; no later caste, ethnic or modern community identity is assigned."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "146": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தோழி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "147": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        }
+      }
+    },
+    "148": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.mullai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact wealth, scarcity, value or exchange-adjacent wording retained without quantified historical inference."
+        }
+      }
+    },
+    "149": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact value/conduct wording retained without turning poetic evaluation into a universal norm."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "150": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact ruler/polity wording retained without historical office or polity identification."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "151": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "152": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "153": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "154": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.palai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        }
+      }
+    },
+    "155": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.mullai",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact occupational or productive-activity wording retained without wider economic reconstruction."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        },
+        "textual_intertextual_relationships": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact text/poetic-reference wording retained without inferring an external intertext."
+        }
+      }
+    },
+    "156": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact food or subsistence wording retained without quantified historical inference."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact deity/ritual-like wording retained unresolved; no later sectarian classification is imposed."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "medium",
+          "note": "Exact knowledge, measure, craft or technique wording retained without technological extrapolation."
+        }
+      }
+    },
+    "157": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.marutam",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact weapon/conflict wording retained; no external battle is identified."
+        }
+      }
+    },
+    "158": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact animal/bird/aquatic wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        }
+      }
+    },
+    "159": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தோழி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact environmental/place-form wording retained; no conventional tiṇai ecology or modern geography is imported."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact plant/flower wording retained without modern botanical identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact affective or lived-experience wording retained without retrospective diagnosis."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact clothing/adornment wording retained."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact object/material-culture wording retained; similes are not promoted into historical events."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact movement, route or conveyance wording retained without reconstructing an itinerary."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    },
+    "160": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kuṟuntokai is treated as Akam work context; this is not inferred from the body."
+        },
+        "tinai": {
+          "concept_id": "literary.tinai.kurinji",
+          "field": "thinai_as_printed",
+          "basis": "source_metadata_explicit"
+        },
+        "speaker": {
+          "field": "speaker_as_printed",
+          "roles": [
+            "people_social_roles",
+            "relationships"
+          ],
+          "note": "Exact printed தலைவி கூற்று retained; no reconstructed dramatic scene."
+        },
+        "poet": {
+          "field": "poet_as_printed",
+          "dimension": "named_entities",
+          "historical_identity_status": "unresolved"
+        }
+      },
+      "dimensions": {
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact time, season or weather wording retained without calendrical reconstruction."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact human role wording retained without converting it into later identity categories."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact relationship, attachment or separation wording retained without reconstructing legal status."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "confidence": "high",
+          "note": "Exact bodily or health-language retained without retrospective medical diagnosis."
+        }
+      }
+    }
+  },
+  "controls": {
+    "dimensions_considered_per_record": 29,
+    "tolkappiyam_auto_classification_used": false,
+    "external_historical_identification_used": false,
+    "frozen_source_modified": false
+  },
+  "publication_status": "reviewed_ready_for_materialization"
+}

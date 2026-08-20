@@ -16,9 +16,9 @@ R1.5 — the exact 29-dimension Classical Tamil concept-matrix foundation — wa
 
 **PR #3 is historical/merged.**
 
-Current research work is **R1.5A — batched 29-dimension production review** on branch `research/classical-tamil-concept-matrix-r1.5a`, proposed to `main` through draft PR #4.
+R1.5A is complete and merged. Current research work is **R2 Core Sangam production** on branch `research/classical-tamil-concept-matrix-r2`, proposed through draft PR #5. Kuṟuntokai is complete at 401/401; Puṟanāṉūṟu 400/400 is the carried-forward foundation.
 
-R1.5A keeps concept/observation schema `0.3.0`; it changes production-review cadence, not the evidence standard. **R2 remains blocked and must not start without later explicit user authorization.**
+R2 uses production-review schema `0.4.0` with the unchanged exact 29 dimensions. The programme direction through R8 is authorized and sequentially gated by `docs/MASTER_ROADMAP_R2_R8.md`.
 
 Treat live GitHub branch/PR/check state as authoritative. Historical prompts, pre-merge handovers, release snapshots, and old workflow logs remain provenance rather than current execution instructions.
 
@@ -33,6 +33,7 @@ Existing release tags and frozen source/corpus content are not retargeted merely
 - R0 evidence schema: `0.1.0`
 - R1 review/entity-resolution workflow schema: `0.2.0`
 - R1.5 / R1.5A concept-observation schema: `0.3.0`
+- R2 multi-work production-review schema: `0.4.0`
 
 Preserved R0 baseline:
 
@@ -216,7 +217,7 @@ For R1.5A, CI must prove:
 - R1 primary-history non-mutation;
 - documentation-status regression checks.
 
-Green validation is technical readiness for the current batch. It does not authorize merging draft PR #4 or starting R2.
+Green validation is technical readiness for the current boundary. It does not authorize merging draft PR #5 or skipping to a later roadmap.
 
 ## Severity levels
 

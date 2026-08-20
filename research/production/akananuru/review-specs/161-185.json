@@ -1,0 +1,3676 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "adapter_version": "generic-poem-v1",
+  "work_id": "akananuru",
+  "work_record_count": 400,
+  "navigation_fields": [
+    "poem_number_as_printed",
+    "section",
+    "major_division_as_printed"
+  ],
+  "range": [
+    161,
+    185
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions. Null tiṇai, poet and speaker metadata remain reviewed-empty; printed macro-division and major-division headings remain provenance-bearing navigation only.",
+  "records": {
+    "161": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              13
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "162": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              23
+            ],
+            [
+              "line",
+              24
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              20
+            ],
+            [
+              "line",
+              22
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact work or production wording retained without institutional reconstruction."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              14
+            ],
+            [
+              "line",
+              18
+            ],
+            [
+              "line",
+              21
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              21
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              21
+            ]
+          ],
+          "note": "Source forms retained as unresolved named expressions; no external identity is assigned.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        }
+      }
+    },
+    "163": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        }
+      }
+    },
+    "164": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "165": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "166": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Source forms retained as unresolved named expressions; no external identity is assigned.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        }
+      }
+    },
+    "167": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              14
+            ],
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              15
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "168": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              12
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "169": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "170": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact work or production wording retained without institutional reconstruction."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "171": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "172": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              12
+            ],
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact work or production wording retained without institutional reconstruction."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "173": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              12
+            ],
+            [
+              "line",
+              17
+            ],
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing a historical event."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              13
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Source forms retained as unresolved named expressions; no external identity is assigned.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        }
+      }
+    },
+    "174": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing a historical event."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "175": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Source forms retained as unresolved named expressions; no external identity is assigned.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        }
+      }
+    },
+    "176": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              13
+            ],
+            [
+              "line",
+              14
+            ],
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              19
+            ],
+            [
+              "line",
+              20
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              22
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              20
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              13
+            ],
+            [
+              "line",
+              20
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              24
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "177": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              12
+            ],
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing a historical event."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Source forms retained as unresolved named expressions; no external identity is assigned.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        }
+      }
+    },
+    "178": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              17
+            ],
+            [
+              "line",
+              18
+            ],
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              14
+            ],
+            [
+              "line",
+              15
+            ],
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              20
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              20
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        }
+      }
+    },
+    "179": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing a historical event."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              12
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "180": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "181": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              13
+            ],
+            [
+              "line",
+              18
+            ],
+            [
+              "line",
+              19
+            ],
+            [
+              "line",
+              26
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              23
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              18
+            ],
+            [
+              "line",
+              25
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              23
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing a historical event."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              14
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "trade_exchange": {
+          "e": [
+            [
+              "line",
+              23
+            ]
+          ],
+          "note": "Exact distribution or exchange wording retained without reconstructing a trade system."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact authority or political-role wording retained without external identification.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              25
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact art, music or performance wording retained without assigning a performance context."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact knowledge or craft wording retained without technological modernization."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              20
+            ],
+            [
+              "line",
+              24
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Source forms retained as unresolved named expressions; no external identity is assigned.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        }
+      }
+    },
+    "182": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              18
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact work or production wording retained without institutional reconstruction."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact movement or transport wording retained without route reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact wealth or resource wording retained without quantified economic inference."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "183": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              13
+            ],
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "184": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              10
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact community or group wording retained without ethnographic expansion.",
+          "confidence": "low",
+          "historical_identity_status": "unresolved"
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "185": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact terrain and environmental wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact weather or time wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    }
+  }
+}

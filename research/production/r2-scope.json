@@ -1,0 +1,130 @@
+{
+  "programme_id": "classical-tamil-research-layer",
+  "phase": "R2",
+  "schema_version": "0.4.0",
+  "authorization": {
+    "status": "explicitly_authorized",
+    "r15a_merge_commit": "1e6684b09a5e41fc675ea3e07ba8b6a646d35830"
+  },
+  "source_scope_manifest": "manifests/sangam-core-program.json",
+  "source_corpus_release": "classical-tamil-corpus-v1.1.0",
+  "frozen_work_count": 9,
+  "frozen_record_count": 2376,
+  "canonical_dimension_count": 29,
+  "completed_foundation": {
+    "work_id": "purananuru",
+    "records": 400,
+    "policy": "carry_forward_without_re_review"
+  },
+  "new_review_record_count": 1976,
+  "canonical_scope_order": [
+    {
+      "work_id": "natrinai",
+      "records": 400,
+      "state": "complete"
+    },
+    {
+      "work_id": "aingurunuru",
+      "records": 500,
+      "state": "complete"
+    },
+    {
+      "work_id": "kuruntokai",
+      "records": 401,
+      "state": "complete"
+    },
+    {
+      "work_id": "akananuru",
+      "records": 400,
+      "state": "complete"
+    },
+    {
+      "work_id": "purananuru",
+      "records": 400,
+      "state": "completed_foundation"
+    },
+    {
+      "work_id": "pattuppattu",
+      "records": 10,
+      "state": "pending"
+    },
+    {
+      "work_id": "patirruppattu",
+      "records": 80,
+      "state": "pending"
+    },
+    {
+      "work_id": "paripatal",
+      "records": 35,
+      "state": "pending"
+    },
+    {
+      "work_id": "kalittokai",
+      "records": 150,
+      "state": "stabilization_active"
+    }
+  ],
+  "active_work_id": "kalittokai",
+  "benchmark_range": [
+    1,
+    2
+  ],
+  "stabilization_range": [
+    3,
+    10
+  ],
+  "next_record": "kalittokai-003",
+  "auto_classify_from_tolkappiyam": false,
+  "cross_corpus_entity_resolution": false,
+  "external_historical_evidence": false,
+  "frozen_corpus_mutation_allowed": false,
+  "regular_batch_size": 25,
+  "next_batch": [
+    3,
+    10
+  ],
+  "next_work_benchmark": null,
+  "production_architecture_manifest": "research/production/programmes/architecture.json",
+  "r2_operational_work_units": 18,
+  "pattuppattu_production_policy": "ten_independent_long_work_units",
+  "post_core_plan": {
+    "collection_id": "patinenkilkanakku",
+    "work_units": 18,
+    "status": "planned_not_activated"
+  },
+  "completed_works": [
+    {
+      "work_id": "purananuru",
+      "records": 400,
+      "policy": "carried_forward"
+    },
+    {
+      "work_id": "kuruntokai",
+      "records": 401,
+      "observations": 4540,
+      "policy": "r2_complete"
+    },
+    {
+      "work_id": "natrinai",
+      "records": 400,
+      "observations": 6007,
+      "policy": "r2_complete"
+    },
+    {
+      "work_id": "aingurunuru",
+      "records": 500,
+      "observations": 2461,
+      "policy": "r2_complete",
+      "lost_records": [
+        129,
+        130
+      ]
+    },
+    {
+      "work_id": "akananuru",
+      "records": 400,
+      "observations": 4840,
+      "policy": "r2_complete"
+    }
+  ]
+}

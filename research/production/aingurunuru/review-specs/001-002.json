@@ -1,0 +1,295 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "adapter_version": "generic-poem-v1",
+  "work_id": "aingurunuru",
+  "work_record_count": 500,
+  "range": [
+    1,
+    2
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions. Null tiṇai, poet and speaker metadata remain reviewed-empty and are not reconstructed from conventional anthology divisions.",
+  "records": {
+    "001": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; the mechanical hundred-poem block is not a classifier."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact நெல் and காஞ்சி plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact சிறுமீன் aquatic wording retained without zoological modernization."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "range",
+              5,
+              6
+            ]
+          ],
+          "note": "Exact ஊரன் and பாணன் role wording retained without historical identity reconstruction."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact பாணன் occupational/performance-role wording retained conservatively."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Paddy and fish wording retained as food/subsistence evidence without quantified inference."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact ஊரன் settlement-linked wording retained without modern place identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact பொன் and abundance wish retained without quantified economic inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "ஆதன் and அவினி occur in an acclamatory formula; no ruler or polity identity is externally assigned."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "Exact பாணன் performance-role language; no specific performance event is reconstructed."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "range",
+              5,
+              6
+            ]
+          ],
+          "note": "வாழி / வாழ்க blessing and flourishing language retained as source evaluation."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "ஆதன் and அவினி remain unresolved source forms."
+        }
+      }
+    },
+    "002": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; the mechanical hundred-poem block is not a classifier."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact வயல் and தண்துறை environmental wording retained without importing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact நீலம் and நெய்தல் plant/flower wording retained without botanical modernization."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact இரவலர் and ஊரன் role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "range",
+              5,
+              6
+            ]
+          ],
+          "note": "Exact கேண்மை relationship and continuity language retained."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact ஊரன் settlement-linked wording retained without modern place identification."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "ஆதன் and அவினி occur in an acclamatory formula; no ruler or polity identity is externally assigned."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              6
+            ]
+          ],
+          "note": "வாழி and flourishing language retained as source evaluation."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "ஆதன் and அவினி remain unresolved source forms."
+        }
+      }
+    }
+  },
+  "controls": {
+    "dimensions_considered_per_record": 29,
+    "tolkappiyam_auto_classification_used": false,
+    "external_historical_identification_used": false,
+    "frozen_source_modified": false
+  },
+  "publication_status": "reviewed_ready_for_materialization",
+  "navigation_fields": [
+    "major_division",
+    "pattu_as_printed",
+    "position_within_pattu"
+  ],
+  "materialization_control": "full_retry_after_navigation_loop_fix"
+}

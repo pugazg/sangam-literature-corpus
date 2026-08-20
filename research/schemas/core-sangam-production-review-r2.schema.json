@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research/schemas/core-sangam-production-review-r2.schema.json",
+  "title": "R2 Core Sangam multi-work 29-dimension production review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version","phase","production_review_id","work_id","record_id","source_sequence","source_snapshot","source_metadata_reviewed","dimensions_considered","dimension_reviews","observations","review_status","reviewer_type","empty_cell_semantics","next_record_allowed"],
+  "properties": {
+    "schema_version": {"const": "0.4.0"},
+    "phase": {"const": "R2"},
+    "production_review_id": {"type":"string","pattern":"^[a-z0-9-]+-r2-production-[0-9]{3}$"},
+    "work_id": {"enum":["natrinai","aingurunuru","kuruntokai","akananuru","purananuru","pattuppattu","patirruppattu","paripatal","kalittokai"]},
+    "record_id": {"type":"string","pattern":"^[a-z0-9-]+-[0-9]{3}$"},
+    "source_sequence": {"type":"integer","minimum":1},
+    "source_snapshot": {
+      "type":"object","additionalProperties":false,
+      "required":["canonical_record_path","canonical_record_git_blob_sha","canonical_record_sha256","canonical_body_sha256","textual_status","canonical_text_available"],
+      "properties":{
+        "canonical_record_path":{"type":"string","minLength":1},
+        "canonical_record_git_blob_sha":{"type":"string","pattern":"^[0-9a-f]{40}$"},
+        "canonical_record_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "canonical_body_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "textual_status":{"type":"string","minLength":1},
+        "canonical_text_available":{"type":"boolean"}
+      }
+    },
+    "source_metadata_reviewed": {
+      "type":"array",
+      "items":{
+        "type":"object","additionalProperties":false,
+        "required":["source_field","source_text","classification_role"],
+        "properties":{
+          "source_field":{"type":"string","minLength":1},
+          "source_text":{"type":["string","null"]},
+          "classification_role":{"enum":["source_explicit_evidence","provenance_only","mechanical_navigation_only","unresolved_mention"]}
+        }
+      }
+    },
+    "dimensions_considered":{"const":29},
+    "dimension_reviews":{
+      "type":"array","minItems":29,"maxItems":29,
+      "items":{
+        "type":"object","additionalProperties":false,
+        "required":["ordinal","dimension","status","observation_ids","review_note"],
+        "properties":{
+          "ordinal":{"type":"integer","minimum":1,"maximum":29},
+          "dimension":{"enum":["literary_domain","tinai_turai","landscape_environment","season_weather_time","flora","fauna","people_social_roles","relationships","emotion_lived_experience","occupations_production","food_subsistence","clothing_ornaments_adornment","material_culture_everyday_objects","weapons_warfare","mobility_transport","settlements_built_environment","economy","trade_exchange","polity_political_life","communities_social_groups","family_gender_kinship","religion_ritual","death_mourning_memory","arts_music_performance","knowledge_technology","values_ethical_concepts","body_health","named_entities","textual_intertextual_relationships"]},
+          "status":{"enum":["evidence_recorded","no_qualifying_evidence_identified","damaged_evidence_limited"]},
+          "observation_ids":{"type":"array","uniqueItems":true,"items":{"type":"string","pattern":"^obs\\.prod\\.r2\\.[0-9a-f]{24}$"}},
+          "review_note":{"type":"string","minLength":1}
+        }
+      }
+    },
+    "observations":{"type":"array"},
+    "review_status":{"const":"reviewed"},
+    "reviewer_type":{"enum":["human_editor","assistant_assisted"]},
+    "empty_cell_semantics":{"const":"No qualifying evidence identified in this reviewed source record; never evidence of historical absence."},
+    "next_record_allowed":{"type":["string","null"]}
+  }
+}
