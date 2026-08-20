@@ -78,7 +78,7 @@ def materialize(root,spec_path):
             role="unresolved_mention"
         else: role="reviewed_empty_or_unresolved"
         reviewed.append({"source_field":d["field"],"source_text":value,"classification_role":role})
-        reviewed.append({"source_field":"section","source_text":front.get("section"),"classification_role":"mechanical_navigation_only"})
+        for field in spec.get("navigation_fields",["section"]):\n            reviewed.append({"source_field":field,"source_text":front.get(field),"classification_role":"mechanical_navigation_or_source_grouping"})
         for dim,dcfg in cfg["dimensions"].items():
             refs=[bref(x,lines) for x in dcfg["e"]]
             observations.append(obs(record_id,dim,refs,confidence=dcfg.get("confidence","high"),hist=dcfg.get("historical_identity_status","not_applicable"),note=dcfg["note"]))

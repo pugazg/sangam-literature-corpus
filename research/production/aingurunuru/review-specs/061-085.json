@@ -1,0 +1,1655 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "adapter_version": "generic-poem-v1",
+  "work_id": "aingurunuru",
+  "work_record_count": 500,
+  "navigation_fields": [
+    "major_division",
+    "pattu_as_printed",
+    "position_within_pattu"
+  ],
+  "range": [
+    61,
+    85
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions. Null tiṇai, poet and speaker metadata remain reviewed-empty; mechanical hundred-poem and printed decad organization remain navigation only.",
+  "records": {
+    "061": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "062": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        }
+      }
+    },
+    "063": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "064": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        }
+      }
+    },
+    "065": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "066": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "067": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        }
+      }
+    },
+    "068": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        }
+      }
+    },
+    "069": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "070": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "071": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        }
+      }
+    },
+    "072": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "073": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        }
+      }
+    },
+    "074": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact object wording retained without archaeological identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact wealth, value or resource wording retained without quantified economic inference."
+        }
+      }
+    },
+    "075": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        }
+      }
+    },
+    "076": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact plant wording retained without modern botanical identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact ritual or sacred wording retained without doctrinal expansion."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "077": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "078": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing an event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "079": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "relationships": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "080": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "081": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact settlement or built-space wording retained without modern place identification."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact music or performance wording retained without assigning a performance context."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact evaluative or ethical wording retained as source evaluation."
+        }
+      }
+    },
+    "082": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "relationships": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact relationship wording retained as poem-level evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact work or production wording retained without institutional reconstruction."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact music or performance wording retained without assigning a performance context."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "083": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact environmental and terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact clothing or adornment wording retained without material reconstruction."
+        }
+      }
+    },
+    "084": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "fauna": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              5
+            ]
+          ],
+          "note": "Exact social-role wording retained without historical identity reconstruction."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact affective or lived-experience wording retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact food or subsistence wording retained without quantified inference."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact kinship or gendered-family wording retained without social generalization."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    },
+    "085": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Aiṅkuṟunūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; mechanical hundred-poem and decad organization are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact weapon or conflict wording retained without reconstructing an event."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact body or health wording retained without medical modernization."
+        }
+      }
+    }
+  }
+}
