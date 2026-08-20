@@ -29,7 +29,7 @@ Before changing the repository, read completely:
 
 The nine works contain 2,376 frozen records. Puṟanāṉūṟu 400/400 is a completed carried-forward foundation and must not be re-reviewed. New R2 review scope is 1,976 records.
 
-Kuṟuntokai is complete: `001–401`, 4,540 observations. Naṟṟiṇai is complete: `001–400`, 6,007 observations. Aiṅkuṟunūṟu is complete: `001–500`, 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete through `001–010` with 166 observations. Next regular batch: `011–035`.
+Kuṟuntokai is complete: `001–401`, 4,540 observations. Naṟṟiṇai is complete: `001–400`, 6,007 observations. Aiṅkuṟunūṟu is complete: `001–500`, 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete through `001–010` with 166 observations. Its cadence retains benchmark `001–002` and stabilization `003–010`. Next regular batch: `011–035`.
 
 Production architecture: 8 independent Eṭṭuttokai work folders; 10 independent Pattuppāṭṭu long-work folders; 18 independent Patiṉeṇkīḻkkaṇakku folders planned but not activated.
 
