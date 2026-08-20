@@ -31,7 +31,7 @@
     {
       "work_id": "kuruntokai",
       "records": 401,
-      "state": "production_active_through_010"
+      "state": "complete"
     },
     {
       "work_id": "akananuru",
@@ -73,14 +73,31 @@
     3,
     10
   ],
-  "next_record": "kuruntokai-011",
+  "next_record": null,
   "auto_classify_from_tolkappiyam": false,
   "cross_corpus_entity_resolution": false,
   "external_historical_evidence": false,
   "frozen_corpus_mutation_allowed": false,
   "regular_batch_size": 25,
-  "next_batch": [
-    11,
-    35
-  ]
+  "next_batch": null,
+  "active_work_completion": {
+    "work_id": "kuruntokai",
+    "records": 401,
+    "observations": 4540
+  },
+  "next_work_benchmark": {
+    "work_id": "natrinai",
+    "range": [
+      1,
+      2
+    ]
+  },
+  "production_architecture_manifest": "research/production/programmes/architecture.json",
+  "r2_operational_work_units": 18,
+  "pattuppattu_production_policy": "ten_independent_long_work_units",
+  "post_core_plan": {
+    "collection_id": "patinenkilkanakku",
+    "work_units": 18,
+    "status": "planned_not_activated"
+  }
 }

@@ -8,7 +8,7 @@ Active branch: `research/classical-tamil-concept-matrix-r2`. Treat live GitHub s
 
 R1.5A merged into `main` at `1e6684b09a5e41fc675ea3e07ba8b6a646d35830`. R2 was explicitly authorized afterward.
 
-R2 uses multi-work production-review schema `0.4.0` while preserving the exact 29 dimensions and all R0/R1/R1.5 histories. It covers the frozen nine-work Core Sangam Corpus. R3 and later phases remain blocked.
+R2 uses multi-work production-review schema `0.4.0` while preserving the exact 29 dimensions and all R0/R1/R1.5 histories. It covers the frozen nine-work Core Sangam Corpus. The programme direction through R8 is authorized, but phases remain sequentially gated. Only the current R2 boundary is active.
 
 ## Mandatory startup
 
@@ -29,7 +29,9 @@ Before changing the repository, read completely:
 
 The nine works contain 2,376 frozen records. Puṟanāṉūṟu 400/400 is a completed carried-forward foundation and must not be re-reviewed. New R2 review scope is 1,976 records.
 
-The first active work is Kuṟuntokai. Gate B benchmark `001–002` and Gate C stabilization `003–010` are complete: 10 gap-free records and 114 observations. Regular batch size is frozen at 25 records. Next record: `kuruntokai-011`; next batch: `011–035`.
+Kuṟuntokai is complete: `001–401`, 4,540 observations, exact 29-dimension reviews, no next record. Next R2 benchmark: Naṟṟiṇai `001–002`.
+
+Production architecture: 8 independent Eṭṭuttokai work folders; 10 independent Pattuppāṭṭu long-work folders; 18 independent Patiṉeṇkīḻkkaṇakku folders planned but not activated.
 
 ## Evidence contract
 
@@ -39,6 +41,6 @@ Printed tiṇai, speaker/context and poet metadata remain provenance-distinct. T
 
 ## Immediate next activity
 
-Review and materialize Kuṟuntokai `011–035` sequentially/source-first as the first regular 25-record batch. Run full CI/non-drift on the exact head. Keep PR #5 draft/unmerged.
+Review and materialize Naṟṟiṇai `001–002` sequentially/source-first as its R2 work benchmark. Run full CI/non-drift on the exact head. Keep PR #5 draft/unmerged.
 
 Do not start R3.

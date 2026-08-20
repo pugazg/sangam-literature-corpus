@@ -14,7 +14,7 @@ The controlling scope is `manifests/sangam-core-program.json`:
 |---|---|---:|---|
 | நற்றிணை | `natrinai` | 400 | pending |
 | ஐங்குறுநூறு | `aingurunuru` | 500 | pending |
-| குறுந்தொகை | `kuruntokai` | 401 | production active; complete through 010 |
+| குறுந்தொகை | `kuruntokai` | 401 | complete: 401 records / 4,540 observations |
 | அகநானூறு | `akananuru` | 400 | pending |
 | புறநானூறு | `purananuru` | 400 | completed foundation; carry forward |
 | பத்துப்பாட்டு | `pattuppattu` | 10 | pending; long-work adapter required |
@@ -76,9 +76,9 @@ Review Kuṟuntokai 001–002 sequentially and source-first. The benchmark must 
 
 Kuṟuntokai 003–010 was reviewed sequentially after the green benchmark. The resulting prefix is 001–010 with 114 observations and exact 29-dimension reviews. The regular batch size is frozen at 25 records.
 
-### Gate D — Kuṟuntokai production
+### Gate D — Kuṟuntokai production — complete
 
-Continue in contiguous 25-record batches that never skip record order or cross a work boundary. The first regular batch is `011–035`. Complete all 401 records and run the per-work completion gate.
+All `001–401` records are materialized gap-free with 4,540 observations and exact 29-dimension reviews. Cadence is benchmark `001–002`, stabilization `003–010`, 25-record regular batches through `361–385`, and final `386–401`.
 
 ### Gate E — remaining works
 
@@ -90,9 +90,21 @@ Begin each work with its own two-record benchmark and adapter review. Provisiona
 4. Kalittokai;
 5. Paripāṭal;
 6. Patiṟṟuppattu;
-7. Pattuppāṭṭu.
+7. Pattuppāṭṭu as ten independent long-work gates in source order:
+   1. Tirumurukāṟṟuppaṭai;
+   2. Porunarāṟṟuppaṭai;
+   3. Ciṟupāṇāṟṟuppaṭai;
+   4. Perumpāṇāṟṟuppaṭai;
+   5. Mullaippāṭṭu;
+   6. Maturaikkāñci;
+   7. Neṭunalvāṭai;
+   8. Kuṟiñcippāṭṭu;
+   9. Paṭṭiṉappālai;
+   10. Malaipaṭukaṭām.
 
-The order may change only through a documented R2 decision; the nine-work scope may not drift silently.
+The order may change only through a documented R2 decision. The frozen source manifest remains nine containers / 2,376 records, while production uses 18 independent R2 work units: eight Eṭṭuttokai works plus ten Pattuppāṭṭu long works.
+
+The programme architecture at `research/production/programmes/architecture.json` also reserves 18 independent Patiṉeṇkīḻkkaṇakku folders. That collection is planned only and requires a later explicit activation boundary; this plan does not start R3.
 
 ### Gate F — unified R2 integration
 
@@ -101,14 +113,14 @@ The order may change only through a documented R2 decision; the nine-work scope 
 - run deterministic regeneration, full regression, repository audit and Corpus 1.1.0 non-drift;
 - update continuity and keep the R2 PR draft/unmerged until explicit merge authorization.
 
-## Later-phase exclusions
+## Later programme sequence
 
-R3 and all later phases remain blocked during R2.
+The user has authorized the programme direction through R8. Only R2 is active; later roadmaps remain gated and may not begin until their predecessor closes. The controlling sequence is `docs/MASTER_ROADMAP_R2_R8.md`.
 
-- R3: cross-corpus entity resolution and reviewed relationships.
-- R4: civilisation/lived-life synthesis.
+- R2B: eighteen independent Patiṉeṇkīḻkkaṇakku production workspaces.
+- R3: reviewed cross-corpus entities and relationships.
+- R4: evidence-bounded civilisation/lived-life synthesis.
 - R5: explorer, maps, timelines, networks and UI.
-- R7: separately represented Tolkāppiyam ↔ Sangam comparison.
-- R8: external scholarship/historical-identification layer.
-
-These exclusions remain binding throughout R2.
+- R6: publication, accessibility and reproducibility hardening.
+- R7: separately reviewed Tolkāppiyam ↔ corpus comparison.
+- R8: cited external scholarship and historical-identification layer.

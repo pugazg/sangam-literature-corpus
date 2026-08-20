@@ -8,9 +8,9 @@ Active branch: `research/classical-tamil-concept-matrix-r2`.
 
 R2 applies the unchanged exact 29-dimension evidence model across the frozen nine-work Core Sangam Corpus under the new multi-work production-review schema `0.4.0`. Scope and gates are controlled by `research/production/r2-scope.json` and `docs/r2/ROADMAP.md`.
 
-Puṟanāṉūṟu 400/400 is carried forward without re-review. Kuṟuntokai Gates B and C are complete through `001–010`: 10 gap-free reviewed records, 114 observations, and next record `kuruntokai-011`. The regular batch size is frozen at 25 records; next batch is `011–035`.
+Puṟanāṉūṟu 400/400 is carried forward without re-review. Kuṟuntokai is complete through `001–401`: 401 gap-free reviewed records, 4,540 observations, and no next record. Next R2 benchmark: Naṟṟiṇai `001–002`.
 
-R3 and later-phase activities remain blocked. Tolkāppiyam must not auto-classify poems, and the frozen corpus must not change.
+The programme direction through R8 is authorized, with sequential gates controlled by `docs/MASTER_ROADMAP_R2_R8.md`. Only the current R2 boundary is active. Tolkāppiyam must not auto-classify poems, and the frozen corpus must not change.
 
 
 ## Authoritative current state
@@ -217,7 +217,7 @@ Total சொல்லதிகாரம் contribution: **713 formal observatio
 
 ## Next permitted activity
 
-Proceed with Kuṟuntokai regular production batch `011–035`, sequentially/source-first, using the frozen 25-record cadence. Keep PR #5 draft/unmerged. Do not start R3 or later-phase work.
+Proceed with the Naṟṟiṇai `001–002` R2 work benchmark. Use the programme architecture of 8 Eṭṭuttokai work folders, 10 independent Pattuppāṭṭu long-work folders, and 18 planned Patiṉeṇkīḻkkaṇakku folders. Keep PR #5 draft/unmerged. Do not start R3 or activate the post-core collection without an explicit boundary.
 
 ## பொருளதிகாரம் — complete
 

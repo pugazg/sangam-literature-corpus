@@ -37,10 +37,28 @@ def validate(root: Path):
     for key in ("auto_classify_from_tolkappiyam","cross_corpus_entity_resolution","external_historical_evidence","frozen_corpus_mutation_allowed"):
         if scope.get(key) is not False:
             errors.append(f"{key} must remain false in R2")
+    architecture = load(root / "research/production/programmes/architecture.json")
+    collections = {x.get("collection_id"): x for x in architecture.get("collections", [])}
+    expected_collection_counts = {"ettuttokai": 8, "pattuppattu": 10, "patinenkilkanakku": 18}
+    if {k: collections.get(k, {}).get("unit_count") for k in expected_collection_counts} != expected_collection_counts:
+        errors.append("8 + 10 + 18 programme architecture count mismatch")
+    units = architecture.get("units", [])
+    if len(units) != 36 or len({x.get("folder") for x in units}) != 36:
+        errors.append("programme work units/folders must be 36 unique entries")
+    for unit in units:
+        if not (root / unit.get("folder", "") / "README.md").is_file():
+            errors.append(f"missing independent production folder: {unit.get('folder')}")
+    pattuppattu = [x for x in units if x.get("collection_id") == "pattuppattu"]
+    if [x.get("source_record") for x in pattuppattu] != [f"{n:03d}" for n in range(1, 11)]:
+        errors.append("Pattuppattu must expose ten ordered independent long-work units")
+    if scope.get("r2_operational_work_units") != 18 or scope.get("pattuppattu_production_policy") != "ten_independent_long_work_units":
+        errors.append("R2 operational split must be 8 Ettuttokai + 10 Pattuppattu units")
+    if scope.get("post_core_plan") != {"collection_id":"patinenkilkanakku","work_units":18,"status":"planned_not_activated"}:
+        errors.append("Patinenkilkanakku 18-work plan boundary mismatch")
     schema = load(root / "research/schemas/core-sangam-production-review-r2.schema.json")
     if schema.get("properties",{}).get("dimensions_considered",{}).get("const") != 29:
         errors.append("R2 record schema dimension count drifted")
-    return {"phase":"R2","gate":"scope-and-contract","works":9,"records":2376,"new_review_records":1976,"dimensions":29,"errors":errors,"status":"pass" if not errors else "fail"}
+    return {"phase":"R2","gate":"scope-and-contract","source_containers":9,"operational_work_units":18,"planned_post_core_units":18,"records":2376,"new_review_records":1976,"dimensions":29,"errors":errors,"status":"pass" if not errors else "fail"}
 
 def main():
     p=argparse.ArgumentParser(); p.add_argument("--root",default="."); args=p.parse_args()
