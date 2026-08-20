@@ -6,7 +6,8 @@
 - R2 authorization: explicit
 - active branch: `research/classical-tamil-concept-matrix-r2`
 - completed R2 work: Kuṟuntokai `001–401` / 4,540 observations
-- next R2 benchmark: Naṟṟiṇai `001–002`
+- active R2 work: Naṟṟiṇai; benchmark `001–002` complete with 26 observations
+- next boundary: Naṟṟiṇai stabilization `003–010`
 - R2 schema: `0.4.0`; exact dimensions remain 29
 - controlling roadmap: `docs/r2/ROADMAP.md`
 - controlling scope: `research/production/r2-scope.json`
@@ -183,4 +184,4 @@ The extension adds dimension-scoped `poetics.*.formal_framework` concepts plus `
 
 ## Next activity
 
-Kuṟuntokai Gate D is complete: `001–401`, **4,540 observations**, exact 29-dimension reviews, and no next record. The next R2 activity is the Naṟṟiṇai `001–002` work benchmark. Production architecture is fixed at 8 Eṭṭuttokai folders, 10 independent Pattuppāṭṭu folders, and 18 planned Patiṉeṇkīḻkkaṇakku folders. Keep PR #5 draft/unmerged and do not start R3.
+Kuṟuntokai Gate D is complete: `001–401`, **4,540 observations**, exact 29-dimension reviews, and no next record. The Naṟṟiṇai `001–002` benchmark is complete with 26 observations and provenance-distinct body/YAML/source-note evidence. The next R2 activity is stabilization `003–010`. Production architecture is fixed at 8 Eṭṭuttokai folders, 10 independent Pattuppāṭṭu folders, and 18 planned Patiṉeṇkīḻkkaṇakku folders. Keep PR #5 draft/unmerged and do not start R3.

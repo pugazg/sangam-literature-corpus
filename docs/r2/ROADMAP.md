@@ -12,7 +12,7 @@ The controlling scope is `manifests/sangam-core-program.json`:
 
 | Work | Work ID | Frozen records | R2 state |
 |---|---|---:|---|
-| நற்றிணை | `natrinai` | 400 | pending |
+| நற்றிணை | `natrinai` | 400 | benchmark 001–002 complete; next 003–010 |
 | ஐங்குறுநூறு | `aingurunuru` | 500 | pending |
 | குறுந்தொகை | `kuruntokai` | 401 | complete: 401 records / 4,540 observations |
 | அகநானூறு | `akananuru` | 400 | pending |
