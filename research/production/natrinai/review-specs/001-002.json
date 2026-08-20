@@ -280,5 +280,6 @@
     "external_historical_identification_used": false,
     "frozen_source_modified": false
   },
-  "publication_status": "reviewed_ready_for_materialization"
+  "publication_status": "reviewed_ready_for_materialization",
+  "adapter_version": "generic-poem-v1"
 }
