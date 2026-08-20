@@ -4,7 +4,7 @@ Active phase: R2 under schema `0.4.0`.
 
 Frozen source: `corpus/kuruntokai/poems/`. Never modify the canonical poems for research classification.
 
-Benchmark: `001–002` — materialized as 2 gap-free records with 22 observations (001: 12; 002: 10), 29 dimension decisions per record, and next record `kuruntokai-003`. Stabilization after a green exact-head validation: `003–010`.
+Gate B benchmark `001–002` and Gate C stabilization `003–010` are complete. The materialized prefix contains 10 gap-free records and 114 observations, with 29 dimension decisions per record and next record `kuruntokai-011`. Regular production is frozen at 25-record batches; first regular batch: `011–035`.
 
 Every poem is reviewed sequentially/source-first across the exact 29 dimensions. Printed `thinai_as_printed`, `speaker_as_printed`, and `poet_as_printed` are separate metadata evidence. Mechanical section ranges are provenance/navigation only. Conventional tiṇai associations and Tolkāppiyam rules never auto-populate poem dimensions.
 

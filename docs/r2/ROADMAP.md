@@ -14,7 +14,7 @@ The controlling scope is `manifests/sangam-core-program.json`:
 |---|---|---:|---|
 | நற்றிணை | `natrinai` | 400 | pending |
 | ஐங்குறுநூறு | `aingurunuru` | 500 | pending |
-| குறுந்தொகை | `kuruntokai` | 401 | benchmark selected |
+| குறுந்தொகை | `kuruntokai` | 401 | production active; complete through 010 |
 | அகநானூறு | `akananuru` | 400 | pending |
 | புறநானூறு | `purananuru` | 400 | completed foundation; carry forward |
 | பத்துப்பாட்டு | `pattuppattu` | 10 | pending; long-work adapter required |
@@ -72,13 +72,13 @@ Review Kuṟuntokai 001–002 sequentially and source-first. The benchmark must 
 - deterministic record and observation identities;
 - no Tolkāppiyam auto-classification.
 
-### Gate C — stabilization
+### Gate C — stabilization — complete
 
-After Gate B is green, review Kuṟuntokai 003–010 sequentially. Freeze regular batch size only after this boundary passes full CI.
+Kuṟuntokai 003–010 was reviewed sequentially after the green benchmark. The resulting prefix is 001–010 with 114 observations and exact 29-dimension reviews. The regular batch size is frozen at 25 records.
 
 ### Gate D — Kuṟuntokai production
 
-Continue in contiguous batches that never skip record order or cross a work boundary. Complete all 401 records and run the per-work completion gate.
+Continue in contiguous 25-record batches that never skip record order or cross a work boundary. The first regular batch is `011–035`. Complete all 401 records and run the per-work completion gate.
 
 ### Gate E — remaining works
 

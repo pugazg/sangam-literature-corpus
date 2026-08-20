@@ -29,7 +29,7 @@ Before changing the repository, read completely:
 
 The nine works contain 2,376 frozen records. Puṟanāṉūṟu 400/400 is a completed carried-forward foundation and must not be re-reviewed. New R2 review scope is 1,976 records.
 
-The first active work is Kuṟuntokai. Benchmark: `001–002`. Stabilization after a green benchmark: `003–010`.
+The first active work is Kuṟuntokai. Gate B benchmark `001–002` and Gate C stabilization `003–010` are complete: 10 gap-free records and 114 observations. Regular batch size is frozen at 25 records. Next record: `kuruntokai-011`; next batch: `011–035`.
 
 ## Evidence contract
 
@@ -39,6 +39,6 @@ Printed tiṇai, speaker/context and poet metadata remain provenance-distinct. T
 
 ## Immediate next activity
 
-Complete R2 Gate A schema/materializer/validator/tests if incomplete. Then review Kuṟuntokai `001` and `002` sequentially as Gate B. Run full CI/non-drift on the exact head. Keep the R2 PR draft/unmerged.
+Review and materialize Kuṟuntokai `011–035` sequentially/source-first as the first regular 25-record batch. Run full CI/non-drift on the exact head. Keep PR #5 draft/unmerged.
 
 Do not start R3.

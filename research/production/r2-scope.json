@@ -18,22 +18,69 @@
   },
   "new_review_record_count": 1976,
   "canonical_scope_order": [
-    {"work_id":"natrinai","records":400,"state":"pending"},
-    {"work_id":"aingurunuru","records":500,"state":"pending"},
-    {"work_id":"kuruntokai","records":401,"state":"benchmark_selected"},
-    {"work_id":"akananuru","records":400,"state":"pending"},
-    {"work_id":"purananuru","records":400,"state":"completed_foundation"},
-    {"work_id":"pattuppattu","records":10,"state":"pending"},
-    {"work_id":"patirruppattu","records":80,"state":"pending"},
-    {"work_id":"paripatal","records":35,"state":"pending"},
-    {"work_id":"kalittokai","records":150,"state":"pending"}
+    {
+      "work_id": "natrinai",
+      "records": 400,
+      "state": "pending"
+    },
+    {
+      "work_id": "aingurunuru",
+      "records": 500,
+      "state": "pending"
+    },
+    {
+      "work_id": "kuruntokai",
+      "records": 401,
+      "state": "production_active_through_010"
+    },
+    {
+      "work_id": "akananuru",
+      "records": 400,
+      "state": "pending"
+    },
+    {
+      "work_id": "purananuru",
+      "records": 400,
+      "state": "completed_foundation"
+    },
+    {
+      "work_id": "pattuppattu",
+      "records": 10,
+      "state": "pending"
+    },
+    {
+      "work_id": "patirruppattu",
+      "records": 80,
+      "state": "pending"
+    },
+    {
+      "work_id": "paripatal",
+      "records": 35,
+      "state": "pending"
+    },
+    {
+      "work_id": "kalittokai",
+      "records": 150,
+      "state": "pending"
+    }
   ],
   "active_work_id": "kuruntokai",
-  "benchmark_range": [1,2],
-  "stabilization_range": [3,10],
-  "next_record": "kuruntokai-001",
+  "benchmark_range": [
+    1,
+    2
+  ],
+  "stabilization_range": [
+    3,
+    10
+  ],
+  "next_record": "kuruntokai-011",
   "auto_classify_from_tolkappiyam": false,
   "cross_corpus_entity_resolution": false,
   "external_historical_evidence": false,
-  "frozen_corpus_mutation_allowed": false
+  "frozen_corpus_mutation_allowed": false,
+  "regular_batch_size": 25,
+  "next_batch": [
+    11,
+    35
+  ]
 }

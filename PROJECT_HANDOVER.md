@@ -8,7 +8,7 @@ Active branch: `research/classical-tamil-concept-matrix-r2`.
 
 R2 applies the unchanged exact 29-dimension evidence model across the frozen nine-work Core Sangam Corpus under the new multi-work production-review schema `0.4.0`. Scope and gates are controlled by `research/production/r2-scope.json` and `docs/r2/ROADMAP.md`.
 
-Puṟanāṉūṟu 400/400 is carried forward without re-review. The first new-work benchmark is Kuṟuntokai `001–002`; next record is `kuruntokai-001`.
+Puṟanāṉūṟu 400/400 is carried forward without re-review. Kuṟuntokai Gates B and C are complete through `001–010`: 10 gap-free reviewed records, 114 observations, and next record `kuruntokai-011`. The regular batch size is frozen at 25 records; next batch is `011–035`.
 
 R3 and later-phase activities remain blocked. Tolkāppiyam must not auto-classify poems, and the frozen corpus must not change.
 
@@ -19,9 +19,9 @@ Repository: `pugazg/sangam-literature-corpus`
 
 Default branch: `main`
 
-Active research branch: `research/classical-tamil-concept-matrix-r1.5a`
+Active research branch: `research/classical-tamil-concept-matrix-r2`
 
-R1.5 was explicitly authorized and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 is historical/merged. Draft PR #4 is the active R1.5A proposal.
+R1.5 was explicitly authorized and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 and PR #4 are historical/merged. Draft PR #5 is the active R2 proposal.
 
 R1.5A preserved concept/observation schema `0.3.0` and is now complete/merged. R2 was explicitly authorized afterward and uses multi-work production-review schema `0.4.0` while retaining the exact 29 dimensions. Treat live GitHub state as authoritative over older prose.
 
@@ -217,7 +217,7 @@ Total சொல்லதிகாரம் contribution: **713 formal observatio
 
 ## Next permitted activity
 
-Proceed with R2 Gate A and Gate B. Complete the multi-work schema/validator contract, then review Kuṟuntokai `001–002` sequentially/source-first. Do not start R3 or later-phase work.
+Proceed with Kuṟuntokai regular production batch `011–035`, sequentially/source-first, using the frozen 25-record cadence. Keep PR #5 draft/unmerged. Do not start R3 or later-phase work.
 
 ## பொருளதிகாரம் — complete
 
