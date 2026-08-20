@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0483` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0946` is the current materialized gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0483.json`
-- reviewed: **483 / 1,602**
-- remaining: **1,119**
-- next record: **tolkappiyam-0484**
-- next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**
-- formal grammatical/poetics concept evidence: **662**
-- incidental examples: **83**
+- `0001.json` through `0946.json`
+- reviewed: **946 / 1,602**
+- remaining: **656**
+- next record: **tolkappiyam-0947**
+- next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**
+- formal grammatical/poetics concept evidence: **1,375**
+- incidental examples: **220**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -35,6 +35,15 @@ Completed இயல்:
 - `0204–0296` — எழுத்ததிகாரம் / உயிர்மயங்கியல்
 - `0297–0406` — எழுத்ததிகாரம் / புள்ளிமயங்கியல்
 - `0407–0483` — எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்
+- `0484–0545` — சொல்லதிகாரம் / கிளவியாக்கம்
+- `0546–0567` — சொல்லதிகாரம் / வேற்றுமையியல்
+- `0568–0602` — சொல்லதிகாரம் / வேற்றுமைமயங்கியல்
+- `0603–0639` — சொல்லதிகாரம் / விளிமரபு
+- `0640–0682` — சொல்லதிகாரம் / பெயரியல்
+- `0683–0733` — சொல்லதிகாரம் / வினையியல்
+- `0734–0781` — சொல்லதிகாரம் / இடையியல்
+- `0782–0879` — சொல்லதிகாரம் / உரியியல்
+- `0880–0946` — சொல்லதிகாரம் / எச்சவியல்
 
 ## Evidence model
 
@@ -85,6 +94,9 @@ Current production concepts are:
 - `knowledge.grammar.morphology` → `knowledge_technology`;
 - `knowledge.grammar.morphophonology` → `knowledge_technology`;
 - `knowledge.grammar.quantification` → `knowledge_technology`;
+- `knowledge.grammar.syntax` → `knowledge_technology`;
+- `knowledge.grammar.lexical_semantics` → `knowledge_technology`;
+- `knowledge.grammar.discourse_pragmatics` → `knowledge_technology`;
 - `body.articulation.anatomy` → `body_health`;
 - `arts.music.formal_context` → `arts_music_performance`;
 - `textual.tradition.reference` → `textual_intertextual_relationships`;
@@ -179,9 +191,13 @@ Canonical எழுத்ததிகாரம் order after உயிர்ம
 - Tolkāppiyam production never auto-classifies a Sangam poem.
 - R2 remains blocked.
 
+## சொல்லதிகாரம் — complete
+
+All nine சொல்லதிகாரம் இயல் are complete through `0946`, contributing **713 formal observations** and **137 incidental examples**. The new syntax, lexical-semantics, and discourse-pragmatics concepts preserve the source's formal distinctions without promoting lexical meanings into historical facts.
+
 ## Next activity
 
-Proceed with **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation. Stop before `tolkappiyam-0546`.
+Next canonical record is `tolkappiyam-0947`, beginning **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not cross into பொருளதிகாரம் without a new user-directed iteration.
 
 
 ### குற்றியலுகரப்புணரியல் 0407–0431

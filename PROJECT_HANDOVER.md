@@ -24,7 +24,7 @@ Puṟanāṉūṟu `001.json` through `400.json` form the complete gap-free prod
 
 Validated completion: **400 reviewed / 0 remaining / 7,169 production observations / 29 dimensions**.
 
-## Tolkāppiyam R1.5A production — எழுத்ததிகாரம் complete
+## Tolkāppiyam R1.5A production — எழுத்ததிகாரம் and சொல்லதிகாரம் complete
 
 Tolkāppiyam is a separate grammatical/poetics evidence stream over the frozen hierarchy:
 
@@ -34,13 +34,13 @@ Canonical production identity is source sequence: `tolkappiyam-0001` … `tolkap
 
 Current materialized gap-free boundary:
 
-- `0001.json` through `0483.json`;
-- reviewed: **483 / 1,602**;
-- remaining: **1,119**;
-- next record: **tolkappiyam-0484**;
-- next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**;
-- formal grammatical/poetics concept evidence: **662**;
-- incidental examples: **83**;
+- `0001.json` through `0946.json`;
+- reviewed: **946 / 1,602**;
+- remaining: **656**;
+- next record: **tolkappiyam-0947**;
+- next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**;
+- formal grammatical/poetics concept evidence: **1,375**;
+- incidental examples: **220**;
 - exact dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -186,9 +186,25 @@ A Tolkāppiyam rule never automatically classifies Puṟanāṉūṟu or another
 
 Four boundaries—`0407–0431`, `0432–0456`, `0457–0481`, and `0482–0483`—add **151 formal observations** and **16 incidental examples**. The resulting gap-free prefix closes எழுத்ததிகாரம் without crossing into சொல்லதிகாரம்.
 
+## சொல்லதிகாரம் — complete
+
+All nine சொல்லதிகாரம் இயல் are complete in canonical order:
+
+- கிளவியாக்கம் `0484–0545`: **65 formal + 18 incidental**;
+- வேற்றுமையியல் `0546–0567`: **44 formal + 22 incidental**;
+- வேற்றுமைமயங்கியல் `0568–0602`: **36 formal + 8 incidental**;
+- விளிமரபு `0603–0639`: **74 formal + 4 incidental**;
+- பெயரியல் `0640–0682`: **83 formal + 16 incidental**;
+- வினையியல் `0683–0733`: **81 formal + 8 incidental**;
+- இடையியல் `0734–0781`: **96 formal + 7 incidental**;
+- உரியியல் `0782–0879`: **99 formal + 42 incidental**;
+- எச்சவியல் `0880–0946`: **135 formal + 12 incidental**.
+
+Total சொல்லதிகாரம் contribution: **713 formal observations + 137 incidental examples**.
+
 ## Next permitted activity
 
-Proceed with **Tolkāppiyam சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Stop before `tolkappiyam-0546`. Do not start R2.
+Next canonical activity is **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not start it without a new user-directed iteration. R2 remains blocked.
 
 ## Current documentation authority
 

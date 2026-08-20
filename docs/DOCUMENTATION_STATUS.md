@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: all nine எழுத்ததிகாரம் இயல் complete; சொல்லதிகாரம் / கிளவியாக்கம் next
+- Tolkāppiyam production: எழுத்ததிகாரம் and all nine சொல்லதிகாரம் இயல் complete; பொருளதிகாரம் / அகத்திணையியல் next
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -29,16 +29,16 @@ Per-நூற்பா review distinguishes formal grammatical/poetics concept e
 
 The old Tolkāppiyam manifest/crosswalk remains representative control evidence only and never a classifier.
 
-## Current Tolkāppiyam boundary through குற்றியலுகரப்புணரியல்
+## Current Tolkāppiyam boundary through சொல்லதிகாரம்
 
-`0001–0483` is the current materialized gap-free production prefix:
+`0001–0946` is the current materialized gap-free production prefix:
 
-- reviewed: **483 / 1,602**;
-- remaining: **1,119**;
-- next: **tolkappiyam-0484**;
-- next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**;
-- formal grammatical/poetics concept evidence: **662**;
-- incidental examples: **83**;
+- reviewed: **946 / 1,602**;
+- remaining: **656**;
+- next: **tolkappiyam-0947**;
+- next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**;
+- formal grammatical/poetics concept evidence: **1,375**;
+- incidental examples: **220**;
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -150,8 +150,12 @@ Historical handovers/audits remain truthful records of their own boundaries.
 
 The four boundaries `0407–0431`, `0432–0456`, `0457–0481`, and `0482–0483` contribute **151 formal observations** and **16 incidental examples**. Formal morphophonology, morphology, word structure, quantification, and narrow poetic/tradition contexts remain distinct from incidental tree, fauna, gender, directional, measure, and learned-authority language. No new controlled concept was required.
 
-## Next activity — one-இயல் iteration
+## சொல்லதிகாரம் — complete
 
-Proceed with the complete **Tolkāppiyam சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`** iteration, sequentially/source-first across all 29 dimensions and in contiguous publication boundaries of at most 25 records. Stop before `tolkappiyam-0546`.
+All nine சொல்லதிகாரம் இயல் are complete through `0946`: கிளவியாக்கம், வேற்றுமையியல், வேற்றுமைமயங்கியல், விளிமரபு, பெயரியல், வினையியல், இடையியல், உரியியல், and எச்சவியல். Together they add **713 formal observations** and **137 incidental examples**.
+
+## Next activity
+
+Next canonical record is `tolkappiyam-0947`, beginning **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not enter பொருளதிகாரம் without a new user-directed iteration.
 
 **Do not start R2.**
