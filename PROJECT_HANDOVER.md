@@ -24,7 +24,7 @@ Puṟanāṉūṟu `001.json` through `400.json` form the complete gap-free prod
 
 Validated completion: **400 reviewed / 0 remaining / 7,169 production observations / 29 dimensions**.
 
-## Tolkāppiyam R1.5A production — எழுத்ததிகாரம் and சொல்லதிகாரம் complete
+## Tolkāppiyam R1.5A production — complete
 
 Tolkāppiyam is a separate grammatical/poetics evidence stream over the frozen hierarchy:
 
@@ -34,13 +34,13 @@ Canonical production identity is source sequence: `tolkappiyam-0001` … `tolkap
 
 Current materialized gap-free boundary:
 
-- `0001.json` through `0946.json`;
-- reviewed: **946 / 1,602**;
-- remaining: **656**;
-- next record: **tolkappiyam-0947**;
-- next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**;
-- formal grammatical/poetics concept evidence: **1,375**;
-- incidental examples: **220**;
+- `0001.json` through `1602.json`;
+- reviewed: **1,602 / 1,602**;
+- remaining: **0**;
+- next record: **none**;
+- completed இயல்: **27 / 27**;
+- formal grammatical/poetics concept evidence: **3,505**;
+- incidental examples: **348**;
 - exact dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -204,7 +204,13 @@ Total சொல்லதிகாரம் contribution: **713 formal observatio
 
 ## Next permitted activity
 
-Next canonical activity is **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not start it without a new user-directed iteration. R2 remains blocked.
+Tolkāppiyam R1.5A production is complete. Keep PR #4 draft and unmerged until explicit user authorization to review or merge. R2 remains blocked.
+
+## பொருளதிகாரம் — complete
+
+All nine இயல் were reviewed sequentially/source-first without crossing an இயல் boundary: அகத்திணையியல் 234+9, புறத்திணையியல் 217+4, களவியல் 195+18, கற்பியல் 209+24, பொருளியல் 178+9, மெய்ப்பாட்டியல் 68+27, உவமையியல் 82+2, செய்யுளியல் 578+30, மரபியல் 369+5 (formal + incidental). Total: **2,130 formal + 128 incidental**.
+
+Dimension-scoped formal-framework concepts, prosody, and taxonomy preserve பொருளதிகாரம்'s theoretical distinctions. Incidental examples remain non-historical, and no Tolkāppiyam evidence auto-classifies another work.
 
 ## Current documentation authority
 

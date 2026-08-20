@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: எழுத்ததிகாரம் and all nine சொல்லதிகாரம் இயல் complete; பொருளதிகாரம் / அகத்திணையியல் next
+- Tolkāppiyam production: complete across all 3 அதிகாரம் / 27 இயல் / 1,602 நூற்பா
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -29,16 +29,16 @@ Per-நூற்பா review distinguishes formal grammatical/poetics concept e
 
 The old Tolkāppiyam manifest/crosswalk remains representative control evidence only and never a classifier.
 
-## Current Tolkāppiyam boundary through சொல்லதிகாரம்
+## Completed Tolkāppiyam production boundary
 
-`0001–0946` is the current materialized gap-free production prefix:
+`0001–1602` is the complete materialized gap-free production corpus:
 
-- reviewed: **946 / 1,602**;
-- remaining: **656**;
-- next: **tolkappiyam-0947**;
-- next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**;
-- formal grammatical/poetics concept evidence: **1,375**;
-- incidental examples: **220**;
+- reviewed: **1,602 / 1,602**;
+- remaining: **0**;
+- next: **none**;
+- completed இயல்: **27 / 27**;
+- formal grammatical/poetics concept evidence: **3,505**;
+- incidental examples: **348**;
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -154,8 +154,24 @@ The four boundaries `0407–0431`, `0432–0456`, `0457–0481`, and `0482–048
 
 All nine சொல்லதிகாரம் இயல் are complete through `0946`: கிளவியாக்கம், வேற்றுமையியல், வேற்றுமைமயங்கியல், விளிமரபு, பெயரியல், வினையியல், இடையியல், உரியியல், and எச்சவியல். Together they add **713 formal observations** and **137 incidental examples**.
 
+## பொருளதிகாரம் — complete
+
+All nine பொருளதிகாரம் இயல் are complete through `1602`, contributing **2,130 formal observations** and **128 incidental examples**:
+
+- அகத்திணையியல் `0947–1004`: 234 formal + 9 incidental;
+- புறத்திணையியல் `1005–1034`: 217 + 4;
+- களவியல் `1035–1085`: 195 + 18;
+- கற்பியல் `1086–1138`: 209 + 24;
+- பொருளியல் `1139–1190`: 178 + 9;
+- மெய்ப்பாட்டியல் `1191–1217`: 68 + 27;
+- உவமையியல் `1218–1255`: 82 + 2;
+- செய்யுளியல் `1256–1490`: 578 + 30;
+- மரபியல் `1491–1602`: 369 + 5.
+
+The extension adds dimension-scoped `poetics.*.formal_framework` concepts plus `knowledge.poetics.prosody` and `knowledge.poetics.taxonomy`. These encode formal theory only; they do not convert examples or taxonomies into automatic historical, ecological, social, biological, identity, or lived-life claims.
+
 ## Next activity
 
-Next canonical record is `tolkappiyam-0947`, beginning **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not enter பொருளதிகாரம் without a new user-directed iteration.
+Tolkāppiyam R1.5A production is complete. Preserve draft PR #4 unmerged pending explicit user direction on review/merge. R2 remains blocked.
 
 **Do not start R2.**

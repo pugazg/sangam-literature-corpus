@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0946` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` and Tolkāppiyam `0001–1602` are complete and validated. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0946.json`
-- reviewed: **946 / 1,602**
-- remaining: **656**
-- next record: **tolkappiyam-0947**
-- next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**
-- formal grammatical/poetics concept evidence: **1,375**
-- incidental examples: **220**
+- `0001.json` through `1602.json`
+- reviewed: **1,602 / 1,602**
+- remaining: **0**
+- next record: **none**
+- completed இயல்: **27 / 27**
+- formal grammatical/poetics concept evidence: **3,505**
+- incidental examples: **348**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -44,6 +44,15 @@ Completed இயல்:
 - `0734–0781` — சொல்லதிகாரம் / இடையியல்
 - `0782–0879` — சொல்லதிகாரம் / உரியியல்
 - `0880–0946` — சொல்லதிகாரம் / எச்சவியல்
+- `0947–1004` — பொருளதிகாரம் / அகத்திணையியல்
+- `1005–1034` — பொருளதிகாரம் / புறத்திணையியல்
+- `1035–1085` — பொருளதிகாரம் / களவியல்
+- `1086–1138` — பொருளதிகாரம் / கற்பியல்
+- `1139–1190` — பொருளதிகாரம் / பொருளியல்
+- `1191–1217` — பொருளதிகாரம் / மெய்ப்பாட்டியல்
+- `1218–1255` — பொருளதிகாரம் / உவமையியல்
+- `1256–1490` — பொருளதிகாரம் / செய்யுளியல்
+- `1491–1602` — பொருளதிகாரம் / மரபியல்
 
 ## Evidence model
 
@@ -197,7 +206,11 @@ All nine சொல்லதிகாரம் இயல் are complete through 
 
 ## Next activity
 
-Next canonical record is `tolkappiyam-0947`, beginning **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not cross into பொருளதிகாரம் without a new user-directed iteration.
+Tolkāppiyam R1.5A production is complete. Preserve PR #4 as draft/unmerged pending explicit user direction. Do not start R2.
+
+## பொருளதிகாரம் — complete
+
+The nine இயல் `0947–1602` add **2,130 formal observations** and **128 incidental examples**. Formal framework, prosody, and taxonomy evidence records source theory only; examples are not promoted into historical facts, and Tolkāppiyam never auto-classifies another work.
 
 
 ### குற்றியலுகரப்புணரியல் 0407–0431

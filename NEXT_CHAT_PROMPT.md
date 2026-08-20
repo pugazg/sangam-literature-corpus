@@ -31,15 +31,14 @@ Before changing the repository, read completely:
 - Corpus 1.1.0 remains frozen: 28 works / 7,234 canonical records / 5,632 poems / 1,602 Tolkāppiyam நூற்பா.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
 - Puṟanāṉūṟu cadence remains benchmark `001–002`, stabilization `003–010`, regular 25-record batches beginning `011–035`, and final `386–400`.
-- Tolkāppiyam production is gap-free through `0001–0946`.
-- Reviewed: **946 / 1,602**.
-- Remaining: **656**.
-- Next: **tolkappiyam-0947**.
-- Formal grammatical/poetics observations: **1,375**.
-- Incidental examples: **220**.
+- Tolkāppiyam production is complete and gap-free through `0001–1602`.
+- Reviewed: **1,602 / 1,602**.
+- Remaining: **0**.
+- Next: **none**.
+- Formal grammatical/poetics observations: **3,505**.
+- Incidental examples: **348**.
 - Exact dimensions: **29**.
-- All nine எழுத்ததிகாரம் இயல் and all nine சொல்லதிகாரம் இயல் are complete.
-- Next இயல்: **பொருளதிகாரம் / அகத்திணையியல் `0947–1004` / 58 records**.
+- All 27 இயல் across all three அதிகாரம் are complete.
 
 ## Completed சொல்லதிகாரம்
 
@@ -73,6 +72,6 @@ Exact source Tamil wins. The old manifest/crosswalk is post-review control evide
 
 ## Next canonical activity
 
-Next is **பொருளதிகாரம் / அகத்திணையியல் `0947–1004`**. Do not begin it without a new user-directed iteration.
+Tolkāppiyam R1.5A production has no next canonical record. Verify and review the completed draft PR #4; do not merge without explicit user authorization.
 
 Keep PR #4 draft/unmerged. Do not start R2.
