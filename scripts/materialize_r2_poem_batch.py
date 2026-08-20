@@ -37,7 +37,7 @@ def mref(field,front,sections):
         lines=sections.get("Source note (as printed)",[])
         span={"start_line":1,"start_character":0,"end_line":len(lines),"end_character":len(lines[-1])} if lines else None
         return {"source_field":field,"source_location":"markdown:source-note","evidence_span":span,"source_text":value}
-    return {"source_field":field,"source_location:f"yaml:{field}","evidence_span":None,"source_text":value}
+    return {"source_field":field,"source_location":f"yaml:{field}","evidence_span":None,"source_text":value}
 def oid(record_id,dim,basis,refs):
     raw=json.dumps({"record_id":record_id,"dimension":dim,"classification_basis":basis,"evidence_refs":refs},ensure_ascii=False,sort_keys=True,separators=(",",":")).encode()
     return "obs.prod.r2."+hashlib.sha256(raw).hexdigest()[:24]
