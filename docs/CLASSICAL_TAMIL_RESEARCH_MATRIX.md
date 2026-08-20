@@ -6,7 +6,7 @@ This document defines the evidence-backed conceptual model for the derived Class
 
 The frozen corpus remains authoritative source evidence. The matrix is derived research output and must never be written back into canonical poem or நூற்பா records merely because a classification is useful.
 
-Current implementation boundary: **R1.5 concept schema `0.3.0` on PR #3, open/draft/unmerged. R2 has not started.**
+Current implementation boundary: **R1.5A is merged; R2 is explicitly authorized and active on `research/classical-tamil-concept-matrix-r2`. R2 multi-work production schema is `0.4.0`; the exact 29 dimensions remain unchanged.**
 
 ## 2. Architecture
 
@@ -292,13 +292,13 @@ Research architecture and Puṟanāṉūṟu evidence pilot. Evidence schema `0.
 
 Append-only review workflow and entity-resolution rules. Workflow schema `0.2.0` preserved.
 
-### R1.5 — current pre-merge phase
+### R1.5 / R1.5A — complete and merged
 
-Concept/observation foundation, bounded pilot, exhaustive matrix audit, validation, documentation audit. PR #3 remains draft and unmerged by explicit user instruction.
+The exact 29-dimension foundation and complete Puṟanāṉūṟu/Tolkāppiyam production streams are preserved on `main`.
 
-### R2 — blocked / not started
+### R2 — active
 
-After explicit R1.5 merge authorization and fresh inspection of merged `main`, apply the concept model across the nine core Sangam works with record-level evidence provenance.
+Apply the concept model across the frozen nine-work Core Sangam Corpus with record-level evidence provenance. Puṟanāṉūṟu is carried forward; Kuṟuntokai `001–002` is the first new-work benchmark. The controlling roadmap is `docs/r2/ROADMAP.md`.
 
 ### R3
 
