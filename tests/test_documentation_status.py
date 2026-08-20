@@ -12,6 +12,7 @@ ACTIVE_DOCS = [
     "docs/SOURCE_TERMINOLOGY_POLICY.md",
     "docs/tolkappiyam-arivagam-integration-plan.md",
     "docs/DOCUMENTATION_STATUS.md",
+    "docs/MASTER_ROADMAP_R2_R8.md",
     "docs/handover/r15a-production-review/README.md",
     "research/production/purananuru/README.md",
     "research/README.md",
@@ -58,7 +59,10 @@ def test_post_r15a_merge_continuity_activates_r2():
     handover = read("PROJECT_HANDOVER.md")
     assert "1e6684b09a5e41fc675ea3e07ba8b6a646d35830" in handover
     assert "explicitly authorized" in handover
-    assert "R3" in handover and "blocked" in handover
+    assert "R3" in handover and "sequential gates" in handover
+    master = read("docs/MASTER_ROADMAP_R2_R8.md")
+    assert all(f"R{n}" in master for n in range(2, 9))
+    assert "phase skipping" in master
 
 
 def test_r15a_cadence_is_preserved_in_r15a_documents():
@@ -91,7 +95,8 @@ def test_r2_scope_and_benchmark_are_documented():
     assert "2,376" in roadmap
     assert "1,976" in roadmap
     assert "0.4.0" in roadmap
-    assert "R3" in roadmap and "blocked" in roadmap
+    assert "R3" in roadmap and "sequentially gated" in roadmap
+    assert "R8" in roadmap
 
 
 def test_source_terminology_policy_is_linked_from_core_docs():
