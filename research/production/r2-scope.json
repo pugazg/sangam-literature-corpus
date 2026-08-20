@@ -36,7 +36,7 @@
     {
       "work_id": "akananuru",
       "records": 400,
-      "state": "production_active"
+      "state": "complete"
     },
     {
       "work_id": "purananuru",
@@ -61,10 +61,10 @@
     {
       "work_id": "kalittokai",
       "records": 150,
-      "state": "pending"
+      "state": "benchmark_selected"
     }
   ],
-  "active_work_id": "akananuru",
+  "active_work_id": "kalittokai",
   "benchmark_range": [
     1,
     2
@@ -73,15 +73,15 @@
     3,
     10
   ],
-  "next_record": "akananuru-011",
+  "next_record": "kalittokai-001",
   "auto_classify_from_tolkappiyam": false,
   "cross_corpus_entity_resolution": false,
   "external_historical_evidence": false,
   "frozen_corpus_mutation_allowed": false,
   "regular_batch_size": 25,
   "next_batch": [
-    11,
-    35
+    1,
+    2
   ],
   "next_work_benchmark": null,
   "production_architecture_manifest": "research/production/programmes/architecture.json",
@@ -119,6 +119,12 @@
         129,
         130
       ]
+    },
+    {
+      "work_id": "akananuru",
+      "records": 400,
+      "observations": 4840,
+      "policy": "r2_complete"
     }
   ]
 }

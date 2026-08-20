@@ -71,7 +71,7 @@
       "title_tamil": "கலித்தொகை",
       "folder": "research/production/programmes/ettuttokai/kalittokai",
       "source_container": "corpus/kalittokai",
-      "production_status": "pending"
+      "production_status": "benchmark_selected"
     },
     {
       "collection_id": "ettuttokai",
@@ -79,7 +79,7 @@
       "title_tamil": "அகநானூறு",
       "folder": "research/production/programmes/ettuttokai/akananuru",
       "source_container": "corpus/akananuru",
-      "production_status": "production_active"
+      "production_status": "complete"
     },
     {
       "collection_id": "ettuttokai",

@@ -8,7 +8,7 @@ Active branch: `research/classical-tamil-concept-matrix-r2`.
 
 R2 applies the unchanged exact 29-dimension evidence model across the frozen nine-work Core Sangam Corpus under the new multi-work production-review schema `0.4.0`. Scope and gates are controlled by `research/production/r2-scope.json` and `docs/r2/ROADMAP.md`.
 
-Puṟanāṉūṟu 400/400 is carried forward without re-review. Kuṟuntokai is complete through `001–401`: 401 gap-free reviewed records and 4,540 observations. Naṟṟiṇai is complete at `001–400` with 6,007 observations. Aiṅkuṟunūṟu is complete at `001–500` with 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete through `001–010` with 166 observations. Next regular batch: `011–035`.
+Puṟanāṉūṟu 400/400 is carried forward without re-review. Kuṟuntokai is complete through `001–401`: 401 gap-free reviewed records and 4,540 observations. Naṟṟiṇai is complete at `001–400` with 6,007 observations. Aiṅkuṟunūṟu is complete at `001–500` with 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete at `001–400` with 4,840 observations and no next record. Next R2 benchmark: Kalittokai `001–002`.
 
 The programme direction through R8 is authorized, with sequential gates controlled by `docs/MASTER_ROADMAP_R2_R8.md`. Only the current R2 boundary is active. Tolkāppiyam must not auto-classify poems, and the frozen corpus must not change.
 
@@ -217,7 +217,7 @@ Total சொல்லதிகாரம் contribution: **713 formal observatio
 
 ## Next permitted activity
 
-Proceed with the Akanāṉūṟu regular batch `011–035`; benchmark `001–002` and stabilization `003–010` are green. Preserve the adapter: printed poem number, section and major-division heading are navigation only. Aiṅkuṟunūṟu is closed at 500/500 and must not be silently reclassified. Use the programme architecture of 8 Eṭṭuttokai work folders, 10 independent Pattuppāṭṭu long-work folders, and 18 planned Patiṉeṇkīḻkkaṇakku folders. Keep PR #5 draft/unmerged. Do not start R3 or activate the post-core collection before its governed boundary.
+Proceed with the Kalittokai `001–002` R2 benchmark. Inspect its source structure and metadata adapter before materialization. Akanāṉūṟu is closed at 400/400 and must not be silently reclassified. Aiṅkuṟunūṟu is closed at 500/500 and must not be silently reclassified. Use the programme architecture of 8 Eṭṭuttokai work folders, 10 independent Pattuppāṭṭu long-work folders, and 18 planned Patiṉeṇkīḻkkaṇakku folders. Keep PR #5 draft/unmerged. Do not start R3 or activate the post-core collection before its governed boundary.
 
 ## பொருளதிகாரம் — complete
 

@@ -29,7 +29,7 @@ Before changing the repository, read completely:
 
 The nine works contain 2,376 frozen records. Puṟanāṉūṟu 400/400 is a completed carried-forward foundation and must not be re-reviewed. New R2 review scope is 1,976 records.
 
-Kuṟuntokai is complete: `001–401`, 4,540 observations. Naṟṟiṇai is complete: `001–400`, 6,007 observations. Aiṅkuṟunūṟu is complete: `001–500`, 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete through `001–010` with 166 observations. Its cadence retains benchmark `001–002` and stabilization `003–010`. Next regular batch: `011–035`.
+Kuṟuntokai is complete: `001–401`, 4,540 observations. Naṟṟiṇai is complete: `001–400`, 6,007 observations. Aiṅkuṟunūṟu is complete: `001–500`, 2,461 observations; records 129–130 are canonically lost and body-reviewed-empty. Akanāṉūṟu is complete at `001–400` with 4,840 observations and no next record. Its cadence is benchmark `001–002`, stabilization `003–010`, regular 25-record batches through `361–385`, and final `386–400`. Next R2 benchmark: Kalittokai `001–002`.
 
 Production architecture: 8 independent Eṭṭuttokai work folders; 10 independent Pattuppāṭṭu long-work folders; 18 independent Patiṉeṇkīḻkkaṇakku folders planned but not activated.
 
@@ -41,6 +41,6 @@ Printed tiṇai, speaker/context and poet metadata remain provenance-distinct. T
 
 ## Immediate next activity
 
-Review and materialize Akanāṉūṟu `011–035` sequentially/source-first as the first regular 25-record batch. Preserve the benchmark adapter and navigation-only section/division fields. Run full CI/non-drift on the exact head. Keep PR #5 draft/unmerged.
+Inspect the Kalittokai adapter, then review and materialize `001–002` sequentially/source-first as its R2 benchmark. Run full CI/non-drift on the exact head. Keep PR #5 draft/unmerged.
 
 Do not start R3.

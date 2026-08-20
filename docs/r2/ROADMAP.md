@@ -15,12 +15,12 @@ The controlling scope is `manifests/sangam-core-program.json`:
 | நற்றிணை | `natrinai` | 400 | complete: 400 records / 6,007 observations |
 | ஐங்குறுநூறு | `aingurunuru` | 500 | complete: 500 records / 2,461 observations |
 | குறுந்தொகை | `kuruntokai` | 401 | complete: 401 records / 4,540 observations |
-| அகநானூறு | `akananuru` | 400 | active: 10 records / 166 observations; regular batch 011–035 next |
+| அகநானூறு | `akananuru` | 400 | complete: 400 records / 4,840 observations |
 | புறநானூறு | `purananuru` | 400 | completed foundation; carry forward |
 | பத்துப்பாட்டு | `pattuppattu` | 10 | pending; long-work adapter required |
 | பதிற்றுப்பத்து | `patirruppattu` | 80 | pending |
 | பரிபாடல் | `paripatal` | 35 | pending; music/deity metadata adapter required |
-| கலித்தொகை | `kalittokai` | 150 | pending |
+| கலித்தொகை | `kalittokai` | 150 | next benchmark 001–002 |
 
 Total frozen records: **2,376**. Completed Puṟanāṉūṟu foundation: **400**. New R2 review scope: **1,976** records.
 

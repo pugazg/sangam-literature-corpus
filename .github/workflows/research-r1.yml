@@ -87,6 +87,9 @@ jobs:
       - name: Validate R2 Aingurunuru production prefix
         run: python3 scripts/validate_r2_poem_production.py --root . --work aingurunuru --records 500
 
+      - name: Validate R2 Akananuru production prefix
+        run: python3 scripts/validate_r2_poem_production.py --root . --work akananuru --records 400
+
       - name: Run complete regression suite
         run: pytest -q
 
