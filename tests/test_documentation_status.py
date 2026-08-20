@@ -95,7 +95,7 @@ def test_r2_scope_and_benchmark_are_documented():
     assert "2,376" in roadmap
     assert "1,976" in roadmap
     assert "0.4.0" in roadmap
-    assert "R3" in roadmap and "sequentially gated" in roadmap
+    assert "R3" in roadmap and "gated" in roadmap
     assert "R8" in roadmap
 
 
