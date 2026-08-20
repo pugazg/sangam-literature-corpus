@@ -41,7 +41,7 @@ Before changing the repository, read completely:
 - Exact 29-dimension surface remains unchanged.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
 - Puṟanāṉūṟu cadence remains benchmark `001–002`, stabilization **003–010**, regular **25-record** batches beginning **011–035**, final `386–400`.
-- Tolkāppiyam `0001–0296` is the current gap-free production prefix.
+- Tolkāppiyam `0001–0406` is the current gap-free production prefix.
 - Completed எழுத்ததிகாரம் இயல்: நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு, உருபியல்.
 - Current partial இயல்: **உயிர்மயங்கியல் `0204–0296` (93 records)**.
 - Completed உயிர்மயங்கியல் publication boundaries: `0204–0228`, `0229–0253`.
@@ -107,6 +107,12 @@ This boundary adds **31 formal grammatical/poetics observations** and **3 incide
 Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
 
 This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
+
+### புள்ளிமயங்கியல் 0397–0406 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0397-0406.json`.
+
+This final boundary adds **12 formal grammatical/poetics observations** and **2 incidental examples**. Across புள்ளிமயங்கியல் `0297–0406`, five publication boundaries contribute **136 formal observations** and **21 incidental examples**. Durable guards preserve grammatical class labels, kinship/name formulas, learned-authority and inherited-tradition wording, quantification, environmental/material/fauna/flora lexical examples, and ambiguous forms without unsupported historical promotion. No new controlled concept was required.
 
 ## Current stream-specific concepts
 
