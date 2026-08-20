@@ -1,5 +1,18 @@
 # Sangam Literature Corpus — Project Handover
 
+## R2 authoritative current state
+
+R1.5A merged into `main` at `1e6684b09a5e41fc675ea3e07ba8b6a646d35830`. R2 was then explicitly authorized.
+
+Active branch: `research/classical-tamil-concept-matrix-r2`.
+
+R2 applies the unchanged exact 29-dimension evidence model across the frozen nine-work Core Sangam Corpus under the new multi-work production-review schema `0.4.0`. Scope and gates are controlled by `research/production/r2-scope.json` and `docs/r2/ROADMAP.md`.
+
+Puṟanāṉūṟu 400/400 is carried forward without re-review. The first new-work benchmark is Kuṟuntokai `001–002`; next record is `kuruntokai-001`.
+
+R3 and later-phase activities remain blocked. Tolkāppiyam must not auto-classify poems, and the frozen corpus must not change.
+
+
 ## Authoritative current state
 
 Repository: `pugazg/sangam-literature-corpus`
@@ -204,7 +217,7 @@ Total சொல்லதிகாரம் contribution: **713 formal observatio
 
 ## Next permitted activity
 
-Tolkāppiyam R1.5A production is complete. Keep PR #4 draft and unmerged until explicit user authorization to review or merge. R2 remains blocked.
+Proceed with R2 Gate A and Gate B. Complete the multi-work schema/validator contract, then review Kuṟuntokai `001–002` sequentially/source-first. Do not start R3 or later-phase work.
 
 ## பொருளதிகாரம் — complete
 
@@ -230,4 +243,4 @@ Read in this order:
 12. `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
 13. `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
 
-PR #4 remains draft/unmerged until a later user-authorized merge boundary.
+PR #4 is historical/merged. The R2 PR must remain draft/unmerged until a later explicit merge authorization.
