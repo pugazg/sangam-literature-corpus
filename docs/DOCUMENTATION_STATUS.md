@@ -29,7 +29,7 @@ Per-நூற்பா review distinguishes formal grammatical/poetics concept e
 
 The old Tolkāppiyam manifest/crosswalk remains representative control evidence only and never a classifier.
 
-## Current Tolkāppiyam boundary
+## Current Tolkāppiyam boundary through புள்ளிமயங்கியல்
 
 `0001–0406` is the current materialized gap-free production prefix:
 
@@ -55,7 +55,7 @@ Completed எழுத்ததிகாரம் இயல்:
 
 Current reviewed specs include all boundaries through `research/production/tolkappiyam/review-specs/0397-0406.json`.
 
-## Durable boundaries through 0253
+## Durable boundaries through 0406
 
 Earlier நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு and உருபியல் guardrails remain binding, including contextual treatment of grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்`, articulation anatomy, measure vocabulary, learned-authority formulas, `மரப்பெயர்`, `திசைப் பெயர்`, and grammatical `இயற்கை` / `செயற்கை`.
 
@@ -145,9 +145,9 @@ The current authority set includes `PROJECT_GUIDELINES.md`, `PROJECT_HANDOVER.md
 
 Historical handovers/audits remain truthful records of their own boundaries.
 
-## Next activity
+## Next activity — one-இயல் iteration
 
-Proceed with **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
+Proceed with the complete **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`** iteration, sequentially/source-first across all 29 dimensions and in contiguous publication boundaries of at most 25 records. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
 
 Longer-range user-directed path remains: complete உயிர்மயங்கியல், then canonical புள்ளிமயங்கியல், then குற்றியலுகரப்புணரியல்.
 
