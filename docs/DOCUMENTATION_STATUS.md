@@ -42,25 +42,18 @@ The old Tolkāppiyam manifest/crosswalk remains representative control evidence 
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
-Completed இயல்:
+Completed எழுத்ததிகாரம் இயல்:
 
-- `0001–0033` — எழுத்ததிகாரம் / நூல் மரபு;
-- `0034–0082` — எழுத்ததிகாரம் / மொழி மரபு;
-- `0083–0103` — எழுத்ததிகாரம் / பிறப்பியல்;
-- `0104–0143` — எழுத்ததிகாரம் / புணரியல்;
-- `0144–0173` — எழுத்ததிகாரம் / தொகைமரபு;
-- `0174–0203` — எழுத்ததிகாரம் / உருபியல்.
+- `0001–0033` — நூல் மரபு;
+- `0034–0082` — மொழி மரபு;
+- `0083–0103` — பிறப்பியல்;
+- `0104–0143` — புணரியல்;
+- `0144–0173` — தொகைமரபு;
+- `0174–0203` — உருபியல்;
+- `0204–0296` — உயிர்மயங்கியல்;
+- `0297–0406` — புள்ளிமயங்கியல்.
 
-Current partial இயல்:
-
-- **உயிர்மயங்கியல் = `0204–0296` (93 records)**;
-- publication boundaries `0204–0228`, `0229–0253`, and `0254–0278` are complete;
-- remaining boundary: `0279–0296`.
-
-Current reviewed specs:
-
-- `research/production/tolkappiyam/review-specs/0204-0228.json`;
-- `research/production/tolkappiyam/review-specs/0229-0253.json`.
+Current reviewed specs include all boundaries through `research/production/tolkappiyam/review-specs/0397-0406.json`.
 
 ## Durable boundaries through 0253
 
