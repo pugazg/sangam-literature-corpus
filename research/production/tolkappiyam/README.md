@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0278` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0296` is the current materialized gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0278.json`
-- reviewed: **278 / 1,602**
-- remaining: **1,324**
-- next record: **tolkappiyam-0279**
-- current இயல்: **எழுத்ததிகாரம் / உயிர்மயங்கியல்**
-- formal grammatical/poetics concept evidence: **353**
-- incidental examples: **36**
+- `0001.json` through `0296.json`
+- reviewed: **296 / 1,602**
+- remaining: **1,306**
+- next record: **tolkappiyam-0297**
+- next இயல்: **எழுத்ததிகாரம் / புள்ளிமயங்கியல்**
+- formal grammatical/poetics concept evidence: **375**
+- incidental examples: **46**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -33,11 +33,9 @@ Completed இயல்:
 - `0144–0173` — எழுத்ததிகாரம் / தொகைமரபு
 - `0174–0203` — எழுத்ததிகாரம் / உருபியல்
 
-Current partial இயல்:
+Completed இயல்:
 
-- உயிர்மயங்கியல் is frozen at **`0204–0296` / 93 records**;
-- `0204–0228`, `0229–0253`, and `0254–0278` are complete;
-- next and final boundary: `0279–0296`.
+- உயிர்மயங்கியல்: **`0204–0296` / 93 records**, complete across four publication boundaries.
 
 ## Evidence model
 
@@ -135,6 +133,12 @@ Reviewed spec: `research/production/tolkappiyam/review-specs/0254-0278.json`.
 
 This boundary adds **31 formal grammatical/poetics observations** and **3 incidental examples**. `காலை`, `இடன்`, grammatical `மெய்`, `இயற்கை`, and `எண்` remain contextual; `எரு` / `செரு` are not promoted into historical landscape, agriculture, or warfare claims; `ஒடுமரம்` / `உதி மரம்` and `பூ` remain incidental flora-language; `ஆடூஉ` / `மகடூஉ` remain grammatical பெயர் forms rather than historical kinship/gender claims; `என்மனார் புலவர்` remains an incidental learned-authority formula; `செய்யுள் மருங்கின்` supports only narrow formal poetic-text context. No new controlled concept was required.
 
+### உயிர்மயங்கியல் 0279–0296 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
+
+This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
+
 ## Publication cadence
 
 Semantic review is strictly one நூற்பா at a time, source-first, and a spec never crosses an இயல் boundary.
@@ -156,6 +160,6 @@ Canonical எழுத்ததிகாரம் order after உயிர்ம
 
 ## Next activity
 
-Proceed with **உயிர்மயங்கியல் `0279–0296`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
+Proceed with **புள்ளிமயங்கியல் `0297–0406`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
 
 Longer-range path: finish உயிர்மயங்கியல், then complete புள்ளிமயங்கியல் in canonical order, then proceed through குற்றியலுகரப்புணரியல்.
