@@ -26,7 +26,7 @@
     {
       "work_id": "aingurunuru",
       "records": 500,
-      "state": "benchmark_selected"
+      "state": "complete"
     },
     {
       "work_id": "kuruntokai",
@@ -36,7 +36,7 @@
     {
       "work_id": "akananuru",
       "records": 400,
-      "state": "pending"
+      "state": "benchmark_selected"
     },
     {
       "work_id": "purananuru",
@@ -64,7 +64,7 @@
       "state": "pending"
     }
   ],
-  "active_work_id": "aingurunuru",
+  "active_work_id": "akananuru",
   "benchmark_range": [
     1,
     2
@@ -73,7 +73,7 @@
     3,
     10
   ],
-  "next_record": "aingurunuru-001",
+  "next_record": "akananuru-001",
   "auto_classify_from_tolkappiyam": false,
   "cross_corpus_entity_resolution": false,
   "external_historical_evidence": false,
@@ -109,6 +109,16 @@
       "records": 400,
       "observations": 6007,
       "policy": "r2_complete"
+    },
+    {
+      "work_id": "aingurunuru",
+      "records": 500,
+      "observations": 2461,
+      "policy": "r2_complete",
+      "lost_records": [
+        129,
+        130
+      ]
     }
   ]
 }

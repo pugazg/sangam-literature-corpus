@@ -47,7 +47,7 @@
       "title_tamil": "ஐங்குறுநூறு",
       "folder": "research/production/programmes/ettuttokai/aingurunuru",
       "source_container": "corpus/aingurunuru",
-      "production_status": "benchmark_selected"
+      "production_status": "complete"
     },
     {
       "collection_id": "ettuttokai",
@@ -79,7 +79,7 @@
       "title_tamil": "அகநானூறு",
       "folder": "research/production/programmes/ettuttokai/akananuru",
       "source_container": "corpus/akananuru",
-      "production_status": "pending"
+      "production_status": "benchmark_selected"
     },
     {
       "collection_id": "ettuttokai",

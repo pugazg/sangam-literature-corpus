@@ -32,13 +32,15 @@ def validate(root: Path):
         errors.append("R2 must retain exact 29 dimensions")
     if scope.get("completed_foundation") != {"work_id":"purananuru","records":400,"policy":"carry_forward_without_re_review"}:
         errors.append("Purananuru carry-forward boundary drifted")
-    if scope.get("active_work_id") != "aingurunuru" or scope.get("benchmark_range") != [1,2] or scope.get("stabilization_range") != [3,10]:
-        errors.append("Aingurunuru benchmark/stabilization boundary drifted")
+    if scope.get("active_work_id") != "akananuru" or scope.get("next_record") != "akananuru-001" or scope.get("benchmark_range") != [1,2] or scope.get("stabilization_range") != [3,10]:
+        errors.append("Akananuru benchmark/stabilization boundary drifted")
     completed = scope.get("completed_works", [])
     if not any(x.get("work_id") == "kuruntokai" and x.get("records") == 401 and x.get("observations") == 4540 for x in completed):
         errors.append("Kuruntokai completion boundary missing")
     if not any(x.get("work_id") == "natrinai" and x.get("records") == 400 and x.get("observations") == 6007 for x in completed):
         errors.append("Natrinai completion boundary missing")
+    if not any(x.get("work_id") == "aingurunuru" and x.get("records") == 500 and x.get("observations") == 2461 and x.get("lost_records") == [129,130] for x in completed):
+        errors.append("Aingurunuru completion boundary missing")
     for key in ("auto_classify_from_tolkappiyam","cross_corpus_entity_resolution","external_historical_evidence","frozen_corpus_mutation_allowed"):
         if scope.get(key) is not False:
             errors.append(f"{key} must remain false in R2")
