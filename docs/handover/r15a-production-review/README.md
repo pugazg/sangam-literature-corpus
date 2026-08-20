@@ -114,8 +114,10 @@ Every discrepancy must remain explainable from the source, not from a desire to 
 
 Each batch must pass the current workflow, including the explicit exact-29-dimension and Puṟanāṉūṟu production-prefix validators, full regression, deterministic checks, repository audit, frozen-corpus/Tolkāppiyam non-drift, and R1 history preservation.
 
-## Next action
+## Completed state and next action
 
-Continue record 003, then 004 through 010 sequentially. Publish 003–010 as the first R1.5A production batch and validate it before starting 011–035.
+Puṟanāṉūṟu production is complete at **400/400** with **7,169 observations**. Tolkāppiyam production is complete and gap-free at **1,602/1,602**, with **3,505 formal grammatical/poetics observations**, **348 incidental examples**, and all **27 இயல்** complete across the three அதிகாரம்.
 
-R2 remains blocked.
+The complete exact-head regression suite passes **228 tests**. R1.5A has no next canonical production record. Review and merge draft PR #4 only with explicit user authorization.
+
+R2 remains blocked and must not start without separate explicit authorization.
