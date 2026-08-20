@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0296` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0321` is the current materialized gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0296.json`
-- reviewed: **296 / 1,602**
-- remaining: **1,306**
-- next record: **tolkappiyam-0297**
+- `0001.json` through `0321.json`
+- reviewed: **321 / 1,602**
+- remaining: **1,281**
+- next record: **tolkappiyam-0322**
 - next இயல்: **எழுத்ததிகாரம் / புள்ளிமயங்கியல்**
-- formal grammatical/poetics concept evidence: **375**
-- incidental examples: **46**
+- formal grammatical/poetics concept evidence: **407**
+- incidental examples: **50**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -138,6 +138,10 @@ This boundary adds **31 formal grammatical/poetics observations** and **3 incide
 Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
 
 This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
+
+### புள்ளிமயங்கியல் 0297–0321
+
+Reviewed spec: `0297-0321.json`. This first boundary adds **32 formal observations** and **4 incidental examples**. Source-first guards preserve grammatical gender/classes, lexical `அகம்` / `இல்லம்` / `இலம்`, தொழிற்பெயர்/கிளைப்பெயர், quantification, tree-name examples, and learned-authority language without historical promotion.
 
 ## Publication cadence
 
