@@ -15,7 +15,7 @@ The controlling scope is `manifests/sangam-core-program.json`:
 | நற்றிணை | `natrinai` | 400 | complete: 400 records / 6,007 observations |
 | ஐங்குறுநூறு | `aingurunuru` | 500 | complete: 500 records / 2,461 observations |
 | குறுந்தொகை | `kuruntokai` | 401 | complete: 401 records / 4,540 observations |
-| அகநானூறு | `akananuru` | 400 | next benchmark 001–002 |
+| அகநானூறு | `akananuru` | 400 | benchmark complete: 2 records / 32 observations; stabilization 003–010 next |
 | புறநானூறு | `purananuru` | 400 | completed foundation; carry forward |
 | பத்துப்பாட்டு | `pattuppattu` | 10 | pending; long-work adapter required |
 | பதிற்றுப்பத்து | `patirruppattu` | 80 | pending |
