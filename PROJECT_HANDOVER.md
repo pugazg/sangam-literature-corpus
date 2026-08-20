@@ -23,7 +23,7 @@ Active research branch: `research/classical-tamil-concept-matrix-r1.5a`
 
 R1.5 was explicitly authorized and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 is historical/merged. Draft PR #4 is the active R1.5A proposal.
 
-R1.5A keeps concept/observation schema `0.3.0`; it is not R2. **R2 remains blocked and must not start without explicit user authorization.** Treat live GitHub state as authoritative over older prose.
+R1.5A preserved concept/observation schema `0.3.0` and is now complete/merged. R2 was explicitly authorized afterward and uses multi-work production-review schema `0.4.0` while retaining the exact 29 dimensions. Treat live GitHub state as authoritative over older prose.
 
 ## Frozen corpus and preserved layers
 
