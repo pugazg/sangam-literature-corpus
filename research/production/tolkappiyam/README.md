@@ -197,3 +197,10 @@ This first boundary continues the source-first 29-dimension review through `tolk
 Reviewed spec: `research/production/tolkappiyam/review-specs/0432-0456.json`.
 
 This second boundary extends the gap-free prefix through `tolkappiyam-0456`. Directional forms, attribution formulas, number expressions, and measure vocabulary retain their grammatical roles and are not converted into historical geography, identity, economy, or material-culture claims.
+
+
+### குற்றியலுகரப்புணரியல் 0457–0481
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0457-0481.json`.
+
+This third boundary extends the gap-free prefix through `tolkappiyam-0481`. Formal number and measure constructions remain grammatical quantification; `செய்யுள் தொடர்வயின்` at 0481 supports only the narrow poetic-text-form context.
