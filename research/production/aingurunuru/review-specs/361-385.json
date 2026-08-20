@@ -1634,5 +1634,6 @@
         }
       }
     }
-  }
+  },
+  "materialization_control": "full_retry_after_navigation_loop_fix"
 }

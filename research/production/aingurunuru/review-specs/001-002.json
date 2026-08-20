@@ -290,5 +290,6 @@
     "major_division",
     "pattu_as_printed",
     "position_within_pattu"
-  ]
+  ],
+  "materialization_control": "full_retry_after_navigation_loop_fix"
 }
