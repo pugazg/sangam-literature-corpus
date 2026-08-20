@@ -32,7 +32,7 @@ def validate(root: Path):
         errors.append("R2 must retain exact 29 dimensions")
     if scope.get("completed_foundation") != {"work_id":"purananuru","records":400,"policy":"carry_forward_without_re_review"}:
         errors.append("Purananuru carry-forward boundary drifted")
-    if scope.get("active_work_id") != "kalittokai" or scope.get("next_record") != "kalittokai-001" or scope.get("next_batch") != [1,2] or scope.get("benchmark_range") != [1,2] or scope.get("stabilization_range") != [3,10]:
+    if scope.get("active_work_id") != "kalittokai" or scope.get("next_record") != "kalittokai-003" or scope.get("next_batch") != [3,10] or scope.get("benchmark_range") != [1,2] or scope.get("stabilization_range") != [3,10]:
         errors.append("Kalittokai benchmark/stabilization boundary drifted")
     completed = scope.get("completed_works", [])
     if not any(x.get("work_id") == "kuruntokai" and x.get("records") == 401 and x.get("observations") == 4540 for x in completed):

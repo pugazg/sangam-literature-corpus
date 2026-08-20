@@ -3,7 +3,9 @@
 - collection: `ettuttokai`
 - production unit: `kalittokai`
 - source: `corpus/kalittokai/`
-- status: `benchmark_selected`
-- next: `001–002`
+- status: `stabilization_active`
+- reviewed: `002 / 150`
+- observations: `37`
+- next: `003–010`
 
-This is an independent production workspace and completion gate. Exact source Tamil and frozen source structure remain authoritative. No Tolkāppiyam rule or conventional literary association may auto-classify its records.
+This is an independent production workspace and completion gate. Printed division headings remain navigation/context rather than per-record tiṇai. Exact source Tamil remains authoritative; Tolkāppiyam never auto-classifies records.

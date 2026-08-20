@@ -20,7 +20,7 @@ The controlling scope is `manifests/sangam-core-program.json`:
 | பத்துப்பாட்டு | `pattuppattu` | 10 | pending; long-work adapter required |
 | பதிற்றுப்பத்து | `patirruppattu` | 80 | pending |
 | பரிபாடல் | `paripatal` | 35 | pending; music/deity metadata adapter required |
-| கலித்தொகை | `kalittokai` | 150 | next benchmark 001–002 |
+| கலித்தொகை | `kalittokai` | 150 | benchmark complete: 2 records / 37 observations; stabilization 003–010 next |
 
 Total frozen records: **2,376**. Completed Puṟanāṉūṟu foundation: **400**. New R2 review scope: **1,976** records.
 
