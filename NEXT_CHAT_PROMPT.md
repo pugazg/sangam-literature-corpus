@@ -35,6 +35,7 @@ Before changing the repository, read completely:
 
 - Corpus 1.1.0 remains frozen: 28 works / 7,234 canonical records / 5,632 poems / 1,602 Tolkāppiyam நூற்பா.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
+- Puṟanāṉūṟu cadence remains benchmark `001–002`, stabilization `003–010`, and regular 25-record batches beginning `011–035`, with final `386–400`.
 - Tolkāppiyam production is gap-free through `0001–0406`.
 - Reviewed: **406 / 1,602**.
 - Remaining: **1,196**.
