@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: seven எழுத்ததிகாரம் இயல் complete; புள்ளிமயங்கியல் next
+- Tolkāppiyam production: eight எழுத்ததிகாரம் இயல் complete; குற்றியலுகரப்புணரியல் next
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -31,14 +31,14 @@ The old Tolkāppiyam manifest/crosswalk remains representative control evidence 
 
 ## Current Tolkāppiyam boundary
 
-`0001–0296` is the current materialized gap-free production prefix:
+`0001–0406` is the current materialized gap-free production prefix:
 
-- reviewed: **296 / 1,602**;
-- remaining: **1,306**;
-- next: **tolkappiyam-0297**;
-- next இயல்: **எழுத்ததிகாரம் / புள்ளிமயங்கியல்**;
-- formal grammatical/poetics concept evidence: **375**;
-- incidental examples: **46**;
+- reviewed: **406 / 1,602**;
+- remaining: **1,196**;
+- next: **tolkappiyam-0407**;
+- next இயல்: **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்**;
+- formal grammatical/poetics concept evidence: **511**;
+- incidental examples: **67**;
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -112,6 +112,12 @@ Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
 
 This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
 
+### புள்ளிமயங்கியல் 0397–0406 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0397-0406.json`.
+
+This final boundary adds **12 formal grammatical/poetics observations** and **2 incidental examples**. Across புள்ளிமயங்கியல் `0297–0406`, five publication boundaries contribute **136 formal observations** and **21 incidental examples**. Durable guards preserve grammatical class labels, kinship/name formulas, learned-authority and inherited-tradition wording, quantification, environmental/material/fauna/flora lexical examples, and ambiguous forms without unsupported historical promotion. No new controlled concept was required.
+
 ## Current stream-specific concepts
 
 The Tolkāppiyam extension registry includes:
@@ -148,7 +154,7 @@ Historical handovers/audits remain truthful records of their own boundaries.
 
 ## Next activity
 
-Proceed with **Tolkāppiyam எழுத்ததிகாரம் / புள்ளிமயங்கியல் `0297–0406`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
+Proceed with **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
 
 Longer-range user-directed path remains: complete உயிர்மயங்கியல், then canonical புள்ளிமயங்கியல், then குற்றியலுகரப்புணரியல்.
 
