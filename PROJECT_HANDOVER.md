@@ -34,13 +34,13 @@ Canonical production identity is source sequence: `tolkappiyam-0001` … `tolkap
 
 Current materialized gap-free boundary:
 
-- `0001.json` through `0253.json`;
-- reviewed: **253 / 1,602**;
-- remaining: **1,349**;
-- next record: **tolkappiyam-0254**;
+- `0001.json` through `0278.json`;
+- reviewed: **278 / 1,602**;
+- remaining: **1,324**;
+- next record: **tolkappiyam-0279**;
 - current இயல்: **எழுத்ததிகாரம் / உயிர்மயங்கியல்**;
-- formal grammatical/poetics concept evidence: **322**;
-- incidental examples: **33**;
+- formal grammatical/poetics concept evidence: **353**;
+- incidental examples: **36**;
 - exact dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -53,7 +53,7 @@ Completed எழுத்ததிகாரம் இயல்:
 5. `0144–0173` — தொகைமரபு;
 6. `0174–0203` — உருபியல்.
 
-Current partial இயல் is **உயிர்மயங்கியல் `0204–0296` (93 records)**. Publication boundaries `0204–0228` and `0229–0253` are complete. Remaining normal boundaries are `0254–0278` and `0279–0296`.
+Current partial இயல் is **உயிர்மயங்கியல் `0204–0296` (93 records)**. Publication boundaries `0204–0228`, `0229–0253`, and `0254–0278` are complete. The remaining boundary is `0279–0296`.
 
 Every production record is reviewed source-first; the old manifest/crosswalk is consulted only after fresh decisions.
 
@@ -138,6 +138,12 @@ No new controlled concept was required.
 
 Across completed உயிர்மயங்கியல் `0204–0253`, totals added are **63 formal observations** and **10 incidental examples**.
 
+### உயிர்மயங்கியல் 0254–0278
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0254-0278.json`.
+
+This boundary adds **31 formal grammatical/poetics observations** and **3 incidental examples**. `காலை`, `இடன்`, grammatical `மெய்`, `இயற்கை`, and `எண்` remain contextual; `எரு` / `செரு` are not promoted into historical landscape, agriculture, or warfare claims; `ஒடுமரம்` / `உதி மரம்` and `பூ` remain incidental flora-language; `ஆடூஉ` / `மகடூஉ` remain grammatical பெயர் forms rather than historical kinship/gender claims; `என்மனார் புலவர்` remains an incidental learned-authority formula; `செய்யுள் மருங்கின்` supports only narrow formal poetic-text context. No new controlled concept was required.
+
 ## Tolkāppiyam publication cadence and requested long-range path
 
 The governing rule remains இயல்-aware sequential review:
@@ -163,7 +169,7 @@ A Tolkāppiyam rule never automatically classifies Puṟanāṉūṟu or another
 
 ## Next permitted activity
 
-Proceed with **Tolkāppiyam எழுத்ததிகாரம் / உயிர்மயங்கியல் `0254–0278`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Preserve exact source spans and terminology, materialize deterministically, and require full exact-head PR CI at the publication boundary.
+Proceed with **Tolkāppiyam எழுத்ததிகாரம் / உயிர்மயங்கியல் `0279–0296`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Preserve exact source spans and terminology, materialize deterministically, and require full exact-head PR CI at the publication boundary.
 
 Do not begin `0279–0296` until `0254–0278` is green. Do not start R2.
 
