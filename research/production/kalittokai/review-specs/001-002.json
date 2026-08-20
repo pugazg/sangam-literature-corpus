@@ -1,0 +1,518 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "adapter_version": "generic-poem-v1",
+  "work_id": "kalittokai",
+  "work_record_count": 150,
+  "navigation_fields": [
+    "poem_number_as_printed",
+    "section",
+    "major_division_as_printed",
+    "position_within_division"
+  ],
+  "range": [
+    1,
+    2
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions. Null per-record tiṇai and speaker metadata remain reviewed-empty. Printed division headings remain navigation/context only and are not promoted into missing tiṇai metadata.",
+  "records": {
+    "001": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kalittokai is treated as Akam work context; this is not inferred from the individual body or printed division."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed per-record tiṇai value; the printed division heading is not promoted to tiṇai metadata."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Any printed division-level poet attribution is retained as an unresolved source mention; no historical identity is externally assigned."
+        }
+      },
+      "dimensions": {
+        "flora": {
+          "e": [
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact கொன்றை garland wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact வண்டு and உழுவை animal wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "range",
+              4,
+              17
+            ]
+          ],
+          "note": "Exact அந்தணர், addressed deity-form and அரிவை wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "range",
+              7,
+              17
+            ]
+          ],
+          "note": "The repeated female companion/guardian participation in the dance is retained as poem-level relationship evidence."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "range",
+              6,
+              13
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact ash, garland and இழை/adornment wording retained without material reconstruction."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              12
+            ]
+          ],
+          "note": "Exact பறை and காபாலம் object wording retained without archaeological expansion."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "range",
+              2,
+              4
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              11
+            ]
+          ],
+          "note": "Exact destroyed-fort, war, battle and killing wording retained without reconstructing a historical event."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "அந்தணர் is retained as a source group expression without social generalization."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "range",
+              7,
+              16
+            ]
+          ],
+          "note": "Exact gendered woman/arிவை wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "range",
+              1,
+              17
+            ]
+          ],
+          "note": "The invocation, sacred lore, deity descriptions, ash, skull and ritual dances are retained without doctrinal expansion."
+        },
+        "death_mourning_memory": {
+          "e": [
+            [
+              "range",
+              11,
+              12
+            ]
+          ],
+          "note": "Exact killed-animal skin and skull wording retained without reconstructing a death event."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "range",
+              5,
+              16
+            ]
+          ],
+          "note": "Exact drum, dance, பாணி, தூக்கு and சீர் performance wording retained without assigning an external performance context."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              1
+            ]
+          ],
+          "note": "Exact அருமறை teaching wording retained without expanding its intellectual tradition."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact ஆணம் இல் பொருள் evaluative wording retained without philosophical expansion."
+        },
+        "body_health": {
+          "e": [
+            [
+              "range",
+              4,
+              13
+            ]
+          ],
+          "note": "Exact throat, hands, waist, shoulder, hair, head and breast wording retained without medical modernization."
+        }
+      }
+    },
+    "002": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Kalittokai is treated as Akam work context; this is not inferred from the individual body or printed division."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed per-record tiṇai value; the printed division heading is not promoted to tiṇai metadata."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "Any printed division-level poet attribution is retained as an unresolved source mention; no historical identity is externally assigned."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "range",
+              7,
+              8
+            ],
+            [
+              "line",
+              12
+            ],
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              20
+            ],
+            [
+              "line",
+              26
+            ]
+          ],
+          "note": "Exact mountain, difficult route and காழ் வரை wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "range",
+              5,
+              8
+            ]
+          ],
+          "note": "Exact sun-ray and heat wording retained without calendrical expansion."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              21
+            ],
+            [
+              "line",
+              26
+            ]
+          ],
+          "note": "Exact வடமீன் comparison and களிறு wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "range",
+              1,
+              4
+            ],
+            [
+              "range",
+              9,
+              25
+            ]
+          ],
+          "note": "Exact elder, deities/demons, petitioners, woman and lover role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "range",
+              9,
+              29
+            ]
+          ],
+          "note": "Exact love, companionship, separation and lover wording retained as poem-level relationship evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "range",
+              3,
+              6
+            ],
+            [
+              "range",
+              9,
+              10
+            ],
+            [
+              "range",
+              24,
+              29
+            ]
+          ],
+          "note": "Exact anger, love, distress and fear wording retained without psychological modernization."
+        },
+        "material_culture_everyday_objects": {
+          "e": [
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              27
+            ]
+          ],
+          "note": "Exact கணிச்சி and யாழ் object wording retained without archaeological expansion."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "range",
+              2,
+              8
+            ]
+          ],
+          "note": "Exact combat, destroyed forts, fire and கணிச்சி wording retained without reconstructing a historical event."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "range",
+              7,
+              12
+            ],
+            [
+              "line",
+              16
+            ],
+            [
+              "line",
+              20
+            ],
+            [
+              "range",
+              24,
+              29
+            ]
+          ],
+          "note": "Exact difficult-route, departure and halting wording retained without route reconstruction."
+        },
+        "settlements_built_environment": {
+          "e": [
+            [
+              "line",
+              4
+            ],
+            [
+              "line",
+              15
+            ]
+          ],
+          "note": "Exact மூவெயில் and இல் built-space wording retained without external location identification."
+        },
+        "economy": {
+          "e": [
+            [
+              "range",
+              11,
+              20
+            ],
+            [
+              "line",
+              24
+            ]
+          ],
+          "note": "Repeated பொருள் and giving/not-giving wording retained without quantified economic inference."
+        },
+        "trade_exchange": {
+          "e": [
+            [
+              "range",
+              11,
+              20
+            ]
+          ],
+          "note": "Exact requests and giving/not-giving wording retained without reconstructing an exchange system."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "range",
+              2,
+              4
+            ],
+            [
+              "range",
+              11,
+              20
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "அமரர், அவுணர் and இரந்தோர் remain source group expressions without ethnographic expansion."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "range",
+              13,
+              22
+            ]
+          ],
+          "note": "Exact gendered woman and body-linked relationship wording retained without social generalization."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "range",
+              1,
+              6
+            ],
+            [
+              "line",
+              21
+            ]
+          ],
+          "note": "Exact deity, demon, three-fort and worship/praise wording retained without doctrinal expansion."
+        },
+        "arts_music_performance": {
+          "e": [
+            [
+              "line",
+              27
+            ]
+          ],
+          "note": "Exact யாழ் wording retained without assigning an external performance context."
+        },
+        "knowledge_technology": {
+          "e": [
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact தொல் இயல் wording retained without expanding an external intellectual tradition."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "range",
+              9,
+              25
+            ]
+          ],
+          "note": "Exact charity, shame, chastity and love evaluations retained as source-level ethical wording."
+        },
+        "body_health": {
+          "e": [
+            [
+              "range",
+              1,
+              6
+            ],
+            [
+              "range",
+              13,
+              24
+            ],
+            [
+              "range",
+              28,
+              29
+            ]
+          ],
+          "note": "Exact eye, face, breast/chest, shoulder and distress wording retained without medical modernization."
+        }
+      }
+    }
+  }
+}
