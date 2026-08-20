@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0396` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0406` is the current materialized gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0396.json`
-- reviewed: **396 / 1,602**
-- remaining: **1,206**
-- next record: **tolkappiyam-0397**
-- next இயல்: **எழுத்ததிகாரம் / புள்ளிமயங்கியல்**
-- formal grammatical/poetics concept evidence: **499**
-- incidental examples: **65**
+- `0001.json` through `0406.json`
+- reviewed: **406 / 1,602**
+- remaining: **1,196**
+- next record: **tolkappiyam-0407**
+- next இயல்: **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்**
+- formal grammatical/poetics concept evidence: **511**
+- incidental examples: **67**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -155,6 +155,12 @@ Reviewed spec: `0347-0371.json`. This boundary adds **29 formal observations** a
 
 Reviewed spec: `0372-0396.json`. This boundary adds **32 formal observations** and **6 incidental examples**. Guardrails preserve grammatical negative `இல்`, lexical objects/fauna/weather, ambiguous exact forms, `தமிழ்`, tree-name language, grammatical quantification, and learned-authority formulas without historical promotion.
 
+### புள்ளிமயங்கியல் 0397–0406 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0397-0406.json`.
+
+This final boundary adds **12 formal grammatical/poetics observations** and **2 incidental examples**. Across புள்ளிமயங்கியல் `0297–0406`, five publication boundaries contribute **136 formal observations** and **21 incidental examples**. Durable guards preserve grammatical class labels, kinship/name formulas, learned-authority and inherited-tradition wording, quantification, environmental/material/fauna/flora lexical examples, and ambiguous forms without unsupported historical promotion. No new controlled concept was required.
+
 ## Publication cadence
 
 Semantic review is strictly one நூற்பா at a time, source-first, and a spec never crosses an இயல் boundary.
@@ -176,6 +182,6 @@ Canonical எழுத்ததிகாரம் order after உயிர்ம
 
 ## Next activity
 
-Proceed with **புள்ளிமயங்கியல் `0297–0406`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
+Proceed with **குற்றியலுகரப்புணரியல் `0407–0483`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
 
 Longer-range path: finish உயிர்மயங்கியல், then complete புள்ளிமயங்கியல் in canonical order, then proceed through குற்றியலுகரப்புணரியல்.
