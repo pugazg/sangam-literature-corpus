@@ -41,7 +41,7 @@ Before changing the repository, read completely:
 - Exact 29-dimension surface remains unchanged.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
 - Puṟanāṉūṟu cadence remains benchmark `001–002`, stabilization **003–010**, regular **25-record** batches beginning **011–035**, final `386–400`.
-- Tolkāppiyam `0001–0253` is the current gap-free production prefix.
+- Tolkāppiyam `0001–0278` is the current gap-free production prefix.
 - Completed எழுத்ததிகாரம் இயல்: நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு, உருபியல்.
 - Current partial இயல்: **உயிர்மயங்கியல் `0204–0296` (93 records)**.
 - Completed உயிர்மயங்கியல் publication boundaries: `0204–0228`, `0229–0253`.
@@ -95,6 +95,12 @@ This boundary adds **30 formal observations** and **7 incidental examples**.
 - No new controlled concept was required.
 
 Across உயிர்மயங்கியல் `0204–0253`, the two completed boundaries contribute **63 formal observations** and **10 incidental examples**.
+
+### உயிர்மயங்கியல் 0254–0278
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0254-0278.json`.
+
+This boundary adds **31 formal grammatical/poetics observations** and **3 incidental examples**. `காலை`, `இடன்`, grammatical `மெய்`, `இயற்கை`, and `எண்` remain contextual; `எரு` / `செரு` are not promoted into historical landscape, agriculture, or warfare claims; `ஒடுமரம்` / `உதி மரம்` and `பூ` remain incidental flora-language; `ஆடூஉ` / `மகடூஉ` remain grammatical பெயர் forms rather than historical kinship/gender claims; `என்மனார் புலவர்` remains an incidental learned-authority formula; `செய்யுள் மருங்கின்` supports only narrow formal poetic-text context. No new controlled concept was required.
 
 ## Current stream-specific concepts
 
