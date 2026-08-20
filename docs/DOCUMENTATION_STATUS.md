@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: six எழுத்ததிகாரம் இயல் complete through உருபியல்
+- Tolkāppiyam production: six எழுத்ததிகாரம் இயல் complete; உயிர்மயங்கியல் active
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -31,14 +31,14 @@ The old Tolkāppiyam manifest/crosswalk remains representative control evidence 
 
 ## Current Tolkāppiyam boundary
 
-`0001–0203` is the current materialized gap-free production prefix:
+`0001–0228` is the current materialized gap-free production prefix:
 
-- reviewed: **203 / 1,602**;
-- remaining: **1,399**;
-- next: **tolkappiyam-0204**;
-- next இயல்: **எழுத்ததிகாரம் / உயிர்மயங்கியல்**;
-- formal grammatical/poetics concept evidence: **259**;
-- incidental examples: **23**;
+- reviewed: **228 / 1,602**;
+- remaining: **1,374**;
+- next: **tolkappiyam-0229**;
+- current இயல்: **எழுத்ததிகாரம் / உயிர்மயங்கியல்**;
+- formal grammatical/poetics concept evidence: **292**;
+- incidental examples: **26**;
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -49,34 +49,39 @@ Completed இயல்:
 - `0083–0103` — எழுத்ததிகாரம் / பிறப்பியல்;
 - `0104–0143` — எழுத்ததிகாரம் / புணரியல்;
 - `0144–0173` — எழுத்ததிகாரம் / தொகைமரபு;
-- `0174–0203` — எழுத்ததிகாரம் / உருபியல், published under normal boundaries `0174–0198` and `0199–0203`.
+- `0174–0203` — எழுத்ததிகாரம் / உருபியல்.
 
-Reviewed specs:
+Current partial இயல்:
 
-- `research/production/tolkappiyam/review-specs/0174-0198.json`;
-- `research/production/tolkappiyam/review-specs/0199-0203.json`.
+- **உயிர்மயங்கியல் = `0204–0296` (93 records)**;
+- first publication boundary `0204–0228` is complete;
+- remaining normal boundaries: `0229–0253`, `0254–0278`, `0279–0296`.
 
-## Durable boundaries through 0203
+Current reviewed spec: `research/production/tolkappiyam/review-specs/0204-0228.json`.
 
-Earlier நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல் and தொகைமரபு guardrails remain binding, including contextual treatment of grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்`, articulation anatomy, measure vocabulary, and unresolved learned-authority formulas.
+## Durable boundaries through 0228
 
-### உருபியல் 0174–0198
+Earlier நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு and உருபியல் guardrails remain binding, including contextual treatment of grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்`, articulation anatomy, measure vocabulary, learned-authority formulas, `மரப்பெயர்`, `திசைப் பெயர்`, and grammatical `இயற்கை` / `செயற்கை`.
 
-- `சாரியை`, `வேற்றுமை உருபு`, inflectional/end-form selection and noun/pronoun classes are formal `knowledge.grammar.morphology` where the rule classifies or constrains grammatical form.
-- Explicit joining, loss, shortening, consonant/vowel change and comparable boundary behavior are formal `knowledge.grammar.morphophonology`; some நூற்பா legitimately support both morphology and morphophonology.
-- 0179 `புலவர்` / `என்மனார் புலவர்` are incidental learned-role/attribution evidence only. They do not resolve a historical group, author or external text.
-- 0182 `மரப்பெயர்` is a grammatical lexical class referring to tree-name words. It is retained as incidental flora-language only and does not establish a specific plant occurrence or historical ecology.
-- 0191 `உயர்திணை` is a grammatical noun-class condition, not historical social hierarchy, caste/community, status, gender or kinship evidence.
-- 0198 `இயற்கை` / `செயற்கை` describe grammatical/formal behavior in context. They are not promoted to environmental evidence or a separate historical technology claim.
+### உயிர்மயங்கியல் 0204–0228
 
-### உருபியல் 0199–0203
+The first 25 உயிர்மயங்கியல் நூற்பா were reviewed sequentially/source-first across all 29 dimensions before control comparison. This boundary adds **33 formal observations** and **3 incidental examples**.
 
-- 0199 `எண்` is a form-governing grammatical category and supports `knowledge.grammar.quantification` alongside morphology; it does not establish a historical numeracy or economic practice.
-- 0200 `ஒன்று` through `பத்து` are formal grammatical quantification evidence; intermediary `ஆன்` is morphology, while explicit loss/retention is morphophonology. The numeral range does not establish accounting, trade, prices or standardized metrology, and `காலை` is analytic/grammatical rather than historical time.
-- 0201 formally combines morphology with explicit ஆய்தம் loss as morphophonology.
-- 0202 `திசைப் பெயர்` is a grammatical lexical class under seventh-case/சாரியை morphology, with final-consonant loss as morphophonology. `திசைப் பெயர்` and grammatical `இயற்கை` do not establish geography, routes, landscape or environmental conditions.
-- 0203 closes உருபியல் with generalized case-marker/சாரியை morphology. `உயிர்` in `உயிர் இறு கிளவி` is the grammatical vowel category, not body/health/life evidence; `தேரும் காலை` is analytic phrasing, not time evidence.
-- The `0199–0203` boundary adds **10 formal observations** and **0 incidental examples**. Full உருபியல் `0174–0203` adds **41 formal observations** and **3 incidental examples**.
+- The dominant formal layer is `knowledge.grammar.morphophonology`: doubling, addition, loss, lengthening, alternation and default boundary behavior are recorded only where source-explicit.
+- `knowledge.grammar.morphology` is used where the source actually assigns or delimits grammatical form classes, சாரியை or உருபு behavior.
+- `knowledge.grammar.word_structure` is used for explicit structural categories such as `தொடர்மொழி`, `தொடர் அல்`, `இரு பெயர்த் தொகைமொழி` and `ஓரெழுத்து மொழி`.
+- 0208 grammatical `உயிர்` means vowel and is not body/health/life evidence.
+- 0209 `செய்யுளுள்` and 0214 `செய்யுள் கண்ணிய` support the narrow formal `textual.poetic_form.formal_context`; neither identifies an external work nor establishes a historical performance event.
+- 0211 grammatical `தொழில்` / `உரைப்பொருட் கிளவி` do not become occupation/economy evidence.
+- 0216 `இயற்கை` is grammatical/formal terminology, not environmental evidence.
+- 0218 `மரப்பெயர்` is retained as incidental tree-name/flora-language only; it does not establish a specific plant occurrence or historical ecology.
+- 0219 `மகப்பெயர்` is the exact source label of a grammatical lexical class and is not promoted into a historical family, gender or kinship claim.
+- 0220 `அவண்` is positional/deictic inside the grammatical rule and does not establish geography, route or landscape.
+- 0223 `புலவர்` / `என்மனார் புலவர்` remain incidental learned-role/attribution evidence only.
+- 0224 `இரு பெயர்த் தொகைமொழி` is formal word-structure evidence; `மெய்ம்மையாக` is not body/health evidence.
+- 0225 grammatical `தொழில்` does not become occupation evidence; exact forms `ஆ` / `மா` are not silently resolved into fauna.
+- 0228 `இரா` is preserved as the grammatical form governed by the rule and is not promoted into historical time/night evidence.
+- No new controlled concept was required for `0204–0228`.
 
 ## Current stream-specific concepts
 
@@ -92,13 +97,11 @@ The Tolkāppiyam extension registry includes:
 - `textual.tradition.reference`;
 - `textual.poetic_form.formal_context`.
 
-No new controlled concept was required for உருபியல் `0174–0203`.
-
 ## Publication cadence
 
 Semantic review is always one நூற்பா at a time, source-first, and a production spec never crosses an இயல் boundary.
 
-Normal publication preference remains contiguous chunks of at most 25 records. A >25 full-இயல் publication requires explicit user direction. உருபியல் therefore used normal boundaries `0174–0198` and `0199–0203`.
+Normal publication preference remains contiguous chunks of at most 25 records. A >25 full-இயல் publication requires explicit user direction. உயிர்மயங்கியல் therefore follows `0204–0228`, `0229–0253`, `0254–0278`, `0279–0296`.
 
 ## Source terminology boundary
 
@@ -108,27 +111,12 @@ Tolkāppiyam evidence must never auto-classify Puṟanāṉūṟu or another San
 
 ## Current operational documents
 
-The current authority set includes:
-
-- `README.md`
-- `PROJECT_GUIDELINES.md`
-- `PROJECT_HANDOVER.md`
-- `NEXT_CHAT_PROMPT.md`
-- `docs/DOCUMENTATION_STATUS.md`
-- `docs/SOURCE_TERMINOLOGY_POLICY.md`
-- `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
-- `docs/classical-tamil-research-layer.md`
-- `docs/handover/r15a-production-review/README.md`
-- `research/production/purananuru/README.md`
-- `research/production/tolkappiyam/README.md`
-- `research/observations/tolkappiyam/README.md`
-- `research/audits/r15-premerge/tolkappiyam/review-manifest.json`
-- `research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json`
+The current authority set includes `PROJECT_GUIDELINES.md`, `PROJECT_HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, this file, `docs/SOURCE_TERMINOLOGY_POLICY.md`, the R1.5A production handover, the Puṟanāṉūṟu/Tolkāppiyam production READMEs, the Tolkāppiyam observation README, schemas, concept extension, old manifest/crosswalk controls, materializer and validator.
 
 Historical handovers/audits remain truthful records of their own boundaries.
 
 ## Next activity
 
-Proceed from **tolkappiyam-0204**, the first நூற்பா of **எழுத்ததிகாரம் / உயிர்மயங்கியல்**. Before publishing a new spec, resolve the full frozen உயிர்மயங்கியல் boundary, then review sequentially/source-first across all 29 dimensions and apply the normal at-most-25 publication cadence unless the user explicitly authorizes another full-இயல் exception.
+Proceed with **Tolkāppiyam எழுத்ததிகாரம் / உயிர்மயங்கியல் `0229–0253`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
 
 **Do not start R2.**
