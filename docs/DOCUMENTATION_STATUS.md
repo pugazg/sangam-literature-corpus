@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: eight எழுத்ததிகாரம் இயல் complete; குற்றியலுகரப்புணரியல் next
+- Tolkāppiyam production: all nine எழுத்ததிகாரம் இயல் complete; சொல்லதிகாரம் / கிளவியாக்கம் next
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -29,16 +29,16 @@ Per-நூற்பா review distinguishes formal grammatical/poetics concept e
 
 The old Tolkāppiyam manifest/crosswalk remains representative control evidence only and never a classifier.
 
-## Current Tolkāppiyam boundary through புள்ளிமயங்கியல்
+## Current Tolkāppiyam boundary through குற்றியலுகரப்புணரியல்
 
-`0001–0406` is the current materialized gap-free production prefix:
+`0001–0483` is the current materialized gap-free production prefix:
 
-- reviewed: **406 / 1,602**;
-- remaining: **1,196**;
-- next: **tolkappiyam-0407**;
-- next இயல்: **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்**;
-- formal grammatical/poetics concept evidence: **511**;
-- incidental examples: **67**;
+- reviewed: **483 / 1,602**;
+- remaining: **1,119**;
+- next: **tolkappiyam-0484**;
+- next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**;
+- formal grammatical/poetics concept evidence: **662**;
+- incidental examples: **83**;
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -51,11 +51,12 @@ Completed எழுத்ததிகாரம் இயல்:
 - `0144–0173` — தொகைமரபு;
 - `0174–0203` — உருபியல்;
 - `0204–0296` — உயிர்மயங்கியல்;
-- `0297–0406` — புள்ளிமயங்கியல்.
+- `0297–0406` — புள்ளிமயங்கியல்;
+- `0407–0483` — குற்றியலுகரப்புணரியல்.
 
-Current reviewed specs include all boundaries through `research/production/tolkappiyam/review-specs/0397-0406.json`.
+Current reviewed specs include all boundaries through `research/production/tolkappiyam/review-specs/0482-0483.json`.
 
-## Durable boundaries through 0406
+## Durable boundaries through 0483
 
 Earlier நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு and உருபியல் guardrails remain binding, including contextual treatment of grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்`, articulation anatomy, measure vocabulary, learned-authority formulas, `மரப்பெயர்`, `திசைப் பெயர்`, and grammatical `இயற்கை` / `செயற்கை`.
 
@@ -145,10 +146,12 @@ The current authority set includes `PROJECT_GUIDELINES.md`, `PROJECT_HANDOVER.md
 
 Historical handovers/audits remain truthful records of their own boundaries.
 
+## குற்றியலுகரப்புணரியல் — complete
+
+The four boundaries `0407–0431`, `0432–0456`, `0457–0481`, and `0482–0483` contribute **151 formal observations** and **16 incidental examples**. Formal morphophonology, morphology, word structure, quantification, and narrow poetic/tradition contexts remain distinct from incidental tree, fauna, gender, directional, measure, and learned-authority language. No new controlled concept was required.
+
 ## Next activity — one-இயல் iteration
 
-Proceed with the complete **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`** iteration, sequentially/source-first across all 29 dimensions and in contiguous publication boundaries of at most 25 records. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
-
-Longer-range user-directed path remains: complete உயிர்மயங்கியல், then canonical புள்ளிமயங்கியல், then குற்றியலுகரப்புணரியல்.
+Proceed with the complete **Tolkāppiyam சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`** iteration, sequentially/source-first across all 29 dimensions and in contiguous publication boundaries of at most 25 records. Stop before `tolkappiyam-0546`.
 
 **Do not start R2.**

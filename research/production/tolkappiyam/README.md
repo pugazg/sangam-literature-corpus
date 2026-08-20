@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0406` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0483` is the current materialized gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0406.json`
-- reviewed: **406 / 1,602**
-- remaining: **1,196**
-- next record: **tolkappiyam-0407**
-- next இயல்: **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்**
-- formal grammatical/poetics concept evidence: **511**
-- incidental examples: **67**
+- `0001.json` through `0483.json`
+- reviewed: **483 / 1,602**
+- remaining: **1,119**
+- next record: **tolkappiyam-0484**
+- next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**
+- formal grammatical/poetics concept evidence: **662**
+- incidental examples: **83**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -34,6 +34,7 @@ Completed இயல்:
 - `0174–0203` — எழுத்ததிகாரம் / உருபியல்
 - `0204–0296` — எழுத்ததிகாரம் / உயிர்மயங்கியல்
 - `0297–0406` — எழுத்ததிகாரம் / புள்ளிமயங்கியல்
+- `0407–0483` — எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்
 
 ## Evidence model
 
@@ -180,9 +181,7 @@ Canonical எழுத்ததிகாரம் order after உயிர்ம
 
 ## Next activity
 
-Proceed with **குற்றியலுகரப்புணரியல் `0407–0483`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
-
-Longer-range path: finish உயிர்மயங்கியல், then complete புள்ளிமயங்கியல் in canonical order, then proceed through குற்றியலுகரப்புணரியல்.
+Proceed with **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation. Stop before `tolkappiyam-0546`.
 
 
 ### குற்றியலுகரப்புணரியல் 0407–0431
@@ -204,3 +203,9 @@ This second boundary extends the gap-free prefix through `tolkappiyam-0456`. Dir
 Reviewed spec: `research/production/tolkappiyam/review-specs/0457-0481.json`.
 
 This third boundary extends the gap-free prefix through `tolkappiyam-0481`. Formal number and measure constructions remain grammatical quantification; `செய்யுள் தொடர்வயின்` at 0481 supports only the narrow poetic-text-form context.
+
+### குற்றியலுகரப்புணரியல் 0482–0483 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0482-0483.json`.
+
+This final boundary adds **6 formal observations** and **1 incidental example**. Across குற்றியலுகரப்புணரியல், the four publication boundaries contribute **151 formal observations** and **16 incidental examples**. Grammatical `உயர்திணை`, `அஃறிணை`, `இசை`, `தொழில்`, poetic-form wording, and learned-authority language remain source-contextual. No new controlled concept was required.

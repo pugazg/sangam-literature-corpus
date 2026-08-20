@@ -24,7 +24,7 @@ Puṟanāṉūṟu `001.json` through `400.json` form the complete gap-free prod
 
 Validated completion: **400 reviewed / 0 remaining / 7,169 production observations / 29 dimensions**.
 
-## Tolkāppiyam R1.5A production — உயிர்மயங்கியல் active
+## Tolkāppiyam R1.5A production — எழுத்ததிகாரம் complete
 
 Tolkāppiyam is a separate grammatical/poetics evidence stream over the frozen hierarchy:
 
@@ -34,13 +34,13 @@ Canonical production identity is source sequence: `tolkappiyam-0001` … `tolkap
 
 Current materialized gap-free boundary:
 
-- `0001.json` through `0406.json`;
-- reviewed: **406 / 1,602**;
-- remaining: **1,196**;
-- next record: **tolkappiyam-0407**;
-- next இயல்: **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்**;
-- formal grammatical/poetics concept evidence: **511**;
-- incidental examples: **67**;
+- `0001.json` through `0483.json`;
+- reviewed: **483 / 1,602**;
+- remaining: **1,119**;
+- next record: **tolkappiyam-0484**;
+- next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**;
+- formal grammatical/poetics concept evidence: **662**;
+- incidental examples: **83**;
 - exact dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -53,7 +53,8 @@ Completed எழுத்ததிகாரம் இயல்:
 5. `0144–0173` — தொகைமரபு;
 6. `0174–0203` — உருபியல்;
 7. `0204–0296` — உயிர்மயங்கியல்;
-8. `0297–0406` — புள்ளிமயங்கியல்.
+8. `0297–0406` — புள்ளிமயங்கியல்;
+9. `0407–0483` — குற்றியலுகரப்புணரியல்.
 
 உயிர்மயங்கியல் `0204–0296` is complete across publication boundaries `0204–0228`, `0229–0253`, `0254–0278`, and `0279–0296`.
 
@@ -181,11 +182,13 @@ The user has asked to work toward both உயிர்மயங்கியல�
 
 A Tolkāppiyam rule never automatically classifies Puṟanāṉūṟu or another Sangam poem.
 
+## குற்றியலுகரப்புணரியல் — complete
+
+Four boundaries—`0407–0431`, `0432–0456`, `0457–0481`, and `0482–0483`—add **151 formal observations** and **16 incidental examples**. The resulting gap-free prefix closes எழுத்ததிகாரம் without crossing into சொல்லதிகாரம்.
+
 ## Next permitted activity
 
-Proceed with **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Preserve exact source spans and terminology, materialize deterministically, and require full exact-head PR CI at the publication boundary.
-
-Stop before `tolkappiyam-0484`. Do not start R2.
+Proceed with **Tolkāppiyam சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Stop before `tolkappiyam-0546`. Do not start R2.
 
 ## Current documentation authority
 

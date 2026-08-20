@@ -2,9 +2,7 @@
 
 Continue directly in `pugazg/sangam-literature-corpus`.
 
-Active branch: `research/classical-tamil-concept-matrix-r1.5a`. Active PR: #4, draft/unmerged.
-
-Treat live GitHub state as authoritative.
+Active branch: `research/classical-tamil-concept-matrix-r1.5a`. Active PR: #4, draft/unmerged. Treat live GitHub state as authoritative.
 
 ## Phase boundary
 
@@ -36,37 +34,28 @@ Before changing the repository, read completely:
 - Corpus 1.1.0 remains frozen: 28 works / 7,234 canonical records / 5,632 poems / 1,602 Tolkāppiyam நூற்பா.
 - Puṟanāṉūṟu production is complete: 400/400, 7,169 observations.
 - Puṟanāṉūṟu cadence remains benchmark `001–002`, stabilization `003–010`, and regular 25-record batches beginning `011–035`, with final `386–400`.
-- Tolkāppiyam production is gap-free through `0001–0406`.
-- Reviewed: **406 / 1,602**.
-- Remaining: **1,196**.
-- Next: **tolkappiyam-0407**.
-- Formal grammatical/poetics observations: **511**.
-- Incidental examples: **67**.
+- Tolkāppiyam production is gap-free through `0001–0483`.
+- Reviewed: **483 / 1,602**.
+- Remaining: **1,119**.
+- Next: **tolkappiyam-0484**.
+- Formal grammatical/poetics observations: **662**.
+- Incidental examples: **83**.
 - Exact dimensions: **29**.
-- Completed எழுத்ததிகாரம் இயல்: நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு, உருபியல், உயிர்மயங்கியல், புள்ளிமயங்கியல்.
-- Next இயல்: **குற்றியலுகரப்புணரியல் `0407–0483` / 77 records**.
+- All nine எழுத்ததிகாரம் இயல் are complete.
+- Next இயல்: **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545` / 62 records**.
 
-## Completed recent இயல்
+## Completed குற்றியலுகரப்புணரியல்
 
-### உயிர்மயங்கியல் `0204–0296`
+குற்றியலுகரப்புணரியல் `0407–0483` is complete across:
 
-Four publication boundaries are complete: `0204–0228`, `0229–0253`, `0254–0278`, `0279–0296`.
+- `0407–0431`: 40 formal + 7 incidental;
+- `0432–0456`: 51 formal + 4 incidental;
+- `0457–0481`: 54 formal + 4 incidental;
+- `0482–0483`: 6 formal + 1 incidental.
 
-Total contribution: **116 formal observations + 23 incidental examples**.
+Total contribution: **151 formal observations + 16 incidental examples**. No new controlled concept was required.
 
-### புள்ளிமயங்கியல் `0297–0406`
-
-Five publication boundaries are complete:
-
-- `0297–0321`: 32 formal + 4 incidental;
-- `0322–0346`: 31 formal + 6 incidental;
-- `0347–0371`: 29 formal + 3 incidental;
-- `0372–0396`: 32 formal + 6 incidental;
-- `0397–0406`: 12 formal + 2 incidental.
-
-Total contribution: **136 formal observations + 21 incidental examples**.
-
-No new controlled concept was required.
+Formal boundary transformations, morphology, word structure, number/measure expressions, and narrow poetic/tradition contexts remain grammatical. `மரப்பெயர்`, `வண்டு`, `பெண்டு`, directional forms, learned-authority formulas, measure vocabulary, `உயர்திணை`, `அஃறிணை`, `இசை`, and `தொழில்` remain contextual and are not promoted into unsupported historical claims.
 
 ## Evidence contract
 
@@ -74,35 +63,22 @@ Review every நூற்பா sequentially/source-first across all 29 dimensio
 
 Only formal evidence enters `research/observations/tolkappiyam/r15-production.ndjson` as `GRAMMATICAL_CONCEPT_EVIDENCE` with `tolkappiyam_mapping`.
 
-Incidental lexical examples never become automatic historical, ecological, social, material, identity, medical, economic, or lived-life claims. Exact source Tamil wins. The old manifest/crosswalk is control evidence only and never a classifier. Tolkāppiyam evidence never auto-classifies another work.
+Incidental examples never become automatic historical, ecological, social, material, identity, medical, economic, or lived-life claims. Exact source Tamil wins. The old manifest/crosswalk is control evidence only and never a classifier. Tolkāppiyam evidence never auto-classifies another work.
 
 ## Iteration rule
 
-The user requires **one complete இயல் per iteration**. An iteration may contain multiple contiguous publication checkpoints of at most 25 records, but must not cross into the next இயல்.
+The user requires **one complete இயல் per iteration**. An iteration may contain multiple contiguous publication checkpoints of at most 25 records, but must not cross into the next இயல். Each checkpoint must be materialized and green before the next begins.
 
-Each checkpoint must be materialized and green before the next checkpoint begins.
+## Required next iteration — கிளவியாக்கம்
 
-## Required next iteration — குற்றியலுகரப்புணரியல்
-
-Complete **எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483` (77 records)**.
+Complete **சொல்லதிகாரம் / கிளவியாக்கம் `0484–0545` (62 records)**.
 
 Use publication boundaries:
 
-- `0407–0431`;
-- `0432–0456`;
-- `0457–0481`;
-- `0482–0483`.
+- `0484–0508`;
+- `0509–0533`;
+- `0534–0545`.
 
-For every record:
+For every record, read the complete frozen நூற்பா and current இயல் context, consider all 29 dimensions, settle formal/incidental/empty decisions before moving on, preserve exact Tamil and source spans, consult controls only after fresh decisions, materialize only the contiguous boundary, and require full exact-head CI green before advancing.
 
-1. read the complete frozen நூற்பா and current இயல் context;
-2. consider all 29 dimensions;
-3. fix formal evidence, incidental examples and reviewed-empty decisions before moving on;
-4. preserve exact Tamil terms and source spans;
-5. compare with old controls only after fresh semantic decisions;
-6. materialize only the contiguous boundary;
-7. validate exact counts;
-8. update current documentation and PR #4;
-9. require full exact-head CI green before the next boundary.
-
-Stop after `tolkappiyam-0483`; next must be `tolkappiyam-0484`. Keep PR #4 draft/unmerged. Do not start R2.
+Stop after `tolkappiyam-0545`; next must be `tolkappiyam-0546`. Keep PR #4 draft/unmerged. Do not start R2.
