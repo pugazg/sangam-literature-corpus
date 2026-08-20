@@ -10,7 +10,7 @@
 - active PR: #4, draft/unmerged
 - current phase: R1.5A production review
 - Puṟanāṉūṟu production: complete
-- Tolkāppiyam production: active through எழுத்ததிகாரம் / தொகைமரபு
+- Tolkāppiyam production: active in எழுத்ததிகாரம் / உருபியல்
 - R2: blocked / not started
 
 R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
@@ -31,15 +31,15 @@ The old Tolkāppiyam manifest/crosswalk remains representative control evidence 
 
 ## Current Tolkāppiyam boundary
 
-`0001–0173` is the validated gap-free production prefix:
+`0001–0198` is the current materialized gap-free production prefix:
 
-- reviewed: **173 / 1,602**;
-- remaining: **1,429**;
-- next: **tolkappiyam-0174**;
-- formal grammatical/poetics concept evidence: **218**;
-- incidental examples: **20**;
+- reviewed: **198 / 1,602**;
+- remaining: **1,404**;
+- next: **tolkappiyam-0199**;
+- formal grammatical/poetics concept evidence: **249**;
+- incidental examples: **23**;
 - dimensions per record: **29**;
-- regression suite: **228 passed**.
+- regression suite: **228 passed** at materialization.
 
 Completed இயல்:
 
@@ -49,33 +49,29 @@ Completed இயல்:
 - `0104–0143` — எழுத்ததிகாரம் / புணரியல்;
 - `0144–0173` — எழுத்ததிகாரம் / தொகைமரபு.
 
-The latest activity reviewed **91 நூற்பா sequentially/source-first** across the three requested இயல். Publication remained as three separate contiguous specs, one per இயல்: `0083-0103.json`, `0104-0143.json`, and `0144-0173.json`.
+Current partial இயல்:
 
-## Durable 0083–0173 boundaries
+- `0174–0198` — எழுத்ததிகாரம் / உருபியல், first 25 of 30 records;
+- remaining உருபியல் publication boundary: `0199–0203`.
 
-### பிறப்பியல் 0083–0103
+The current review spec is `research/production/tolkappiyam/review-specs/0174-0198.json`.
 
-- Tolkāppiyam formally systematizes articulatory anatomy and breath pathways (`மிடறு`, `நெஞ்சு`, `பல்`, `இதழ்`, `நா`, `மூக்கு`, `அண்ணம்`, etc.) under `body.articulation.anatomy`. This is grammatical articulatory evidence, not medicine or diagnosis.
-- 0102 preserves exact `அளபின் கோடல் அந்தணர் மறைத்தே`: `அந்தணர்` is an incidental learned/authority role and the phrase is a formal unresolved tradition reference. No later caste, community, sectarian or doctrinal identity is substituted.
+## Durable boundaries through 0198
 
-### புணரியல் 0104–0143
+Earlier நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல் and தொகைமரபு guardrails remain binding, including contextual treatment of grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்`, articulation anatomy, measure vocabulary, and unresolved learned-authority formulas.
 
-- Formal grammar now distinguishes `knowledge.grammar.morphology` from `knowledge.grammar.morphophonology`.
-- `வேற்றுமை உருபு`, `சாரியை`, grammatical பெயர்/தொழில் and boundary alternations remain grammatical system evidence.
-- `உயர்திணை` / `அஃறிணை` are grammatical noun classes, not historical social hierarchy or gender claims.
-- 0125 `நாள்` is only incidental time-language inside a form rule; 0131 `புலவர்` / `என்மனார் புலவர்` remain incidental learned-role/attribution evidence.
-- `உடம்படுமெய்`, grammatical `தொழில்`, and grammatical `பொருள்` are not promoted into body, occupation, economy or lived-world evidence.
+### உருபியல் 0174–0198
 
-### தொகைமரபு 0144–0173
-
-- Formal quantity grammar uses `knowledge.grammar.quantification` for `அளவு`, `நிறை`, `எண்` and related expressions while retaining morphophonology/morphology separately.
-- Measure vocabulary such as `அரை`, `கலம்`, `பனை`, `கா`, `அளவு`, `நிறை` is preserved as incidental economy/measurement language only; it does not establish a historical market or standardized metrology.
-- In 0170, `பனை` names a measure expression in the rule and is not promoted to flora.
-- Learned-authority formulas such as `புலவர்` / `என்மனார் புலவர்` remain incidental rather than resolved historical identities or texts.
+- `சாரியை`, `வேற்றுமை உருபு`, inflectional/end-form selection and noun/pronoun classes are formal `knowledge.grammar.morphology` where the rule classifies or constrains grammatical form.
+- Explicit joining, loss, shortening, consonant/vowel change and comparable boundary behavior are formal `knowledge.grammar.morphophonology`; some நூற்பா legitimately support both morphology and morphophonology.
+- 0179 `புலவர்` / `என்மனார் புலவர்` are incidental learned-role/attribution evidence only. They do not resolve a historical group, author or external text.
+- 0182 `மரப்பெயர்` is a grammatical lexical class referring to tree-name words. It is retained as incidental flora-language only and does not establish a specific plant occurrence or historical ecology.
+- 0191 `உயர்திணை` is a grammatical noun-class condition, not historical social hierarchy, caste/community, status, gender or kinship evidence.
+- 0198 `இயற்கை` / `செயற்கை` describe grammatical/formal behavior in context. They are not promoted to environmental evidence or a separate historical technology claim.
 
 ## Current stream-specific concepts
 
-The Tolkāppiyam extension registry now includes:
+The Tolkāppiyam extension registry includes:
 
 - `knowledge.grammar.phonology`;
 - `knowledge.grammar.word_structure`;
@@ -87,13 +83,13 @@ The Tolkāppiyam extension registry now includes:
 - `textual.tradition.reference`;
 - `textual.poetic_form.formal_context`.
 
+No new controlled concept was required for `0174–0198`.
+
 ## Publication cadence
 
 Semantic review is always one நூற்பா at a time, source-first, and a production spec never crosses an இயல் boundary.
 
-Normal publication preference remains contiguous chunks of at most 25 records. The earlier full 49-record மொழி மரபு spec was an explicit user-authorized exception. In the current activity, the user authorized completing three இயல் together, but each இயல் remains its own production spec.
-
-Next இயல் is **உருபியல் 0174–0203 (30 records)**. Under normal cadence it should be split inside the இயல் into `0174–0198` and `0199–0203` unless the user explicitly requests another full-இயல் >25 publication exception.
+Normal publication preference remains contiguous chunks of at most 25 records. A >25 full-இயல் publication requires explicit user direction. உருபியல் therefore uses normal boundaries `0174–0198` and `0199–0203`.
 
 ## Source terminology boundary
 
@@ -124,6 +120,6 @@ Historical handovers/audits remain truthful records of their own boundaries.
 
 ## Next activity
 
-Proceed with **Tolkāppiyam உருபியல் beginning at 0174**. Keep semantic review sequential/source-first across all 29 dimensions, consult the old control artifacts only after fresh decisions, preserve exact source terminology, and finish each publication boundary with deterministic materialization and full exact-head PR CI.
+Proceed with **Tolkāppiyam எழுத்ததிகாரம் / உருபியல் `0199–0203`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
 
 **Do not start R2.**
