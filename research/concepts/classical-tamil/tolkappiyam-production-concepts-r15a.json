@@ -85,6 +85,33 @@
       "parent_concept_id": null,
       "status": "foundation",
       "description": "Formal Tolkāppiyam treatment of அளவு, நிறை, எண் and related measure/quantity expressions as grammatical classes or form-governing categories. It does not by itself reconstruct a historical economic system, market, or standardized metrology."
+    },
+    {
+      "concept_id": "knowledge.grammar.syntax",
+      "dimension": "knowledge_technology",
+      "label_ta": "தொடரியல் / வேற்றுமைப் பொருள் இலக்கண அறிவு",
+      "label_en": "grammatical syntax and case-relation knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules governing syntactic combination, agreement, case relations, ordering, completion, and dependencies among பெயர், வினை and related grammatical classes. This is grammatical-system evidence, not a historical social relationship claim."
+    },
+    {
+      "concept_id": "knowledge.grammar.lexical_semantics",
+      "dimension": "knowledge_technology",
+      "label_ta": "உரிச்சொல் / சொற்பொருள் இலக்கண அறிவு",
+      "label_en": "grammatical lexical-semantics knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that state, distinguish, or constrain lexical meanings and polysemy within the grammatical analysis. Mentioned meanings remain source-contextual and do not automatically become historical lived-life claims."
+    },
+    {
+      "concept_id": "knowledge.grammar.discourse_pragmatics",
+      "dimension": "knowledge_technology",
+      "label_ta": "வழக்கு / கூற்று / குறிப்பு இலக்கண அறிவு",
+      "label_en": "grammatical discourse and pragmatic knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules governing question and answer, speaker reference, usage, register, deixis, implication, and discourse-conditioned forms. This is grammatical evidence, not a reconstruction of a historical conversation or hierarchy."
     }
   ]
 }
