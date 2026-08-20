@@ -183,3 +183,10 @@ Canonical எழுத்ததிகாரம் order after உயிர்ம
 Proceed with **குற்றியலுகரப்புணரியல் `0407–0483`**, keeping review sequential/source-first across all 29 dimensions, old crosswalk control-only, deterministic materialization and full exact-head PR validation.
 
 Longer-range path: finish உயிர்மயங்கியல், then complete புள்ளிமயங்கியல் in canonical order, then proceed through குற்றியலுகரப்புணரியல்.
+
+
+### குற்றியலுகரப்புணரியல் 0407–0431
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0407-0431.json`.
+
+This first boundary continues the source-first 29-dimension review through `tolkappiyam-0431`. Formal number, measure, lexical-class, and boundary-transformation evidence remains grammatical; lexical examples and attribution formulas remain incidental where appropriate and are not promoted into historical claims.
