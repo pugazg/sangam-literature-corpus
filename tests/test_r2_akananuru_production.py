@@ -8,6 +8,6 @@ def test_akananuru_r2_prefix():
     assert r["status"]=="pass",r["errors"]
     assert r["dimensions"]==29
     if r["records_reviewed"]:
-        assert r["records_reviewed"]==2
-        assert r["next_record"]=="akananuru-003"
-        assert r["observations_checked"]==32
+        assert r["records_reviewed"]==10
+        assert r["next_record"]=="akananuru-011"
+        assert r["observations_checked"]==166
