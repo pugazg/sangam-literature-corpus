@@ -4,7 +4,7 @@
 
 This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
 
-Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0321` is the current materialized gap-free prefix. R2 remains blocked.
+Puṟanāṉūṟu `001–400` is complete and validated. Tolkāppiyam `0001–0346` is the current materialized gap-free prefix. R2 remains blocked.
 
 Canonical source hierarchy:
 
@@ -14,13 +14,13 @@ Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiya
 
 ## Current production boundary
 
-- `0001.json` through `0321.json`
-- reviewed: **321 / 1,602**
-- remaining: **1,281**
-- next record: **tolkappiyam-0322**
+- `0001.json` through `0346.json`
+- reviewed: **346 / 1,602**
+- remaining: **1,256**
+- next record: **tolkappiyam-0347**
 - next இயல்: **எழுத்ததிகாரம் / புள்ளிமயங்கியல்**
-- formal grammatical/poetics concept evidence: **407**
-- incidental examples: **50**
+- formal grammatical/poetics concept evidence: **438**
+- incidental examples: **56**
 - exact dimensions per record: **29**
 - regression suite: **228 passed** at materialization
 
@@ -142,6 +142,10 @@ This final boundary adds **22 formal grammatical/poetics observations** and **10
 ### புள்ளிமயங்கியல் 0297–0321
 
 Reviewed spec: `0297-0321.json`. This first boundary adds **32 formal observations** and **4 incidental examples**. Source-first guards preserve grammatical gender/classes, lexical `அகம்` / `இல்லம்` / `இலம்`, தொழிற்பெயர்/கிளைப்பெயர், quantification, tree-name examples, and learned-authority language without historical promotion.
+
+### புள்ளிமயங்கியல் 0322–0346
+
+Reviewed spec: `0322-0346.json`. This boundary adds **31 formal observations** and **6 incidental examples**. Guardrails preserve உயர்திணை, நாட்பெயர், grammatical மெய்/இயற்கை, grammatical name classes, ambiguous `குயின்`, tree names, `மீன்`, `தேன்`, `இறாஅல்`, and learned-authority formulas without historical promotion.
 
 ## Publication cadence
 
