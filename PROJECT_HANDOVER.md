@@ -51,7 +51,9 @@ Completed எழுத்ததிகாரம் இயல்:
 3. `0083–0103` — பிறப்பியல்;
 4. `0104–0143` — புணரியல்;
 5. `0144–0173` — தொகைமரபு;
-6. `0174–0203` — உருபியல்.
+6. `0174–0203` — உருபியல்;
+7. `0204–0296` — உயிர்மயங்கியல்;
+8. `0297–0406` — புள்ளிமயங்கியல்.
 
 உயிர்மயங்கியல் `0204–0296` is complete across publication boundaries `0204–0228`, `0229–0253`, `0254–0278`, and `0279–0296`.
 
@@ -183,7 +185,7 @@ A Tolkāppiyam rule never automatically classifies Puṟanāṉūṟu or another
 
 Proceed with **Tolkāppiyam எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல் `0407–0483`**. Review sequentially/source-first across all 29 dimensions; only after fresh decisions may the old manifest/crosswalk be used as control. Preserve exact source spans and terminology, materialize deterministically, and require full exact-head PR CI at the publication boundary.
 
-Do not begin `0279–0296` until `0254–0278` is green. Do not start R2.
+Stop before `tolkappiyam-0484`. Do not start R2.
 
 ## Current documentation authority
 
