@@ -1,0 +1,455 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "adapter_version": "generic-poem-v1",
+  "work_id": "akananuru",
+  "work_record_count": 400,
+  "navigation_fields": [
+    "poem_number_as_printed",
+    "section",
+    "major_division_as_printed"
+  ],
+  "range": [
+    1,
+    2
+  ],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions. Null tiṇai, poet and speaker metadata remain reviewed-empty; printed macro-division and major-division headings remain navigation only.",
+  "records": {
+    "001": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "line",
+              9
+            ],
+            [
+              "line",
+              12
+            ],
+            [
+              "range",
+              15,
+              19
+            ]
+          ],
+          "note": "Exact land, spring, arid-route, sea and forest wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              10
+            ],
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact heat/sun and strong-wind wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              13
+            ],
+            [
+              "range",
+              15,
+              16
+            ]
+          ],
+          "note": "Exact garland, bamboo-like, tree, paddy, grass and முருங்கை flower wording retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              4
+            ]
+          ],
+          "note": "Exact beetle, horse and elephant wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "line",
+              2
+            ],
+            [
+              "line",
+              3
+            ],
+            [
+              "line",
+              7
+            ]
+          ],
+          "note": "Exact மழவர், நெடுவேள் ஆவி and தோழி role wording retained without historical identity reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "range",
+              6,
+              8
+            ],
+            [
+              "line",
+              19
+            ]
+          ],
+          "note": "Exact separation-promise, friend address and departure wording retained as poem-level relationship evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "range",
+              6,
+              8
+            ]
+          ],
+          "note": "Exact non-separation promise, forgetting and bodily loosening language retained without psychological modernization."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact நெல் wording retained as subsistence evidence without quantified inference."
+        },
+        "clothing_ornaments_adornment": {
+          "e": [
+            [
+              "line",
+              1
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact கண்ணி, ஒண்கழல் and பொலங்கலம் adornment wording retained without material reconstruction."
+        },
+        "weapons_warfare": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact நற்போர் wording retained without reconstructing a historical battle."
+        },
+        "mobility_transport": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "note": "Exact driven-horse wording retained without route reconstruction."
+        },
+        "economy": {
+          "e": [
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact பொலங்கலம் / வெறுக்கை wealth wording retained without quantified economic inference."
+        },
+        "polity_political_life": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "நெடுவேள் ஆவி remains an unresolved source political/person form; no external identity is assigned."
+        },
+        "communities_social_groups": {
+          "e": [
+            [
+              "line",
+              2
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "மழவர் is retained as an unresolved source group expression without ethnographic expansion."
+        },
+        "religion_ritual": {
+          "e": [
+            [
+              "line",
+              3
+            ]
+          ],
+          "note": "Exact முருகன் sacred/deity wording retained without doctrinal expansion."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "range",
+              6,
+              7
+            ]
+          ],
+          "note": "The stated non-separation promise and question of forgetting are retained as source-level evaluative language."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              8
+            ]
+          ],
+          "note": "Exact பணைத்தோள் bodily wording retained without medical modernization."
+        },
+        "named_entities": {
+          "e": [
+            [
+              "range",
+              2,
+              4
+            ]
+          ],
+          "confidence": "low",
+          "historical_identity_status": "unresolved",
+          "note": "மழவர், முருகன், நெடுவேள் ஆவி and பொதினி remain unresolved source forms; no external identity is assigned."
+        }
+      }
+    },
+    "002": {
+      "metadata": {
+        "literary_domain": {
+          "concept_id": "literary.domain.akam",
+          "field": "work",
+          "basis": "work_level_classification",
+          "note": "Akanāṉūṟu is treated as Akam work context; this is not inferred from the poem body."
+        },
+        "tinai": {
+          "concept_id": null,
+          "field": "thinai",
+          "basis": "source_metadata_explicit",
+          "note": "The canonical record has no printed tiṇai value; printed macro-division and major-division headings are not classifiers."
+        },
+        "speaker": {
+          "field": "speaker",
+          "basis": "source_metadata_explicit",
+          "roles": [],
+          "note": "The canonical record has no printed speaker value; none is reconstructed."
+        },
+        "poet": {
+          "field": "poet",
+          "dimension": "named_entities",
+          "basis": "source_metadata_explicit",
+          "historical_identity_status": "unresolved",
+          "note": "The canonical record has no printed poet attribution."
+        }
+      },
+      "dimensions": {
+        "landscape_environment": {
+          "e": [
+            [
+              "range",
+              3,
+              4
+            ],
+            [
+              "line",
+              8
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact slope, rock, spring, mountain and வேங்கை-bearing terrain wording retained without reconstructing a conventional tiṇai."
+        },
+        "season_weather_time": {
+          "e": [
+            [
+              "line",
+              15
+            ],
+            [
+              "line",
+              17
+            ]
+          ],
+          "note": "Exact night and moon wording retained without calendrical expansion."
+        },
+        "flora": {
+          "e": [
+            [
+              "range",
+              1,
+              3
+            ],
+            [
+              "line",
+              6
+            ],
+            [
+              "line",
+              11
+            ],
+            [
+              "line",
+              16
+            ]
+          ],
+          "note": "Exact plant wording for வாழை, பலவு, சாந்தம், வேய் and வேங்கை retained without modern botanical identification."
+        },
+        "fauna": {
+          "e": [
+            [
+              "line",
+              5
+            ],
+            [
+              "line",
+              9
+            ]
+          ],
+          "note": "Exact கடுவன் and generic விலங்கு wording retained without modern zoological identification."
+        },
+        "people_social_roles": {
+          "e": [
+            [
+              "range",
+              13,
+              14
+            ]
+          ],
+          "note": "Exact தந்தை and காவலர் role wording retained without institutional reconstruction."
+        },
+        "relationships": {
+          "e": [
+            [
+              "range",
+              10,
+              15
+            ]
+          ],
+          "note": "Exact interpersonal, guarded meeting and father-linked wording retained as poem-level relationship evidence."
+        },
+        "emotion_lived_experience": {
+          "e": [
+            [
+              "range",
+              7,
+              12
+            ]
+          ],
+          "note": "Exact இன்பம் and நெஞ்சம் wording retained without psychological modernization."
+        },
+        "occupations_production": {
+          "e": [
+            [
+              "line",
+              14
+            ]
+          ],
+          "note": "Exact காவலர் guarding-role wording retained without institutional reconstruction."
+        },
+        "food_subsistence": {
+          "e": [
+            [
+              "range",
+              1,
+              5
+            ]
+          ],
+          "note": "Exact ripe fruit, eating and தேறல் consumption wording retained without dietary generalization."
+        },
+        "family_gender_kinship": {
+          "e": [
+            [
+              "line",
+              13
+            ]
+          ],
+          "note": "Exact தந்தை kinship wording retained without social generalization."
+        },
+        "values_ethical_concepts": {
+          "e": [
+            [
+              "range",
+              7,
+              10
+            ]
+          ],
+          "note": "Exact easy, intended and difficult pleasure language retained as source evaluation."
+        },
+        "body_health": {
+          "e": [
+            [
+              "line",
+              7
+            ],
+            [
+              "range",
+              11,
+              12
+            ]
+          ],
+          "note": "Exact eye/sleep, shoulder and heart/body wording retained without medical modernization."
+        }
+      }
+    }
+  }
+}
