@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.4.0",
+  "phase": "R2",
+  "work_id": "kuruntokai",
+  "range": [1, 2],
+  "review_method": "Sequential source-first semantic review across the exact 29 dimensions before materialization.",
+  "records": {
+    "001": {
+      "metadata": {
+        "literary_domain": {"concept_id":"literary.domain.akam","field":"work","basis":"work_level_classification","note":"Kuṟuntokai is treated as Akam work context; this is not inferred from the body."},
+        "tinai": {"concept_id":"literary.tinai.kurinji","field":"thinai_as_printed","basis":"source_metadata_explicit"},
+        "speaker": {"field":"speaker_as_printed","roles":["people_social_roles","relationships"],"note":"Exact printed தோழி கூற்று retained; no reconstructed dramatic scene."},
+        "poet": {"field":"poet_as_printed","dimension":"named_entities","historical_identity_status":"unresolved"}
+      },
+      "dimensions": {
+        "landscape_environment": {"e":[["line",3]],"note":"Exact குன்றம் hill-language; no conventional Kuṟiñci ecology imported."},
+        "flora": {"e":[["line",4]],"note":"Exact குருதிப் பூ / காந்தள் lexical evidence retained without botanical modernization."},
+        "fauna": {"e":[["line",2]],"note":"Exact யானை occurrence in the poem."},
+        "clothing_ornaments_adornment": {"e":[["line",3]],"note":"Exact கழல்தொடி adornment language."},
+        "weapons_warfare": {"e":[["range",1,2]],"note":"Killing/battle, bow/arrow and elephant imagery are source-explicit; no external event identification."},
+        "religion_ritual": {"e":[["line",3]],"confidence":"low","note":"சேஎய் is retained as deity-like source wording but is not externally resolved or sectarianly classified."},
+        "named_entities": {"e":[["line",3]],"confidence":"low","historical_identity_status":"unresolved","note":"சேஎய் remains an unresolved source form; poet attribution is separately metadata-provenanced."}
+      }
+    },
+    "002": {
+      "metadata": {
+        "literary_domain": {"concept_id":"literary.domain.akam","field":"work","basis":"work_level_classification","note":"Kuṟuntokai is treated as Akam work context; this is not inferred from the body."},
+        "tinai": {"concept_id":"literary.tinai.kurinji","field":"thinai_as_printed","basis":"source_metadata_explicit"},
+        "speaker": {"field":"speaker_as_printed","roles":["people_social_roles"],"note":"Exact printed தலைவன் கூற்று retained; no reconstructed dramatic scene."},
+        "poet": {"field":"poet_as_printed","dimension":"named_entities","historical_identity_status":"unresolved"}
+      },
+      "dimensions": {
+        "flora": {"e":[["range",4,5]],"note":"Flower/fragrance comparison retained without identifying a modern botanical species."},
+        "fauna": {"e":[["line",1],["line",3]],"note":"Exact தும்பி and மயில் lexical evidence."},
+        "people_social_roles": {"e":[["range",3,4]],"note":"Exact அரிவை/woman language; source role wording is not converted into later identity categories."},
+        "relationships": {"e":[["line",3]],"note":"Exact நட்பு relationship language."},
+        "emotion_lived_experience": {"e":[["line",2]],"note":"Exact காமம் emotional/lived-experience language."},
+        "body_health": {"e":[["range",3,4]],"note":"Exact மயிலியல், எயிறு and கூந்தல் bodily-description language; not a medical claim."}
+      }
+    }
+  },
+  "controls": {
+    "dimensions_considered_per_record": 29,
+    "tolkappiyam_auto_classification_used": false,
+    "external_historical_identification_used": false,
+    "frozen_source_modified": false
+  }
+}
