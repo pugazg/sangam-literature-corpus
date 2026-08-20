@@ -6,7 +6,7 @@ Active repository: `pugazg/sangam-literature-corpus`.
 
 Treat live GitHub state as authoritative over chat summaries, stale SHAs, deleted branches, local paths, old repository names, and historical prompts.
 
-Current phase: **R1.5A** on `research/classical-tamil-concept-matrix-r1.5a`.
+Current phase: **R2** on `research/classical-tamil-concept-matrix-r2`. R2 was explicitly authorized after R1.5A merged into `main` at `1e6684b09a5e41fc675ea3e07ba8b6a646d35830`.
 
 R1.5 was merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 is historical/merged. R2 is blocked and must not start without later explicit user authorization.
 
@@ -175,8 +175,9 @@ The repository remains private. Do not change visibility without separate explic
 
 ## 17. Roadmap
 
-- R1.5A — current: full production review using the merged R1.5 29-dimension foundation.
-- R2 — blocked pending explicit user authorization after R1.5A completion/readiness.
+- R1.5A — complete and merged.
+- R2 — active: exact 29-dimension production across the frozen nine-work Core Sangam Corpus; Kuṟuntokai `001–002` is the first new-work benchmark.
+- R3 — blocked pending completion and explicit transition authorization.
 - later phases remain evidence/provenance gated.
 
 Never skip source fidelity, review, provenance, and non-drift gates between phases.
