@@ -31,14 +31,14 @@ The old Tolkāppiyam manifest/crosswalk remains representative control evidence 
 
 ## Current Tolkāppiyam boundary
 
-`0001–0253` is the current materialized gap-free production prefix:
+`0001–0278` is the current materialized gap-free production prefix:
 
-- reviewed: **253 / 1,602**;
-- remaining: **1,349**;
-- next: **tolkappiyam-0254**;
+- reviewed: **278 / 1,602**;
+- remaining: **1,324**;
+- next: **tolkappiyam-0279**;
 - current இயல்: **எழுத்ததிகாரம் / உயிர்மயங்கியல்**;
-- formal grammatical/poetics concept evidence: **322**;
-- incidental examples: **33**;
+- formal grammatical/poetics concept evidence: **353**;
+- incidental examples: **36**;
 - dimensions per record: **29**;
 - regression suite: **228 passed** at materialization.
 
@@ -54,8 +54,8 @@ Completed இயல்:
 Current partial இயல்:
 
 - **உயிர்மயங்கியல் = `0204–0296` (93 records)**;
-- publication boundaries `0204–0228` and `0229–0253` are complete;
-- remaining normal boundaries: `0254–0278`, `0279–0296`.
+- publication boundaries `0204–0228`, `0229–0253`, and `0254–0278` are complete;
+- remaining boundary: `0279–0296`.
 
 Current reviewed specs:
 
@@ -100,6 +100,12 @@ The second 25 உயிர்மயங்கியல் நூற்பா were
 
 Across உயிர்மயங்கியல் `0204–0253`, the two completed publication boundaries add **63 formal observations** and **10 incidental examples**.
 
+### உயிர்மயங்கியல் 0254–0278
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0254-0278.json`.
+
+This boundary adds **31 formal grammatical/poetics observations** and **3 incidental examples**. `காலை`, `இடன்`, grammatical `மெய்`, `இயற்கை`, and `எண்` remain contextual; `எரு` / `செரு` are not promoted into historical landscape, agriculture, or warfare claims; `ஒடுமரம்` / `உதி மரம்` and `பூ` remain incidental flora-language; `ஆடூஉ` / `மகடூஉ` remain grammatical பெயர் forms rather than historical kinship/gender claims; `என்மனார் புலவர்` remains an incidental learned-authority formula; `செய்யுள் மருங்கின்` supports only narrow formal poetic-text context. No new controlled concept was required.
+
 ## Current stream-specific concepts
 
 The Tolkāppiyam extension registry includes:
@@ -136,7 +142,7 @@ Historical handovers/audits remain truthful records of their own boundaries.
 
 ## Next activity
 
-Proceed with **Tolkāppiyam எழுத்ததிகாரம் / உயிர்மயங்கியல் `0254–0278`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
+Proceed with **Tolkāppiyam எழுத்ததிகாரம் / உயிர்மயங்கியல் `0279–0296`**, sequentially/source-first across all 29 dimensions. Only after fresh decisions may the old control artifacts be consulted. Preserve exact source terminology, materialize the contiguous gap-free boundary, validate exact totals, and finish on a clean exact-head PR checkpoint.
 
 Longer-range user-directed path remains: complete உயிர்மயங்கியல், then canonical புள்ளிமயங்கியல், then குற்றியலுகரப்புணரியல்.
 
