@@ -190,3 +190,10 @@ Longer-range path: finish உயிர்மயங்கியல், then compl
 Reviewed spec: `research/production/tolkappiyam/review-specs/0407-0431.json`.
 
 This first boundary continues the source-first 29-dimension review through `tolkappiyam-0431`. Formal number, measure, lexical-class, and boundary-transformation evidence remains grammatical; lexical examples and attribution formulas remain incidental where appropriate and are not promoted into historical claims.
+
+
+### குற்றியலுகரப்புணரியல் 0432–0456
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0432-0456.json`.
+
+This second boundary extends the gap-free prefix through `tolkappiyam-0456`. Directional forms, attribution formulas, number expressions, and measure vocabulary retain their grammatical roles and are not converted into historical geography, identity, economy, or material-culture claims.
