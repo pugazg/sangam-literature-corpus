@@ -12,11 +12,15 @@ Current preservation release: **Classical Tamil Corpus 1.1.0**.
 - Tolkāppiyam நூற்பா: 1,602
 - release identity: `classical-tamil-corpus-v1.1.0`
 
-Current research work is **R1.5 — Classical Tamil Concept Matrix Foundation** on branch `research/classical-tamil-concept-matrix-r1.5`, proposed to `main` through PR #3.
+R1.5 — the exact 29-dimension Classical Tamil concept-matrix foundation — was explicitly authorized for merge and merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`.
 
-**PR #3 must remain open, draft, and unmerged until the user explicitly authorizes a merge. R2 is blocked; do not start R2 before that authorization and a fresh inspection of the merged `main`.**
+**PR #3 is historical/merged.**
 
-The live PR and branch state are authoritative for current workflow/check status. Historical prompts, release snapshots, and older workflow logs remain provenance rather than current execution instructions.
+Current research work is **R1.5A — batched 29-dimension production review** on branch `research/classical-tamil-concept-matrix-r1.5a`, proposed to `main` through draft PR #4.
+
+R1.5A keeps concept/observation schema `0.3.0`; it changes production-review cadence, not the evidence standard. **R2 remains blocked and must not start without later explicit user authorization.**
+
+Treat live GitHub branch/PR/check state as authoritative. Historical prompts, pre-merge handovers, release snapshots, and old workflow logs remain provenance rather than current execution instructions.
 
 ## Repository release checkpoint
 
@@ -28,17 +32,47 @@ Existing release tags and frozen source/corpus content are not retargeted merely
 
 - R0 evidence schema: `0.1.0`
 - R1 review/entity-resolution workflow schema: `0.2.0`
-- R1.5 concept/observation schema: `0.3.0`
+- R1.5 / R1.5A concept-observation schema: `0.3.0`
 
-R0 remains 2,867 source-grounded assertions, 285 literary-body candidates, 43 pilot surface-form entities, and 51 assertion-supported relationships. R1 adds 8 append-only review events and 3 conservative entity-resolution decisions, with no verified historical identity. R1.5 adds the versioned concept registry/evidence policies, a bounded 8-observation Puṟanāṉūṟu production pilot, and the exhaustive pre-merge matrix audit.
+Preserved R0 baseline:
 
-The exhaustive R1.5 audit reviewed:
+- 2,867 source-grounded assertions
+- 285 literary-body candidates
+- 43 pilot surface-form entities
+- 51 assertion-supported relationships
 
-- Puṟanāṉūṟu: 400 / 400 records × 29 research dimensions;
-- Tolkāppiyam: 1,602 / 1,602 நூற்பா across 27 இயல் × the same 29 dimensions;
-- automatic Tolkāppiyam → Sangam poem classification: disabled.
+Preserved R1 baseline:
 
-Audit ledgers are review evidence; they do not automatically become production observations.
+- 8 append-only review events
+- 3 conservative entity-resolution decisions
+- verified historical identities: 0
+
+R1.5 established the versioned concept registry/evidence policies, exact 29-dimension vocabulary/schema, separate Tolkāppiyam grammatical/poetics evidence contract, exhaustive control audits, production-review schema/validator, and the first two validated Puṟanāṉūṟu production records.
+
+The exhaustive R1.5 audit reviewed Puṟanāṉūṟu 400/400 records and Tolkāppiyam 1,602/1,602 நூற்பா against the exact 29 research dimensions. These ledgers are control/review evidence; they do not automatically become production observations.
+
+## R1.5A production review
+
+Canonical Puṟanāṉūṟu production records live at:
+
+`research/production/purananuru/records/NNN.json`
+
+At R1.5A start:
+
+- 001 complete
+- 002 complete
+- 003 next
+
+Every poem is still read sequentially and considered against all 29 dimensions. Each poem must have a complete individual production JSON in the working tree before the next poem is read.
+
+Git publication is batched:
+
+- stabilization batch: **003–010**
+- then 25-record batches beginning **011–035**, **036–060**, **061–085**, and onward through 400
+- full PR CI/non-drift runs once per published batch, not once per poem
+- if interrupted, checkpoint the completed contiguous prefix
+
+The older exhaustive audit is a post-review control artifact; it is never copied mechanically into production.
 
 ## Patiṉeṇkīḻkkaṇakku programme
 
@@ -120,7 +154,9 @@ python3 scripts/validate_research_layer.py --root .
 python3 scripts/validate_research_r1.py --root .
 python3 scripts/validate_research_r15.py --root .
 python3 scripts/validate_research_r15_acceptance.py --root .
+python3 scripts/validate_research_r15_dimensions.py --root .
 python3 scripts/validate_r15_premerge_matrix_audit.py --root .
+python3 scripts/validate_r15_purananuru_production.py --root .
 python3 scripts/verify_research_r1_idempotence.py --root .
 python3 scripts/verify_research_r15_idempotence.py --root .
 pytest -q
@@ -159,19 +195,20 @@ A source-explicit poet, addressee, tiṇai, tuṟai, heading, or other field is 
 
 Shared manifests use deterministic aggregation and must not be written concurrently by multiple work generators. The required model is work-local generation followed by one authoritative aggregator, explicit UTF-8 encoding, stable order, validation, and atomic replacement.
 
-The repository previously detected an overlapping writer problem in a shared manifest; canonical corpus content was unaffected, and the shared-manifest path is now protected by deterministic/atomic generation rules.
+The repository previously detected an overlapping writer problem in a shared manifest; canonical corpus content was unaffected, and the shared-manifest path is protected by deterministic/atomic generation rules.
 
 ## Validation rules
 
 A preservation or research change is acceptable only when the applicable validators pass and previously frozen evidence does not drift unexpectedly.
 
-For the current R1.5 PR, CI must prove:
+For R1.5A, CI must prove:
 
 - R0 compatibility validation;
 - R1 workflow validation;
-- R1.5 pilot validation;
-- R1.5 acceptance/orphan-reference validation;
-- exhaustive R1.5 matrix-audit validation;
+- R1.5 pilot and acceptance validation;
+- exact 29-dimension production-surface validation;
+- exhaustive R1.5 control-audit validation;
+- Puṟanāṉūṟu production-prefix validation;
 - complete regression tests;
 - R1 and R1.5 deterministic regeneration;
 - repository physical audit;
@@ -179,7 +216,7 @@ For the current R1.5 PR, CI must prove:
 - R1 primary-history non-mutation;
 - documentation-status regression checks.
 
-Green validation is technical readiness only; it does not authorize merging PR #3.
+Green validation is technical readiness for the current batch. It does not authorize merging draft PR #4 or starting R2.
 
 ## Severity levels
 
@@ -216,11 +253,17 @@ Tolkāppiyam grammatical/poetics evidence is likewise a separate evidence stream
 
 An apparatus observation, concept classification, external identification, or interpretation cannot mutate canonical transcription.
 
+## Evidence-first matrix rule
+
+Every populated production matrix value must have an evidence chain from the matrix state to the exact source field/span and frozen source provenance.
+
+Reviewed-empty means only that no qualifying evidence was identified in that completed source record. It is not a historical absence claim.
+
 ## Source terminology
 
 Read [`docs/SOURCE_TERMINOLOGY_POLICY.md`](docs/SOURCE_TERMINOLOGY_POLICY.md) before social, ritual, learned, occupational, political, kinship, or community classification.
 
-Use the exact Tamil term printed by the relevant source, such as `அந்தணர்`, `அரசர்`, `பாணர்`, or another source-supported form. Do not silently replace a Classical Tamil source term with a later caste, sectarian, modern-community, hierarchy, or external-influence identity.
+Use the exact Tamil term printed by the relevant source. Do not silently replace a Classical Tamil source term with a later identity, hierarchy, sectarian, modern-community, or external-influence label.
 
 ## Adding the next Project Madurai work
 
@@ -234,21 +277,30 @@ Do not generalize an existing parser blindly. For any future preservation-layer 
 6. run complete physical, fidelity, regression, deterministic, and non-drift checks;
 7. use a separate formal freeze/release step.
 
-R2 research extraction is **not** a new corpus-work onboarding activity and must not begin while PR #3 is held unmerged.
+R1.5A production review is not a new corpus-work onboarding activity. Do not start R2 while R1.5A remains the active phase.
+
+## Tolkāppiyam boundary
+
+Tolkāppiyam uses `work → அதிகாரம் → இயல் → நூற்பா` and canonical records under `corpus/tolkappiyam/nurpas/`.
+
+Its grammatical/poetics evidence stream remains separate from Sangam literary-world observations. Tolkāppiyam must never auto-classify a Sangam poem.
+
+Do not begin the Tolkāppiyam production pass until Puṟanāṉūṟu 001–400 is complete and validated.
 
 ## Key current documents
 
-- [`PROJECT_HANDOVER.md`](PROJECT_HANDOVER.md) — authoritative current continuity state.
+- [`PROJECT_HANDOVER.md`](PROJECT_HANDOVER.md) — authoritative continuity state.
 - [`PROJECT_GUIDELINES.md`](PROJECT_GUIDELINES.md) — working rules.
-- [`NEXT_CHAT_PROMPT.md`](NEXT_CHAT_PROMPT.md) — safe continuation contract.
-- [`docs/DOCUMENTATION_STATUS.md`](docs/DOCUMENTATION_STATUS.md) — active/historical documentation classification.
-- [`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`](docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md) — matrix architecture and phase roadmap.
-- [`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md) — research-layer evidence/version model.
+- [`NEXT_CHAT_PROMPT.md`](NEXT_CHAT_PROMPT.md) — continuation contract.
+- [`docs/DOCUMENTATION_STATUS.md`](docs/DOCUMENTATION_STATUS.md) — active/historical documentation boundary.
+- [`docs/handover/r15a-production-review/README.md`](docs/handover/r15a-production-review/README.md) — R1.5A cadence contract.
+- [`research/production/purananuru/README.md`](research/production/purananuru/README.md) — record ledger contract.
+- [`docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`](docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md) — matrix architecture.
+- [`docs/classical-tamil-research-layer.md`](docs/classical-tamil-research-layer.md) — research evidence/version model.
 - [`docs/SOURCE_TERMINOLOGY_POLICY.md`](docs/SOURCE_TERMINOLOGY_POLICY.md) — source-term rule.
-- [`docs/handover/r15-premerge-audit/README.md`](docs/handover/r15-premerge-audit/README.md) — exhaustive-audit continuity.
 
-Files under `docs/history/` are historical snapshots and must not be executed as current instructions. Release documents and durable machine logs remain truthful records of the state/run they actually describe.
+`docs/handover/r15-premerge-audit/` remains historical/control methodology and evidence. Its old PR #3 merge-hold prose is not current operational authority.
 
 ## Rights / visibility
 
-The repository remains private. `docs/source-rights-and-redistribution-review.md` retains unresolved redistribution questions. Do not change repository visibility without a separate explicit user decision after that review.
+The repository remains private. `docs/source-rights-and-redistribution-review.md` retains unresolved redistribution questions. Do not change repository visibility without separate explicit user authorization.

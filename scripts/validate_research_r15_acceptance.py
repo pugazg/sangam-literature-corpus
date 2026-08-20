@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the complete R1.5 model boundary beyond the bounded pilot checks."""
+"""Validate the complete R1.5 model boundary and the gated R1.5A production continuation."""
 from __future__ import annotations
 
 import argparse
@@ -19,6 +19,8 @@ ASSERTIONS = "research/evidence/purananuru/assertions.ndjson"
 ENTITIES = "research/entities/pilot/entities.ndjson"
 RELATIONSHIPS = "research/relationships/pilot/relationships.ndjson"
 OBSERVATIONS = "research/observations/purananuru/r15-pilot.ndjson"
+PURANANURU_PRODUCTION = "research/production/purananuru/records"
+TOLK_OBSERVATION_DIR = "research/observations/tolkappiyam"
 
 REQUIRED_FOUNDATION = {
     "literary.domain.akam",
@@ -120,9 +122,14 @@ def validate(root: Path, write: bool = False, output: Path | None = None) -> dic
     if not (root / TOLK_README).is_file():
         errors.append("Tolkappiyam concept-stream boundary documentation is missing")
 
-    populated_tolk = list((root / "research/observations/tolkappiyam").glob("*.ndjson"))
-    if populated_tolk:
-        errors.append("R1.5 must not bulk-populate Tolkappiyam concept observations")
+    purananuru_records = sorted((root / PURANANURU_PRODUCTION).glob("[0-9][0-9][0-9].json"))
+    purananuru_complete = len(purananuru_records) == 400 and (root / PURANANURU_PRODUCTION / "400.json").is_file()
+    populated_tolk = sorted((root / TOLK_OBSERVATION_DIR).glob("*.ndjson"))
+    tolk_observation_count = 0
+    for path in populated_tolk:
+        tolk_observation_count += len([line for line in path.read_text(encoding="utf-8").splitlines() if line.strip()])
+    if populated_tolk and not purananuru_complete:
+        errors.append("Tolkappiyam production observations are blocked until the Puṟanāṉūṟu 001–400 production corpus is complete")
 
     orphan_observation_assertions: list[str] = []
     orphan_observation_concepts: list[str] = []
@@ -175,7 +182,8 @@ def validate(root: Path, write: bool = False, output: Path | None = None) -> dic
         "foundation_concepts_present": len(REQUIRED_FOUNDATION & set(concepts)),
         "evidence_policy_families_checked": len(policy_families),
         "tolkappiyam_stream_schema_present": (root / TOLK_SCHEMA).is_file(),
-        "tolkappiyam_production_observation_count": len(populated_tolk),
+        "purananuru_production_complete": purananuru_complete,
+        "tolkappiyam_production_observation_count": tolk_observation_count,
         "observations_checked": len(observations),
         "relationships_checked": len(relationships),
         "orphan_observation_assertion_count": len(orphan_observation_assertions),

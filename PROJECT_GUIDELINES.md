@@ -6,14 +6,9 @@ Active repository: `pugazg/sangam-literature-corpus`.
 
 Treat live GitHub state as authoritative over chat summaries, stale SHAs, deleted branches, local paths, old repository names, and historical prompts.
 
-Current live branch model at this documentation audit:
+Current phase: **R1.5A** on `research/classical-tamil-concept-matrix-r1.5a`.
 
-- `main`
-- `research/classical-tamil-concept-matrix-r1.5`
-
-R0 and R1 research branches were deleted after their work was preserved/reconciled. Do not recreate them merely because historical documents mention them.
-
-PR #3 is the active R1.5 proposal. **Keep it open, draft, and unmerged until the user explicitly authorizes merge. Do not start R2 before that authorization and a fresh post-merge inspection of `main`.**
+R1.5 was merged into `main` at `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`. PR #3 is historical/merged. R2 is blocked and must not start without later explicit user authorization.
 
 ## 2. Two-layer rule
 
@@ -22,203 +17,134 @@ The repository contains:
 1. a frozen preservation corpus;
 2. independently versioned derived research layers.
 
-Never blur them.
-
 A research change is never sufficient reason to alter frozen canonical text, source notes, raw sources, apparatus evidence, release tags, or release fingerprints.
 
 ## 3. Frozen release discipline
 
-Current release identities:
+- Corpus 1.0.0 — 27 works / 5,632 canonical numbered records.
+- Corpus 1.1.0 — 28 works / 7,234 canonical records, including 1,602 Tolkāppiyam நூற்பா.
 
-- Corpus 1.0.0 — 27 works / 5,632 canonical numbered records;
-- Corpus 1.1.0 — 28 works / 7,234 canonical records, adding 1,602 Tolkāppiyam நூற்பா.
-
-Do not move, retarget, recreate, amend, or overwrite an existing release tag or release commit to improve documentation.
-
-A new corpus release is required only for an intentional preservation-layer change.
+Do not move, retarget, recreate, amend, or overwrite an existing release tag or release commit to improve research documentation.
 
 ## 4. Source fidelity
 
 Preserve what the selected source prints, including uncertainty, loss, irregular numbering, unusual spelling, punctuation, headings, and layout-supported distinctions.
 
-Do not silently:
-
-- modernise spelling;
-- repair punctuation;
-- invent missing text;
-- merge editions;
-- infer missing headings;
-- convert commentary into canonical text;
-- reconstruct historical identities.
-
-OCR and rendered browser text are secondary aids when reliable encoded source bytes exist.
+Do not silently modernise, repair, reconstruct, merge editions, infer missing headings, convert commentary into canonical text, or manufacture historical identities.
 
 ## 5. Source terminology policy
 
 `docs/SOURCE_TERMINOLOGY_POLICY.md` is mandatory for research prose and classification.
 
-When a source prints a Tamil social, ritual, learned, occupational, political, kinship, or community term, retain that exact source form. Examples may include `அந்தணர்`, `பார்ப்பார்`, `பார்ப்பனர்`, `அரசர்`, `வேளாளர்`, `பாணர்`, and other source-supported forms.
-
-Do not substitute one Tamil term for another merely because they may appear related. Do not convert a source term automatically into a later caste, sectarian, modern-community, hierarchy, or external-influence identity.
+When a source prints a Tamil social, ritual, learned, occupational, political, kinship, or community term, retain that exact source form. Do not substitute one Tamil term for another merely because they appear related. Do not automatically convert a source term into a later caste, sectarian, modern-community, hierarchy, or external-influence identity.
 
 Any later historical equivalence claim belongs in a separately classified external-evidence or interpretive layer with independent provenance.
 
-## 6. Tolkāppiyam rules
+## 6. Tolkāppiyam rule
 
-Tolkāppiyam hierarchy is:
+Tolkāppiyam hierarchy is `work → அதிகாரம் → இயல் → நூற்பா`.
 
-`work → அதிகாரம் → இயல் → நூற்பா`
+Tolkāppiyam uses a separate grammatical/poetics concept-evidence stream. A நூற்பா may support later comparison but must never auto-classify or rewrite a Sangam poem.
 
-Canonical records live under `corpus/tolkappiyam/nurpas/`.
+Do not start the Tolkāppiyam production pass until Puṟanāṉūṟu production records 001–400 are complete and validated.
 
-Keep repository ID, upstream alias, source sequence, local/traditional numbering, source heading, and editorial display heading distinct where required.
+## 7. Research evidence model
 
-Tolkāppiyam Arivagam is a consumer/reference application, not canonical authority.
+Keep evidence class, confidence, review status, entity-resolution state, and concept classification independent.
 
-For research, Tolkāppiyam uses a separate grammatical/poetics concept-evidence stream. A நூற்பா may support later comparison but must never auto-classify or rewrite a Sangam poem.
+A mention is a printed/source occurrence. An entity is a resolved research identity. A concept is a controlled analytical category. Matching strings, epithets, conventional scholarship, or modern expectations do not by themselves resolve identity.
 
-## 7. Shared-manifest safety
+R1 review events and entity-resolution decisions are primary append-only histories. Do not regenerate or silently truncate them.
 
-Never permit parallel writers to append to a shared combined manifest.
+## 8. Exact 29-dimension production surface
 
-Required pattern:
+R1.5/R1.5A uses exactly:
 
-1. work-local generation;
-2. one authoritative aggregator;
-3. deterministic ordering;
-4. explicit UTF-8 serialisation;
-5. atomic replacement;
-6. advisory locking;
-7. validation before replacement;
-8. repeated byte stability.
+1. `literary_domain`
+2. `tinai_turai`
+3. `landscape_environment`
+4. `season_weather_time`
+5. `flora`
+6. `fauna`
+7. `people_social_roles`
+8. `relationships`
+9. `emotion_lived_experience`
+10. `occupations_production`
+11. `food_subsistence`
+12. `clothing_ornaments_adornment`
+13. `material_culture_everyday_objects`
+14. `weapons_warfare`
+15. `mobility_transport`
+16. `settlements_built_environment`
+17. `economy`
+18. `trade_exchange`
+19. `polity_political_life`
+20. `communities_social_groups`
+21. `family_gender_kinship`
+22. `religion_ritual`
+23. `death_mourning_memory`
+24. `arts_music_performance`
+25. `knowledge_technology`
+26. `values_ethical_concepts`
+27. `body_health`
+28. `named_entities`
+29. `textual_intertextual_relationships`
 
-## 8. Research evidence model
+Do not collapse distinct dimensions for convenience.
 
-Keep these independent:
+## 9. Evidence-first matrix rule
 
-- evidence class;
-- confidence;
-- review status;
-- entity-resolution state;
-- concept classification.
+Every populated production matrix value must have an evidence chain:
 
-Controlled claim classes include:
+`matrix state → observation/assertion → exact record → exact span/source field → canonical hash → frozen source provenance`.
 
-- `SOURCE_EXPLICIT`
-- `MECHANICALLY_DERIVED`
-- `CROSS_TEXT`
-- `EDITORIAL_INFERENCE`
-- `GRAMMATICAL_CONCEPT_EVIDENCE`
-- `EXTERNAL_HISTORICAL`
-- `INTERPRETATION`
+Empty means only `no_qualifying_evidence_identified` in that completed source review. It never means historical absence.
 
-Never silently upgrade one claim class into another.
+The exhaustive audit ledgers are controls, not production observations.
 
-## 9. Mention, entity, concept
+## 10. R1.5A record-review rule
 
-A mention is a printed/source occurrence. An entity is a resolved research identity. A concept is a controlled analytical category.
+For every Puṟanāṉūṟu poem:
 
-Do not merge or resolve identities because of matching strings, normalized forms, epithets, conventional scholarship, or modern expectations.
+1. read the complete canonical record and source-explicit metadata;
+2. consider all 29 dimensions;
+3. write the complete individual `research/production/purananuru/records/NNN.json` in the working tree before reading the next record;
+4. retain exact source Tamil, provenance and body-relative spans;
+5. link a real R0 assertion only when it genuinely supports the observation;
+6. use `direct_record_review` when source-supported semantic evidence has no suitable earlier R0 assertion;
+7. preserve ambiguity rather than guessing;
+8. compare with the old sparse audit only after the fresh review is complete.
 
-`possible_match` is weaker than verified identity. Every identity decision must be reviewable, reversible, and assertion-provenanced.
+## 11. R1.5A batching cadence
 
-Concept membership also does not establish historical identity.
+Scholarly review is sequential; Git publishing is batched.
 
-## 10. Review history
+- existing benchmark: 001–002 complete;
+- first stabilization batch: 003–010;
+- then 25-record batches: 011–035, 036–060, 061–085, and so on;
+- final batch ends exactly at 400;
+- keep separate per-record JSON files;
+- publish one deterministic multi-file commit per completed batch;
+- if interrupted, checkpoint the completed contiguous prefix rather than losing reviewed work;
+- run full PR CI/non-drift once per published batch, not once per poem.
 
-R1 review events and entity-resolution decisions are primary histories. They are append-only and must not be regenerated from scratch or silently truncated.
+Do not skip record order merely to fill a batch.
 
-Assistant-assisted review must identify itself accurately. `reviewed` is not the same as independently verified historical identity.
+## 12. Special Puṟanāṉūṟu source conditions
 
-Rejected and superseded decisions remain auditable.
+- record 200 remains damaged/unreconstructed where the source is damaged;
+- records 267–268 remain source-lost/unreconstructed;
+- printed names are source mentions unless separately resolved through permitted evidence.
 
-## 11. Akam / Puram, tiṇai, tuṟai
+## 13. Branch and PR discipline
 
-Akam/Puram is a first-class research dimension with explicit classification basis.
+Do not force-push shared branches. Do not reset unexplained changes. Do not recreate deleted historical branches merely because old documents mention them.
 
-Tiṇai and tuṟai assignments must retain provenance. Do not infer them merely from conventional associations.
+R1.5A should remain a reviewable branch/PR until the user explicitly authorizes its eventual merge or next phase transition.
 
-Five-landscape families may be connected to terrain, season/time, flora, fauna, occupation, food, settlement, social actors, relationship situations, mobility, ritual references, or objects only through separately classified evidence.
+## 14. Validation
 
-## 12. Research matrix dimensions
-
-The exhaustive R1.5 audit uses 29 controlled dimensions:
-
-1. literary domain;
-2. tiṇai/tuṟai;
-3. landscape/environment;
-4. season/weather/time;
-5. flora;
-6. fauna;
-7. people/social roles;
-8. relationships;
-9. emotion/lived experience;
-10. occupations/production;
-11. food/subsistence;
-12. clothing/ornaments/adornment;
-13. material culture/everyday objects;
-14. weapons/warfare;
-15. mobility/transport;
-16. settlements/built environment;
-17. economy;
-18. trade/exchange;
-19. polity/political life;
-20. communities/social groups;
-21. family/gender/kinship;
-22. religion/ritual;
-23. death/mourning/memory;
-24. arts/music/performance;
-25. knowledge/technology;
-26. values/ethical concepts;
-27. body/health;
-28. named entities;
-29. textual/intertextual relationships.
-
-Detailed methodology: `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`.
-
-## 13. Evidence-first matrix rule
-
-Every production matrix value must have an evidence chain:
-
-`matrix row/cell → observation/assertion → exact record → exact span/source field → canonical hash → frozen source provenance`
-
-Empty cells mean only that qualifying evidence is not currently recorded. They are not historical absence claims.
-
-The exhaustive audit ledgers are semantic review records. They do not automatically become production observations.
-
-## 14. Phase status
-
-- R0 — completed; evidence schema `0.1.0` preserved.
-- R1 — completed and merged to `main`; workflow schema `0.2.0` preserved.
-- R1.5 — current validated pre-merge foundation on PR #3; concept schema `0.3.0`.
-- R2 — blocked and not started.
-
-R1.5 includes:
-
-- versioned concept registry;
-- evidence policies;
-- Akam/Puram, tiṇai, tuṟai and landscape foundations;
-- separate Tolkāppiyam concept-evidence contract;
-- bounded Puṟanāṉūṟu production pilot;
-- exhaustive 400-record Puṟanāṉūṟu × 29-dimension audit;
-- exhaustive 1,602-நூற்பா Tolkāppiyam × 29-dimension audit;
-- validators, deterministic regeneration, tests and non-drift gates.
-
-## 15. Branch and PR discipline
-
-Do not force-push shared branches.
-
-Do not reset unexplained changes.
-
-Do not recreate deleted historical branches unless a future explicit recovery task requires it.
-
-Do not merge PR #3 simply because CI is green. Merge requires explicit user authorization.
-
-After an authorized merge, inspect live `main` before creating or starting any R2 work.
-
-## 16. Validation
-
-For R1.5 changes, run the established CI-equivalent gates:
+At each R1.5A batch checkpoint run the established full CI-equivalent gates, including:
 
 ```bash
 python3 scripts/generate_research_layer.py --root .
@@ -228,33 +154,29 @@ python3 scripts/validate_research_layer.py --root .
 python3 scripts/validate_research_r1.py --root .
 python3 scripts/validate_research_r15.py --root .
 python3 scripts/validate_research_r15_acceptance.py --root .
+python3 scripts/validate_research_r15_dimensions.py --root .
 python3 scripts/validate_r15_premerge_matrix_audit.py --root .
+python3 scripts/validate_r15_purananuru_production.py --root .
 pytest -q
 python3 scripts/audit_repository.py --root .
 ```
 
-Also prove Corpus 1.1.0 and Tolkāppiyam non-drift and R1 primary-history non-mutation.
+Also prove Corpus 1.1.0/Tolkāppiyam non-drift and R1 primary-history non-mutation.
 
-## 17. Documentation discipline
+## 15. Documentation discipline
 
-Current instructions belong in active documents. Historical prompts and superseded continuity text belong under `docs/history/` and must be clearly treated as non-executable provenance.
+Current instructions belong in active documents. Historical prompts, pre-merge hold documents, release snapshots, and older machine logs remain provenance and must not override current post-merge instructions.
 
-Do not retain a section titled “current branches” or “next activity” when its contents describe a deleted branch or completed phase.
+`docs/DOCUMENTATION_STATUS.md` defines the active/historical boundary.
 
-`docs/DOCUMENTATION_STATUS.md` records the documentation audit boundary.
+## 16. Rights / visibility
 
-## 18. Rights / visibility
+The repository remains private. Do not change visibility without separate explicit user authorization after rights review.
 
-The repository remains private. `docs/source-rights-and-redistribution-review.md` retains unresolved questions. Do not change visibility without separate explicit user authorization after rights review.
+## 17. Roadmap
 
-## 19. Roadmap
+- R1.5A — current: full production review using the merged R1.5 29-dimension foundation.
+- R2 — blocked pending explicit user authorization after R1.5A completion/readiness.
+- later phases remain evidence/provenance gated.
 
-- R2 — core Sangam concept-matrix extraction after authorized R1.5 merge;
-- R3 — cross-corpus entity resolution and relationships;
-- R4 — civilisation/lived-life analytical datasets;
-- R5 — research explorer and visualisation;
-- R6 — compatible extension to Patiṉeṇkīḻkkaṇakku;
-- R7 — Tolkāppiyam ↔ Sangam conceptual comparison;
-- R8 — separately cited external scholarship/historical-identification layer.
-
-Never skip the evidence, review, provenance, and non-drift gates between phases.
+Never skip source fidelity, review, provenance, and non-drift gates between phases.

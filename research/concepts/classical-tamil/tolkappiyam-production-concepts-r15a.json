@@ -1,0 +1,396 @@
+{
+  "registry_id": "tolkappiyam-production-concepts-r15a",
+  "schema_version": "0.3.0",
+  "status": "production-extension",
+  "base_registry": "research/concepts/classical-tamil/concept-registry-r15.json",
+  "work_scope": "tolkappiyam",
+  "concepts": [
+    {
+      "concept_id": "knowledge.grammar.phonology",
+      "dimension": "knowledge_technology",
+      "label_ta": "எழுத்து / ஒலியமைப்பு இலக்கண அறிவு",
+      "label_en": "grammatical phonology / letter-system knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that define or classify letters, dependent signs, phonological categories, articulation, or closely related letter-system structure. This is grammatical concept evidence, not a historical technology claim."
+    },
+    {
+      "concept_id": "arts.music.formal_context",
+      "dimension": "arts_music_performance",
+      "label_ta": "இசைச் சூழல் இலக்கணச் சான்று",
+      "label_en": "formal grammatical music context",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam evidence that places a grammatical or phonological phenomenon specifically in an இசை/music context. It does not by itself establish a historical performance event, performer, instrument, or social practice."
+    },
+    {
+      "concept_id": "textual.tradition.reference",
+      "dimension": "textual_intertextual_relationships",
+      "label_ta": "நூல் / அறிவுமரபுச் சுட்டு",
+      "label_en": "textual or disciplinary tradition reference",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam reference to another textual, scholarly, or disciplinary tradition. Exact source wording is retained; the concept does not resolve the reference to a particular external work unless the source itself establishes that identity."
+    },
+    {
+      "concept_id": "knowledge.grammar.word_structure",
+      "dimension": "knowledge_technology",
+      "label_ta": "மொழி / சொல் அமைப்பு இலக்கண அறிவு",
+      "label_en": "grammatical word-structure knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that classify word completeness, one-letter or multi-letter word structure, தொடர்மொழி, or comparable structural classes of words. This is grammatical structural evidence, not a historical technology or social-classification claim."
+    },
+    {
+      "concept_id": "textual.poetic_form.formal_context",
+      "dimension": "textual_intertextual_relationships",
+      "label_ta": "செய்யுள் / பாடல் வடிவச் சூழல் இலக்கணச் சான்று",
+      "label_en": "formal poetic-text-form context",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam evidence that conditions a grammatical rule by an explicitly stated செய்யுள் or poetic/textual-form context. It does not by itself classify Akam/Puram, identify an external work, or establish a historical performance event."
+    },
+    {
+      "concept_id": "body.articulation.anatomy",
+      "dimension": "body_health",
+      "label_ta": "ஒலிப்பிறப்பியல் உடல் உறுப்பமைப்பு",
+      "label_en": "articulatory anatomy",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam treatment of bodily articulation sites and breath pathways used to explain speech-sound production. This is grammatical articulatory-anatomy evidence, not a diagnosis, medical claim, or general physiology reconstruction."
+    },
+    {
+      "concept_id": "knowledge.grammar.morphology",
+      "dimension": "knowledge_technology",
+      "label_ta": "சொல்லுருபியல் இலக்கண அறிவு",
+      "label_en": "grammatical morphology",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that classify grammatical word classes, case markers, சாரியை, inflectional or related morphological forms. This is grammatical-system evidence, not a historical social classification."
+    },
+    {
+      "concept_id": "knowledge.grammar.morphophonology",
+      "dimension": "knowledge_technology",
+      "label_ta": "புணர்ச்சி / உருபொலி மாற்ற இலக்கண அறிவு",
+      "label_en": "grammatical morphophonology / sandhi",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules governing sound/form changes at word, morpheme, case-marker or சாரியை boundaries, including புணர்ச்சி, addition, loss and alternation. This is grammatical evidence, not a historical speech-event claim."
+    },
+    {
+      "concept_id": "knowledge.grammar.quantification",
+      "dimension": "knowledge_technology",
+      "label_ta": "அளவு / நிறை / எண் இலக்கண வகைப்பாடு",
+      "label_en": "grammatical quantification and measure classification",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam treatment of அளவு, நிறை, எண் and related measure/quantity expressions as grammatical classes or form-governing categories. It does not by itself reconstruct a historical economic system, market, or standardized metrology."
+    },
+    {
+      "concept_id": "knowledge.grammar.syntax",
+      "dimension": "knowledge_technology",
+      "label_ta": "தொடரியல் / வேற்றுமைப் பொருள் இலக்கண அறிவு",
+      "label_en": "grammatical syntax and case-relation knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules governing syntactic combination, agreement, case relations, ordering, completion, and dependencies among பெயர், வினை and related grammatical classes. This is grammatical-system evidence, not a historical social relationship claim."
+    },
+    {
+      "concept_id": "knowledge.grammar.lexical_semantics",
+      "dimension": "knowledge_technology",
+      "label_ta": "உரிச்சொல் / சொற்பொருள் இலக்கண அறிவு",
+      "label_en": "grammatical lexical-semantics knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules that state, distinguish, or constrain lexical meanings and polysemy within the grammatical analysis. Mentioned meanings remain source-contextual and do not automatically become historical lived-life claims."
+    },
+    {
+      "concept_id": "knowledge.grammar.discourse_pragmatics",
+      "dimension": "knowledge_technology",
+      "label_ta": "வழக்கு / கூற்று / குறிப்பு இலக்கண அறிவு",
+      "label_en": "grammatical discourse and pragmatic knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam rules governing question and answer, speaker reference, usage, register, deixis, implication, and discourse-conditioned forms. This is grammatical evidence, not a reconstruction of a historical conversation or hierarchy."
+    },
+    {
+      "concept_id": "poetics.literary_domain.formal_framework",
+      "dimension": "literary_domain",
+      "label_ta": "அகம் / புறம் இலக்கியக் கட்டமைப்பு",
+      "label_en": "Akam/Puram formal literary framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the akam/puram formal literary framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.tinai_turai.formal_framework",
+      "dimension": "tinai_turai",
+      "label_ta": "திணை / துறைப் பாடலியல் கட்டமைப்பு",
+      "label_en": "tiṇai/tuṟai formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the tiṇai/tuṟai formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.landscape.formal_framework",
+      "dimension": "landscape_environment",
+      "label_ta": "நிலம் / சூழல் பாடலியல் கட்டமைப்பு",
+      "label_en": "landscape formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the landscape formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.time.formal_framework",
+      "dimension": "season_weather_time",
+      "label_ta": "பொழுது / பருவம் பாடலியல் கட்டமைப்பு",
+      "label_en": "time/season formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the time/season formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.flora.formal_framework",
+      "dimension": "flora",
+      "label_ta": "தாவரச் சுட்டுப் பாடலியல் கட்டமைப்பு",
+      "label_en": "flora formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the flora formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.fauna.formal_framework",
+      "dimension": "fauna",
+      "label_ta": "விலங்கு / புள் பாடலியல் கட்டமைப்பு",
+      "label_en": "fauna formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the fauna formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.social_roles.formal_framework",
+      "dimension": "people_social_roles",
+      "label_ta": "மாந்தர் / சமூகப் பங்கு பாடலியல் கட்டமைப்பு",
+      "label_en": "social-role formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the social-role formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.relationships.formal_framework",
+      "dimension": "relationships",
+      "label_ta": "உறவு / வாயில் பாடலியல் கட்டமைப்பு",
+      "label_en": "relationship formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the relationship formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.emotion.formal_framework",
+      "dimension": "emotion_lived_experience",
+      "label_ta": "உணர்வு / வாழ்வனுபவப் பாடலியல் கட்டமைப்பு",
+      "label_en": "emotion/lived-experience formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the emotion/lived-experience formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.occupations.formal_framework",
+      "dimension": "occupations_production",
+      "label_ta": "தொழில் பாடலியல் கட்டமைப்பு",
+      "label_en": "occupation/production formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the occupation/production formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.food.formal_framework",
+      "dimension": "food_subsistence",
+      "label_ta": "உணவு பாடலியல் கட்டமைப்பு",
+      "label_en": "food/subsistence formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the food/subsistence formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.adornment.formal_framework",
+      "dimension": "clothing_ornaments_adornment",
+      "label_ta": "அணி / உடை பாடலியல் கட்டமைப்பு",
+      "label_en": "adornment formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the adornment formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.material.formal_framework",
+      "dimension": "material_culture_everyday_objects",
+      "label_ta": "பொருட் பயன்பாட்டுப் பாடலியல் கட்டமைப்பு",
+      "label_en": "material-culture formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the material-culture formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.warfare.formal_framework",
+      "dimension": "weapons_warfare",
+      "label_ta": "படை / மறம் பாடலியல் கட்டமைப்பு",
+      "label_en": "warfare formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the warfare formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.mobility.formal_framework",
+      "dimension": "mobility_transport",
+      "label_ta": "செலவு / ஊர்திப் பாடலியல் கட்டமைப்பு",
+      "label_en": "mobility/transport formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the mobility/transport formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.settlement.formal_framework",
+      "dimension": "settlements_built_environment",
+      "label_ta": "ஊர் / மனை பாடலியல் கட்டமைப்பு",
+      "label_en": "settlement/built-environment formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the settlement/built-environment formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.economy.formal_framework",
+      "dimension": "economy",
+      "label_ta": "பொருள் / செல்வப் பாடலியல் கட்டமைப்பு",
+      "label_en": "economy formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the economy formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.trade.formal_framework",
+      "dimension": "trade_exchange",
+      "label_ta": "வாணிக / பரிமாற்றப் பாடலியல் கட்டமைப்பு",
+      "label_en": "trade/exchange formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the trade/exchange formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.polity.formal_framework",
+      "dimension": "polity_political_life",
+      "label_ta": "வேந்தர் / அரசு பாடலியல் கட்டமைப்பு",
+      "label_en": "polity formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the polity formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.communities.formal_framework",
+      "dimension": "communities_social_groups",
+      "label_ta": "குடி / குழு பாடலியல் கட்டமைப்பு",
+      "label_en": "community/social-group formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the community/social-group formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.kinship.formal_framework",
+      "dimension": "family_gender_kinship",
+      "label_ta": "குடும்ப / பால் / உறவுமுறை பாடலியல் கட்டமைப்பு",
+      "label_en": "family/gender/kinship formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the family/gender/kinship formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.ritual.formal_framework",
+      "dimension": "religion_ritual",
+      "label_ta": "தெய்வம் / சடங்கு பாடலியல் கட்டமைப்பு",
+      "label_en": "religion/ritual formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the religion/ritual formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.death.formal_framework",
+      "dimension": "death_mourning_memory",
+      "label_ta": "இறப்பு / புலம்பல் / நினைவு பாடலியல் கட்டமைப்பு",
+      "label_en": "death/mourning/memory formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the death/mourning/memory formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.arts.formal_framework",
+      "dimension": "arts_music_performance",
+      "label_ta": "இசை / கூத்து / கலை பாடலியல் கட்டமைப்பு",
+      "label_en": "arts/music/performance formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the arts/music/performance formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.knowledge.formal_framework",
+      "dimension": "knowledge_technology",
+      "label_ta": "அறிவு / நுட்பப் பாடலியல் கட்டமைப்பு",
+      "label_en": "knowledge formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the knowledge formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.values.formal_framework",
+      "dimension": "values_ethical_concepts",
+      "label_ta": "அறம் / மதிப்பு பாடலியல் கட்டமைப்பு",
+      "label_en": "values/ethics formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the values/ethics formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.body.formal_framework",
+      "dimension": "body_health",
+      "label_ta": "உடல் / மெய்ப்பாடு பாடலியல் கட்டமைப்பு",
+      "label_en": "body/health formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the body/health formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.named.formal_framework",
+      "dimension": "named_entities",
+      "label_ta": "பெயர்ச் சுட்டுப் பாடலியல் கட்டமைப்பு",
+      "label_en": "named-reference formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the named-reference formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "poetics.textual.formal_framework",
+      "dimension": "textual_intertextual_relationships",
+      "label_ta": "நூல் / செய்யுள் தொடர்புக் கட்டமைப்பு",
+      "label_en": "textual/intertextual formal poetics framework",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal Tolkāppiyam பொருளதிகாரம் classification within the textual/intertextual formal poetics framework. It records a poetics/theoretical framework and does not by itself establish an individual historical event, person, practice, or condition."
+    },
+    {
+      "concept_id": "knowledge.poetics.prosody",
+      "dimension": "knowledge_technology",
+      "label_ta": "யாப்பு / அளவியல் நுட்ப அறிவு",
+      "label_en": "formal prosody and metrical knowledge",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal செய்யுளியல் treatment of metre, அசை, சீர், அடி, தொடை, பா, வண்ணம், யாப்பு, and related compositional techniques. It is poetics knowledge, not evidence of a specific historical performance."
+    },
+    {
+      "concept_id": "knowledge.poetics.taxonomy",
+      "dimension": "knowledge_technology",
+      "label_ta": "மரபியல் வகைப்பாட்டு அறிவு",
+      "label_en": "formal marapiyal taxonomy",
+      "parent_concept_id": null,
+      "status": "foundation",
+      "description": "Formal மரபியல் classification of living beings, names, sensory capacities, social/material conventions, plant parts, and textual-method traditions. It is a source taxonomy and not automatically modern biological or social classification."
+    }
+  ]
+}

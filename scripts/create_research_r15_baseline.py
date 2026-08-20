@@ -37,6 +37,13 @@ def count_ndjson(path: Path) -> int:
     return sum(bool(line.strip()) for line in path.read_text(encoding="utf-8").splitlines())
 
 
+def count_tolkappiyam_production_observations(root: Path) -> int:
+    return sum(
+        count_ndjson(path)
+        for path in sorted((root / "research/observations/tolkappiyam").glob("*.ndjson"))
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", default=".")
@@ -61,7 +68,7 @@ def main() -> None:
         "r0_assertion_count": count_ndjson(root / "research/evidence/purananuru/assertions.ndjson"),
         "r1_review_event_count": count_ndjson(root / "research/reviews/purananuru/review-events.ndjson"),
         "r0_relationship_count": count_ndjson(root / "research/relationships/pilot/relationships.ndjson"),
-        "tolkappiyam_production_observation_count": len(list((root / "research/observations/tolkappiyam").glob("*.ndjson"))),
+        "tolkappiyam_production_observation_count": count_tolkappiyam_production_observations(root),
         "hashes": {path: sha(root / path) for path in TARGETS},
         "status": "pass",
     }

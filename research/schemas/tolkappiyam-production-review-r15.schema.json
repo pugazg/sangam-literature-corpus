@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research/schemas/tolkappiyam-production-review-r15.schema.json",
+  "title": "Tolkāppiyam R1.5A sequential 29-dimension production review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "phase",
+    "production_review_id",
+    "work_id",
+    "record_id",
+    "source_sequence",
+    "review_sequence_number",
+    "source_snapshot",
+    "source_structure_reviewed",
+    "dimensions_considered",
+    "dimension_reviews",
+    "concept_evidence",
+    "review_status",
+    "reviewer_type",
+    "empty_cell_semantics",
+    "audit_control",
+    "next_record_allowed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.3.0"},
+    "phase": {"const": "R1.5"},
+    "production_review_id": {"type": "string", "pattern": "^tolkappiyam-r15-production-[0-9]{4}$"},
+    "work_id": {"const": "tolkappiyam"},
+    "record_id": {"type": "string", "pattern": "^tolkappiyam-[0-9]{4}$"},
+    "source_sequence": {"type": "integer", "minimum": 1, "maximum": 1602},
+    "review_sequence_number": {"type": "integer", "minimum": 1, "maximum": 1602},
+    "source_snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_record_path", "canonical_record_git_blob_sha", "canonical_record_sha256", "canonical_body_sha256", "textual_status", "canonical_text_available", "parsing_confidence"],
+      "properties": {
+        "canonical_record_path": {"type": "string", "minLength": 1},
+        "canonical_record_git_blob_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "canonical_record_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "canonical_body_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "textual_status": {"type": "string", "minLength": 1},
+        "canonical_text_available": {"type": "boolean"},
+        "parsing_confidence": {"enum": ["high", "medium", "low"]}
+      }
+    },
+    "source_structure_reviewed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_record_id", "stable_semantic_id", "traditional_number", "display_number", "adhikaram", "iyal"],
+      "properties": {
+        "canonical_record_id": {"type": "string", "minLength": 1},
+        "stable_semantic_id": {"type": "string", "minLength": 1},
+        "traditional_number": {"type": ["integer", "string", "null"]},
+        "display_number": {"type": ["integer", "string", "null"]},
+        "adhikaram": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "number", "title_as_printed"],
+          "properties": {"id": {"type": "string"}, "number": {"type": "integer"}, "title_as_printed": {"type": "string"}}
+        },
+        "iyal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "number", "source_sequence", "title_as_printed"],
+          "properties": {"id": {"type": "string"}, "number": {"type": "integer"}, "source_sequence": {"type": "integer"}, "title_as_printed": {"type": "string"}}
+        }
+      }
+    },
+    "dimensions_considered": {"const": 29},
+    "dimension_reviews": {
+      "type": "array",
+      "minItems": 29,
+      "maxItems": 29,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ordinal", "dimension", "status", "concept_evidence_ids", "incidental_examples", "review_note"],
+        "properties": {
+          "ordinal": {"type": "integer", "minimum": 1, "maximum": 29},
+          "dimension": {"type": "string", "enum": ["literary_domain", "tinai_turai", "landscape_environment", "season_weather_time", "flora", "fauna", "people_social_roles", "relationships", "emotion_lived_experience", "occupations_production", "food_subsistence", "clothing_ornaments_adornment", "material_culture_everyday_objects", "weapons_warfare", "mobility_transport", "settlements_built_environment", "economy", "trade_exchange", "polity_political_life", "communities_social_groups", "family_gender_kinship", "religion_ritual", "death_mourning_memory", "arts_music_performance", "knowledge_technology", "values_ethical_concepts", "body_health", "named_entities", "textual_intertextual_relationships"]},
+          "status": {"enum": ["grammatical_concept_evidence_recorded", "incidental_example_recorded", "grammatical_and_incidental_evidence_recorded", "no_qualifying_evidence_identified", "damaged_evidence_limited"]},
+          "concept_evidence_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^gram\\.r15\\.[0-9a-f]{24}$"}},
+          "incidental_examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["source_location", "evidence_span", "source_text", "note"],
+              "properties": {
+                "source_location": {"const": "markdown:canonical-body"},
+                "evidence_span": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["start_line", "start_character", "end_line", "end_character"],
+                  "properties": {"start_line": {"type": "integer", "minimum": 1}, "start_character": {"type": "integer", "minimum": 0}, "end_line": {"type": "integer", "minimum": 1}, "end_character": {"type": "integer", "minimum": 0}}
+                },
+                "source_text": {"type": "string", "minLength": 1},
+                "note": {"type": "string", "minLength": 1}
+              }
+            }
+          },
+          "review_note": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "concept_evidence": {"type": "array", "items": {"$ref": "tolkappiyam-concept-evidence-r15.schema.json"}},
+    "review_status": {"const": "reviewed"},
+    "reviewer_type": {"enum": ["human_editor", "assistant_assisted"]},
+    "empty_cell_semantics": {"const": "No qualifying evidence identified in this reviewed நூற்பா; never evidence of historical absence."},
+    "audit_control": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["review_manifest_path", "dimension_crosswalk_path", "checked_after_fresh_source_review", "control_role", "crosswalk_used_to_create_classification"],
+      "properties": {
+        "review_manifest_path": {"const": "research/audits/r15-premerge/tolkappiyam/review-manifest.json"},
+        "dimension_crosswalk_path": {"const": "research/audits/r15-premerge/tolkappiyam/dimension-crosswalk.json"},
+        "checked_after_fresh_source_review": {"const": true},
+        "control_role": {"const": "coverage_and_representative_formal_support_only"},
+        "crosswalk_used_to_create_classification": {"const": false}
+      }
+    },
+    "next_record_allowed": {"type": ["string", "null"], "pattern": "^tolkappiyam-[0-9]{4}$"}
+  }
+}

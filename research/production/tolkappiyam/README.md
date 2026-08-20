@@ -1,0 +1,240 @@
+# Tolkāppiyam R1.5A production review
+
+## Status
+
+This is the separate Tolkāppiyam grammatical/poetics production stream under R1.5A schema `0.3.0`.
+
+Puṟanāṉūṟu `001–400` and Tolkāppiyam `0001–1602` are complete and validated. R2 remains blocked.
+
+Canonical source hierarchy:
+
+`work → 3 அதிகாரம் → 27 இயல் → 1,602 நூற்பா`
+
+Canonical record identity is source sequence: `tolkappiyam-0001` … `tolkappiyam-1602`.
+
+## Current production boundary
+
+- `0001.json` through `1602.json`
+- reviewed: **1,602 / 1,602**
+- remaining: **0**
+- next record: **none**
+- completed இயல்: **27 / 27**
+- formal grammatical/poetics concept evidence: **3,505**
+- incidental examples: **348**
+- exact dimensions per record: **29**
+- regression suite: **228 passed** at materialization
+
+Completed இயல்:
+
+- `0001–0033` — எழுத்ததிகாரம் / நூல் மரபு
+- `0034–0082` — எழுத்ததிகாரம் / மொழி மரபு
+- `0083–0103` — எழுத்ததிகாரம் / பிறப்பியல்
+- `0104–0143` — எழுத்ததிகாரம் / புணரியல்
+- `0144–0173` — எழுத்ததிகாரம் / தொகைமரபு
+- `0174–0203` — எழுத்ததிகாரம் / உருபியல்
+- `0204–0296` — எழுத்ததிகாரம் / உயிர்மயங்கியல்
+- `0297–0406` — எழுத்ததிகாரம் / புள்ளிமயங்கியல்
+- `0407–0483` — எழுத்ததிகாரம் / குற்றியலுகரப்புணரியல்
+- `0484–0545` — சொல்லதிகாரம் / கிளவியாக்கம்
+- `0546–0567` — சொல்லதிகாரம் / வேற்றுமையியல்
+- `0568–0602` — சொல்லதிகாரம் / வேற்றுமைமயங்கியல்
+- `0603–0639` — சொல்லதிகாரம் / விளிமரபு
+- `0640–0682` — சொல்லதிகாரம் / பெயரியல்
+- `0683–0733` — சொல்லதிகாரம் / வினையியல்
+- `0734–0781` — சொல்லதிகாரம் / இடையியல்
+- `0782–0879` — சொல்லதிகாரம் / உரியியல்
+- `0880–0946` — சொல்லதிகாரம் / எச்சவியல்
+- `0947–1004` — பொருளதிகாரம் / அகத்திணையியல்
+- `1005–1034` — பொருளதிகாரம் / புறத்திணையியல்
+- `1035–1085` — பொருளதிகாரம் / களவியல்
+- `1086–1138` — பொருளதிகாரம் / கற்பியல்
+- `1139–1190` — பொருளதிகாரம் / பொருளியல்
+- `1191–1217` — பொருளதிகாரம் / மெய்ப்பாட்டியல்
+- `1218–1255` — பொருளதிகாரம் / உவமையியல்
+- `1256–1490` — பொருளதிகாரம் / செய்யுளியல்
+- `1491–1602` — பொருளதிகாரம் / மரபியல்
+
+## Evidence model
+
+Every நூற்பா is reviewed sequentially across the same exact 29 dimensions, but Tolkāppiyam evidence is not poem-world evidence.
+
+For each dimension distinguish:
+
+1. `grammatical_concept_evidence_recorded` — formal grammar/poetics evidence;
+2. `incidental_example_recorded` — source lexical/example evidence retained without historical promotion;
+3. `no_qualifying_evidence_identified` — no qualifying evidence in that reviewed நூற்பா.
+
+A dimension may contain both formal and incidental evidence; they remain separate. Only formal evidence is flattened to `research/observations/tolkappiyam/r15-production.ndjson` as `GRAMMATICAL_CONCEPT_EVIDENCE` with classification basis `tolkappiyam_mapping`.
+
+## Production paths
+
+- reviewed specs: `research/production/tolkappiyam/review-specs/`
+- canonical production records: `research/production/tolkappiyam/records/`
+- flattened formal stream: `research/observations/tolkappiyam/r15-production.ndjson`
+- production schema: `research/schemas/tolkappiyam-production-review-r15.schema.json`
+- formal evidence schema: `research/schemas/tolkappiyam-concept-evidence-r15.schema.json`
+- controlled concept extension: `research/concepts/classical-tamil/tolkappiyam-production-concepts-r15a.json`
+- materializer: `scripts/materialize_r15a_tolkappiyam_batch.py`
+- validator: `scripts/validate_r15_tolkappiyam_production.py`
+- workflow: `.github/workflows/materialize-r15a-tolkappiyam-batch.yml`
+
+The materializer expands already-reviewed decisions. It is not a classifier.
+
+## Source-first rule
+
+For every நூற்பா:
+
+1. read the complete frozen canonical record and its அதிகாரம்/இயல் context;
+2. consider all 29 dimensions;
+3. decide formal evidence, incidental examples and reviewed-empty states before moving to the next record;
+4. preserve exact Tamil terminology and source spans;
+5. do not convert grammatical examples into historical claims;
+6. only after fresh decisions, use the old R1.5 Tolkāppiyam manifest/crosswalk as coverage/control evidence;
+7. materialize only a contiguous gap-free batch that does not cross an இயல் boundary.
+
+The old `dimension-crosswalk.json` is representative formal support, not an exhaustive occurrence index and never a classifier.
+
+## Controlled concepts
+
+Current production concepts are:
+
+- `knowledge.grammar.phonology` → `knowledge_technology`;
+- `knowledge.grammar.word_structure` → `knowledge_technology`;
+- `knowledge.grammar.morphology` → `knowledge_technology`;
+- `knowledge.grammar.morphophonology` → `knowledge_technology`;
+- `knowledge.grammar.quantification` → `knowledge_technology`;
+- `knowledge.grammar.syntax` → `knowledge_technology`;
+- `knowledge.grammar.lexical_semantics` → `knowledge_technology`;
+- `knowledge.grammar.discourse_pragmatics` → `knowledge_technology`;
+- `body.articulation.anatomy` → `body_health`;
+- `arts.music.formal_context` → `arts_music_performance`;
+- `textual.tradition.reference` → `textual_intertextual_relationships`;
+- `textual.poetic_form.formal_context` → `textual_intertextual_relationships`.
+
+Each is scoped to formal Tolkāppiyam evidence. None by itself establishes a historical event, medicine, technology, market system, external work identity or social identity.
+
+## Durable boundaries inherited from 0001–0203
+
+Earlier guardrails remain binding: grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்` remain contextual; articulation anatomy is grammatical rather than medical; `புலவர்` attribution formulas remain unresolved/incidental; measure vocabulary is not automatically historical economy/metrology; `மரப்பெயர்` does not itself establish flora occurrence; `திசைப் பெயர்` does not itself establish geography; grammatical `இயற்கை` / `செயற்கை` are not environmental/technology claims.
+
+## உயிர்மயங்கியல் — completed publication boundaries through 0253
+
+### 0204–0228
+
+Reviewed spec: `0204-0228.json`. This boundary adds **33 formal grammatical/poetics observations** and **3 incidental examples**.
+
+Durable boundaries include: source-explicit doubling/addition/loss/lengthening/alternation as morphophonology; morphology only where form classes/சாரியை/உருபு behavior are explicit; formal word-structure for explicit structural classes; grammatical `உயிர்`, `தொழில்`, `இயற்கை`, `மகப்பெயர்`, `அவண்`, `மெய்ம்மையாக`, `ஆ`/`மா`, and `இரா` are not promoted into unrelated historical dimensions; `மரப்பெயர்` and `புலவர்` formulas remain incidental where appropriate.
+
+### 0229–0253
+
+Reviewed spec: `0229-0253.json`. This boundary adds **30 formal grammatical/poetics observations** and **7 incidental examples**.
+
+Durable boundaries:
+
+- 0229 `நிலா` remains exact grammatical lexical evidence, not a historical calendrical/environmental assertion;
+- 0230 `யாமரம்`, `பிடா`, `தளா` and 0232 `மாமரக் கிளவி` are incidental flora-language only;
+- 0232 exact `ஆ` / `மா` remain unresolved grammatical forms, not automatic fauna;
+- 0235/0238 `செய்யுளுள்` support narrow `textual.poetic_form.formal_context` only;
+- 0237 grammatical `காலை` / `இடம்` do not become historical time/geography;
+- 0240 `பதக்கு` / `தூணி` are not promoted into historical economy/metrology;
+- 0242 `பனி` is incidental weather-language and 0243 `வளி` incidental environmental language within grammatical rules;
+- 0244 `உதிமரம்`, 0245 `புளிமரம்`, 0246 `புளிப் பெயர்` remain incidental flora-language only;
+- 0248 `தொழில்நிலைக் கிளவி` is grammatical rather than occupation evidence, and `நாள்` is not a historical date/event claim;
+- 0249 `திங்கள்` remains the lexical form governed by the morphology rule, not a historical calendrical assertion;
+- 0251–0252 `இடம் வரை கிளவி` is grammatical, not geography; 0252 `உடன் நிலை மொழி` is formal word-structure evidence.
+
+No new controlled concept was required for either completed உயிர்மயங்கியல் publication boundary.
+
+Across `0204–0253`, உயிர்மயங்கியல் contributes **63 formal observations** and **10 incidental examples**.
+
+### உயிர்மயங்கியல் 0254–0278
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0254-0278.json`.
+
+This boundary adds **31 formal grammatical/poetics observations** and **3 incidental examples**. `காலை`, `இடன்`, grammatical `மெய்`, `இயற்கை`, and `எண்` remain contextual; `எரு` / `செரு` are not promoted into historical landscape, agriculture, or warfare claims; `ஒடுமரம்` / `உதி மரம்` and `பூ` remain incidental flora-language; `ஆடூஉ` / `மகடூஉ` remain grammatical பெயர் forms rather than historical kinship/gender claims; `என்மனார் புலவர்` remains an incidental learned-authority formula; `செய்யுள் மருங்கின்` supports only narrow formal poetic-text context. No new controlled concept was required.
+
+### உயிர்மயங்கியல் 0279–0296 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
+
+This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
+
+### புள்ளிமயங்கியல் 0297–0321
+
+Reviewed spec: `0297-0321.json`. This first boundary adds **32 formal observations** and **4 incidental examples**. Source-first guards preserve grammatical gender/classes, lexical `அகம்` / `இல்லம்` / `இலம்`, தொழிற்பெயர்/கிளைப்பெயர், quantification, tree-name examples, and learned-authority language without historical promotion.
+
+### புள்ளிமயங்கியல் 0322–0346
+
+Reviewed spec: `0322-0346.json`. This boundary adds **31 formal observations** and **6 incidental examples**. Guardrails preserve உயர்திணை, நாட்பெயர், grammatical மெய்/இயற்கை, grammatical name classes, ambiguous `குயின்`, tree names, `மீன்`, `தேன்`, `இறாஅல்`, and learned-authority formulas without historical promotion.
+
+### புள்ளிமயங்கியல் 0347–0371
+
+Reviewed spec: `0347-0371.json`. This boundary adds **29 formal observations** and **3 incidental examples**. Guardrails preserve grammatical kinship/name formulas, `கோன்`, inherited grammatical tradition, poetic-form context, `பொன்`, unresolved lexical forms, and learned-authority language without historical promotion.
+
+### புள்ளிமயங்கியல் 0372–0396
+
+Reviewed spec: `0372-0396.json`. This boundary adds **32 formal observations** and **6 incidental examples**. Guardrails preserve grammatical negative `இல்`, lexical objects/fauna/weather, ambiguous exact forms, `தமிழ்`, tree-name language, grammatical quantification, and learned-authority formulas without historical promotion.
+
+### புள்ளிமயங்கியல் 0397–0406 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0397-0406.json`.
+
+This final boundary adds **12 formal grammatical/poetics observations** and **2 incidental examples**. Across புள்ளிமயங்கியல் `0297–0406`, five publication boundaries contribute **136 formal observations** and **21 incidental examples**. Durable guards preserve grammatical class labels, kinship/name formulas, learned-authority and inherited-tradition wording, quantification, environmental/material/fauna/flora lexical examples, and ambiguous forms without unsupported historical promotion. No new controlled concept was required.
+
+## Publication cadence
+
+Semantic review is strictly one நூற்பா at a time, source-first, and a spec never crosses an இயல் boundary.
+
+Normal publication preference remains contiguous chunks of at most 25 records. உயிர்மயங்கியல் therefore uses `0204–0228`, `0229–0253`, `0254–0278`, `0279–0296`.
+
+Canonical எழுத்ததிகாரம் order after உயிர்மயங்கியல் is **புள்ளிமயங்கியல் `0297–0406`**, followed by **குற்றியலுகரப்புணரியல் `0407–0483`**. The production prefix must remain gap-free; புள்ளிமயங்கியல் cannot be skipped.
+
+## Acceptance and hard boundaries
+
+- Frozen `corpus/tolkappiyam/` is immutable.
+- Exact source Tamil wins over generalized labels.
+- `docs/SOURCE_TERMINOLOGY_POLICY.md` is mandatory.
+- Grammatical examples are not automatic historical facts.
+- `named_entities` is mention/formal-name evidence only, never automatic historical identity resolution.
+- Empty means no qualifying evidence in the reviewed நூற்பா, not historical absence.
+- Tolkāppiyam production never auto-classifies a Sangam poem.
+- R2 remains blocked.
+
+## சொல்லதிகாரம் — complete
+
+All nine சொல்லதிகாரம் இயல் are complete through `0946`, contributing **713 formal observations** and **137 incidental examples**. The new syntax, lexical-semantics, and discourse-pragmatics concepts preserve the source's formal distinctions without promoting lexical meanings into historical facts.
+
+## Next activity
+
+Tolkāppiyam R1.5A production is complete. Preserve PR #4 as draft/unmerged pending explicit user direction. Do not start R2.
+
+## பொருளதிகாரம் — complete
+
+The nine இயல் `0947–1602` add **2,130 formal observations** and **128 incidental examples**. Formal framework, prosody, and taxonomy evidence records source theory only; examples are not promoted into historical facts, and Tolkāppiyam never auto-classifies another work.
+
+
+### குற்றியலுகரப்புணரியல் 0407–0431
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0407-0431.json`.
+
+This first boundary continues the source-first 29-dimension review through `tolkappiyam-0431`. Formal number, measure, lexical-class, and boundary-transformation evidence remains grammatical; lexical examples and attribution formulas remain incidental where appropriate and are not promoted into historical claims.
+
+
+### குற்றியலுகரப்புணரியல் 0432–0456
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0432-0456.json`.
+
+This second boundary extends the gap-free prefix through `tolkappiyam-0456`. Directional forms, attribution formulas, number expressions, and measure vocabulary retain their grammatical roles and are not converted into historical geography, identity, economy, or material-culture claims.
+
+
+### குற்றியலுகரப்புணரியல் 0457–0481
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0457-0481.json`.
+
+This third boundary extends the gap-free prefix through `tolkappiyam-0481`. Formal number and measure constructions remain grammatical quantification; `செய்யுள் தொடர்வயின்` at 0481 supports only the narrow poetic-text-form context.
+
+### குற்றியலுகரப்புணரியல் 0482–0483 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0482-0483.json`.
+
+This final boundary adds **6 formal observations** and **1 incidental example**. Across குற்றியலுகரப்புணரியல், the four publication boundaries contribute **151 formal observations** and **16 incidental examples**. Grammatical `உயர்திணை`, `அஃறிணை`, `இசை`, `தொழில்`, poetic-form wording, and learned-authority language remain source-contextual. No new controlled concept was required.

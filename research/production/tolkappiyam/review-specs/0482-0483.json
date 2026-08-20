@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1.0",
+  "batch_id": "tolkappiyam-r15a-0482-0483",
+  "review_method": "source_first_29_dimensions_before_control",
+  "benchmark_contract": "formal-incidental-v1",
+  "records": {
+    "0482": {
+      "formal_evidence": {
+        "knowledge_technology": [
+          {
+            "concept_id": "knowledge.grammar.morphophonology",
+            "e": [
+              "range",
+              1,
+              11
+            ],
+            "confidence": "high",
+            "note": "The நூற்பா formally specifies the grammatical boundary transformation or retention governing the stated forms."
+          },
+          {
+            "concept_id": "knowledge.grammar.word_structure",
+            "e": [
+              "range",
+              1,
+              11
+            ],
+            "confidence": "high",
+            "note": "The நூற்பா formally identifies a தொடர்மொழி or தொகுமொழி structural class."
+          },
+          {
+            "concept_id": "knowledge.grammar.morphology",
+            "e": [
+              "range",
+              1,
+              11
+            ],
+            "confidence": "high",
+            "note": "The நூற்பா formally classifies or conditions the stated lexical or inflectional form."
+          }
+        ]
+      },
+      "incidental_examples": {},
+      "empty_notes": {
+        "arts_music_performance": "`இசை` is grammatical/category wording here, not evidence of music or historical performance.",
+        "occupations_production": "`தொழில் தொகு மொழி` is a grammatical compound class, not historical occupation evidence.",
+        "communities_social_groups": "`உயர்திணை` and `அஃறிணை` are grammatical classes, not historical communities.",
+        "family_gender_kinship": "The five-gender/class inflectional system is grammatical classification, not a historical family or gender event.",
+        "landscape_environment": "`இயற்கை` and related state wording are grammatical, not environmental evidence."
+      }
+    },
+    "0483": {
+      "formal_evidence": {
+        "knowledge_technology": [
+          {
+            "concept_id": "knowledge.grammar.morphophonology",
+            "e": [
+              "range",
+              1,
+              5
+            ],
+            "confidence": "high",
+            "note": "The நூற்பா formally specifies the grammatical boundary transformation or retention governing the stated forms."
+          }
+        ],
+        "textual_intertextual_relationships": [
+          {
+            "concept_id": "textual.poetic_form.formal_context",
+            "e": [
+              "range",
+              1,
+              5
+            ],
+            "confidence": "high",
+            "note": "The explicit செய்யுள் wording formally conditions the rule by poetic-text form."
+          },
+          {
+            "concept_id": "textual.tradition.reference",
+            "e": [
+              "range",
+              1,
+              5
+            ],
+            "confidence": "high",
+            "note": "The rule formally invokes the source-stated learned grammatical tradition without identifying an external work."
+          }
+        ]
+      },
+      "incidental_examples": {
+        "people_social_roles": [
+          {
+            "e": [
+              "line",
+              5
+            ],
+            "note": "`உணர்ந்தனர்` / `புலவர்` is learned-authority language inside the grammatical closing rule, not a resolved historical person, institution, or hierarchy."
+          }
+        ]
+      },
+      "empty_notes": {}
+    }
+  }
+}

@@ -1,98 +1,177 @@
-# Documentation status — R1.5 pre-merge audit and production review
+# Documentation status — R1.5A production review
 
-## Purpose
-
-This file records which documents are current operational authority and which files are intentionally historical/frozen snapshots.
-
-It exists because older continuity prose survived after R0/R1 completion and branch deletion, creating contradictory current-branch and next-activity instructions.
-
-## Live repository state at audit
+## Live phase state
 
 - repository: `pugazg/sangam-literature-corpus`
 - default branch: `main`
-- active research branch: `research/classical-tamil-concept-matrix-r1.5`
-- PR #3: open, draft, unmerged
-- R2: not started / blocked
+- R1.5 merge commit on `main`: `d82f9c78f27f9c9daf8fbb913d01ddfb29bddba1`
+- PR #3: merged / historical
+- active branch: `research/classical-tamil-concept-matrix-r1.5a`
+- active PR: #4, draft/unmerged
+- current phase: R1.5A production review
+- Puṟanāṉūṟu production: complete
+- Tolkāppiyam production: complete across all 3 அதிகாரம் / 27 இயல் / 1,602 நூற்பா
+- R2: blocked / not started
 
-Only `main` and the R1.5 research branch were returned by the live branch inspection during the documentation audit.
+R1.5A keeps schema `0.3.0` and the same exact 29 dimensions.
 
-## Current R1.5 activity
+## Puṟanāṉūṟu completed state
 
-The exhaustive pre-merge audit is complete as a coverage/control artifact.
+Puṟanāṉūṟu `001–400` is complete and validated at 400 reviewed / 0 remaining / 7,169 observations / 29 dimensions.
 
-The user has approved a stronger R1.5 production-review continuation before any merge decision:
+Durable cadence history remains benchmark `001–002`, stabilization **003–010**, regular **25-record** batches from **011–035** through `361–385`, then final `386–400`.
 
-1. make the exact 29-dimension registry the canonical production matrix surface;
-2. align the older coarse 22-dimension production vocabulary/schema to that exact 29-dimension surface;
-3. validate the schema alignment;
-4. review Puṟanāṉūṟu records 1–400 sequentially and write each poem's durable matrix/review state before moving to the next;
-5. only after Puṟanāṉūṟu is complete and validated, review all 1,602 Tolkāppiyam நூற்பா across 27 இயல் using the same all-29-dimensions discipline while keeping grammatical/poetics evidence separate from Sangam literary-world observations.
+## Tolkāppiyam production contract
 
-This remains R1.5. PR #3 must stay draft/unmerged and R2 stays blocked.
+Tolkāppiyam is a separate grammatical/poetics evidence stream over the frozen `3 அதிகாரம் / 27 இயல் / 1,602 நூற்பா` hierarchy.
+
+Per-நூற்பா review distinguishes formal grammatical/poetics concept evidence, incidental examples, and no qualifying evidence identified. Only formal evidence enters `research/observations/tolkappiyam/r15-production.ndjson`; incidental examples stay in the record and are never automatic historical/lived-life claims.
+
+The old Tolkāppiyam manifest/crosswalk remains representative control evidence only and never a classifier.
+
+## Completed Tolkāppiyam production boundary
+
+`0001–1602` is the complete materialized gap-free production corpus:
+
+- reviewed: **1,602 / 1,602**;
+- remaining: **0**;
+- next: **none**;
+- completed இயல்: **27 / 27**;
+- formal grammatical/poetics concept evidence: **3,505**;
+- incidental examples: **348**;
+- dimensions per record: **29**;
+- regression suite: **228 passed** at materialization.
+
+Completed எழுத்ததிகாரம் இயல்:
+
+- `0001–0033` — நூல் மரபு;
+- `0034–0082` — மொழி மரபு;
+- `0083–0103` — பிறப்பியல்;
+- `0104–0143` — புணரியல்;
+- `0144–0173` — தொகைமரபு;
+- `0174–0203` — உருபியல்;
+- `0204–0296` — உயிர்மயங்கியல்;
+- `0297–0406` — புள்ளிமயங்கியல்;
+- `0407–0483` — குற்றியலுகரப்புணரியல்.
+
+Current reviewed specs include all boundaries through `research/production/tolkappiyam/review-specs/0482-0483.json`.
+
+## Durable boundaries through 0483
+
+Earlier நூல் மரபு, மொழி மரபு, பிறப்பியல், புணரியல், தொகைமரபு and உருபியல் guardrails remain binding, including contextual treatment of grammatical `உயிர்`, `மெய்`, `இசை`, `காலை`, `பொருள்`, `உயர்திணை`, `அஃறிணை`, `தொழில்`, articulation anatomy, measure vocabulary, learned-authority formulas, `மரப்பெயர்`, `திசைப் பெயர்`, and grammatical `இயற்கை` / `செயற்கை`.
+
+### உயிர்மயங்கியல் 0204–0228
+
+The first 25 உயிர்மயங்கியல் நூற்பா were reviewed sequentially/source-first across all 29 dimensions before control comparison. This boundary adds **33 formal observations** and **3 incidental examples**.
+
+- The dominant formal layer is `knowledge.grammar.morphophonology`: doubling, addition, loss, lengthening, alternation and default boundary behavior are recorded only where source-explicit.
+- `knowledge.grammar.morphology` is used where the source actually assigns or delimits grammatical form classes, சாரியை or உருபு behavior.
+- `knowledge.grammar.word_structure` is used for explicit structural categories such as `தொடர்மொழி`, `தொடர் அல்`, `இரு பெயர்த் தொகைமொழி` and `ஓரெழுத்து மொழி`.
+- 0208 grammatical `உயிர்` means vowel and is not body/health/life evidence.
+- 0209 `செய்யுளுள்` and 0214 `செய்யுள் கண்ணிய` support the narrow formal `textual.poetic_form.formal_context`; neither identifies an external work nor establishes a historical performance event.
+- 0218 `மரப்பெயர்` is retained as incidental tree-name/flora-language only.
+- 0219 `மகப்பெயர்` is a grammatical lexical-class label, not historical family/gender/kinship evidence.
+- 0223 `புலவர்` / `என்மனார் புலவர்` remain incidental learned-role/attribution evidence only.
+- 0225 exact forms `ஆ` / `மா` are not silently resolved into fauna.
+- 0228 `இரா` is the grammatical form governed by the rule and is not promoted into historical time/night evidence.
+
+### உயிர்மயங்கியல் 0229–0253
+
+The second 25 உயிர்மயங்கியல் நூற்பா were reviewed sequentially/source-first across all 29 dimensions before control comparison. This boundary adds **30 formal observations** and **7 incidental examples**.
+
+- 0229 `நிலா` is preserved as the exact lexical form of the grammatical rule; it is not promoted into a historical calendrical/environmental observation.
+- 0230 `யாமரம்`, `பிடா`, `தளா` and 0232 `மாமரக் கிளவி` remain incidental flora-language inside grammatical example sets; they do not establish historical ecology/cultivation.
+- 0232 exact `ஆ` / `மா` remain unresolved grammatical forms rather than automatic fauna evidence.
+- 0235 and 0238 explicit `செய்யுளுள்` support narrow `textual.poetic_form.formal_context`, not external-work identity or historical performance.
+- 0237 `காலை` and `இடம்` remain grammatical wording, not historical time/geography.
+- 0240 `பதக்கு` / `தூணி` remain exact lexical forms inside a grammatical comparison and are not promoted into historical economy/metrology.
+- 0242 `பனி` is incidental weather/season-language inside a morphology rule; 0243 `வளி` is incidental environmental language inside a grammatical rule.
+- 0244 `உதிமரம்`, 0245 `புளிமரம்`, and 0246 `புளிப் பெயர்` remain incidental flora-language only.
+- 0248 `தொழில்நிலைக் கிளவி` is grammatical rather than occupation evidence; `நாள்` is not promoted into a historical date/event.
+- 0249 `திங்கள்` remains the lexical form governed by the morphology rule, not a historical calendrical assertion.
+- 0251–0252 `இடம் வரை கிளவி` is a grammatical class, not geography; 0252 `உடன் நிலை மொழி` supports formal `knowledge.grammar.word_structure`.
+- No new controlled concept was required for `0229–0253`.
+
+Across உயிர்மயங்கியல் `0204–0253`, the two completed publication boundaries add **63 formal observations** and **10 incidental examples**.
+
+### உயிர்மயங்கியல் 0254–0278
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0254-0278.json`.
+
+This boundary adds **31 formal grammatical/poetics observations** and **3 incidental examples**. `காலை`, `இடன்`, grammatical `மெய்`, `இயற்கை`, and `எண்` remain contextual; `எரு` / `செரு` are not promoted into historical landscape, agriculture, or warfare claims; `ஒடுமரம்` / `உதி மரம்` and `பூ` remain incidental flora-language; `ஆடூஉ` / `மகடூஉ` remain grammatical பெயர் forms rather than historical kinship/gender claims; `என்மனார் புலவர்` remains an incidental learned-authority formula; `செய்யுள் மருங்கின்` supports only narrow formal poetic-text context. No new controlled concept was required.
+
+### உயிர்மயங்கியல் 0279–0296 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0279-0296.json`.
+
+This final boundary adds **22 formal grammatical/poetics observations** and **10 incidental examples**. Across உயிர்மயங்கியல் `0204–0296`, the four boundaries contribute **116 formal observations** and **23 incidental examples**. Durable guards preserve tree/plant names, `பெற்றம்`, calendrical/weather terms, emotional lexical forms, grammatical `மெய்` / `உயிர்` / `இயற்கை`, and learned-authority formulas without unsupported historical promotion. No new controlled concept was required.
+
+### புள்ளிமயங்கியல் 0397–0406 — complete
+
+Reviewed spec: `research/production/tolkappiyam/review-specs/0397-0406.json`.
+
+This final boundary adds **12 formal grammatical/poetics observations** and **2 incidental examples**. Across புள்ளிமயங்கியல் `0297–0406`, five publication boundaries contribute **136 formal observations** and **21 incidental examples**. Durable guards preserve grammatical class labels, kinship/name formulas, learned-authority and inherited-tradition wording, quantification, environmental/material/fauna/flora lexical examples, and ambiguous forms without unsupported historical promotion. No new controlled concept was required.
+
+## Current stream-specific concepts
+
+The Tolkāppiyam extension registry includes:
+
+- `knowledge.grammar.phonology`;
+- `knowledge.grammar.word_structure`;
+- `knowledge.grammar.morphology`;
+- `knowledge.grammar.morphophonology`;
+- `knowledge.grammar.quantification`;
+- `body.articulation.anatomy`;
+- `arts.music.formal_context`;
+- `textual.tradition.reference`;
+- `textual.poetic_form.formal_context`.
+
+## Publication cadence
+
+Semantic review is always one நூற்பா at a time, source-first, and a production spec never crosses an இயல் boundary.
+
+Normal publication preference remains contiguous chunks of at most 25 records. உயிர்மயங்கியல் uses `0204–0228`, `0229–0253`, `0254–0278`, `0279–0296`.
+
+After உயிர்மயங்கியல், canonical order requires **புள்ளிமயங்கியல் `0297–0406`** before **குற்றியலுகரப்புணரியல் `0407–0483`**. Do not skip புள்ளிமயங்கியல் to reach குற்றியலுகரப்புணரியல்.
+
+## Source terminology boundary
+
+`docs/SOURCE_TERMINOLOGY_POLICY.md` remains mandatory. Retain exact Tamil and do not silently map source terms to later caste/community, hierarchy, sectarian, deity, taxonomy or modern identity categories. Tolkāppiyam formal categories and incidental examples are not automatic historical claims.
+
+Tolkāppiyam evidence must never auto-classify Puṟanāṉūṟu or another Sangam poem.
 
 ## Current operational documents
 
-The following must describe current R1.5 pre-merge state and must not contain executable instructions for deleted R0/R1 branches:
+The current authority set includes `PROJECT_GUIDELINES.md`, `PROJECT_HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, this file, `docs/SOURCE_TERMINOLOGY_POLICY.md`, the R1.5A production handover, the Puṟanāṉūṟu/Tolkāppiyam production READMEs, the Tolkāppiyam observation README, schemas, concept extension, old manifest/crosswalk controls, materializer and validator.
 
-- `README.md`
-- `PROJECT_GUIDELINES.md`
-- `PROJECT_HANDOVER.md`
-- `NEXT_CHAT_PROMPT.md`
-- `docs/CLASSICAL_TAMIL_RESEARCH_MATRIX.md`
-- `docs/classical-tamil-research-layer.md`
-- `docs/SOURCE_TERMINOLOGY_POLICY.md`
-- `docs/tolkappiyam-arivagam-integration-plan.md`
-- `docs/handover/r15-premerge-audit/README.md`
-- `docs/handover/r15-premerge-audit/01-PURANANURU.md`
-- `docs/handover/r15-premerge-audit/02-TOLKAPPIYAM.md`
-- `docs/handover/r15-premerge-audit/03-VALIDATION-AND-MERGE-GATE.md`
-- `docs/handover/r15-premerge-audit/04-29-DIMENSION-PRODUCTION-REVIEW.md`
-- `research/audits/r15-premerge/dimensions.json`
-- `research/controlled-vocabularies/concept-dimensions-r15.json`
-- `research/README.md`
-- `research/audits/r15-premerge/README.md`
-- `logs/classical-tamil-research-program-decisions.md`
+Historical handovers/audits remain truthful records of their own boundaries.
 
-## Historical / immutable-document classes
+## குற்றியலுகரப்புணரியல் — complete
 
-These are not expected to be rewritten merely because project status advances:
+The four boundaries `0407–0431`, `0432–0456`, `0457–0481`, and `0482–0483` contribute **151 formal observations** and **16 incidental examples**. Formal morphophonology, morphology, word structure, quantification, and narrow poetic/tradition contexts remain distinct from incidental tree, fauna, gender, directional, measure, and learned-authority language. No new controlled concept was required.
 
-1. `docs/history/` — superseded prompts retained for provenance; never execute as current instructions.
-2. release documents such as `docs/classical-tamil-corpus-release-1.0.0.md` and `docs/classical-tamil-corpus-release-1.1.0.md` — release snapshots.
-3. durable machine logs under `logs/` — records of the run/head they actually describe; old workflow IDs remain historically correct.
-4. corpus/work README and metadata files — preservation documentation tied to frozen source/release state unless a real preservation change occurs.
-5. static policies such as manifest ordering and rights review — update only when their policy/facts change.
+## சொல்லதிகாரம் — complete
 
-## Documentation defects already corrected
+All nine சொல்லதிகாரம் இயல் are complete through `0946`: கிளவியாக்கம், வேற்றுமையியல், வேற்றுமைமயங்கியல், விளிமரபு, பெயரியல், வினையியல், இடையியல், உரியியல், and எச்சவியல். Together they add **713 formal observations** and **137 incidental examples**.
 
-- removed deleted R0/R1 branches from active current-branch instructions;
-- removed instructions to restart completed R0 reconciliation/R1 work;
-- changed R1/R1.5 roadmap status to completed/current pre-merge state;
-- made PR #3 merge hold explicit across active continuity files;
-- kept R2 blocked and unstarted;
-- synchronized exhaustive Puṟanāṉūṟu/Tolkāppiyam audit status;
-- synchronized source-terminology policy across research/continuity docs;
-- corrected the Tolkāppiyam Arivagam integration plan to the active repository name;
-- removed stale fixed workflow/test counts from general active docs where they would quickly become outdated;
-- retired the one-shot R1.5 continuity finalizer so it cannot overwrite current docs with older phase prose;
-- added a split continuation file for the 29-dimension production review instead of enlarging one monolithic handover.
+## பொருளதிகாரம் — complete
 
-## Source-terminology boundary
+All nine பொருளதிகாரம் இயல் are complete through `1602`, contributing **2,130 formal observations** and **128 incidental examples**:
 
-`docs/SOURCE_TERMINOLOGY_POLICY.md` is current authority.
+- அகத்திணையியல் `0947–1004`: 234 formal + 9 incidental;
+- புறத்திணையியல் `1005–1034`: 217 + 4;
+- களவியல் `1035–1085`: 195 + 18;
+- கற்பியல் `1086–1138`: 209 + 24;
+- பொருளியல் `1139–1190`: 178 + 9;
+- மெய்ப்பாட்டியல் `1191–1217`: 68 + 27;
+- உவமையியல் `1218–1255`: 82 + 2;
+- செய்யுளியல் `1256–1490`: 578 + 30;
+- மரபியல் `1491–1602`: 369 + 5.
 
-Classical Tamil social, ritual, learned, occupational, political, kinship and community terms remain in the exact source-supported Tamil form in source-level research descriptions. Later identity/equivalence claims are separate evidence classes.
+The extension adds dimension-scoped `poetics.*.formal_framework` concepts plus `knowledge.poetics.prosody` and `knowledge.poetics.taxonomy`. These encode formal theory only; they do not convert examples or taxonomies into automatic historical, ecological, social, biological, identity, or lived-life claims.
 
-## Validation policy
+## Next activity
 
-`tests/test_documentation_status.py` protects the active-document boundary against reintroducing deleted-branch instructions, the former repository name in the integration plan, or disallowed later identity terminology.
+Tolkāppiyam R1.5A production is complete. Preserve draft PR #4 unmerged pending explicit user direction on review/merge. R2 remains blocked.
 
-Documentation and production-review changes must pass the same PR workflow as the rest of R1.5, including full regression, repository audit, corpus/Tolkāppiyam non-drift and R1 primary-history preservation.
-
-The strengthened production review must additionally make the 29-dimension surface machine-enforced and prove record-level completion rather than relying only on aggregate coverage statements.
-
-## Merge hold
-
-A green audit or production review is **not** merge authorization.
-
-Keep PR #3 open, draft and unmerged until the user explicitly authorizes merge. Do not start R2 before an authorized merge and fresh inspection of merged `main`.
+**Do not start R2.**
